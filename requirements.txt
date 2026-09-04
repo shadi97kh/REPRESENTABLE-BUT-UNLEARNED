@@ -1,0 +1,3 @@
+numpy>=1.24
+ViennaRNA>=2.6
+torch>=2.0        # only needed to TRAIN models; reachability core is numpy-only
