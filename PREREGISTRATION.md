@@ -46,3 +46,9 @@ any non-finite value appears; or gaps are compared on an absolute rather than re
 
 ## Status
 UNRUN.
+
+## AMENDMENTS
+2026-09-04: first full run executed. Nothing above this line was edited.
+Results recorded in RESULTS.md and runs/. Makefile gained `export PYTHONPATH := .`
+because `python3 tests/test_sanity.py` put tests/ rather than the repo root on sys.path;
+this is an invocation fix and changes no experimental logic.

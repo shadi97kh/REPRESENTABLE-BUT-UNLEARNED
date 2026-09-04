@@ -1,4 +1,5 @@
 PY ?= python3
+export PYTHONPATH := .
 .PHONY: setup test f1 f2 f3 f4 all freeze
 setup:  ; $(PY) -m pip install -r requirements.txt
 test:   ; $(PY) tests/test_sanity.py
