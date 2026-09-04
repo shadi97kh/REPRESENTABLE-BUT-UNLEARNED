@@ -37,6 +37,10 @@ practical bite.
 
 ## F3 end-to-end certificate
 
+RETIRED. Every magnitude below came from an UNTRAINED, randomly initialised network and
+describes the initialisation, not siRNA biology. F3b shows 87.9% of the headline was
+relaxation slack, and F6 replaces it with 12.9% using a trained model. Do not quote 110.9%.
+
 20 random 60 nt sequences, untrained monotone model, sum aggregation.
 Median relative underestimate of worst-case risk by an MFE-only prediction: 110.9%.
 Per-sequence underestimates range from 17.2% to 292.5%. Every certificate cost two
@@ -152,13 +156,92 @@ directions. Both have been corrected to match what was measured, as has README.m
 Every minimum-free-energy base pair fell inside mandatory union optional on all 20 of 20
 sequences, with zero failures. That check passes cleanly.
 
+## F6 trained model (replaces every magnitude in F3 and F3b)
+
+F3 and F3b used a randomly initialised network. This trains one on real measured siRNA
+efficacy and repeats the comparison.
+
+### Dataset
+
+The Huesken et al. 2005 table was obtained from the DSIR redistribution (Vert et al.,
+BMC Bioinformatics 7:520, 2006) and cross-checked against two independent redistributions,
+which agree exactly on both sequences and values. It passes every integrity check in
+`certmp.data.verify` unaided: exactly 2431 rows, exactly the published 2182/249 split,
+alphabet ACGU, zero duplicate sequences, zero train/test overlap.
+
+Two pre-registered expectations were wrong and are recorded as amendments in
+`certmp/data.py` rather than quietly edited. Sequence length is 21, not 19, and the final
+two nucleotides vary across rows so they are measured sequence rather than a constant
+overhang. Efficacy reaches 1.341, above the pre-registered ceiling of 1.2, because the
+published values are normalised inhibition and legitimately exceed 1.0. The integrity
+check for the efficacy range had never been implemented; it is now.
+
+### Held-out performance
+
+| split | n | Spearman | Pearson |
+|---|---|---|---|
+| published 2182/249 | 249 | 0.592 | 0.556 |
+| gene-disjoint | 290 | 0.543 | 0.531 |
+| Huesken 2005 published baseline | 249 | not reported | 0.66 |
+
+The published split shares all 30 annotated genes between train and test, so it measures
+generalisation to new siRNAs against known targets. A gene-disjoint split, the harder and
+more relevant question for a design tool, costs only about 0.05 Spearman, so the leakage
+is not inflating the headline much.
+
+The shortfall against the published 0.66 is the price of certifiability. The baseline was
+a feedforward ensemble on hand-built features with no sign constraints. A monotone
+sign-constrained GNN is a strictly smaller hypothesis class, and it recovers most but not
+all of the signal.
+
+Two defects had to be fixed before this number meant anything, and the first attempt
+produced a Spearman of -0.095. The readout was six orders of magnitude off the target
+scale, so training spent every epoch correcting scale rather than learning; the model now
+carries a monotone affine readout initialised from training statistics. Separately, sum
+aggregation is permutation invariant, so plain one-hot nucleotide features made the model
+a bag of nucleotides that could not express position-specific preferences, which is most
+of the siRNA signal. Features are now one-hot over position and nucleotide jointly, which
+stays non-negative and satisfies H4. Both the non-negative scale and the shift are
+order-preserving, and `tests/test_sanity.py` now checks that they leave extremality and
+torch/numpy parity intact.
+
+### The trained comparison
+
+| quantity | untrained (F3/F3b) | trained (F6) |
+|---|---|---|
+| MFE vs lattice worst case | 110.9% | 12.9% |
+| MFE vs sampled ensemble maximum | 13.4% | 11.4% |
+| relaxation slack ratio | 1.82x | 1.00x |
+
+F3's headline 110.9% was an artifact of random initialisation and is now retired. With a
+trained model the MFE-only prediction understates worst-case risk by about 13%, and
+almost all of that is genuine ensemble uncertainty rather than relaxation slack.
+
+The two slack ratios are NOT comparable and must not be quoted side by side as a
+reduction. F3b folded 60 nt sequences with a median of 30 optional pairs; F6 folds
+21 nt siRNAs with a median of 6. The lattice is nearly tight at k = 6 simply because
+there is almost nothing to relax.
+
+### Limitation: the certification story does not live on the siRNA itself
+
+An isolated 21 nt siRNA has a median of 6 optional pairs, so the uncertainty set holds
+about 64 structures and brute force would be entirely affordable. Three of the held-out
+sequences scanned had no optional pairs at all. The exponential-to-constant collapse that
+F2 established needs the longer mRNA target context, where k reaches 86 at 150 nt, not
+the siRNA duplex. F6 demonstrates that a certifiable model can be trained to useful
+accuracy; it does not demonstrate that certification is needed at this sequence length.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit
 it was not pre-registered against.
 
-The application is not certified. F4 certifies no ranking. F3b shows 87.9% of F3's
-headline gap was relaxation slack, leaving a real effect of 13.4%, and that the lower
-bound is unsound over the ensemble. Both F3 and F3b still use an UNTRAINED, randomly
-initialised model, so every magnitude reported for them is an artifact of initialisation
-and carries no claim about real siRNA efficacy. Training is F6.
+The model is trained and real: Spearman 0.592 on the published split, 0.543 gene-disjoint,
+against a published Pearson baseline of 0.66. F3's 110.9% is retired as an initialisation
+artifact and replaced by 12.9%.
+
+The application is still not certified. F4 certifies no ranking. The lower bound is
+unsound over the ensemble, as F3b showed. And F6 exposes a scope problem: at siRNA length
+the uncertainty set is small enough to brute force, so the two-pass collapse only earns
+its keep on the longer target context. Running the certificate on mRNA target sites rather
+than the siRNA duplex is the next experiment.

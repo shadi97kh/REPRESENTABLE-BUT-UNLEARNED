@@ -57,3 +57,13 @@ the two surviving cases S1/S2. Not a registered prediction and not evidence for 
 theorem; it exists to falsify, and it did not. It also surfaced an unanticipated
 limitation of max aggregation (void under a dense mandatory subgraph) recorded in
 RESULTS.md. No experiment above this line was modified.
+2026-09-04: two EXPECTED values for the Huesken dataset in certmp/data.py were wrong on
+first contact with the real distribution and are amended there with justification, not
+silently edited. Sequence length 19 -> 21, because the distributed sequences are 21 nt and
+the final two nucleotides vary. Efficacy ceiling 1.2 -> 1.4, because the observed maximum
+is 1.341 and the published values are normalised inhibition that exceeds 1.0. Every
+diagnostic check passed unaided: 2431 rows, the 2182/249 published split, ACGU, no
+duplicates, no train/test overlap. The efficacy-range check had never been implemented and
+now is. Added experiments/f3b_relaxation_slack.py and experiments/f6_trained.py, neither
+pre-registered. F3's headline number is retired as an initialisation artifact; see
+RESULTS.md.
