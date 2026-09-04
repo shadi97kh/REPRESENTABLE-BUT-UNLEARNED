@@ -16,8 +16,14 @@ See RESULTS.md, section F3b, before quoting any number from here.
     certmp/reach.py      exact interval reachability + brute-force oracle
     certmp/ensemble.py   ViennaRNA base-pair probabilities -> edge lattice
     certmp/certify.py    threshold certificate + exact top-k rank stability
-    certmp/data.py       dataset integrity verification against published statistics
     certmp/void.py       void detection
     certmp/provenance.py per-run provenance
 
-    make setup && make test && make all
+    certmp/data.py       dataset integrity verification against published statistics
+
+    make setup && make test && make all      # theorem + RNA experiments, no download
+    make data && make f6                     # fetch Huesken et al. 2005, train, evaluate
+
+`make data` pulls the Huesken table in its published 2182/249 split from the DSIR
+redistribution and refuses it unless it matches the statistics in the paper. The data is
+not vendored here.
