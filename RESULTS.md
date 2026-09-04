@@ -376,6 +376,74 @@ Closing that gap needs a tighter sound relaxation of nested secondary structure,
 better network. Nesting and the one-partner-per-base constraint are exactly the structure
 the edge lattice throws away.
 
+## F10 the maximal-element route, tested before reframing
+
+The edge lattice is loose because it contains edge subsets that are not valid structures.
+The alternative is to bound the union of downward closures of MAXIMAL valid structures.
+Monotonicity gives model(S) <= model(T) whenever S is inside T, and every configuration in
+that union is realisable, so the bound cannot be attained at an impossible structure.
+
+12 GENCODE target-site windows per length, 5000 Boltzmann samples each, greedily saturated
+to maximal valid structures. Saturation is verified valid, maximal, and containing its
+input on every structure it produces.
+
+| window | median M | M for 95% mass | bound / ensemble max | covered closure | edge lattice slack |
+|---|---|---|---|---|---|
+| 50 nt | 361 | 79 | 1.008 | 10^5 to 10^6 | 21.3x over 10^123 |
+| 100 nt | 1138 | 719 | 1.027 | 10^10 to 10^13 | 91.0x over 10^521 |
+| 150 nt | 2956 | 2518 | 1.045 | 10^16 to 10^18 | 216.6x over 10^1154 |
+
+The bound is essentially exact, 1.008 to 1.045 against the sampled ensemble maximum, where
+the lattice runs 21x to 217x. It is slightly above 1.0 rather than equal to it because
+saturating a sampled structure adds pairs, and under a monotone model that raises the
+value. The covered closure is enormous in absolute terms and tiny beside the lattice.
+
+### The cost is no longer two passes
+
+M is the number of forward passes. Bounding 95% of sampled mass costs 79 passes at 50 nt
+and 2518 at 150 nt, against 2 for the lattice. The constant-pass property, which is the
+entire theorem, does not survive this route.
+
+### At 150 nt the set does not converge, and that is disqualifying
+
+Whether 95% of mass means anything depends on M being a property of the ensemble rather
+than of the sample. Sweeping the sample size from 1000 to 20000 on four windows per length:
+
+| window | M95 growth | verdict |
+|---|---|---|
+| 50 nt | N^0.13 | converged |
+| 150 nt | N^0.80 | not converged |
+
+At 50 nt M95 settles, and on one window just 9 maximal structures cover 95% of mass at
+every sample size tested. At 150 nt M95 grows almost as fast as the sample itself, from
+about 700 at N=1000 to about 10000 at N=20000 on one window. There, "95% of mass" is 95%
+of the sample drawn and says nothing about unseen structures. The route has become sampling
+with extra steps, and it carries no guarantee at all.
+
+### Verdict: do not reframe wholesale
+
+The maximal-element route is worth having at short windows. At 50 nt it converges and buys
+a near-exact bound for tens to hundreds of passes instead of a 21x-loose bound for two.
+At target-site scale it fails, because the Boltzmann ensemble of a 150 nt window has more
+structural diversity than any tractable set of maximal structures can dominate. The lattice
+keeps its guarantee at 150 nt precisely because it does not try to enumerate anything.
+
+## F10 slack scaling
+
+Regressing log slack on log of lattice redundancy, k divided by n/2, where n/2 bounds the
+pairs any single structure can hold, across 36 windows spanning all three lengths:
+
+```
+log(slack) = 1.928 * log(k / (n/2)) - 2.297     R^2 = 0.972
+```
+
+The exponent is 1.93, so slack grows very close to quadratically in the redundancy of the
+lattice, and the fit is tight across three lengths. This is the mechanism behind F9's
+growth from 21x to 223x, and it predicts that any relaxation reducing k toward the number
+of pairs a real structure can hold buys back slack quadratically. That is the quantitative
+case for a tighter sound relaxation, and it is the direction worth pursuing rather than the
+maximal-element route.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit
@@ -391,6 +459,16 @@ inside the lattice.
 
 What remains open is tightness, not soundness. The sound bound overshoots the sampled
 ensemble maximum by 29x at 60 nt and 223x at 150 nt, while the effect it guards against is
-about 5%. The edge lattice discards nesting and the one-partner constraint, and that is
-where the looseness comes from. A tighter sound relaxation is the next piece of work, and
-it is a modelling problem rather than a network problem.
+about 5%.
+
+The maximal-element route was tested as a replacement and rejected at target-site scale.
+It gives a near-exact bound, 1.008 to 1.045, but costs M forward passes instead of 2, and
+at 150 nt M does not converge: it grows as N^0.80 in the sample size, so its coverage is a
+property of the sample and not of the ensemble. It remains attractive at 50 nt, where it
+converges and sometimes needs only nine structures.
+
+The productive direction is the slack-scaling law. Slack grows as the 1.93 power of lattice
+redundancy with R^2 of 0.972, so a sound relaxation that cuts k toward the number of pairs
+a real structure can hold recovers tightness quadratically. Nesting and the one-partner
+constraint are the structure to encode, and encoding them without enumerating structures is
+the open problem.
