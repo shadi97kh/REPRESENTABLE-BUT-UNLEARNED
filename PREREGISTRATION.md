@@ -52,3 +52,8 @@ UNRUN.
 Results recorded in RESULTS.md and runs/. Makefile gained `export PYTHONPATH := .`
 because `python3 tests/test_sanity.py` put tests/ rather than the repo root on sys.path;
 this is an invocation fix and changes no experimental logic.
+2026-09-04: added experiments/f5_stress_extremality.py, a POST-HOC robustness audit of
+the two surviving cases S1/S2. Not a registered prediction and not evidence for the
+theorem; it exists to falsify, and it did not. It also surfaced an unanticipated
+limitation of max aggregation (void under a dense mandatory subgraph) recorded in
+RESULTS.md. No experiment above this line was modified.

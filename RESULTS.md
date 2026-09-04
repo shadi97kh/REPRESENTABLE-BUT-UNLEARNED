@@ -59,6 +59,56 @@ should produce. Interval width has to come down, through a trained model or a ti
 ensemble encoding, before rank certification says anything. F4 is not evidence against
 the theorem, which F1 tests directly.
 
+## F5 stress audit (NOT pre-registered)
+
+Added after F1 passed, as a post-hoc robustness audit. It can only weaken confidence in
+the theorem, never establish it. The registered test remains F1.
+
+An independent standalone reimplementation of the linchpin test, sharing no code with
+`certmp`, reproduced F1 digit for digit on all six cases. F5 then randomised everything
+F1 held fixed: node count 4-10, k 1-11, 1-4 layers, hidden width 2-23, feature scale
+spanning four orders of magnitude, and a random mandatory subgraph.
+
+| aggregation | trials | live | void (dead) | violations | max gap |
+|---|---|---|---|---|---|
+| sum | 400 | 400 | 0 | 0 | 0.000e+00 |
+| max | 400 | 286 | 114 | 0 | 0.000e+00 |
+
+Zero violations in 686 live trials. Endpoint exactness does not depend on any of the
+swept quantities.
+
+### The max-aggregation void rate is a real finding
+
+114 of 400 max trials produced an output constant across the entire lattice. Those are
+voids, not confirmations, so they were excluded. Chasing the cause: the void rate is
+independent of k, and driven entirely by the density of the mandatory subgraph. At
+n = 8, k = 5:
+
+| mandatory edges | sum live | max live |
+|---|---|---|
+| 0 | 1.00 | 1.00 |
+| 4 | 1.00 | 1.00 |
+| 8 | 1.00 | 0.97 |
+| 12 | 1.00 | 0.73 |
+| 16 | 1.00 | 0.33 |
+| 20 | 1.00 | 0.05 |
+| 23 | 1.00 | 0.00 |
+
+A dense mandatory core already saturates the row-wise maximum, so optional edges cannot
+move it. Max aggregation is therefore exactly certifiable but frequently uninformative:
+the certificate collapses to worst case equals best case. Sum never degrades this way.
+This is a limitation of S2 that the pre-registration did not anticipate, and it belongs
+in any write-up of the aggregation asymmetry.
+
+### The failure mode does not reach the RNA application
+
+On the 20 folded 60 nt sequences from F3, mandatory pairs are those with p > 0.90. A
+base pairs with at most one partner, so the mandatory subgraph is a matching: maximum
+node degree 1, median density 0.28%, maximum 0.68%. That is far below the roughly 40%
+density where max aggregation begins to saturate. Max stays live on real ensembles.
+
 ## Status
 
-Theorem survives its falsification attempt. The application is not yet certified.
+Theorem survives its falsification attempt, and survives a randomised robustness audit
+it was not pre-registered against. The application is not yet certified: F4 certifies no
+ranking, and the relaxation slack in F3 is still unquantified.
