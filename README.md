@@ -8,6 +8,10 @@ Current siRNA/ASO pipelines take the minimum-free-energy structure and treat it 
 This repo instead certifies over the whole ensemble: "no structure in the ensemble drives
 predicted off-target risk above tau", at the cost of two forward passes.
 
+The upper bound is sound over the lattice and loose by a measured median factor of 1.82
+against Boltzmann-sampled structures. The lower bound is NOT sound over the ensemble.
+See RESULTS.md, section F3b, before quoting any number from here.
+
     certmp/models.py     monotone MPNN (numpy reference + torch trainable)
     certmp/reach.py      exact interval reachability + brute-force oracle
     certmp/ensemble.py   ViennaRNA base-pair probabilities -> edge lattice

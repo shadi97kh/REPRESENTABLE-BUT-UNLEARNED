@@ -5,9 +5,23 @@ says otherwise. Base pairs are split by their equilibrium probability:
     p > hi     -> mandatory  (present in essentially every structure)
     lo <= p <= hi -> optional (the uncertainty lattice)
     p < lo     -> discarded
-The lattice is a SOUND OUTER RELAXATION of the ensemble: not every edge subset is a valid
-secondary structure (nesting, one-partner constraints), so certifying over the lattice
-certifies over the ensemble, conservatively. Quantify that conservatism, never hide it.
+SOUNDNESS, AS MEASURED BY experiments/f3b_relaxation_slack.py -- read before trusting this:
+
+  UPPER bound. For any structure whose pairs all lie in mandatory u optional, monotonicity
+  gives model(structure) <= model(all edges present), so the lattice maximum is a sound
+  upper bound ON THAT STRUCTURE. But pairs with p < lo are DISCARDED here, and a Boltzmann
+  sample using one is outside the lattice and NOT covered by the bound. Measured coverage
+  at lo=0.05 is only ~74% of sampled structures (worst sequence 43%). The bound held on
+  100% of samples anyway in that run, but that is an empirical observation, not a guarantee.
+  To make it a guarantee, set lo=0 (equivalently floor=0) so nothing is discarded.
+
+  LOWER bound. NOT SOUND, and not fixable by lowering lo. The lattice minimum forces every
+  mandatory pair present, but real structures omit them: only ~97% of samples contained all
+  mandatory pairs, and the lattice minimum was violated on 2 of 20 sequences. Do not report
+  the lattice minimum as a bound on the ensemble.
+
+The relaxation is also loose: the lattice maximum ran a median 1.82x the true sampled
+ensemble maximum. Quantify that conservatism, never hide it.
 """
 def bpp_lattice(seq, lo=0.05, hi=0.90, floor=1e-3):
     import RNA

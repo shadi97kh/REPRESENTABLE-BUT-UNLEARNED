@@ -107,8 +107,58 @@ base pairs with at most one partner, so the mandatory subgraph is a matching: ma
 node degree 1, median density 0.28%, maximum 0.68%. That is far below the roughly 40%
 density where max aggregation begins to saturate. Max stays live on real ensembles.
 
+## F3b relaxation slack (follow-up to F3, added 2026-09-04)
+
+F3's headline number was not what it appeared to be. The edge lattice is an outer
+relaxation, so its maximum can be attained at an edge subset that no real secondary
+structure realises. This experiment separates genuine ensemble uncertainty from
+relaxation slack by drawing 1000 Boltzmann samples per sequence with `RNA.pbacktrack`,
+seeded for reproducibility, on the same 20 sequences and the same models F3 used.
+
+### Most of F3's reported gap is slack, not uncertainty
+
+| quantity | median |
+|---|---|
+| F3 reported gap, MFE vs lattice worst case | 110.9% |
+| honest gap, MFE vs sampled ensemble maximum | 13.4% |
+| share of F3's reported gap that is pure relaxation slack | 87.9% |
+
+The lattice maximum runs a median 1.82x the true sampled ensemble maximum, ranging from
+1.10x to 3.23x. The real effect of ensemble uncertainty on this model is 13.4%, not
+110.9%. F3's number should not be quoted.
+
+### The upper bound is sound in scope but narrower than claimed
+
+Only a median 73.8% of sampled structures lie inside the lattice, worst sequence 43.1%.
+The band keeps pairs with probability at least 0.05 and discards the rest, so a sampled
+structure using a discarded pair is not covered by the certificate at all. The bound held
+on 100% of samples in this run regardless, but that is an empirical observation and not a
+guarantee. Building the lattice with the lower band at zero would make it a guarantee, at
+the cost of a larger k.
+
+### The lower bound is not sound, and that is a defect
+
+The lattice minimum forces every mandatory pair present. Real structures do not: a median
+96.6% of samples contained all mandatory pairs, worst 83.0%. The certified minimum was
+violated by an actual sampled structure on 2 of 20 sequences. Lowering the band does not
+fix this, because the problem is the forcing, not the discarding. The lattice minimum is
+a lattice diagnostic, not an ensemble bound.
+
+Docstrings in `certmp/ensemble.py` and `certmp/certify.py` claimed soundness in both
+directions. Both have been corrected to match what was measured, as has README.md.
+
+### The MFE structure is always inside the lattice
+
+Every minimum-free-energy base pair fell inside mandatory union optional on all 20 of 20
+sequences, with zero failures. That check passes cleanly.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit
-it was not pre-registered against. The application is not yet certified: F4 certifies no
-ranking, and the relaxation slack in F3 is still unquantified.
+it was not pre-registered against.
+
+The application is not certified. F4 certifies no ranking. F3b shows 87.9% of F3's
+headline gap was relaxation slack, leaving a real effect of 13.4%, and that the lower
+bound is unsound over the ensemble. Both F3 and F3b still use an UNTRAINED, randomly
+initialised model, so every magnitude reported for them is an artifact of initialisation
+and carries no claim about real siRNA efficacy. Training is F6.
