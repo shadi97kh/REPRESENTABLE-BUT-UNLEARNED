@@ -310,6 +310,11 @@ per configuration, reported as mean and standard deviation.
 
 ### Certifiability is nearly free, but only with an expressive non-negative encoding
 
+QUALIFIED BY C4. The sum-plus-ReLU model used here is exactly affine on the non-negative
+orthant, so this section compares a linear certifiable model against an unconstrained one.
+The correct reading of "nearly free" is that the task is close to linear in the positional
+encoding, not that the sign constraint is free in general.
+
 With one-hot (position, nucleotide) features the sign constraint costs 0.002 Spearman,
 which is inside the seed-to-seed spread, and 0.031 Pearson. On a gene-disjoint split it
 costs 0.039 Spearman. That is the headline: the extremality theorem is close to free here.
@@ -437,12 +442,98 @@ pairs any single structure can hold, across 36 windows spanning all three length
 log(slack) = 1.928 * log(k / (n/2)) - 2.297     R^2 = 0.972
 ```
 
-The exponent is 1.93, so slack grows very close to quadratically in the redundancy of the
-lattice, and the fit is tight across three lengths. This is the mechanism behind F9's
-growth from 21x to 223x, and it predicts that any relaxation reducing k toward the number
-of pairs a real structure can hold buys back slack quadratically. That is the quantitative
-case for a tighter sound relaxation, and it is the direction worth pursuing rather than the
-maximal-element route.
+The exponent is 1.93 and the fit is tight across three lengths. This is the mechanism
+behind F9's growth from 21x to 223x, and it predicts that a relaxation reducing k toward
+the number of pairs a real structure can hold buys slack back at that power.
+
+CORRECTED BY C5. The exponent is a property of the ARCHITECTURE, not of RNA. On a synthetic
+matching family containing no RNA at all, the exponent is 0.912 per layer at every depth
+from 1 to 4, with R^2 of 0.9996. The network used here has two layers, and 2 x 0.912 =
+1.824 against the 1.928 measured on RNA. Reading 1.93 as a thermodynamic property of the
+Boltzmann ensemble was wrong. The practical consequence survives, since cutting k still
+reduces slack at that power, but the exponent is chosen by depth.
+
+## Corrections round C1 to C6
+
+Six corrections applied 2026-09-04, all post-hoc and recorded in PREREGISTRATION.md. F1 and
+F5 are unchanged by design and were rerun to prove it, both bit-identical. Experiment files
+are named by correction ID because F7 through F10 were already taken.
+
+**C1 bounded degree removed.** The theorem is over a fixed finite graph with a finite
+optional-edge set, where reachability is decidable by enumeration. The undecidability of
+Saelzer and Lange quantifies over unbounded graph families, so it is a related-work
+contrast rather than a hypothesis. Documented in `certmp/models.py`.
+
+**C2 complexity claim narrowed.** The defensible statement is exact reachability in two
+network evaluations independent of k, against 2^k enumeration. Nothing rests on the
+NP-hardness of third-party verifiers.
+
+**C3 aggregator characterisation generalised.** Endpoint exactness holds if and only if the
+aggregator is monotone under multiset inclusion, in either direction.
+
+| aggregator | predicted | exact / live | maximum at | verdict |
+|---|---|---|---|---|
+| sum | isotone | 25/25 | full | PASS |
+| max | isotone | 25/25 | full | PASS |
+| logsumexp | isotone | 25/25 | full | PASS |
+| min | antitone | 25/25 | empty | PASS |
+| mean | neither | 0/25 | empty | PASS |
+| degnorm | neither | 0/25 | empty | PASS |
+| std | neither | 0/25 | empty | PASS |
+
+This strictly generalises the original four-row table. Two aggregators that appear nowhere
+in it are certifiable: logsumexp is isotone, and min is antitone, so its endpoint roles are
+swapped rather than absent. The direction was checked empirically, not just the exactness:
+min attains its maximum at the empty optional set. `reach.py` now dispatches on
+`model.endpoint_direction()`.
+
+**C4 affinity measured.** With non-negative features, weights and biases, every
+preactivation is non-negative, so ReLU never clips.
+
+| aggregation | activation | additivity violation | verdict |
+|---|---|---|---|
+| sum | relu | 2.157e-16 | exactly affine |
+| sum | tanh | 1.000 | nonlinear |
+| sum | sigmoid | 1.000 | nonlinear |
+| max | relu | 2.550e-01 | nonlinear |
+| logsumexp | relu | 4.768e-02 | nonlinear |
+| min | relu | 5.405e-01 | nonlinear |
+
+All twelve configurations agreed with prediction. This is a limitation of the ReLU
+instantiation, not of the certified class: tanh and sigmoid satisfy H3 and restore
+nonlinearity, and max is nonlinear regardless. It has real consequences here, because every
+model in F6 through F10 used sum with ReLU and was therefore exactly affine. That explains
+why the compressed encoding starved the monotone model in F8, and it qualifies the
+near-free-certifiability claim.
+
+**C5 slack scaling explained.** Three parts, all confirmed.
+
+Slack is unbounded. On matchings over n = 2m nodes, a downward-closed family that is not
+union-closed, the smallest containing lattice has the complete graph on top and slack grows
+without limit: 9.0 at m=3, 143.2 at m=12, 2290.3 at m=48. No amount of tuning fixes a
+structural mismatch.
+
+The exponent is set by depth, not by RNA.
+
+| depth | fitted exponent | R^2 | exponent / depth |
+|---|---|---|---|
+| 1 | 0.912 | 0.9996 | 0.912 |
+| 2 | 1.824 | 0.9996 | 0.912 |
+| 3 | 2.736 | 0.9996 | 0.912 |
+| 4 | 3.648 | 0.9996 | 0.912 |
+
+The per-layer exponent is constant to three decimals on a synthetic family containing no
+RNA. The 1.93 measured on real target sites with a two-layer network sits beside the
+predicted 1.824. The scaling law is architectural.
+
+The converse holds. On join-closed families the top element is feasible and slack is
+exactly 1.0, verified by brute-force enumeration of every subset rather than asserted.
+
+**C6 closure.** Endpoint exactness survives non-negative residual connections, depths 1 to
+5, every monotone activation, and both aggregation directions: 52 of 52 live configurations
+exact, zero violations, 2 voids reported separately and excluded. The discriminative
+control works, with a non-monotone activation breaking exactness in all four control
+configurations.
 
 ## Status
 

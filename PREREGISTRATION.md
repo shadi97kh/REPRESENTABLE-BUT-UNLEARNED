@@ -67,3 +67,44 @@ duplicates, no train/test overlap. The efficacy-range check had never been imple
 now is. Added experiments/f3b_relaxation_slack.py and experiments/f6_trained.py, neither
 pre-registered. F3's headline number is retired as an initialisation artifact; see
 RESULTS.md.
+
+2026-09-04 (corrections round). Nothing above this line was edited. All items POST-HOC.
+
+C1 BOUNDED DEGREE REMOVED. An earlier draft planned to assume bounded degree to avoid
+   colliding with Saelzer & Lange (ICLR 2023). That assumption is unnecessary: their
+   undecidability quantifies over unbounded graph FAMILIES, whereas this theorem is over
+   a fixed finite graph with a finite optional-edge set, where reachability is decidable
+   by enumeration. Bounded degree belongs in related work, not in the hypotheses.
+
+C2 COMPLEXITY CLAIM NARROWED. The defensible statement is exact reachability in two
+   network evaluations, independent of k, contrasted with 2^k enumeration. Claims
+   resting on the NP-hardness of third-party verifiers are not load-bearing.
+
+C3 AGGREGATOR CHARACTERISATION GENERALISED (c3_aggregator_characterization.py).
+   Endpoint exactness holds iff the aggregator is monotone under multiset inclusion, in
+   EITHER direction. Antitone aggregators (min) are certifiable with the endpoint roles
+   swapped. reach.py now dispatches on model.endpoint_direction(). This strictly
+   generalises the original four-row sum/max/mean/degnorm table and admits logsumexp
+   and min. Verified on 7 aggregators, including the direction of the maximum.
+
+C4 AFFINITY MEASURED (c4_affinity.py). Under H1-H5 with ReLU every preactivation is
+   non-negative, so ReLU never clips and a linear-aggregator network is exactly affine
+   (additivity violation 2e-16). This is an expressivity limitation of the ReLU
+   instantiation, not of the certified class; tanh and sigmoid satisfy H3 and restore
+   nonlinearity. Any near-free-certifiability claim must carry the qualifier that the
+   task is near-linear in the encoding used. Every model in f6 through f10 was affine.
+
+C5 SLACK SCALING EXPLAINED (c5_slack_scaling.py). The exponent is set by network DEPTH,
+   not by RNA. On a synthetic matching family containing no RNA the fitted exponent is
+   0.912 per layer at depths 1 to 4 with R^2 0.9996. The 1.93 exponent measured on RNA
+   with a 2-layer network matches 2 x 0.912 = 1.824 and was therefore an architectural
+   property misread as thermodynamics. Slack is also unbounded in problem size, and is
+   exactly 1.0 on join-closed families, verified by brute force rather than asserted.
+
+C6 CLOSURE (c6_closure.py). Endpoint exactness survives non-negative residual
+   connections, depths 1 to 5, and every monotone activation: 52/52 live configurations,
+   0 violations, 2 voids reported separately. A non-monotone activation breaks it in all
+   4 control configurations, so the test discriminates.
+
+Experiment files are named by correction ID (c3..c6) because f7 through f10 were already
+taken by the soundness, baseline, target-context and maximal-element experiments.

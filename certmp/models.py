@@ -1,29 +1,60 @@
-"""Monotone MPNN. numpy reference model (no torch needed) + torch trainable version.
+"""Monotone MPNN.
 
 Monotonicity hypotheses, ALL required for the structural theorem:
-  H1 non-negative message/update weights   (softplus reparameterisation)
+  H1 non-negative message and update weights   (softplus reparameterisation)
   H2 non-negative biases
   H3 monotone non-decreasing activation
   H4 non-negative node features X >= 0
-  H5 non-negative readout
+  H5 non-negative readout (a non-negative output scale; a constant shift is free)
+
+Note on H3 and expressivity. With X >= 0, W > 0 and b >= 0, every preactivation is
+non-negative, so ReLU acts as the IDENTITY and a sum-aggregation network collapses to an
+exactly AFFINE function of the adjacency. That is measured in f7_affinity.py, not
+asserted. It is a real expressivity limitation of the ReLU instantiation, NOT of the
+certified class: tanh and sigmoid are also monotone non-decreasing, satisfy H3, and are
+genuinely nonlinear on the positive orthant. Use them when affinity is a concern.
+
+Bounded degree is NOT assumed. The theorem is over a fixed finite graph with a finite
+optional-edge set, so reachability is decidable by enumeration and the contribution is
+doing it in two passes. The undecidability result of Saelzer & Lange (ICLR 2023)
+quantifies over unbounded graph families and is a related-work contrast, not a
+hypothesis of this theorem.
 """
 import numpy as np
+from .aggregators import AGGREGATORS, CERTIFIABLE, apply as agg_apply, direction
+
 
 def softplus(z): return np.log1p(np.exp(-np.abs(z))) + np.maximum(z, 0)
+
 RELU = lambda z: np.maximum(z, 0)
-AGGS = ("sum", "mean", "degnorm", "max")
-STRUCTURALLY_SAFE = ("sum", "max")     # the theorem's scope
+ACT = {
+    "relu":     RELU,
+    "tanh":     np.tanh,
+    "sigmoid":  lambda z: 1.0 / (1.0 + np.exp(-np.clip(z, -60, 60))),
+    "softplus": softplus,
+    "identity": lambda z: z,
+    "sin":      np.sin,          # deliberately NON-monotone: negative control only
+}
+MONOTONE_ACTS = ("relu", "tanh", "sigmoid", "softplus", "identity")
+INERT_ACTS = ("relu", "identity")
+LINEAR_AGGS = ("sum", "mean", "degnorm")
+AGGS = tuple(AGGREGATORS)
+STRUCTURALLY_SAFE = CERTIFIABLE
+TORCH_SUPPORTED_AGGS = ("sum", "max")     # the torch path implements only these
+
 
 class MonoMPNN:
-    def __init__(self, d_in, d_hid=8, n_layers=2, agg="sum", nonneg=True, seed=0):
+    def __init__(self, d_in, d_hid=8, n_layers=2, agg="sum", nonneg=True, seed=0,
+                 act="relu", residual=False):
         r = np.random.RandomState(seed); dims = [d_in] + [d_hid]*n_layers
         self.W = [r.randn(dims[i], dims[i+1])*0.6 for i in range(n_layers)]
         self.B = [np.abs(r.randn(dims[i+1]))*0.1 for i in range(n_layers)]
         self.out = r.randn(dims[-1])*0.6
-        self.agg, self.nonneg = agg, nonneg
+        self.agg, self.nonneg, self.act, self.residual = agg, nonneg, act, residual
+        self.dims = dims
         # Affine readout. A NON-NEGATIVE scale is a monotone non-decreasing map, and a
-        # constant shift is order-preserving, so neither disturbs the extremality theorem.
-        # They exist so a trained model can reach the target scale; H5 still needs scale>=0.
+        # constant shift is order-preserving, so neither disturbs endpoint extremality.
+        # They exist so a trained model can reach the target scale; H5 needs scale >= 0.
         self.scale, self.shift = 1.0, 0.0
 
     def _w(self, M): return softplus(M) if self.nonneg else M
@@ -32,25 +63,28 @@ class MonoMPNN:
         H = np.asarray(X, dtype=float)
         for li, W in enumerate(self.W):
             Z = H @ self._w(W) + self.B[li]
-            if self.agg == "sum":
-                M = A @ Z
-            elif self.agg == "mean":
-                M = (A @ Z) / A.sum(1, keepdims=True).clip(min=1)
-            elif self.agg == "degnorm":
-                d = A.sum(1).clip(min=1) ** -0.5
-                M = (d[:, None] * A * d[None, :]) @ Z
-            elif self.agg == "max":
-                M = np.where(A[:, :, None] > 0, Z[None, :, :], -1e9).max(axis=1)
-            else:
-                raise ValueError(self.agg)
-            H = RELU(M)
+            M = agg_apply(self.agg, A, Z)
+            out = ACT[self.act](M)
+            if self.residual and H.shape[1] == out.shape[1]:
+                out = out + H          # non-negative residual preserves isotonicity
+            H = out
         o = softplus(self.out) if self.nonneg else self.out
         return float(self.scale * (H.sum(0) @ o) + self.shift)
 
     def structurally_certifiable(self):
-        return self.nonneg and self.agg in STRUCTURALLY_SAFE and self.scale >= 0
+        """Endpoint exactness needs a monotone aggregator AND a monotone activation AND
+        non-negative parameters. Both isotone and antitone aggregators qualify."""
+        return (self.nonneg and self.agg in CERTIFIABLE
+                and self.act in MONOTONE_ACTS and self.scale >= 0)
 
+    def endpoint_direction(self):
+        """'isotone' -> min at empty optional set, max at full. 'antitone' -> reversed."""
+        return direction(self.agg)
 
+    def is_affine(self):
+        """True when the net is exactly affine on the non-negative orthant because the
+        activation never clips. Measured in f7_affinity.py."""
+        return self.nonneg and self.agg in LINEAR_AGGS and self.act in INERT_ACTS
 # ---------------------------------------------------------------------------
 # Torch trainable version. The certificate is always computed by the numpy
 # MonoMPNN above, so the two forwards MUST agree bit-for-bit-ish or the
@@ -71,8 +105,10 @@ class TorchMonoMPNN:
         class _Impl(nn.Module):
             def __init__(self, d_in, d_hid=8, n_layers=2, agg="sum", seed=0, nonneg=True):
                 super().__init__()
-                if agg not in STRUCTURALLY_SAFE:
-                    raise ValueError(f"agg={agg} is outside the certifiable class {STRUCTURALLY_SAFE}")
+                if agg not in TORCH_SUPPORTED_AGGS:
+                    raise ValueError(f"agg={agg}: the torch path implements only "
+                                     f"{TORCH_SUPPORTED_AGGS}. The certified class is wider "
+                                     f"({CERTIFIABLE}); use MonoMPNN for the rest.")
                 # nonneg=False is the UNCERTIFIABLE matched baseline: identical in every
                 # other respect, so the accuracy difference isolates the sign constraint.
                 self.nonneg = nonneg
