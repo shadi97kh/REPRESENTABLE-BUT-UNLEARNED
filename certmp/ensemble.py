@@ -35,7 +35,11 @@ def bpp_lattice(seq, lo=0.05, hi=0.90, floor=1e-3):
             "mandatory": mandatory, "optional": optional, "probs": probs,
             "k": len(optional), "lattice_size_log10": len(optional)*0.30103}
 
-def sound_lattice(seq, floor=0.0):
+CANONICAL = {("A", "U"), ("U", "A"), ("G", "C"), ("C", "G"), ("G", "U"), ("U", "G")}
+MIN_LOOP = 3          # ViennaRNA TURN: a hairpin needs at least 3 unpaired bases
+
+
+def sound_lattice(seq, floor=0.0, canonical_only=True):
     """SOUND lattice: no mandatory edges, and no pair discarded.
 
     This is the fix for the two soundness defects f3b measured.
@@ -46,6 +50,12 @@ def sound_lattice(seq, floor=0.0):
     With both, monotonicity gives model(structure) <= model(all edges) for every structure
     in the ensemble, with no coverage caveat. floor > 0 trades that guarantee for a smaller
     k and a tighter bound; experiments/f7_soundness.py measures the trade.
+
+    canonical_only=True keeps soundness while shrinking the lattice for free. ViennaRNA's
+    energy model can only form the six canonical pairs, and only with at least MIN_LOOP
+    unpaired bases between partners, so no structure in the ensemble can contain any pair
+    this excludes. Excluding them therefore removes edges no real structure uses rather
+    than edges the bound needs. Set it False to get the literal full power set.
     """
     import RNA
     fc = RNA.fold_compound(seq)
@@ -54,9 +64,13 @@ def sound_lattice(seq, floor=0.0):
     fc.pf()
     bpp = fc.bpp()
     n = len(seq)
+    u = seq.replace("T", "U").upper()
     optional, probs = [], {}
     for i in range(1, n + 1):
         for j in range(i + 1, n + 1):
+            if canonical_only:
+                if j - i <= MIN_LOOP: continue
+                if (u[i - 1], u[j - 1]) not in CANONICAL: continue
             p = bpp[i][j]
             if p < floor: continue          # floor=0.0 keeps every pair: p >= 0 always
             e = (i - 1, j - 1)
@@ -64,9 +78,9 @@ def sound_lattice(seq, floor=0.0):
             optional.append(e)
     return {"n": n, "mfe_structure": ss, "mfe_energy": mfe,
             "mandatory": [], "optional": optional, "probs": probs,
-            "k": len(optional), "floor": floor,
+            "k": len(optional), "floor": floor, "canonical_only": canonical_only,
             "lattice_size_log10": len(optional) * 0.30103,
-            "is_full_power_set": floor <= 0.0}
+            "sound_over_ensemble": floor <= 0.0}
 
 
 def generic_features(seq, decay=3.0):

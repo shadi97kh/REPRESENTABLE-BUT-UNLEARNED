@@ -246,33 +246,39 @@ whole ensemble.
 
 ### Coverage versus tightness
 
-| floor | median k | coverage | worst coverage | lattice max / ensemble max | bound violations |
-|---|---|---|---|---|---|
-| 0 | 1770 | 100.0% | 100.0% | 355.32 | 0 / 20000 |
-| 1e-6 | 414 | 100.0% | 100.0% | 24.37 | 0 / 20000 |
-| 1e-4 | 190 | 99.7% | 99.3% | 6.16 | 0 / 20000 |
-| 1e-3 | 120 | 98.2% | 96.6% | 2.96 | 0 / 20000 |
-| 1e-2 | 61 | 91.0% | 79.2% | 1.52 | 0 / 20000 |
-| 0.05 | 34 | 73.8% | 43.1% | 1.14 | 9 / 20000 |
-| 0.10 | 26 | 59.5% | 36.3% | 1.00 | 210 / 20000 |
-| 0.20 | 20 | 41.9% | 8.1% | 0.98 | 1084 / 20000 |
+| floor | canonical only | median k | coverage | worst coverage | lattice max / ensemble max | bound violations |
+|---|---|---|---|---|---|---|
+| 0 | no | 1770 | 100.0% | 100.0% | 179.08 | 0 / 20000 |
+| 0 | yes | 610 | 100.0% | 100.0% | 29.25 | 0 / 20000 |
+| 1e-6 | yes | 414 | 100.0% | 100.0% | 15.14 | 0 / 20000 |
+| 1e-4 | yes | 190 | 99.7% | 99.3% | 4.69 | 0 / 20000 |
+| 1e-3 | yes | 120 | 98.2% | 96.6% | 2.57 | 0 / 20000 |
+| 1e-2 | yes | 61 | 91.0% | 79.2% | 1.48 | 0 / 20000 |
+| 0.05 | yes | 34 | 73.8% | 43.1% | 1.13 | 15 / 20000 |
+| 0.10 | yes | 26 | 59.5% | 36.3% | 1.01 | 199 / 20000 |
+| 0.20 | yes | 20 | 41.9% | 8.1% | 0.98 | 1017 / 20000 |
+
+Restricting the lattice to the six canonical pairs with the minimum hairpin loop costs
+nothing in soundness, because ViennaRNA's model cannot form any other pair, and it cuts
+the lattice to a third of the edges and the bound from 179x to 29x. Only the backbone is
+mandatory; it is not a base pair, every structure has it, and the model saw it in training.
 
 The curve is written to `coverage_tightness.png` in the run directory.
 
 At floor zero the bound holds on 100% of sampled structures with zero violations, as the
 theorem requires. The old default of 0.05 covered only 73.8% and was not merely
-theoretically unsound: 9 real sampled structures scored above its certified maximum. At
+theoretically unsound: 15 real sampled structures scored above its certified maximum. At
 0.20 more than a thousand did.
 
-### Soundness costs a factor of 355, and that is the headline
+### Soundness costs a factor of 29, and that is the headline
 
-The sound bound runs a median 355x the true sampled ensemble maximum. A certificate that
+The sound bound runs a median 29x the true sampled ensemble maximum. A certificate that
 passes at floor zero is therefore strong evidence, but one that fails may mean only that
-the relaxation is loose. The tightness the earlier experiments reported, 1.14x at floor
+the relaxation is loose. The tightness the earlier experiments reported, 1.13x at floor
 0.05, was bought by excluding a quarter of the ensemble from the claim.
 
 The middle of the curve is where a practitioner would actually sit. A floor of 1e-3 covers
-98.2% of sampled structures at 2.96x, and 1e-2 covers 91.0% at 1.52x. Neither is sound.
+98.2% of sampled structures at 2.57x, and 1e-2 covers 91.0% at 1.48x. Neither is sound.
 There is no floor in this data that is both sound and tight, and that is the real finding:
 the edge lattice is too coarse a relaxation of a nested secondary structure to be both.
 
@@ -323,6 +329,53 @@ certifiability in the feature encoding, not in accuracy. It also qualifies F7 an
 which use the generic encoding out of necessity because they span several sequence
 lengths, and therefore run on a model handicapped by roughly 0.21 Spearman.
 
+## F9 sound certificate on real mRNA target sites (step 3)
+
+f6 showed the certificate was being run in the wrong place. An isolated 21 nt siRNA has a
+median of 6 optional pairs, so brute force is affordable and the theorem earns nothing.
+This runs it on the mRNA target site instead, extracted from GENCODE release 47 transcripts
+for the Huesken genes.
+
+GENCODE matched 28 of the 30 annotated gene symbols across 219 transcripts, after mapping
+four legacy symbols to current names. 1720 of the 2431 siRNA target sites were located
+exactly inside a transcript. 223 failed because the gene is rat and absent from a human
+build, and 488 because the site did not appear in any GENCODE transcript of that gene. 24
+sites were sampled for the certificate, with 300 Boltzmann samples per window.
+
+| window | median k | lattice size | MFE point estimate | sampled ensemble max | sound worst case | slack | coverage |
+|---|---|---|---|---|---|---|---|
+| 50 nt | 408 | 10^123 | 1.0 | 1.1 | 23.7 | 21.5x | 100% |
+| 100 nt | 1744 | 10^525 | 1.5 | 1.5 | 146.3 | 94.3x | 100% |
+| 150 nt | 3932 | 10^1183 | 1.9 | 2.0 | 446.4 | 222.8x | 100% |
+
+Every certificate cost two forward passes. The bound was sound on every site at every
+length, with 100% of sampled structures inside the lattice.
+
+### The collapse is real here, and it is enormous
+
+At 150 nt the uncertainty set holds about 10^1183 edge subsets and two forward passes
+bound all of them. This is the regime the theorem was for. F2 predicted it from base-pair
+counts; F9 confirms it on real target sites with a trained model and a sound lattice.
+
+### But soundness and usefulness move in opposite directions with length
+
+The slack grows faster than the window: 21.5x at 50 nt, 94.3x at 100 nt, 222.8x at 150 nt.
+The certified worst case at 150 nt is over 200 times the largest value any of 300 sampled
+structures actually produced. A threshold certificate that passes at that looseness is
+still meaningful, since the bound is genuine, but almost nothing will pass it.
+
+Meanwhile the quantity the certificate is meant to protect against stays small. The MFE
+point estimate understates the sampled ensemble maximum by only 4.4% to 5.1% across all
+three lengths. On this model and these targets, ensemble uncertainty is a few percent while
+the sound bound overshoots by two orders of magnitude.
+
+That is the central tension the theorem now faces, stated plainly. The exponential-to-
+constant collapse is real, dramatic, and lands exactly where the biology needs it. The
+relaxation that makes it sound is too coarse for the bound to be actionable at that scale.
+Closing that gap needs a tighter sound relaxation of nested secondary structure, not a
+better network. Nesting and the one-partner-per-base constraint are exactly the structure
+the edge lattice throws away.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit
@@ -332,8 +385,12 @@ The model is trained and real: Spearman 0.592 on the published split, 0.543 gene
 against a published Pearson baseline of 0.66. F3's 110.9% is retired as an initialisation
 artifact and replaced by 12.9%.
 
-The application is still not certified. F4 certifies no ranking. The lower bound is
-unsound over the ensemble, as F3b showed. And F6 exposes a scope problem: at siRNA length
-the uncertainty set is small enough to brute force, so the two-pass collapse only earns
-its keep on the longer target context. Running the certificate on mRNA target sites rather
-than the siRNA duplex is the next experiment.
+The certificate is now sound, one-sided, and running in the right place. F9 bounds 10^1183
+structures in two forward passes on real GENCODE target sites, with every sampled structure
+inside the lattice.
+
+What remains open is tightness, not soundness. The sound bound overshoots the sampled
+ensemble maximum by 29x at 60 nt and 223x at 150 nt, while the effect it guards against is
+about 5%. The edge lattice discards nesting and the one-partner constraint, and that is
+where the looseness comes from. A tighter sound relaxation is the next piece of work, and
+it is a modelling problem rather than a network problem.

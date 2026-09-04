@@ -5,8 +5,9 @@ and discarding pairs below a probability floor left a median 26% of the sampled 
 outside the lattice, so the upper bound did not cover those structures at all.
 
 The fix is structural, not statistical:
-    mandatory = []      nothing is forced, so the empty endpoint is a subset of every
-                        real structure's edge set
+    mandatory = backbone only. The backbone is not a base pair; every structure has it by
+                        construction and the model saw it in training. No BASE PAIR is
+                        forced, which is what made the old lower bound invalid.
     floor     = 0.0     nothing is discarded, so the lattice is the full power set of
                         base pairs and every secondary structure is inside it
 With both, monotonicity gives model(structure) <= model(all edges present) for EVERY
@@ -30,7 +31,12 @@ from experiments._huesken import pairs_of
 
 N_SAMPLES, N_SEQ, LENGTH = 1000, 20, 60
 RNG_SEED = 20260904
-FLOORS = [0.0, 1e-6, 1e-4, 1e-3, 1e-2, 0.05, 0.10, 0.20]
+# (floor, canonical_only). canonical_only restricts to the six pairs ViennaRNA can form,
+# with the minimum hairpin loop, which no ensemble structure can violate; it shrinks the
+# lattice without touching soundness. The literal full power set is included for contrast.
+CONFIGS = [(0.0, False), (0.0, True), (1e-6, True), (1e-4, True), (1e-3, True),
+           (1e-2, True), (0.05, True), (0.10, True), (0.20, True)]
+FLOORS = [c[0] for c in CONFIGS]
 MODEL_PATH = "data/models/monotone_generic.json"
 
 
@@ -51,44 +57,48 @@ def main():
     random.seed(1)                       # same sequences as f3b
     RNA.init_rand(RNG_SEED)
 
-    per_floor = {f: {"k": [], "cov": [], "tight": [], "viol": 0, "n": 0} for f in FLOORS}
+    per_floor = {c: {"k": [], "cov": [], "tight": [], "viol": 0, "n": 0} for c in CONFIGS}
     for t in range(N_SEQ):
         seq = "".join(random.choice("ACGU") for _ in range(LENGTH))
         X = generic_features(seq)
         n = len(seq)
         structs = sample_structures(seq, N_SAMPLES)
         pairsets = [pairs_of(s) for s in structs]
-        ys = np.array([m.forward(X, build_A(n, list(P), [], [])) for P in pairsets])
+        backbone = [(i, i + 1) for i in range(n - 1)]
+        ys = np.array([m.forward(X, build_A(n, backbone + sorted(P), [], [])) for P in pairsets])
         ens_max = float(ys.max())
-        for f in FLOORS:
-            lat = sound_lattice(seq, floor=f)
-            _, hi, _ = exact_interval(m, n, lat["mandatory"], lat["optional"], X)
+        for c in CONFIGS:
+            f, canon = c
+            lat = sound_lattice(seq, floor=f, canonical_only=canon)
+            _, hi, _ = exact_interval(m, n, backbone, lat["optional"], X)
             inside = np.array([P <= set(lat["optional"]) for P in pairsets])
             cov = float(inside.mean())
             viol = int((ys > hi + 1e-9).sum())
-            d = per_floor[f]
+            d = per_floor[c]
             d["k"].append(lat["k"]); d["cov"].append(cov)
             d["tight"].append(hi / max(ens_max, 1e-12))
             d["viol"] += viol; d["n"] += len(ys)
 
-    print(f"{'floor':>8s} {'median k':>9s} {'coverage':>10s} {'worst cov':>10s} "
+    print(f"{'floor':>8s} {'canon':>6s} {'median k':>9s} {'coverage':>10s} {'worst cov':>10s} "
           f"{'lattice_hi/ens_max':>20s} {'bound violations':>18s}")
     rows = []
-    for f in FLOORS:
-        d = per_floor[f]
-        row = dict(floor=f, median_k=statistics.median(d["k"]), max_k=max(d["k"]),
+    for c in CONFIGS:
+        f, canon = c
+        d = per_floor[c]
+        row = dict(floor=f, canonical_only=canon,
+                   median_k=statistics.median(d["k"]), max_k=max(d["k"]),
                    median_coverage=statistics.median(d["cov"]), min_coverage=min(d["cov"]),
                    median_tightness=statistics.median(d["tight"]),
                    max_tightness=max(d["tight"]),
                    violations=d["viol"], n_samples=d["n"])
         rows.append(row)
-        print(f"{f:8.0e} {row['median_k']:9.0f} {row['median_coverage']*100:9.1f}% "
+        print(f"{f:8.0e} {str(canon):>6s} {row['median_k']:9.0f} {row['median_coverage']*100:9.1f}% "
               f"{row['min_coverage']*100:9.1f}% {row['median_tightness']:20.2f} "
               f"{row['violations']:12d}/{row['n_samples']}")
 
-    sound = rows[0]
+    sound = rows[1]           # floor 0, canonical: the recommended sound configuration
     ok = (sound["min_coverage"] >= 1.0 - 1e-12 and sound["violations"] == 0)
-    print(f"\nfloor=0, mandatory empty: coverage {sound['median_coverage']*100:.1f}% "
+    print(f"\nfloor=0, canonical, no base pair forced: coverage {sound['median_coverage']*100:.1f}% "
           f"(worst {sound['min_coverage']*100:.1f}%), {sound['violations']} violations in "
           f"{sound['n_samples']} sampled structures -> {'SOUND' if ok else 'NOT SOUND'}")
     print(f"price of soundness: k rises to a median {sound['median_k']:.0f} and the bound "
@@ -101,18 +111,19 @@ def main():
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
         fig, ax = plt.subplots(1, 2, figsize=(11, 4.2))
-        cov = [r["median_coverage"] * 100 for r in rows]
-        tig = [r["median_tightness"] for r in rows]
+        crows = [r for r in rows if r["canonical_only"]]
+        cov = [r["median_coverage"] * 100 for r in crows]
+        tig = [r["median_tightness"] for r in crows]
         ax[0].plot(cov, tig, "o-", color="#2b6cb0")
-        for r, c, tg in zip(rows, cov, tig):
+        for r, c, tg in zip(crows, cov, tig):
             ax[0].annotate(f"{r['floor']:.0e}", (c, tg), textcoords="offset points",
                            xytext=(5, 4), fontsize=8)
         ax[0].set_xlabel("ensemble coverage (% of sampled structures inside lattice)")
         ax[0].set_ylabel("lattice max / sampled ensemble max")
         ax[0].set_title("coverage vs tightness (label = probability floor)")
         ax[0].grid(alpha=.3)
-        ax[1].semilogx([max(r["floor"], 1e-7) for r in rows],
-                       [r["median_k"] for r in rows], "s-", color="#276749")
+        ax[1].semilogx([max(r["floor"], 1e-7) for r in crows],
+                       [r["median_k"] for r in crows], "s-", color="#276749")
         ax[1].set_xlabel("probability floor (1e-7 marks floor=0)")
         ax[1].set_ylabel("median k")
         ax[1].set_title("lattice size vs floor")
