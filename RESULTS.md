@@ -286,6 +286,43 @@ certified nothing when it ran. F3 is retired too: untrained model, unsound bande
 theorem is a statement about both and F1 and F5 test both. That is lattice arithmetic, not
 an ensemble claim.
 
+## F8 matched baseline, the cost of certifiability (step 2)
+
+The baseline differs from the monotone model in exactly one respect, the sign constraint.
+Identical features, published split, validation set, optimiser, learning rate, batch size,
+epoch budget, early stopping and seeds, all through the same `certmp.train.fit`. Five seeds
+per configuration, reported as mean and standard deviation.
+
+| features | model | Spearman | Pearson |
+|---|---|---|---|
+| positional | monotone (certifiable) | 0.592 ± 0.004 | 0.557 ± 0.004 |
+| positional | unconstrained | 0.594 ± 0.013 | 0.588 ± 0.013 |
+| generic | monotone (certifiable) | 0.389 ± 0.012 | 0.372 ± 0.010 |
+| generic | unconstrained | 0.603 ± 0.007 | 0.594 ± 0.008 |
+| positional, gene-disjoint | monotone (certifiable) | 0.544 ± 0.002 | 0.531 ± 0.001 |
+| positional, gene-disjoint | unconstrained | 0.583 ± 0.023 | 0.570 ± 0.024 |
+
+### Certifiability is nearly free, but only with an expressive non-negative encoding
+
+With one-hot (position, nucleotide) features the sign constraint costs 0.002 Spearman,
+which is inside the seed-to-seed spread, and 0.031 Pearson. On a gene-disjoint split it
+costs 0.039 Spearman. That is the headline: the extremality theorem is close to free here.
+
+With the compressed generic encoding it costs 0.214 Spearman, more than a third of the
+achievable signal. The unconstrained model reaches 0.603 on those same features, so the
+signal is present and it is the non-negativity that cannot extract it.
+
+The mechanism is straightforward. Under one-hot (position, nucleotide), every combination
+gets its own non-negative weight, so a preference for one nucleotide at a position is
+expressed by giving the alternatives smaller weights, and no negative weight is needed.
+Under a compressed encoding, features share weights and the model needs subtraction it is
+not allowed to perform.
+
+The practical consequence is a design rule rather than a limitation: pay for
+certifiability in the feature encoding, not in accuracy. It also qualifies F7 and F9,
+which use the generic encoding out of necessity because they span several sequence
+lengths, and therefore run on a model handicapped by roughly 0.21 Spearman.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit

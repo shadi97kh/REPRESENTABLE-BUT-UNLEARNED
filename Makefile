@@ -1,6 +1,6 @@
 PY ?= python3
 export PYTHONPATH := .
-.PHONY: setup data test f1 f2 f3 f3b f4 f5 f6 f7 all freeze
+.PHONY: setup data test f1 f2 f3 f3b f4 f5 f6 f7 f8 all freeze
 setup:  ; $(PY) -m pip install -r requirements.txt
 
 # Huesken et al. 2005 in its published 2182/249 split, as redistributed with DSIR
@@ -24,5 +24,6 @@ f4:     ; $(PY) -m experiments.f4_topk_stability
 f5:     ; $(PY) -m experiments.f5_stress_extremality
 f6:     ; $(PY) -m experiments.f6_trained
 f7:     ; $(PY) -m experiments.f7_soundness
-all: test f1 f2 f3b f5 f6 f7   # f3, f4 retired
+f8:     ; $(PY) -m experiments.f8_baseline
+all: test f1 f2 f3b f5 f6 f7 f8   # f3, f4 retired
 freeze: ; git add -A && git commit -m "freeze: prereg + scaffold" && git tag -f prereg
