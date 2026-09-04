@@ -69,10 +69,13 @@ class TorchMonoMPNN:
         import torch, torch.nn as nn
 
         class _Impl(nn.Module):
-            def __init__(self, d_in, d_hid=8, n_layers=2, agg="sum", seed=0):
+            def __init__(self, d_in, d_hid=8, n_layers=2, agg="sum", seed=0, nonneg=True):
                 super().__init__()
                 if agg not in STRUCTURALLY_SAFE:
                     raise ValueError(f"agg={agg} is outside the certifiable class {STRUCTURALLY_SAFE}")
+                # nonneg=False is the UNCERTIFIABLE matched baseline: identical in every
+                # other respect, so the accuracy difference isolates the sign constraint.
+                self.nonneg = nonneg
                 g = torch.Generator().manual_seed(seed)
                 dims = [d_in] + [d_hid] * n_layers
                 self.W = nn.ParameterList([
@@ -99,7 +102,10 @@ class TorchMonoMPNN:
                 """X (B,N,F) non-negative, A (B,N,N) with self-loops. Returns (B,)."""
                 H = X
                 for li, W in enumerate(self.W):
-                    Z = H @ torch.nn.functional.softplus(W) + torch.nn.functional.softplus(self.b[li])
+                    sp_ = torch.nn.functional.softplus
+                    Wl = sp_(W) if self.nonneg else W
+                    bl = sp_(self.b[li]) if self.nonneg else self.b[li]
+                    Z = H @ Wl + bl
                     if self.agg == "sum":
                         M = torch.bmm(A, Z)
                     else:  # max
@@ -107,20 +113,24 @@ class TorchMonoMPNN:
                                         torch.full_like(Z.unsqueeze(1), -1e9)).max(dim=2).values
                     H = torch.relu(M)
                 sp = torch.nn.functional.softplus
-                return sp(self.log_scale) * (H.sum(1) @ sp(self.out)) + self.shift
+                o = sp(self.out) if self.nonneg else self.out
+                return sp(self.log_scale) * (H.sum(1) @ o) + self.shift
 
             def export_numpy(self):
                 """Hand the trained weights to the certifiable numpy model."""
                 import numpy as np
-                m = MonoMPNN(self.d_in, self.d_hid, self.n_layers, agg=self.agg, nonneg=True, seed=0)
+                m = MonoMPNN(self.d_in, self.d_hid, self.n_layers, agg=self.agg,
+                             nonneg=self.nonneg, seed=0)
                 sp = torch.nn.functional.softplus
                 m.W = [w.detach().cpu().numpy().astype(float) for w in self.W]
-                m.B = [sp(b).detach().cpu().numpy().astype(float) for b in self.b]
+                m.B = [(sp(b) if self.nonneg else b).detach().cpu().numpy().astype(float)
+                       for b in self.b]
                 m.out = self.out.detach().cpu().numpy().astype(float)
                 m.scale = float(sp(self.log_scale).detach().cpu())
                 m.shift = float(self.shift.detach().cpu())
-                assert all(b.min() >= 0 for b in m.B), "H2 violated: negative bias after export"
-                assert m.scale >= 0, "H5 violated: negative output scale after export"
+                if self.nonneg:
+                    assert all(b.min() >= 0 for b in m.B), "H2 violated: negative bias after export"
+                    assert m.scale >= 0, "H5 violated: negative output scale after export"
                 return m
 
         return _Impl(*a, **kw)

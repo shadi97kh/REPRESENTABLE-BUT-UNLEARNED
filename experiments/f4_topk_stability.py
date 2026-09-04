@@ -1,27 +1,32 @@
-"""F4: exact deterministic top-k rank stability for a candidate library."""
-import random
-from certmp.models import MonoMPNN
-from certmp.ensemble import bpp_lattice, onehot_features
-from certmp.reach import exact_interval
-from certmp.certify import certify_topk
+"""F4: RETIRED 2026-09-04.
+
+Exact top-k rank certification compares the k-th best candidate's worst case against the
+(k+1)-th best candidate's BEST case. That needs a sound lower bound on every candidate.
+f3b showed the lattice minimum is not one: it forces mandatory pairs present while real
+structures omit them, and actual sampled structures scored below it. The lower bound was
+removed from certmp.certify, so this certificate has no foundation and is withdrawn.
+
+It certified nothing when it did run: margins were negative at every k, from -170 at k=1
+to -5024 at k=10, because the reachable intervals straddled every cut.
+
+Reinstating this needs a genuinely sound lower bound over the ensemble, which certmp does
+not currently have. This file is kept so the retirement is visible in the repository
+rather than being a silent deletion.
+"""
 from certmp.provenance import new_run, record
 
+REASON = ("withdrawn: exact top-k certification requires a sound ensemble lower bound; "
+          "certmp.certify no longer claims one (see f3b, f7)")
+
 def main():
-    run = new_run("f4_topk_stability", dict(library=40, length=50, k=5))
-    random.seed(2)
-    m = None; cands = []
-    for t in range(40):
-        seq = "".join(random.choice("ACGU") for _ in range(50))
-        lat = bpp_lattice(seq)
-        if lat["k"] == 0: continue
-        X = onehot_features(seq)
-        if m is None: m = MonoMPNN(X.shape[1], 8, 2, agg="sum", nonneg=True, seed=0)
-        lo, hi, _ = exact_interval(m, lat["n"], lat["mandatory"], lat["optional"], X)
-        cands.append({"name": f"cand{t:02d}", "lo": lo, "hi": hi, "k": lat["k"]})
-    for K in (1, 3, 5, 10):
-        r = certify_topk(cands, K)
-        print(f"top-{K:<3d} certified={str(r['certified']):5s} margin={r['margin']:12.4f}  {r['topk'][:3]}")
-    record(run, "f4_topk_stability",
-           {"candidates": cands, "results": {K: certify_topk(cands, K) for K in (1,3,5,10)}})
+    run = new_run("f4_topk_stability", dict(status="retired"))
+    print("F4 is RETIRED.")
+    print(f"  {REASON}")
+    print("  prior result, for the record: no ranking certified at k = 1, 3, 5 or 10; "
+          "margins -170.4 to -5024.2")
+    record(run, "f4_topk_stability", {"status": "retired", "reason": REASON,
+                                      "prior_result": {"certified_any_k": False,
+                                                       "margins": {1: -170.4270, 3: -1786.7254,
+                                                                   5: -2949.8848, 10: -5024.2232}}})
 
 if __name__ == "__main__": main()

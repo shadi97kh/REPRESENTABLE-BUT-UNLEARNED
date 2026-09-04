@@ -231,6 +231,61 @@ F2 established needs the longer mRNA target context, where k reaches 86 at 150 n
 the siRNA duplex. F6 demonstrates that a certifiable model can be trained to useful
 accuracy; it does not demonstrate that certification is needed at this sequence length.
 
+## F7 sound certificate and the price of soundness (step 1)
+
+f3b found the certificate was unsound in both directions. This fixes it and measures what
+the fix costs. Model is the length-generalizing monotone network trained on real Huesken
+efficacy, held-out Spearman 0.385, not an untrained network. 20 sequences at 60 nt, 1000
+seeded Boltzmann samples each, 20000 sampled structures in total.
+
+The fix is structural. Setting mandatory to empty means nothing is forced present, so the
+empty endpoint is a subset of every real structure. Setting the probability floor to zero
+discards no pair, so the lattice is the full power set of base pairs and every secondary
+structure is inside it. Monotonicity then makes the upper endpoint a genuine bound on the
+whole ensemble.
+
+### Coverage versus tightness
+
+| floor | median k | coverage | worst coverage | lattice max / ensemble max | bound violations |
+|---|---|---|---|---|---|
+| 0 | 1770 | 100.0% | 100.0% | 355.32 | 0 / 20000 |
+| 1e-6 | 414 | 100.0% | 100.0% | 24.37 | 0 / 20000 |
+| 1e-4 | 190 | 99.7% | 99.3% | 6.16 | 0 / 20000 |
+| 1e-3 | 120 | 98.2% | 96.6% | 2.96 | 0 / 20000 |
+| 1e-2 | 61 | 91.0% | 79.2% | 1.52 | 0 / 20000 |
+| 0.05 | 34 | 73.8% | 43.1% | 1.14 | 9 / 20000 |
+| 0.10 | 26 | 59.5% | 36.3% | 1.00 | 210 / 20000 |
+| 0.20 | 20 | 41.9% | 8.1% | 0.98 | 1084 / 20000 |
+
+The curve is written to `coverage_tightness.png` in the run directory.
+
+At floor zero the bound holds on 100% of sampled structures with zero violations, as the
+theorem requires. The old default of 0.05 covered only 73.8% and was not merely
+theoretically unsound: 9 real sampled structures scored above its certified maximum. At
+0.20 more than a thousand did.
+
+### Soundness costs a factor of 355, and that is the headline
+
+The sound bound runs a median 355x the true sampled ensemble maximum. A certificate that
+passes at floor zero is therefore strong evidence, but one that fails may mean only that
+the relaxation is loose. The tightness the earlier experiments reported, 1.14x at floor
+0.05, was bought by excluding a quarter of the ensemble from the claim.
+
+The middle of the curve is where a practitioner would actually sit. A floor of 1e-3 covers
+98.2% of sampled structures at 2.96x, and 1e-2 covers 91.0% at 1.52x. Neither is sound.
+There is no floor in this data that is both sound and tight, and that is the real finding:
+the edge lattice is too coarse a relaxation of a nested secondary structure to be both.
+
+### The lower bound is gone
+
+`certify_threshold` no longer returns a best case, and `certify_topk` is withdrawn and
+raises. Exact top-k rank certification needs a sound lower bound per candidate, and certmp
+no longer claims one, so F4 is retired rather than left standing on an invalid bound. It
+certified nothing when it ran. F3 is retired too: untrained model, unsound banded lattice.
+`reach.exact_interval` still returns both lattice endpoints, because the extremality
+theorem is a statement about both and F1 and F5 test both. That is lattice arithmetic, not
+an ensemble claim.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit

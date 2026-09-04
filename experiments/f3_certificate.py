@@ -1,4 +1,9 @@
 """F3: end-to-end certificate on a real folded sequence.
+
+RETIRED, kept for provenance. The model is untrained, so every magnitude here is an
+initialisation artifact; f6 replaces them. The lattice is the BANDED one, which f7 shows
+is not sound over the ensemble; f7 replaces it. Do not quote this experiment.
+
 Reports the MFE-only prediction alongside the certified worst case, i.e. exactly what
 current pipelines miss by treating the MFE structure as certain."""
 import random, numpy as np
@@ -27,7 +32,7 @@ def main():
         cert = certify_threshold(m, lat["n"], lat["mandatory"], lat["optional"], X, tau=1e9)
         under = (cert["worst_case"] - y_mfe) / max(abs(y_mfe), 1e-12)
         rows.append(dict(k=lat["k"], mfe_energy=lat["mfe_energy"], y_mfe=y_mfe,
-                         worst_case=cert["worst_case"], best_case=cert["best_case"],
+                         worst_case=cert["worst_case"],
                          mfe_underestimate_rel=under, passes=cert["forward_passes"],
                          lattice_log10=cert["lattice_size_log10"]))
         print(f"seq{t:02d} k={lat['k']:3d} 2^k=10^{cert['lattice_size_log10']:5.1f}  "
