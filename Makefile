@@ -1,6 +1,6 @@
 PY ?= python3
 export PYTHONPATH := .
-.PHONY: setup data gencode test f1 f2 f3 f3b f4 f5 f6 f7 f8 f9 f10 f10b c3 c4 c5 c6 all theory freeze
+.PHONY: setup data gencode test f1 f2 f3 f3b f4 f5 f6 f7 f8 f9 f10 f10b c3 c4 c5 c6 c7 c8 c9 all theory kappa freeze
 setup:  ; $(PY) -m pip install -r requirements.txt
 
 # Huesken et al. 2005 in its published 2182/249 split, as redistributed with DSIR
@@ -37,6 +37,10 @@ c3:     ; $(PY) -m experiments.c3_aggregator_characterization
 c4:     ; $(PY) -m experiments.c4_affinity
 c5:     ; $(PY) -m experiments.c5_slack_scaling
 c6:     ; $(PY) -m experiments.c6_closure
+c7:     ; $(PY) -m experiments.c7_kappa_characterization
+c8:     ; $(PY) -m experiments.c8_kappa_gencode
+c9:     ; $(PY) -m experiments.c9_kappa_boundary
 theory: c3 c4 c5 c6
-all: test f1 f2 f3b f5 f6 f7 f8 f9 f10 f10b theory   # f3, f4 retired
+kappa: c7 c8 c9
+all: test f1 f2 f3b f5 f6 f7 f8 f9 f10 f10b theory kappa   # f3, f4 retired
 freeze: ; git add -A && git commit -m "freeze: prereg + scaffold" && git tag -f prereg

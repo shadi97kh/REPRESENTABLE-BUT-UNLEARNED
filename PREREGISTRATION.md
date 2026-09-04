@@ -108,3 +108,25 @@ C6 CLOSURE (c6_closure.py). Endpoint exactness survives non-negative residual
 
 Experiment files are named by correction ID (c3..c6) because f7 through f10 were already
 taken by the soundness, baseline, target-context and maximal-element experiments.
+
+2026-09-04 (kappa round, additive). POST-HOC. Adds certmp/kappa.py and c7 to c9. No
+existing file was overwritten.
+
+C7 The relaxation gap of the certified class equals kappa_L = W_L(top)/max_F W_L, a ratio
+   of length-L walk counts, exactly in the no-bias uniform-feature regime (max relative
+   error 2.12e-16) and as a tight upper bound with biases. Join-closed families give
+   exactly 1.0. Verified by exhaustive enumeration, not sampling.
+C8 On the same GENCODE windows as f9/f10, kappa_2 bounds the measured slack at every
+   length and reproduces its growth (4.17x, 2.22x against 4.39x, 2.36x measured), while
+   overshooting the level by 5.2x through feature and bias dilution. kappa_L = kappa_1^L
+   to 4.6%, so C5's depth proportionality is combinatorial, not empirical.
+C9 Equality holds only in the affine uniform-feature regime; kappa_L still upper-bounds
+   the gap under varied features, max aggregation and tanh.
+
+Two fixes were required to make c8 run and be reproducible, both recorded here rather than
+applied silently. walk_count now uses L matrix-vector products instead of a matrix power,
+mathematically identical and verified against the reference, without which c8 would not
+finish. RNA.cvar.rand_seed does not exist in this ViennaRNA binding and was silently
+swallowed by a try/except, leaving sampling unseeded; it is replaced by RNA.init_rand.
+data/gencode_windows.txt is generated from the same sites f9 and f10 used, so c8 ran on
+real windows rather than its random fallback.

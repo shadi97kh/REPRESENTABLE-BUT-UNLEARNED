@@ -535,6 +535,82 @@ exact, zero violations, 2 voids reported separately and excluded. The discrimina
 control works, with a non-monotone activation breaking exactness in all four control
 configurations.
 
+## Kappa_L: the relaxation gap as pure combinatorics (C7 to C9)
+
+For a certified depth-L sum-aggregation network, affine on the non-negative orthant by C4,
+with uniform features and no bias, the output is proportional to the length-L walk count
+W_L(A). The relaxation gap is then a ratio of walk counts, kappa_L = W_L(top) divided by
+the best W_L over the feasible family. It needs no network, no weights and no training.
+
+### C7 the characterisation holds exactly
+
+Five families over an exhaustively enumerated candidate set, so the maximum over the
+feasible family is exact rather than sampled.
+
+| expectation | result |
+|---|---|
+| K1 no-bias gap equals kappa_L | PASS, max relative error 2.12e-16 |
+| K2 kappa_L is a tight upper bound with bias | PASS, never violated |
+| K3 join-closed family gives kappa_L = 1 | PASS, exactly 1.0 at every depth |
+| K4 monotone along the nested chain | PASS |
+
+The chain values, matching down to join-closed where the top element is feasible:
+
+| depth | matching | deg <= 2 | deg <= 3 | all subsets |
+|---|---|---|---|---|
+| 1 | 2.385 | 1.823 | 1.476 | 1.000 |
+| 2 | 6.280 | 3.340 | 2.093 | 1.000 |
+| 3 | 15.571 | 5.569 | 2.696 | 1.000 |
+
+Forests are correctly excluded from the chain. A forest is neither a subset nor a superset
+of a degree-bounded family, so its kappa need not sit between theirs.
+
+### C8 kappa_L explains the RNA scaling, on the real windows
+
+Run on the same 12 GENCODE target sites and the same 50, 100 and 150 nt windows used by F9
+and F10, not the random fallback. The measured slack came from a trained two-layer network,
+so L = 2 is the matching depth.
+
+| window | measured slack | kappa_1 | kappa_2 | measured / kappa_2 | bounded |
+|---|---|---|---|---|---|
+| 50 nt | 21.5 | 10.69 | 118.5 | 0.181 | yes |
+| 100 nt | 94.3 | 21.95 | 494.1 | 0.191 | yes |
+| 150 nt | 222.8 | 32.37 | 1098.0 | 0.203 | yes |
+
+Three things follow, and the middle one is the result.
+
+kappa_2 bounds the measured slack at every length, as K2 requires. It overshoots the level
+by about 5.2x, which is the dilution from non-uniform features and biases that C7 and C9
+both predict.
+
+It reproduces the scaling. Growth between consecutive lengths is 4.17x then 2.22x for
+kappa_2 against 4.39x then 2.36x measured. A quantity computed from walk counts alone, with
+no network anywhere in it, tracks how the biological slack grows with window length.
+
+kappa_L equals kappa_1 to the L to within 4.6%. So C5's finding that the slack exponent is
+proportional to depth is not an empirical regularity of trained networks. It falls out of
+walk-count combinatorics.
+
+One caveat on comparability. The measured slack used the canonical sound lattice with
+backbone edges and a trained model; kappa here uses the positive-probability lattice with
+no backbone. The scaling comparison is like for like, the absolute levels are not.
+
+### C9 where the characterisation stops
+
+| case | equality | bounded by kappa |
+|---|---|---|
+| uniform features, sum, relu (control) | yes | yes |
+| varied features, sum, relu | no | yes |
+| uniform features, max, relu | no | yes |
+| varied features, max, relu | no | yes |
+| uniform features, sum, tanh | no | yes |
+| varied features, sum, tanh | no | yes |
+
+Equality holds only in the affine, uniform-feature corner. kappa_L upper-bounds the gap in
+every case tested, including both nonlinear aggregation and a nonlinear monotone
+activation. A bound that survives outside its derivation is worth more than an equality
+that does not, and this is the version to state in the paper.
+
 ## Status
 
 Theorem survives its falsification attempt, and survives a randomised robustness audit
