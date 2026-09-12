@@ -1,0 +1,36 @@
+# Tiny ensemble audit: families small enough that E[g] can be computed EXACTLY by
+# enumeration, so the sampler and the deterministic bracket can both be checked
+# against ground truth rather than against each other.
+audit:
+  name: rna_tiny_ensemble
+  out_dir: runs/rna_ensemble
+  seed: 7027
+
+windows:
+  # declared sequences: no transcript resolution, no construct ambiguity
+  - {name: w_a, sequence: GGGAAAUCC,     length: 9}
+  - {name: w_b, sequence: GCGCAAAAGCGC,  length: 12}
+  - {name: w_c, sequence: GGGGAAAACCCC,  length: 12}
+
+family:
+  min_loop: 3
+  canonical_only: true
+  probability_floor: 0.0        # NO hidden deletion: every canonical pair is retained
+  declare_floor_explicitly: true
+
+priors:
+  - {name: declared, kind: declared_gibbs, theta_scale: 0.7}
+  - {name: vienna,   kind: vienna_bpp}
+
+covariates:
+  chemistry_vocabulary: [unmodified, 2p-OMe, 2p-F, 2p-OMe/2p-F, PS-backbone]
+  assay_vocabulary: [reporter_yfp, reporter_luciferase, native_quantigene]
+
+sampling:
+  n_samples: [64, 256]
+  record_standard_error: true
+
+model:
+  d_hid: 4
+  gamma: [0.0, 1.0]
+  seeds: [0, 1]

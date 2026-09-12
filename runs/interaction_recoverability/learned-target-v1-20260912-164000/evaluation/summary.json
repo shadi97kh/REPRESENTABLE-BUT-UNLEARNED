@@ -1,0 +1,708 @@
+{
+  "decision": "incremental-known",
+  "aggregate": {
+    "basis_direct_set_midpoint": {
+      "mse": 0.8945654733195618,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "basis_pooled_plugin": {
+      "mse": 0.8931625869648371,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "basis_rich": {
+      "mse": 0.56607312939396,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "basis_shared_plugin": {
+      "mse": 0.5724678072289212,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_adaptive": {
+      "mse": 0.47939382834477345,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_fixed": {
+      "mse": 0.49894479346410164,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_pooled_plugin": {
+      "mse": 1.1972649642675546,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_random": {
+      "mse": 0.4992441430657382,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_rich": {
+      "mse": 0.4970740214880364,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    },
+    "neural_shared_plugin": {
+      "mse": 0.5325881659698374,
+      "successful_datasets": 24,
+      "failed_datasets": 0
+    }
+  },
+  "strongest_complete_control": "neural_rich",
+  "relative_mse_reduction_vs_strongest": 0.035568531806059234,
+  "screening_threshold": 0.1,
+  "per_cell": [
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_direct_set_midpoint",
+      "mse": 1.9067523675825413,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_pooled_plugin",
+      "mse": 0.7074310808377365,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_rich",
+      "mse": 0.8142398669753503,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_shared_plugin",
+      "mse": 0.4982236316795167,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_adaptive",
+      "mse": 0.5551064214630147,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_fixed",
+      "mse": 0.6175369316350164,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_pooled_plugin",
+      "mse": 0.6930794653278373,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_random",
+      "mse": 0.6150296365119492,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_rich",
+      "mse": 0.5556419162060916,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_shared_plugin",
+      "mse": 0.40894402518441125,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.47774125381172805,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_pooled_plugin",
+      "mse": 0.21521899492323818,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_rich",
+      "mse": 0.0876273470694291,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_shared_plugin",
+      "mse": 0.09472681335745985,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_adaptive",
+      "mse": 0.05547491985601013,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_fixed",
+      "mse": 0.041038212954584846,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_pooled_plugin",
+      "mse": 0.8022350899724486,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_random",
+      "mse": 0.04092764688457217,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_rich",
+      "mse": 0.06509167650961506,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_shared_plugin",
+      "mse": 0.05421034854395856,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.7011156499462768,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_pooled_plugin",
+      "mse": 0.543267163735942,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_rich",
+      "mse": 0.6529763630048694,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_shared_plugin",
+      "mse": 0.454728330545111,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_adaptive",
+      "mse": 0.7289683017706245,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_fixed",
+      "mse": 0.6866654500219407,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_pooled_plugin",
+      "mse": 0.8915917509568937,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_random",
+      "mse": 0.6867225896321885,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_rich",
+      "mse": 0.7260841512360586,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_shared_plugin",
+      "mse": 0.45397813893779454,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.4107326833189764,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_pooled_plugin",
+      "mse": 0.2933822432495984,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_rich",
+      "mse": 0.18353968640481677,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_shared_plugin",
+      "mse": 0.1879787001842037,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_adaptive",
+      "mse": 0.032866926452562145,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_fixed",
+      "mse": 0.032556749448355626,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_pooled_plugin",
+      "mse": 0.09222992936323497,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_random",
+      "mse": 0.033415369887081416,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_rich",
+      "mse": 0.03496541838863319,
+      "replicates": 3
+    },
+    {
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_shared_plugin",
+      "mse": 0.020219587072193342,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_direct_set_midpoint",
+      "mse": 2.6438336083122165,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_pooled_plugin",
+      "mse": 4.2264192646092615,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_rich",
+      "mse": 1.7921206506527108,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "basis_shared_plugin",
+      "mse": 2.4890132288197098,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_adaptive",
+      "mse": 1.5639316740308529,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_fixed",
+      "mse": 1.693050302788919,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_pooled_plugin",
+      "mse": 5.85952640295756,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_random",
+      "mse": 1.6964580622603904,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_rich",
+      "mse": 1.6973371907917432,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "method": "neural_shared_plugin",
+      "mse": 2.3769035465854604,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.45697143190184925,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_pooled_plugin",
+      "mse": 0.3578562163569195,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_rich",
+      "mse": 0.08820570125073908,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "basis_shared_plugin",
+      "mse": 0.08091426794920772,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_adaptive",
+      "mse": 0.03716445732409077,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_fixed",
+      "mse": 0.03481058289067753,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_pooled_plugin",
+      "mse": 0.11943480575056394,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_random",
+      "mse": 0.03485500192010437,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_rich",
+      "mse": 0.034841831898151134,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "method": "neural_shared_plugin",
+      "mse": 0.020911165793722528,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.20462142381257933,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_pooled_plugin",
+      "mse": 0.6589984922946307,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_rich",
+      "mse": 0.7489032264846568,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "basis_shared_plugin",
+      "mse": 0.7232473258155396,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_adaptive",
+      "mse": 0.8167729991998026,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_fixed",
+      "mse": 0.8244397858765371,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_pooled_plugin",
+      "mse": 0.9765601406573587,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_random",
+      "mse": 0.8244724159824953,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_rich",
+      "mse": 0.8179493161912829,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "method": "neural_shared_plugin",
+      "mse": 0.8080497960027779,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_direct_set_midpoint",
+      "mse": 0.35475536787032785,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_pooled_plugin",
+      "mse": 0.1427272397113691,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_rich",
+      "mse": 0.16097219330910853,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "basis_shared_plugin",
+      "mse": 0.05091015948062172,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_adaptive",
+      "mse": 0.044864926661230015,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_fixed",
+      "mse": 0.061460332096782117,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_pooled_plugin",
+      "mse": 0.14346212915453882,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_random",
+      "mse": 0.06207242144712455,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_rich",
+      "mse": 0.04468067068271534,
+      "replicates": 3
+    },
+    {
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "method": "neural_shared_plugin",
+      "mse": 0.11748871963837972,
+      "replicates": 3
+    }
+  ],
+  "failed_datasets": [],
+  "datasets": 24,
+  "limitations": [
+    "pilot evidence only, three replicates per cell",
+    "no original-class confidence certificate",
+    "no proof of sharp attainable learned-nuisance rate",
+    "finite-sieve enrichment is standard residual-driven inverse regularization"
+  ]
+}

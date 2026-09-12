@@ -1,0 +1,96 @@
+name: revision_p4_actual_model_v1
+evaluation_status: exploratory_previously_inspected_huesken
+historical_records:
+  p1: runs/revision/predictor_pilot-20260905-223008.json
+  p1_diagnostics: runs/revision/predictor_pilot-20260905-222454.json
+  p2: runs/revision/verifier_pilot-20260905-233716.json
+  p3_audit: runs/revision/rna_audit-20260906-003113.json
+  p3_pilot: runs/revision/rna_pilot-20260906-011411.json
+resource:
+  authorization: configs/pilot.yaml
+  reconciliation: null
+  fraction_of_verified_remaining: 0.5
+  max_cycle_cpu_seconds: 900
+  max_cycle_wall_seconds: 900
+  gpu_hours: 0
+  threads: 1
+  workers: 0
+  audit_wall_seconds: 120
+  # No new authorization. Null or incomplete reconciliation blocks fitting.
+  required_accounting: [process_cpu, child_cpu, blas_threads, openmp_threads, gpu, wall, instances]
+capability:
+  family: GCGCAAAAGCGC
+  model: scmp.model.CertifiedModel
+  hidden: 12
+  seed: 20260911
+  distribution_seed: 411
+  n_instances: 96
+  train_fraction: 0.6
+  dev_fraction: 0.2
+  anchor_epochs: 200
+  residual_epochs: 400
+  lr_anchor: 0.01
+  lr_residual: 0.005
+  gamma_grid: [0.0, 0.125, 0.25, 0.5, 1.0]
+  noise_sd: 0.0
+  motif: "h(S)=0.2*|S|/max_size + 0.8*I(at least two of the three lexicographically first co-occurring edges are present)"
+  distributions: "label-independent Dirichlet draws; paired equal-marginal nullspace perturbations; fixed X with position identity, full distribution visible through graph samples"
+  expectation: exhaustive_valid_family
+  fit_gate_train_r2: 0.95
+  heldout_noninferiority_mse: 0.01
+  nonadditivity_tolerance: 1.0e-8
+  # A-init repair is reused from P1, not retested as a new result.
+rna:
+  window_nt: 50
+  source_rows: historical_p3_1153
+  context_status: inferred_contiguous_native_insert
+  construct_assumption: "one shared contiguous native insert per annotation accession; unverified"
+  coordinate_rule: separate_transcript_and_accession_no_gene_hull
+  isoform_rule: "most distinct mapped guides, then transcript ID; never labels"
+  ambiguity_sensitivity: [all_local_windows_identical, alternative_sequence_choice]
+  split: global_shared_13mer_connected_components
+  seed: 411
+  train_fraction: 0.6
+  dev_fraction: 0.15
+  arms: [guide_ridge, guide_pairwise_ridge, guide_window_ridge, summary_ridge, actual_A, actual_A_plus_B]
+  ridge_grid: [0.1, 1.0, 10.0]
+  hidden: 12
+  anchor_epochs: 20
+  residual_epochs: 20
+  batch_size: 16
+  learning_rate: 0.001
+  train_graph_samples: 8
+  eval_graph_samples: [16, 64]
+  prior_temperatures: [0.5, 1.0, 2.0]
+  prior: "declared Gibbs theta_e=0.5/T (not a physical expression or chemistry model)"
+metrics:
+  primary_predictive: paired_spearman_difference
+  noninferiority_margin_spearman: 0.02
+  margin_reason: "at most two rank-correlation points sacrificed for a material verification benefit; prospective utility tolerance, not a significance cutoff"
+  k: 5
+  k_reason: "shortlists fit small per-target heldout pools; n<5 is reported unavailable"
+  activity_threshold: 0.70
+  ndcg_gain: "2**unclipped_activity - 1"
+  ranking_utility: "mean selected activity loss <=0.02 and macro NDCG@5 loss <=0.02 against strongest dev-selected sequence baseline"
+  bootstrap_groups: 1000
+  bootstrap_seed: 199
+  targets: descriptive_only
+verifier:
+  arms: [combined, fixed_conditional, deterministic_selective, learned_selective, exhaustive]
+  predictor: frozen_capability_A_plus_B
+  require_predictive_utility: true
+  budgets_s: [0.01, 0.05, 0.2]
+  development_instances: 12
+  test_instances: 12
+  input_seeds: [711, 811]
+  strata: [original_family, wider_family]
+  wider_family: GGGGAAAACCCC
+  thresholds: [0.25, 0.5, 0.75]
+  condition_budget: 4
+  skip_stable_fraction: 0.95
+  learned_policy: ridge_downstream_decision_gain_per_wall_second
+  offline_amortization_instances: [1, 100, 1000]
+  min_coverage_gain: 0.10
+  min_gap_reduction_fraction: 0.20
+  numerical_status: float_unverified
+  uncertainty: "same frozen predictor within an instance; conservative independent families for unrelated RNA windows; no biological-order certificate"

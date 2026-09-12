@@ -1,0 +1,124 @@
+{
+  "reconstruction": {
+    "telescoping_identity_max_abs_error": 3.2862601528904634e-14,
+    "number_of_values": 36,
+    "status": "NUMERICALLY CHECKED using exact analytic quantile fixtures, no observations"
+  },
+  "score": {
+    "fixed_outcome_derivative_max_abs_error": 1.2624593037635634e-10,
+    "number_of_points": 15,
+    "score_means": [
+      {
+        "value": -1.3877787807814457e-17,
+        "quadrature_error_estimate": 1.2436710626125867e-10
+      },
+      {
+        "value": -1.2468324983583301e-17,
+        "quadrature_error_estimate": 8.167845580225933e-11
+      },
+      {
+        "value": -1.4018412586391862e-17,
+        "quadrature_error_estimate": 1.203555621024281e-10
+      },
+      {
+        "value": -2.7755575615628914e-17,
+        "quadrature_error_estimate": 1.8228816145910531e-10
+      },
+      {
+        "value": 6.46159083812943e-17,
+        "quadrature_error_estimate": 1.4176649490613435e-10
+      }
+    ],
+    "interval": [
+      -12,
+      12
+    ],
+    "status": "NUMERICALLY CHECKED; not a DQM proof"
+  },
+  "near_null": {
+    "rows": [
+      {
+        "M": 2,
+        "profile_norm": 5.358846432011754,
+        "score_norm_normalized": 0.061086205286515136,
+        "target_derivative_normalized": -0.010416827025800055,
+        "target_to_score_ratio": 0.17052666763210425,
+        "profile_norm2_quad_error": 1.4410602469538087e-07,
+        "score_norm2_quad_error": 7.127493668078599e-11,
+        "target_derivative_quad_error": 1.4506955019310082e-11
+      },
+      {
+        "M": 4,
+        "profile_norm": 5.987510550197848,
+        "score_norm_normalized": 0.014375845319252985,
+        "target_derivative_normalized": 0.00011458856382219078,
+        "target_to_score_ratio": 0.007970909624961461,
+        "profile_norm2_quad_error": 3.666623847076758e-07,
+        "score_norm2_quad_error": 2.0249541795862696e-11,
+        "target_derivative_quad_error": 2.1582633806528607e-13
+      },
+      {
+        "M": 6,
+        "profile_norm": 6.218622814019929,
+        "score_norm_normalized": 0.0006569640612124959,
+        "target_derivative_normalized": 6.723142314706198e-08,
+        "target_to_score_ratio": 0.00010233653119925519,
+        "profile_norm2_quad_error": 4.406582035000137e-07,
+        "score_norm2_quad_error": 8.831703413178362e-12,
+        "target_derivative_quad_error": 4.713891409093319e-16
+      }
+    ],
+    "allocation": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "score_and_target_interval": [
+      -12,
+      12
+    ],
+    "interpretation": "Both score and target derivatives shrink. This does not decide target regularity.",
+    "status": "NUMERICALLY CHECKED; quadrature estimates are not certified bounds"
+  },
+  "preflight": [
+    {
+      "delta": 0.1,
+      "R": 5.029837072099292,
+      "hR": 7.609278613779129,
+      "q": 0.07581633246407919,
+      "gamma": 0.412180317675032,
+      "J": 5.8487439745931225,
+      "T": 9.029837072099292,
+      "U": 10.029837072099292,
+      "log_epsilon": -2.9667565837003114,
+      "log_cdf_gap": -43.90042633881496,
+      "sufficient_log10_n": 38.55453379739265,
+      "informative": false,
+      "target_abs_bound": 151.02303271771265,
+      "status": "PROVED HERE bound evaluated in uncertified floating point"
+    },
+    {
+      "delta": 0.01,
+      "R": 16.045081450978913,
+      "hR": 18.62452299265875,
+      "q": 0.07581633246407919,
+      "gamma": 0.412180317675032,
+      "J": 5.8487439745931225,
+      "T": 20.045081450978913,
+      "U": 21.045081450978913,
+      "log_epsilon": -2.9667565837003114,
+      "log_cdf_gap": -204.82204100155633,
+      "sufficient_log10_n": 178.32927233137264,
+      "informative": false,
+      "target_abs_bound": 124.4962093759706,
+      "status": "PROVED HERE bound evaluated in uncertified floating point"
+    }
+  ],
+  "sample_fits": 0,
+  "random_draws": 0,
+  "training_runs": 0,
+  "gpu_use": 0,
+  "note": "Exact-function diagnostic fixtures are oracle evidence only, never learner inputs."
+}

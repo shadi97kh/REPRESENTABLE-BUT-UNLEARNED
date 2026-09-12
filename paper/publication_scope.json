@@ -1,0 +1,255 @@
+{
+  "scope": "Research code, scientific reports, figures and linked supporting tables",
+  "destination": "git@github.com:shadi97kh/iclr2027.git",
+  "branch": "main",
+  "source_remote": "https://github.com/shadi97kh/iclr2027.git",
+  "excluded_categories": [
+    "User task prompts",
+    "Execution journals",
+    "Local resource ledgers",
+    "Source sample arrays",
+    "Per-fold fitted parameter files",
+    "Model checkpoints",
+    "Evaluator-only specifications",
+    "Third-party raw audit tables",
+    "Downloaded papers",
+    "Detailed chemical audit and checkpoint-split records"
+  ],
+  "scientific_results": [
+    {
+      "path": "paper/results/runs/interaction_recoverability/learned-target-v1-20260912-164000/validation.json",
+      "bytes": 843,
+      "sha256": "2d527c806ba2e5ac968b918cefaeb3b32beece70fcf8bb68a335c3d121a05d63"
+    },
+    {
+      "path": "runs/20260904-020253/f7_soundness.json",
+      "bytes": 2920,
+      "sha256": "9910d62a1dfe37f474b24b37cd2a9ce6ef75a94ec24e0b798c77508bdbe6f84b"
+    },
+    {
+      "path": "runs/20260904-034559/c5_slack_scaling.json",
+      "bytes": 2023,
+      "sha256": "1e596c1ea80c442c8bc94ed55c9554bc73aab4b218b487a3705ee2a66be142ca"
+    },
+    {
+      "path": "runs/20260904-043204/c7_kappa_characterization.json",
+      "bytes": 4650,
+      "sha256": "8b77d8f6d8c019d9c1fe1b46cc265d8999c87980586694bc0799df1c087ee0d3"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+      "bytes": 3434,
+      "sha256": "4a87fd5b3fb33491f9160512e6440f0995772697f5e32534c0922584bc961df9"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+      "bytes": 293823,
+      "sha256": "fd95ef78213211d36a866582cc5485a455c6376a1c06af9f24e87800fe4972ab"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+      "bytes": 188595,
+      "sha256": "a804323dd2201bccbe648cbebad7c54017b5c41f36ccf11264d44fea61ce602b"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+      "bytes": 80982,
+      "sha256": "35b3db9f6a8851931a50db48e9f28bbcca85348b05991c2fb21c002b7d08f587"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+      "bytes": 69246,
+      "sha256": "bc217e7b8cc2f3ef14c7fdfa84c616ca93a586fbd1fabfdb83fbf275d9694827"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+      "bytes": 127545,
+      "sha256": "40f364e845a816bc0ea1b23408838dd2ac3396252fa3bfcc83a80e418f9e5bf1"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+      "bytes": 141890,
+      "sha256": "86001939c198d4819bf169d79fbd63b8da6a7d488ec67854d0ac75bc7038470d"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+      "bytes": 34969,
+      "sha256": "9c17157777ef391b255cc670d27b93bf31aff448b2cefe29dcdcaf3925316bf6"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/prediction_hashes.json",
+      "bytes": 1874,
+      "sha256": "6d7b0027299170b7b3a5791caf13a9f0574fb2415e424d7a382981f487e5579b"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+      "bytes": 33144,
+      "sha256": "1bb7b933b5157d66ba36480fe99f2d471edfe218308452a06bd103125c0d8d77"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+      "bytes": 15542,
+      "sha256": "1fa10b44b55fd5920767efc8af432856f259b0b8e74ab0b31b43e33450079693"
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/frozen_config.json",
+      "bytes": 5863,
+      "sha256": "567e577160f03f38ad7c2b4b8b604cccfa73efcd58b9e103dd47be554b67b1e6"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v1/diagnostics.json",
+      "bytes": 6703,
+      "sha256": "41ce79e33834f286742f52a2542ebedbfc14ad9a0ba75d66a373dc0521a22956"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v1/diagnostics.json.sha256",
+      "bytes": 83,
+      "sha256": "4ca7ccc93a6cacbd8a3b3180206c9759c7237658047c2a0014b08f98cb65e9b2"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v2/diagnostics.json",
+      "bytes": 6767,
+      "sha256": "66fad44098742c1571469a93c25b43492c71b49056001039d109b8f11494342f"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v2/diagnostics.json.sha256",
+      "bytes": 83,
+      "sha256": "db69ad20ba6bb8b44b9d1499b8205ee1f724e7e1b97ed8f9580fc07dba091d2e"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/sources/manifest.json",
+      "bytes": 2604,
+      "sha256": "1a9e8a74347c38fa8790f0f8c4adc649bb6ae6b6d579e07565ae7520e7451391"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-v1/diagnostics/diagnostics.json",
+      "bytes": 3973,
+      "sha256": "5149a0dc968d82edc08db97c70952257e278c95a33d32526a0e2c3f9723035e6"
+    },
+    {
+      "path": "runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-v1/source_manifest.json",
+      "bytes": 225,
+      "sha256": "d52ebe0d69687a3f6ef4d6dfb5c159eff371835e5762b43b0d90b9d6ba52c766"
+    },
+    {
+      "path": "runs/intervention/alternative_data_audit-v1.json",
+      "bytes": 1563,
+      "sha256": "f929806a8a7b3e0462a4bfddb659798848c5675bbb7a716ff71fa47514cc1f9e"
+    },
+    {
+      "path": "runs/intervention/alternative_data_audit-v1.json.sha256",
+      "bytes": 97,
+      "sha256": "02d79a44ce2aae4c62a2890e114ead585f39e1a4bdf2f759ac46f60db30b7393"
+    },
+    {
+      "path": "runs/intervention/preparation-v1/responses.csv",
+      "bytes": 27356,
+      "sha256": "215df93a94a3039ee6858662297d150349f188e6d2b0f233ac46b9423d7f7336"
+    },
+    {
+      "path": "runs/intervention/preparation-v1/responses.csv.sha256",
+      "bytes": 80,
+      "sha256": "db4f539acef92b425ce3d7d1de185afc3d866955a679db060ea303a21ff63351"
+    },
+    {
+      "path": "runs/intervention/preparation-v2/responses.csv",
+      "bytes": 27356,
+      "sha256": "215df93a94a3039ee6858662297d150349f188e6d2b0f233ac46b9423d7f7336"
+    },
+    {
+      "path": "runs/intervention/preparation-v2/responses.csv.sha256",
+      "bytes": 80,
+      "sha256": "db4f539acef92b425ce3d7d1de185afc3d866955a679db060ea303a21ff63351"
+    },
+    {
+      "path": "runs/intervention/tests-v4.json",
+      "bytes": 647,
+      "sha256": "718c417f5a79ad81efb17f196806ec501ca400c69cbf00eac69ba81b2da546be"
+    },
+    {
+      "path": "runs/intervention/tests-v4.json.sha256",
+      "bytes": 80,
+      "sha256": "40fd74b12e42c5bf8e96694702dccf92e956c3af3959165f9ab12afbc1d2c99e"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure1_prediction_ranking.csv",
+      "bytes": 1592,
+      "sha256": "5fa57ae159870b9bc71dd156b4cdaa61ea8d4922711f04ba016fd3449e22222a"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure1_prediction_ranking.csv.sha256",
+      "bytes": 127,
+      "sha256": "d0a55272409f829cc3c040e8aea388846e6d216d544657afcc28529bc8fa9f7d"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute.csv",
+      "bytes": 8754,
+      "sha256": "9807bf0780285bb6d7b299bbafff3a2d3c1eafa0d3664307fc71dea40c3c32e8"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute.csv.sha256",
+      "bytes": 131,
+      "sha256": "4f7427ccb707174ee1f6857a022f87c94285c84b11e01140d477e2adc33af2ee"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv",
+      "bytes": 11581,
+      "sha256": "52f43c3cd6f9ea5d9098e4ed4cceab86489f145695dbde7ceb2c5635fcb8ab71"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv.sha256",
+      "bytes": 134,
+      "sha256": "60ec98149c985b6ecea23f5edb55559ae5d06f171a11aa3e72c185894e40e11b"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure3_target_candidates.csv",
+      "bytes": 95613,
+      "sha256": "4670fe00707ddf927769868b74180bebdac4850d3efe1dd6593d0c9029bc7e33"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-figure3_target_candidates.csv.sha256",
+      "bytes": 126,
+      "sha256": "6ac9572021bef2925961930af579d07c86131d50ad99e743f0f0c9704c9bb7ee"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-postcheck.json",
+      "bytes": 2731,
+      "sha256": "9076db912ff5eddcf6810ede6e704734698af6eb423089dc43098b22fd82818a"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-postcheck.json.sha256",
+      "bytes": 111,
+      "sha256": "81b0966e63a78ab52dc1110996d7f7fd6d7408ead1021bc581f792c799b7b499"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-target_summary.csv",
+      "bytes": 2622,
+      "sha256": "b6b65e3b665ea33b3c2e462cc3ccd8602c0cb08b7b2f03f9db6ccf9efd23141a"
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-target_summary.csv.sha256",
+      "bytes": 115,
+      "sha256": "0ffd0afd6339918fe1742d137d6df432c245c5d0529810c73c8562a9966a953c"
+    },
+    {
+      "path": "runs/revision/p4_tests-20260911-171750-499726.json",
+      "bytes": 2349,
+      "sha256": "0bee49a056957cec44f7332d5c3f5f5c81c1cd8ff55991a42efbe747bd000b8c"
+    },
+    {
+      "path": "runs/revision/p4_tests-20260911-171750-499726.json.sha256",
+      "bytes": 103,
+      "sha256": "8ba2c3f0d16f2fd73104b1280377c553377e746fb024dc47392fb44be02c13e9"
+    }
+  ],
+  "result_data_scope": "Synthetic/analytic diagnostic outputs, aggregate model-comparison tables and saved assay prediction summaries. No individual human participant information. No new fits or evaluation.",
+  "review": {
+    "result_files_inspected": true,
+    "raw_sample_arrays_in_upload": 0,
+    "model_checkpoint_files_in_upload": 0,
+    "evaluator_only_files_in_upload": 0,
+    "high_confidence_credential_pattern_hits": 0,
+    "assay_summary_scope": "Published reporter-assay candidate/target summaries; gene identifiers, measured activity and predictions, no human participant identifiers",
+    "destination_verified": "Existing origin identifies this repository; SSH authenticates as shadi97kh"
+  }
+}

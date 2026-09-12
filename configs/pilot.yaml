@@ -1,0 +1,42 @@
+# Capped pilot. Runs only if `authorized_budget` is set by the PI.
+pilot:
+  protocol: configs/protocol.yaml
+  authorized_budget:           # approved 2026-09-05 by PI, matches protocol proposed_cap
+    cpu_core_hours: 8
+    gpu_hours: 1
+    wall_clock_hours: 2
+    max_instances: 600
+    paid_or_cloud: false
+  hardware:
+    use_gpu: true
+    gpu_memory_fraction: 0.15
+  out_dir: runs/pilot
+
+families:
+  - name: layered_dag_path
+    instances: 30
+    n_layers: 4
+    width: 3
+  - name: path_matching
+    instances: 30
+    n_nodes: 10
+  - name: rna_noncrossing
+    instances: 12
+    sequences: [GGAAACC, GGGAAAUCC, GCGCAAAAGCGC]
+    role: tiny_pilot_only
+
+verifier_arms: [box, terminal_only, intermediate_unconditional,
+                fixed_conditional, learned_conditional]
+budget: 5
+seeds: [0, 1, 2, 3, 4]
+max_nodes: 100
+time_limit: 20.0
+matched_wall_time_s: 1.0     # every verifier arm gets the same wall clock per instance
+
+predictor:
+  enabled: true
+  max_sequences: 400          # RNA dev subset; gene-disjoint split
+  epochs: 150
+  lr: 0.02
+  d_hid: 24
+  arms: [certifiable_gamma0, certifiable_gamma1, unconstrained]

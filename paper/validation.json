@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope": "Static publication audit; no scientific tests or experiments rerun",
+  "figure_count": 12,
+  "archived_png_svg_pairs_unchanged": 3,
+  "pilot_prediction_rows": 240,
+  "pilot_source_datasets": 24,
+  "preserved_original_files": 961,
+  "changed_original_files": [],
+  "original_readme_change": "explicitly authorized",
+  "numerical_source_modules_imported": 0,
+  "ast_syntax_checked_files": 139,
+  "broken_publication_links": [],
+  "command_prompts_or_journals_selected": [],
+  "executable_shell_material_in_published_documents": [],
+  "credential_pattern_hits": [],
+  "historical_preparation_ledger_unchanged": true,
+  "note": "Figures were also visually inspected. Fitted results and diagnostic records predate this publication task.",
+  "publication_selected_files": 321,
+  "upload_boundary": "Narrowed to research code, reports, figures and supporting tables after broad egress review rejection; full local samples, checkpoint and evaluator artifacts preserved but excluded.",
+  "git_whitespace_check": "Generated SVG path lines contain trailing whitespace. Archived figures and historical files were preserved rather than reformatted.",
+  "broad_upload_executed": false
+}

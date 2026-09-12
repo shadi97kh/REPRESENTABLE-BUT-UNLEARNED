@@ -1,0 +1,56 @@
+{
+  "status": "all deterministic checks passed",
+  "fixtures": [
+    {
+      "delta": 0.1,
+      "oscillatory": false,
+      "coefficients": [
+        0.5,
+        0.75,
+        0.65,
+        0.9
+      ],
+      "K": 1,
+      "target": 4.045479446259217,
+      "direct": 2.5572307282988214,
+      "remainder": 1.4882487179603967,
+      "remainder_bound": 14.88248717960397,
+      "identity_absolute_error": 6.661338147750939e-16,
+      "source_weight_absolute_error": 1.3322676295501878e-15,
+      "density_mass": 1.0000000000000002,
+      "max_inverse_error": 8.881784197001252e-16
+    },
+    {
+      "delta": 0.03,
+      "oscillatory": true,
+      "coefficients": [
+        0.6,
+        0.8,
+        0.7,
+        0.95
+      ],
+      "K": 4,
+      "target": 4.428258524723326,
+      "direct": 4.347364603513834,
+      "remainder": 0.08089392120947866,
+      "remainder_bound": 0.8236373418488134,
+      "identity_absolute_error": 1.2795320358804929e-14,
+      "source_weight_absolute_error": 1.4210854715202004e-14,
+      "density_mass": 1.0000000000000002,
+      "max_inverse_error": 8.881784197001252e-16
+    }
+  ],
+  "periodic_residue": 1.513371417176337e-08,
+  "fourier_residue": 1.5133714240924264e-08,
+  "periodic_absolute_error": 6.916089527035876e-17,
+  "integer_shift_absolute_error": 8.326672684688674e-17,
+  "primitive_derivative_error": 2.1538104633123112e-11,
+  "measured_child_cpu_s": 6.154809871,
+  "affinity": [
+    0
+  ],
+  "workers": 1,
+  "numerical_threads": 1,
+  "gpu_s": 0,
+  "limitations": "Ordinary float64 diagnostics on stated finite integration domains, not certified enclosures. No sampled observations, fits, minimax tests or new pilot results."
+}

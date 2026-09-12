@@ -1,0 +1,19 @@
+{
+  "through_completed_job": 39,
+  "measured_cpu_s": 8.769188000000002,
+  "aggregate_job_wall_s": 9.003851214190945,
+  "conservative_static_overhead_debit_s": 120,
+  "conservative_charge_s": 129.203851214191,
+  "maximum_additional_charge_s": 449.2158945991382,
+  "gpu_s": 0,
+  "workers": 1,
+  "numerical_threads": 1,
+  "retained_reporting_reserve_s": 600,
+  "global_remaining_s": 5632.056217805693,
+  "new_fits": 0,
+  "new_experiments": 0,
+  "figure_render_jobs": 1,
+  "static_audit_jobs": 1,
+  "local_ledger_sha256": "b239393f80ab7356959ac5f31ec15194f93e8a425b9de2bb60a0af5c2fe486a7",
+  "note": "Final publication accounting through completed job 39. The conservative 120-second static overhead debit covers discovery, authoring, git transfer, file copying and image inspection; it is not measured CPU. No historical preparation-ledger change. Local operational command journals are intentionally not published."
+}

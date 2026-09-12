@@ -1,0 +1,113 @@
+# Machine-readable protocol. Companion to preregistration.md.
+# Every value here was chosen on development data; the test split is not loaded.
+protocol:
+  name: scmp_verification_protocol
+  version: 1
+  written: 2026-09-05
+  preregistration: preregistration.md
+  chosen_on: development
+
+primary_metric:
+  name: relative_certified_gap
+  definition: (upper - incumbent) / max(abs(incumbent), 1)
+  direction: lower_is_better
+  aggregate: median
+
+effect_sizes:
+  minimum_meaningful_gain:
+    metric: relative_certified_gap
+    relative_reduction: 0.25
+    justification_dev: "conditional vs baseline -84%; scorer differences ~0-3% (noise)"
+  predictive_noninferiority_margin:
+    metric: spearman
+    margin: 0.05
+    direction: unconstrained_minus_constrained
+    justification_dev: "observed cost 0.002-0.039; seed sd 0.004-0.023"
+
+design:
+  independent_split_unit:
+    rna: gene
+    non_rna: family_instance
+  seeds: [0, 1, 2, 3, 4]
+  report_all_seeds: true
+  drop_seeds: false
+  confidence_interval:
+    method: cluster_bootstrap_percentile
+    resamples: 10000
+    level: 0.95
+    cluster_by: independent_split_unit
+  tuning:
+    max_configs_per_arm: 12
+    equal_allowance_for_baselines: true
+    tuned_on: development
+
+arms:
+  verifier_only:
+    - {name: box, implemented: true}
+    - {name: terminal_only, implemented: true}
+    - {name: intermediate_unconditional, implemented: true}
+    - {name: fixed_conditional, implemented: true}
+    - {name: learned_conditional, implemented: true}
+    - {name: topology_aware_solver, implemented: false,
+       note: "requires SCIP or equivalent; report as unavailable, never omit"}
+  predictor_training:
+    - {name: monotone_positional, implemented: true}
+    - {name: unconstrained_positional, implemented: true}
+    - {name: monotone_generic, implemented: true}
+    - {name: unconstrained_generic, implemented: true}
+  separate_tables: true
+  frozen_model_required: true
+  frozen_model_check: model_hash
+
+cost_accounting:
+  charged:
+    - bound_construction_s
+    - oracle_calls
+    - policy_inference_s
+    - teacher_generation_passes
+    - training_s
+    - wall_clock_s
+  net_of_anything: false
+
+exclusions:
+  void_rules:
+    - {id: empty_family, reason: nothing to certify}
+    - {id: singleton_family, reason: bound trivially exact}
+    - {id: dead_instance, reason: output constant across the family}
+    - {id: non_finite, reason: numerical failure}
+    - {id: integrity_reject, reason: dataset failed published-statistics check}
+  never_exclude_for:
+    - hard_instance
+    - loose_bound
+    - arm_lost
+    - unlucky_seed
+    - not_significant
+  unresolved_counts_in_denominator: true
+
+families_order:
+  - {name: layered_dag_path, kind: non_rna, implemented: true}
+  - {name: path_matching, kind: non_rna, implemented: true}
+  - {name: rna_noncrossing, kind: rna, implemented: true, role: tiny_pilot_only}
+
+rna_labels:
+  label_is_structure_indexed: false
+  assume_invariant_across_latent_structures: false
+  worst_case_has_measured_counterpart: false
+  permitted_predictive_claim: marginal_label_fit_only
+  retired_phrases: ["bounds off-target risk"]
+
+licences:
+  gencode_v47: {status: unresolved, note: "'open access' stated; no explicit licence"}
+  huesken_dsir: {status: unresolved}
+  sirna_efficacy_db: {status: unresolved}
+  vendored_in_repo: false
+  publish_derived_data_before_resolution: false
+
+compute:
+  authorized_budget: null        # nothing authorised yet
+  proposed_cap:
+    cpu_core_hours: 8
+    gpu_hours: 0
+    wall_clock_hours: 2
+    max_instances: 600
+    paid_or_cloud: false

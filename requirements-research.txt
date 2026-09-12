@@ -1,0 +1,11 @@
+# Additional dependencies for the preserved research implementations.
+# Sampled execution remains disabled where specified by the research modules.
+-r requirements.txt
+scipy>=1.10
+scikit-learn>=1.2
+pandas>=2
+PyYAML>=6
+networkx>=3
+mpmath>=1.3
+pytest>=8
+hypothesis>=6

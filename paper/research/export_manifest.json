@@ -1,0 +1,647 @@
+{
+  "format_version": 1,
+  "purpose": "Publication-only scientific document copies. Original files remain unchanged. Execution instructions and operational links are omitted; mathematical formulas, numerical outcomes, negative results, and historical limitations are retained.",
+  "exports": [
+    {
+      "source": "docs/architecture_audit.md",
+      "destination": "paper/research/docs/architecture_audit.md",
+      "source_sha256": "b5a4c46d2fe7e80683545a3bdde6a83b5fb8dd2c18490d502e96969e270b35b0",
+      "publication_sha256": "6ce84539386a6777d1da3c343146ff5a634297624dbdc38631bff732e5bb21bc",
+      "source_bytes": 7958,
+      "publication_bytes": 8291,
+      "edits": {}
+    },
+    {
+      "source": "docs/bounds_proof.md",
+      "destination": "paper/research/docs/bounds_proof.md",
+      "source_sha256": "9e910768b24a39db1d319ce6858a6f1ff241866e37e0425a44ea4fa12ca08689",
+      "publication_sha256": "4e1da71a3d19b206e42dedb88ae3c0739fd93334f1f3f2628da9d524c56ef896",
+      "source_bytes": 10728,
+      "publication_bytes": 11055,
+      "edits": {}
+    },
+    {
+      "source": "docs/claim_ledger.md",
+      "destination": "paper/research/docs/claim_ledger.md",
+      "source_sha256": "94323c185f3b9383648ce18e84272b9391de6aff51326cb0c572b5791c6524d5",
+      "publication_sha256": "3daa5258f7941792796906cd8d8e3db2f9b67701fe2f8f8da567af1bcba539d4",
+      "source_bytes": 10799,
+      "publication_bytes": 11135,
+      "edits": {
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    },
+    {
+      "source": "docs/claims_to_evidence.md",
+      "destination": "paper/research/docs/claims_to_evidence.md",
+      "source_sha256": "6d9625913ef00809c21eee13d959db1f6797710ca8b3cf537b59cb6af6c723f1",
+      "publication_sha256": "e783a873833252862d0aef666105c7200c0732daa595fff059bc37d5f2d42ba0",
+      "source_bytes": 6659,
+      "publication_bytes": 6992,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/decision.md",
+      "source_sha256": "26f9f33b77176be66d3919a484776b15bf38172e2e0267aa23d19d9b348ce4c8",
+      "publication_sha256": "be87fc85c9da1cf4ac71a493843b40704e234d80ff78f8d3d15317d90031935a",
+      "source_bytes": 7511,
+      "publication_bytes": 6711,
+      "edits": {
+        "Omitted a paragraph introducing or pointing only to execution instructions.": 2,
+        "Omitted one fenced shell execution block.": 1,
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2,
+        "Removed a hyperlink to an omitted operational record.": 3
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/decision.md",
+      "source_sha256": "78477f553b5797581846bfbf7806f602ffe4879f3f3575491410d8505165eb02",
+      "publication_sha256": "65864b5ede2fd86daf9a74f3cdda055764f3030abd297fe64b9d57ad39c93ffb",
+      "source_bytes": 4176,
+      "publication_bytes": 4696,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 3,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/estimator.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/estimator.md",
+      "source_sha256": "98e87c93c2b753558424ae3596690bf7c9b7c466e053ed10313e44de7fee9feb",
+      "publication_sha256": "2d6a4cdbee83a10476a1576ecf136c4cbd567f811ae70d8f8c335806506b4960",
+      "source_bytes": 10330,
+      "publication_bytes": 10698,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/exact_problem.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/exact_problem.md",
+      "source_sha256": "e239593b78d32b77ac5883bd184174a18f3b06ea3d344ce14d8ac9d1ae16eadf",
+      "publication_sha256": "c6f8828509ad6cab9e797dde30cbab37a341bcf98209f31137b4cb24248c7ab2",
+      "source_bytes": 3962,
+      "publication_bytes": 4334,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/modulus.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/modulus.md",
+      "source_sha256": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab",
+      "publication_sha256": "97986727b5dbf2bc2b771fa54f6142058d7e1e7f184fc583cd456d74d3b9a625",
+      "source_bytes": 9322,
+      "publication_bytes": 9688,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/novelty.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/novelty.md",
+      "source_sha256": "bd1606ce674cfad2c2ff5584cc58f35fb171d5aed494a066779e26743dc83bfd",
+      "publication_sha256": "ef4b366b6774a8fa8072cf76e4be82809ba93d332072c23fb37b61876d528ca2",
+      "source_bytes": 6261,
+      "publication_bytes": 6627,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/direct_target/v1/target_identity.md",
+      "destination": "paper/research/docs/interaction_recoverability/direct_target/v1/target_identity.md",
+      "source_sha256": "ffa73fda398ab1375991117dba643ceadd867fccc842d8f833597dcf1abbaef7",
+      "publication_sha256": "a6201fb507f6bdc30076f840ae16223f82dc3609a697bb396911c8a36c0b693d",
+      "source_bytes": 7195,
+      "publication_bytes": 7636,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/estimator.md",
+      "destination": "paper/research/docs/interaction_recoverability/estimator.md",
+      "source_sha256": "9a7a38de07f9e3cbaa6435c0fe42b90d6b895ac4a071f67905a119d51d1ebad4",
+      "publication_sha256": "e0e1c3c96c7ddf24bf2ccd7468ec3cc3fbade566129ed51fc5c314b53dcee013",
+      "source_bytes": 6297,
+      "publication_bytes": 6660,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/additional_reductions.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/additional_reductions.md",
+      "source_sha256": "8444a0d8774cc39137f5d54974ad76b430a7287d6d03933a9b3b00d669ef22c7",
+      "publication_sha256": "6589f57c987139a315f86e9413b4ec8bb6299b48984f1b91c7a9dbb88a5b5f76",
+      "source_bytes": 2822,
+      "publication_bytes": 3203,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/adversarial_review_20260912.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/adversarial_review_20260912.md",
+      "source_sha256": "9e3dfa8d7b062283ad7b8a8d0a46675e02f84486524e112e6635b8821bfd4881",
+      "publication_sha256": "1449f8944489ab3e17091403e4bef882bc38f01684dbc55b30ac367175504d22",
+      "source_bytes": 20856,
+      "publication_bytes": 21188,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 11,
+        "Removed a hyperlink to an omitted operational record.": 2,
+        "Removed an original line-number anchor after adding the publication preface.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/decision.md",
+      "source_sha256": "d72e0b5c601ef3037996421937b275059c2448232a94e97e13d9cd3f43c357a6",
+      "publication_sha256": "1ffc78e4153bd7a789feb4099f858cd19896de4fd314c082a15980bd960084b8",
+      "source_bytes": 3191,
+      "publication_bytes": 3632,
+      "edits": {
+        "Removed a hyperlink to an omitted operational record.": 3
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/information_flow.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/information_flow.md",
+      "source_sha256": "f230aa6dd07a82ca175abb47575992af5eb35c281b31cb20d7fb354b1798ea54",
+      "publication_sha256": "ca6cd94f4f70e3f47dafcf7456550b57efc1359bf648c0f043cd70c6f9ea14bb",
+      "source_bytes": 3554,
+      "publication_bytes": 3930,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/method.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/method.md",
+      "source_sha256": "1e9e34bfb7e6ec7fc2ff5ed75f398ea5caa95b4912dc0c5ceac7606df7caf316",
+      "publication_sha256": "5830da7cb1a8bcfa65441022f76e8c7e8d88d2bfdd9167a2b44145a5e91845ce",
+      "source_bytes": 9513,
+      "publication_bytes": 9879,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/novelty.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/novelty.md",
+      "source_sha256": "d0502585041ce6aa70486ef2ad571191ade3134306e78719574a1071d8183e1f",
+      "publication_sha256": "81948425e83ac02bdd62e089fe7179ea1421b3e0e95020958b04e6db7a846e81",
+      "source_bytes": 8836,
+      "publication_bytes": 9203,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/preregistration.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/preregistration.md",
+      "source_sha256": "50dd9f3cfed09de1de550dd2b680c649c834e240c752da5ddab0d92cd2dcf52b",
+      "publication_sha256": "ab83282821681dcbc383cbc07c36916004386484383be307844d55da048f1603",
+      "source_bytes": 3926,
+      "publication_bytes": 4330,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 1,
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/results.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/results.md",
+      "source_sha256": "5cfa5273ddc4a8508f5a586038ccc36acbcdbc82f1087196de4a58304ff3810d",
+      "publication_sha256": "5e9cb00f70b38ee8c7002fecbcff4b16d73c89ec17ad88b6af808dc3a7bad7c1",
+      "source_bytes": 7895,
+      "publication_bytes": 8381,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 11,
+        "Removed a hyperlink to an omitted operational record.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/review.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/review.md",
+      "source_sha256": "82fd48aeb4a7faafc017c989a75e6f89ec8da4de8213355b6a2c1ffd6b97f1d2",
+      "publication_sha256": "3589b4d5597c1e901a7d97561bae2e424aeabc6eb5606bac82c7d3d3feb318e5",
+      "source_bytes": 5438,
+      "publication_bytes": 5709,
+      "edits": {
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/sirna_mapping.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/sirna_mapping.md",
+      "source_sha256": "17e2f0315910ecf0d05a0c04ff8b026df7e1a660957cd304eade5be9033800a8",
+      "publication_sha256": "02befeda5f4b39184b45d9637dc6132a2cf039121a83a4fe031209631aaf666c",
+      "source_bytes": 6217,
+      "publication_bytes": 6590,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/theorem.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/theorem.md",
+      "source_sha256": "d2d36cd66d01c5a9e6220438836e617f3a7e1e2bc4dfc544d893de4c551e0acd",
+      "publication_sha256": "5949f8a4233913049657ba2a41c3131aea5555082148bb7064062153b0d4ae2a",
+      "source_bytes": 12145,
+      "publication_bytes": 12512,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/learned_target_v1/validation.md",
+      "destination": "paper/research/docs/interaction_recoverability/learned_target_v1/validation.md",
+      "source_sha256": "38690b4ba9ed7b2560d8ddd9929d94e04b56b1318757c9076f060f7563ab5f83",
+      "publication_sha256": "57bed49e2ef9d3e159d529e52e07fec8da7561e2aa8a5aa0c7869852117ef6e6",
+      "source_bytes": 3960,
+      "publication_bytes": 4341,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 1,
+        "Remapped a result link to its approved publication copy, with execution metadata omitted there.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/local_attainment/v1/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_attainment/v1/decision.md",
+      "source_sha256": "820421f16687df71781e96c5e88795e2d95145176e7ca357f48fab6bfd339888",
+      "publication_sha256": "4d807dac163478f084bba21ba3f12a4437b444efe900f3faa3aa4c5ce6b6251e",
+      "source_bytes": 4087,
+      "publication_bytes": 4610,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/local_attainment/v1/estimator.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_attainment/v1/estimator.md",
+      "source_sha256": "fb264d69803c5538824e75693a56a8b0063854ee5b4b50ae83151f46ec7383f0",
+      "publication_sha256": "0f1ecde53401dff9397a18baddaf3eae9bba6e3d23da9c80ba97dc4fe32da11c",
+      "source_bytes": 12360,
+      "publication_bytes": 12870,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/local_attainment/v1/novelty.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_attainment/v1/novelty.md",
+      "source_sha256": "b2c205ae4c17f11ebe93d6d2af6deee0ee38d1afec5a329a59b8b2dfefb88805",
+      "publication_sha256": "8b24d63a1f801621fd1961435170ec0e17c1ce68e97400acb12168d17602cfc7",
+      "source_bytes": 5463,
+      "publication_bytes": 5832,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/local_attainment/v1/theorem.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_attainment/v1/theorem.md",
+      "source_sha256": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0",
+      "publication_sha256": "e986e1989a9a59d4bedfc3e1da4a693d131abe4c868b053de77b82f3820d8a7b",
+      "source_bytes": 21097,
+      "publication_bytes": 21466,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/local_five_law/v1/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_five_law/v1/decision.md",
+      "source_sha256": "b61d5304708db0c414e1a26555685ba345559e18d2f761b7e07a96d8b6fbba66",
+      "publication_sha256": "c1e9194106970df89aae439547485a3f10a9556b6ec5d797df1bd832860ae334",
+      "source_bytes": 5332,
+      "publication_bytes": 5849,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/local_five_law/v1/proof.md",
+      "destination": "paper/research/docs/interaction_recoverability/local_five_law/v1/proof.md",
+      "source_sha256": "d4fc930f092cfb80c3f2ea04a827c9ff0e56d27d42dce9b81c8f06a17055c6f1",
+      "publication_sha256": "ae16df85300a1c8c247b7fa1ab056f8a333b6643dc6fadb57f1cd73e17471b7c",
+      "source_bytes": 23149,
+      "publication_bytes": 23663,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/novelty_matrix.md",
+      "destination": "paper/research/docs/interaction_recoverability/novelty_matrix.md",
+      "source_sha256": "39d1c1ad408608b44a000de118ccba5bdb27a147fbd950ac11052391465a1718",
+      "publication_sha256": "0dff33f0ebedd2a5c40e1efca3dbdfb38444f18c61cf605bc388db1bde5aae40",
+      "source_bytes": 9451,
+      "publication_bytes": 9813,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 1
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/problem.md",
+      "destination": "paper/research/docs/interaction_recoverability/problem.md",
+      "source_sha256": "f628874b347573e2bb5768e02ec3a8c2e300ad03e97f66e2d2b96e821388a88d",
+      "publication_sha256": "47d89fecf7ad004e69089ebef22c485b5d25378900552af1fbc3f92f250fed11",
+      "source_bytes": 4832,
+      "publication_bytes": 5181,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/proofs.md",
+      "destination": "paper/research/docs/interaction_recoverability/proofs.md",
+      "source_sha256": "350fb7517f14efe6aab31d724bdf0f8d15b158688dd24d42b2b45d6a6b7afd0f",
+      "publication_sha256": "7431054ae384712d0342abe8fc782c7951c10a4931d6c00f215aa69c8d326ed2",
+      "source_bytes": 11740,
+      "publication_bytes": 12088,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/sirna_requirements.md",
+      "destination": "paper/research/docs/interaction_recoverability/sirna_requirements.md",
+      "source_sha256": "64161fc27b87f1b3243bd2c3e87d2dcb34befd785f2b7e0846e36f8ca5872d40",
+      "publication_sha256": "a862d339611627deacc8124cf2dd873dac254f15adab798b990ef2f5b6c0e455",
+      "source_bytes": 4443,
+      "publication_bytes": 4803,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/decision.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/decision.md",
+      "source_sha256": "923ebea987b89a3c124dc51527ff510564df3117a81f517ff454865d99640114",
+      "publication_sha256": "7ca2e378b8a3988835b045af98c7ec6a14f8fc575025c423827b7d37a1aed442",
+      "source_bytes": 7512,
+      "publication_bytes": 7643,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 3,
+        "Removed a hyperlink to an omitted operational record.": 4,
+        "Reworded execution-oriented prose; preserved its scientific status.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/estimator.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/estimator.md",
+      "source_sha256": "d8fa68b052817e826a834262850c7d5093ccbde66071019013ad5b5a2d245662",
+      "publication_sha256": "5dc6f9d176f17517f40610c747f60807794f3f9ce422287e8ce22ee9f045333d",
+      "source_bytes": 7366,
+      "publication_bytes": 6830,
+      "edits": {
+        "Omitted one fenced shell execution block.": 1,
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2,
+        "Reworded execution-oriented prose; preserved its scientific status.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/model.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/model.md",
+      "source_sha256": "bb4e9e43e7b357df20546118760ddceb4eed877c8d39d12eac091c53967df36c",
+      "publication_sha256": "48b58ac5a1fa139e59fc863196f0f2cb911115e189bc2d77b7f1a5e2ff0da814",
+      "source_bytes": 4963,
+      "publication_bytes": 5327,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/novelty_matrix.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/novelty_matrix.md",
+      "source_sha256": "1ac308dbadd0ee17d7da428006e2b894d90b855e901cca56cd2265bd55f029d6",
+      "publication_sha256": "64efe4514ab6083c5b8e9d308019c9b03b512b5b25515b3f8153ca13d7f008f7",
+      "source_bytes": 7114,
+      "publication_bytes": 7499,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2
+      }
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/proofs.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/proofs.md",
+      "source_sha256": "95a5492e681774f81c543917b393f099e5454363d7b8542a5503b5c4ea2cb9e9",
+      "publication_sha256": "e7bf3d1ccaa4e124cf5b336a4c4322b5981f4c932574649146c6aae661273cc2",
+      "source_bytes": 13385,
+      "publication_bytes": 13750,
+      "edits": {}
+    },
+    {
+      "source": "docs/interaction_recoverability/unknown_profiles/rate_audit.md",
+      "destination": "paper/research/docs/interaction_recoverability/unknown_profiles/rate_audit.md",
+      "source_sha256": "e7437820236bea6892388b10fc76e2932fc1d906559e907049eb383065186050",
+      "publication_sha256": "a1776a5179a4cdb2f8da009fb943fb1b5734e741360aa9eea38f700cbb38a3a2",
+      "source_bytes": 6728,
+      "publication_bytes": 7103,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 1
+      }
+    },
+    {
+      "source": "docs/intervention/README.md",
+      "destination": "paper/research/docs/intervention/README.md",
+      "source_sha256": "02364ed2d3a9c235fb01ec9cc6b4c1b41c41bede1c54d2ca10824b0770f675d6",
+      "publication_sha256": "ea1ae5b7e0b49cfec4d0314100787caf2d1ba111d9ae69a42aaff6716b7f1572",
+      "source_bytes": 5102,
+      "publication_bytes": 4944,
+      "edits": {
+        "Omitted a paragraph introducing or pointing only to execution instructions.": 2,
+        "Omitted one fenced shell execution block.": 2,
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 7,
+        "Removed a hyperlink to an omitted operational record.": 4,
+        "Removed a hyperlink to an unpublished cached data or PDF artifact.": 2,
+        "Replaced a link to an omitted raw result with a plain local-only artifact reference.": 1
+      }
+    },
+    {
+      "source": "docs/intervention/data_audit.md",
+      "destination": "paper/research/docs/intervention/data_audit.md",
+      "source_sha256": "21b067fb0feb63b5f67ab2126241878d3c23192f4e2d2d0ca9e4a6281b297e73",
+      "publication_sha256": "9d3e3f55d1dd7ff753e0defb3e4f1577c2b9137c4cf82b23d0fbbb2be2f74115",
+      "source_bytes": 10676,
+      "publication_bytes": 10924,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 5,
+        "Removed a hyperlink to an unpublished cached data or PDF artifact.": 3,
+        "Replaced a link to an omitted raw result with a plain local-only artifact reference.": 1
+      }
+    },
+    {
+      "source": "docs/intervention/method.md",
+      "destination": "paper/research/docs/intervention/method.md",
+      "source_sha256": "43636ff4878d31055a3b696f11e963a95ba67765c49ff6995be78a59e62eb6e1",
+      "publication_sha256": "1366d4fd9bcfbca00bd4cd387a9b008fe687124a5e4f051c70fd309ecb20792e",
+      "source_bytes": 12064,
+      "publication_bytes": 12410,
+      "edits": {
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 2
+      }
+    },
+    {
+      "source": "docs/intervention/novelty_matrix.md",
+      "destination": "paper/research/docs/intervention/novelty_matrix.md",
+      "source_sha256": "7f7ab678e35ffc83875f030dd70019b8e539771ffda755d748a148847d550adb",
+      "publication_sha256": "2e26bb1db1574a85254206c7b875cc7cb406f6afb4ee2d403c97af983c938c1d",
+      "source_bytes": 18483,
+      "publication_bytes": 18825,
+      "edits": {}
+    },
+    {
+      "source": "docs/novelty_matrix.md",
+      "destination": "paper/research/docs/novelty_matrix.md",
+      "source_sha256": "2dc04e8d7f3afcbf5f1df9554404413101bf6025384cc28bad45e5ee6816c084",
+      "publication_sha256": "2c2176a3c95a605526ad948158c8e42192e8e93e84279f9df4d4c35cea3fdcae",
+      "source_bytes": 13700,
+      "publication_bytes": 14029,
+      "edits": {}
+    },
+    {
+      "source": "docs/p1_predictor_repair.md",
+      "destination": "paper/research/docs/p1_predictor_repair.md",
+      "source_sha256": "a1c3ec418f39bc662b4359bcf8aafce408f06fad011829706cab1217cbcd6ad3",
+      "publication_sha256": "8aa079cc88a7c0f601207808b3066c671d7a83d49c63821e03e590e8f7c86862",
+      "source_bytes": 10253,
+      "publication_bytes": 10587,
+      "edits": {
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    },
+    {
+      "source": "docs/p2_verifier_results.md",
+      "destination": "paper/research/docs/p2_verifier_results.md",
+      "source_sha256": "bce86062dd67f2bfe72d7f18397abeca2bb2ac9588693d6932ec4f5ef99a532e",
+      "publication_sha256": "3159d785b98ea68a46b6baeef5076f9592bb39e0320508e1b025be430b637f5d",
+      "source_bytes": 6221,
+      "publication_bytes": 6555,
+      "edits": {}
+    },
+    {
+      "source": "docs/p3_rna_audit_and_pilot.md",
+      "destination": "paper/research/docs/p3_rna_audit_and_pilot.md",
+      "source_sha256": "0dc1e5b4ac4bf541d638d85fe35a4cf5d402f0e3cc46f37b1ecc81906f18134b",
+      "publication_sha256": "e7ec7d61dbc5c613fe77b477289d9fa2995f57ea7a49265cbea6e65554f09de3",
+      "source_bytes": 7151,
+      "publication_bytes": 7488,
+      "edits": {}
+    },
+    {
+      "source": "docs/p4_actual_model_decision-20260911-064446-098490.md",
+      "destination": "paper/research/docs/p4_actual_model_decision-20260911-064446-098490.md",
+      "source_sha256": "34477dd9dd25f7aeb36658d1aa86259f2d3ac7c94f9e9a2efd4a841b6656a9e8",
+      "publication_sha256": "aba1ccf6a8d993626813e0d014e8686cdff44f74a22c4807564ec049068fd089",
+      "source_bytes": 14016,
+      "publication_bytes": 14076,
+      "edits": {
+        "Omitted one fenced shell execution block.": 1,
+        "Retitled the retained outcomes section after removing its shell block.": 1
+      }
+    },
+    {
+      "source": "docs/p4_actual_model_decision-20260911-071037-582886.md",
+      "destination": "paper/research/docs/p4_actual_model_decision-20260911-071037-582886.md",
+      "source_sha256": "5ee8dce07b7c9184ac525e3eb0529cfbde404e863a330b2ed79e5e0929f4d585",
+      "publication_sha256": "788e48d9b2dc210ed9a9c3238697ab0a0af13c397996b3d8b1441ffa42099cdb",
+      "source_bytes": 14018,
+      "publication_bytes": 14078,
+      "edits": {
+        "Omitted one fenced shell execution block.": 1,
+        "Retitled the retained outcomes section after removing its shell block.": 1
+      }
+    },
+    {
+      "source": "docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+      "destination": "paper/research/docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+      "source_sha256": "5435f3cac517fe634a7f01d2d85376492df95c45b25b0a01c57cf4326959a3b1",
+      "publication_sha256": "485ec40292245117a439dfc4bb446cc79303d8e771ef0e542ae97d15768841d4",
+      "source_bytes": 11679,
+      "publication_bytes": 11435,
+      "edits": {
+        "Omitted a paragraph introducing or pointing only to execution instructions.": 2,
+        "Omitted one fenced shell execution block.": 2,
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 7,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/p4_actual_model_executed-20260911-171200-784773.md",
+      "destination": "paper/research/docs/p4_actual_model_executed-20260911-171200-784773.md",
+      "source_sha256": "cd07342765b00d761720a8cafd2d0085aebb082fc4bb40b1c84a271ae692fa86",
+      "publication_sha256": "f46abdaf580adf83bdd10ce985be8f3226756c249ff4cdb4a4c2b9b715d29f6f",
+      "source_bytes": 8748,
+      "publication_bytes": 8928,
+      "edits": {
+        "Omitted a paragraph introducing or pointing only to execution instructions.": 1,
+        "Omitted one fenced shell execution block.": 1,
+        "Remapped a relative scientific or artifact hyperlink for the publication location.": 5,
+        "Removed a hyperlink to an omitted operational record.": 1
+      }
+    },
+    {
+      "source": "docs/paper_tables.md",
+      "destination": "paper/research/docs/paper_tables.md",
+      "source_sha256": "816b091a0a02d06f8b70f2e715d623194df51c6c9ad34391de408cefdec02e53",
+      "publication_sha256": "98a00ca91f83a9f039ab5f7ee6348acabffbf2ff38849e7aec2725e287309f1e",
+      "source_bytes": 6135,
+      "publication_bytes": 6454,
+      "edits": {}
+    },
+    {
+      "source": "docs/protocol_v2.md",
+      "destination": "paper/research/docs/protocol_v2.md",
+      "source_sha256": "3cf30a480048c308d7095b2468063b6112e663615cd23365041267359a76d091",
+      "publication_sha256": "e17afc71485db7a65ff898aa2a29456f49f5cde0f3fb3a6e8eb4868334445331",
+      "source_bytes": 6356,
+      "publication_bytes": 6682,
+      "edits": {}
+    },
+    {
+      "source": "docs/rna_claims_to_evidence.md",
+      "destination": "paper/research/docs/rna_claims_to_evidence.md",
+      "source_sha256": "a74e2fec67f40e6a3ebb7d8bb973eb6a2c29b88b9cd9481ec94ca07902b55d24",
+      "publication_sha256": "cb92b732e4c55812460534684eafe599f934eb3cb518301ff370ebce2060efc4",
+      "source_bytes": 3773,
+      "publication_bytes": 4106,
+      "edits": {}
+    },
+    {
+      "source": "docs/stage1_novelty_audit.md",
+      "destination": "paper/research/docs/stage1_novelty_audit.md",
+      "source_sha256": "1bba67063f3f40512a67e026772d332ea84cff06ac619b5cfe53348f9d952829",
+      "publication_sha256": "0e0878822a00dd57bfe5c0ecb5e0732728909b26c323654572be87ea73fccb4a",
+      "source_bytes": 16681,
+      "publication_bytes": 17014,
+      "edits": {
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    },
+    {
+      "source": "docs/theorem_scope_v2.md",
+      "destination": "paper/research/docs/theorem_scope_v2.md",
+      "source_sha256": "2bf717e7757acb613263098dba9567c9eb3a8cbf5d66f3bbb0b329c9c6b2c8c0",
+      "publication_sha256": "e6ed39c734746feac530fa03ff4ba2e43c48e50c9d7006b93361114fd5929e82",
+      "source_bytes": 11553,
+      "publication_bytes": 11884,
+      "edits": {
+        "Reworded execution-oriented prose; preserved its scientific status.": 1
+      }
+    }
+  ],
+  "excluded_documents": [
+    "docs/artifact_reproduction.md",
+    "docs/environment_manifest.md",
+    "docs/interaction_recoverability/direct_target/v1/commands_and_resources.md",
+    "docs/interaction_recoverability/learned_target_v1/resources.md",
+    "docs/interaction_recoverability/local_attainment/v1/commands_and_resources.md",
+    "docs/interaction_recoverability/local_five_law/v1/commands_and_resources.md",
+    "docs/interaction_recoverability/unknown_profiles/resources.md",
+    "docs/intervention/resources.md",
+    "docs/revision_command_map.md",
+    "docs/run_report.md",
+    "docs/run_report_reconciliation.md"
+  ],
+  "ambiguous_omissions": [],
+  "publication_link_reconciliation": {
+    "mapping": "Approved publication path selection; source results either retained unchanged, mapped to metadata-filtered copies, or identified as local-only.",
+    "omitted_result_links": [
+      {
+        "source": "paper/research/docs/intervention/README.md",
+        "target": "runs/intervention/audit-v2/rows.jsonl"
+      },
+      {
+        "source": "paper/research/docs/intervention/data_audit.md",
+        "target": "runs/intervention/audit-v2/rows.jsonl"
+      }
+    ],
+    "unresolved_scientific_links": []
+  },
+  "root_preregistration_export": {
+    "source": "preregistration.md",
+    "source_sha256": "90eafaf51e6add23b391ddd3e62a8410f6f227e6fecea77dd5cefd20be8e15c5",
+    "publication": "paper/research/preregistration.md",
+    "publication_sha256": "867bae36d3ea1f263c8772241293aea32674f1480c44ca467dd46263c0453f6a",
+    "omissions": [
+      "Executable validator invocation"
+    ]
+  }
+}

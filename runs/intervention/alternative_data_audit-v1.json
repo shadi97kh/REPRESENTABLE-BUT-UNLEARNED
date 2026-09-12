@@ -1,0 +1,60 @@
+{
+  "lipobart": {
+    "rows": 572,
+    "unique_primary_molecules": 572,
+    "invalid_primary_molecule_rows": [],
+    "canonical_overlap_with_agile": 0,
+    "endpoint_fields": [
+      "y1",
+      "y2"
+    ],
+    "formulation_fields": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "endpoint": "distinct classification task; no pooling with AGILE mTP",
+    "full_assay_provenance": "not resolved from these CSVs",
+    "measured_edit_pairs": 0
+  },
+  "rnagym": {
+    "reference_rows": 70,
+    "columns": [
+      "\ufeffDMS_ID",
+      "TITLE",
+      "AUTHOR",
+      "YEAR",
+      "RNA_TYPE",
+      "RNA_TYPE_GRANULAR",
+      "RAW_CONSTRUCT_SEQ",
+      "ASSAY_DESCRIPTION",
+      "PDB_STRUCTURE",
+      "RFAM_LINK",
+      "WT_DMS_SCORE",
+      "Notes"
+    ],
+    "processed_assay_route": "https://marks.hms.harvard.edu/rnagym/fitness_prediction/fitness_processed_assays.zip",
+    "status": "optional candidate only; assay tables and WT/mutant pairing not downloaded or validated",
+    "no_delivery_endpoint_inference": true
+  },
+  "resources": {
+    "wall_s": 0.4528381391428411,
+    "process_cpu_s": 0.452761,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.00012576694444444445,
+    "gpu_hours": 0,
+    "peak_rss_kib": 57780,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

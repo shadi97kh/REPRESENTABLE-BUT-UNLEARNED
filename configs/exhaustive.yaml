@@ -1,0 +1,43 @@
+# Exhaustive soundness audit for the affine bound propagation.
+#
+# "Exhaustive" means: for every (sequence, model) pair below, EVERY feasible structure in
+# the family is enumerated independently and EVERY intermediate bracket is checked at
+# that point -- not a sample, and not only the final bound.
+#
+# Sequences are kept small enough that the full family fits in memory, because the whole
+# value of this audit is that nothing is sampled.
+
+audit:
+  name: exhaustive_bounds
+  slack: 1.0e-9              # real-arithmetic slack; see docs/bounds_proof.md
+  stop_on_violation: true    # a single unsound bracket aborts the run
+  check_intermediates: true
+  check_reference_forward: true
+
+families:
+  - seq: GGAAACC
+    min_loop: 3
+    canonical_only: true
+  - seq: GGGAAAUCC
+    min_loop: 3
+    canonical_only: true
+  - seq: GCGCAAAAGCGC
+    min_loop: 3
+    canonical_only: true
+  - seq: GGGGAAAACCCC
+    min_loop: 3
+    canonical_only: true
+
+models:
+  d_hid: [4, 6]
+  gamma: [0.0, 1.0, -1.0, 0.5]
+  init_seed: [0, 1]
+  perturb_scale: [0.0, 0.6, 1.2]   # 0.0 keeps the default init; larger mixes signs
+  perturb_seed: [11]
+
+masks:
+  none: true                 # unconditioned
+  single_forced: 2           # first k candidates forced, one at a time
+  single_forbidden: 2
+  crossing_forced: true      # must come back infeasible, never a bound
+  forced_equals_forbidden: true

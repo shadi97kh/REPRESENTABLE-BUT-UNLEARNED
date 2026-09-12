@@ -1,0 +1,17 @@
+# P2 profiling: where does verifier time actually go?
+#
+# Profiling runs BEFORE any optimisation, so that batching or chart reuse is
+# applied only where a measurement says it costs something. The plan is explicit:
+# "Prioritize affected-chart reuse and batching only where profiling identifies
+# cost; verify outputs after each change."
+name: revision_profile_v2
+ladder_rungs: [0, 1, 2, 3]
+seeds_per_rung: 2
+margins: [0.10]
+arms: [box, terminal_only, intermediate_unconditional, fixed_conditional]
+budget:
+  conditional_query_budget: 8
+  time_limit_s: 5.0
+  threads: 1                 # identical thread budget for every arm
+  max_cpu_core_hours: 0.5
+device: cpu                  # the verifier path is numpy and CPU-bound

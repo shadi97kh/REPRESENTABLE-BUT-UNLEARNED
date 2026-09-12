@@ -1,0 +1,1431 @@
+{
+  "version": 1,
+  "scope": "Rendering and copying existing artifacts only; no new numerical experiments",
+  "figure_count": 12,
+  "figures": [
+    {
+      "id": "fig01_five_law_construction",
+      "title": "Five-law direct-target construction",
+      "caption": "Static schematic of the saved local attainment construction. Both profiles and all four coefficients are unknown; the latent law, warp, private unit anchors and declared neighborhood are assumed known. This is a mathematical estimator specification, not an executed data analysis. Efficiency, global rates and biological applicability are not established.",
+      "sources": [
+        {
+          "path": "paper/research/docs/interaction_recoverability/local_attainment/v1/theorem.md",
+          "sha256": "e986e1989a9a59d4bedfc3e1da4a693d131abe4c868b053de77b82f3820d8a7b"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig01_five_law_construction.png",
+          "sha256": "0d2408da771ca0b727bc265f19f7812fc32425acd5909fe5af96dfa3c0e84ccc"
+        },
+        "svg": {
+          "path": "paper/figures/fig01_five_law_construction.svg",
+          "sha256": "9e9810171deab53cc66a78bea148accad9ef13d2ef248904fa3e31b83f2f5680"
+        },
+        "pdf": {
+          "path": "paper/figures/fig01_five_law_construction.pdf",
+          "sha256": "8bd2ea19e430ec017f0a001bdba5d82af1688087ac2ab4e5c2ffd013e89f4a80"
+        }
+      },
+      "pdf_kind": "vector"
+    },
+    {
+      "id": "fig02_pilot_interaction_error",
+      "title": "Learned pilot: interaction error",
+      "caption": "Archived figure, unchanged. All three replicates per cell are shown. The frozen pilot has 24 datasets and ten methods. This descriptive comparison does not establish a statistical rate or significance.",
+      "sources": [
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+          "sha256": "fd95ef78213211d36a866582cc5485a455c6376a1c06af9f24e87800fe4972ab"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+          "sha256": "a804323dd2201bccbe648cbebad7c54017b5c41f36ccf11264d44fea61ce602b"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "sha256": "1bb7b933b5157d66ba36480fe99f2d471edfe218308452a06bd103125c0d8d77"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+          "sha256": "1fa10b44b55fd5920767efc8af432856f259b0b8e74ab0b31b43e33450079693"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+          "sha256": "9c17157777ef391b255cc670d27b93bf31aff448b2cefe29dcdcaf3925316bf6"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig02_pilot_interaction_error.png",
+          "sha256": "fd95ef78213211d36a866582cc5485a455c6376a1c06af9f24e87800fe4972ab"
+        },
+        "svg": {
+          "path": "paper/figures/fig02_pilot_interaction_error.svg",
+          "sha256": "a804323dd2201bccbe648cbebad7c54017b5c41f36ccf11264d44fea61ce602b"
+        },
+        "pdf": {
+          "path": "paper/figures/fig02_pilot_interaction_error.pdf",
+          "sha256": "184ac598bcc25103b0731255c35aa17308eb8e6b34bb0e7c296f054310ee4273"
+        }
+      },
+      "pdf_kind": "raster archival copy; original SVG is vector",
+      "archived_png_svg_unchanged": true
+    },
+    {
+      "id": "fig03_pilot_ablation_cost",
+      "title": "Learned pilot: ablations and recorded costs",
+      "caption": "Archived figure, unchanged. Adaptive aggregate MSE improved by 3.5569% against the strongest complete control, below the frozen 10% screen. Shared fitted work is charged in the saved component costs; the later audit qualifies these as component accounting, not an independently optimized equal-runtime frontier.",
+      "sources": [
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+          "sha256": "35b3db9f6a8851931a50db48e9f28bbcca85348b05991c2fb21c002b7d08f587"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+          "sha256": "bc217e7b8cc2f3ef14c7fdfa84c616ca93a586fbd1fabfdb83fbf275d9694827"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "sha256": "1bb7b933b5157d66ba36480fe99f2d471edfe218308452a06bd103125c0d8d77"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+          "sha256": "1fa10b44b55fd5920767efc8af432856f259b0b8e74ab0b31b43e33450079693"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+          "sha256": "9c17157777ef391b255cc670d27b93bf31aff448b2cefe29dcdcaf3925316bf6"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig03_pilot_ablation_cost.png",
+          "sha256": "35b3db9f6a8851931a50db48e9f28bbcca85348b05991c2fb21c002b7d08f587"
+        },
+        "svg": {
+          "path": "paper/figures/fig03_pilot_ablation_cost.svg",
+          "sha256": "bc217e7b8cc2f3ef14c7fdfa84c616ca93a586fbd1fabfdb83fbf275d9694827"
+        },
+        "pdf": {
+          "path": "paper/figures/fig03_pilot_ablation_cost.pdf",
+          "sha256": "30c7f1563a0e72acfda98d5a4d70c43341247bf8e1f63d0cdf0ecce94eae20f0"
+        }
+      },
+      "pdf_kind": "raster archival copy; original SVG is vector",
+      "archived_png_svg_unchanged": true
+    },
+    {
+      "id": "fig04_pilot_witness_nonlinearity",
+      "title": "Learned pilot: witnesses and nonlinear remainder",
+      "caption": "Archived figure, unchanged. Finite direction witnesses are lower diagnostics, not upper uncertainty bounds over the full profile class. The observed finite-path nonlinear remainder is retained. Near-diagonal witnesses do not demonstrate the proposed mechanism.",
+      "sources": [
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+          "sha256": "40f364e845a816bc0ea1b23408838dd2ac3396252fa3bfcc83a80e418f9e5bf1"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+          "sha256": "86001939c198d4819bf169d79fbd63b8da6a7d488ec67854d0ac75bc7038470d"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "sha256": "1bb7b933b5157d66ba36480fe99f2d471edfe218308452a06bd103125c0d8d77"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+          "sha256": "1fa10b44b55fd5920767efc8af432856f259b0b8e74ab0b31b43e33450079693"
+        },
+        {
+          "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+          "sha256": "9c17157777ef391b255cc670d27b93bf31aff448b2cefe29dcdcaf3925316bf6"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig04_pilot_witness_nonlinearity.png",
+          "sha256": "40f364e845a816bc0ea1b23408838dd2ac3396252fa3bfcc83a80e418f9e5bf1"
+        },
+        "svg": {
+          "path": "paper/figures/fig04_pilot_witness_nonlinearity.svg",
+          "sha256": "86001939c198d4819bf169d79fbd63b8da6a7d488ec67854d0ac75bc7038470d"
+        },
+        "pdf": {
+          "path": "paper/figures/fig04_pilot_witness_nonlinearity.pdf",
+          "sha256": "b117a539d4974c52edc8fbcedbdec5f111c7776efc4dadc683e0846c5b1aaa94"
+        }
+      },
+      "pdf_kind": "raster archival copy; original SVG is vector",
+      "archived_png_svg_unchanged": true
+    },
+    {
+      "id": "fig05_local_analytic_checks",
+      "title": "Local five-law analytic checks",
+      "caption": "Saved deterministic trigonometric and Gaussian-holdout fixtures. Depths and quadrature orders are the original check settings. These are reconstruction and floating-point refinement diagnostics, not empirical error rates, variance estimates, or certified integration enclosures. The earlier failed absolute-threshold check is retained in the artifact archive.",
+      "sources": [
+        {
+          "path": "docs/interaction_recoverability/local_five_law/v1/checks.json",
+          "sha256": "1d2b9eb8ff41ecab80a0f57c9cc6249a784c87a85b8893d7a4da2736378e141b"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig05_local_analytic_checks.png",
+          "sha256": "0df82ea48427fa35d48613ecd45be2ac96d1973c2bc7d7929fe0b3d078f497e4"
+        },
+        "svg": {
+          "path": "paper/figures/fig05_local_analytic_checks.svg",
+          "sha256": "9bca2118f1ca1eaf9bc9645f36689c83963df4a4b858a23fa95c45a27c1aec35"
+        },
+        "pdf": {
+          "path": "paper/figures/fig05_local_analytic_checks.pdf",
+          "sha256": "911f542d4f1ffdaec3b6a5757e9cd75304c4d12c36942cf3f92a88bdbb3198c4"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": {
+        "derivative_checks": [
+          {
+            "kind": "trig",
+            "commutator_error": 9.14610609470401e-10,
+            "neumann_max_errors": {
+              "32": 5.863508055882278,
+              "128": 0.000393255332028275,
+              "512": 2.8809097329940414e-09
+            }
+          },
+          {
+            "kind": "gaussian_holdout",
+            "commutator_error": 2.3663915271754377e-10,
+            "neumann_max_errors": {
+              "32": 4.413269163244081,
+              "128": 0.0002818240192823396,
+              "512": 8.801066542218905e-10
+            }
+          }
+        ],
+        "profile_functional_checks": [
+          {
+            "order": 64,
+            "source_functional": -2.8286119378496086,
+            "target_derivative": -2.8286120004842763,
+            "absolute_error": 6.263466767464365e-08
+          },
+          {
+            "order": 128,
+            "source_functional": -2.8286120000441137,
+            "target_derivative": -2.8286120000441786,
+            "absolute_error": 6.483702463810914e-14
+          },
+          {
+            "order": 64,
+            "source_functional": -3.4956027829985183,
+            "target_derivative": -3.4956027753220766,
+            "absolute_error": 7.676441704518311e-09
+          },
+          {
+            "order": 128,
+            "source_functional": -3.495602775330531,
+            "target_derivative": -3.4956027753304832,
+            "absolute_error": 4.796163466380676e-14
+          }
+        ]
+      }
+    },
+    {
+      "id": "fig06_attainment_practicality",
+      "title": "Attainment: sufficient-condition limitation",
+      "caption": "The three saved public-count schedule checks are plotted without rerunning the estimator. This conservative sufficient quantile-domain condition fails at n=10^12 and 10^32 and passes at n=10^64. It is not a necessary sample-size bound or a demonstrated learning curve. The saved precision requirements are 18,438, 31,725 and 52,986 bits; the reference implementation remains uncertified and sample-disabled.",
+      "sources": [
+        {
+          "path": "docs/interaction_recoverability/local_attainment/v1/checks.json",
+          "sha256": "8a7bb5d7c093a446c00a955d2f384065fad3a1a341380cf28235074fca7b9b91"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/fig06_attainment_practicality.png",
+          "sha256": "a352e44532d0e933d1ac5be3b9df25a6ab382d31d9fe525b9687b33cb6543a30"
+        },
+        "svg": {
+          "path": "paper/figures/fig06_attainment_practicality.svg",
+          "sha256": "f22f90624ea577f3d71fd04bb1d985cb673717e55f2bbf3357dbba2f608e1542"
+        },
+        "pdf": {
+          "path": "paper/figures/fig06_attainment_practicality.pdf",
+          "sha256": "c806dbbd965cdb3363269353d44a5db62c4c6f9e378766deb2f7ec1fc8a16c1b"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": [
+        {
+          "n": "1000000000000",
+          "N": "5000000000000",
+          "depth": 916,
+          "lattice": 59,
+          "radius": "6.622740259329515",
+          "lower_effective_rank": "0.0124106372527769",
+          "required_rank": "54720.2844281187",
+          "domain_condition": false,
+          "precision_bits": 18438,
+          "quadrature_mesh": "6.4e-77"
+        },
+        {
+          "n": "100000000000000000000000000000000",
+          "N": "500000000000000000000000000000000",
+          "depth": 2356,
+          "lattice": 75,
+          "radius": "10.6272405323473",
+          "lower_effective_rank": "14.97980486840525",
+          "required_rank": "362810.2074381538",
+          "domain_condition": false,
+          "precision_bits": 31725,
+          "quadrature_mesh": "6.4e-197"
+        },
+        {
+          "n": "10000000000000000000000000000000000000000000000000000000000000000",
+          "N": "50000000000000000000000000000000000000000000000000000000000000000",
+          "depth": 4658,
+          "lattice": 92,
+          "radius": "14.94865632075604",
+          "lower_effective_rank": "14554195.83748383",
+          "required_rank": "1420385.025427718",
+          "domain_condition": true,
+          "precision_bits": 52986,
+          "quadrature_mesh": "6.4e-389"
+        }
+      ]
+    },
+    {
+      "id": "supp01_instability",
+      "title": "Instability under weak separation",
+      "caption": "Saved analytic construction values show shrinking observed-axis Wasserstein distance while a target contrast gap persists. Wasserstein proximity alone is not statistical indistinguishability. The complete-experiment Hellinger argument is separate in the proof; floating-point quadrature values are not certified enclosures. This construction is distinct from the calibrated local five-law neighborhood.",
+      "sources": [
+        {
+          "path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v2/diagnostics.json",
+          "sha256": "66fad44098742c1571469a93c25b43492c71b49056001039d109b8f11494342f"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp01_instability.png",
+          "sha256": "40eaa671191440ceaeceb8dcdf228d76c171e05e061e42e2859edcb4f620d0e7"
+        },
+        "svg": {
+          "path": "paper/figures/supp01_instability.svg",
+          "sha256": "1c9dc5496a27ff999d09b30d6700529b87270ea6385c209dc1613d70c220c958"
+        },
+        "pdf": {
+          "path": "paper/figures/supp01_instability.pdf",
+          "sha256": "12b27dc80ec4004e0a4f2678a3c82e4e9a9d39836660861efc5f213a8698383a"
+        }
+      },
+      "pdf_kind": "vector"
+    },
+    {
+      "id": "supp02_p4_prediction",
+      "title": "P4 prediction and ranking: negative outcome",
+      "caption": "All six saved arms, 262 held-out rows, and previously computed paired confidence intervals. No resampling was performed for this export. The model capability gate failed; these RNA comparisons are exploratory in an inferred contiguous reporter context. Actual A+B Spearman is 0.2508 versus 0.6475 for guide ridge. Prediction and ranking do not certify biological ordering.",
+      "sources": [
+        {
+          "path": "runs/revision/p4_gpu-20260911-171200-784773-figure1_prediction_ranking.csv",
+          "sha256": "5fa57ae159870b9bc71dd156b4cdaa61ea8d4922711f04ba016fd3449e22222a"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp02_p4_prediction.png",
+          "sha256": "a7e564fa8decbfcac31de9f6605c2a93e41ea3293e91c43ab8a1331789bd9a4c"
+        },
+        "svg": {
+          "path": "paper/figures/supp02_p4_prediction.svg",
+          "sha256": "c2cac044d47eb6a0cb4405ff4242c0c19d68ef86cd247c75242adedac7374198"
+        },
+        "pdf": {
+          "path": "paper/figures/supp02_p4_prediction.pdf",
+          "sha256": "198bfc97fc21922f1f865023b232eb6a28b8eb206b3fa9d17765639708b870a0"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": [
+        {
+          "arm": "actual_A",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.253872217666947",
+          "delta_spearman": "-0.39358332518337624",
+          "delta_ci95_low": "-0.5131991872031335",
+          "delta_ci95_high": "-0.25394958743314594",
+          "mse": "0.22526446726362753",
+          "macro_target_ndcg_at_5": "0.8303802230071234",
+          "macro_target_precision_at_5": "0.575",
+          "macro_selected_activity": "0.729475",
+          "macro_selection_regret": "0.09897500000000001",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        },
+        {
+          "arm": "actual_A_plus_B",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.2508315601320774",
+          "delta_spearman": "-0.39662398271824584",
+          "delta_ci95_low": "-0.5149955069680012",
+          "delta_ci95_high": "-0.25841791828516497",
+          "mse": "0.22596144183064315",
+          "macro_target_ndcg_at_5": "0.8319804044846257",
+          "macro_target_precision_at_5": "0.575",
+          "macro_selected_activity": "0.7281500000000001",
+          "macro_selection_regret": "0.1003",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        },
+        {
+          "arm": "guide_pairwise_ridge",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.5755470281374433",
+          "delta_spearman": "-0.07190851471287996",
+          "delta_ci95_low": "-0.14215702359030705",
+          "delta_ci95_high": "0.0004490653034618406",
+          "mse": "0.02347706433646956",
+          "macro_target_ndcg_at_5": "0.8763623029472379",
+          "macro_target_precision_at_5": "0.65",
+          "macro_selected_activity": "0.7495625",
+          "macro_selection_regret": "0.0788875",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        },
+        {
+          "arm": "guide_ridge",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.6474555428503233",
+          "delta_spearman": "0.0",
+          "delta_ci95_low": "0.0",
+          "delta_ci95_high": "0.0",
+          "mse": "0.019093486728445942",
+          "macro_target_ndcg_at_5": "0.9132412760002874",
+          "macro_target_precision_at_5": "0.7875000000000001",
+          "macro_selected_activity": "0.7821375",
+          "macro_selection_regret": "0.046312499999999965",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        },
+        {
+          "arm": "guide_window_ridge",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.6127415361396895",
+          "delta_spearman": "-0.03471400671063374",
+          "delta_ci95_low": "-0.07623941717130393",
+          "delta_ci95_high": "0.007705447865192725",
+          "mse": "0.021346373205504088",
+          "macro_target_ndcg_at_5": "0.9069466795659016",
+          "macro_target_precision_at_5": "0.75",
+          "macro_selected_activity": "0.7692875",
+          "macro_selection_regret": "0.059162499999999986",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        },
+        {
+          "arm": "summary_ridge",
+          "reference": "guide_ridge",
+          "test_rows": "262",
+          "spearman": "0.6453493687206732",
+          "delta_spearman": "-0.0021061741296500847",
+          "delta_ci95_low": "-0.0044071201037380325",
+          "delta_ci95_high": "0.0002531469526696361",
+          "mse": "0.019136479857863705",
+          "macro_target_ndcg_at_5": "0.9128970669902323",
+          "macro_target_precision_at_5": "0.7875000000000001",
+          "macro_selected_activity": "0.7821375",
+          "macro_selection_regret": "0.04631249999999997",
+          "context_status": "inferred_contiguous_native_insert",
+          "evaluation_status": "exploratory"
+        }
+      ]
+    },
+    {
+      "id": "supp03_p4_coverage_cost",
+      "title": "P4 coverage at matched total cost",
+      "caption": "All five arms and both saved strata at the primary 100-instance amortization. Overlapping curves are retained. The original family saturates at coverage 1 by 0.05 seconds; in the wider family exhaustive enumeration reaches 1 while the other arms reach 0.75. Missing gap values remain missing in the CSV. Numerical status is float_unverified and the capability gate failed, so this is a diagnostic, not learned superiority.",
+      "sources": [
+        {
+          "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv",
+          "sha256": "52f43c3cd6f9ea5d9098e4ed4cceab86489f145695dbde7ceb2c5635fcb8ab71"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp03_p4_coverage_cost.png",
+          "sha256": "bb0d4c8d4559493589380722b1b3e581c2037cc3217334516c656d2db8aa8c53"
+        },
+        "svg": {
+          "path": "paper/figures/supp03_p4_coverage_cost.svg",
+          "sha256": "8a49623f258c4fa01be68f8901724f9a618a28b66da8c0eadf4ab1f255571182"
+        },
+        "pdf": {
+          "path": "paper/figures/supp03_p4_coverage_cost.pdf",
+          "sha256": "9f3c1a3a033ec5f928e6530259ad49b879d31baf0dd52a62e89340666280d13b"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": [
+        {
+          "stratum": "original_family",
+          "arm": "combined",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010102009610272944",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010094741103239357",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010095123969949781",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010094374185428023",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010094596934504808",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "combined",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014340425515547395",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014122295193374157",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014475620142184198",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014242480602115392",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014311686321161688",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "combined",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014308280707336963",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014091958967037499",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.0142813436454162",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014047893066890537",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "original_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.019417303281828655",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.014063836890272796",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "combined",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010106958402320742",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010115717491135",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010103459935635328",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.010099093616008758",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.01",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.0",
+          "mean_gap_at_total_budget": "",
+          "gap_unavailable_n": "12",
+          "unresolved_n": "12",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "12",
+          "online_wall_p90_s": "0.01009858602192253",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "combined",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.01919991828035563",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "3",
+          "online_wall_p90_s": "0.050107015087269245",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "3",
+          "online_wall_p90_s": "0.05010616201907396",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.019037191453389824",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.05",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.0790623787547247",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.035973974084481594",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "combined",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.019183335173875094",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "fixed_conditional",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "3",
+          "online_wall_p90_s": "0.20036619803868233",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "deterministic_selective",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "3",
+          "online_wall_p90_s": "0.2003389582503587",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "learned_selective",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.009790859699714929",
+          "n": "12",
+          "decision_coverage": "0.75",
+          "mean_gap_at_total_budget": "0.10568881286472258",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "3",
+          "mean_unresolved_gap_when_available": "0.1065057364399914",
+          "unresolved_gap_available_n": "3",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.01925647328607738",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        },
+        {
+          "stratum": "wider_family",
+          "arm": "exhaustive",
+          "total_budget_s": "0.2",
+          "amortization_instances": "100",
+          "offline_charge_s": "0.0",
+          "n": "12",
+          "decision_coverage": "1.0",
+          "mean_gap_at_total_budget": "0.0790623787547247",
+          "gap_unavailable_n": "0",
+          "unresolved_n": "0",
+          "mean_unresolved_gap_when_available": "",
+          "unresolved_gap_available_n": "0",
+          "online_timeouts": "0",
+          "online_wall_p90_s": "0.036115065682679415",
+          "numerical_status": "float_unverified",
+          "capability_gate_passed": "False"
+        }
+      ]
+    },
+    {
+      "id": "supp04_p4_target_utility",
+      "title": "P4 target-level shortlist utility",
+      "caption": "All 16 saved held-out target pools with at least five candidates. Paired points are the saved selected-activity summaries for actual A+B and guide ridge. The 262-row candidate table is retained for traceability. These are observed assay selection summaries under the recorded reporter-context assumptions, not treatment recommendations, causal interaction estimates or biological certificates.",
+      "sources": [
+        {
+          "path": "runs/revision/p4_gpu-20260911-171200-784773-target_summary.csv",
+          "sha256": "b6b65e3b665ea33b3c2e462cc3ccd8602c0cb08b7b2f03f9db6ccf9efd23141a"
+        },
+        {
+          "path": "runs/revision/p4_gpu-20260911-171200-784773-figure3_target_candidates.csv",
+          "sha256": "4670fe00707ddf927769868b74180bebdac4850d3efe1dd6593d0c9029bc7e33"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp04_p4_target_utility.png",
+          "sha256": "cea6d1ff10c3f588169f49df7576d49832c41c05c467420de70ad87b2847010e"
+        },
+        "svg": {
+          "path": "paper/figures/supp04_p4_target_utility.svg",
+          "sha256": "6f174b7027917b81fa3aa3f71881369842bac5790cc55fa1250978c3916a9ac6"
+        },
+        "pdf": {
+          "path": "paper/figures/supp04_p4_target_utility.pdf",
+          "sha256": "63284e1c46018f795839485bd69b4cdf4bfb9f240de0cb687ab2f3050d9bee3c"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": [
+        {
+          "gene": "CDC34",
+          "n": "21",
+          "prevalence_at_0_70": "0.2857142857142857",
+          "ndcg_at_5": "0.8081532994072356",
+          "reference_ndcg_at_5": "0.7429416270656508",
+          "selected_activity": "0.615",
+          "reference_selected_activity": "0.6355999999999999",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.1322000000000001",
+          "different_window_rows": "3",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "NOG",
+          "n": "16",
+          "prevalence_at_0_70": "0.6875",
+          "ndcg_at_5": "0.9511932929495653",
+          "reference_ndcg_at_5": "0.9240150710166829",
+          "selected_activity": "0.9318",
+          "reference_selected_activity": "0.9044000000000001",
+          "precision_at_5": "1.0",
+          "selection_regret": "0.030200000000000116",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "P2RX3",
+          "n": "42",
+          "prevalence_at_0_70": "0.5714285714285714",
+          "ndcg_at_5": "0.7565485042178064",
+          "reference_ndcg_at_5": "0.8758283813298343",
+          "selected_activity": "0.8178000000000001",
+          "reference_selected_activity": "0.8922000000000001",
+          "precision_at_5": "0.6",
+          "selection_regret": "0.1489999999999998",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "SOST",
+          "n": "8",
+          "prevalence_at_0_70": "0.25",
+          "ndcg_at_5": "0.9045300006030349",
+          "reference_ndcg_at_5": "0.8943914287201996",
+          "selected_activity": "0.6882000000000001",
+          "reference_selected_activity": "0.6284000000000001",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.00639999999999985",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2B",
+          "n": "9",
+          "prevalence_at_0_70": "0.5555555555555556",
+          "ndcg_at_5": "0.8502060418025293",
+          "reference_ndcg_at_5": "0.9638605259706886",
+          "selected_activity": "0.7146",
+          "reference_selected_activity": "0.7814",
+          "precision_at_5": "0.6",
+          "selection_regret": "0.09460000000000002",
+          "different_window_rows": "3",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2C",
+          "n": "17",
+          "prevalence_at_0_70": "0.29411764705882354",
+          "ndcg_at_5": "0.7542924856777733",
+          "reference_ndcg_at_5": "0.922286014874832",
+          "selected_activity": "0.575",
+          "reference_selected_activity": "0.753",
+          "precision_at_5": "0.2",
+          "selection_regret": "0.19940000000000002",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2E3",
+          "n": "26",
+          "prevalence_at_0_70": "0.4230769230769231",
+          "ndcg_at_5": "0.6642858678526645",
+          "reference_ndcg_at_5": "0.9790021573139606",
+          "selected_activity": "0.6814",
+          "reference_selected_activity": "0.8724000000000001",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.2018000000000001",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2G1",
+          "n": "15",
+          "prevalence_at_0_70": "0.3333333333333333",
+          "ndcg_at_5": "0.7090528296529779",
+          "reference_ndcg_at_5": "0.892774413794432",
+          "selected_activity": "0.7286",
+          "reference_selected_activity": "0.8190000000000002",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.15379999999999994",
+          "different_window_rows": "1",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2H",
+          "n": "12",
+          "prevalence_at_0_70": "0.3333333333333333",
+          "ndcg_at_5": "0.7899627228600272",
+          "reference_ndcg_at_5": "0.9319594429172058",
+          "selected_activity": "0.7577999999999999",
+          "reference_selected_activity": "0.7718",
+          "precision_at_5": "0.6",
+          "selection_regret": "0.08399999999999996",
+          "different_window_rows": "1",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2I",
+          "n": "16",
+          "prevalence_at_0_70": "0.375",
+          "ndcg_at_5": "0.8984116568601493",
+          "reference_ndcg_at_5": "0.913328008848197",
+          "selected_activity": "0.7544",
+          "reference_selected_activity": "0.7732",
+          "precision_at_5": "0.8",
+          "selection_regret": "0.07700000000000007",
+          "different_window_rows": "2",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2J1",
+          "n": "14",
+          "prevalence_at_0_70": "0.5",
+          "ndcg_at_5": "0.8037455448374557",
+          "reference_ndcg_at_5": "0.9396682309366995",
+          "selected_activity": "0.6960000000000001",
+          "reference_selected_activity": "0.8196",
+          "precision_at_5": "0.6",
+          "selection_regret": "0.133",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2L3",
+          "n": "15",
+          "prevalence_at_0_70": "0.4666666666666667",
+          "ndcg_at_5": "0.9532259063528769",
+          "reference_ndcg_at_5": "0.9528426437344383",
+          "selected_activity": "0.8225999999999999",
+          "reference_selected_activity": "0.8074",
+          "precision_at_5": "1.0",
+          "selection_regret": "0.0046000000000001595",
+          "different_window_rows": "4",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2L6",
+          "n": "9",
+          "prevalence_at_0_70": "0.6666666666666666",
+          "ndcg_at_5": "0.9126805900458997",
+          "reference_ndcg_at_5": "0.928203851192102",
+          "selected_activity": "0.7916000000000001",
+          "reference_selected_activity": "0.7818",
+          "precision_at_5": "0.8",
+          "selection_regret": "0.049599999999999866",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2M",
+          "n": "11",
+          "prevalence_at_0_70": "0.45454545454545453",
+          "ndcg_at_5": "0.8948337649851259",
+          "reference_ndcg_at_5": "0.9181238647683624",
+          "selected_activity": "0.6888",
+          "reference_selected_activity": "0.6998",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.041200000000000014",
+          "different_window_rows": "0",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2N",
+          "n": "10",
+          "prevalence_at_0_70": "0.5",
+          "ndcg_at_5": "0.8012716320472975",
+          "reference_ndcg_at_5": "0.9562022036588748",
+          "selected_activity": "0.7385999999999999",
+          "reference_selected_activity": "0.8356",
+          "precision_at_5": "0.6",
+          "selection_regret": "0.13859999999999995",
+          "different_window_rows": "2",
+          "context_status": "inferred_contiguous_native_insert"
+        },
+        {
+          "gene": "UBE2S",
+          "n": "17",
+          "prevalence_at_0_70": "0.23529411764705882",
+          "ndcg_at_5": "0.8592923316015915",
+          "reference_ndcg_at_5": "0.8764325498624362",
+          "selected_activity": "0.6481999999999999",
+          "reference_selected_activity": "0.7386",
+          "precision_at_5": "0.4",
+          "selection_regret": "0.10940000000000016",
+          "different_window_rows": "4",
+          "context_status": "inferred_contiguous_native_insert"
+        }
+      ]
+    },
+    {
+      "id": "supp05_structured_relaxation",
+      "title": "Historical structured-family relaxation",
+      "caption": "Historical C5/C7 saved diagnostics. Left: non-union-closed matching-family relaxation slack grows from 8.96 to 2290.30 across the recorded sizes. Right: the no-bias fixture gap agrees with its walk-count ratio to floating-point precision. These conditional algebraic results do not establish predictive utility or biological validity.",
+      "sources": [
+        {
+          "path": "runs/20260904-034559/c5_slack_scaling.json",
+          "sha256": "1e596c1ea80c442c8bc94ed55c9554bc73aab4b218b487a3705ee2a66be142ca"
+        },
+        {
+          "path": "runs/20260904-043204/c7_kappa_characterization.json",
+          "sha256": "8b77d8f6d8c019d9c1fe1b46cc265d8999c87980586694bc0799df1c087ee0d3"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp05_structured_relaxation.png",
+          "sha256": "b33e973aa1f8d258f8124bd2de995589d768653a031f54e4849c259d07195f34"
+        },
+        "svg": {
+          "path": "paper/figures/supp05_structured_relaxation.svg",
+          "sha256": "c5d8b2f5580bf3eccce9fb7e6f3ac706a4fca910d1717bb8db1de94540da5158"
+        },
+        "pdf": {
+          "path": "paper/figures/supp05_structured_relaxation.pdf",
+          "sha256": "482a73cb8c2d9bad52eaee3bea7aa0e3d0a6796074097de88c080c6b643dc091"
+        }
+      },
+      "pdf_kind": "vector"
+    },
+    {
+      "id": "supp06_ensemble_coverage",
+      "title": "Historical ensemble coverage limitation",
+      "caption": "All nine saved F7 configurations, 20,000 samples per configuration. Coverage is measured against sampled structures, not proved ensemble probability. At positive truncation floors the lattice can exclude valid structures; the saved violation counts are retained in the input JSON. Zero observed violations cannot prove soundness. These records explain why lattice exactness must not be described as universal Boltzmann-ensemble coverage.",
+      "sources": [
+        {
+          "path": "runs/20260904-020253/f7_soundness.json",
+          "sha256": "9910d62a1dfe37f474b24b37cd2a9ce6ef75a94ec24e0b798c77508bdbe6f84b"
+        }
+      ],
+      "outputs": {
+        "png": {
+          "path": "paper/figures/supp06_ensemble_coverage.png",
+          "sha256": "32106009d3be2d9d660cbc8abe490ba89023439477c08a2cfe5c65cc6d329c74"
+        },
+        "svg": {
+          "path": "paper/figures/supp06_ensemble_coverage.svg",
+          "sha256": "e6e41360a9fc60f060a271c4b5ba510957a1ec23d127e98f30d626191b74562a"
+        },
+        "pdf": {
+          "path": "paper/figures/supp06_ensemble_coverage.pdf",
+          "sha256": "329f1556cd485760c0a0a457d216319a138c335e3e75158cc9e3382108b02f3a"
+        }
+      },
+      "pdf_kind": "vector",
+      "plotted_rows": [
+        {
+          "floor": 0.0,
+          "canonical_only": false,
+          "median_k": 1770.0,
+          "max_k": 1770,
+          "median_coverage": 1.0,
+          "min_coverage": 1.0,
+          "median_tightness": 179.08490305929683,
+          "max_tightness": 190.88268232567137,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.0,
+          "canonical_only": true,
+          "median_k": 609.5,
+          "max_k": 732,
+          "median_coverage": 1.0,
+          "min_coverage": 1.0,
+          "median_tightness": 29.251978409536058,
+          "max_tightness": 37.15998650469893,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 1e-06,
+          "canonical_only": true,
+          "median_k": 414.0,
+          "max_k": 636,
+          "median_coverage": 1.0,
+          "min_coverage": 1.0,
+          "median_tightness": 15.139907495597175,
+          "max_tightness": 28.76847533487495,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.0001,
+          "canonical_only": true,
+          "median_k": 189.5,
+          "max_k": 338,
+          "median_coverage": 0.997,
+          "min_coverage": 0.993,
+          "median_tightness": 4.691074717402618,
+          "max_tightness": 10.177954777094335,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.001,
+          "canonical_only": true,
+          "median_k": 119.5,
+          "max_k": 228,
+          "median_coverage": 0.982,
+          "min_coverage": 0.966,
+          "median_tightness": 2.5687593087929583,
+          "max_tightness": 5.493808929058526,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.01,
+          "canonical_only": true,
+          "median_k": 61.0,
+          "max_k": 115,
+          "median_coverage": 0.9095,
+          "min_coverage": 0.792,
+          "median_tightness": 1.4848533021349128,
+          "max_tightness": 2.448165655055947,
+          "violations": 0,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.05,
+          "canonical_only": true,
+          "median_k": 33.5,
+          "max_k": 59,
+          "median_coverage": 0.7375,
+          "min_coverage": 0.431,
+          "median_tightness": 1.1310507179848182,
+          "max_tightness": 1.5010701528802344,
+          "violations": 15,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.1,
+          "canonical_only": true,
+          "median_k": 25.5,
+          "max_k": 47,
+          "median_coverage": 0.5954999999999999,
+          "min_coverage": 0.363,
+          "median_tightness": 1.0116139770506323,
+          "max_tightness": 1.2783482603392307,
+          "violations": 199,
+          "n_samples": 20000
+        },
+        {
+          "floor": 0.2,
+          "canonical_only": true,
+          "median_k": 20.5,
+          "max_k": 34,
+          "median_coverage": 0.4185,
+          "min_coverage": 0.081,
+          "median_tightness": 0.9783925440273944,
+          "max_tightness": 1.1235088664463566,
+          "violations": 1017,
+          "n_samples": 20000
+        }
+      ]
+    }
+  ],
+  "renderer_sha256": "0555a1d69d5bf6462a0fab49c4f01d6ee80baae1356ab893a171442403a62ae9",
+  "numerical_workers": 1,
+  "numerical_threads": 1,
+  "affinity": [
+    0
+  ],
+  "gpu_s": 0
+}

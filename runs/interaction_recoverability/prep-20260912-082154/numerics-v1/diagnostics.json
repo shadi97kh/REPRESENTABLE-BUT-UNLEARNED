@@ -1,0 +1,180 @@
+{
+  "status": "NUMERICALLY CHECKED",
+  "primary_target": "I12=mu(e1+e2)-mu(e1)-mu(e2)+mu(0)",
+  "executed_deltas": [
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "integration_radius": 12.0,
+  "epsabs": 2e-11,
+  "epsrel": 2e-11,
+  "limiting_gap": 1.8860708331802383,
+  "rows": [
+    {
+      "delta": 0.1,
+      "axis2_w1": {
+        "value": 0.5560708941855663,
+        "quadrature_error_estimate": 1.3717130101454235e-11,
+        "analytic_tail_upper": 8.10824081935859e-22
+      },
+      "joint_w1": {
+        "value": 3.2955028119105645,
+        "quadrature_error_estimate": 3.617971900899775e-11,
+        "analytic_tail_upper": 2.2040480076393047e-21
+      },
+      "ratio": 5.926407669182597,
+      "moment": {
+        "value": 2.133296641927716,
+        "quadrature_error_estimate": 2.2187724749123566e-11,
+        "analytic_tail_upper": 7.5809054394050375e-22
+      },
+      "primary_interaction_gap": 2.776626586028925,
+      "axis2_hellinger_squared": {
+        "value": 0.0008503395544531424,
+        "quadrature_error_estimate": 1.4709551327201062e-12,
+        "analytic_tail_upper": 3.85633397398913e-33,
+        "convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "inverse_xtol": 1e-12,
+        "certified": false,
+        "limitation": "Root/quadrature roundoff not enclosed; analytic tail formula evaluated in floating point"
+      },
+      "complete_experiment_bound": {
+        "hellinger_convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "C": 65.6233873491624,
+        "n_informative": 32,
+        "h2_single_upper": 0.6562338734916241,
+        "h2_experiment_upper": 1.9999940512161314,
+        "tv_upper": 1.0,
+        "target_separation_lower": 1.8860708331802383,
+        "mse_lower": 0.0,
+        "status": "STANDARD RESULT APPLIED with PROVED HERE transport bound"
+      }
+    },
+    {
+      "delta": 0.01,
+      "axis2_w1": {
+        "value": 0.04284964056820797,
+        "quadrature_error_estimate": 9.547127203913292e-12,
+        "analytic_tail_upper": 1.7977192319229056e-27
+      },
+      "joint_w1": {
+        "value": 1.9914647475163123,
+        "quadrature_error_estimate": 2.8913198119324288e-11,
+        "analytic_tail_upper": 4.526343591236002e-27
+      },
+      "ratio": 46.47564649571104,
+      "moment": {
+        "value": 1.684971910299317,
+        "quadrature_error_estimate": 6.760244556372533e-12,
+        "analytic_tail_upper": 1.3657872181911033e-27
+      },
+      "primary_interaction_gap": 1.9526924932074856,
+      "axis2_hellinger_squared": {
+        "value": 1.2427057406170297e-05,
+        "quadrature_error_estimate": 2.3568622064902758e-14,
+        "analytic_tail_upper": 3.674885416062123e-33,
+        "convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "inverse_xtol": 1e-12,
+        "certified": false,
+        "limitation": "Root/quadrature roundoff not enclosed; analytic tail formula evaluated in floating point"
+      },
+      "complete_experiment_bound": {
+        "hellinger_convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "C": 65.6233873491624,
+        "n_informative": 32,
+        "h2_single_upper": 0.00656233873491624,
+        "h2_experiment_upper": 0.19965713753657643,
+        "tv_upper": 0.44683009918376854,
+        "target_separation_lower": 1.8860708331802383,
+        "mse_lower": 0.2459713655947164,
+        "status": "STANDARD RESULT APPLIED with PROVED HERE transport bound"
+      }
+    },
+    {
+      "delta": 0.001,
+      "axis2_w1": {
+        "value": 0.004190336350365525,
+        "quadrature_error_estimate": 9.632580164217285e-13,
+        "analytic_tail_upper": 7.27077354827711e-28
+      },
+      "joint_w1": {
+        "value": 1.8963440419876116,
+        "quadrature_error_estimate": 5.9659762741531265e-12,
+        "analytic_tail_upper": 1.61603723194085e-27
+      },
+      "ratio": 452.5517484586154,
+      "moment": {
+        "value": 1.652254780128536,
+        "quadrature_error_estimate": 4.928626851919954e-12,
+        "analytic_tail_upper": 3.6477622416329095e-28
+      },
+      "primary_interaction_gap": 1.8925647396725174,
+      "axis2_hellinger_squared": {
+        "value": 1.2923881769951952e-07,
+        "quadrature_error_estimate": 6.363523175617439e-13,
+        "analytic_tail_upper": 5.878894675184073e-33,
+        "convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "inverse_xtol": 1e-12,
+        "certified": false,
+        "limitation": "Root/quadrature roundoff not enclosed; analytic tail formula evaluated in floating point"
+      },
+      "complete_experiment_bound": {
+        "hellinger_convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "C": 65.6233873491624,
+        "n_informative": 32,
+        "h2_single_upper": 6.56233873491624e-05,
+        "h2_experiment_upper": 0.002098880751133036,
+        "tv_upper": 0.045813543315629236,
+        "target_separation_lower": 1.8860708331802383,
+        "mse_lower": 0.42428654457938214,
+        "status": "STANDARD RESULT APPLIED with PROVED HERE transport bound"
+      }
+    },
+    {
+      "delta": 0.0001,
+      "axis2_w1": {
+        "value": 0.0004181120591526363,
+        "quadrature_error_estimate": 9.638317969461374e-14,
+        "analytic_tail_upper": 6.7883208384884915e-28
+      },
+      "joint_w1": {
+        "value": 1.887095558438503,
+        "quadrature_error_estimate": 5.503333187001353e-12,
+        "analytic_tail_upper": 1.4848929885299275e-27
+      },
+      "ratio": 4513.372712241238,
+      "moment": {
+        "value": 1.6490737288686999,
+        "quadrature_error_estimate": 4.7885691337830594e-12,
+        "analytic_tail_upper": 3.1966866047381496e-28
+      },
+      "primary_interaction_gap": 1.8867185830831366,
+      "axis2_hellinger_squared": {
+        "value": 1.2974652568835723e-09,
+        "quadrature_error_estimate": 4.675366817731422e-15,
+        "analytic_tail_upper": 6.957320438246353e-33,
+        "convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "inverse_xtol": 1e-12,
+        "certified": false,
+        "limitation": "Root/quadrature roundoff not enclosed; analytic tail formula evaluated in floating point"
+      },
+      "complete_experiment_bound": {
+        "hellinger_convention": "H^2=int(sqrt(p)-sqrt(q))^2",
+        "C": 65.6233873491624,
+        "n_informative": 32,
+        "h2_single_upper": 6.56233873491624e-07,
+        "h2_experiment_upper": 2.0999377152644005e-05,
+        "tv_upper": 0.00458250773623395,
+        "target_separation_lower": 1.8860708331802383,
+        "mse_lower": 0.4426202502119259,
+        "status": "STANDARD RESULT APPLIED with PROVED HERE transport bound"
+      }
+    }
+  ],
+  "model_fits": 0,
+  "training_steps": 0,
+  "gpu_use": false,
+  "numerical_limit": "Quadrature estimates and analytic tail bounds are reported separately; no certified numerical enclosure"
+}

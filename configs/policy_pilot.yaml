@@ -1,0 +1,44 @@
+# Pilot for the two learned components. Each is separately switchable.
+#
+# DEVELOPMENT DATA ONLY. Instances are drawn from the `development` sequence list below.
+# The `held_out` list is named here so it is visible, and is never loaded by
+# train_policy.py -- it exists for a later stage, under separate authorisation.
+
+data:
+  development:
+    - GGAAACC
+    - GGGAAAUCC
+    - GCGCAAAAGCGC
+    - GGGGAAAACCCC
+  held_out:            # NOT LOADED by this script
+    - GGCGCAAAAGCGCC
+    - GGGCUUCGGGCCC
+  train_instances: 40
+  eval_instances: 20
+  seed: 7027
+
+model:
+  d_hid: 5
+  gamma: 1.0
+  perturb_scale: 1.0
+
+bounds:
+  budget: 5
+  conc_mode: family
+
+learn:
+  query_scorer:
+    enabled: true
+    teacher: measured_gain
+    epochs: 300
+    lr: 0.01
+    hidden: 24
+  slope_policy:
+    enabled: true
+    teacher_draws: 8         # best-of-K random alpha; K is the teacher cost per instance
+    epochs: 300
+    lr: 0.01
+    hidden: 16
+
+compare:
+  deterministic_choices: [random, largest_gap, measured_gain]

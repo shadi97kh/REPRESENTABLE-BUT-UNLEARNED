@@ -1,0 +1,84 @@
+# P2 verifier comparison under protocol v2.
+#
+# Protocol v1's primary metric was a median relative gap reduction. It became 0/0
+# because the baseline already closed 99.1% of instances, and G1/G2 were recorded
+# UNDETERMINED. Those gates are retained historically and are NOT re-scored.
+# Protocol v2 replaces the metric with three declared quantities.
+name: revision_verifier_v2
+
+protocol_v2:
+  primary: decision_coverage
+  decision_coverage:
+    definition: "fraction of instances where the arm CERTIFIES the declared
+                 decision (max f over the family < tau, or >= tau) within the
+                 shared budget"
+    tau_rule: "tau = incumbent + margin * |incumbent|, margin from the frozen
+               ladder grid; declared before any arm runs"
+  secondary:
+    - capped_time_to_resolution:
+        definition: "time at which the gap first falls to tolerance; unresolved
+                     instances are recorded at the cap and counted, never dropped"
+        cap_s: 5.0
+    - anytime_gap_auc:
+        definition: "(1/T) integral of min(1, gap(t)/scale) dt on a COMMON
+                     per-instance scale shared by every arm"
+        scale_rule: "max(initial box gap, task_scale_floor); identical across arms"
+        task_scale_floor: 1.0e-6
+  reporting:
+    - "every rung reported separately AND in aggregate; rung 0 (the v1 easy
+       cases) is never dropped from the aggregate"
+    - "all timeouts and unresolved results recorded with their last valid bound"
+    - "negative gaps recorded as defects, never clipped"
+  v1_gates: "retained unchanged; not re-scored under v2"
+
+ladder_rungs: [0, 1, 2, 3]
+seeds_per_rung: 3
+margins: [0.02, 0.10, 0.50]
+
+arms:
+  - box
+  - terminal_only
+  - intermediate_unconditional
+  - fixed_conditional
+  - deterministic_selective
+  - random_selective
+  - lp_polytope_external
+
+external_reference:
+  exhaustive_enumeration:
+    use: true
+    max_family_size: 4000
+    note: "exact optimum where the family is enumerable; a stronger reference
+           than any solver, and it makes every arm's TRUE gap computable"
+  lp_polytope:
+    use: true
+    note: "LP over the family polytope (scipy.linprog) for the additive term
+           plus a box bound on the residual: an independent bounding strategy,
+           not our oracle"
+  unavailable:
+    - {name: auto_LiRPA, reason: "not installed in this environment"}
+    - {name: gurobipy, reason: "not installed; no licence"}
+    - {name: cvxpy, reason: "not installed"}
+  gap_note: "no external topology-aware NN verifier is installed here. This is
+             recorded as a gap rather than substituted for."
+
+selective:
+  skip_if_gap_below: 1.0e-9      # already resolved: conditioning cannot help
+  skip_if_stable_fraction: 0.95  # few unstable ReLUs: little to tighten
+  min_expected_gain: 0.01        # estimated benefit per measured cost
+  budget: 8
+
+policy:
+  gate: "trained ONLY if deterministic selective conditioning shows a useful
+         cost-benefit region under protocol v2. Otherwise not trained, and the
+         reason is recorded."
+  objective: "measured downstream resolution gain per unit measured cost, not
+              one-step gap reduction"
+  constraint: "policy outputs choose computations; they are never bound values.
+               Branch coverage and pruning validity do not depend on the policy."
+
+budget:
+  time_limit_s: 5.0
+  threads: 1
+  max_cpu_core_hours: 2.0
+  device: cpu

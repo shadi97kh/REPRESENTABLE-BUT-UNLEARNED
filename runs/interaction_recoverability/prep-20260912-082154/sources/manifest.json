@@ -1,0 +1,64 @@
+[
+  {
+    "name": "dextri_v1",
+    "url": "https://arxiv.org/pdf/2608.19849v1",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/dextri_v1.pdf",
+    "bytes": 1841382,
+    "sha256": "9f0c1d831524c826a5aa6a6c58c7dca4ccd9df80f677de82ddebdfce2d416039",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "pdae_v3",
+    "url": "https://arxiv.org/pdf/2504.18522v3",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/pdae_v3.pdf",
+    "bytes": 4262324,
+    "sha256": "26194f6817d289da11d1cc8ff55dcb890a63dd8ebc366468bb5e4b77256479ee",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "bilinear_colt2023",
+    "url": "https://proceedings.mlr.press/v195/simchowitz23a/simchowitz23a.pdf",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/bilinear_colt2023.pdf",
+    "bytes": 1317617,
+    "sha256": "35793d7f724d5eaa0c13fcc0250eef505ff06d63be0eb4fec13500b8196edc0a",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "extrapolation_jmlr2026",
+    "url": "https://www.jmlr.org/papers/volume27/24-0838/24-0838.pdf",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/extrapolation_jmlr2026.pdf",
+    "bytes": 1226821,
+    "sha256": "bc30f6ebdba81098eed4dbb210c857b4df78e243284d313bde7c0a9de6b85811",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "engression_chen_v1",
+    "url": "https://arxiv.org/pdf/2607.27723v1",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/engression_chen_v1.pdf",
+    "bytes": 573800,
+    "sha256": "733ebdfad1d6a25179c23d1f3a2915d52192a600698369ada09ea0948fd89800",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "engression_huang_v1",
+    "url": "https://arxiv.org/pdf/2606.01002v1",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/engression_huang_v1.pdf",
+    "bytes": 361533,
+    "sha256": "76e810ae1e7b9a0b52bcca1e2ec58becca2d5333c0df96533cb889a43b062ddf",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "strong_functionals",
+    "url": "https://arxiv.org/pdf/2208.08291",
+    "path": "runs/interaction_recoverability/prep-20260912-082154/sources/strong_functionals.pdf",
+    "bytes": 887197,
+    "sha256": "61d82c12cb66d23d5ee1da929d2c3286fa3a29af71a796081d94e9afd44d3241",
+    "status": "retrieved and text extracted"
+  },
+  {
+    "name": "donoho_liu_II_technical_report",
+    "url": "https://digicoll.lib.berkeley.edu/record/85827/files/120.pdf",
+    "status": "unresolved retrieval",
+    "error": "response is not a PDF"
+  }
+]

@@ -1,0 +1,38 @@
+# Reproduce the winning DEVELOPMENT configuration from pinned dependencies.
+#
+# "Winning" means: the configuration with the largest development effect that is
+# actually supported by a logged run -- conditional message support at a matched QUERY
+# budget, from the 500-case audit. It is NOT the pilot headline, because the pilot gates
+# did not pass at matched wall time.
+reproduction:
+  name: winning_dev_config
+  out_dir: runs/reproduction
+  strict_hashes: true          # abort if any source or data hash has moved
+
+environment:
+  lock: docs/requirements-lock.txt
+  manifest: docs/environment_manifest.md
+  require:
+    python: "3.13"
+    numpy: "2.4.2"
+    torch: "2.11.0"
+    ViennaRNA: "2.7.2"          # distribution version; RNA.__version__ reports 2.6.4
+  rna_module_version: "2.6.4"
+
+data_hashes:
+  data/TrainAll2182.txt: 4919d99a6d5bffe2
+  data/TestAll249.txt: 7ebfc59a0d0c2116
+  data/Huesken_2431_annotated.tsv: 9e9be35db9c6a092
+  data/gencode_windows.txt: 5a9cb5414c9e514d
+  data/models/monotone_generic.json: a696d123f396631e
+
+winning_config:
+  command: [python, -m, scmp.audit_conditional, --cases, "500", --seed, "7027",
+            --budget, "5"]
+  recorded:                     # from runs/, the values this must reproduce
+    cases: 500
+    baseline_median_gap: 0.5348
+    conditional_median_gap: 0.0830
+    tighter_than_baseline: 324
+    proved_impossible: 1684
+  tolerance: 1.0e-6

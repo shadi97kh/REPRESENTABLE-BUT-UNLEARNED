@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "status": "FROZEN BEFORE FINAL DATA GENERATION AND TARGET ACCESS",
+  "plan": "full",
+  "settings": {
+    "width": 4,
+    "learning_rate": 0.03,
+    "checkpoints": [
+      100,
+      200,
+      300
+    ],
+    "source_nodes": 64,
+    "geometry_nodes": 96,
+    "metric_nodes": 4096,
+    "lambdas": [
+      1e-05,
+      0.001,
+      0.1
+    ],
+    "enrichment_rounds": 4,
+    "search_tau": 0.001,
+    "endpoint_steps": 40,
+    "roles": 3,
+    "selection_rule": "local displacement proxy; heuristic, not certified risk",
+    "prediction_clipping": false
+  },
+  "datasets": [
+    {
+      "id": "d000",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 72100
+    },
+    {
+      "id": "d001",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 72200
+    },
+    {
+      "id": "d002",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 72300
+    },
+    {
+      "id": "d003",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 72400
+    },
+    {
+      "id": "d004",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 72500
+    },
+    {
+      "id": "d005",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 72600
+    },
+    {
+      "id": "d006",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 72700
+    },
+    {
+      "id": "d007",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 72800
+    },
+    {
+      "id": "d008",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 72900
+    },
+    {
+      "id": "d009",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 73000
+    },
+    {
+      "id": "d010",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 73100
+    },
+    {
+      "id": "d011",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 73200
+    },
+    {
+      "id": "d012",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 73300
+    },
+    {
+      "id": "d013",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 73400
+    },
+    {
+      "id": "d014",
+      "delta": 0.1,
+      "n": 256,
+      "initialization_seed": 73500
+    },
+    {
+      "id": "d015",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 73600
+    },
+    {
+      "id": "d016",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 73700
+    },
+    {
+      "id": "d017",
+      "delta": 0.1,
+      "n": 1024,
+      "initialization_seed": 73800
+    },
+    {
+      "id": "d018",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 73900
+    },
+    {
+      "id": "d019",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 74000
+    },
+    {
+      "id": "d020",
+      "delta": 0.03,
+      "n": 256,
+      "initialization_seed": 74100
+    },
+    {
+      "id": "d021",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 74200
+    },
+    {
+      "id": "d022",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 74300
+    },
+    {
+      "id": "d023",
+      "delta": 0.03,
+      "n": 1024,
+      "initialization_seed": 74400
+    }
+  ],
+  "learner_code_sha256": {
+    "interaction_recoverability/learned_target/enrichment.py": "bf68b50c5b007912b29e27282e76d6f526f4d28405958c95d0a7a78330b2031d",
+    "interaction_recoverability/learned_target/correction.py": "7e5708b365985b72708b3829b0db58e2273405152da5cdbbcf3026f8e24557a1",
+    "interaction_recoverability/learned_target/nonlinear_bias.py": "63457983cf1b2ae999b3b77317a81abb949a0ef322fdcdb007b64e3a14949632",
+    "interaction_recoverability/learned_target/profiles.py": "0d76fa0fa01540aab3fc10f8d11017a2a357883d670038b4f5219be944424cc2",
+    "interaction_recoverability/learned_target/geometry.py": "08ab33caa431425bf5c75857f0fc750dc26d372c8f2d5854fff176006f7ebe7e",
+    "interaction_recoverability/learned_target/source_fit.py": "d25a1085498e11b4a6fd06f0e78363a0fc9866290466bc1caea9fa3a3f4a66da",
+    "interaction_recoverability/learned_target/__init__.py": "843639614e60bbd142d96e40ad433fad95e68a086e88ad12a40e1841811e6fe2",
+    "interaction_recoverability/learned_target/baselines.py": "a00a30e4c354d90b3a0d20caa816fd5b0529702905c3e5975a10ecdad9b9abdf",
+    "interaction_recoverability/learned_target/evaluate.py": "673948ad762a6df3793481dddaf460027f637f21ac28dd6aaaedf1a2de4caa2f",
+    "interaction_recoverability/learned_target/__main__.py": "0eaf93b6f042c3c46764eddc988439f513eb4e1546e9c20bd9ba1202d5d69cc2",
+    "interaction_recoverability/learned_target/experiment.py": "0c1e67ceb7a702718449698bfe5e6a4d680dde4299ba6436ad83b97aa67bd644",
+    "interaction_recoverability/learned_target/budget.py": "060de27e4bd1bd7dc36a072a07509ee87a73a80dcc369f956865ababcb531404"
+  },
+  "evaluation_spec_sha256": "65826487672158adbd424a820960af4347aef882612f11e522440374f5cbdeb0",
+  "selection_from_timing_only": {
+    "development_wall_s": 34.732766998931766,
+    "full_projection_s": 1250.3796119615436,
+    "minimum_projection_s": 625.1898059807718,
+    "available_compute_s": 6461.076764244912
+  },
+  "primary": "ordinary squared interaction error, untransformed, no clipping",
+  "screening_rule": "at least 10% aggregate MSE reduction over strongest complete non-oracle control; descriptive only",
+  "roles": "three stratified cyclic F,C,E rotations; source checkpoints and lambda selected without own E data",
+  "methods": [
+    "neural_shared_plugin",
+    "neural_fixed",
+    "neural_adaptive",
+    "neural_random",
+    "neural_rich",
+    "basis_shared_plugin",
+    "basis_rich",
+    "neural_pooled_plugin",
+    "basis_pooled_plugin",
+    "basis_direct_set_midpoint"
+  ],
+  "stops": [
+    "resource reserve",
+    "nonfinite or failed data fit retained without target-driven restart",
+    "no fits after final evaluation"
+  ],
+  "truth_access": "separate evaluation module/files; no latent arrays or generator seeds passed to learner"
+}

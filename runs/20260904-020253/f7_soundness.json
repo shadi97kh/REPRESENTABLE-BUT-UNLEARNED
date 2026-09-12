@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "floor": 0.0,
+      "canonical_only": false,
+      "median_k": 1770.0,
+      "max_k": 1770,
+      "median_coverage": 1.0,
+      "min_coverage": 1.0,
+      "median_tightness": 179.08490305929683,
+      "max_tightness": 190.88268232567137,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.0,
+      "canonical_only": true,
+      "median_k": 609.5,
+      "max_k": 732,
+      "median_coverage": 1.0,
+      "min_coverage": 1.0,
+      "median_tightness": 29.251978409536058,
+      "max_tightness": 37.15998650469893,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 1e-06,
+      "canonical_only": true,
+      "median_k": 414.0,
+      "max_k": 636,
+      "median_coverage": 1.0,
+      "min_coverage": 1.0,
+      "median_tightness": 15.139907495597175,
+      "max_tightness": 28.76847533487495,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.0001,
+      "canonical_only": true,
+      "median_k": 189.5,
+      "max_k": 338,
+      "median_coverage": 0.997,
+      "min_coverage": 0.993,
+      "median_tightness": 4.691074717402618,
+      "max_tightness": 10.177954777094335,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.001,
+      "canonical_only": true,
+      "median_k": 119.5,
+      "max_k": 228,
+      "median_coverage": 0.982,
+      "min_coverage": 0.966,
+      "median_tightness": 2.5687593087929583,
+      "max_tightness": 5.493808929058526,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.01,
+      "canonical_only": true,
+      "median_k": 61.0,
+      "max_k": 115,
+      "median_coverage": 0.9095,
+      "min_coverage": 0.792,
+      "median_tightness": 1.4848533021349128,
+      "max_tightness": 2.448165655055947,
+      "violations": 0,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.05,
+      "canonical_only": true,
+      "median_k": 33.5,
+      "max_k": 59,
+      "median_coverage": 0.7375,
+      "min_coverage": 0.431,
+      "median_tightness": 1.1310507179848182,
+      "max_tightness": 1.5010701528802344,
+      "violations": 15,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.1,
+      "canonical_only": true,
+      "median_k": 25.5,
+      "max_k": 47,
+      "median_coverage": 0.5954999999999999,
+      "min_coverage": 0.363,
+      "median_tightness": 1.0116139770506323,
+      "max_tightness": 1.2783482603392307,
+      "violations": 199,
+      "n_samples": 20000
+    },
+    {
+      "floor": 0.2,
+      "canonical_only": true,
+      "median_k": 20.5,
+      "max_k": 34,
+      "median_coverage": 0.4185,
+      "min_coverage": 0.081,
+      "median_tightness": 0.9783925440273944,
+      "max_tightness": 1.1235088664463566,
+      "violations": 1017,
+      "n_samples": 20000
+    }
+  ],
+  "sound_at_floor_zero": true,
+  "figure": "runs/20260904-020253/coverage_tightness.png",
+  "model": "data/models/monotone_generic.json"
+}

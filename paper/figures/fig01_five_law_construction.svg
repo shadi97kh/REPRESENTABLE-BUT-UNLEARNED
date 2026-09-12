@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="628.2pt" height="330.408pt" viewBox="0 0 628.2 330.408" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 330.408 
+L 628.2 330.408 
+L 628.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.57 122.54292 
+L 185.76 122.54292 
+Q 190.782 122.54292 190.782 117.8028 
+L 190.782 44.0676 
+Q 190.782 39.32748 185.76 39.32748 
+L 15.57 39.32748 
+Q 10.548 39.32748 10.548 44.0676 
+L 10.548 117.8028 
+Q 10.548 122.54292 15.57 122.54292 
+z
+" clip-path="url(#p855e684dde)" style="fill: #dbeafe; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 222.03 122.54292 
+L 392.22 122.54292 
+Q 397.242 122.54292 397.242 117.8028 
+L 397.242 44.0676 
+Q 397.242 39.32748 392.22 39.32748 
+L 222.03 39.32748 
+Q 217.008 39.32748 217.008 44.0676 
+L 217.008 117.8028 
+Q 217.008 122.54292 222.03 122.54292 
+z
+" clip-path="url(#p855e684dde)" style="fill: #dbeafe; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 428.49 122.54292 
+L 598.68 122.54292 
+Q 603.702 122.54292 603.702 117.8028 
+L 603.702 44.0676 
+Q 603.702 39.32748 598.68 39.32748 
+L 428.49 39.32748 
+Q 423.468 39.32748 423.468 44.0676 
+L 423.468 117.8028 
+Q 423.468 122.54292 428.49 122.54292 
+z
+" clip-path="url(#p855e684dde)" style="fill: #dcfce7; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 428.49 251.57952 
+L 598.68 251.57952 
+Q 603.702 251.57952 603.702 246.8394 
+L 603.702 173.1042 
+Q 603.702 168.36408 598.68 168.36408 
+L 428.49 168.36408 
+Q 423.468 168.36408 423.468 173.1042 
+L 423.468 246.8394 
+Q 423.468 251.57952 428.49 251.57952 
+z
+" clip-path="url(#p855e684dde)" style="fill: #dcfce7; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 222.03 251.57952 
+L 392.22 251.57952 
+Q 397.242 251.57952 397.242 246.8394 
+L 397.242 173.1042 
+Q 397.242 168.36408 392.22 168.36408 
+L 222.03 168.36408 
+Q 217.008 168.36408 217.008 173.1042 
+L 217.008 246.8394 
+Q 217.008 251.57952 222.03 251.57952 
+z
+" clip-path="url(#p855e684dde)" style="fill: #fef3c7; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 15.57 251.57952 
+L 185.76 251.57952 
+Q 190.782 251.57952 190.782 246.8394 
+L 190.782 173.1042 
+Q 190.782 168.36408 185.76 168.36408 
+L 15.57 168.36408 
+Q 10.548 168.36408 10.548 173.1042 
+L 10.548 246.8394 
+Q 10.548 251.57952 15.57 251.57952 
+z
+" clip-path="url(#p855e684dde)" style="fill: #fef3c7; stroke: #334155; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(20.625938 72.496762)">Five independent source groups</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(22.100938 83.694575)">Reference + four single actions</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(37.738438 94.892387)">n per group; total N = 5n</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(243.702344 72.496762)">Empirical quantile curves</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(239.053125 83.694575)">Known latent law and warp</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(238.327344 94.892387)">Two calibrated unit anchors</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(444.625625 72.496762)">Contracting central identity</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(446.4975 83.694575)">Finite depth; normalization</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(437.5725 94.892387)">No profile derivatives required</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(455.888125 201.533362)">Source-only calibration</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(441.113906 212.731175)">All four coefficients unknown</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(442.427188 223.928987)">Declared local search region</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(244.121094 201.533362)">Signed target integration</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(234.499219 212.731175)">Outward lattice + tail control</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(234.925781 223.928987)">Shared-reference covariance</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(39.391563 201.533362)">Target contrast estimate</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(36.688438 212.731175)">Pointwise local expansion</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(28.928281 223.928987)">Joint outcomes not observed</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 193.341566 80.9352 
+Q 203.89579 80.9352 212.66116 80.9352 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 208.66116 78.9352 
+L 212.66116 80.9352 
+L 208.66116 82.9352 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 399.801566 80.9352 
+Q 410.35579 80.9352 419.12116 80.9352 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 415.12116 78.9352 
+L 419.12116 80.9352 
+L 415.12116 82.9352 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 513.864 125.066991 
+Q 513.864 145.45107 513.864 164.046293 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 515.864 160.046293 
+L 513.864 164.046293 
+L 511.864 160.046293 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 420.908434 209.9718 
+Q 410.35421 209.9718 401.58884 209.9718 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 405.58884 211.9718 
+L 401.58884 209.9718 
+L 405.58884 207.9718 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 214.448434 209.9718 
+Q 203.89421 209.9718 195.12884 209.9718 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 199.12884 211.9718 
+L 195.12884 209.9718 
+L 199.12884 207.9718 
+" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #7c2d12" transform="translate(134.397813 291.117116)">Mathematical construction with certified-arithmetic specification.</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #7c2d12" transform="translate(103.337422 303.434709)">Reference backend is uncertified; sampled-data execution remains disabled.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p855e684dde">
+   <rect x="7.2" y="7.2" width="613.8" height="316.008"/>
+  </clipPath>
+ </defs>
+</svg>

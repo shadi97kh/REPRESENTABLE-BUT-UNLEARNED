@@ -1,0 +1,59 @@
+# P3 RNA pilot. Admissibility comes from configs/revision_rna_data.yaml, which is
+# decided by RESOLVED INPUTS rather than by dataset name.
+
+name: revision_rna_pilot_v2
+seeds: [0, 1, 2, 3, 4]
+data_audit_config: configs/revision_rna_data.yaml
+
+windows:
+  size: 50
+  restrict_to: interior_only     # inside the tiled-hull lower bound on the insert
+  context_status: inferred_insert_interior
+  assumption: "the inserted fragment is contiguous native sequence. Inferred from
+               dense contiguous tiling, NOT read from a construct record."
+  isoform_policy: explicit       # ambiguous isoforms recorded per site, never folded
+  forbid_exon_union: true
+
+split:
+  kind: novel_sequence
+  group_by: [target_gene, sequence_cluster_13mer]
+  holdout_fraction: 0.25
+  note: "all chemical variants of a site would share a fold; Huesken has one
+         chemistry so the constraint is trivially met and must be re-checked
+         when Davis rows arrive"
+
+arms:
+  - matched_sequence_chemistry
+  - target_sequence
+  - mfe_gnn
+  - sampled_ensemble_gnn
+  - anchor_A
+  - repaired_A_plus_B
+
+ensemble:
+  objective: "yhat = b + a^T mu + gamma * E_p[g]"
+  label_policy: "the assay outcome labels the ENSEMBLE, never an individual
+                 latent structure"
+  prior: declared_gibbs
+  prior_sensitivity: [0.5, 1.0, 2.0]     # temperature multipliers
+  n_samples: [64, 256]                   # convergence is reported, not assumed
+  record_sampling_error: true
+
+metrics:
+  primary_predictive: spearman
+  candidate_selection: top_k_enrichment
+  k: 20
+  activity_threshold: 0.70
+  report_prevalence: true
+  separate_claims:
+    - model_ranking_validity      # certificate correctness; model-internal
+    - measurement_agreement       # empirical; computed separately
+  target_wise: true
+  scope: "on-target efficacy and ranking. NOT off-target safety. NOT causal
+          structure validation. No thermodynamic claim for modified chemistry."
+
+budget:
+  device: auto
+  gpu_memory_fraction: 0.15
+  max_cpu_core_hours: 1.0
+  max_gpu_hours: 0.25

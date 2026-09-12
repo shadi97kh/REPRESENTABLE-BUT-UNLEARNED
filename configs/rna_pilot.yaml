@@ -1,0 +1,43 @@
+# RNA pilot. DRY RUN ONLY until a budget and the construct question are settled.
+pilot:
+  protocol: configs/protocol.yaml
+  data_manifest: runs/rna_data
+  split_audit: runs/rna_splits
+  authorized_budget: null
+  out_dir: runs/rna_pilot
+
+task: on_target_efficacy_and_ranking
+
+dataset:
+  name: huesken2005
+  context_source: reporter_construct        # from the primary source
+  allow_context_substitution: false         # refuse native windows for a reporter assay
+  substitution_justification: ""
+
+window_sensitivity:
+  lengths: [50, 100, 150]
+  min_loop: 3
+  canonical_only: true
+  probability_floor: 0.0
+  isoform_policy: explicit_per_isoform      # exon unions are refused
+  fold_exon_unions: false
+
+covariates:
+  guide: true
+  chemistry: true
+  assay: true
+  chemistry_vocabulary: [unmodified]
+  assay_vocabulary: [reporter_yfp]
+
+prior:
+  kind: declared_gibbs
+  exact_marginals_require_validated_grammar: true
+
+fit:
+  objective: ensemble_readout               # yhat = b + a^T mu + gamma E[g]
+  label_per_latent_structure: false         # never label a structure with the readout
+  n_samples: 256
+  seeds: [0, 1, 2, 3, 4]
+
+splits:
+  unit: sequence_cluster                    # the only clean unit from the split audit

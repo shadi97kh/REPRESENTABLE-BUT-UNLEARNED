@@ -1,0 +1,27 @@
+# Complete verification on families small enough to enumerate exhaustively, so that
+# every certificate can be checked against ground truth rather than only for internal
+# consistency.
+verify:
+  out_dir: runs/tiny_complete
+  max_nodes: 200
+  time_limit: 20.0
+  tol: 1.0e-9
+  fairness_period: 4
+  reference_mode: true      # exact evaluation at singleton nodes
+
+families:
+  - {seq: GGAAACC,      min_loop: 3, canonical_only: true}
+  - {seq: GGGAAAUCC,    min_loop: 3, canonical_only: true}
+  - {seq: GCGCAAAAGCGC, min_loop: 3, canonical_only: true}
+
+models:
+  d_hid: [4]
+  gamma: [1.0, 0.0, -1.0]
+  init_seed: [0, 1]
+  perturb_scale: [0.0, 1.0]
+  perturb_seed: [11]
+
+# A deliberately tiny budget, to exercise the unresolved path rather than only the
+# proved one.
+stress:
+  tight_node_budget: 2

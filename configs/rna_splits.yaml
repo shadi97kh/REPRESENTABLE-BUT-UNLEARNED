@@ -1,0 +1,27 @@
+# Split audit. Cross-dataset duplication is checked BEFORE any split is proposed,
+# because a split built on top of undetected duplication is worse than no split.
+audit:
+  name: rna_split_audit
+  out_dir: runs/rna_splits
+  manifest_dir: runs/rna_data
+
+datasets_available: [huesken2005]
+datasets_pending: [davis2025, cmsirnadb]
+
+duplication:
+  exact_sequence: true
+  kmer_cluster:
+    k: 13                 # a shared 13-mer between 21-nt guides means heavy overlap
+    linkage: single
+  seed_region:
+    start: 1              # guide positions 2-8, 0-indexed 1..7
+    end: 8
+
+splits:
+  - {name: gene, unit: gene_symbol, status: check}
+  - {name: sequence_cluster, unit: kmer_cluster, status: check}
+  - {name: study, unit: source_study, status: check}
+  - {name: patent_family, unit: patent_family, status: check}
+
+target_test_fraction: 0.25
+seed: 7027

@@ -1,0 +1,89 @@
+# P3 data audit. Nothing here asserts a fact about a dataset; every field is a
+# question the audit answers from files actually on disk.
+
+name: revision_rna_data_v2
+
+datasets:
+  huesken2005:
+    local_files:
+      annotated: data/Huesken_2431_annotated.tsv
+      split_train: data/TrainAll2182.txt
+      split_test: data/TestAll249.txt
+    label:
+      field: "%Inhibition"
+      scale: "percent; efficacy = %Inhibition / 100"
+      clip_above_1: false        # values above 1.0 are legitimate; NEVER clip
+      why: "normalised so the positive control reads 90.0% inhibition and the
+            least active siRNA 0%, so >100% is attainable and meaningful"
+    assay_primary_source:
+      construct: "YFP reporter plasmid; target sites in the reporter 3' UTR"
+      n_constructs: 34
+      cell_line: H1299
+      timepoint_h: 48
+      readout: "residual YFP fluorescence"
+    assay_redistributed_annotation:
+      cell_line: HeLa
+      technology: "Luciferase reporter assay"
+      status: contradicts_primary_source
+      action: "the annotation columns are recorded but NOT used as assay identity"
+    chemistry: "unmodified siRNA duplexes throughout; no chemical variants exist
+                in this dataset, so chemical-transfer evaluation is INFEASIBLE here"
+
+  davis2025:
+    doi: 10.1093/nar/gkaf479
+    licence: CC-BY-4.0
+    required_file:
+      name: gkaf479_supplemental_files.zip
+      contains: "Supplementary Table S1"
+      publisher_route: "Oxford Academic (Nucleic Acids Research) article page ->
+                        Supplementary data. PMC mirror exists but serves a
+                        reCAPTCHA challenge; it is NOT to be bypassed."
+      place_at: data/davis2025/gkaf479_supplemental_files.zip
+    do_not_substitute:
+      - {accession: GSE231101, what: "3P-seq polyadenylation mapping",
+         why: "NOT knockdown labels; must never stand in for S1"}
+
+f9_native_windows:
+  file: data/gencode_windows.txt
+  status: quarantined
+  why: "native GENCODE transcript context substituted for a reporter construct.
+        Retained as labelled structural examples only; may not support any
+        measured reporter conclusion."
+
+insert_recovery:
+  # Investigate before declaring reporter context unrecoverable.
+  method: "map each guide's reverse complement into GENCODE isoforms; per gene,
+           the convex hull of tiled site positions is a LOWER BOUND on the
+           inserted fragment. A window is 'interior' if it lies wholly inside
+           that hull."
+  assumption: "the insert is a contiguous native fragment. Supported by the
+               observed dense contiguous tiling, NOT by a construct record."
+  windows: [50, 100, 150]
+  status_for_interior: inferred_insert_interior
+  status_for_edge: unresolved_context
+
+splits:
+  novel_sequence:
+    group_by: [target_site, sequence_cluster]
+    note: "all chemical variants of a site must share a fold. Huesken has none,
+           so the grouping is trivially satisfied here and must be re-checked
+           when Davis rows arrive."
+  chemical_transfer:
+    feasible_with: davis2025
+    status: infeasible_without_davis
+  forbidden:
+    - "broad unseen-gene conclusions from one held-out gene"
+    - "row-wise bootstrap over a small number of target genes"
+
+metrics:
+  predeclared: true
+  within_assay_predictive: spearman
+  candidate_selection: "top-k enrichment within target, k=20"
+  activity_threshold: 0.70          # efficacy >= 0.70 counts as active
+  threshold_rationale: "fixed before any arm is run; corresponds to 70%
+                        inhibition on the primary source's normalisation"
+  report_prevalence: true
+  separate:
+    - "model-ranking validity (certificate correctness)"
+    - "agreement with held-out measurement (empirical)"
+  scope: "on-target efficacy only; NOT off-target safety, NOT causal structure"

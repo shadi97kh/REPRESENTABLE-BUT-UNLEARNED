@@ -1,0 +1,94 @@
+# Data audit for the on-target siRNA efficacy study.
+audit:
+  name: rna_on_target_efficacy
+  out_dir: runs/rna_data
+  task: on_target_efficacy_and_ranking      # NOT off-target safety
+  strict: true
+
+datasets:
+  huesken2005:
+    role: historical_benchmark
+    status: available
+    files:
+      data/TrainAll2182.txt: 4919d99a6d5bffe2
+      data/TestAll249.txt: 7ebfc59a0d0c2116
+      data/Huesken_2431_annotated.tsv: 9e9be35db9c6a092
+    expect:
+      n_records: 2431
+      guide_length: 21
+      historical_split: [2182, 249]
+      label_unclipped: true          # normalised inhibition legitimately exceeds 1.0
+      label_min: 0.0
+      label_max_at_least: 1.3
+    primary_source:
+      citation: "Huesken et al., Nat Biotechnol 23:995-1001 (2005)"
+      doi: 10.1038/nbt1118
+      access: paywalled
+      assay_from_primary:
+        construct: "YFP reporter plasmid; target sites in the reporter 3' UTR"
+        n_constructs: 34
+        cell_line: H1299
+        timepoint_h: 48
+        readout: "residual YFP fluorescence"
+        normalisation: "positive control = 90.0% inhibition, negative control = 35.4%,
+                        least active siRNA = 0%"
+        evidence: "secondary description; primary PDF not retrieved"
+    annotation_source:
+      name: siRNAEfficacyDB
+      fields_used: [Gene, Antisense_21mer]
+      claims:
+        cell_line: HeLa
+        assay: "Luciferase reporter assay"
+        concentration: 50nM
+        timepoint_h: 48
+
+  davis2025:
+    role: candidate_main_therapeutic
+    status: pending_acquisition
+    citation: "Davis, Hildebrand, MacMillan, ... Khvorova. Nucleic Acids Research
+               53(12), 2025"
+    doi: 10.1093/nar/gkaf479
+    efficacy_table: "Supplementary Table S1"
+    fields_expected: [sirna_sequence, chemical_scaffold, target_gene, assay_type,
+                      percent_target_expression]
+    chemical_scaffolds: ["Blunt 2'-OMe/-F", "Asymmetric 2'-OMe/-F",
+                         "Asymmetric 2'-OMe Rich"]
+    target_genes: [APP, BACE1, MAPT, SNCA]
+    assay_types: [native_quantigene, reporter_luciferase]
+    geo_accession: GSE231101
+    geo_content: "3P-seq, polyadenylation site mapping"
+    geo_is_efficacy_labels: false      # HARD ASSERTION: must never be used as labels
+    licence:
+      status: resolved
+      spdx: CC-BY-4.0
+      evidence: "Crossref license field for 10.1093/nar/gkaf479, content-version vor"
+    acquisition:
+      pmcid: PMC12205987
+      supplementary_url: "https://pmc.ncbi.nlm.nih.gov/articles/instance/12205987/bin/gkaf479_supplemental_files.zip"
+      status: blocked
+      blocker: "PMC serves a reCAPTCHA challenge for the binary; automated download was
+                not attempted further and the bot gate was not circumvented. A human
+                download is required. The licence permits redistribution once obtained."
+
+  cmsirnadb:
+    role: optional
+    status: pending_acquisition
+    citation: "He, Chen, et al. BMC Bioinformatics (2025/2026)"
+    doi: 10.1186/s12859-025-06359-y
+    url: https://cellknowledge.com.cn/CMsiRNAdb/
+    reported:
+      sequences: 43153
+      patents: 90
+      modification_types: 36
+      target_genes: 13
+    unresolved:
+      - records_vs_unique_sequences
+      - chemical_variants_per_sequence
+      - conditions_per_record
+      - patent_family_grouping
+      - licence
+
+context_resolution:
+  policy: never_substitute_silently
+  rule: "If the assayed construct is a reporter, native transcript flanking sequence is
+         NOT the assayed context and may not be substituted for it."

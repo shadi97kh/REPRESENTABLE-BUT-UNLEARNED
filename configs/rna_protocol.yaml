@@ -1,0 +1,59 @@
+# RNA application protocol. Metrics predeclared BEFORE the comparison is run.
+protocol:
+  name: rna_on_target_application
+  task: on_target_efficacy_and_ranking      # never off-target or safety
+  chosen_on: development
+  written: 2026-09-05
+
+metrics:
+  predictive_primary:
+    name: spearman_within_assay
+    scope: per_assay                        # never pooled across assays or scales
+    direction: higher_is_better
+  candidate_selection:
+    name: precision_at_k
+    k: 20
+    scope: per_assay
+    direction: higher_is_better
+  certificate_width:
+    name: mean_bracket_width_at_matched_cost
+    matched_on: wall_clock_seconds
+    direction: lower_is_better
+  resolved_comparison_coverage:
+    name: fraction_of_pairs_with_u_i_below_l_j
+    direction: higher_is_better
+    certifies: model_ranking_only           # NOT the measured ranking
+    agreement_with_measurement: reported_separately
+
+arms:
+  - {name: linear_sequence_only,   needs: [guide]}
+  - {name: sequence_target,        needs: [guide, target_site]}
+  - {name: mfe_gnn,                needs: [target_window, folding]}
+  - {name: mean_adjacency_gnn,     needs: [target_window, marginals]}
+  - {name: sampled_ensemble_gnn,   needs: [target_window, sampling]}
+  - {name: anchor_A,               needs: [target_window, family]}
+  - {name: fixed_A_plus_B,         needs: [target_window, family]}
+  - {name: learned_A_plus_B,       needs: [target_window, family, policy]}
+identical_available_inputs: true
+
+design:
+  split_unit: sequence_cluster
+  seeds: [0, 1, 2, 3, 4]
+  report_all_seeds: true
+  confidence_interval:
+    method: paired_cluster_bootstrap
+    resamples: 10000
+    level: 0.95
+
+separation:
+  structural_sensitivity: distinct
+  chemical_variant_prediction: distinct
+  biological_causation: not_claimed
+
+exclusions:
+  rules:
+    - empty_or_singleton_family
+    - dead_instance
+    - non_finite
+    - integrity_reject
+  unresolved_counts_in_denominator: true

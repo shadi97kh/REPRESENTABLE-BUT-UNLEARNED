@@ -1,0 +1,87 @@
+# P1: repair the predictor before verifying it at scale.
+#
+# Separation of concerns enforced by this config:
+#   stages S0-S3 are TECHNICAL TRAINING DIAGNOSTICS on the Huesken rows. They
+#   reproduce and debug the historical pilot. They are NOT RNA experiments and
+#   may not support any RNA claim.
+#   stages S4-S5 are CONTROLLED SYNTHETIC experiments on enumerable non-RNA
+#   families. RNA data is excluded from them because the reporter construct
+#   context is unresolved (docs/run_report_reconciliation.md, item 4).
+
+name: revision_predictor_v2
+seeds: [0, 1, 2, 3, 4]
+
+evidence:
+  S0_preserve:   real_arithmetic_proof
+  S1_reproduce:  float_diagnostic
+  S2_parity:     float_diagnostic
+  S3_tinyfit:    float_diagnostic
+  S4_ainit:      learned_synthetic
+  S5_controlled: learned_synthetic
+
+# ---------------------------------------------------------------- historical pilot
+historical:
+  source: scmp/run_pilot.py:run_predictor
+  record: runs/pilot/pilot-20260905-163226.json
+  recorded_means: {certifiable_gamma0: 0.7253, certifiable_gamma1: 0.4573,
+                   unconstrained: 0.1212}
+  max_sequences: 400
+  epochs: 150
+  lr: 0.02
+  d_hid: 24
+  status: technical_training_diagnostic_only
+  rna_claim_admissible: false
+
+# ------------------------------------------------------------------- tiny-set fit
+tinyfit:
+  n_rows: 24            # small enough that any adequate model must interpolate
+  epochs: 600
+  lr: 0.02
+  curve_every: 20
+  arms: [anchor_only_A, old_A_plus_B, nonlinear_reference]
+
+# ------------------------------------------------- A-initialised residual training
+ainit:
+  family: path_matching        # enumerable, non-RNA
+  n_nodes: 8
+  d_in: 4
+  d_hid: 12
+  anchor_epochs: 400
+  residual_epochs: 400
+  lr_anchor: 0.02
+  lr_residual: 0.01
+  lr_finetune: 0.002           # strictly lower than lr_anchor
+  residual_init: zero_output_nonzero_hidden
+  gate_init: 1.0               # gate NOT zeroed: zeroing both kills the gradient
+  certificate_penalty: false   # disabled initially, per plan section 5.2 item 7
+  shrinkage_grid: [0.0, 0.125, 0.25, 0.5, 1.0]
+  residual_target_mode: joint  # not residual-target fitting, so no cross-fitting
+  arms: [A_only, A_plus_B_old_setup, A_init_frozen, A_init_finetune,
+         A_init_shrinkage]
+
+# ------------------------------------------------------- controlled synthetic tasks
+controlled:
+  families:
+    - {name: path_matching, n_nodes: 8}
+    - {name: layered_dag, layers: 3, width: 3}
+  targets:
+    - {name: additive, kind: additive}
+    - {name: local_interaction, kind: pairwise, note: "Ising-style; NOT generated
+        by our MPNN, so a win is not architecture self-recognition"}
+  holdout: size          # train on |z| <= t, test on |z| > t
+  d_in: 4
+  d_hid: 12
+  epochs: 500
+  lr: 0.02
+  arms: [ridge_additive, ridge_pairwise, signed_nonlinear_reference,
+         A_only, A_init_residual]
+  diagnostics: [projection_residual_1z, feasible_mixed_differences]
+
+budget:
+  device: auto           # CPU unless a GPU is free; these models are tiny
+  gpu_memory_fraction: 0.15
+  max_cpu_core_hours: 1.0
+  max_gpu_hours: 0.25
+  note: "charged against the existing authorisation; CPU and GPU accounted
+         separately. Awaiting confirmation of whether the 8 CPU core-hour cap is
+         per-run or programme-total; this stage is sized to be safe either way."

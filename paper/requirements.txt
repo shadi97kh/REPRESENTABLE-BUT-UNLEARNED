@@ -1,0 +1,4 @@
+# Plot rendering only. No training libraries or external model access.
+matplotlib==3.10.8
+Pillow==12.2.0
+reportlab>=4

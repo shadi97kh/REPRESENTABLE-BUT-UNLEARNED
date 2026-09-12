@@ -1,0 +1,214 @@
+{
+  "rows": [
+    {
+      "family": "matching (deg<=1)",
+      "L": 1,
+      "kappa": 2.3846153846153846,
+      "w_top": 31.0,
+      "w_best": 13.0,
+      "gap_nobias": 2.3846153846153846,
+      "gap_bias": 2.3846153846153846,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 46
+    },
+    {
+      "family": "matching (deg<=1)",
+      "L": 2,
+      "kappa": 6.28,
+      "w_top": 157.0,
+      "w_best": 25.0,
+      "gap_nobias": 6.279999999999999,
+      "gap_bias": 6.25630115550227,
+      "rel_err": 1.4142968466562503e-16,
+      "tight": true,
+      "n_feasible": 46
+    },
+    {
+      "family": "matching (deg<=1)",
+      "L": 3,
+      "kappa": 15.571428571428571,
+      "w_top": 763.0,
+      "w_best": 49.0,
+      "gap_nobias": 15.57142857142857,
+      "gap_bias": 15.522618588391094,
+      "rel_err": 1.1407796216331884e-16,
+      "tight": true,
+      "n_feasible": 46
+    },
+    {
+      "family": "deg<=2",
+      "L": 1,
+      "kappa": 1.8235294117647058,
+      "w_top": 31.0,
+      "w_best": 17.0,
+      "gap_nobias": 1.8235294117647058,
+      "gap_bias": 1.8235294117647056,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 533
+    },
+    {
+      "family": "deg<=2",
+      "L": 2,
+      "kappa": 3.3404255319148937,
+      "w_top": 157.0,
+      "w_best": 47.0,
+      "gap_nobias": 3.340425531914894,
+      "gap_bias": 3.333992021771451,
+      "rel_err": 1.3294390358568753e-16,
+      "tight": true,
+      "n_feasible": 533
+    },
+    {
+      "family": "deg<=2",
+      "L": 3,
+      "kappa": 5.569343065693431,
+      "w_top": 763.0,
+      "w_best": 137.0,
+      "gap_nobias": 5.569343065693431,
+      "gap_bias": 5.5617034945312005,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 533
+    },
+    {
+      "family": "deg<=3",
+      "L": 1,
+      "kappa": 1.4761904761904763,
+      "w_top": 31.0,
+      "w_best": 21.0,
+      "gap_nobias": 1.4761904761904763,
+      "gap_bias": 1.4761904761904758,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 1864
+    },
+    {
+      "family": "deg<=3",
+      "L": 2,
+      "kappa": 2.0933333333333333,
+      "w_top": 157.0,
+      "w_best": 75.0,
+      "gap_nobias": 2.0933333333333337,
+      "gap_bias": 2.091304784971392,
+      "rel_err": 2.1214452699843756e-16,
+      "tight": true,
+      "n_feasible": 1864
+    },
+    {
+      "family": "deg<=3",
+      "L": 3,
+      "kappa": 2.696113074204947,
+      "w_top": 763.0,
+      "w_best": 283.0,
+      "gap_nobias": 2.6961130742049466,
+      "gap_bias": 2.6945321818777828,
+      "rel_err": 1.6471460863377158e-16,
+      "tight": true,
+      "n_feasible": 1864
+    },
+    {
+      "family": "forest (acyclic)",
+      "L": 1,
+      "kappa": 1.631578947368421,
+      "w_top": 31.0,
+      "w_best": 19.0,
+      "gap_nobias": 1.6315789473684208,
+      "gap_bias": 1.6315789473684208,
+      "rel_err": 1.360918546314708e-16,
+      "tight": true,
+      "n_feasible": 1404
+    },
+    {
+      "family": "forest (acyclic)",
+      "L": 2,
+      "kappa": 2.1506849315068495,
+      "w_top": 157.0,
+      "w_best": 73.0,
+      "gap_nobias": 2.1506849315068495,
+      "gap_bias": 2.149098397555827,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 1404
+    },
+    {
+      "family": "forest (acyclic)",
+      "L": 3,
+      "kappa": 3.1659751037344397,
+      "w_top": 763.0,
+      "w_best": 241.0,
+      "gap_nobias": 3.1659751037344397,
+      "gap_bias": 3.1630660286774823,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 1404
+    },
+    {
+      "family": "all subsets (join-closed)",
+      "L": 1,
+      "kappa": 1.0,
+      "w_top": 31.0,
+      "w_best": 31.0,
+      "gap_nobias": 1.0,
+      "gap_bias": 1.0,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 4096
+    },
+    {
+      "family": "all subsets (join-closed)",
+      "L": 2,
+      "kappa": 1.0,
+      "w_top": 157.0,
+      "w_best": 157.0,
+      "gap_nobias": 1.0,
+      "gap_bias": 1.0,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 4096
+    },
+    {
+      "family": "all subsets (join-closed)",
+      "L": 3,
+      "kappa": 1.0,
+      "w_top": 763.0,
+      "w_best": 763.0,
+      "gap_nobias": 1.0,
+      "gap_bias": 1.0,
+      "rel_err": 0.0,
+      "tight": true,
+      "n_feasible": 4096
+    }
+  ],
+  "K1": true,
+  "K2": true,
+  "K3": true,
+  "K4": true,
+  "nested_chain": [
+    "matching (deg<=1)",
+    "deg<=2",
+    "deg<=3",
+    "all subsets (join-closed)"
+  ],
+  "chain_values": {
+    "1": [
+      2.3846,
+      1.8235,
+      1.4762,
+      1.0
+    ],
+    "2": [
+      6.28,
+      3.3404,
+      2.0933,
+      1.0
+    ],
+    "3": [
+      15.5714,
+      5.5693,
+      2.6961,
+      1.0
+    ]
+  }
+}

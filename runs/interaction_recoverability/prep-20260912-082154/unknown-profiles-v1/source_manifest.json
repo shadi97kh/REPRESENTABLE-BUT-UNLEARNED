@@ -1,0 +1,8 @@
+{
+  "trabs": {
+    "url": "https://arxiv.org/pdf/1307.6610v2",
+    "sha256": "21eb1d8eada98549195aff54ac0f6a126db89ed82a7905b5edb9692013aa263f",
+    "status": "retrieved"
+  },
+  "reused_manifest": "../sources/manifest.json"
+}
