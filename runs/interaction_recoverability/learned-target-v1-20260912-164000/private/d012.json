@@ -1,0 +1,21 @@
+{
+  "id": "d012",
+  "family": "localized",
+  "delta": 0.1,
+  "n": 256,
+  "generator_seed": 9181212,
+  "coefficients": [
+    [
+      0.8260075040154218,
+      0.778758336609128
+    ],
+    [
+      0.6734893863889493,
+      0.6757067059668231
+    ]
+  ],
+  "target": 4.424468227203608,
+  "target_quadrature_difference": 2.0250467969162855e-13,
+  "latent_observations_stored": false,
+  "source_sha256": "89bd167d3657802c349234944d00380d842916621af99be36d5d4513d2aef985"
+}

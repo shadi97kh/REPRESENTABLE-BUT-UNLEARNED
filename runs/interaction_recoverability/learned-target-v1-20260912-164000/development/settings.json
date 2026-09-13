@@ -1,0 +1,23 @@
+{
+  "width": 4,
+  "learning_rate": 0.03,
+  "checkpoints": [
+    100,
+    200,
+    300
+  ],
+  "source_nodes": 64,
+  "geometry_nodes": 96,
+  "metric_nodes": 4096,
+  "lambdas": [
+    1e-05,
+    0.001,
+    0.1
+  ],
+  "enrichment_rounds": 4,
+  "search_tau": 0.001,
+  "endpoint_steps": 40,
+  "roles": 3,
+  "selection_rule": "local displacement proxy; heuristic, not certified risk",
+  "prediction_clipping": false
+}

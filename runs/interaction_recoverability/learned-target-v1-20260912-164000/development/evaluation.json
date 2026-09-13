@@ -1,0 +1,16 @@
+{
+  "target": 4.574252777289532,
+  "squared_errors": {
+    "neural_shared_plugin": 0.05691911594538835,
+    "neural_fixed": 0.027256504526082907,
+    "neural_adaptive": 0.03018586762667992,
+    "neural_random": 0.027303708781837025,
+    "neural_rich": 0.03173820237041667,
+    "basis_shared_plugin": 0.02934135594717375,
+    "basis_rich": 0.01501421853680226,
+    "neural_pooled_plugin": 0.27121490356538014,
+    "basis_pooled_plugin": 0.021952617354114197,
+    "basis_direct_set_midpoint": 0.2437483452159237
+  },
+  "use": "development execution check only; configuration choice uses runtime, not these target errors"
+}

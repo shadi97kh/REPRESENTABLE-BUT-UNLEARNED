@@ -1,0 +1,5 @@
+{
+  "refinement_difference_spectral_norm": 1.368362873580413,
+  "smallest_eigenvalue": 0.078445254127133,
+  "status": "numerical X-metric; finite-sieve normalization, not a certified infinite-line quadrature enclosure"
+}

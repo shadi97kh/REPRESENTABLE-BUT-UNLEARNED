@@ -1,0 +1,106 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "mean_minibatch_mse": 48.39547178437949,
+      "phase": "A"
+    },
+    {
+      "epoch": 2,
+      "mean_minibatch_mse": 2.529711476526917,
+      "phase": "A"
+    },
+    {
+      "epoch": 3,
+      "mean_minibatch_mse": 1.1838524720378585,
+      "phase": "A"
+    },
+    {
+      "epoch": 4,
+      "mean_minibatch_mse": 0.7490666499724004,
+      "phase": "A"
+    },
+    {
+      "epoch": 5,
+      "mean_minibatch_mse": 0.576853184024149,
+      "phase": "A"
+    },
+    {
+      "epoch": 6,
+      "mean_minibatch_mse": 0.48472931449110335,
+      "phase": "A"
+    },
+    {
+      "epoch": 7,
+      "mean_minibatch_mse": 0.40789052248651647,
+      "phase": "A"
+    },
+    {
+      "epoch": 8,
+      "mean_minibatch_mse": 0.3362241237930195,
+      "phase": "A"
+    },
+    {
+      "epoch": 9,
+      "mean_minibatch_mse": 0.2850536865197721,
+      "phase": "A"
+    },
+    {
+      "epoch": 10,
+      "mean_minibatch_mse": 0.24162512959639448,
+      "phase": "A"
+    },
+    {
+      "epoch": 11,
+      "mean_minibatch_mse": 0.20199891336655623,
+      "phase": "A"
+    },
+    {
+      "epoch": 12,
+      "mean_minibatch_mse": 0.17293600041323529,
+      "phase": "A"
+    },
+    {
+      "epoch": 13,
+      "mean_minibatch_mse": 0.1499194733495144,
+      "phase": "A"
+    },
+    {
+      "epoch": 14,
+      "mean_minibatch_mse": 0.1346210909573922,
+      "phase": "A"
+    },
+    {
+      "epoch": 15,
+      "mean_minibatch_mse": 0.11348071362650249,
+      "phase": "A"
+    },
+    {
+      "epoch": 16,
+      "mean_minibatch_mse": 0.10020360931780595,
+      "phase": "A"
+    },
+    {
+      "epoch": 17,
+      "mean_minibatch_mse": 0.09147227136044318,
+      "phase": "A"
+    },
+    {
+      "epoch": 18,
+      "mean_minibatch_mse": 0.0881023088402071,
+      "phase": "A"
+    },
+    {
+      "epoch": 19,
+      "mean_minibatch_mse": 0.07869405492704978,
+      "phase": "A"
+    },
+    {
+      "epoch": 20,
+      "mean_minibatch_mse": 0.0707427418457579,
+      "phase": "A"
+    }
+  ],
+  "model_sha256": "3112d9eaa56c7669e366f11be63e4afe8e54364022ad285137ebd9c3ca60c047",
+  "optimizer_steps": 900
+}

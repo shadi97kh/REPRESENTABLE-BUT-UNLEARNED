@@ -1,0 +1,10 @@
+{
+  "batched_gradient_max_abs_error": 5.684341886080802e-14,
+  "batched_output_max_abs_error": 8.881784197001252e-16,
+  "device": "cuda:0",
+  "gamma_zero_exact_nan_bypass": true,
+  "graph_membership_checks": 240,
+  "max_marginal_error": 4.440892098500626e-16,
+  "optimizer_steps": 0,
+  "sample_sequences_match_existing_sampler": true
+}

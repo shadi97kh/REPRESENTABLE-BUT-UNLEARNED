@@ -1,0 +1,21 @@
+{
+  "id": "d006",
+  "family": "oscillatory",
+  "delta": 0.03,
+  "n": 256,
+  "generator_seed": 9181206,
+  "coefficients": [
+    [
+      0.7743683995504799,
+      0.8110727557657629
+    ],
+    [
+      0.8199869584762909,
+      0.6532097556742745
+    ]
+  ],
+  "target": 4.424825675626147,
+  "target_quadrature_difference": 2.0339285811132868e-13,
+  "latent_observations_stored": false,
+  "source_sha256": "035516585ce6d64790dae4f31712f6850fbffbd58d0585608185160cdc1e12bd"
+}

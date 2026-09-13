@@ -1,0 +1,198 @@
+{
+  "datasets": [
+    {
+      "id": "d000",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181200,
+      "replicate": 0
+    },
+    {
+      "id": "d001",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181201,
+      "replicate": 1
+    },
+    {
+      "id": "d002",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181202,
+      "replicate": 2
+    },
+    {
+      "id": "d003",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181203,
+      "replicate": 0
+    },
+    {
+      "id": "d004",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181204,
+      "replicate": 1
+    },
+    {
+      "id": "d005",
+      "family": "oscillatory",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181205,
+      "replicate": 2
+    },
+    {
+      "id": "d006",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181206,
+      "replicate": 0
+    },
+    {
+      "id": "d007",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181207,
+      "replicate": 1
+    },
+    {
+      "id": "d008",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181208,
+      "replicate": 2
+    },
+    {
+      "id": "d009",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181209,
+      "replicate": 0
+    },
+    {
+      "id": "d010",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181210,
+      "replicate": 1
+    },
+    {
+      "id": "d011",
+      "family": "oscillatory",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181211,
+      "replicate": 2
+    },
+    {
+      "id": "d012",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181212,
+      "replicate": 0
+    },
+    {
+      "id": "d013",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181213,
+      "replicate": 1
+    },
+    {
+      "id": "d014",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 256,
+      "generator_seed": 9181214,
+      "replicate": 2
+    },
+    {
+      "id": "d015",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181215,
+      "replicate": 0
+    },
+    {
+      "id": "d016",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181216,
+      "replicate": 1
+    },
+    {
+      "id": "d017",
+      "family": "localized",
+      "delta": 0.1,
+      "n": 1024,
+      "generator_seed": 9181217,
+      "replicate": 2
+    },
+    {
+      "id": "d018",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181218,
+      "replicate": 0
+    },
+    {
+      "id": "d019",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181219,
+      "replicate": 1
+    },
+    {
+      "id": "d020",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 256,
+      "generator_seed": 9181220,
+      "replicate": 2
+    },
+    {
+      "id": "d021",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181221,
+      "replicate": 0
+    },
+    {
+      "id": "d022",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181222,
+      "replicate": 1
+    },
+    {
+      "id": "d023",
+      "family": "localized",
+      "delta": 0.03,
+      "n": 1024,
+      "generator_seed": 9181223,
+      "replicate": 2
+    }
+  ],
+  "profile_definitions": "evaluate.truth_profile, frozen code hash",
+  "coefficient_rule": "independent Uniform(.6,.9) for all four coefficients in each dataset"
+}

@@ -1,0 +1,7 @@
+{
+  "child_pid": 875264,
+  "child_state": "absent",
+  "terminated": true,
+  "expected_wrapper_exit": 124,
+  "timeout_job": 10
+}
