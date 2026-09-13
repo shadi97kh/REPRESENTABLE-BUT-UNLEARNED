@@ -1,0 +1,191 @@
+[
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "gnn",
+    "mse_a_minus_b": -0.0061287367971831486,
+    "paired_95": [
+      -0.01552600963474424,
+      0.0034191018743007628
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "gnn_no_chemistry",
+    "mse_a_minus_b": -0.03859245580988793,
+    "paired_95": [
+      -0.05756080981817787,
+      -0.023582903273514273
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": -0.03942246273781613,
+    "paired_95": [
+      -0.06014275426654046,
+      -0.02346939116906604
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.13269824844815065,
+    "paired_95": [
+      -0.16984988659939956,
+      -0.10072692367609326
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "nongraph",
+    "mse_a_minus_b": -0.027011794089986607,
+    "paired_95": [
+      -0.04551310642357642,
+      -0.006278754962657714
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": -0.017688789693292323,
+    "paired_95": [
+      -0.03257319010405456,
+      -0.00028052471638832983
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "gnn_no_chemistry",
+    "mse_a_minus_b": -0.032463719012704784,
+    "paired_95": [
+      -0.06032238590894149,
+      -0.008080534549087892
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": -0.033293725940632984,
+    "paired_95": [
+      -0.06287677004875249,
+      -0.008784578421228088
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.1265695116509675,
+    "paired_95": [
+      -0.17290556071461108,
+      -0.0860964979393197
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "nongraph",
+    "mse_a_minus_b": -0.02088305729280346,
+    "paired_95": [
+      -0.030133602628908216,
+      -0.009087940460887848
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": -0.011560052896109174,
+    "paired_95": [
+      -0.01826150488398269,
+      -0.0026340190664295364
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": -0.0008300069279282007,
+    "paired_95": [
+      -0.003842065394341328,
+      0.001469778380295712
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.09410579263826271,
+    "paired_95": [
+      -0.11464065968901976,
+      -0.07632269555898125
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.011580661719901325,
+    "paired_95": [
+      -0.021468563221993975,
+      0.050732270996309885
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.02090366611659561,
+    "paired_95": [
+      -0.009457022346183041,
+      0.056653070083911974
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.09327578571033451,
+    "paired_95": [
+      -0.11266194573829051,
+      -0.07647859771103392
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.012410668647829526,
+    "paired_95": [
+      -0.02127070989068894,
+      0.053607764243668116
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.02173367304452381,
+    "paired_95": [
+      -0.009058477989435171,
+      0.060413449271079
+    ]
+  },
+  {
+    "model_a": "guide_ridge",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.10568645435816404,
+    "paired_95": [
+      0.056667525650515686,
+      0.1633236424564426
+    ]
+  },
+  {
+    "model_a": "guide_ridge",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.11500945875485832,
+    "paired_95": [
+      0.06855905472014555,
+      0.1696374380100267
+    ]
+  },
+  {
+    "model_a": "nongraph",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.009323004396694284,
+    "paired_95": [
+      0.005912070953883771,
+      0.012586510868240131
+    ]
+  }
+]

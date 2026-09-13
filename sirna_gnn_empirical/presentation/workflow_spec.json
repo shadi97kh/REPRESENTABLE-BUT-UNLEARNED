@@ -1,0 +1,102 @@
+{
+  "title": "Executed targeted siRNA support and supervision follow-up",
+  "slot": {
+    "width_inches": 5.5,
+    "height_inches": 2.85,
+    "caption_below": true
+  },
+  "status": "Included as Figure 1 in the dedicated Model workflow section on main page 2, with panel-by-panel explanation and references from the support, representation/context and supervised B2 methods.",
+  "lanes": [
+    {
+      "name": "Frozen v1 evidence",
+      "nodes": [
+        "4766 measured observations",
+        "Original grouped split and trained checkpoints",
+        "Support/gradient audit",
+        "Four frozen inference diagnostics"
+      ],
+      "color_role": "preserved historical"
+    },
+    {
+      "name": "Targeted B1 refits",
+      "nodes": [
+        "Supported representation x supported context (2x2)",
+        "Same original split; two-config selection; three seeds",
+        "Matched tree/token/no-message/exact chemistry controls",
+        "Retrospective APP prediction and ranking"
+      ],
+      "color_role": "new executed"
+    },
+    {
+      "name": "Grouped ENsiRNA",
+      "nodes": [
+        "2927 rows; ten study-linked components",
+        "Five outer folds; grouped inner selection",
+        "All four corrected models; all outer groups reported",
+        "Inner-selected all-ENsiRNA deployment fits"
+      ],
+      "color_role": "new executed"
+    },
+    {
+      "name": "Supervised B2",
+      "nodes": [
+        "No outside-APP pairs meet full comparability",
+        "156 APP pairs / 26 backgrounds / 12 sequence components",
+        "Four outer folds; paired endpoints remain together",
+        "Activity-only versus pair loss and fold-trained controls",
+        "No clear sequence-specific advantage over fold mean"
+      ],
+      "color_role": "exploratory within cohort"
+    },
+    {
+      "name": "Separate source",
+      "nodes": [
+        "Davis S1 remains quarantined",
+        "118 literal S7 duplexes pass structural and overlap checks",
+        "Frozen ENsiRNA deployment checkpoints",
+        "Qualified native-outcome prediction; dose/time masked"
+      ],
+      "color_role": "qualified separate source"
+    }
+  ],
+  "blocked_nodes": [
+    "B3: zero complete measured reference/A/B/A+B rectangles",
+    "Five-law applicability: no verified private anchors or latent law",
+    "No new wet-lab, causal-mechanism or clinical validation"
+  ],
+  "required_distinctions": [
+    "APP follow-up is retrospective, not independent blind external evaluation",
+    "S7 is separately sourced observational evidence, not prospective validation",
+    "Fixed trained GNN contrasts are not measured biological effects",
+    "The empirical-quantile estimator and neural-profile/Riesz pilot are different procedures"
+  ],
+  "edges": [
+    "source checks -> label-independent grouping -> fitting/selection -> prediction commitment -> measured evaluation",
+    "grouped inner development -> frozen deployment -> S7 inference",
+    "B2 pair groups -> grouped training and validation -> outer-pair evaluation"
+  ],
+  "do_not_draw": [
+    "invented biological validation",
+    "B3 performance curve",
+    "private-anchor calibration that was not observed",
+    "new GNN novelty badge"
+  ],
+  "source_paths": [
+    "protocol.json",
+    "support_checks.json",
+    "factorial_fits.json",
+    "grouped_fits.json",
+    "b2_admission.json",
+    "b2_fits.json",
+    "external_admission.json",
+    "external_freeze.json",
+    "prediction_commit.json",
+    "external_prediction_commit.json"
+  ],
+  "included_artwork": {
+    "source": "Architecture_Workflow.png",
+    "manuscript_copy": "figures/architecture_workflow.png",
+    "sha256": "f4751cc8729ba3109a9b35d6496c0f4d191dd7c3b8db25f011edae608995535b",
+    "scope": "Common base architecture with original activity-only training strip. Main Section 3 maps panels a\u2013d to the executed predictor; the main caption and methods distinguish supported R/C and the separately supervised B2 task."
+  }
+}

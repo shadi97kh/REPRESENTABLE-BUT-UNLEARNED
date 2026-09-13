@@ -1,0 +1,203 @@
+{
+  "phase": "final",
+  "kind": "token_cnn",
+  "seed": 3301,
+  "config": {
+    "hidden": 32,
+    "batch_size": 128,
+    "max_epochs": 80,
+    "min_epochs": 10,
+    "patience": 15,
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_executed": 28,
+  "optimizer_updates": 588,
+  "selected_epoch": 13,
+  "selected_checkpoint_optimizer_updates": 273,
+  "validation_equal_study_mse": 0.06229768693447113,
+  "train_equal_study_mse": 0.028666475787758827,
+  "parameters": 140929,
+  "message_gradient_max": 0.0,
+  "message_parameter_absolute_change_from_initialization": 0,
+  "wall_s": 1.5677549708634615,
+  "cpu_s": 1.5446414660000016,
+  "gpu_active_wall_s": 1.5677549708634615,
+  "device": "cuda:0",
+  "cuda_peak_allocated_bytes": 522053632,
+  "checkpoint": "fits/final/token_cnn-seed3301-lr001_wd0001/best.pt",
+  "last_checkpoint": "fits/final/token_cnn-seed3301-lr001_wd0001/last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 21,
+      "train_weighted_normalized_mse": 0.9944969150553381,
+      "validation_equal_study_mse": 0.08261549472808838
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 42,
+      "train_weighted_normalized_mse": 0.88242281672615,
+      "validation_equal_study_mse": 0.09157086908817291
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 63,
+      "train_weighted_normalized_mse": 0.7977132507162247,
+      "validation_equal_study_mse": 0.07241683453321457
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 84,
+      "train_weighted_normalized_mse": 0.7433231811621492,
+      "validation_equal_study_mse": 0.0897662416100502
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 105,
+      "train_weighted_normalized_mse": 0.7063548474119351,
+      "validation_equal_study_mse": 0.08374897390604019
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 126,
+      "train_weighted_normalized_mse": 0.681650696414532,
+      "validation_equal_study_mse": 0.09020572900772095
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 147,
+      "train_weighted_normalized_mse": 0.6358269949224462,
+      "validation_equal_study_mse": 0.0761243999004364
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 168,
+      "train_weighted_normalized_mse": 0.6332716251817806,
+      "validation_equal_study_mse": 0.06478652358055115
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 189,
+      "train_weighted_normalized_mse": 0.6131906803563998,
+      "validation_equal_study_mse": 0.08141792565584183
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 210,
+      "train_weighted_normalized_mse": 0.5681779230494401,
+      "validation_equal_study_mse": 0.08018757402896881
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 231,
+      "train_weighted_normalized_mse": 0.5505137309171004,
+      "validation_equal_study_mse": 0.0875805988907814
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 252,
+      "train_weighted_normalized_mse": 0.5404791284951198,
+      "validation_equal_study_mse": 0.0760272890329361
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 273,
+      "train_weighted_normalized_mse": 0.5285267646496112,
+      "validation_equal_study_mse": 0.06229768693447113
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 294,
+      "train_weighted_normalized_mse": 0.5378275296203253,
+      "validation_equal_study_mse": 0.07929488271474838
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 315,
+      "train_weighted_normalized_mse": 0.48441165939869996,
+      "validation_equal_study_mse": 0.09723707288503647
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 336,
+      "train_weighted_normalized_mse": 0.4731165555625677,
+      "validation_equal_study_mse": 0.0821400135755539
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 357,
+      "train_weighted_normalized_mse": 0.46176536793211265,
+      "validation_equal_study_mse": 0.09590860456228256
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 378,
+      "train_weighted_normalized_mse": 0.4545077064612941,
+      "validation_equal_study_mse": 0.1025889441370964
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 399,
+      "train_weighted_normalized_mse": 0.4570478960383692,
+      "validation_equal_study_mse": 0.08154800534248352
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 420,
+      "train_weighted_normalized_mse": 0.4436305815358245,
+      "validation_equal_study_mse": 0.07071936130523682
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 441,
+      "train_weighted_normalized_mse": 0.43103440240967483,
+      "validation_equal_study_mse": 0.07045243680477142
+    },
+    {
+      "epoch": 22,
+      "optimizer_updates": 462,
+      "train_weighted_normalized_mse": 0.4262790672441339,
+      "validation_equal_study_mse": 0.08209864050149918
+    },
+    {
+      "epoch": 23,
+      "optimizer_updates": 483,
+      "train_weighted_normalized_mse": 0.4240470381633798,
+      "validation_equal_study_mse": 0.08628926426172256
+    },
+    {
+      "epoch": 24,
+      "optimizer_updates": 504,
+      "train_weighted_normalized_mse": 0.40180779708675635,
+      "validation_equal_study_mse": 0.09115896373987198
+    },
+    {
+      "epoch": 25,
+      "optimizer_updates": 525,
+      "train_weighted_normalized_mse": 0.3993836808141097,
+      "validation_equal_study_mse": 0.09300915151834488
+    },
+    {
+      "epoch": 26,
+      "optimizer_updates": 546,
+      "train_weighted_normalized_mse": 0.39724896349983185,
+      "validation_equal_study_mse": 0.0905010774731636
+    },
+    {
+      "epoch": 27,
+      "optimizer_updates": 567,
+      "train_weighted_normalized_mse": 0.37433621804857653,
+      "validation_equal_study_mse": 0.09781385958194733
+    },
+    {
+      "epoch": 28,
+      "optimizer_updates": 588,
+      "train_weighted_normalized_mse": 0.37929522785764563,
+      "validation_equal_study_mse": 0.08970841020345688
+    }
+  ],
+  "checkpoint_sha256": "f528e5805a60e6e3c176c3d0ae839fe7409bbf90d746aed1a75a96b0df3a670e",
+  "completed_utc": "2026-09-13T19:23:33.429218+00:00"
+}

@@ -1,0 +1,131 @@
+{
+  "phase": "final",
+  "kind": "nongraph",
+  "seed": 1103,
+  "config": {
+    "hidden": 32,
+    "batch_size": 128,
+    "max_epochs": 80,
+    "min_epochs": 10,
+    "patience": 15,
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_executed": 16,
+  "optimizer_updates": 336,
+  "selected_epoch": 1,
+  "selected_checkpoint_optimizer_updates": 21,
+  "validation_equal_study_mse": 0.06268208473920822,
+  "train_equal_study_mse": 0.049806639552116394,
+  "parameters": 153345,
+  "message_gradient_max": 1.6548541188240051,
+  "message_parameter_absolute_change_from_initialization": 32.160237312316895,
+  "wall_s": 1.4005614470224828,
+  "cpu_s": 1.3903147249999996,
+  "gpu_active_wall_s": 1.4005614470224828,
+  "device": "cuda:0",
+  "cuda_peak_allocated_bytes": 551600128,
+  "checkpoint": "fits/final/nongraph-seed1103-lr001_wd0001/best.pt",
+  "last_checkpoint": "fits/final/nongraph-seed1103-lr001_wd0001/last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 21,
+      "train_weighted_normalized_mse": 1.3349940930716608,
+      "validation_equal_study_mse": 0.06268208473920822
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 42,
+      "train_weighted_normalized_mse": 0.8134776924914834,
+      "validation_equal_study_mse": 0.08555058389902115
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 63,
+      "train_weighted_normalized_mse": 0.7048469939852887,
+      "validation_equal_study_mse": 0.06521549075841904
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 84,
+      "train_weighted_normalized_mse": 0.6484721672961663,
+      "validation_equal_study_mse": 0.09601052850484848
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 105,
+      "train_weighted_normalized_mse": 0.6110625958406372,
+      "validation_equal_study_mse": 0.08777383714914322
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 126,
+      "train_weighted_normalized_mse": 0.5664842245420788,
+      "validation_equal_study_mse": 0.08098021894693375
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 147,
+      "train_weighted_normalized_mse": 0.544322915233371,
+      "validation_equal_study_mse": 0.09066150337457657
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 168,
+      "train_weighted_normalized_mse": 0.5120589281889835,
+      "validation_equal_study_mse": 0.1049295961856842
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 189,
+      "train_weighted_normalized_mse": 0.5133720644539036,
+      "validation_equal_study_mse": 0.11535543203353882
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 210,
+      "train_weighted_normalized_mse": 0.5071701189986823,
+      "validation_equal_study_mse": 0.08009177446365356
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 231,
+      "train_weighted_normalized_mse": 0.45642188432011455,
+      "validation_equal_study_mse": 0.07086419314146042
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 252,
+      "train_weighted_normalized_mse": 0.4619630969215329,
+      "validation_equal_study_mse": 0.08468762040138245
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 273,
+      "train_weighted_normalized_mse": 0.44894316579127985,
+      "validation_equal_study_mse": 0.08512377738952637
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 294,
+      "train_weighted_normalized_mse": 0.4690353097755856,
+      "validation_equal_study_mse": 0.08192520588636398
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 315,
+      "train_weighted_normalized_mse": 0.42381446405121687,
+      "validation_equal_study_mse": 0.09315723180770874
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 336,
+      "train_weighted_normalized_mse": 0.41819181881691786,
+      "validation_equal_study_mse": 0.09153514355421066
+    }
+  ],
+  "checkpoint_sha256": "41ba0391dbcb06092800823dc6f6d6149dee657c75b93281f84f681d65e63e6d",
+  "completed_utc": "2026-09-13T19:23:34.867602+00:00"
+}

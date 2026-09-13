@@ -1,0 +1,21 @@
+{
+  "phase": "final",
+  "kind": "guide_pairwise_ridge",
+  "seed": 1103,
+  "config": {
+    "name": "alpha100.0",
+    "alpha": 100.0
+  },
+  "optimizer_updates": 0,
+  "optimization": "weighted least squares LSQR",
+  "validation_equal_study_mse": 0.06453566253185272,
+  "train_equal_study_mse": 0.03902381286025047,
+  "wall_s": 0.09025561483576894,
+  "cpu_s": 0.09024693100000003,
+  "gpu_active_wall_s": 0,
+  "device": "cpu",
+  "features": 7068,
+  "checkpoint": "fits/final/guide_pairwise_ridge-seed1103-alpha100.0/model.pkl",
+  "checkpoint_sha256": "9ce1a1ee2244ca67c1983587a2b08429a4d5cbf9f07d23335190a4c0d7b4b068",
+  "completed_utc": "2026-09-13T19:23:17.192097+00:00"
+}

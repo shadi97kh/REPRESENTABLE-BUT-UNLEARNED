@@ -1,0 +1,132 @@
+{
+  "plots": [
+    {
+      "figure": "main_performance",
+      "sources": [
+        "performance.csv"
+      ],
+      "files": [
+        "figures/main_performance.pdf",
+        "figures/main_performance.svg",
+        "figures/main_performance.png"
+      ]
+    },
+    {
+      "figure": "main_ranking",
+      "sources": [
+        "performance.csv",
+        "assay_metrics.csv"
+      ],
+      "files": [
+        "figures/main_ranking.pdf",
+        "figures/main_ranking.svg",
+        "figures/main_ranking.png"
+      ]
+    },
+    {
+      "figure": "main_effects_ablations",
+      "sources": [
+        "chemical_effect_predictions.csv",
+        "test_APP_paired_comparisons.json"
+      ],
+      "files": [
+        "figures/main_effects_ablations.pdf",
+        "figures/main_effects_ablations.svg",
+        "figures/main_effects_ablations.png"
+      ]
+    },
+    {
+      "figure": "appendix_prediction_scatter",
+      "sources": [
+        "heldout_predictions.csv",
+        "test_APP_observations.jsonl"
+      ],
+      "files": [
+        "figures/appendix_prediction_scatter.pdf",
+        "figures/appendix_prediction_scatter.svg",
+        "figures/appendix_prediction_scatter.png"
+      ]
+    },
+    {
+      "figure": "appendix_seed_variation",
+      "sources": [
+        "seed_metrics.csv"
+      ],
+      "files": [
+        "figures/appendix_seed_variation.pdf",
+        "figures/appendix_seed_variation.svg",
+        "figures/appendix_seed_variation.png"
+      ]
+    },
+    {
+      "figure": "appendix_assay_ranking",
+      "sources": [
+        "assay_metrics.csv"
+      ],
+      "files": [
+        "figures/appendix_assay_ranking.pdf",
+        "figures/appendix_assay_ranking.svg",
+        "figures/appendix_assay_ranking.png"
+      ]
+    },
+    {
+      "figure": "appendix_all_effects",
+      "sources": [
+        "chemical_effect_predictions.csv"
+      ],
+      "files": [
+        "figures/appendix_all_effects.pdf",
+        "figures/appendix_all_effects.svg",
+        "figures/appendix_all_effects.png"
+      ]
+    },
+    {
+      "figure": "appendix_learning_curves",
+      "sources": [
+        "final_fit_results.json"
+      ],
+      "files": [
+        "figures/appendix_learning_curves.pdf",
+        "figures/appendix_learning_curves.svg",
+        "figures/appendix_learning_curves.png"
+      ]
+    },
+    {
+      "figure": "appendix_data_support",
+      "sources": [
+        "graph_manifest.json"
+      ],
+      "files": [
+        "figures/appendix_data_support.pdf",
+        "figures/appendix_data_support.svg",
+        "figures/appendix_data_support.png"
+      ]
+    },
+    {
+      "figure": "appendix_context_shift",
+      "sources": [
+        "graph_manifest.json",
+        "*_graphs.npz"
+      ],
+      "files": [
+        "figures/appendix_context_shift.pdf",
+        "figures/appendix_context_shift.svg",
+        "figures/appendix_context_shift.png"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "chemical_effect_predictions.csv": "293e59ba6eac5dd71e965e7167dc8e1bfc6aa956eba17d9119463a12099e8b62",
+    "performance.csv": "73e02e1abf56e41750d23f21332813ec8d40cf2225272e189f8d583fd0f55494",
+    "test_APP_paired_comparisons.json": "91c01cddfbf0fea7d53991214f39a271fe7b56a8586c5d9a3a512858056facd5",
+    "chemical_effect_metrics.csv": "111727be19cf43151a3e393174e8655229691246c196ea06f796a2396ab7df26",
+    "feature_support.csv": "a87acd3f1d2803707bebd23240d8c1fbb3275b847ecd3848cdecf851130a855c",
+    "context_shift.csv": "f11270921a384bf793f888a084bd89bdbea953deb9e6d3398f737cb87d3b4ab2",
+    "assay_top5_matrix.csv": "64d3bea0a2e4964f3da3c97a033db72030e372f3acbb3ee4b5a0864f0e61ccca",
+    "assay_metrics.csv": "764acce38419b4bac8baa26c2f1a16101a79153338830747710a3e1ba0898978",
+    "test_internal_paired_comparisons.json": "6a223b1ea888a05533b45d82c1b1768b3f9deed0bb8fd7eb514a914468c9f717",
+    "final_training_histories.csv": "9a8698f5c974742cca25d805523ad030cb07872027a908da72258815af3af7b5",
+    "seed_metrics.csv": "eec6299ded1c043042a0afb1c3d1729f5e7786225e3050b85a7010ad2073d3d0"
+  },
+  "no_new_fits": true
+}

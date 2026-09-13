@@ -1,0 +1,177 @@
+[
+  {
+    "fold": 0,
+    "kind": "gnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 0,
+    "kind": "chemistry_tree",
+    "config": {
+      "name": "leaf8",
+      "min_samples_leaf": 8
+    }
+  },
+  {
+    "fold": 0,
+    "kind": "token_cnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 0,
+    "kind": "nongraph",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 1,
+    "kind": "gnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 1,
+    "kind": "chemistry_tree",
+    "config": {
+      "name": "leaf2",
+      "min_samples_leaf": 2
+    }
+  },
+  {
+    "fold": 1,
+    "kind": "token_cnn",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "fold": 1,
+    "kind": "nongraph",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 2,
+    "kind": "gnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 2,
+    "kind": "chemistry_tree",
+    "config": {
+      "name": "leaf8",
+      "min_samples_leaf": 8
+    }
+  },
+  {
+    "fold": 2,
+    "kind": "token_cnn",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "fold": 2,
+    "kind": "nongraph",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 3,
+    "kind": "gnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 3,
+    "kind": "chemistry_tree",
+    "config": {
+      "name": "leaf2",
+      "min_samples_leaf": 2
+    }
+  },
+  {
+    "fold": 3,
+    "kind": "token_cnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 3,
+    "kind": "nongraph",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 4,
+    "kind": "gnn",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "fold": 4,
+    "kind": "chemistry_tree",
+    "config": {
+      "name": "leaf8",
+      "min_samples_leaf": 8
+    }
+  },
+  {
+    "fold": 4,
+    "kind": "token_cnn",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "fold": 4,
+    "kind": "nongraph",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  }
+]

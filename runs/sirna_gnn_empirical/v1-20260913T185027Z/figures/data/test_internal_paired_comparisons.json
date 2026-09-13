@@ -1,0 +1,191 @@
+[
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "gnn",
+    "mse_a_minus_b": -0.008674882100202647,
+    "paired_95": [
+      -0.02130266507778919,
+      -0.0007699288244149227
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "gnn_no_chemistry",
+    "mse_a_minus_b": -0.014824970343207844,
+    "paired_95": [
+      -0.029948950978415278,
+      -0.0038411240529644653
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": -0.014080232638077797,
+    "paired_95": [
+      -0.02525573132238838,
+      -0.006033104569960994
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.019470241563883522,
+    "paired_95": [
+      -0.03423630858782853,
+      -0.007589851708816673
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "nongraph",
+    "mse_a_minus_b": -0.004543852997728207,
+    "paired_95": [
+      -0.019857651792665198,
+      0.0030009782295039532
+    ]
+  },
+  {
+    "model_a": "chemistry_tree",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": -0.0046100216245024625,
+    "paired_95": [
+      -0.02480323620081846,
+      0.0026698433674839134
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "gnn_no_chemistry",
+    "mse_a_minus_b": -0.006150088243005197,
+    "paired_95": [
+      -0.01144459245364996,
+      -0.0022321967547481603
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": -0.00540535053787515,
+    "paired_95": [
+      -0.01815948471028217,
+      0.0011414500122160426
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.010795359463680876,
+    "paired_95": [
+      -0.031164062986393053,
+      0.010856434159305647
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.00413102910247444,
+    "paired_95": [
+      -0.0006884664838159245,
+      0.009447391802438006
+    ]
+  },
+  {
+    "model_a": "gnn",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.004064860475700184,
+    "paired_95": [
+      -0.006282338209432875,
+      0.012048251890652542
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "guide_pairwise_ridge",
+    "mse_a_minus_b": 0.0007447377051300469,
+    "paired_95": [
+      -0.015297548813685669,
+      0.012360447835299292
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.0046452712206756785,
+    "paired_95": [
+      -0.028250554428990125,
+      0.017533083439190324
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.010281117345479637,
+    "paired_95": [
+      0.0024667659260075156,
+      0.020890709667817656
+    ]
+  },
+  {
+    "model_a": "gnn_no_chemistry",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.010214948718705381,
+    "paired_95": [
+      -0.003276898510711812,
+      0.02296644254905959
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "guide_ridge",
+    "mse_a_minus_b": -0.0053900089258057254,
+    "paired_95": [
+      -0.01581353285456722,
+      0.012607034516300696
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.00953637964034959,
+    "paired_95": [
+      0.0016225490062071986,
+      0.02152118614495886
+    ]
+  },
+  {
+    "model_a": "guide_pairwise_ridge",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.009470211013575335,
+    "paired_95": [
+      -0.0015481980380229344,
+      0.019787312937180238
+    ]
+  },
+  {
+    "model_a": "guide_ridge",
+    "model_b": "nongraph",
+    "mse_a_minus_b": 0.014926388566155316,
+    "paired_95": [
+      -0.010804983400380934,
+      0.036519999108756036
+    ]
+  },
+  {
+    "model_a": "guide_ridge",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": 0.01486021993938106,
+    "paired_95": [
+      -0.014080587560415317,
+      0.0354889209056194
+    ]
+  },
+  {
+    "model_a": "nongraph",
+    "model_b": "token_cnn",
+    "mse_a_minus_b": -6.616862677425589e-05,
+    "paired_95": [
+      -0.006167972043951012,
+      0.0035411525610633677
+    ]
+  }
+]

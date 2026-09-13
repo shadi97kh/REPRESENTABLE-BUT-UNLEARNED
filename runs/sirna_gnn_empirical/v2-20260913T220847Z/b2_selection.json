@@ -1,0 +1,110 @@
+[
+  {
+    "outer_fold": 0,
+    "method": "gnn_activity",
+    "lambda_pair": 0.0,
+    "training_mean_effect": -0.32631404397831554,
+    "training_majority_direction": -1,
+    "train_pairs": 108,
+    "test_pairs": 24
+  },
+  {
+    "outer_fold": 0,
+    "method": "gnn_pair",
+    "lambda_pair": 1.0,
+    "training_mean_effect": -0.32631404397831554,
+    "training_majority_direction": -1,
+    "train_pairs": 108,
+    "test_pairs": 24
+  },
+  {
+    "outer_fold": 0,
+    "method": "nongraph_pair",
+    "lambda_pair": 10.0,
+    "training_mean_effect": -0.32631404397831554,
+    "training_majority_direction": -1,
+    "train_pairs": 108,
+    "test_pairs": 24
+  },
+  {
+    "outer_fold": 1,
+    "method": "gnn_activity",
+    "lambda_pair": 0.0,
+    "training_mean_effect": -0.32762539523172945,
+    "training_majority_direction": -1,
+    "train_pairs": 72,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 1,
+    "method": "gnn_pair",
+    "lambda_pair": 10.0,
+    "training_mean_effect": -0.32762539523172945,
+    "training_majority_direction": -1,
+    "train_pairs": 72,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 1,
+    "method": "nongraph_pair",
+    "lambda_pair": 10.0,
+    "training_mean_effect": -0.32762539523172945,
+    "training_majority_direction": -1,
+    "train_pairs": 72,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 2,
+    "method": "gnn_activity",
+    "lambda_pair": 0.0,
+    "training_mean_effect": -0.2288282550724779,
+    "training_majority_direction": -1,
+    "train_pairs": 96,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 2,
+    "method": "gnn_pair",
+    "lambda_pair": 1.0,
+    "training_mean_effect": -0.2288282550724779,
+    "training_majority_direction": -1,
+    "train_pairs": 96,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 2,
+    "method": "nongraph_pair",
+    "lambda_pair": 1.0,
+    "training_mean_effect": -0.2288282550724779,
+    "training_majority_direction": -1,
+    "train_pairs": 96,
+    "test_pairs": 48
+  },
+  {
+    "outer_fold": 3,
+    "method": "gnn_activity",
+    "lambda_pair": 0.0,
+    "training_mean_effect": -0.30194142912845656,
+    "training_majority_direction": -1,
+    "train_pairs": 102,
+    "test_pairs": 36
+  },
+  {
+    "outer_fold": 3,
+    "method": "gnn_pair",
+    "lambda_pair": 10.0,
+    "training_mean_effect": -0.30194142912845656,
+    "training_majority_direction": -1,
+    "train_pairs": 102,
+    "test_pairs": 36
+  },
+  {
+    "outer_fold": 3,
+    "method": "nongraph_pair",
+    "lambda_pair": 10.0,
+    "training_mean_effect": -0.30194142912845656,
+    "training_majority_direction": -1,
+    "train_pairs": 102,
+    "test_pairs": 36
+  }
+]

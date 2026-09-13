@@ -1,0 +1,23 @@
+{
+  "phase": "development",
+  "kind": "chemistry_tree",
+  "seed": 701,
+  "config": {
+    "name": "leaf8_features0.3",
+    "n_estimators": 300,
+    "min_samples_leaf": 8,
+    "max_features": 0.3
+  },
+  "optimizer_updates": 0,
+  "optimization": "weighted randomized regression trees",
+  "validation_equal_study_mse": 0.07292106665576659,
+  "train_equal_study_mse": 0.016908464995775092,
+  "wall_s": 3.037441877881065,
+  "cpu_s": 5.190236258999999,
+  "gpu_active_wall_s": 0,
+  "device": "cpu",
+  "features": 711,
+  "checkpoint": "fits/development/chemistry_tree-seed701-leaf8_features0.3/model.pkl",
+  "checkpoint_sha256": "31dd63a6fadc19c9eac31923833ca0db922db2edabd4ab48f8c9b8195c092263",
+  "completed_utc": "2026-09-13T19:22:28.206499+00:00"
+}

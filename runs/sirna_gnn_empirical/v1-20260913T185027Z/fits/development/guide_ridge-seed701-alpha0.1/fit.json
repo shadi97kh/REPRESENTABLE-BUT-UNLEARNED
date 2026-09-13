@@ -1,0 +1,21 @@
+{
+  "phase": "development",
+  "kind": "guide_ridge",
+  "seed": 701,
+  "config": {
+    "name": "alpha0.1",
+    "alpha": 0.1
+  },
+  "optimizer_updates": 0,
+  "optimization": "weighted least squares LSQR",
+  "validation_equal_study_mse": 0.07383176684379578,
+  "train_equal_study_mse": 0.040346529334783554,
+  "wall_s": 0.03568952204659581,
+  "cpu_s": 0.032766509,
+  "gpu_active_wall_s": 0,
+  "device": "cpu",
+  "features": 168,
+  "checkpoint": "fits/development/guide_ridge-seed701-alpha0.1/model.pkl",
+  "checkpoint_sha256": "14f0b96ff3364b11735c1efea5655a09cc3caf18ad722f6e48b7fc6232bc5574",
+  "completed_utc": "2026-09-13T19:22:10.706050+00:00"
+}

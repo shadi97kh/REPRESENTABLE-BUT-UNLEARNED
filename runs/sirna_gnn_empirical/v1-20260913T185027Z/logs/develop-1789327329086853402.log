@@ -1,0 +1,31 @@
+development guide_ridge 701 alpha0.1 validation MSE 0.07383176684379578
+development guide_ridge 701 alpha1.0 validation MSE 0.07526955008506775
+development guide_ridge 701 alpha10.0 validation MSE 0.0810464546084404
+development guide_ridge 701 alpha100.0 validation MSE 0.08042648434638977
+development guide_pairwise_ridge 701 alpha0.1 validation MSE 0.06863273680210114
+development guide_pairwise_ridge 701 alpha1.0 validation MSE 0.06862704455852509
+development guide_pairwise_ridge 701 alpha10.0 validation MSE 0.06832106411457062
+development guide_pairwise_ridge 701 alpha100.0 validation MSE 0.06453566253185272
+development chemistry_tree 701 leaf2_features0.3 validation MSE 0.07695509554257164
+development chemistry_tree 701 leaf2_features1.0 validation MSE 0.10104681860821937
+development chemistry_tree 701 leaf8_features0.3 validation MSE 0.07292106665576659
+development chemistry_tree 701 leaf8_features1.0 validation MSE 0.07598478243369566
+development token_cnn 701 lr001_wd0001 epoch 10 best validation MSE 0.06051567196846008
+development token_cnn 701 lr001_wd0001 epoch 20 best validation MSE 0.050896916538476944
+development token_cnn 701 lr003_wd01 epoch 10 best validation MSE 0.05820762738585472
+development token_cnn 701 lr003_wd01 epoch 20 best validation MSE 0.05820762738585472
+development nongraph 701 lr001_wd0001 epoch 10 best validation MSE 0.051705632358789444
+/home/shadi/iclr2027/sirna_gnn_empirical/v1/fit_engine.py:52: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  changed=sum(float((p-before_message[n]).abs().sum()) for n,p in model.named_parameters() if n in before_message)
+development nongraph 701 lr003_wd01 epoch 10 best validation MSE 0.05515679344534874
+development nongraph 701 lr003_wd01 epoch 20 best validation MSE 0.05515679344534874
+development gnn 701 lr001_wd0001 epoch 10 best validation MSE 0.05535279959440231
+development gnn 701 lr001_wd0001 epoch 20 best validation MSE 0.05535279959440231
+development gnn 701 lr003_wd01 epoch 10 best validation MSE 0.0486157052218914
+development gnn 701 lr003_wd01 epoch 20 best validation MSE 0.0486157052218914
+development gnn_no_chemistry 701 lr001_wd0001 epoch 10 best validation MSE 0.05281880497932434
+development gnn_no_chemistry 701 lr001_wd0001 epoch 20 best validation MSE 0.05281880497932434
+development gnn_no_chemistry 701 lr003_wd01 epoch 10 best validation MSE 0.04726896435022354
+development gnn_no_chemistry 701 lr003_wd01 epoch 20 best validation MSE 0.04726896435022354
+Completed 20 development fits; no held-out predictions generated.

@@ -1,0 +1,62 @@
+{
+  "tag": "deployment",
+  "kind": "gnn",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 3301,
+  "lambda_pair": 0.0,
+  "training_n": 2927,
+  "validation_n": 0,
+  "test_n": 1839,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 115,
+  "selected_updates": 115,
+  "selected_epoch": 5,
+  "epochs_executed": 5,
+  "validation_score": 0.0,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 23,
+      "training_normalized_loss": 1.003270021081989,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 46,
+      "training_normalized_loss": 0.7834175428942605,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 69,
+      "training_normalized_loss": 0.7258175117064549,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 92,
+      "training_normalized_loss": 0.6717094834607577,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 115,
+      "training_normalized_loss": 0.5934800478248903,
+      "validation_score": 0.0
+    }
+  ],
+  "checkpoint": "fits/deployment/gnn-lr001_wd0001-s3301-l0/best.pt",
+  "checkpoint_sha256": "c2e31cf1b6d4c1c47fc9001f72beab016c9d512cbeb015cadbd6c3aa01aa6678",
+  "wall_s": 0.9458449950907379,
+  "cpu_s": 0.9348236700000143,
+  "device": "cuda:0",
+  "max_gradient_sum": 39.401639491319656,
+  "peak_gpu_allocated_bytes": 585094656
+}

@@ -1,0 +1,146 @@
+{
+  "tag": "grouped/fold4/development",
+  "kind": "nongraph",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 701,
+  "lambda_pair": 0.0,
+  "training_n": 812,
+  "validation_n": 1981,
+  "test_n": 0,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 133,
+  "selected_updates": 28,
+  "selected_epoch": 4,
+  "epochs_executed": 19,
+  "validation_score": 0.06732535362243652,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 7,
+      "training_normalized_loss": 0.974134224388987,
+      "validation_score": 0.07351607829332352
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 14,
+      "training_normalized_loss": 0.6709095263128797,
+      "validation_score": 0.06821967661380768
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 21,
+      "training_normalized_loss": 0.5627336651820855,
+      "validation_score": 0.08414845168590546
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 28,
+      "training_normalized_loss": 0.6581676520150284,
+      "validation_score": 0.06732535362243652
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 35,
+      "training_normalized_loss": 0.5118437542997557,
+      "validation_score": 0.06820638477802277
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 42,
+      "training_normalized_loss": 0.4778586137177322,
+      "validation_score": 0.06927979737520218
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 49,
+      "training_normalized_loss": 0.4954930772922309,
+      "validation_score": 0.07734617590904236
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 56,
+      "training_normalized_loss": 0.39670888462971,
+      "validation_score": 0.07325760275125504
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 63,
+      "training_normalized_loss": 0.3945403548297036,
+      "validation_score": 0.07908475399017334
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 70,
+      "training_normalized_loss": 0.3594023381254356,
+      "validation_score": 0.07298136502504349
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 77,
+      "training_normalized_loss": 0.36767698156422585,
+      "validation_score": 0.07077742367982864
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 84,
+      "training_normalized_loss": 0.3325927949010445,
+      "validation_score": 0.09008446335792542
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 91,
+      "training_normalized_loss": 0.32492438678083746,
+      "validation_score": 0.07029886543750763
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 98,
+      "training_normalized_loss": 0.3559777670599557,
+      "validation_score": 0.07291185855865479
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 105,
+      "training_normalized_loss": 0.2919062400979949,
+      "validation_score": 0.09086490422487259
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 112,
+      "training_normalized_loss": 0.27858988522308803,
+      "validation_score": 0.07169182598590851
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 119,
+      "training_normalized_loss": 0.2587839776806056,
+      "validation_score": 0.07211752980947495
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 126,
+      "training_normalized_loss": 0.2516192427556503,
+      "validation_score": 0.07133111357688904
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 133,
+      "training_normalized_loss": 0.25676818691157355,
+      "validation_score": 0.07467725872993469
+    }
+  ],
+  "checkpoint": "fits/grouped/fold4/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+  "checkpoint_sha256": "10345c3e3404c4c5b17e069c489eadec14731c55cd2620f84ee97d7d1795bf2a",
+  "wall_s": 2.8765081549063325,
+  "cpu_s": 2.879635941999993,
+  "device": "cuda:0",
+  "max_gradient_sum": 38.76900851726532,
+  "peak_gpu_allocated_bytes": 254121984
+}

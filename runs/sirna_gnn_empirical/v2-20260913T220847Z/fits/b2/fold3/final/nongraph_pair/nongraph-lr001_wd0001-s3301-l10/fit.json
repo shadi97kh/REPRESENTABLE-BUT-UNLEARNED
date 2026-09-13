@@ -1,0 +1,158 @@
+{
+  "tag": "b2/fold3/final/nongraph_pair",
+  "kind": "nongraph",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 3301,
+  "lambda_pair": 10.0,
+  "training_n": 204,
+  "validation_n": 36,
+  "test_n": 72,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 21,
+  "selected_updates": 6,
+  "selected_epoch": 6,
+  "epochs_executed": 21,
+  "validation_score": 1.068418025970459,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 1,
+      "training_normalized_loss": 9.030726432800293,
+      "validation_score": 1.2515175342559814
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 2,
+      "training_normalized_loss": 7.016593933105469,
+      "validation_score": 1.2109359502792358
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 3,
+      "training_normalized_loss": 7.828579425811768,
+      "validation_score": 1.1683118343353271
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 4,
+      "training_normalized_loss": 6.789078712463379,
+      "validation_score": 1.1500834226608276
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 5,
+      "training_normalized_loss": 6.514338970184326,
+      "validation_score": 1.117473840713501
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 6,
+      "training_normalized_loss": 5.7645673751831055,
+      "validation_score": 1.068418025970459
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 7,
+      "training_normalized_loss": 6.328205108642578,
+      "validation_score": 1.0695635080337524
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 8,
+      "training_normalized_loss": 4.196876049041748,
+      "validation_score": 1.0936229228973389
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 9,
+      "training_normalized_loss": 5.667920112609863,
+      "validation_score": 1.101271152496338
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 10,
+      "training_normalized_loss": 4.910560131072998,
+      "validation_score": 1.0938369035720825
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 11,
+      "training_normalized_loss": 4.216401100158691,
+      "validation_score": 1.1014138460159302
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 12,
+      "training_normalized_loss": 4.466552257537842,
+      "validation_score": 1.087961196899414
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 13,
+      "training_normalized_loss": 5.178645610809326,
+      "validation_score": 1.0823308229446411
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 14,
+      "training_normalized_loss": 5.013026237487793,
+      "validation_score": 1.096763253211975
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 15,
+      "training_normalized_loss": 4.038323879241943,
+      "validation_score": 1.131208062171936
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 16,
+      "training_normalized_loss": 4.6818976402282715,
+      "validation_score": 1.124969482421875
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 17,
+      "training_normalized_loss": 4.733891487121582,
+      "validation_score": 1.1280579566955566
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 18,
+      "training_normalized_loss": 4.396727085113525,
+      "validation_score": 1.140540599822998
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 19,
+      "training_normalized_loss": 3.899610996246338,
+      "validation_score": 1.1333576440811157
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 20,
+      "training_normalized_loss": 4.595913410186768,
+      "validation_score": 1.1235657930374146
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 21,
+      "training_normalized_loss": 3.8427486419677734,
+      "validation_score": 1.1464483737945557
+    }
+  ],
+  "checkpoint": "fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/best.pt",
+  "checkpoint_sha256": "217ec94ce7a393201c70fcf0642d48694e0e6b5d800732f336b88fcad1918424",
+  "wall_s": 0.36979591893032193,
+  "cpu_s": 0.37893501100000293,
+  "device": "cuda:0",
+  "max_gradient_sum": 84.9347316622734,
+  "peak_gpu_allocated_bytes": 162216448
+}

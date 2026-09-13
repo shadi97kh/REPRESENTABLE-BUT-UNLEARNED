@@ -1,0 +1,16 @@
+{
+  "source": "Davis2025 Supplemental Table 7",
+  "source_workbook_sha256": "095130ef5faffe1423d2143372d3e599b85f5b8038d9382d8f4ac442a93e5619",
+  "candidates": 118,
+  "admitted": 118,
+  "known_13mer_overlap_excluded": 0,
+  "sequence_components": 76,
+  "no_pretrained_checkpoint": true,
+  "guide_conversion": "None: literal printed order, primary m/f/r and # notation. All 118 guide strings and duplexes pass reverse-complement 13mer checks.",
+  "dose_time": "Not assigned to S7 rows because main-text dose/time description does not unambiguously cover every S7 target. Both are masked by training-only context support; no within-assay ranking is reported.",
+  "endpoint": "1 - reported native mRNA expression percent/100; no clipping; table SD/100 preserved, n unresolved for individual S7 rows.",
+  "status": "Additional separately sourced observational endpoint evaluation with frozen all-ENsiRNA checkpoints. Public outcomes were available in an acquired workbook; this is not a prospective blind trial. No APP or S7 labels select models.",
+  "S1_status": "quarantined",
+  "S6_status": "24 rows fail orientation; 26 pass. S6 reporter outcomes are not mixed into the prespecified S7 native-outcome cohort.",
+  "B2": "Not used for training: S7 is one named scaffold family and exact comparable dose/time/control dependency per row is unresolved. Original exploratory APP supervised protocol remains fixed."
+}

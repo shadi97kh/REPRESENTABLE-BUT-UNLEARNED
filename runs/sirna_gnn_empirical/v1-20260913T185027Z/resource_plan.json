@@ -1,0 +1,52 @@
+{
+  "frozen_before_development_utc": "2026-09-13T19:22:10.669171+00:00",
+  "authority": "Current explicit user authorization; task-local conservative stop conditions do not reuse or enlarge any historical allowance.",
+  "profile_seconds_per_update": 0.020640436804387718,
+  "neural_development_fits": 8,
+  "neural_final_fits": 12,
+  "maximum_optimizer_updates_excluding_profile": 33600,
+  "profile_extrapolated_neural_active_wall_s": 693.5186766274273,
+  "neural_configs": [
+    {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  ],
+  "development_seed": 701,
+  "final_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "cpu_cores": 2,
+  "gpu_devices": [
+    0
+  ],
+  "gpu_memory_fraction_cap": 0.3,
+  "development_stage_wall_cap_s": 900,
+  "final_training_stage_wall_cap_s": 1800,
+  "maximum_campaign_child_cpu_s": 7200,
+  "maximum_campaign_aggregate_command_wall_s": 3600,
+  "unknown_historical_balance_reused": false,
+  "cost_limits": "Profile extrapolation excludes parsing/imports/tree/ridge fitting. Actual process and stage costs recorded separately. No paid/cloud services.",
+  "input_hashes": {
+    "split_protocol.json": "a508999c22f1d9978ea1ddd71e6955bbfc9cb3e8d4485175c4f389ca8fbc722c",
+    "graph_manifest.json": "439ab3d446723dbdcb1f69481c911f52038a5d03e5a3f934d600aed1b1d48e72"
+  }
+}

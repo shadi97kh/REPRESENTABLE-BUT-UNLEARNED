@@ -1,0 +1,137 @@
+{
+  "phase": "development",
+  "kind": "nongraph",
+  "seed": 701,
+  "config": {
+    "hidden": 32,
+    "batch_size": 128,
+    "max_epochs": 80,
+    "min_epochs": 10,
+    "patience": 15,
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_executed": 17,
+  "optimizer_updates": 357,
+  "selected_epoch": 2,
+  "selected_checkpoint_optimizer_updates": 42,
+  "validation_equal_study_mse": 0.051705632358789444,
+  "train_equal_study_mse": 0.05067884176969528,
+  "parameters": 153345,
+  "message_gradient_max": 2.7935426235198975,
+  "message_parameter_absolute_change_from_initialization": 41.342355728149414,
+  "wall_s": 1.482070717960596,
+  "cpu_s": 1.4693764380000047,
+  "gpu_active_wall_s": 1.482070717960596,
+  "device": "cuda:0",
+  "cuda_peak_allocated_bytes": 551600128,
+  "checkpoint": "fits/development/nongraph-seed701-lr001_wd0001/best.pt",
+  "last_checkpoint": "fits/development/nongraph-seed701-lr001_wd0001/last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 21,
+      "train_weighted_normalized_mse": 0.9447269689600974,
+      "validation_equal_study_mse": 0.14957039058208466
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 42,
+      "train_weighted_normalized_mse": 0.844033584010029,
+      "validation_equal_study_mse": 0.051705632358789444
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 63,
+      "train_weighted_normalized_mse": 0.6922792376948964,
+      "validation_equal_study_mse": 0.06015896797180176
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 84,
+      "train_weighted_normalized_mse": 0.6730731250172068,
+      "validation_equal_study_mse": 0.07220813632011414
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 105,
+      "train_weighted_normalized_mse": 0.6085351533047225,
+      "validation_equal_study_mse": 0.089671291410923
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 126,
+      "train_weighted_normalized_mse": 0.6266926216743234,
+      "validation_equal_study_mse": 0.05996989458799362
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 147,
+      "train_weighted_normalized_mse": 0.6604972205267367,
+      "validation_equal_study_mse": 0.07120877504348755
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 168,
+      "train_weighted_normalized_mse": 0.5513991094779532,
+      "validation_equal_study_mse": 0.058706071227788925
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 189,
+      "train_weighted_normalized_mse": 0.510620586988314,
+      "validation_equal_study_mse": 0.09802164882421494
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 210,
+      "train_weighted_normalized_mse": 0.4887221834628707,
+      "validation_equal_study_mse": 0.08207239955663681
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 231,
+      "train_weighted_normalized_mse": 0.46193349143519985,
+      "validation_equal_study_mse": 0.07623393833637238
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 252,
+      "train_weighted_normalized_mse": 0.47215095950008257,
+      "validation_equal_study_mse": 0.08113079518079758
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 273,
+      "train_weighted_normalized_mse": 0.4419495646202737,
+      "validation_equal_study_mse": 0.0791323110461235
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 294,
+      "train_weighted_normalized_mse": 0.4198071520835138,
+      "validation_equal_study_mse": 0.09454557299613953
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 315,
+      "train_weighted_normalized_mse": 0.4078024820980005,
+      "validation_equal_study_mse": 0.07300467044115067
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 336,
+      "train_weighted_normalized_mse": 0.3986970504911819,
+      "validation_equal_study_mse": 0.07557360827922821
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 357,
+      "train_weighted_normalized_mse": 0.41062637505327937,
+      "validation_equal_study_mse": 0.0732097327709198
+    }
+  ],
+  "checkpoint_sha256": "273e23bdbd47046d3d345672bfa409a11b016e43e7d272c48634ca45674a655b",
+  "completed_utc": "2026-09-13T19:22:41.467498+00:00"
+}

@@ -1,0 +1,34 @@
+final guide_ridge 1103 alpha0.1 validation MSE 0.07383176684379578
+final guide_pairwise_ridge 1103 alpha100.0 validation MSE 0.06453566253185272
+final chemistry_tree 1103 leaf8_features0.3 validation MSE 0.07211334154285934
+final chemistry_tree 2207 leaf8_features0.3 validation MSE 0.07374051542984532
+final chemistry_tree 3301 leaf8_features0.3 validation MSE 0.07219467637859
+final token_cnn 1103 lr001_wd0001 epoch 10 best validation MSE 0.07821274548768997
+final token_cnn 1103 lr001_wd0001 epoch 20 best validation MSE 0.06860881298780441
+final token_cnn 1103 lr001_wd0001 epoch 30 best validation MSE 0.06860881298780441
+final token_cnn 1103 lr001_wd0001 epoch 40 best validation MSE 0.0681125819683075
+final token_cnn 2207 lr001_wd0001 epoch 10 best validation MSE 0.08143109083175659
+final token_cnn 3301 lr001_wd0001 epoch 10 best validation MSE 0.06478652358055115
+final token_cnn 3301 lr001_wd0001 epoch 20 best validation MSE 0.06229768693447113
+final nongraph 1103 lr001_wd0001 epoch 10 best validation MSE 0.06268208473920822
+/home/shadi/iclr2027/sirna_gnn_empirical/v1/fit_engine.py:52: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  changed=sum(float((p-before_message[n]).abs().sum()) for n,p in model.named_parameters() if n in before_message)
+final nongraph 2207 lr001_wd0001 epoch 10 best validation MSE 0.06980672478675842
+final nongraph 2207 lr001_wd0001 epoch 20 best validation MSE 0.06980672478675842
+final nongraph 3301 lr001_wd0001 epoch 10 best validation MSE 0.07441749423742294
+final nongraph 3301 lr001_wd0001 epoch 20 best validation MSE 0.06413383036851883
+final nongraph 3301 lr001_wd0001 epoch 30 best validation MSE 0.06413383036851883
+final gnn 1103 lr003_wd01 epoch 10 best validation MSE 0.048655614256858826
+final gnn 2207 lr003_wd01 epoch 10 best validation MSE 0.08593504875898361
+final gnn 2207 lr003_wd01 epoch 20 best validation MSE 0.07014821469783783
+final gnn 2207 lr003_wd01 epoch 30 best validation MSE 0.06985180079936981
+final gnn 2207 lr003_wd01 epoch 40 best validation MSE 0.06717661768198013
+final gnn 3301 lr003_wd01 epoch 10 best validation MSE 0.0676710233092308
+final gnn_no_chemistry 1103 lr003_wd01 epoch 10 best validation MSE 0.052295584231615067
+final gnn_no_chemistry 1103 lr003_wd01 epoch 20 best validation MSE 0.05033252760767937
+final gnn_no_chemistry 2207 lr003_wd01 epoch 10 best validation MSE 0.05316616967320442
+final gnn_no_chemistry 2207 lr003_wd01 epoch 20 best validation MSE 0.05316616967320442
+final gnn_no_chemistry 3301 lr003_wd01 epoch 10 best validation MSE 0.054158445447683334
+final gnn_no_chemistry 3301 lr003_wd01 epoch 20 best validation MSE 0.054158445447683334
+Final fits: 17 optimizer updates: 6636

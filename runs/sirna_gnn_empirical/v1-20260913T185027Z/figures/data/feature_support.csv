@@ -1,0 +1,5 @@
+split,observations,nodes,directed_edges,rows_with_unseen_modification_names,bytes_uncompressed
+train,2626,112777,315524,0,407471168
+validation,103,4326,12154,74,15982304
+test_internal,198,8316,23364,139,30723264
+test_APP,1839,80916,231714,1839,285353952

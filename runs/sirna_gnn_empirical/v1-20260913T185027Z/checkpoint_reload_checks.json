@@ -1,0 +1,87 @@
+[
+  {
+    "kind": "guide_ridge",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "guide_pairwise_ridge",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "chemistry_tree",
+    "seed": 1103,
+    "max_error": 1.1102230246251565e-16
+  },
+  {
+    "kind": "chemistry_tree",
+    "seed": 2207,
+    "max_error": 1.1102230246251565e-16
+  },
+  {
+    "kind": "chemistry_tree",
+    "seed": 3301,
+    "max_error": 1.1102230246251565e-16
+  },
+  {
+    "kind": "token_cnn",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "token_cnn",
+    "seed": 2207,
+    "max_error": 0.0
+  },
+  {
+    "kind": "token_cnn",
+    "seed": 3301,
+    "max_error": 0.0
+  },
+  {
+    "kind": "nongraph",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "nongraph",
+    "seed": 2207,
+    "max_error": 0.0
+  },
+  {
+    "kind": "nongraph",
+    "seed": 3301,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn",
+    "seed": 2207,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn",
+    "seed": 3301,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn_no_chemistry",
+    "seed": 1103,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn_no_chemistry",
+    "seed": 2207,
+    "max_error": 0.0
+  },
+  {
+    "kind": "gnn_no_chemistry",
+    "seed": 3301,
+    "max_error": 0.0
+  }
+]

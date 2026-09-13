@@ -1,0 +1,80 @@
+{
+  "tag": "deployment",
+  "kind": "token_cnn",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 2207,
+  "lambda_pair": 0.0,
+  "training_n": 2927,
+  "validation_n": 0,
+  "test_n": 1839,
+  "parameters": 140929,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 184,
+  "selected_updates": 184,
+  "selected_epoch": 8,
+  "epochs_executed": 8,
+  "validation_score": 0.0,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 23,
+      "training_normalized_loss": 0.9962975577889427,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 46,
+      "training_normalized_loss": 0.8909615952283562,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 69,
+      "training_normalized_loss": 0.7706506371416653,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 92,
+      "training_normalized_loss": 0.7121559376394052,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 115,
+      "training_normalized_loss": 0.693507119336143,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 138,
+      "training_normalized_loss": 0.6743256612507442,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 161,
+      "training_normalized_loss": 0.6202511309885026,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 184,
+      "training_normalized_loss": 0.5822401882276871,
+      "validation_score": 0.0
+    }
+  ],
+  "checkpoint": "fits/deployment/token_cnn-lr001_wd0001-s2207-l0/best.pt",
+  "checkpoint_sha256": "4503268ec162a9421d01ef78a10245458739ba4c17dcbdad473088b701266d02",
+  "wall_s": 0.7832376740407199,
+  "cpu_s": 0.7829333070000075,
+  "device": "cuda:0",
+  "max_gradient_sum": 21.18991494178772,
+  "peak_gpu_allocated_bytes": 566749696
+}

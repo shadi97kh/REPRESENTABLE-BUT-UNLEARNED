@@ -1,0 +1,460 @@
+phase,model,arm,assay_id,tie_count_at_boundary,expected_top5_percentile,expected_selected_activity
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.7123595505617978,0.40001999999999993
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.8112359550561798,0.8252799999999999
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.7640449438202247,0.84428
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.70561797752809,0.7581800000000001
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.8449438202247193,0.9513000000000001
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.6707865168539326,0.9752599999999999
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.6721153846153846,0.3928
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.6716346153846153,0.8058
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.7774038461538463,0.13080000000000003
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.6634615384615385,0.5388000000000001
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5666666666666667,0.30229999999999996
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5711111111111111,0.8530999999999999
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5755555555555556,0.3968
+deployment,chemistry_tree,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.62,0.93
+deployment,chemistry_tree,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.378125,0.41400000000000003
+deployment,chemistry_tree,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.38125,0.5860000000000001
+deployment,chemistry_tree,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.3375,0.6119999999999999
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.3415730337078652,-0.5793199999999998
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.31685393258426964,0.43794000000000005
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.2808988764044944,0.53022
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.27191011235955054,0.39736000000000005
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.31910112359550563,0.59562
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3662921348314606,0.80306
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.5942307692307691,0.3142
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.660576923076923,0.8472
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5759615384615385,0.07139999999999998
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.4552884615384615,0.33280000000000004
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.43999999999999995,0.2143
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.3622222222222223,0.7024199999999999
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5888888888888889,0.39339999999999997
+deployment,gnn,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5755555555555556,0.9004000000000001
+deployment,gnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.2875,0.29399999999999993
+deployment,gnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.13125,0.258
+deployment,gnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.18125,0.26
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.26516853932584267,-0.6750999999999999
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.3595505617977528,0.44964000000000004
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.24943820224719104,0.50916
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.28314606741573034,0.40180000000000005
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.30786516853932583,0.5921200000000001
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.31348314606741573,0.79688
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.47644230769230766,0.21760000000000002
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.6048076923076924,0.8301999999999999
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.4552884615384615,0.044599999999999966
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.36538461538461536,0.2564
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.43999999999999995,0.2143
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.3622222222222223,0.7024199999999999
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5888888888888888,0.39339999999999997
+deployment,nongraph,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5755555555555556,0.9004
+deployment,nongraph,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.2875,0.29399999999999993
+deployment,nongraph,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.13125,0.258
+deployment,nongraph,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.18125,0.25999999999999995
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.701123595505618,0.36042
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6044943820224719,0.68448
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.647191011235955,0.7771999999999999
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6471910112359549,0.68516
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.555056179775281,0.8257999999999999
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.7168539325842697,0.9249400000000001
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.5302884615384615,0.24900000000000003
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.5802884615384615,0.8126
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.31971153846153844,-0.061
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.5235576923076923,0.4024
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.4133333333333333,0.20872000000000002
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.4111111111111111,0.70854
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.4966666666666667,0.3238
+deployment,token_cnn,all_ENsi_inner_selected,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5311111111111111,0.7837999999999999
+deployment,token_cnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.378125,0.374
+deployment,token_cnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.328125,0.45
+deployment,token_cnn,all_ENsi_inner_selected,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.284375,0.46399999999999997
+factorial,chemistry_tree,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6269662921348316,0.21431999999999998
+factorial,chemistry_tree,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.7146067415730337,0.766
+factorial,chemistry_tree,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.6157303370786517,0.7899200000000001
+factorial,chemistry_tree,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6651685393258427,0.73446
+factorial,chemistry_tree,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.7797752808988764,0.9292
+factorial,chemistry_tree,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.6415730337078651,0.9670200000000001
+factorial,chemistry_tree,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.6254807692307692,0.3724
+factorial,chemistry_tree,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.5745192307692307,0.758
+factorial,chemistry_tree,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5442307692307693,0.06180000000000001
+factorial,chemistry_tree,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.6774038461538462,0.5518
+factorial,chemistry_tree,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5355555555555556,0.28950000000000004
+factorial,chemistry_tree,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.4844444444444445,0.7394999999999999
+factorial,chemistry_tree,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6466666666666667,0.4556
+factorial,chemistry_tree,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.6433333333333333,0.89
+factorial,chemistry_tree,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.259375,0.274
+factorial,chemistry_tree,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.36875,0.5740000000000001
+factorial,chemistry_tree,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.35,0.63
+factorial,context_ridge,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,90,0.5,-0.08947666666666663
+factorial,context_ridge,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,90,0.5,0.62997
+factorial,context_ridge,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,90,0.5000000000000001,0.6388777777777778
+factorial,context_ridge,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,90,0.5,0.5979666666666668
+factorial,context_ridge,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,90,0.5,0.8122555555555554
+factorial,context_ridge,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,90,0.5,0.9060722222222223
+factorial,context_ridge,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,209,0.5,0.24405263157894735
+factorial,context_ridge,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,209,0.5,0.6744497607655503
+factorial,context_ridge,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,209,0.5,0.05254545454545454
+factorial,context_ridge,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,209,0.5,0.38826794258373204
+factorial,context_ridge,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,91,0.5,0.26348351648351653
+factorial,context_ridge,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,91,0.4999999999999999,0.788976923076923
+factorial,context_ridge,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,91,0.5,0.3282527472527472
+factorial,context_ridge,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,91,0.4999999999999999,0.819153846153846
+factorial,context_ridge,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,33,0.5,0.49909090909090914
+factorial,context_ridge,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,33,0.5,0.6566666666666667
+factorial,context_ridge,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,33,0.5,0.7033333333333334
+factorial,gnn,R0C0,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.5617977528089887,0.21256
+factorial,gnn,R0C0,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.7438202247191011,0.8005000000000001
+factorial,gnn,R0C0,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5573033707865168,0.74694
+factorial,gnn,R0C0,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5415730337078651,0.63464
+factorial,gnn,R0C0,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.6157303370786515,0.89692
+factorial,gnn,R0C0,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.4202247191011236,0.90474
+factorial,gnn,R0C0,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.45480769230769225,0.20940000000000003
+factorial,gnn,R0C0,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.3110576923076923,0.5297999999999999
+factorial,gnn,R0C0,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5293269230769231,0.066
+factorial,gnn,R0C0,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.31346153846153846,0.2306
+factorial,gnn,R0C0,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5977777777777777,0.36978000000000005
+factorial,gnn,R0C0,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.42666666666666664,0.6892799999999999
+factorial,gnn,R0C0,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6255555555555555,0.4686
+factorial,gnn,R0C0,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.45666666666666667,0.7226
+factorial,gnn,R0C0,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.403125,0.398
+factorial,gnn,R0C0,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.25625,0.36
+factorial,gnn,R0C0,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.184375,0.27999999999999997
+factorial,gnn,R0C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.5146067415730337,0.052959999999999965
+factorial,gnn,R0C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5865168539325842,0.6466000000000001
+factorial,gnn,R0C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5370786516853933,0.72484
+factorial,gnn,R0C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.48539325842696635,0.5959399999999999
+factorial,gnn,R0C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.46966292134831467,0.7985599999999999
+factorial,gnn,R0C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.402247191011236,0.89192
+factorial,gnn,R0C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.3596153846153846,0.15839999999999999
+factorial,gnn,R0C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.35432692307692304,0.47140000000000004
+factorial,gnn,R0C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999997
+factorial,gnn,R0C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.25625000000000003,0.18039999999999998
+factorial,gnn,R0C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.6288888888888888,0.39472
+factorial,gnn,R0C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5755555555555556,0.7553599999999999
+factorial,gnn,R0C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6411111111111111,0.489
+factorial,gnn,R0C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5855555555555554,0.7896
+factorial,gnn,R0C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.45,0.42400000000000004
+factorial,gnn,R0C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.31875,0.45200000000000007
+factorial,gnn,R0C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.325,0.462
+factorial,gnn,R1C0,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.42696629213483145,0.00710000000000002
+factorial,gnn,R1C0,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6067415730337078,0.67684
+factorial,gnn,R1C0,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.402247191011236,0.6744
+factorial,gnn,R1C0,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.45617977528089887,0.5936199999999999
+factorial,gnn,R1C0,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5123595505617977,0.8129200000000001
+factorial,gnn,R1C0,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.27303370786516856,0.8382400000000001
+factorial,gnn,R1C0,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.4769230769230769,0.21960000000000002
+factorial,gnn,R1C0,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.4197115384615385,0.692
+factorial,gnn,R1C0,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5408653846153846,0.06899999999999999
+factorial,gnn,R1C0,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.42211538461538467,0.3188
+factorial,gnn,R1C0,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.6377777777777778,0.4058
+factorial,gnn,R1C0,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5577777777777777,0.80602
+factorial,gnn,R1C0,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6411111111111112,0.4888
+factorial,gnn,R1C0,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5644444444444444,0.7838
+factorial,gnn,R1C0,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.403125,0.398
+factorial,gnn,R1C0,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.25625,0.36
+factorial,gnn,R1C0,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.184375,0.27999999999999997
+factorial,gnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6719101123595506,0.35466
+factorial,gnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.7168539325842695,0.7147
+factorial,gnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.6741573033707866,0.77784
+factorial,gnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6314606741573033,0.67744
+factorial,gnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5752808988764045,0.82622
+factorial,gnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.5370786516853933,0.9096
+factorial,gnn,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.42259615384615384,0.19039999999999999
+factorial,gnn,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.4899038461538462,0.6497999999999999
+factorial,gnn,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.43509615384615385,0.03499999999999996
+factorial,gnn,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.3028846153846154,0.219
+factorial,gnn,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.7422222222222222,0.46058000000000004
+factorial,gnn,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.591111111111111,0.77634
+factorial,gnn,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.7088888888888889,0.5424
+factorial,gnn,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.6077777777777776,0.8474
+factorial,gnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.5,0.4640000000000001
+factorial,gnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.271875,0.34400000000000003
+factorial,gnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.271875,0.28800000000000003
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6651685393258426,0.34975999999999996
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.8584269662921349,0.8389200000000001
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.6853932584269663,0.80162
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6966292134831461,0.7541800000000001
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.752808988764045,0.9257
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.6123595505617977,0.96898
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.4298076923076922,0.2532
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.4264423076923077,0.5726
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.4581730769230769,0.045799999999999993
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.4884615384615384,0.3846
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5111111111111111,0.31034
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5088888888888888,0.7658999999999999
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.4422222222222222,0.31239999999999996
+factorial,gnn_no_chemistry,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5222222222222223,0.8735999999999999
+factorial,gnn_no_chemistry,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.6375,0.6060000000000001
+factorial,gnn_no_chemistry,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.40625,0.5
+factorial,gnn_no_chemistry,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.421875,0.526
+factorial,mean_equal_study,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,90,0.5,-0.08947666666666663
+factorial,mean_equal_study,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,90,0.5,0.62997
+factorial,mean_equal_study,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,90,0.5000000000000001,0.6388777777777778
+factorial,mean_equal_study,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,90,0.5,0.5979666666666668
+factorial,mean_equal_study,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,90,0.5,0.8122555555555554
+factorial,mean_equal_study,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,90,0.5,0.9060722222222223
+factorial,mean_equal_study,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,209,0.5,0.24405263157894735
+factorial,mean_equal_study,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,209,0.5,0.6744497607655503
+factorial,mean_equal_study,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,209,0.5,0.05254545454545454
+factorial,mean_equal_study,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,209,0.5,0.38826794258373204
+factorial,mean_equal_study,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,91,0.5,0.26348351648351653
+factorial,mean_equal_study,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,91,0.4999999999999999,0.788976923076923
+factorial,mean_equal_study,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,91,0.5,0.3282527472527472
+factorial,mean_equal_study,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,91,0.4999999999999999,0.819153846153846
+factorial,mean_equal_study,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,33,0.5,0.49909090909090914
+factorial,mean_equal_study,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,33,0.5,0.6566666666666667
+factorial,mean_equal_study,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,33,0.5,0.7033333333333334
+factorial,mean_unweighted,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,90,0.5,-0.08947666666666663
+factorial,mean_unweighted,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,90,0.5,0.62997
+factorial,mean_unweighted,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,90,0.5000000000000001,0.6388777777777778
+factorial,mean_unweighted,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,90,0.5,0.5979666666666668
+factorial,mean_unweighted,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,90,0.5,0.8122555555555554
+factorial,mean_unweighted,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,90,0.5,0.9060722222222223
+factorial,mean_unweighted,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,209,0.5,0.24405263157894735
+factorial,mean_unweighted,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,209,0.5,0.6744497607655503
+factorial,mean_unweighted,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,209,0.5,0.05254545454545454
+factorial,mean_unweighted,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,209,0.5,0.38826794258373204
+factorial,mean_unweighted,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,91,0.5,0.26348351648351653
+factorial,mean_unweighted,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,91,0.4999999999999999,0.788976923076923
+factorial,mean_unweighted,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,91,0.5,0.3282527472527472
+factorial,mean_unweighted,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,91,0.4999999999999999,0.819153846153846
+factorial,mean_unweighted,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,33,0.5,0.49909090909090914
+factorial,mean_unweighted,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,33,0.5,0.6566666666666667
+factorial,mean_unweighted,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,33,0.5,0.7033333333333334
+factorial,nongraph,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.503370786516854,0.017459999999999986
+factorial,nongraph,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.46966292134831467,0.5511800000000001
+factorial,nongraph,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.47191011235955055,0.65346
+factorial,nongraph,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.4786516853932584,0.5585
+factorial,nongraph,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.3797752808988764,0.7371800000000001
+factorial,nongraph,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3887640449438202,0.8274000000000001
+factorial,nongraph,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.5173076923076924,0.3096
+factorial,nongraph,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.53125,0.6498
+factorial,nongraph,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5201923076923077,0.059399999999999974
+factorial,nongraph,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.5475961538461538,0.43920000000000003
+factorial,nongraph,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.6199999999999999,0.37836
+factorial,nongraph,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5666666666666667,0.7917799999999999
+factorial,nongraph,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5866666666666667,0.4372
+factorial,nongraph,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.6077777777777778,0.8862
+factorial,nongraph,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.565625,0.562
+factorial,nongraph,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.396875,0.52
+factorial,nongraph,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.315625,0.47800000000000004
+factorial,token_cnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6876404494382021,0.38736000000000004
+factorial,token_cnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.696629213483146,0.79084
+factorial,token_cnn,R1C1,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.6651685393258426,0.8050200000000001
+factorial,token_cnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6539325842696628,0.7348399999999999
+factorial,token_cnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.6292134831460674,0.89964
+factorial,token_cnn,R1C1,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.498876404494382,0.90256
+factorial,token_cnn,R1C1,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.48365384615384616,0.23760000000000003
+factorial,token_cnn,R1C1,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.4048076923076923,0.47739999999999994
+factorial,token_cnn,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5682692307692307,0.06959999999999997
+factorial,token_cnn,R1C1,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.4052884615384615,0.316
+factorial,token_cnn,R1C1,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.6644444444444445,0.40312000000000003
+factorial,token_cnn,R1C1,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5444444444444445,0.7955
+factorial,token_cnn,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6977777777777778,0.5274
+factorial,token_cnn,R1C1,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5755555555555555,0.8667999999999999
+factorial,token_cnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.409375,0.4
+factorial,token_cnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.2375,0.324
+factorial,token_cnn,R1C1,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.190625,0.284
+frozen,gnn,backbone,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.34606741573033706,-0.2581000000000001
+frozen,gnn,backbone,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5685393258426966,0.69336
+frozen,gnn,backbone,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.45168539325842694,0.70616
+frozen,gnn,backbone,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.4449438202247191,0.6085
+frozen,gnn,backbone,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5191011235955056,0.86216
+frozen,gnn,backbone,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.349438202247191,0.8936
+frozen,gnn,backbone,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.41105769230769235,0.18359999999999999
+frozen,gnn,backbone,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.34086538461538457,0.5056
+frozen,gnn,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.63125,0.10539999999999998
+frozen,gnn,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.4259615384615385,0.33240000000000003
+frozen,gnn,backbone,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.7288888888888889,0.46612
+frozen,gnn,backbone,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.8111111111111111,0.9305
+frozen,gnn,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6455555555555555,0.4906
+frozen,gnn,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.7644444444444445,0.9148
+frozen,gnn,backbone,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.278125,0.29799999999999993
+frozen,gnn,backbone,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.259375,0.43600000000000005
+frozen,gnn,backbone,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.19375,0.38799999999999996
+frozen,gnn,combined,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.34606741573033706,-0.2581000000000001
+frozen,gnn,combined,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5685393258426966,0.69336
+frozen,gnn,combined,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.45168539325842694,0.70616
+frozen,gnn,combined,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.4449438202247191,0.6085
+frozen,gnn,combined,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5191011235955056,0.86216
+frozen,gnn,combined,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.349438202247191,0.8936
+frozen,gnn,combined,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.4293269230769231,0.20380000000000004
+frozen,gnn,combined,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.29086538461538464,0.45899999999999996
+frozen,gnn,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.6110576923076924,0.09919999999999997
+frozen,gnn,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.36875,0.282
+frozen,gnn,combined,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.7288888888888889,0.46612
+frozen,gnn,combined,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.8111111111111111,0.9305
+frozen,gnn,combined,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6455555555555555,0.4906
+frozen,gnn,combined,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.7644444444444445,0.9148
+frozen,gnn,combined,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.278125,0.298
+frozen,gnn,combined,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.259375,0.43600000000000005
+frozen,gnn,combined,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.246875,0.5479999999999999
+frozen,gnn,original,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.503370786516854,0.04359999999999995
+frozen,gnn,original,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.698876404494382,0.76146
+frozen,gnn,original,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5887640449438202,0.7591599999999998
+frozen,gnn,original,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5910112359550561,0.6900000000000001
+frozen,gnn,original,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.6247191011235955,0.88982
+frozen,gnn,original,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.4842696629213483,0.91128
+frozen,gnn,original,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.41105769230769235,0.18359999999999999
+frozen,gnn,original,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.34086538461538457,0.5056
+frozen,gnn,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.6312499999999999,0.10539999999999998
+frozen,gnn,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.4259615384615385,0.3324
+frozen,gnn,original,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.7088888888888889,0.40058000000000005
+frozen,gnn,original,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.7577777777777778,0.92256
+frozen,gnn,original,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5433333333333333,0.3624
+frozen,gnn,original,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.67,0.9008
+frozen,gnn,original,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.340625,0.388
+frozen,gnn,original,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.296875,0.514
+frozen,gnn,original,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.246875,0.5479999999999999
+frozen,gnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.503370786516854,0.04359999999999994
+frozen,gnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.698876404494382,0.76146
+frozen,gnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5887640449438202,0.75916
+frozen,gnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5910112359550561,0.6900000000000001
+frozen,gnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.6247191011235955,0.88982
+frozen,gnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.4842696629213483,0.91128
+frozen,gnn,zero_support,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.3596153846153846,0.1584
+frozen,gnn,zero_support,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.2706730769230769,0.4513999999999999
+frozen,gnn,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999998
+frozen,gnn,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.31634615384615383,0.2318
+frozen,gnn,zero_support,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.7088888888888889,0.40058000000000005
+frozen,gnn,zero_support,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.7577777777777778,0.92256
+frozen,gnn,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5433333333333333,0.3624
+frozen,gnn,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.67,0.9008
+frozen,gnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.340625,0.388
+frozen,gnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.296875,0.514
+frozen,gnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.246875,0.5479999999999999
+frozen,nongraph,backbone,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.5123595505617977,0.05187999999999995
+frozen,nongraph,backbone,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5775280898876404,0.63586
+frozen,nongraph,backbone,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5078651685393258,0.6792999999999999
+frozen,nongraph,backbone,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.4808988764044944,0.59134
+frozen,nongraph,backbone,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.4764044943820225,0.8103200000000002
+frozen,nongraph,backbone,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3932584269662921,0.87424
+frozen,nongraph,backbone,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.35961538461538456,0.1584
+frozen,nongraph,backbone,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.3543269230769231,0.47140000000000004
+frozen,nongraph,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999998
+frozen,nongraph,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.25625,0.18039999999999998
+frozen,nongraph,backbone,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5844444444444444,0.35806
+frozen,nongraph,backbone,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5511111111111111,0.8099000000000001
+frozen,nongraph,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6055555555555555,0.4526
+frozen,nongraph,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5222222222222221,0.7762
+frozen,nongraph,backbone,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.3875,0.376
+frozen,nongraph,backbone,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.18125,0.294
+frozen,nongraph,backbone,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.20625,0.286
+frozen,nongraph,combined,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6067415730337078,0.16779999999999992
+frozen,nongraph,combined,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5640449438202246,0.6345000000000001
+frozen,nongraph,combined,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.43595505617977526,0.6392599999999999
+frozen,nongraph,combined,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5640449438202247,0.62914
+frozen,nongraph,combined,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.4831460674157303,0.8118400000000001
+frozen,nongraph,combined,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3258426966292135,0.8149599999999999
+frozen,nongraph,combined,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.35961538461538456,0.1584
+frozen,nongraph,combined,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.3543269230769231,0.47140000000000004
+frozen,nongraph,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999998
+frozen,nongraph,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.25625,0.18039999999999998
+frozen,nongraph,combined,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5844444444444444,0.35806
+frozen,nongraph,combined,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5511111111111111,0.8099000000000001
+frozen,nongraph,combined,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6055555555555555,0.4526
+frozen,nongraph,combined,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5222222222222221,0.7762
+frozen,nongraph,combined,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.3875,0.376
+frozen,nongraph,combined,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.18125,0.294
+frozen,nongraph,combined,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.20625,0.286
+frozen,nongraph,original,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6696629213483146,0.35357999999999995
+frozen,nongraph,original,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.7078651685393258,0.70396
+frozen,nongraph,original,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.6449438202247191,0.7323
+frozen,nongraph,original,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.6269662921348315,0.67284
+frozen,nongraph,original,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5820224719101124,0.8379800000000002
+frozen,nongraph,original,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.5280898876404494,0.89192
+frozen,nongraph,original,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.3596153846153846,0.1584
+frozen,nongraph,original,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.3543269230769231,0.47139999999999993
+frozen,nongraph,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999998
+frozen,nongraph,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.25625,0.18039999999999998
+frozen,nongraph,original,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.6933333333333334,0.42607999999999996
+frozen,nongraph,original,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.5511111111111111,0.8099000000000001
+frozen,nongraph,original,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.75,0.5774
+frozen,nongraph,original,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5222222222222223,0.7762
+frozen,nongraph,original,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.34375,0.348
+frozen,nongraph,original,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.146875,0.278
+frozen,nongraph,original,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.15,0.25
+frozen,nongraph,zero_support,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6651685393258426,0.35197999999999996
+frozen,nongraph,zero_support,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.5415730337078651,0.5753
+frozen,nongraph,zero_support,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5730337078651685,0.6922599999999999
+frozen,nongraph,zero_support,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5415730337078651,0.5871000000000001
+frozen,nongraph,zero_support,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.4449438202247191,0.74824
+frozen,nongraph,zero_support,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.4606741573033708,0.8326399999999999
+frozen,nongraph,zero_support,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.3596153846153846,0.1584
+frozen,nongraph,zero_support,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.3543269230769231,0.47139999999999993
+frozen,nongraph,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.5639423076923077,0.07299999999999998
+frozen,nongraph,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.25625,0.18039999999999998
+frozen,nongraph,zero_support,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.5844444444444445,0.35805999999999993
+frozen,nongraph,zero_support,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.551111111111111,0.8099000000000001
+frozen,nongraph,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.6055555555555555,0.4526
+frozen,nongraph,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5222222222222221,0.7762
+frozen,nongraph,zero_support,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.34375,0.34800000000000003
+frozen,nongraph,zero_support,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.146875,0.278
+frozen,nongraph,zero_support,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.15,0.25
+frozen,token_cnn,backbone,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6134831460674157,0.30088
+frozen,token_cnn,backbone,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6292134831460674,0.6873799999999999
+frozen,token_cnn,backbone,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5820224719101124,0.7541599999999999
+frozen,token_cnn,backbone,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5168539325842696,0.62488
+frozen,token_cnn,backbone,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.507865168539326,0.8138400000000001
+frozen,token_cnn,backbone,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.39550561797752803,0.8881
+frozen,token_cnn,backbone,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.40240384615384617,0.17
+frozen,token_cnn,backbone,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.28894230769230766,0.43520000000000003
+frozen,token_cnn,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.24663461538461537,-0.1276
+frozen,token_cnn,backbone,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.3677884615384615,0.2636
+frozen,token_cnn,backbone,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.49111111111111116,0.3105
+frozen,token_cnn,backbone,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.44666666666666666,0.6651199999999999
+frozen,token_cnn,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5633333333333334,0.4166
+frozen,token_cnn,backbone,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5688888888888889,0.8746
+frozen,token_cnn,backbone,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.4875,0.45
+frozen,token_cnn,backbone,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.284375,0.35
+frozen,token_cnn,backbone,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.30625,0.332
+frozen,token_cnn,combined,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6134831460674157,0.30088
+frozen,token_cnn,combined,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6292134831460674,0.6873799999999999
+frozen,token_cnn,combined,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5820224719101124,0.7541599999999999
+frozen,token_cnn,combined,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5168539325842696,0.62488
+frozen,token_cnn,combined,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5078651685393258,0.8138399999999999
+frozen,token_cnn,combined,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3955056179775281,0.8881
+frozen,token_cnn,combined,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.40240384615384617,0.17
+frozen,token_cnn,combined,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.28894230769230766,0.43520000000000003
+frozen,token_cnn,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.24663461538461537,-0.1276
+frozen,token_cnn,combined,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.3677884615384615,0.2636
+frozen,token_cnn,combined,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.49111111111111116,0.3105
+frozen,token_cnn,combined,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.44666666666666666,0.6651199999999999
+frozen,token_cnn,combined,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5633333333333332,0.4166
+frozen,token_cnn,combined,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5688888888888888,0.8746
+frozen,token_cnn,combined,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.4875,0.45
+frozen,token_cnn,combined,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.284375,0.35
+frozen,token_cnn,combined,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.30625,0.332
+frozen,token_cnn,original,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6134831460674157,0.30088
+frozen,token_cnn,original,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6292134831460674,0.6873799999999999
+frozen,token_cnn,original,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5820224719101124,0.7541599999999999
+frozen,token_cnn,original,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5168539325842696,0.62488
+frozen,token_cnn,original,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.507865168539326,0.8138400000000001
+frozen,token_cnn,original,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.39550561797752803,0.8881
+frozen,token_cnn,original,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.40240384615384617,0.17
+frozen,token_cnn,original,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.28894230769230766,0.43520000000000003
+frozen,token_cnn,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.24663461538461537,-0.1276
+frozen,token_cnn,original,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.3677884615384615,0.2636
+frozen,token_cnn,original,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.49111111111111116,0.3105
+frozen,token_cnn,original,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.44666666666666666,0.6651199999999999
+frozen,token_cnn,original,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5633333333333334,0.4166
+frozen,token_cnn,original,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5688888888888889,0.8746
+frozen,token_cnn,original,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.4875,0.45
+frozen,token_cnn,original,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.284375,0.35
+frozen,token_cnn,original,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.30625,0.332
+frozen,token_cnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|0.1nM|24h,1,0.6134831460674157,0.30088
+frozen,token_cnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|1.0nM|24h,1,0.6292134831460674,0.6873799999999999
+frozen,token_cnn,zero_support,US20220002724A1|Table17|Be(2)C cell line|10.0nM|24h,1,0.5820224719101124,0.7541599999999999
+frozen,token_cnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|0.1nM|24h,1,0.5168539325842696,0.62488
+frozen,token_cnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|1.0nM|24h,1,0.5078651685393258,0.8138399999999999
+frozen,token_cnn,zero_support,US20220002724A1|Table18|Neuro2A cell line|10.0nM|24h,1,0.3955056179775281,0.8881
+frozen,token_cnn,zero_support,US20220002724A1|Table4|Be(2)C cell line|0.1nM|24h,1,0.40240384615384617,0.17
+frozen,token_cnn,zero_support,US20220002724A1|Table4|Be(2)C cell line|10.0nM|24h,1,0.28894230769230766,0.43520000000000003
+frozen,token_cnn,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|0.1nM|24h,1,0.24663461538461537,-0.1276
+frozen,token_cnn,zero_support,US20220002724A1|Table4|Primary Cynomolgus Monkey Hepatocytes|10.0nM|24h,1,0.3677884615384615,0.2636
+frozen,token_cnn,zero_support,US20220002724A1|Table7|Neuro2A cell line|0.1nM|24h,1,0.49111111111111116,0.3105
+frozen,token_cnn,zero_support,US20220002724A1|Table7|Neuro2A cell line|10.0nM|24h,1,0.44666666666666666,0.6651199999999999
+frozen,token_cnn,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|0.1nM|24h,1,0.5633333333333332,0.4166
+frozen,token_cnn,zero_support,US20220002724A1|Table7|Primary mouse hepatocytes|10.0nM|24h,1,0.5688888888888888,0.8746
+frozen,token_cnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|0.1nM|24h,1,0.4875,0.45
+frozen,token_cnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|1.0nM|24h,1,0.284375,0.35
+frozen,token_cnn,zero_support,US20240117349A1|Table6|Be(2)C cell line|10.0nM|24h,1,0.30625,0.332

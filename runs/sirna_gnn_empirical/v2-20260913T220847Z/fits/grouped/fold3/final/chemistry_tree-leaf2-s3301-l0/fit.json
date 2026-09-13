@@ -1,0 +1,30 @@
+{
+  "tag": "grouped/fold3/final",
+  "kind": "chemistry_tree",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "leaf2",
+    "min_samples_leaf": 2
+  },
+  "seed": 3301,
+  "lambda_pair": 0.0,
+  "training_n": 836,
+  "validation_n": 1970,
+  "test_n": 121,
+  "parameters": 210446,
+  "parameter_unit": "tree nodes",
+  "optimizer_updates": 0,
+  "selected_updates": 0,
+  "selected_epoch": 0,
+  "epochs_executed": 0,
+  "validation_score": 0.08128893516137714,
+  "history": [],
+  "checkpoint": "fits/grouped/fold3/final/chemistry_tree-leaf2-s3301-l0/model.pkl",
+  "checkpoint_sha256": "d4202a76b9558bd1670a24b4a8520d137f1d545148407d5684be24104b892de2",
+  "wall_s": 1.383079424034804,
+  "cpu_s": 2.4778953800000068,
+  "device": "cpu",
+  "max_gradient_sum": 0.0,
+  "peak_gpu_allocated_bytes": 68157440
+}

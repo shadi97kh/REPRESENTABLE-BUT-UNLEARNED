@@ -1,0 +1,1 @@
+{'observed_negative': 111, 'observed_ties': 19, 'observed_positive': 26, 'calls': 94, 'correct_calls': 18, 'predicted_min': 0.0010746717453002, 'predicted_max': 0.0671548942724862, 'mean_observed': -0.226749358974359, 'mean_predicted': 0.02998195868781484, 'unsupported_relation_scalars': 8192}

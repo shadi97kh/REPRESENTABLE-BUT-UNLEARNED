@@ -1,0 +1,30 @@
+{
+  "tag": "factorial/development/R1C1",
+  "kind": "chemistry_tree",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "leaf2",
+    "min_samples_leaf": 2
+  },
+  "seed": 701,
+  "lambda_pair": 0.0,
+  "training_n": 2626,
+  "validation_n": 103,
+  "test_n": 0,
+  "parameters": 616148,
+  "parameter_unit": "tree nodes",
+  "optimizer_updates": 0,
+  "selected_updates": 0,
+  "selected_epoch": 0,
+  "epochs_executed": 0,
+  "validation_score": 0.07773907341177816,
+  "history": [],
+  "checkpoint": "fits/factorial/development/R1C1/chemistry_tree-leaf2-s701-l0/model.pkl",
+  "checkpoint_sha256": "7b6f7a7026c7ca60159e0777d7494cb748e289d9f20f9484f3aeadc5d4760f6f",
+  "wall_s": 3.586879633134231,
+  "cpu_s": 6.837361737999999,
+  "device": "cpu",
+  "max_gradient_sum": 0.0,
+  "peak_gpu_allocated_bytes": 68157440
+}

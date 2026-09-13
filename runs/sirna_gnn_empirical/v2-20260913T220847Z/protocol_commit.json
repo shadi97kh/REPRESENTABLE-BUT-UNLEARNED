@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "85921035b3b6cbf14b261051c2bd92283d97b71b7da4783d0dc4d15e343396cc",
+  "created_utc": "2026-09-13T22:14:57.951041+00:00",
+  "code": {
+    "core.py": "ea4b3dc74bde5a2fd5fbe035be5634e03e5b31dd4dde2b19ad6472e6b59beba2",
+    "runner.py": "a282f211b323385d6949d4f5d1b9e1bc2bcceb8dde09ab69fa66e0d97fd31c77",
+    "factorial.py": "97a9f4a9cd8d67d859d21b7e5ae5a26fd3cdb11aa3ce0ccdf530f8c05cdc2518",
+    "plan.py": "edbf15c5d75816935d6a1dc4b194ac7bb22555c86f9ae3466d545f4026a26b00",
+    "audit.py": "74d1319f53d10b7c4e0423109f9495b7eb4965cce9159a7367180171b4b8f094",
+    "grouped.py": "1aa5c328055236a9f98eebc8a1c271ca689922fc2b0a82409102afd4d0ab6f5e"
+  }
+}

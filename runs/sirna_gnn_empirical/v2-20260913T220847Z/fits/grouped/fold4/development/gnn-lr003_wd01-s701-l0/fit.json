@@ -1,0 +1,164 @@
+{
+  "tag": "grouped/fold4/development",
+  "kind": "gnn",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr003_wd01",
+    "lr": 0.003,
+    "weight_decay": 0.01
+  },
+  "seed": 701,
+  "lambda_pair": 0.0,
+  "training_n": 812,
+  "validation_n": 1981,
+  "test_n": 0,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 154,
+  "selected_updates": 49,
+  "selected_epoch": 7,
+  "epochs_executed": 22,
+  "validation_score": 0.06568863242864609,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 7,
+      "training_normalized_loss": 2.1019009228410392,
+      "validation_score": 0.077928826212883
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 14,
+      "training_normalized_loss": 0.8281488007512586,
+      "validation_score": 0.06957945972681046
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 21,
+      "training_normalized_loss": 0.6844843705299453,
+      "validation_score": 0.06670935451984406
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 28,
+      "training_normalized_loss": 0.545376493719411,
+      "validation_score": 0.07122504711151123
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 35,
+      "training_normalized_loss": 0.44345139781829757,
+      "validation_score": 0.09106643497943878
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 42,
+      "training_normalized_loss": 0.4391302571361288,
+      "validation_score": 0.06734652817249298
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 49,
+      "training_normalized_loss": 0.42469772182661913,
+      "validation_score": 0.06568863242864609
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 56,
+      "training_normalized_loss": 0.4047025255675386,
+      "validation_score": 0.06930109858512878
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 63,
+      "training_normalized_loss": 0.38299233748995026,
+      "validation_score": 0.06921365857124329
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 70,
+      "training_normalized_loss": 0.37414996465438694,
+      "validation_score": 0.06820517778396606
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 77,
+      "training_normalized_loss": 0.3532826802119833,
+      "validation_score": 0.07090825587511063
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 84,
+      "training_normalized_loss": 0.25148206978595905,
+      "validation_score": 0.09002869576215744
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 91,
+      "training_normalized_loss": 0.2809945772140484,
+      "validation_score": 0.07152795791625977
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 98,
+      "training_normalized_loss": 0.2916481252667939,
+      "validation_score": 0.07011611014604568
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 105,
+      "training_normalized_loss": 0.2469283922258856,
+      "validation_score": 0.07930604368448257
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 112,
+      "training_normalized_loss": 0.2671460383044088,
+      "validation_score": 0.07474469393491745
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 119,
+      "training_normalized_loss": 0.23738964195615553,
+      "validation_score": 0.07919728755950928
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 126,
+      "training_normalized_loss": 0.21050695421660476,
+      "validation_score": 0.07559067755937576
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 133,
+      "training_normalized_loss": 0.1922556526702026,
+      "validation_score": 0.07522805780172348
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 140,
+      "training_normalized_loss": 0.1990285254464361,
+      "validation_score": 0.08073414862155914
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 147,
+      "training_normalized_loss": 0.1929891507320216,
+      "validation_score": 0.07481784373521805
+    },
+    {
+      "epoch": 22,
+      "optimizer_updates": 154,
+      "training_normalized_loss": 0.1565038612470251,
+      "validation_score": 0.07447662949562073
+    }
+  ],
+  "checkpoint": "fits/grouped/fold4/development/gnn-lr003_wd01-s701-l0/best.pt",
+  "checkpoint_sha256": "dbba00f00f36cfc128f23b7cf3c5165f57997a270b8495da6a21b77d4aa40bed",
+  "wall_s": 3.394569532945752,
+  "cpu_s": 3.3962333220000005,
+  "device": "cuda:0",
+  "max_gradient_sum": 166.39250421524048,
+  "peak_gpu_allocated_bytes": 256766464
+}

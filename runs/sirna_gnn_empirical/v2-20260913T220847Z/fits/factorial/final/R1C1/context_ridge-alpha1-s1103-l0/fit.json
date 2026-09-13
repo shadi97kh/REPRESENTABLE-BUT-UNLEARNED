@@ -1,0 +1,29 @@
+{
+  "tag": "factorial/final/R1C1",
+  "kind": "context_ridge",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "alpha1"
+  },
+  "seed": 1103,
+  "lambda_pair": 0.0,
+  "training_n": 2626,
+  "validation_n": 103,
+  "test_n": 2037,
+  "parameters": 4,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 0,
+  "selected_updates": 0,
+  "selected_epoch": 0,
+  "epochs_executed": 0,
+  "validation_score": 0.08178837597370148,
+  "history": [],
+  "checkpoint": "fits/factorial/final/R1C1/context_ridge-alpha1-s1103-l0/model.pkl",
+  "checkpoint_sha256": "7dd97ea1e5c7a3e98a84f554e4cd4985f1f198e238c77d724308a2346f253aca",
+  "wall_s": 0.06726464000530541,
+  "cpu_s": 0.0672837219999991,
+  "device": "cpu",
+  "max_gradient_sum": 0.0,
+  "peak_gpu_allocated_bytes": 68157440
+}

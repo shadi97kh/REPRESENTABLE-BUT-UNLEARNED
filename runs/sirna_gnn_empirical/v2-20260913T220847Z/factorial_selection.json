@@ -1,0 +1,80 @@
+[
+  {
+    "model": "gnn",
+    "arm": "R0C0",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "model": "gnn",
+    "arm": "R1C0",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "model": "gnn",
+    "arm": "R0C1",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "model": "gnn",
+    "arm": "R1C1",
+    "config": {
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  {
+    "model": "chemistry_tree",
+    "arm": "R1C1",
+    "config": {
+      "name": "leaf8",
+      "min_samples_leaf": 8
+    }
+  },
+  {
+    "model": "token_cnn",
+    "arm": "R1C1",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "model": "nongraph",
+    "arm": "R1C1",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "model": "gnn_no_chemistry",
+    "arm": "R1C1",
+    "config": {
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    }
+  },
+  {
+    "model": "context_ridge",
+    "arm": "R1C1",
+    "config": {
+      "name": "alpha1"
+    }
+  }
+]

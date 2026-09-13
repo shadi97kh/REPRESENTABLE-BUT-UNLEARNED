@@ -1,0 +1,3124 @@
+[
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed3301-lr003_wd01/last.pt",
+    "bytes": 1871639,
+    "sha256": "0efa23afb3117552d3735e419875ba8b23cf576431d7a7f5748a1fdbac678144",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed3301-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "0a45402ba34bc156d95d2999ac127cedf1d61870576d8429c0c1cf7fa6e53383",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed1103-lr001_wd0001/last.pt",
+    "bytes": 1871575,
+    "sha256": "f5e55c2feb93311cf42b04998617bc8dfc711a3d0d72034bb380370b719771b2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed1103-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "41ba0391dbcb06092800823dc6f6d6149dee657c75b93281f84f681d65e63e6d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/guide_ridge-seed1103-alpha0.1/model.pkl",
+    "bytes": 1273,
+    "sha256": "cc78992ecc022fd600ce030af2de991d3f1238ea3678feba409b704917380c6c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed3301-lr003_wd01/last.pt",
+    "bytes": 1872023,
+    "sha256": "983a5aae5a1723d454ee4f0a4c453c2651fdbe67cb33438a1d057cecb63690d3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed3301-lr003_wd01/best.pt",
+    "bytes": 1859427,
+    "sha256": "1f4b1621ebb9d8cfac62c474c43b784e94c3d2941f03d98c27c5ad14a8f6335b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/chemistry_tree-seed2207-leaf8_features0.3/model.pkl",
+    "bytes": 10110464,
+    "sha256": "325bd1efe59f71d03b4022a2289261df3941007ef5858f3557253cda646dde53",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/chemistry_tree-seed3301-leaf8_features0.3/model.pkl",
+    "bytes": 10106153,
+    "sha256": "6be64a13f3d9455875df2e4100026793e7fd9686257a5fb3fe7a4eff55623fb1",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/chemistry_tree-seed1103-leaf8_features0.3/model.pkl",
+    "bytes": 10107593,
+    "sha256": "d976386b2831f138b86ac250040f66b1e44b98e61c250343cc1d34b59225a1e0",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed1103-lr003_wd01/last.pt",
+    "bytes": 1871575,
+    "sha256": "8880f1a6d0e8d78e10e98488f2149da81240e57fc196eb416cca59d6f51e05da",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed1103-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "0ecafb5fa2595f16a1623f85b240463946daf79b49b06b3917d89bacb1973911",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed2207-lr003_wd01/last.pt",
+    "bytes": 1871895,
+    "sha256": "6ee4f67c7a6fc6f5bc731374c4f5b08c59160a01d2003cd0dbb0e80aa7339f0d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed2207-lr003_wd01/best.pt",
+    "bytes": 1859427,
+    "sha256": "60f89535fc49b14c16c10a95ae28f0adeacff1b1d1fb4da3736e8671303bb120",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed1103-lr003_wd01/last.pt",
+    "bytes": 1872087,
+    "sha256": "0c45ce3dbe83cccdb02cd6550dda5c026fafc823e3f721975206c05557b1b2ff",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn_no_chemistry-seed1103-lr003_wd01/best.pt",
+    "bytes": 1859427,
+    "sha256": "b8f26645c060530ea72cb6e994337771521813a88b22a51a0fe31b3a991fe273",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed2207-lr001_wd0001/last.pt",
+    "bytes": 1872023,
+    "sha256": "e864b8eef0607b731890c0e285592d27bca932386fb7c4970b8d5b8827842ab5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed2207-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "8b95cb56c9a232e43b65bb4d031d47ae30a6a228f556b2d088681a39f287a253",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed1103-lr001_wd0001/last.pt",
+    "bytes": 1717343,
+    "sha256": "12260e1763a8d4be57de5f6ca9472b107a5ddc2069d49732cd7c980edde7befe",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed1103-lr001_wd0001/best.pt",
+    "bytes": 1703595,
+    "sha256": "a98af2535c4bff03164c6f56075c8fd948994c79d3c4954e9c1e2469e0e825e2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed2207-lr001_wd0001/last.pt",
+    "bytes": 1715807,
+    "sha256": "fa5d51ae3c33a642ac42f27d4b75575d9ba37d0ef23b6b7ba64454c6caef5b26",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed2207-lr001_wd0001/best.pt",
+    "bytes": 1703595,
+    "sha256": "603ce504d31b5798259a59d8fd34c9ceef329605b15c1359bccf33cbe4107ba2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/guide_pairwise_ridge-seed1103-alpha100.0/model.pkl",
+    "bytes": 28886,
+    "sha256": "9ce1a1ee2244ca67c1983587a2b08429a4d5cbf9f07d23335190a4c0d7b4b068",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed2207-lr003_wd01/last.pt",
+    "bytes": 1873239,
+    "sha256": "b93ba8a84fd5e2f52cd849df0e028e0baa17464c95a4aa980dd8edcc968c17ab",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/gnn-seed2207-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "9ea73d27f8afb7768100cf299e06f892782ee9572392cb3b5c222abf2046587b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed3301-lr001_wd0001/last.pt",
+    "bytes": 1716383,
+    "sha256": "af949f97144c3310411614d344ca19f57cbc7f5a608fd8bfb3ebe5e6d5146329",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/token_cnn-seed3301-lr001_wd0001/best.pt",
+    "bytes": 1703595,
+    "sha256": "f528e5805a60e6e3c176c3d0ae839fe7409bbf90d746aed1a75a96b0df3a670e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed3301-lr001_wd0001/last.pt",
+    "bytes": 1872343,
+    "sha256": "cba1dba71d32125325e602adf1c43c00a7060b3ed3b989b684d7052e025b9db6",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/final/nongraph-seed3301-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "98d87fb7ee8798d3d966c07c2ee046492d2eaae2a63d796fffd3dbb818129a6a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_pairwise_ridge-seed701-alpha10.0/model.pkl",
+    "bytes": 28879,
+    "sha256": "86ba13991cd9a1609e2ff011b7bdee88d436f578319276717b91e8e03c85caf2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_ridge-seed701-alpha10.0/model.pkl",
+    "bytes": 1268,
+    "sha256": "f3e094d1df75bf6f9ce8db4bdc062ea579372ce1b942e6d6e32237f37615b341",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_pairwise_ridge-seed701-alpha1.0/model.pkl",
+    "bytes": 28878,
+    "sha256": "6f3e1daf2aa941f2f1288f082b7326ea291bb52fae2d9d7d945d7528f83fc878",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/chemistry_tree-seed701-leaf8_features0.3/model.pkl",
+    "bytes": 10132894,
+    "sha256": "31dd63a6fadc19c9eac31923833ca0db922db2edabd4ab48f8c9b8195c092263",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_ridge-seed701-alpha1.0/model.pkl",
+    "bytes": 1267,
+    "sha256": "62feed0c9c02b124270833298cc6cff70c444c591ab77654980fe90e7725107f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn_no_chemistry-seed701-lr001_wd0001/last.pt",
+    "bytes": 1871959,
+    "sha256": "552dc75b9e55eab5811aa85d85d9f8ea3a97715dbfce38424f6bc091d12a9ba0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn_no_chemistry-seed701-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "2a9c57007263ec6cb4b7b382edff56e4879c980ec92f7c55273e05745cbb543a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_ridge-seed701-alpha100.0/model.pkl",
+    "bytes": 1269,
+    "sha256": "f41908fb4b41c51b33926633bdd2ebaa279bebab01be0687f8d540409a7494a7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/chemistry_tree-seed701-leaf2_features0.3/model.pkl",
+    "bytes": 44439949,
+    "sha256": "5170d501ec4e87283cda2c3d6f6d17274ce5ff21c727178050bab2bd4bc97d89",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn-seed701-lr003_wd01/last.pt",
+    "bytes": 1871831,
+    "sha256": "23545a6628bc642c39dcedaf050859809f2d2baa897763508fafefec37d1aa58",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn-seed701-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "49530cf58769fda2d93d38585320794458c2cd5e23f3e02908acf21b4d62e6a8",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_ridge-seed701-alpha0.1/model.pkl",
+    "bytes": 1267,
+    "sha256": "14f0b96ff3364b11735c1efea5655a09cc3caf18ad722f6e48b7fc6232bc5574",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/nongraph-seed701-lr001_wd0001/last.pt",
+    "bytes": 1871639,
+    "sha256": "acbb2b898d923c154937f097e75016adeb0d44e6f62777d1fc9fb698528438f9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/nongraph-seed701-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "273e23bdbd47046d3d345672bfa409a11b016e43e7d272c48634ca45674a655b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/chemistry_tree-seed701-leaf8_features1.0/model.pkl",
+    "bytes": 10726483,
+    "sha256": "8321a1df24d9f1d61fc99176245c1c0947ee396a55cc228f9931ce223f7ed5c7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn_no_chemistry-seed701-lr003_wd01/last.pt",
+    "bytes": 1871959,
+    "sha256": "3cbb437bf37fc76145d27a7bd6b826150e9680e877829b094e3ad6c315134e33",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn_no_chemistry-seed701-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "61c14d08967ad8e01a2116522b2732f5480594c17ee3c2f14b78ef0d95c39693",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn-seed701-lr001_wd0001/last.pt",
+    "bytes": 1871895,
+    "sha256": "5fdc77e982bedd46a83c9b1d28c4529737f7bf88228febb562e587d19f20ca3a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/gnn-seed701-lr001_wd0001/best.pt",
+    "bytes": 1859363,
+    "sha256": "dc441fdd28adcae6a4a82216eb75c3060b5a2cfc8e42c6a8f21c69ea45feadaa",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_pairwise_ridge-seed701-alpha0.1/model.pkl",
+    "bytes": 28878,
+    "sha256": "25d7d9315c2d07d2ef29956fc1a8f00f6e058aeb25d52bc8a46f7b3a919f456d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/chemistry_tree-seed701-leaf2_features1.0/model.pkl",
+    "bytes": 48385705,
+    "sha256": "c340bf2daddbe9d0e33488a70b31a4daa903bd66fcc1664073cc40b4a8b0b7bd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/nongraph-seed701-lr003_wd01/last.pt",
+    "bytes": 1871831,
+    "sha256": "2f9e33cfb3f569c220c182e7ce9da86d3a8dfc916ec4dd65ada568bf63c49d41",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/nongraph-seed701-lr003_wd01/best.pt",
+    "bytes": 1859363,
+    "sha256": "955c3b3919375451aaeac1226a67810f5f33b7c655daaf6ffa7bc40c0435f9fd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/token_cnn-seed701-lr003_wd01/last.pt",
+    "bytes": 1716127,
+    "sha256": "aee257b4103b3a1647ed3e769830c87a48fa78876e0f3b80f54746bc3039daaf",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/token_cnn-seed701-lr003_wd01/best.pt",
+    "bytes": 1703595,
+    "sha256": "1bb9a7cb7419a3b4724d70316045ca9583f1e126e69fa2d0769af0f4b4d26c9d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/token_cnn-seed701-lr001_wd0001/last.pt",
+    "bytes": 1716319,
+    "sha256": "50cfd7f4d60973a819b764ffda785ae833bb9e32a42c4fcb19be13dc000a3c5f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/token_cnn-seed701-lr001_wd0001/best.pt",
+    "bytes": 1703595,
+    "sha256": "f57d8331b68a954e2476c0f03209e26131e192c839ceeeb096c8a418185885fb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v1-20260913T185027Z/fits/development/guide_pairwise_ridge-seed701-alpha100.0/model.pkl",
+    "bytes": 28880,
+    "sha256": "fdfec444ca8e2cf2636e06e411ea3b97cc02b18cab16063d19798872790a4e74",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/pair_ridge/model.pkl",
+    "bytes": 5053,
+    "sha256": "9f77dc15e05e4716f04d46cfefe90ad0e3a49da9071fc5042cb543fd80dc1edc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s2207-l10/last.pt",
+    "bytes": 1870713,
+    "sha256": "cebba3a43f92dd1a3a006dc2f1736329de265c39391ffe6b652f53b23ad9150f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s2207-l10/best.pt",
+    "bytes": 1859921,
+    "sha256": "fd0d1c438696b5eb6e57957d1c0087791c93aebe35ddb1cb54ab2a4b6d9184de",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s3301-l10/last.pt",
+    "bytes": 1871097,
+    "sha256": "660701bca66aa32c54151ed499dc4310620cb90f5c8a571d2e7b0d1df370046d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s3301-l10/best.pt",
+    "bytes": 1859921,
+    "sha256": "c33a450b452765e1f56803a1dd4da42f2347945bf25cf0cd10cdb7e3292823d1",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s1103-l10/last.pt",
+    "bytes": 1868857,
+    "sha256": "e8d3b110d905a7413ef0f58ebadfbe297543c818dc3a663ce05405e05dffc678",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_pair/gnn-lr001_wd0001-s1103-l10/best.pt",
+    "bytes": 1859921,
+    "sha256": "6ed3418eb63b6e0531021ce31b7d018e360933c590993505c4cf19ba548b2f44",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/last.pt",
+    "bytes": 1870393,
+    "sha256": "e38bac37a69e45e13a64b831abcfc80e8ca62644952f1ce20d1d4f5e3744c14f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/best.pt",
+    "bytes": 1859985,
+    "sha256": "1fa8aaf0605c0d1c987847de47cbb9ca26c180d815532fff4352cc5b4c0c6f2f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/last.pt",
+    "bytes": 1868793,
+    "sha256": "c47783f579ff85aecc2c4442b07096f6d1190b9821fea03152bc067d0ad18494",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/best.pt",
+    "bytes": 1859985,
+    "sha256": "41991fbbfa3dd4152d2e60ed0ebe6a64ba59009430ea081c72003268501bdcf0",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/last.pt",
+    "bytes": 1870841,
+    "sha256": "8fa79bbf973928f56f3d0da26ae63a8e3307b6d201522fa40aaf8af03e5e4489",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/best.pt",
+    "bytes": 1859985,
+    "sha256": "dd8e4af651c9e82ecdde83f71fbce2056ab8f3c70933a2a20a92018044b7214b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1870841,
+    "sha256": "09904082e8fbad5188899e7a2ab13e53470d2ad81506fd745b306a83195d2720",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1859921,
+    "sha256": "3295164340d2e4df16f37c5ec517a6e929a56f43c77131bbae63335df3d2e99e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1871225,
+    "sha256": "8b8a7b864a421a82d7b5437505457df1b3d159c05a086b3c2190575abeb30207",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1859921,
+    "sha256": "8186bd154451d2b177448f274818ad6a1175b25ac689ac4e694368d2c411d046",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1871225,
+    "sha256": "302220eec1e905792f989e5c667ecdcd2e24e5c7248044187d5368f18f9e8d9f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1859921,
+    "sha256": "188c823b07b249ddf92e099babb80af62607f9a57731bfad8eeb08e09cd9f820",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_pair/gnn-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1871033,
+    "sha256": "bea1781e503f249a6cd6063a2cb089d414dd562efb88574ee10d5e6ac06304da",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_pair/gnn-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1859921,
+    "sha256": "ee2b865887a7afbc676009bce48bd740a6ddd3c80340ed440cce44b7011cbbef",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_pair/gnn-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1871417,
+    "sha256": "a17073a342bf911ef27cb38485d577e29b6cd99023157842b9bad0c1fa2ff60c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_pair/gnn-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1859921,
+    "sha256": "7a6f1306d8f3ce7ae920cd19ace5b3dcf8f604c31c8b0a591d951697e89fe0c2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1870457,
+    "sha256": "0dade365b6fbbb1a4de14b9e2533e22cb09a14e74a0b9f3e442601c5cbc97bd5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1859985,
+    "sha256": "c7123c50a0c3d6982b85a3ba2eb8e0be9df1bf6965c6ef89b51465147d2007a0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1871737,
+    "sha256": "2b487282d3a6d8702b6b3ed1858c4fc194ea20493173dd7b57f0fb81b580e843",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1859985,
+    "sha256": "d68a7af941e04da9bc64aa575c6e1cffc51483f57154c8b7b4c79594a608ec45",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_activity/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1871737,
+    "sha256": "aeeb382b14cf497b652e6b4dacc17eaf3562cc20e54eeab0761a7bf6c7bd3d5e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold1/development/gnn_activity/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1859921,
+    "sha256": "15319b6ab62a8315bc780e52380d67217871868bddcd76645329cbc26185168d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/pair_ridge/model.pkl",
+    "bytes": 6439,
+    "sha256": "49f9e74e65e1ea30633591813a49d66220efe48c3c6af6c28f33f7579fbfa86c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s2207-l10/last.pt",
+    "bytes": 1869753,
+    "sha256": "13de57d515d2751ef6abbc5c4719046bee33c9d2b3c277bff4e98dd4ad7c7228",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s2207-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "045a87ade4fd3a4cf0524a681258d47e9354e13d86b8a5799747692cf627b52f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s3301-l10/last.pt",
+    "bytes": 1869049,
+    "sha256": "80a08475008af9888517114e8ea8ec7c75bce78397148d4c5f9e4a349def4743",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s3301-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "c49b1901cfe83cc32adf0fbc6135a791a001f4a64ce3504cdb56709eff5530dc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s1103-l10/last.pt",
+    "bytes": 1869497,
+    "sha256": "bbf5616356de86e9dcfecf7d51e672087678783f5bd1328781ae70034418175d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_pair/gnn-lr001_wd0001-s1103-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "10d9f6fc44d3d67b3ecbd787dfa6f317c263fd9e5363263789f2ee2b7d41916a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/last.pt",
+    "bytes": 1868729,
+    "sha256": "895f4e4eaa1c1e1eb9a0e032bb6784b0080534f0cec5dd0835b9095c0b590b8a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "1475eca3b38ade1ba2109424bbea8b3ed5e21b2ca85e040df98c36948c967467",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/last.pt",
+    "bytes": 1869753,
+    "sha256": "b24562394374b00eec089b3153009a9c4c93cfa97e3d38f62591a6ae2d19f38a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "b1f2953cd41ba1f8b41385723ebfe73a3e7b760fdd19935c91f0ce39c815deb3",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/last.pt",
+    "bytes": 1868793,
+    "sha256": "1baaafcc64f78d31a0abbc765ed334eb02001eb23990bfd853d5348bd2e19256",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "217ec94ce7a393201c70fcf0642d48694e0e6b5d800732f336b88fcad1918424",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1870137,
+    "sha256": "7a6320f696ca647af1cd10a8a65b584d1965c11c5a6809648e657b38e9db4f46",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1861137,
+    "sha256": "3a2a7a9a21fc9ce1dd8703852614975c664f54fad09a7b59a57d5f1afe876e04",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1870969,
+    "sha256": "d997347e33163d7cbaf858292b880f28c024c6f20894f405a20fb2e5b5e07dcb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1861137,
+    "sha256": "5169142cb7c4daf5de35d1d1338d4dc6b84281da175b323740c2aa73caf2eed8",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1869945,
+    "sha256": "831ed686cdf089775f44c81682b2f5cdd5b490752dc727e443512d7b4538a153",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1861137,
+    "sha256": "d3a5ae6d1d70149c172b83427c8f3942ae4d15c0b61f71622d4d150399707d1a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_pair/gnn-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1868921,
+    "sha256": "c7b8485b6a76a12585c47748aab33fdadc7e0a73180274d4d54ea0a6d2fe0331",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_pair/gnn-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "7f8a028f53ff43da062238a57ec02f8f834f975c36e5e1f43c87c617941672e2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_pair/gnn-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1869177,
+    "sha256": "bc2dc7cc53fc5e5ed4c0bbfb8c75cd74babb3ab69ba7d3b950a4f9b561826515",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_pair/gnn-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1861137,
+    "sha256": "76755728b7dba718b10902d23ffe67a86815fa2ce0facf0ca0c4e779237287e3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1868857,
+    "sha256": "c02ffd518493d48cfcde6ca001206e703a4609bd5fae3cd6f27319a93f607cc0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1861137,
+    "sha256": "d54cbd1918165850b88f10b8aa8ea3598fcb3ff937ae089992206fa75eb26f73",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1869177,
+    "sha256": "3359c60e8086c2b560489865e73007706402f9331cd63359b333178dff562471",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1861137,
+    "sha256": "ec66a10250d5adf153a8830f5ed39307abf5632fce004bb4089231712c8c2605",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_activity/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1870201,
+    "sha256": "756f03af8f1744256b4a00a5da31ac28cb94f432f578127701a47fb759f9983f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold3/development/gnn_activity/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1861137,
+    "sha256": "5f3f8fc7e7758b3fcdb91d578452a16590a721aecd940169626b7796ac02e662",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/pair_ridge/model.pkl",
+    "bytes": 6685,
+    "sha256": "689789ce5fdc51f00d2896c36e8bcdf872d92c2dfc7972612a7c6d2e4146c79e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s2207-l1/last.pt",
+    "bytes": 1869497,
+    "sha256": "15166d45d634c446503601ae8859be34f423e6af1aafa8a6c1eeee607a938aad",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s2207-l1/best.pt",
+    "bytes": 1861393,
+    "sha256": "52ce6043a1085d7bd5499e6611c3b1a487f6aa27ebd01993a35a91c2c26263cc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s1103-l1/last.pt",
+    "bytes": 1870073,
+    "sha256": "b2eafe553f43f46c492e4f6cddc143ef9cc0dfb93711dfe6f5000debc1645973",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s1103-l1/best.pt",
+    "bytes": 1861393,
+    "sha256": "33f00250939c3dfa9df65c2dffe43e440a416a0a86fbc0e14c24801963bb3648",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s3301-l1/last.pt",
+    "bytes": 1869689,
+    "sha256": "12e670e3f1c621975d154564bead8b31a880c351ffdfccfc50a4fcf5442291a0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_pair/gnn-lr001_wd0001-s3301-l1/best.pt",
+    "bytes": 1861393,
+    "sha256": "c21011e4802b9ae29f9c6e4f684dc3be1bb2ccbe4101a219bb5340b8ec6df83e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/last.pt",
+    "bytes": 1869369,
+    "sha256": "39e67b6cb0792e4118f4d1c9e585999fa9157ac9ab10eda01a61e9d98bf86565",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l10/best.pt",
+    "bytes": 1861393,
+    "sha256": "eb3893508d33682f02e7cda0ce70bb8e59016da00f681849d6df5bd567c7c13b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/last.pt",
+    "bytes": 1869497,
+    "sha256": "d8ed7750e50daca1795e6430241525b9d3d2a90f770fbac46a3277fd2d6fd399",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/best.pt",
+    "bytes": 1861393,
+    "sha256": "f245cdd6334f9d26a54b9d11087eb50d5b6698aa28357fab2eebaf2edbc5581e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/last.pt",
+    "bytes": 1868985,
+    "sha256": "53d5a12448b386c1728126176ae244fce5fa6af3d2950f55d5ea195a9855c96b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l10/best.pt",
+    "bytes": 1861393,
+    "sha256": "56e2060b87e9e662164fdf7a8e5a9bf67a031b0c940cd53f9575971094fdef78",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1870073,
+    "sha256": "84ef05366313f5f484f122c3e92ed03c4e908812e8f0edbc19ad7301ac11f761",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1861393,
+    "sha256": "42cf6d1c351729ff72f053a798ce3e19ea40aa86398005da375321c66c27c00d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1870585,
+    "sha256": "27914e8a2582e1f612dcff2572f822b2a6f0b5380bab5abcb7d0407aa73515a3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1861393,
+    "sha256": "db58a82126e07d88f3e2d62aaf773ca850629a56ba46a2ea52c03f1b2d50a06c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1871737,
+    "sha256": "fe42b3ff583995c8309bf82e88ed822992c57841952db42bc0d8a43346e4ae86",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1861393,
+    "sha256": "ffa551744340e7b4f4acdde00d1968052f0afd2d5b6c325293b25c8fc36b02df",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_pair/gnn-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1870265,
+    "sha256": "c761edf3a4a6019f1883616fe223b4397e5bbde68244de605f5cb03ff9d42315",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_pair/gnn-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1861393,
+    "sha256": "f0b0ea89d9ea58076f165bd2a01ede8ffba30e7b0018d6c929416cd5209f5473",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_pair/gnn-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1869817,
+    "sha256": "b6ac10d4d6d3b8e3065d518b5982ded96063652db1124a02e5e810dc22877dee",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_pair/gnn-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1861393,
+    "sha256": "7673a22b3531703c0b237033db72739577cb433851ddb7b9a4ed2d2643252e05",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1870585,
+    "sha256": "4c6a4b61d5eddcce7a1fa7a2e8921e0a7b5f0bad65d6b4dcaeaea0295cef4077",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1861393,
+    "sha256": "26a5611b345c755f41f19b3dddfb05ad752de9486630bc016a88554e3817f042",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1870073,
+    "sha256": "1936ea43a68c7b0ea28411d655cb56af2dd3a53e6c39104e3915f810f323cc23",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1861393,
+    "sha256": "6e8beefbd0be47be6765702f31f4a5ecc92b5eab15abc0cb1ae10eafba127154",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_activity/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1871481,
+    "sha256": "883d1c3e60f3ee317256a52918f121ee0064cc2c1bc88b522a20b2a54ed70456",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold0/development/gnn_activity/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1861393,
+    "sha256": "8d1587dce186f284a55523194122e76592d77b171de69118d6d5f02ffa60f897",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/pair_ridge/model.pkl",
+    "bytes": 6157,
+    "sha256": "6b0c44d73ca2cc1d77fb673817314297225aa4c121390223abf516188ffd7bd0",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s2207-l1/last.pt",
+    "bytes": 1869497,
+    "sha256": "3bb55a1881766bc0b896ea088f1602f3ba331c44dd2b0b9bb87bbaf7f337e134",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s2207-l1/best.pt",
+    "bytes": 1860881,
+    "sha256": "1c995774142decf10938577c5a87c7542d461d6f703a44eb431dc0424169c82d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s1103-l1/last.pt",
+    "bytes": 1869113,
+    "sha256": "ea75c2fd9033ba5221a0c132cdb8314e4eeb73000c51eba8bb899c3cab91a26c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s1103-l1/best.pt",
+    "bytes": 1860881,
+    "sha256": "193a8684e83a8c3e09d414c6659ac3f266366299b46ff8fa244ac5982283715c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s3301-l1/last.pt",
+    "bytes": 1870521,
+    "sha256": "6d8c32299b300ac11bc9b8eb1586a6e0c4a85193e4da8bc53017fbd0fa1a1ad7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_pair/gnn-lr001_wd0001-s3301-l1/best.pt",
+    "bytes": 1860881,
+    "sha256": "4078b7fc530382b01bf1baa516da2dcf961dff39637012b109f144b0baed9980",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l1/last.pt",
+    "bytes": 1869881,
+    "sha256": "6da0508704ce6dd78a73ee674a0e3ec1dd902af63b5f4c9578692435e8948942",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s2207-l1/best.pt",
+    "bytes": 1860945,
+    "sha256": "dd1242f984470f56ccf4bdc1f615d3db779a8708a93ddbcc21caf98dbdefce9a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l1/last.pt",
+    "bytes": 1869305,
+    "sha256": "e2186f4db37ad5d7756f273e250e4d6bddb7786e7a41db155b868dc3980ef13f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s3301-l1/best.pt",
+    "bytes": 1860945,
+    "sha256": "f3dc0180564b64817568816e5aa1234177b00bee362877d834c6648665ea12b2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l1/last.pt",
+    "bytes": 1869113,
+    "sha256": "178bad4559fe4794c79534fa66e4a432da298ba0326503dcb9a1f730ab861a8c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l1/best.pt",
+    "bytes": 1860945,
+    "sha256": "8af696b726a4b7462ff632aeac2f649869e6dfe08de4771c4330945afd90c9ba",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1870265,
+    "sha256": "2dc0ee1765c1a9087058b702f08bef843cde65bb7b550f0c543f4309e2b2f98f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1860881,
+    "sha256": "ff55b54830ef1c1889fba5c37b9e3de5aa217c6dcec1d1a7e27c033b0fd81f23",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1871033,
+    "sha256": "d431cf047444cda7be96825830faea0d1b21385afb2922ab0107d4fff76d3bba",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1860881,
+    "sha256": "29d9db39e8a5c998a902c96412f0cd2cfa4ef170aa9edc7f13c2f0bb75eca0d3",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1869561,
+    "sha256": "ec8417c39ed5c92a4a9e5aa801f934c1d6938db81e0b7493943e914acad29244",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/final/gnn_activity/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1860881,
+    "sha256": "4824365b363b85e5a71604a83eb7731094dd8997e597ec0e9c6bd18a0875735a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_pair/gnn-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1869369,
+    "sha256": "e70f3ae07e3de74fa518bf1491b0a53d355decaa22db711e9dde58b6e97f7b6f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_pair/gnn-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1860881,
+    "sha256": "7db279155ec6cfb1afdffaa339670fedf3db2776844f2d33d227a16d336f9f10",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_pair/gnn-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1869369,
+    "sha256": "c6f24966783a424d1c7fc95ffe2b9248431eb4b6b8bc9b32d6629120ef8b4fb0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_pair/gnn-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1860881,
+    "sha256": "1cef05a7abe5324503afb4f02705c9d9a7cd361554a5f76f53848faa28026ff3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/last.pt",
+    "bytes": 1869945,
+    "sha256": "c172d453e05d6ec897e2533a5e38795c4ef440b3eaf4fc9ca1abe2ac028eabbc",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/nongraph_pair/nongraph-lr001_wd0001-s701-l10/best.pt",
+    "bytes": 1860945,
+    "sha256": "644f961404dcf3239e85dad5453a9da08a8dd05fc194e74ad8ef4c9c5c69a21f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/last.pt",
+    "bytes": 1870777,
+    "sha256": "47585026021870af3ab138018cb39ba1095367c60038a102a341753ac9def4f3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/nongraph_pair/nongraph-lr001_wd0001-s701-l1/best.pt",
+    "bytes": 1860945,
+    "sha256": "e07ab4e264e243a5e612702288a51baabf96af93c7336ab052cb788e3fe3cd22",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_activity/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1870905,
+    "sha256": "b1be9cef80f680c6991b6c6e042d77f27ce7abae5b0d8deace1f2e33974290bc",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/b2/fold2/development/gnn_activity/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1860881,
+    "sha256": "3310c71ad84f0ec22c1049a0b019b28c801437f640c7d64ef35bb37e53a3f997",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1869177,
+    "sha256": "ad53572d645fca7e33c2ebd8101a122a4e8af143eab5c2ee53f9164307866009",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "e9a67443bcfc8bb3c69a8b8075cdcc9292a2619ac2620ac1e5e1719cbf849a5d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "89083a400ab7ebb88941d20f026dcea879c13162b1cde2950152e59157de67d6",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "53a53f3109e5448edda8573d77d6786073cfaf0839e154e25138a8a1e02f42e2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "13564d0d0ee0c064a213f835b6ae0aaf526d161164d1c49b6d83ec6bbe64e5e3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C0/gnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "4e8abc771094bd03548ec6ad88143571a095162365c38bdc62ce3afc18e99ab2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1714441,
+    "sha256": "e166f18157415359ac125925a289610a7971a9a3207039601c5eb49b5b0ad3eb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1791841,
+    "sha256": "fac4ea14f4cd9315e3f13eaa8ef439ef891d607f33b76d966bc236af648bac1b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1714633,
+    "sha256": "17b27e879458874bc1875226caf3954ba9da449a0f5225393cc0875c67889272",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1791841,
+    "sha256": "d34a2c8affb2dd8e685bfca2d6161fb0ac16862c93bd0a9a9148098c2dea92ce",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/chemistry_tree-leaf8-s1103-l0/model.pkl",
+    "bytes": 10192819,
+    "sha256": "9549111e81013332e7359afa1e3b197ac6d5a2f853d255ca69c479a4e6d013f2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1869625,
+    "sha256": "34325b2ff07a25fded0b0d28cbb3d731c2780b59e3e1aa3979e2726d7e26e23d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1946641,
+    "sha256": "1047550e5c4f5a94566a895409b2bdf45d64064dbaf549233e14f063747fe9aa",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "9f584b4951f84740f2abb730733e14002734badce6df07f5dc88336a192dea6f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "27e8599487568ad6b2bad5c1fc1eb8e0a488a976e9a7cc4cf0eda1a02c78b5bc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "d3b9750f8986fa3a671d521fa4a0f6027dc4281686551b569d6b328f7fc29b78",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "e662048f4514601df2db56a965151cb51233f3196dab0917ff704b787dffc4fc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/chemistry_tree-leaf8-s2207-l0/model.pkl",
+    "bytes": 10177843,
+    "sha256": "02c39189fb52e729dd1299468a1d7ea0c80f2ed0d49dbe8128057d92287d3a9f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/context_ridge-alpha1-s1103-l0/model.pkl",
+    "bytes": 71813,
+    "sha256": "7dd97ea1e5c7a3e98a84f554e4cd4985f1f198e238c77d724308a2346f253aca",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "71daa3f24fdcd0feeb0c26ae64750920383908abab1193d4b5d31ce83a4860a3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "f67e13c0b9172eb58a4d7ba489d33f2407193964a373cd4674a9154cb592a556",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "34233ea31d6d9098eab61d567b77a8f27da5dd8ab141e438a5579b301d3d199b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "d3ad97d7c5f6c1aa2cbf6c27cca9a40420c768444d153a720b4fb3f8c9ecf870",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1714057,
+    "sha256": "869e7694c780caec9f57ce8a0182d3a9ee2047028224e932868ce3b0b2a1bba7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/token_cnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1791841,
+    "sha256": "3eb5424b9ac8ad9a97e0be2b69ef77ad406825154ff7ff078bac0164bf0ce82a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "7b6c83e65a1aa2b221f963a298d2d2794d3c632bdfa3a0a8490c7269b570dc90",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "d3dc8a868e229d1c92703e85c7ad31caca97d1d0353c6e5f78ee3d9063651352",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "48f8a025fe411fa43597105ebf89732009cb6b7edc178945d9784b95afdb2d2f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "9ab0d968e46ab5c36123ad7af1cf480f6f765ef0deb5c85e649951b025fd1f2c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/chemistry_tree-leaf8-s3301-l0/model.pkl",
+    "bytes": 10189363,
+    "sha256": "49c5bb845d998ff20ef8f3ae4bca91b08c7d76d0c9e658ff6e0a64a6d900d86c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "05224d4e8fcd617f0093a091ecf436076910598ed99159b3cea6f7347fff33a2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/gnn_no_chemistry-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "f9c9f7108294a4bd25ba8c62a37c9410b0866b2476faba33c3a84d6b6603f39f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "4b9f14f6a661ab9cfc341905d5a861421e381ffd3b065cc4ddc19d5d83182a45",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C1/nongraph-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "52a5dc744d4d33b06a2141b7df8a49835cbda90fe465cbe0c4f4597c013be1e7",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1869177,
+    "sha256": "200d6e3b1adb8f5aec0bd5a92e51a3fa30da570cec535fc27266d54f4fabead7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "c926710fc93ffcd8bd4c92c1ce059e8bf824e8e5eaf63f22236ef54a4d5f7abf",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "48febf7bb55bab6eaf805e219a61676414ec1bab1ff7b111ef8915532fbb7b2f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "16eb2499218dbabdcf2547bbc9ac9688cc6f1d8a622382ed177839d56fe9a30e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "95b1c316cd4b59e3b0aa6b925cd7c5007babfbaf669c57b08fa5e2b84f2a0559",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R1C0/gnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "4c6bf6bf8437d844fedded3574f03bbe31596d25aadf3cf702ca03f9f701e4f4",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1869305,
+    "sha256": "d8acebf95a8c36429db97374f3f9158287323ec866c017903b6e4b92740d9d20",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "a42da85073b3b37f2ca195a939ed50d869571c34f40d33ba44373c3a99be9bee",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "73e0c1bf2f2794899d7aa27c20fce4c23b64d17f081abea727edc387623ee72b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "50fbd1ca819e9424f506a0a9927056687c356b62e144a6ea3bca60d671fc6dfa",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "0c07e448a75c1012139b30f18c56dc435e60eabce53b609b1529f715898eb2ea",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/final/R0C1/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "05129ba8924c56fff3a51eeddb7a2b51bf87ce37c2ba080486c817a61a50aee0",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C0/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "28fdf57c29590780db098670ac79aeca371630c3fb9f5456cc35a32c134ca649",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C0/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "cfc065aaae004d287e8f8e82b7168dbba507231adf00cfd2d32541349b7ae017",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C0/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868793,
+    "sha256": "c741e26229e3dff247b71d5b2f01a95f5f27b7516501cb5dec4ab1b4c1a7ede3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C0/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "1f4bd4379e8de2567e86d8ab14069cf685f34216084e7c01b80a3a3bc17c1f3a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn_no_chemistry-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "15a4665421ca4fa26411a2fa953b94b296ddd6bba833d80486b362519d6efdf8",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn_no_chemistry-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "a117845943260382d12b5855b78b19acb2cba61eb49ed9817a100f85f30e6d17",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "8ed63a95da0b736212b940f6c711caffe7814eb397a2241caa1920f97d5cbbfb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "21c85c12e9264d1de7083d18edee02eb87fc4d74fdc57bede813d1b330804a35",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn_no_chemistry-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "2028b466cb6fa283d9ccb39d6742d1c3b1dae45d71b1d5f37c1f2695b9c77eb7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn_no_chemistry-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "4857c718b349b8c2f6d9f75804a183f431afab057b9ccd4ae971e85a9314a4ba",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/context_ridge-alpha1-s701-l0/model.pkl",
+    "bytes": 71813,
+    "sha256": "7dd97ea1e5c7a3e98a84f554e4cd4985f1f198e238c77d724308a2346f253aca",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "62493f1b66a4ad6cda3c7a51814a9cfc1d2cf72d3a52223487e8f5a8fa69371b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "9bc34d5680fbfd5e949f67d45e6ec99c8d4e9141ca5374ca1cd3288ce14cf258",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868793,
+    "sha256": "17268fdc874902394881d908fe9fc2bc7356e8e67e7596bb70d9136ab690d80f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "da1c6db03219156533b4050df01630e4d3a37ced83abc43c29e091621b8cc355",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868793,
+    "sha256": "bc58a41c7027d0bf3031702409c129009f05227d24c73a5eb00f1328e3cfaaee",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "4fbf6fc9cb25bc6047f578216dc1dd1e5355270ae78c09601fffdf25ed948d0c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1714505,
+    "sha256": "72f378b288bcc3cc97b9adde84f1894e39a7d2a77e374143555864c99f72c64c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1791841,
+    "sha256": "3bde848335a0b0eb204909d83dfda11b910716941519ab856ec9c51fae706504",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714377,
+    "sha256": "d5b571220b549d09fcf9258a188bdab6045815a240bbcbde62bc830a3582f275",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1791841,
+    "sha256": "9e0fe52c362994ba2f5424500fb309d83fe492dbf04a966d9f6c1146e8ab4e3a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 10194115,
+    "sha256": "ca6d22f1997a54be0afb74fa73448d545a1cf3fed4842a695fdfa8e4c62968e6",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C1/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 44517730,
+    "sha256": "7b6f7a7026c7ca60159e0777d7494cb748e289d9f20f9484f3aeadc5d4760f6f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C0/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "52003bc70aabf0158a7d6f5fe20c131614752e3c9685dd267e08a2f3fdd2ed0c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C0/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "f325f9d59790f909027aadddf448aa471d42255c8de84fdf8623e8a79de8e08e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C0/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868793,
+    "sha256": "084c79fd904d7c7fd575ff2b33700792928977dd694b5da43a80f078cef49d5b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R1C0/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946385,
+    "sha256": "66ee2ed0ca940a53614af6b0fc1acf2d25871041d63b9d9fd51cdc7c7dbc6da5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C1/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868921,
+    "sha256": "82fabaf8a7507885b0c2b46eb929d0e8fa76f1d81f64e4536c79a441ff0d0945",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C1/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "a1872f0802fb2ea66609306b68bf29e3ef9c4c65b2ad4eb884d18c01890174e4",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C1/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "afc7b8186871365c797f1cdae9f10236fd336957a6a49739e1a7d62fc3505ad9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/factorial/development/R0C1/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1946449,
+    "sha256": "e1b5f8e83862ee52ca38c9aeed2b3eede94813ec8603437aa143a9e2b4ea939c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868025,
+    "sha256": "8e3dfab25af76fc67aee9ee4057c9c0db88a80b790331b8d7c2bb1bfba7b1e32",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "c2e31cf1b6d4c1c47fc9001f72beab016c9d512cbeb015cadbd6c3aa01aa6678",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/chemistry_tree-leaf2-s2207-l0/model.pkl",
+    "bytes": 49350734,
+    "sha256": "bb0a88855d4e7804d58f2852438ba8c099bbacb2b1b01204593c1bfbf3393aeb",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/chemistry_tree-leaf2-s1103-l0/model.pkl",
+    "bytes": 49382558,
+    "sha256": "328fb1d6cd0a1a5b5215d19857e8dd91303c12f0517abe65831d4ec4197c4d20",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1713609,
+    "sha256": "8d38a6b14b43f00249687e85470fb1ff42541d857fa518a59f1227085d42f152",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1802081,
+    "sha256": "4503268ec162a9421d01ef78a10245458739ba4c17dcbdad473088b701266d02",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868025,
+    "sha256": "9579da3d8e5647c7d9112a5b2d44c686db42607caf677124a6ef6ccebffbe568",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "e8c71d1c9162a1fe59c31c94534116bbe5840662c1dd3f5e49ee78bf6334f405",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1867961,
+    "sha256": "910b80bf32b8b17d7fef17934fa9a24f892f046a122810c5ab170a94342512e5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "cc16c0030241980283306143f4fcdd2f5260c211e839558649d5ab1768a56bbf",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1713609,
+    "sha256": "5b0efb80203038a298e6156524f3d8b562154de0821a82f2ba456c22be202543",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1802081,
+    "sha256": "8e5816ec3c07a2f1d1daecde9a144f405f16566fb5d4c2af6bb50d273c5a1a29",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1867961,
+    "sha256": "1bc53263a5200525ac990b1cb916af7a2f406537ff4d32cf913046239bf2797e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "31a7a145c330ff12e70a4106a9db9ed3bc8255e837dc6eda4dc4fb51731654b4",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1713609,
+    "sha256": "c63226f1a1bdac19f23ffdc8e211d6066d3730f1b78942cda4d03df55404ec6a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/token_cnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1802081,
+    "sha256": "47c6f5f6fe5978f6be35bbc420a9011b2a0a01cce006e8457b34f7e2e7f6a6d9",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/chemistry_tree-leaf2-s3301-l0/model.pkl",
+    "bytes": 49385294,
+    "sha256": "4a1ac5f1f7913bffa75abe0a01a7b74f8e545566233edb69643304bbf3c4a740",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1867961,
+    "sha256": "b522983e57fdd455d7e3378bbf381d51ea1bd055dd72f099246767f7f2c3cfeb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/nongraph-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "07137fcb387f52b86b6693f63b8d6c8df1e47ef60cc0dca03fbb8905874e0715",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868025,
+    "sha256": "6ce0db2d9a96374f4378cad8f544a0002f7fe88273b0357b210e46c8e8fed2e6",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/deployment/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1956625,
+    "sha256": "f0503a7d3fdf32225a92b83daa97a54ae9325bcd2d0e01d0f9f5c8a5e28cb6a7",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1714441,
+    "sha256": "94cdc4bc570433b8b71718f52c44e31059944c5d5a42cb42ac8c5442485a49a7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1778465,
+    "sha256": "ef266889f1facaeeaf32c5c3338bdc35b9d7b2793b5ab8944dae9a65bdf1329c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1714889,
+    "sha256": "7a18ec616a276efd880717005f18f4380776f5bdae34e778a75de87ce941c848",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1778465,
+    "sha256": "44e644b70457fc40795851d53a189ceae1a414f659ab26384c24d8d08b3d0ede",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "c5623445b0a98b0c1c519d930a280fd6610407f022e6335f4ee7c72bdb492737",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "93fc37a9ff24141259cf3f679a78e538b56e46a99c6400cc57f52c746ea15a22",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/chemistry_tree-leaf2-s2207-l0/model.pkl",
+    "bytes": 36678746,
+    "sha256": "c625d0ff7a3de429af0bed9544e32b2fa94ef73c89302968ca963ddfb09ca45e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/chemistry_tree-leaf2-s1103-l0/model.pkl",
+    "bytes": 36700778,
+    "sha256": "5c1d64ed4f3f78f88a20849be34e5256ac05e2eb16c9b71d68d2f1e48e3318bc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868665,
+    "sha256": "880b50e4a825876dfa3fca30aceb7092b5ccd9721f36bc5ce779f6c929f6d160",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "016f23ee2f69482724f88f255f4a1a238a4b9582d2a87a8a2fb7297ed761e4df",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1869241,
+    "sha256": "91e6d9647347a02c92998c285135c30cf0f9cc7adeeb992f653ae07a0f60c51f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "aba6156d452df338717dab7dfa8768e1e83ec0e974e83a0244a84425269b0e39",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1869241,
+    "sha256": "629d72c2684bc6307ec17de5d32549c79d832e0f8cbfa58c6beed14f057af0d2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "e2cbdcc42ec421b1ea43389168eebfa2b759f8204232fce7680c53b910f60d10",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/chemistry_tree-leaf2-s3301-l0/model.pkl",
+    "bytes": 36699770,
+    "sha256": "11df288dba3c4fb9729302bb25196f57a58ff9db57f755c491236eb984469ec6",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "0ea7689509ca11b6f20c8b8670371d49ba072f0a68e844f296233f45459c2b5d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/nongraph-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "a493571d3fff5d31d797ecdf2bac28848af273440bfd9cc9f4f82f86b93156de",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1714505,
+    "sha256": "b8858fd98748aa4fa63ca50835a73e5b2ab490c28473f5437c7a369185ec71d8",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/token_cnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1778465,
+    "sha256": "6fbdf41536ac5647ed40c101e3ad7f28ffcdad1ff5dde8c939272a30f7a52b3b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1869625,
+    "sha256": "a69e2f347f52787d1a0ba305f79988434d1220ac17d7a7227fdf0adf466094a7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/final/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "ff141bd2376bcacf5566ed8881f6186bc05e70ca12940150492ae468e468e1d5",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1869113,
+    "sha256": "67c3c0ff4bef6008c0f2c7ebc779cd50210c884090981219e2ac3e4e33629b52",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "ae968e06a074c29b4b4b44104a21da38f32a1c1e778f123b45e2a3dbd498a4ee",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1869113,
+    "sha256": "182c6a607a6264a7e1cf592821f54959bdbdac331ed6096691be4e7b9b6c2ef3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "feaba8d7ad31a989aa6e6df597569643b3f3a3472faac1b90b6cb737a9f90ef3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1870137,
+    "sha256": "a2f05d8e0920ddd653bc68baed83a445ed8ebc1fbeb2c2af297d973e956c5bc5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "15b4243e539a67d93d0de30a933adfbb2fa4f5b7517bfbddc0d46da63c801ffa",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1869049,
+    "sha256": "cfc80b83e27b0ceeff77a88d9140c82d565a573f140954fe3612f1e25f2d08ab",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1933009,
+    "sha256": "6b0cfb035a27d34e059b7fd1bc269927fc099eb56eaf5bcfdab605b82807c25e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1715081,
+    "sha256": "0163d80e161fb6bb8b8cd395febd5419c47f38cb6a4e322b9e6e9ff754c0e4ca",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1778465,
+    "sha256": "908ed6b6e642834afe28f688f1de4762c1a77c1ecc7300c32003fccac202282e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714889,
+    "sha256": "bf86a5193938b05009e857ff082621c23675a8176ce37d5449a8ecf3376a3569",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1778465,
+    "sha256": "5868d8cf54fb8a3b4358884b0902db6e7eb6d7447dcd3ddcf061281a0d740419",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 8475842,
+    "sha256": "2c3371fc0152cccf68d14e13f0672beba702a89ce2ec48a0b71cf40bda709f14",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold1/development/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 36773066,
+    "sha256": "03a35da030c5faad30bd4503659b853936bdc729de0beb1540867d051e3bd1fb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "407558e5a2e74fa7ff03ebbff978ac170a1455878ad544f878c8828b5bcec66d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "ef2847b1ef734fa35e81d544fe292d498ab58a142d71d0ad26085ca3a4cbef4c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/chemistry_tree-leaf2-s2207-l0/model.pkl",
+    "bytes": 15215579,
+    "sha256": "1741f78aa5cb14a54b77c8802537a5affc7e09de4801d0cf297e7c88787ef206",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/chemistry_tree-leaf2-s1103-l0/model.pkl",
+    "bytes": 15227675,
+    "sha256": "08be00a4b34feb207632094380cc4b405b3594957ecd3983abc1b2d376038f07",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1714441,
+    "sha256": "ecde7d086ac826df8033b6d6806b4d95a7347d81b24a15eaf6d9d5d6f23e40bf",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1730977,
+    "sha256": "57fdcd8e4daf1fdd6ca51f77eceea0f6251825ffffb84589c92dbb18be6e2837",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "f688766f1bc3aa758a936d896441283b1332dfbbc3cd62af8ed64161cb72f087",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "01f1bed0a1b479bc58d7d228827ff2866e9f3ecdd3af6ad81c0632cb7b617fe7",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "6870ce78aff540a3a35056cde1b9df59c34ceba60ae0c44d9092b8da11a5bec0",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "d18146a26fffb4af8166e6222116f0fdda956f2a81a0b3fa24559e2a3a6faf20",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "8aacfb77cc919dbb2e801cf13b24243eef651911d37ca6886f791e5fbf14adfd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1730977,
+    "sha256": "0ca02567f0e23b051d673674527d70a65c4388af49fad7ac83ed03fdd1ac4aa5",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "607dab9e96a49cc97b0e054b577796e408bac7741afab8edc0ee7182b9b27f13",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "364cdb681f92b02cd6f003a2eed5af24fe803fad345aa2351e46b5aa8d9919ac",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1715081,
+    "sha256": "036cac6194da7c6410325e15cf2e7a28af78b2399010326e36d5b8710eeb7c26",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/token_cnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1730977,
+    "sha256": "452a6329817a5e6d665ea579c703c098dce4c9b8779957b6a41f77a7b9f08dfb",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/chemistry_tree-leaf2-s3301-l0/model.pkl",
+    "bytes": 15256763,
+    "sha256": "d4202a76b9558bd1670a24b4a8520d137f1d545148407d5684be24104b892de2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "5c4c6e4823ef47117803808a8bd3d518518901416031fa7aba0fd2499fbe51de",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/nongraph-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "120e2d2759fd76c583e1f2571acd835d365dc4a491dfac07e7317cb4f2547d39",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "3ff1805b5b0da9536c7af6e8b249ead68c28c5313dfe8b461e8294eab0aa1d2c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/final/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "26e783688f9b374948dbb513488faea0fd40d18fbb1e9508d0b0f918700f8d2c",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "897a88b9e5a583f7c1d4432e63b4df8bf9cd12981c5dcf2a3a210f9ff18bd6cf",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "8e8ead89ebafb607635b1b095beca7dfb90ddfe9558041bb0c5b539d06a1528d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "137bf7867f56aaf0c8c18a8a51ed84e43fcd235e550c8aeb2b76c193efdf7661",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "cfc1ea98a396909b4ebeb52cd4119c8f06c33703ab50b3169a3a66d7f806bf8b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "8854e622d462fb7f4df701969bb8f9d6d67edf5ebdf8456c984fec672a845822",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "c359b08126db475c09f9d38e69d0c29c8f51b97180abc84cd05e343a47447154",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "f3a7f49033ed23042365a9bcf61960a5112e3cb7b1071316356d1efa8e450c02",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1885521,
+    "sha256": "80f52e1b12b62a318725886c109d5c60481fe08bb28875c535cef6ab8bbf8481",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1715593,
+    "sha256": "79e3303c3f69dea1e869fcefd393bd0871a591641db4c42ab67ce00eb2979e30",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1730977,
+    "sha256": "31e11141fd58b108a211cc70dd3d8dcc4b33e08dd55d529d2527dc322bb907ba",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714441,
+    "sha256": "0a10a7d5662324bb3ec8fb11722809267e372c96529419a405dd7be75cbebfcf",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1730977,
+    "sha256": "539b56724544a39e28367b06fccb62e2bf26e45cb6ae03c96dda5e4b3be70749",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 3501539,
+    "sha256": "55fc1dae33166b18c0a9a2aa7890f3f055232b034f396693ed9e49d72d4d8d29",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold3/development/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 15243803,
+    "sha256": "c3556dd7b86206779ea136463d06b56a1432394d51fd0b617abd21a5b1d71379",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "ceb0cb16e8bee3e5bed5e84d00e77d501b5c75b86a0aaa3fd8db001379645c33",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "71618971b915f68f86e2ce1fdd3ecfbccb3762c05f52319d8ed06b08a9f7857f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "e0402d3dfe7c604d2596ee045f562f31b89d2928c1151cefe0925f1a1e8937e8",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "a9ae028ff8fb1d60a2b88b7694fe17f06474d828fab8a74df7886484d0f1acea",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "dbc0746cb8fc298fab92c743f908d45500f3d9f93f5f3010ac0d3e57b1f42e82",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/gnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "d3501a56a7e623012ebbbe4512c325b777291d913178ddfe46199cdddee1afbc",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/chemistry_tree-leaf8-s1103-l0/model.pkl",
+    "bytes": 3341782,
+    "sha256": "ef6fd73af0c9b60d829f433dda784f3b0e1c0bdd8f1bb9583a5b0227ea11ba7a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "28aafd7353bd2b657543b93bb45f136543c30648ec4b947278cb74ce330f783a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "31fca14cac391e39608e09b59c3ff17c04420f378307e400e0b17de4215f5202",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "3ded88ce6e881844cb905add35ded04ce8f95c320984dea4ba0bcd43b97c882f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1730145,
+    "sha256": "062ade068cecb7716dbcee3e9058b3caed24326a1cf4b28561a879d4ec226417",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/chemistry_tree-leaf8-s2207-l0/model.pkl",
+    "bytes": 3347254,
+    "sha256": "ee85180ad81aacd066e0dfcea816c1529e0cc90144ec8340fcedd8ca5ff54d83",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1714505,
+    "sha256": "a1fed67d190e780ce2111d94831c0897584a75117ae3d53a91caf871b3146603",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1730145,
+    "sha256": "fa14ee037da0b0703b3d958b6c8ce0094b73104726c9a419c83f575aed6267b6",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "53d5bdd5f6b44731678aabc576b4bf17ccb100a3f2e03a13b4e9a49830af3934",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/token_cnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1730145,
+    "sha256": "a0d26030d6067698c827b6a9323660377725fdc06c8b20b31d88adb25adbc45f",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "354cb5ea931cf6ca9555c1e9af1a3881ca972a02897746aa077274ff9b45d784",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "da9667cd199661b9fd065f02954fc70886820313fe2d7c6453695e056c305d9e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/chemistry_tree-leaf8-s3301-l0/model.pkl",
+    "bytes": 3339334,
+    "sha256": "b8f4ba1b5a3a23e514c9925b6f98ecb6f275557f686ae11e9bbfc0caedd6233e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1869049,
+    "sha256": "aa0811f8a585bda0b3bb5fd6e4e36d9a206f9cad8e5fae78f610d200690bc715",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/final/nongraph-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "1b4b242682df84969f7028f07f442e1f96178bca203f7665abacf66fa8e0ae22",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "75fa1ced6998df194e1855bba4600e12efcdd149a957f3c6283adf896287c69c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "426598809bda8fc91f37d9591e89d6aec623543f4f084446b4cdd7386972ddcd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "1d375db68e4035ce34f82b24090fd7854e89d4e4e08cdaeb84b853cb61e39b65",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "dbba00f00f36cfc128f23b7cf3c5165f57997a270b8495da6a21b77d4aa40bed",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "f2878f9be9e8030df875df1869884c24985b7e30f7ed31bbc1b6fa2a9cde547b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "10345c3e3404c4c5b17e069c489eadec14731c55cd2620f84ee97d7d1795bf2a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868793,
+    "sha256": "8e6cbe5bd2d938dfe94b299b50617b6b4387577436410412cc5ac0f2ac4621c9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1884689,
+    "sha256": "e377bae812f9a743151dd4cab4c354c667106d405130f2cc86d6467833e4c6bd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1714249,
+    "sha256": "9b37051560c3e8054f04f94ad9fbcebbf0d22a99fe305982be87afc77bbbc419",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1730145,
+    "sha256": "35309a5f5cb41fc1a152e8e06a945d3bff29580a44255aa4361f95706a44b9c2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714057,
+    "sha256": "8e66bb4509579ce70c408bee713b8572f9048c08122ab7a2522bf9b21ff794d4",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1730145,
+    "sha256": "a07c50145394f3f81bd9cf9e16cd29d791532d3d3fe37ec916820c39b35af0ef",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 3336742,
+    "sha256": "e1ad2bca445bbe79cb80d01d66bfe0103249fac4b622559598cf4f536017dfa9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold4/development/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 14326894,
+    "sha256": "a3bfee6d493fdd519337c9f2700f99e36573096312b309ac388102c598951f52",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/chemistry_tree-leaf8-s1103-l0/model.pkl",
+    "bytes": 3631413,
+    "sha256": "46e07d13e5c6e4f96d7ab51e2e0c83a62a516fd41cb219afc4fb28996cd40bca",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "79a663bfb3099e325c1dee7a1b7b48cd7ccaceeb3c995e6b84301cb9567163e9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "687c21ad28cc4aaf0a5e7c100e0cb7e63aea8a8f2bbff4489ef5b3407770fce2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "5b1536d4e2294d700c558edb74753c6b032d6e9a5b8dcbbaf0cd9754a603015a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1734369,
+    "sha256": "7bf9d2f1b46b7f0be29d908b01f4a442886436100d76d0137ef7e0f18fb46660",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "563957c4a6df4e27d39421f73fd39c1cb6ddaa14b48d3bb0f306b71691e4e6a7",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "4fd850cd1bf15cc103c9d7ddcb64dd81ba800c90c174fa5f861d9beeaa994a3a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868537,
+    "sha256": "2fe40c1030e10ec63bd87fabed131a6e5686cdec2cc39e830864f71843ef7efd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "593cc8f0f9a23b9e53216ea5cd7fdebd13beb70f9cc4b4d98b76f4c0730515ef",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/chemistry_tree-leaf8-s2207-l0/model.pkl",
+    "bytes": 3626517,
+    "sha256": "e3a8f1ab074b4b05e2f29f2384e1b4c6d15b1ca40bc0592b040385d9fd2ca83e",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1714313,
+    "sha256": "fbb53edb2f6d8e24b0894b8d26ad3e2372f76f7c14ac9c033634ca529e3f962a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1734369,
+    "sha256": "4063914065185c24228fbcaafd9008a5de3b79190b7d8ddb6fb70c22b6229e66",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868665,
+    "sha256": "9b6d825858d9860c321b4e377d42e8ac6fd532ca39e7de0f5f8f7b4b3b0ba338",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "dd151ef400aefcaa8898259ca4000a2545ea5bb5a223b89e7c4a3a163a0d456b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1714313,
+    "sha256": "9a7ed126502fac7d5c72010f4ababeea71a327facf89db304ac48b3952bedf5b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/token_cnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1734369,
+    "sha256": "ca52c07143d51432604f1946fa1b5e0e2f464e4bd8f2257cfcab1209b99ce1ba",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "4cb20a269a82a7fa5e99b0036f91977494109ae19ca794dbfd5990715c5f2c7f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/nongraph-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "ea9c2cbe2f508e3a374bcb61a8d1a43540e353b3e8e921b630d23c4c02cfcbc4",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868665,
+    "sha256": "3846dc701b212881db0bc586cba35b5b733b6b94848d718e44e3decaf189a33d",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "9910841be9be70009a4804f2587c2746b41c125b36e43507c8d97f995b7c11a1",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/final/chemistry_tree-leaf8-s3301-l0/model.pkl",
+    "bytes": 3623349,
+    "sha256": "6c704e32740e8a48fab22c36346af12ed640a3e5844bde4173e5014767aee209",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "b739cd8e5e48ef8a54808c3b9154ed81be8f584c835707ff4e62d95d36b2ddd3",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "0b27bce310e2b188cefe6897c4b701862dad1ad7da281df8f84d9f60b6d073ca",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "222d7799268480c3bb32eec28eb813970612efc8f459655470f8dff146986661",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "faf866645e358322ae683ba531906c0382cfdafa75104c8b09c8b3cc0110d3e5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "757188edd6e6234415d699d9e1977643bb242c8a4c7177a051ca564a1d969e4f",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "32014a4e1fb1937199b77b7a8ce5136370b3f53ba4a7c54e369c8c807854c386",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868665,
+    "sha256": "0240c5d97554b1759018abe8cf2c4132c35d4e337693979a98e31b4cbc840315",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1888977,
+    "sha256": "0483700e199c5e9329087b985b4ca91af7b23933d0d0f9e9ffa631356dbe74a2",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "6651febe25e120cec79ddf7edf1bc08bf6f51fa4ec35daa74ae658b459e3aadb",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1734369,
+    "sha256": "b5aed38a33834fba669cf3a1dad32736b2e79857c11761cd471dc6f5b0e3670e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714057,
+    "sha256": "47ee174ce58f034cd14e688c5ea0d05397fea6ba020cbbaf41b815f5c012d874",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1734369,
+    "sha256": "4d133e71e224f60033653381213fdf9d0e0b4777a74c91ffceefa3d83c55aaff",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 3622485,
+    "sha256": "7e3cf9b7fb65f93a3ee59fa95cca857b38ca00d735913f7688551267cf8dadea",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold0/development/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 16456557,
+    "sha256": "8b7bac89edcf56ed0cf8a5c9bc3060a629e7ea9be77e938753ec5d08c9f140d9",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s1103-l0/last.pt",
+    "bytes": 1714249,
+    "sha256": "bfff4c71335ea2d3f9036a84e7660a4e27f38116bae66aa4f8ae20545023de82",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s1103-l0/best.pt",
+    "bytes": 1774881,
+    "sha256": "8772aa14555f7b543846edcc654788c702400c290e4e8efe2034b29c80d100d6",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s3301-l0/last.pt",
+    "bytes": 1714697,
+    "sha256": "c885b2cdfe51deec26b558da84d49398b6594096b7c2c26fc160eff2f58bc2ba",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s3301-l0/best.pt",
+    "bytes": 1774881,
+    "sha256": "2c5b08cf4e089f3371d9bfca2991199c0353f7fdaffb22b58b728d50b894ca5d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/chemistry_tree-leaf8-s1103-l0/model.pkl",
+    "bytes": 7919552,
+    "sha256": "365897efa8547664da6854e1acc4cc6e48614c55d0e51a26b81dedb2c0cb082b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "69695d70b055a56d6ac9efcd0f2bf298e80ddecfefe77264b9e5b018ab4fcfa4",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "66b8b948ebc68858c0cd3a0c9f68b07a25df3572a8bee5e600200e48bc248d6b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "ad1cad2fa232d64a649688be35cd359fe84ee9ad3bd7fee0a5b0c24a284f18d4",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "933cd540adf3da1388de70cd9222d8455255e33fa5955af49a90573e1fec266a",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s1103-l0/last.pt",
+    "bytes": 1869177,
+    "sha256": "54d446ce09a0c0b28da6e75ed8df7b230b4ff8a6e34a44db02cbd63009775dd5",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s1103-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "1d6e20152320bfb4230770b2e94aaa62c05ad8f071cc86fa7863f7cd2b3e53ca",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/chemistry_tree-leaf8-s2207-l0/model.pkl",
+    "bytes": 7929488,
+    "sha256": "70626dc73765d8e9c060d40fdde45889af0d789043bc47657663efb42a59c882",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "b81e533a036555999fe0e1adaf216bd3e1c299ebf5e33427679b0deec21c8ddc",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "aec0f2db5c8692c7c0d090f8aa4d535ef08a1ecddf1e0db8256b2096ee8f6e6b",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s3301-l0/last.pt",
+    "bytes": 1868601,
+    "sha256": "78f026488abcad4f191a87937f5405caa307e52966d38972941fc3642e3d4af6",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/nongraph-lr001_wd0001-s3301-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "f93c3ad149f7ba7fbf729cf8e8d5169b403b68070b86bb7d0e26bb620741102d",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s2207-l0/last.pt",
+    "bytes": 1714185,
+    "sha256": "be46f3192dfaaaa1d83be5db4c6c4e822bc24fdc5207e452baf2dd8b8f1f7164",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/token_cnn-lr003_wd01-s2207-l0/best.pt",
+    "bytes": 1774881,
+    "sha256": "49d2a0c78b11783c4de20af5a0f0043639e9a77a7e38d9d11bfe5ebae4ae1209",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s2207-l0/last.pt",
+    "bytes": 1868729,
+    "sha256": "557802c7e98fce823e81f0b5e3a93160f3e6630c4b255c598a58319521cfb7f4",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/gnn-lr001_wd0001-s2207-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "bead249acadb4dcb443d4c9092df4627e77a043cb8fe7959fd0cd9809ec40cdb",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/final/chemistry_tree-leaf8-s3301-l0/model.pkl",
+    "bytes": 7912640,
+    "sha256": "c998485f3aacc398bea99768083f1dde6ed41122a3f5a72eb4b7e8bf4f173bb2",
+    "included_in_git": true,
+    "role": "selected final/deployment state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/gnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "9f4da6cb71079065eb17ab90615f942e2903ceb6e840385657b90127c201dc73",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/gnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "0163cdc590af8557e5a3000c23d2564245f1af5370b0203a291c6e1c6d716953",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/gnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868665,
+    "sha256": "ca3ee64ca1341a0fe21998cbf954a3eb74a4f7e72f77d6fc41692e59280655ec",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/gnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "604d926b50295e62103943f082fd848750c38ee348d2840bdee29b006eb97a09",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/nongraph-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "c659a85fff8a5d0c297c69cd8602cd33b7b0b99a6a7ccf03a3c5aaef449f58cd",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/nongraph-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "cbaf8e436836076ce795261bddc720006ec621abff3de37ebb0eafb791ba3262",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/nongraph-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1868857,
+    "sha256": "5be29c9cf3f82a2009f79b22c584f6c4a7b787f6e69c07f4080ae8853c4bd73b",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/nongraph-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1929425,
+    "sha256": "35ce64f274546a4ce4f2cbec11b6053a4367742b77f6a6cba6526c85806ec9de",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/token_cnn-lr001_wd0001-s701-l0/last.pt",
+    "bytes": 1714377,
+    "sha256": "5858d5420fce23f1424cf2781cf1e5a4e4137e2e07bc8c0cf7011efe605f9593",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/token_cnn-lr001_wd0001-s701-l0/best.pt",
+    "bytes": 1774881,
+    "sha256": "1c090ede5e90ba3138adb52f0a1e92a2f532cd2446bdd2b3f75884dea45c1398",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/token_cnn-lr003_wd01-s701-l0/last.pt",
+    "bytes": 1714633,
+    "sha256": "f99870e184d96563ba753bc0ac7c5f0883c998e4eb78e647ea1950c662efbd9a",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/token_cnn-lr003_wd01-s701-l0/best.pt",
+    "bytes": 1774881,
+    "sha256": "91644d6cd4f7a7f983c3ed0a6aad73d91cf43068d977855b8e258345d1ef59a8",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/chemistry_tree-leaf8-s701-l0/model.pkl",
+    "bytes": 7920272,
+    "sha256": "158e530d216c2285233fc088afbc3ffa5af349c1bea42e3c728e5b62d978d76c",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  },
+  {
+    "path": "runs/sirna_gnn_empirical/v2-20260913T220847Z/fits/grouped/fold2/development/chemistry_tree-leaf2-s701-l0/model.pkl",
+    "bytes": 34941800,
+    "sha256": "96a01e86de2a40e4599198c7e799ac9e9fbe832fe6f3569d483e765253e7ea0e",
+    "included_in_git": false,
+    "role": "local development or last-epoch state"
+  }
+]

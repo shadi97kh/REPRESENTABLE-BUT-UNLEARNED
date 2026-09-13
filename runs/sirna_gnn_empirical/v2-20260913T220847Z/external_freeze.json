@@ -1,0 +1,25 @@
+{
+  "admission_sha256": "8071407ddf4a06690f083fd27d7a32d28af8f1e3b0213e6c8ef2cd03e45c5a91",
+  "input_sha256": "2096678a03444073fa8f4c39f018ce3e597c01f46f49d35eef96c57cf41b88e3",
+  "checkpoints": {
+    "fits/deployment/gnn-lr001_wd0001-s1103-l0/best.pt": "e8c71d1c9162a1fe59c31c94534116bbe5840662c1dd3f5e49ee78bf6334f405",
+    "fits/deployment/gnn-lr001_wd0001-s2207-l0/best.pt": "f0503a7d3fdf32225a92b83daa97a54ae9325bcd2d0e01d0f9f5c8a5e28cb6a7",
+    "fits/deployment/gnn-lr001_wd0001-s3301-l0/best.pt": "c2e31cf1b6d4c1c47fc9001f72beab016c9d512cbeb015cadbd6c3aa01aa6678",
+    "fits/deployment/chemistry_tree-leaf2-s1103-l0/model.pkl": "328fb1d6cd0a1a5b5215d19857e8dd91303c12f0517abe65831d4ec4197c4d20",
+    "fits/deployment/chemistry_tree-leaf2-s2207-l0/model.pkl": "bb0a88855d4e7804d58f2852438ba8c099bbacb2b1b01204593c1bfbf3393aeb",
+    "fits/deployment/chemistry_tree-leaf2-s3301-l0/model.pkl": "4a1ac5f1f7913bffa75abe0a01a7b74f8e545566233edb69643304bbf3c4a740",
+    "fits/deployment/token_cnn-lr001_wd0001-s1103-l0/best.pt": "8e5816ec3c07a2f1d1daecde9a144f405f16566fb5d4c2af6bb50d273c5a1a29",
+    "fits/deployment/token_cnn-lr001_wd0001-s2207-l0/best.pt": "4503268ec162a9421d01ef78a10245458739ba4c17dcbdad473088b701266d02",
+    "fits/deployment/token_cnn-lr001_wd0001-s3301-l0/best.pt": "47c6f5f6fe5978f6be35bbc420a9011b2a0a01cce006e8457b34f7e2e7f6a6d9",
+    "fits/deployment/nongraph-lr001_wd0001-s1103-l0/best.pt": "cc16c0030241980283306143f4fcdd2f5260c211e839558649d5ab1768a56bbf",
+    "fits/deployment/nongraph-lr001_wd0001-s2207-l0/best.pt": "31a7a145c330ff12e70a4106a9db9ed3bc8255e837dc6eda4dc4fb51731654b4",
+    "fits/deployment/nongraph-lr001_wd0001-s3301-l0/best.pt": "07137fcb387f52b86b6693f63b8d6c8df1e47ef60cc0dca03fbb8905874e0715"
+  },
+  "metrics": [
+    "pooled MSE/MAE",
+    "equal sequence component MSE",
+    "per target/cell descriptive MSE",
+    "conditional sequence-component paired bootstrap"
+  ],
+  "selected_before_prediction": true
+}

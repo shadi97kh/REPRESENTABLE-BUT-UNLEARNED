@@ -1,0 +1,5 @@
+phase,model,reference,weighting,difference_mse,lower95,upper95,groups,bootstrap_replicates
+factorial,gnn_R1C1,chemistry_tree_R1C1,rows,0.0224688499536405,0.0046009144649732,0.0382270202214653,92,2000
+factorial,gnn_no_chemistry_R1C1,chemistry_tree_R1C1,rows,0.0374576366590294,0.0225353461565237,0.0559755312765495,92,2000
+factorial,nongraph_R1C1,chemistry_tree_R1C1,rows,0.008249086436619,-0.0040070476348874,0.0190896871146359,92,2000
+factorial,token_cnn_R1C1,chemistry_tree_R1C1,rows,0.0850469686641846,0.0533677096287639,0.1122777356139181,92,2000

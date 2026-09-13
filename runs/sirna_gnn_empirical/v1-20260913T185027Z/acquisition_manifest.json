@@ -1,0 +1,176 @@
+[
+  {
+    "name": "ensi/README.md",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/README.md",
+    "expected_sha256": "e1f16656d5331d11d2acb128684bce1e9fe971a5578040cfc411c5f3867a7525",
+    "required": true,
+    "status": "acquired",
+    "sha256": "e1f16656d5331d11d2acb128684bce1e9fe971a5578040cfc411c5f3867a7525",
+    "bytes": 5069,
+    "path": "raw/ensi/README.md",
+    "wall_s": 0.14023335394449532
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/dataset/train_88_1.xlsx",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/dataset/train_88_1.xlsx",
+    "expected_sha256": "d8456fad29d317b84173fc7ae427f534e4b9898098ae4ec9e19260559f610ee8",
+    "required": true,
+    "status": "acquired",
+    "sha256": "d8456fad29d317b84173fc7ae427f534e4b9898098ae4ec9e19260559f610ee8",
+    "bytes": 206777,
+    "path": "raw/ensi/ENsiRNA-mod/dataset/train_88_1.xlsx",
+    "wall_s": 0.22266911691986024
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/dataset/valid_88_1.xlsx",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/dataset/valid_88_1.xlsx",
+    "expected_sha256": "0a1736e744f307d4c8ed19413081cc227bc2c74c6db705526805577cae5cedae",
+    "required": true,
+    "status": "acquired",
+    "sha256": "0a1736e744f307d4c8ed19413081cc227bc2c74c6db705526805577cae5cedae",
+    "bytes": 55865,
+    "path": "raw/ensi/ENsiRNA-mod/dataset/valid_88_1.xlsx",
+    "wall_s": 0.20503956591710448
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/dataset/test_88.xlsx",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/dataset/test_88.xlsx",
+    "expected_sha256": "9a9cd713ead6ef728b4d0ec5a910c86b25a5b500c0670879e7a2e4aca5c438b2",
+    "required": true,
+    "status": "acquired",
+    "sha256": "9a9cd713ead6ef728b4d0ec5a910c86b25a5b500c0670879e7a2e4aca5c438b2",
+    "bytes": 35980,
+    "path": "raw/ensi/ENsiRNA-mod/dataset/test_88.xlsx",
+    "wall_s": 0.17076986888423562
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/dataset/patent.xlsx",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/dataset/patent.xlsx",
+    "expected_sha256": "ad85593d63964f61865d504adc6c81c6bd28a7d99a45395f8258518217df449a",
+    "required": true,
+    "status": "acquired",
+    "sha256": "ad85593d63964f61865d504adc6c81c6bd28a7d99a45395f8258518217df449a",
+    "bytes": 10307,
+    "path": "raw/ensi/ENsiRNA-mod/dataset/patent.xlsx",
+    "wall_s": 0.13268678705208004
+  },
+  {
+    "name": "cmsirnadb_APP.tsv",
+    "url": "https://cellknowledge.com.cn/CMsiRNAdb/download/patent_dataset_APP.tsv",
+    "expected_sha256": "e5f0b6eb3abc26f60200c39aaf71df231998bed9f27d8b9dc79d2cae8486efaa",
+    "required": true,
+    "status": "acquired",
+    "sha256": "e5f0b6eb3abc26f60200c39aaf71df231998bed9f27d8b9dc79d2cae8486efaa",
+    "bytes": 4178607,
+    "path": "raw/cmsirnadb_APP.tsv",
+    "wall_s": 9.868477707030252
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/README.md",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/README.md",
+    "required": false,
+    "status": "acquired",
+    "sha256": "9079310544c68980ba9be677e1c6c070928343e4f15ef946a7237b5d8c06b44c",
+    "bytes": 816,
+    "path": "raw/ensi/ENsiRNA-mod/README.md",
+    "wall_s": 0.12105695810168982
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/data/mod_utils.py",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/data/mod_utils.py",
+    "required": false,
+    "status": "acquired",
+    "sha256": "5e3e221c93873788800cbc0a355674e2bd3a33f15201ce361921b73e5933b719",
+    "bytes": 15394,
+    "path": "raw/ensi/ENsiRNA-mod/data/mod_utils.py",
+    "wall_s": 0.12206956278532743
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/data/dataset.py",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/data/dataset.py",
+    "required": false,
+    "status": "acquired",
+    "sha256": "86bda148ec5c575d69cec0c564af611c39f6efed4c9c87e70ab5bd1c3657c57d",
+    "bytes": 13222,
+    "path": "raw/ensi/ENsiRNA-mod/data/dataset.py",
+    "wall_s": 0.15042901295237243
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/models/mod_model.py",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/models/mod_model.py",
+    "required": false,
+    "status": "unavailable",
+    "error": "<HTTPError 404: 'Not Found'>",
+    "wall_s": 0.1016135758254677
+  },
+  {
+    "name": "ensi/ENsiRNA-mod/train.py",
+    "url": "https://raw.githubusercontent.com/tanwenchong/ENsiRNA/028824341635903f3c661f5d1cc737de106493d5/ENsiRNA-mod/train.py",
+    "required": false,
+    "status": "acquired",
+    "sha256": "3d61f7d9f8c45a9873e77b77db5ca812dbbdfc7c500c2a34de7d46bf6e814422",
+    "bytes": 5691,
+    "path": "raw/ensi/ENsiRNA-mod/train.py",
+    "wall_s": 0.14133837493136525
+  },
+  {
+    "name": "WO2020132227A2.html",
+    "url": "https://patents.google.com/patent/WO2020132227A2/en",
+    "required": false,
+    "status": "acquired",
+    "sha256": "2b8dba884fc15a2c1884295aa1aceed3adf476cdf81973a1ef8123164524e665",
+    "bytes": 1555080,
+    "path": "raw/WO2020132227A2.html",
+    "wall_s": 1.074749456020072
+  },
+  {
+    "name": "WO2022165172A1.html",
+    "url": "https://patents.google.com/patent/WO2022165172A1/en",
+    "required": false,
+    "status": "acquired",
+    "sha256": "2604d9205343458a40fe300b7ad0b7f1aa68634ef9f96611e27df80d1a7ebd21",
+    "bytes": 1297050,
+    "path": "raw/WO2022165172A1.html",
+    "wall_s": 0.5713307079859078
+  },
+  {
+    "name": "US20220380773A1.html",
+    "url": "https://patents.google.com/patent/US20220380773A1/en",
+    "required": false,
+    "status": "acquired",
+    "sha256": "a426c7f75fe7cf61c52168eb78e52075ee0fbfcc4a4f80b11f16af687df0685a",
+    "bytes": 1547779,
+    "path": "raw/US20220380773A1.html",
+    "wall_s": 0.5504722858313471
+  },
+  {
+    "name": "cmsirnadb_paper.html",
+    "url": "https://link.springer.com/article/10.1186/s12859-025-06359-y",
+    "required": false,
+    "status": "acquired",
+    "sha256": "f5c7e6fae652cb2d3c0fce1cab72878cf57fdda9091515a256354b042e64183b",
+    "bytes": 442386,
+    "path": "raw/cmsirnadb_paper.html",
+    "wall_s": 1.3370131489355117
+  },
+  {
+    "name": "davis2025.html",
+    "url": "https://academic.oup.com/nar/article/53/12/gkaf479/8171869",
+    "required": false,
+    "status": "acquired",
+    "sha256": "9d7b025a587eccdcb5ca0404c6e8c1618f51cec1860a7cf36054ad08d88d42c5",
+    "bytes": 647138,
+    "path": "raw/davis2025.html",
+    "wall_s": 8.557021555956453
+  },
+  {
+    "name": "ensi_tree.json",
+    "url": "https://api.github.com/repos/tanwenchong/ENsiRNA/git/trees/028824341635903f3c661f5d1cc737de106493d5?recursive=1",
+    "required": false,
+    "status": "acquired",
+    "sha256": "ae3a28c5f762c3f475c147e7c0a70cc9b0cc19508e067f9fcb847383d89be24b",
+    "bytes": 31211,
+    "path": "raw/ensi_tree.json",
+    "wall_s": 0.20298767322674394
+  }
+]

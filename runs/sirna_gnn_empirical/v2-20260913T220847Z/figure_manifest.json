@@ -1,0 +1,194 @@
+[
+  {
+    "file": "figures/appendix_b2_controls.csv",
+    "sha256": "6552c68adc6247bba8117ce8e8ba26aaa6bf5b77a83182dcb393312dac0913b1"
+  },
+  {
+    "file": "figures/appendix_b2_controls.pdf",
+    "sha256": "4a1ae14a9e325caa98f19e55b235b073f5a4f739dcb9bd52598624aba2d703d5"
+  },
+  {
+    "file": "figures/appendix_b2_controls.png",
+    "sha256": "271db92467b5d7922382dff903a7e5a7072cd4a0adfd4805d667ce1dcf27b83f"
+  },
+  {
+    "file": "figures/appendix_b2_controls.svg",
+    "sha256": "bf40d453bb393a1b4186e9bc224de4ffc0bdc052825a8f2f7eff207c3e3ad9e8"
+  },
+  {
+    "file": "figures/appendix_b2_folds.csv",
+    "sha256": "6552c68adc6247bba8117ce8e8ba26aaa6bf5b77a83182dcb393312dac0913b1"
+  },
+  {
+    "file": "figures/appendix_b2_folds.pdf",
+    "sha256": "6ccb06c349a465d045126884ed0bf7d6c8e6515e5f82aee6ecb29165bf9bea56"
+  },
+  {
+    "file": "figures/appendix_b2_folds.png",
+    "sha256": "033e5330cd769ad45ce5ce8d646e08ec43ba2af106339cafae6122d168207658"
+  },
+  {
+    "file": "figures/appendix_b2_folds.svg",
+    "sha256": "2376e2859d6fb10e24beabb91e0bffac8895a86ac5a66b77f3d3a2dfd582d999"
+  },
+  {
+    "file": "figures/appendix_context_support.csv",
+    "sha256": "18fa97bf4416bd9e54c5b831695e0cb14eb108c93fd83eab9953803f827202cb"
+  },
+  {
+    "file": "figures/appendix_context_support.pdf",
+    "sha256": "713113e7698eb847b3428f8074b0ef038f87f9ad97eae9a8ae24c2db46e4781f"
+  },
+  {
+    "file": "figures/appendix_context_support.png",
+    "sha256": "66f02b83f6237cb5e4ebb8480bef20d87057084712ec34d9b766982a98e44e64"
+  },
+  {
+    "file": "figures/appendix_context_support.svg",
+    "sha256": "958ea7c99097e407baa7e10f1472b36584dbb14a633b3d819774ec14b510049a"
+  },
+  {
+    "file": "figures/appendix_external.csv",
+    "sha256": "4501d5dc0afcfa8a070e226726bb8d2b5af1f978dc79e6658f37bdd082751d0a"
+  },
+  {
+    "file": "figures/appendix_external.pdf",
+    "sha256": "3c89c16b50a3f37e7743611a144fd22e14ad9390ddb7b12fa545436c5df62c64"
+  },
+  {
+    "file": "figures/appendix_external.png",
+    "sha256": "462524718082421a6dc43ca48394dea51c6a3179d094ef1dfb48c08ad89f349f"
+  },
+  {
+    "file": "figures/appendix_external.svg",
+    "sha256": "26de5091f730b62427a456d063a48c75698626c9b0542b0ed2a2b01e97cd10b4"
+  },
+  {
+    "file": "figures/appendix_factorial.csv",
+    "sha256": "2e0d4f0b0e2a1cfb90414aea471aa02c176a0b1e3813cede9beb39f0072f28de"
+  },
+  {
+    "file": "figures/appendix_factorial.pdf",
+    "sha256": "559ddaea2270c9bb3ff3641f2bde381f7d939255bcb2b9dffd38fe54bfe70a3a"
+  },
+  {
+    "file": "figures/appendix_factorial.png",
+    "sha256": "f023dfdc46b46229bf246f942559caa0e8c604d814844c2e72e53e9232216acf"
+  },
+  {
+    "file": "figures/appendix_factorial.svg",
+    "sha256": "b8efbfb111377d1fb08c004d0f9f50dbb34d74d1b1bb9080983e2608e7b26f02"
+  },
+  {
+    "file": "figures/appendix_frozen.csv",
+    "sha256": "213c4f840fe39bb80b8f20e9468e154a42c06195110e031491d04823c948f170"
+  },
+  {
+    "file": "figures/appendix_frozen.pdf",
+    "sha256": "2a546357fc435c246c899432be1a5b044f9db648c235cb524066de37a3f1127b"
+  },
+  {
+    "file": "figures/appendix_frozen.png",
+    "sha256": "e875259552b0328647c28a16f1e4037e75ba32cb170420385d8ae9904b035a1b"
+  },
+  {
+    "file": "figures/appendix_frozen.svg",
+    "sha256": "1bf9992b0bab1fd8721e11cf0618999d9807666421f30322d1c923dd48511540"
+  },
+  {
+    "file": "figures/appendix_group_results.csv",
+    "sha256": "b5471f808c219b6a46fb898d0a228bf8e62aac8c4894ab4fbd1f9302ee0887a9"
+  },
+  {
+    "file": "figures/appendix_group_results.pdf",
+    "sha256": "34c9b7971b5c7f137947ff29852104abaf9197f2ccb647a5eb254fb9119d32c0"
+  },
+  {
+    "file": "figures/appendix_group_results.png",
+    "sha256": "17949d717b8154ef255da477ee243e315070c64f1bacd6562f43baa37961d4b5"
+  },
+  {
+    "file": "figures/appendix_group_results.svg",
+    "sha256": "f7046e359f5e7805459b3e062e3bba9eecb9c6253ff2a04fcc4ee3e8352f353a"
+  },
+  {
+    "file": "figures/appendix_relation_support.csv",
+    "sha256": "0a7b3d045ace12d0a60b6f959ca69bb9b02904766be45273b2cf1b2f98998470"
+  },
+  {
+    "file": "figures/appendix_relation_support.pdf",
+    "sha256": "8ccfe9a2e7d437d25b976e5645c26db3afb3a66d7d17bcdda671bc16d28e7391"
+  },
+  {
+    "file": "figures/appendix_relation_support.png",
+    "sha256": "3f7175eb1de475f93802b1d508150dca3b39bcf00faf41e99e2cd8cf221959b3"
+  },
+  {
+    "file": "figures/appendix_relation_support.svg",
+    "sha256": "266a19f39088aa6c447af0a08c7b30d8a57db39e4aa60efdcf32620c2ac14621"
+  },
+  {
+    "file": "figures/appendix_selection.csv",
+    "sha256": "63a9e88a901e23f63365a0a816c956ea63033fa78d593a906ee0968e7a4fff7e"
+  },
+  {
+    "file": "figures/appendix_selection.pdf",
+    "sha256": "7736271b6d42da4c4248f8fdd65259cda5835b1660d2a0bd33cc3bbe37394290"
+  },
+  {
+    "file": "figures/appendix_selection.png",
+    "sha256": "f49237ed4e08a61224c3910b63a919408397211d0c32a19380f73240186b2b7a"
+  },
+  {
+    "file": "figures/appendix_selection.svg",
+    "sha256": "d454d5bfe53643afa69cb15e1c43776fe020744647b49281e38e2f1ccc8b934d"
+  },
+  {
+    "file": "figures/main_b1.csv",
+    "sha256": "543afee3c7655626e29f30eeee5a429291acedca62f726a59c009f93221c15ee"
+  },
+  {
+    "file": "figures/main_b1.pdf",
+    "sha256": "5ee5d6dbe915c4baa5087f21675a9c42acfebf8b834313b36c355f8aa8a24a37"
+  },
+  {
+    "file": "figures/main_b1.png",
+    "sha256": "cadbda0b447a4fc804cf31bcf3570fc5fead84afc9df47f9444a47fd1e0691cd"
+  },
+  {
+    "file": "figures/main_b1.svg",
+    "sha256": "01df7d3e288078c1bd66e3a6789c24c1dc8abf05542aac9a5c185a5f123971f0"
+  },
+  {
+    "file": "figures/main_b2.csv",
+    "sha256": "b5884acd6a96acc53db0e25540890e66a813b0705874a147b756ad6ef8ef2aa8"
+  },
+  {
+    "file": "figures/main_b2.pdf",
+    "sha256": "86d95f41cd2f207aaedbe4aacd74b4bd6da31166262c89e4c628ca63976ef297"
+  },
+  {
+    "file": "figures/main_b2.png",
+    "sha256": "b30d28c3961eace0734dc6e096020a5199416a4d35ec90e6d781c4d7ef9848c8"
+  },
+  {
+    "file": "figures/main_b2.svg",
+    "sha256": "da66e54a082259a6b43309d453b2c2bfaf5be19915ef64ee95bac740ff146a19"
+  },
+  {
+    "file": "figures/main_ranking.csv",
+    "sha256": "6f2be97cbdd13d54200ec6f15f7cb8f8469bc618ef3d9183a3bb54394a029ee5"
+  },
+  {
+    "file": "figures/main_ranking.pdf",
+    "sha256": "d20db757b2bfdbae92f60a2c241a543580c6362872b4d40b7739a1ee91fbad2c"
+  },
+  {
+    "file": "figures/main_ranking.png",
+    "sha256": "e9fae4383cfe42e342063f91e2bb819a8a24c1ec3e9582dddf1417c757288244"
+  },
+  {
+    "file": "figures/main_ranking.svg",
+    "sha256": "8f84a931386be54e603447662646e647133ea8ef1a137bd9639f400a3cc166cd"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://academic.oup.com/nar/article/46/20/10905/5085976",
+    "path": "shmushkovich2018.html",
+    "bytes": 428566,
+    "sha256": "4ffb43b6403d08921ce3b0194579cd4b2352349c9ad10e521a6abbd46a4b0618"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/40548938/fullTextXML",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6237813/fullTextXML",
+    "path": "shmushkovich2018.xml",
+    "bytes": 113910,
+    "sha256": "c44e4cd906ee6d7e1305786d93691b1bc5fad41857f466e7b2f50e089afde820"
+  }
+]

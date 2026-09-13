@@ -1,0 +1,179 @@
+{
+  "max_nodes": 64,
+  "max_strand_length": 32,
+  "node_features": 93,
+  "base_features": [
+    "A",
+    "C",
+    "G",
+    "U",
+    "T"
+  ],
+  "position_columns": [
+    7,
+    39
+  ],
+  "chemistry_columns": [
+    39,
+    84
+  ],
+  "modification_vocabulary": [
+    "2,4-Carbocyclic-Ethylene-bridged nucleic acid-Locked nucleic acid",
+    "2,4-Carbocyclic-Locked nucleic acid-Locked nucleic acid",
+    "2-Aminoethoxymethyl",
+    "2-Aminoethyl",
+    "2-Aminopropoxymethyl",
+    "2-Aminopropyl_base",
+    "2-Aminopropyl_sugar",
+    "2-Cyanoethyl",
+    "2-Deoxy",
+    "2-Deoxy-2-N,4-C-Ethylene-Locked nucleic acid",
+    "2-Fluoro",
+    "2-Guanidinoethyl",
+    "2-N-Adamant-1-yl-Methylcarbonyl-2-Amino-Locked nucleic acid",
+    "2-N-Pyren-1-yl Methyl-2-Amino-Locked nucleic acid",
+    "2-O-Benzyl",
+    "2-O-Guanidinopropyl",
+    "2-O-Methyl",
+    "2-O-hexadecyl",
+    "4-C-Hydroxymethyl Deoxyribonucleic acid",
+    "4-Thioribose",
+    "5-Amino",
+    "5-Bromo-Uridine",
+    "5-Iodo-Uridine",
+    "5-vinylphosphonate",
+    "Alfa-L-Locked nucleic acid",
+    "Altritol nucleic acid",
+    "Anthracene",
+    "Boranophosphate",
+    "Cyclohexenyl nucleic acid",
+    "Diaminopurine",
+    "Glycol nucleic acid",
+    "Hexitol nucleic acid",
+    "Hypoxanthine",
+    "Locked nucleic acid",
+    "Methyl",
+    "Methylcytosine",
+    "Naphthalene modification",
+    "Oxetane-Locked nucleic acid",
+    "Phosphate",
+    "Phosphodiester",
+    "Phosphorothioate",
+    "Serinol nucleic acid",
+    "Tricyclodeoxyribonucleic acid",
+    "Unlocked nucleic acid",
+    "unmodified_as_annotated"
+  ],
+  "vocabulary_exposure": "Fixed label-free schema includes all admitted input modification names. Test efficacy never used. Unseen names remain distinct representation columns; effective training support is reported.",
+  "train_seen_modifications": [
+    "2,4-Carbocyclic-Ethylene-bridged nucleic acid-Locked nucleic acid",
+    "2,4-Carbocyclic-Locked nucleic acid-Locked nucleic acid",
+    "2-Aminoethoxymethyl",
+    "2-Aminoethyl",
+    "2-Aminopropoxymethyl",
+    "2-Aminopropyl_base",
+    "2-Aminopropyl_sugar",
+    "2-Cyanoethyl",
+    "2-Deoxy",
+    "2-Deoxy-2-N,4-C-Ethylene-Locked nucleic acid",
+    "2-Fluoro",
+    "2-Guanidinoethyl",
+    "2-N-Adamant-1-yl-Methylcarbonyl-2-Amino-Locked nucleic acid",
+    "2-N-Pyren-1-yl Methyl-2-Amino-Locked nucleic acid",
+    "2-O-Guanidinopropyl",
+    "2-O-Methyl",
+    "4-C-Hydroxymethyl Deoxyribonucleic acid",
+    "Alfa-L-Locked nucleic acid",
+    "Altritol nucleic acid",
+    "Boranophosphate",
+    "Hexitol nucleic acid",
+    "Locked nucleic acid",
+    "Oxetane-Locked nucleic acid",
+    "Phosphate",
+    "Phosphodiester",
+    "Phosphorothioate",
+    "Serinol nucleic acid",
+    "Unlocked nucleic acid",
+    "unmodified_as_annotated"
+  ],
+  "context_features": [
+    "log1p_reported_concentration",
+    "concentration_units_unverified",
+    "time_h_div24",
+    "time_missing",
+    "context_metadata_available",
+    "pairing_fraction",
+    "guide_length_div32",
+    "passenger_length_div32"
+  ],
+  "context_mean_training": [
+    2.4559452533721924,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.9999809265136719,
+    0.671875,
+    0.670197069644928
+  ],
+  "context_sd_training": [
+    0.1807815283536911,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0009755762293934822,
+    0.018421249464154243,
+    0.018646489828824997
+  ],
+  "edge_relations": [
+    "backbone_forward_PO",
+    "backbone_forward_PS",
+    "backbone_forward_unresolved",
+    "backbone_reverse_PO",
+    "backbone_reverse_PS",
+    "backbone_reverse_unresolved",
+    "antiparallel_canonical",
+    "antiparallel_mismatch"
+  ],
+  "pairing_algorithm": "Choose overlap>=14 maximizing number of Watson-Crick matches, then minimizing mismatches, maximizing overlap, minimizing absolute offset and offset. Admit match fraction>=0.8. DNA T pairs with A, remains distinct from U in features. Edges are inferred, not measured.",
+  "terminal_columns": [
+    89,
+    93
+  ],
+  "metadata_columns": [
+    84,
+    89
+  ],
+  "statistics": {
+    "train": {
+      "observations": 2626,
+      "nodes": 112777,
+      "directed_edges": 315524,
+      "rows_with_unseen_modification_names": 0,
+      "bytes_uncompressed": 407471168
+    },
+    "validation": {
+      "observations": 103,
+      "nodes": 4326,
+      "directed_edges": 12154,
+      "rows_with_unseen_modification_names": 74,
+      "bytes_uncompressed": 15982304
+    },
+    "test_internal": {
+      "observations": 198,
+      "nodes": 8316,
+      "directed_edges": 23364,
+      "rows_with_unseen_modification_names": 139,
+      "bytes_uncompressed": 30723264
+    },
+    "test_APP": {
+      "observations": 1839,
+      "nodes": 80916,
+      "directed_edges": 231714,
+      "rows_with_unseen_modification_names": 1839,
+      "bytes_uncompressed": 285353952
+    }
+  },
+  "test_targets_in_graph_files": false
+}

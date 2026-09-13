@@ -1,0 +1,56 @@
+{
+  "tag": "deployment",
+  "kind": "nongraph",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 3301,
+  "lambda_pair": 0.0,
+  "training_n": 2927,
+  "validation_n": 0,
+  "test_n": 1839,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 92,
+  "selected_updates": 92,
+  "selected_epoch": 4,
+  "epochs_executed": 4,
+  "validation_score": 0.0,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 23,
+      "training_normalized_loss": 1.0614917945609306,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 46,
+      "training_normalized_loss": 0.8325035276268788,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 69,
+      "training_normalized_loss": 0.7312483125308042,
+      "validation_score": 0.0
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 92,
+      "training_normalized_loss": 0.6988936146453334,
+      "validation_score": 0.0
+    }
+  ],
+  "checkpoint": "fits/deployment/nongraph-lr001_wd0001-s3301-l0/best.pt",
+  "checkpoint_sha256": "07137fcb387f52b86b6693f63b8d6c8df1e47ef60cc0dca03fbb8905874e0715",
+  "wall_s": 0.7674531021621078,
+  "cpu_s": 0.7718459580000285,
+  "device": "cuda:0",
+  "max_gradient_sum": 48.86086595058441,
+  "peak_gpu_allocated_bytes": 581957632
+}

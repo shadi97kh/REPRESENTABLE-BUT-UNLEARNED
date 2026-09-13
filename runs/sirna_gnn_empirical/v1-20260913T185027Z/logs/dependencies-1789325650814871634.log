@@ -1,0 +1,21 @@
+Collecting beautifulsoup4==4.14.3
+  Downloading beautifulsoup4-4.14.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting lxml==6.0.2
+  Downloading lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.6 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4==4.14.3)
+  Downloading soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4==4.14.3)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+Downloading lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 72.2 MB/s  0:00:00
+Downloading soupsieve-2.9.2-py3-none-any.whl (37 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, soupsieve, lxml, beautifulsoup4
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+certgnn 0.1.0 requires captum>=0.7, which is not installed.
+certgnn 0.1.0 requires seaborn>=0.13, which is not installed.
+certgnn 0.1.0 requires torchcp>=0.1.3, which is not installed.
+certgnn 0.1.0 requires wandb>=0.17, which is not installed.
+Successfully installed beautifulsoup4-4.14.3 lxml-6.0.2 soupsieve-2.9.2 typing-extensions-4.16.0

@@ -1,0 +1,72 @@
+[
+  {
+    "model": "chemistry_tree",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": -0.004715577004671688,
+    "paired_95": [
+      -0.008480183126998931,
+      -0.0018573528513972648
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "gnn",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": 0.00859510228341519,
+    "paired_95": [
+      0.0022559273250922357,
+      0.01792961968494565
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "gnn_no_chemistry",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": -0.005248655745867116,
+    "paired_95": [
+      -0.009220711788260198,
+      -0.002304241548546657
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "guide_pairwise_ridge",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": -0.005248655824762329,
+    "paired_95": [
+      -0.009220711870749165,
+      -0.002304241670240858
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "guide_ridge",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": -0.005248655824762329,
+    "paired_95": [
+      -0.009220711870749165,
+      -0.002304241670240858
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "nongraph",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": -0.0008839412678060618,
+    "paired_95": [
+      -0.00352531775667782,
+      0.001448716518638793
+    ],
+    "sequence_components": 12
+  },
+  {
+    "model": "token_cnn",
+    "reference": "token_cnn",
+    "equal_component_mse_difference": 0.0,
+    "paired_95": [
+      0.0,
+      0.0
+    ],
+    "sequence_components": 12
+  }
+]

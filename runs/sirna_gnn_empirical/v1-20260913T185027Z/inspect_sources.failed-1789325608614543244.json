@@ -1,0 +1,27 @@
+{
+  "stage": "inspect_sources",
+  "command": [
+    "/opt/miniforge3/bin/python",
+    "/home/shadi/iclr2027/sirna_gnn_empirical/v1/inspect_sources.py",
+    "--run",
+    "/home/shadi/iclr2027/runs/sirna_gnn_empirical/v1-20260913T185027Z"
+  ],
+  "started_utc": "2026-09-13T18:53:28.349752+00:00",
+  "timeout_s": 120,
+  "script_sha256": "f205bd223fd45707ff9e8798b8d1a37baf279a0d3ee561dc5e3c31c920e4726e",
+  "environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "CUDA_VISIBLE_DEVICES": null
+  },
+  "ended_utc": "2026-09-13T18:53:28.614313+00:00",
+  "exit_code": 1,
+  "timed_out": false,
+  "wall_s": 0.2645653299987316,
+  "child_cpu_s": 0.33685199999999993,
+  "child_peak_rss_kib": 102476,
+  "log": "logs/inspect_sources-1789325608349872892.log",
+  "measurement_scope": "Waited child and descendants; peak RSS is process-family lifetime high-water mark, not additive. GPU device/synchronized active wall recorded by fitting stages; does not claim GPU kernel time."
+}

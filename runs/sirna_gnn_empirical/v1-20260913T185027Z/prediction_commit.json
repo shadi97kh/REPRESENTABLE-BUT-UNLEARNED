@@ -1,0 +1,34 @@
+{
+  "committed_utc": "2026-09-13T19:31:48.262769+00:00",
+  "heldout_outcomes_scored": false,
+  "files": {
+    "heldout_predictions_by_seed.csv": "41f6d1d4ebfc6404ce001033018cb5f990ce60c360276a2db799e81d4ec0ea91",
+    "heldout_predictions.csv": "732f668f56989c1bdd605a0a8ee8ba23f00f4daee63fb395d4935f6944a8fcca",
+    "prediction_protocol.json": "2de7a9366ad984e0bc55eb81e2f178edccaa17fd9a9e41d4b3c1ad8c8f1e4cb7",
+    "checkpoint_reload_checks.json": "438e0a29b5f993836377d71aed803c16ddcfe7694f532b6876d7443e7f9d331b"
+  },
+  "fit_checkpoints": {
+    "fits/final/guide_ridge-seed1103-alpha0.1/model.pkl": "cc78992ecc022fd600ce030af2de991d3f1238ea3678feba409b704917380c6c",
+    "fits/final/guide_pairwise_ridge-seed1103-alpha100.0/model.pkl": "9ce1a1ee2244ca67c1983587a2b08429a4d5cbf9f07d23335190a4c0d7b4b068",
+    "fits/final/chemistry_tree-seed1103-leaf8_features0.3/model.pkl": "d976386b2831f138b86ac250040f66b1e44b98e61c250343cc1d34b59225a1e0",
+    "fits/final/chemistry_tree-seed2207-leaf8_features0.3/model.pkl": "325bd1efe59f71d03b4022a2289261df3941007ef5858f3557253cda646dde53",
+    "fits/final/chemistry_tree-seed3301-leaf8_features0.3/model.pkl": "6be64a13f3d9455875df2e4100026793e7fd9686257a5fb3fe7a4eff55623fb1",
+    "fits/final/token_cnn-seed1103-lr001_wd0001/best.pt": "a98af2535c4bff03164c6f56075c8fd948994c79d3c4954e9c1e2469e0e825e2",
+    "fits/final/token_cnn-seed2207-lr001_wd0001/best.pt": "603ce504d31b5798259a59d8fd34c9ceef329605b15c1359bccf33cbe4107ba2",
+    "fits/final/token_cnn-seed3301-lr001_wd0001/best.pt": "f528e5805a60e6e3c176c3d0ae839fe7409bbf90d746aed1a75a96b0df3a670e",
+    "fits/final/nongraph-seed1103-lr001_wd0001/best.pt": "41ba0391dbcb06092800823dc6f6d6149dee657c75b93281f84f681d65e63e6d",
+    "fits/final/nongraph-seed2207-lr001_wd0001/best.pt": "8b95cb56c9a232e43b65bb4d031d47ae30a6a228f556b2d088681a39f287a253",
+    "fits/final/nongraph-seed3301-lr001_wd0001/best.pt": "98d87fb7ee8798d3d966c07c2ee046492d2eaae2a63d796fffd3dbb818129a6a",
+    "fits/final/gnn-seed1103-lr003_wd01/best.pt": "0ecafb5fa2595f16a1623f85b240463946daf79b49b06b3917d89bacb1973911",
+    "fits/final/gnn-seed2207-lr003_wd01/best.pt": "9ea73d27f8afb7768100cf299e06f892782ee9572392cb3b5c222abf2046587b",
+    "fits/final/gnn-seed3301-lr003_wd01/best.pt": "0a45402ba34bc156d95d2999ac127cedf1d61870576d8429c0c1cf7fa6e53383",
+    "fits/final/gnn_no_chemistry-seed1103-lr003_wd01/best.pt": "b8f26645c060530ea72cb6e994337771521813a88b22a51a0fe31b3a991fe273",
+    "fits/final/gnn_no_chemistry-seed2207-lr003_wd01/best.pt": "60f89535fc49b14c16c10a95ae28f0adeacff1b1d1fb4da3736e8671303bb120",
+    "fits/final/gnn_no_chemistry-seed3301-lr003_wd01/best.pt": "1f4b1621ebb9d8cfac62c474c43b784e94c3d2941f03d98c27c5ad14a8f6335b"
+  },
+  "prediction_rows_by_seed": 34629,
+  "ensemble_prediction_rows": 14259,
+  "prediction_code_sha256": "f3b540ba855ff9ea54c2bafb16616d606cb4b5fad7f5cf6d581f6768f387eb6d",
+  "evaluation_code_sha256": "451875c8733412ef918e2924e44ddd067f6fc6e6452ce0cae610608a2c0e716a",
+  "fit_source_hashes_unchanged": true
+}

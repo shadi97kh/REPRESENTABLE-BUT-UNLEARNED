@@ -1,0 +1,157 @@
+{
+  "admitted_records": 5033,
+  "datasets": {
+    "ENsiRNA": 2927,
+    "CMsiRNAdb_APP": 2106
+  },
+  "sources": {
+    "US20120088815A1, EP2415869A1": 594,
+    "19282453": 1924,
+    "15653644": 41,
+    "17616127": 19,
+    "17924376": 56,
+    "21942264": 57,
+    "23743442": 20,
+    "17264131": 27,
+    "12923253": 24,
+    "25233814": 52,
+    "21687522": 12,
+    "12408823": 8,
+    "15919084": 20,
+    "15545637": 14,
+    "16598842": 22,
+    "20485810": 23,
+    "17150641": 14,
+    "Alnylam_APP_2020_2022_related": 2106
+  },
+  "exclusion_reasons": {
+    "unresolved source identity": 354,
+    "unresolved base/geometry-changing annotation": 186,
+    "noncanonical base string": 51,
+    "modification index out of range": 4,
+    "modification/position arity": 5,
+    "exact duplicated molecular/dose/outcome record": 2,
+    "unresolved duplex pairing": 1,
+    "description/base disagreement": 3,
+    "animal assay excluded from cell prediction": 48,
+    "unresolved incubation time": 66,
+    "missing chemical annotation": 188,
+    "reported strand/base orientation inconsistent with target and duplex; no unverified repair": 1248
+  },
+  "supplied_ENsiRNA_raw_duplex_train_test_overlap": 139,
+  "global_study_sequence_components": [
+    {
+      "rows": 2106,
+      "source_families": [
+        "Alnylam_APP_2020_2022_related"
+      ],
+      "datasets": [
+        "CMsiRNAdb_APP"
+      ]
+    },
+    {
+      "rows": 1924,
+      "source_families": [
+        "19282453"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 594,
+      "source_families": [
+        "US20120088815A1, EP2415869A1"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 154,
+      "source_families": [
+        "15653644",
+        "15919084",
+        "17150641",
+        "17924376",
+        "20485810"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 57,
+      "source_families": [
+        "21942264"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 52,
+      "source_families": [
+        "25233814"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 46,
+      "source_families": [
+        "17264131",
+        "17616127"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 44,
+      "source_families": [
+        "12408823",
+        "12923253",
+        "21687522"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 22,
+      "source_families": [
+        "16598842"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 20,
+      "source_families": [
+        "23743442"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    },
+    {
+      "rows": 14,
+      "source_families": [
+        "15545637"
+      ],
+      "datasets": [
+        "ENsiRNA"
+      ]
+    }
+  ],
+  "B2_status": "primary experiment/table and chemistry comparability audit pending; provisional database blocks not admitted",
+  "B3_status": "no admitted four-condition factorial set",
+  "Davis_orientation": {
+    "rows": 1248,
+    "antisense_13mer_matches_target_sense": 1248,
+    "antisense_13mer_matches_target_antisense": 0
+  }
+}

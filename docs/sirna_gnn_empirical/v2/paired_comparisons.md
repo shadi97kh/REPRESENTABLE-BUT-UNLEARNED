@@ -1,0 +1,23 @@
+| phase         | model                             | reference                              | weighting   |   difference_mse |   lower95 |   upper95 |   groups |   bootstrap_replicates |
+|:--------------|:----------------------------------|:---------------------------------------|:------------|-----------------:|----------:|----------:|---------:|-----------------------:|
+| factorial     | context_ridge_R1C1                | chemistry_tree_R1C1                    | rows        |         0.061471 |  0.041696 |  0.085537 |       92 |                   2000 |
+| factorial     | gnn_R0C0                          | chemistry_tree_R1C1                    | rows        |         0.022107 |  0.007774 |  0.035717 |       92 |                   2000 |
+| factorial     | gnn_R0C1                          | chemistry_tree_R1C1                    | rows        |         0.018231 |  0.002119 |  0.032416 |       92 |                   2000 |
+| factorial     | gnn_R1C0                          | chemistry_tree_R1C1                    | rows        |         0.035190 |  0.016103 |  0.053029 |       92 |                   2000 |
+| factorial     | gnn_R1C1                          | chemistry_tree_R1C1                    | rows        |         0.022469 |  0.004601 |  0.038227 |       92 |                   2000 |
+| factorial     | gnn_no_chemistry_R1C1             | chemistry_tree_R1C1                    | rows        |         0.037458 |  0.022535 |  0.055976 |       92 |                   2000 |
+| factorial     | mean_equal_study_R1C1             | chemistry_tree_R1C1                    | rows        |         0.052459 |  0.034486 |  0.074537 |       92 |                   2000 |
+| factorial     | mean_unweighted_R1C1              | chemistry_tree_R1C1                    | rows        |         0.014864 |  0.006118 |  0.025877 |       92 |                   2000 |
+| factorial     | nongraph_R1C1                     | chemistry_tree_R1C1                    | rows        |         0.008249 | -0.004007 |  0.019090 |       92 |                   2000 |
+| factorial     | token_cnn_R1C1                    | chemistry_tree_R1C1                    | rows        |         0.085047 |  0.053368 |  0.112278 |       92 |                   2000 |
+| deployment    | gnn_all_ENsi_inner_selected       | chemistry_tree_all_ENsi_inner_selected | rows        |         0.018838 |  0.006731 |  0.029337 |       92 |                   2000 |
+| deployment    | nongraph_all_ENsi_inner_selected  | chemistry_tree_all_ENsi_inner_selected | rows        |         0.000205 | -0.002888 |  0.003120 |       92 |                   2000 |
+| deployment    | token_cnn_all_ENsi_inner_selected | chemistry_tree_all_ENsi_inner_selected | rows        |         0.018156 |  0.005373 |  0.029060 |       92 |                   2000 |
+| grouped       | gnn                               | chemistry_tree                         | components  |         0.003415 | -0.009647 |  0.016175 |       10 |                   2000 |
+| grouped       | nongraph                          | chemistry_tree                         | components  |         0.006762 | -0.004952 |  0.019310 |       10 |                   2000 |
+| grouped       | token_cnn                         | chemistry_tree                         | components  |         0.001134 | -0.006862 |  0.009219 |       10 |                   2000 |
+| B2_supervised | gnn_activity                      | training_mean                          | components  |        -0.006600 | -0.047617 |  0.023962 |       12 |                   2000 |
+| B2_supervised | gnn_pair                          | training_mean                          | components  |        -0.008356 | -0.046418 |  0.019650 |       12 |                   2000 |
+| B2_supervised | nongraph_pair                     | training_mean                          | components  |        -0.014645 | -0.047895 |  0.009994 |       12 |                   2000 |
+| B2_supervised | pair_ridge                        | training_mean                          | components  |        -0.003260 | -0.071059 |  0.046758 |       12 |                   2000 |
+| B2_supervised | zero                              | training_mean                          | components  |         0.107583 |  0.012607 |  0.210609 |       12 |                   2000 |

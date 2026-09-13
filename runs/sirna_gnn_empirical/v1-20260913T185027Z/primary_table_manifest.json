@@ -1,0 +1,20 @@
+[
+  {
+    "patent": "US20220002724A1",
+    "url": "https://patents.google.com/patent/US20220002724A1/en",
+    "role": "Related national publication used to recover machine-readable tables, never independent measurements.",
+    "status": "acquired",
+    "sha256": "63d239bed99fc4388f1170f66f3187846d21398c43b5562ce7fa061a10bc5d06",
+    "tables": 125,
+    "text_bytes": 707408
+  },
+  {
+    "patent": "US20240117349A1",
+    "url": "https://patents.google.com/patent/US20240117349A1/en",
+    "role": "Related national publication used to recover machine-readable tables, never independent measurements.",
+    "status": "acquired",
+    "sha256": "c1d92096379b5239cb8dc897ec142c3964abecd84cc8c3b021389f655e1af4db",
+    "tables": 16,
+    "text_bytes": 458411
+  }
+]

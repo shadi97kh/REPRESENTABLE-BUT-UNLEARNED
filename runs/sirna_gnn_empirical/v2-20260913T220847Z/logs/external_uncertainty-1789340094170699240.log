@@ -1,0 +1,7 @@
+         model      reference  difference_mse   lower95  upper95  observations  sequence_components  bootstrap_replicates
+           gnn chemistry_tree       -0.008257 -0.016489 0.001055           118                   76                  2000
+      nongraph chemistry_tree        0.009661  0.000244 0.017674           118                   76                  2000
+     token_cnn chemistry_tree       -0.010208 -0.020371 0.001112           118                   76                  2000
+chemistry_tree      token_cnn        0.010208 -0.001112 0.020371           118                   76                  2000
+           gnn      token_cnn        0.001952 -0.001228 0.004812           118                   76                  2000
+      nongraph      token_cnn        0.019869  0.000443 0.036278           118                   76                  2000

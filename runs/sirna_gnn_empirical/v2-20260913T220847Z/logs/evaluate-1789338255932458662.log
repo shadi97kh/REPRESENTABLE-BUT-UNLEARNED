@@ -1,0 +1,41 @@
+     phase            model                     arm  internal_mse  APP_mse  APP_top5_percentile  B2_pair_mse
+    frozen              gnn                backbone      0.060432 0.180735             0.480598     0.295045
+    frozen              gnn                combined      0.060346 0.180932             0.477303     0.299337
+    frozen              gnn                original      0.060432 0.174726             0.521442     0.292107
+    frozen              gnn            zero_support      0.060346 0.174801             0.503880     0.295157
+    frozen         nongraph                backbone      0.056301 0.197816             0.442399     0.283354
+    frozen         nongraph                combined      0.056979 0.201276             0.444250     0.282696
+    frozen         nongraph                original      0.056301 0.195609             0.497116     0.283509
+    frozen         nongraph            zero_support      0.056979 0.198410             0.450886     0.283398
+    frozen        token_cnn                backbone      0.056367 0.186286             0.452873     0.284191
+    frozen        token_cnn                combined      0.055910 0.186767             0.452873     0.284950
+    frozen        token_cnn                original      0.056367 0.186286             0.452873     0.284191
+    frozen        token_cnn            zero_support      0.055910 0.186767             0.452873     0.284950
+ factorial   chemistry_tree                    R1C1      0.051160 0.162656             0.573740     0.281069
+ factorial    context_ridge                    R1C1      0.059012 0.224127             0.651999     0.280804
+ factorial              gnn                    R0C0      0.060288 0.184763             0.470560     0.292397
+ factorial              gnn                    R0C1      0.056667 0.180887             0.473794     0.287606
+ factorial              gnn                    R1C0      0.060369 0.197846             0.457765     0.298370
+ factorial              gnn                    R1C1      0.056830 0.185125             0.538292     0.284944
+ factorial gnn_no_chemistry                    R1C1      0.058358 0.200114             0.560220     0.280804
+ factorial mean_equal_study                    R1C1      0.058856 0.215115             0.651999     0.280804
+ factorial  mean_unweighted                    R1C1      0.067761 0.177520             0.651999     0.280804
+ factorial         nongraph                    R1C1      0.064918 0.170905             0.498101     0.283742
+ factorial        token_cnn                    R1C1      0.050257 0.247703             0.530188     0.289286
+deployment   chemistry_tree all_ENsi_inner_selected           NaN 0.165833             0.630812     0.281871
+deployment              gnn all_ENsi_inner_selected           NaN 0.184671             0.397021     0.278945
+deployment         nongraph all_ENsi_inner_selected           NaN 0.166038             0.367485     0.281432
+deployment        token_cnn all_ENsi_inner_selected           NaN 0.183990             0.509918     0.275143
+         model     seed    n  components  pooled_mse  equal_component_mse  equal_fold_mse      mae
+chemistry_tree ensemble 2927          10    0.067574             0.060579        0.062376 0.216682
+           gnn ensemble 2927          10    0.067062             0.063994        0.062234 0.218254
+      nongraph ensemble 2927          10    0.068936             0.067341        0.064159 0.218094
+     token_cnn ensemble 2927          10    0.070276             0.061714        0.062196 0.219874
+            model     seed   n  sequence_components  pair_mse  equal_component_mse  pair_mae  equal_component_mae  mean_observed  mean_predicted  predicted_min  predicted_max  predicted_mean_absolute  observed_negative  observed_tie  observed_positive  predicted_negative  predicted_tie  predicted_positive  raw_positive  observed_nonties  calls  correct_calls  coverage  correctness_among_calls  correctness_all_nonties
+     gnn_activity ensemble 156                   12  0.241347             0.319984  0.319424             0.351627      -0.226749       -0.305043      -0.528691      -0.127288                 0.305043                111            19                 26                 156              0                   0             0               137    137            111  1.000000                 0.810219                 0.810219
+         gnn_pair ensemble 156                   12  0.239508             0.318228  0.318509             0.349640      -0.226749       -0.284785      -0.508237      -0.086477                 0.284785                111            19                 26                 156              0                   0             0               137    137            111  1.000000                 0.810219                 0.810219
+    nongraph_pair ensemble 156                   12  0.233741             0.311939  0.313235             0.343912      -0.226749       -0.295340      -0.462397      -0.158010                 0.295340                111            19                 26                 156              0                   0             0               137    137            111  1.000000                 0.810219                 0.810219
+       pair_ridge ensemble 156                   12  0.238550             0.323324  0.308823             0.348962      -0.226749       -0.213215      -0.494615       0.040589                 0.218563                111            19                 26                 126             24                   6            18               137    115             89  0.839416                 0.773913                 0.649635
+training_majority ensemble 156                   12       NaN                  NaN       NaN                  NaN      -0.226749             NaN            NaN            NaN                      NaN                111            19                 26                 156              0                   0             0               137    137            111  1.000000                 0.810219                 0.810219
+    training_mean ensemble 156                   12  0.237508             0.326584  0.319164             0.355205      -0.226749       -0.291097      -0.327625      -0.228828                 0.291097                111            19                 26                 156              0                   0             0               137    137            111  1.000000                 0.810219                 0.810219
+             zero ensemble 156                   12  0.280804             0.434166  0.321862             0.421665      -0.226749        0.000000       0.000000       0.000000                 0.000000                111            19                 26                   0            156                   0             0               137      0              0  0.000000                      NaN                 0.000000

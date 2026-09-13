@@ -1,0 +1,85 @@
+{
+  "frozen_utc": "2026-09-13T19:15:43.231018+00:00",
+  "seed": 20260913,
+  "primary_task": "Source-family transfer: all primary-verified APP chemistry/assay records held out from fitting and development. Separately report internal held-out ENsiRNA source components. No unseen-target or independent-laboratory claim.",
+  "grouping": "Transitive union of complete source families and shared exact 13-mers on either strand, with T/U equivalence for grouping only; model retains T. All related APP patents share one source-family unit. Two largest ENsiRNA components in training; seeded shuffle of other components: two validation, two internal test, rest training.",
+  "summary": {
+    "train": {
+      "observations": 2626,
+      "study_components": 6,
+      "sequence_components": 137,
+      "sources": [
+        "15545637",
+        "16598842",
+        "19282453",
+        "23743442",
+        "25233814",
+        "US20120088815A1, EP2415869A1"
+      ]
+    },
+    "validation": {
+      "observations": 103,
+      "study_components": 2,
+      "sequence_components": 3,
+      "sources": [
+        "17264131",
+        "17616127",
+        "21942264"
+      ]
+    },
+    "test_internal": {
+      "observations": 198,
+      "study_components": 2,
+      "sequence_components": 10,
+      "sources": [
+        "12408823",
+        "12923253",
+        "15653644",
+        "15919084",
+        "17150641",
+        "17924376",
+        "20485810",
+        "21687522"
+      ]
+    },
+    "test_APP": {
+      "observations": 1839,
+      "study_components": 1,
+      "sequence_components": 92,
+      "sources": [
+        "Alnylam_APP_2020_2022_related"
+      ]
+    }
+  },
+  "leakage": {
+    "source_family": 0,
+    "study_component": 0,
+    "sequence_component": 0
+  },
+  "prior_test_exposure": "Original ENsiRNA supplied split inspected in the recovered brief and again during identity auditing, never used for current model choice. APP raw outcomes seen only for provenance reconciliation before split. No candidate-model test scores inspected before final frozen predictions. Historical P3/P4 reporter datasets are not trained on here.",
+  "primary_model_selection": "Equal-study-component validation MSE; no APP labels in fitting, tuning, calibration or selection. Same grouping weights for all training objectives.",
+  "metrics": {
+    "B1": "Unclipped activity fraction = percent inhibition /100. Report pooled and equal-assay MSE, Spearman, pairwise ordering, top-five mean midrank percentile (rank-1)/(n-1) on primary-verified pools n>=20; raw activity and top-five regret. Rank ties average; predicted ties resolved by record_id.",
+    "B2": "All pre-enumerated exact-sequence, same-table/assay/dose/conjugate chemistry pairs. Difference error, Spearman, sign accuracy at fixed 0.02 activity tie band. No mean-difference SE manufactured from reported SD. Cluster bootstrap preserves shared sequences across all doses and pairs.",
+    "B3": "Only complete measured rectangles of two distinct single-position chemistry changes on the same base sequences/conjugates/assay. Zero eligible at freeze.",
+    "uncertainty": "2000 paired bootstrap draws with seed 30260913 at sequence-component level within fixed APP cohort; reuse same groups for all models. Separately report source-component results. Conditional uncertainty does not establish new-study generalization; initialization seeds are not biological replicates.",
+    "practical_gain_threshold": null
+  },
+  "candidate_methods": [
+    "guide_ridge",
+    "guide_pairwise_ridge",
+    "chemistry_tree",
+    "token_cnn",
+    "nongraph",
+    "gnn",
+    "gnn_no_chemistry"
+  ],
+  "stochastic_initialization_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "novelty": "Conventional supervised chemistry-aware message passing; no distinct learning-rule or architectural novelty asserted.",
+  "theorem_coverage": false,
+  "wet_lab_work": false
+}

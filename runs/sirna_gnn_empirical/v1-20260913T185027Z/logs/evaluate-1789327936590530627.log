@@ -1,0 +1,625 @@
+{
+  "evaluation_started_utc": "2026-09-13T19:32:17.246978+00:00",
+  "prediction_commit_utc": "2026-09-13T19:31:48.262769+00:00",
+  "reference_selected_on_validation": "token_cnn",
+  "performance": [
+    {
+      "split": "test_internal",
+      "model": "chemistry_tree",
+      "n": 198,
+      "mse": 0.051757383127587916,
+      "mae": 0.188174245156171,
+      "spearman": 0.43626514283323353,
+      "equal_assay_mse": 0.059172715736634636,
+      "equal_assay_spearman": 0.3664284218918707,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.3614860798247201,
+      "prediction_max": 0.7488019266029595,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.03261823400905089,
+        0.06487498219842149
+      ],
+      "mse_difference_vs_reference": -0.0046100216245024625,
+      "paired_mse_difference_95": [
+        -0.02480323620081846,
+        0.0026698433674839134
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "gnn",
+      "n": 198,
+      "mse": 0.06043226522779056,
+      "mae": 0.21004315596678444,
+      "spearman": 0.4033725996346906,
+      "equal_assay_mse": 0.06400133852265943,
+      "equal_assay_spearman": 0.2909352496110664,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.2198988993962605,
+      "prediction_max": 0.707959473133087,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.052521156622747915,
+        0.06710010720265035
+      ],
+      "mse_difference_vs_reference": 0.004064860475700184,
+      "paired_mse_difference_95": [
+        -0.006282338209432875,
+        0.012048251890652542
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "gnn_no_chemistry",
+      "n": 198,
+      "mse": 0.06658235347079576,
+      "mae": 0.2263700127705982,
+      "spearman": 0.36767115778885423,
+      "equal_assay_mse": 0.06845454438301082,
+      "equal_assay_spearman": 0.357974558572352,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.1413627167542775,
+      "prediction_max": 0.6387429038683573,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.05798243193833775,
+        0.07337235792572734
+      ],
+      "mse_difference_vs_reference": 0.010214948718705381,
+      "paired_mse_difference_95": [
+        -0.003276898510711812,
+        0.02296644254905959
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "guide_pairwise_ridge",
+      "n": 198,
+      "mse": 0.06583761576566571,
+      "mae": 0.2116624747936172,
+      "spearman": 0.1978014191288238,
+      "equal_assay_mse": 0.07607523622530094,
+      "equal_assay_spearman": 0.01544339053620411,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.1242054104804992,
+      "prediction_max": 0.7397331595420837,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.05287121416332841,
+        0.08491895916544384
+      ],
+      "mse_difference_vs_reference": 0.009470211013575335,
+      "paired_mse_difference_95": [
+        -0.0015481980380229344,
+        0.019787312937180238
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "guide_ridge",
+      "n": 198,
+      "mse": 0.07122762469147144,
+      "mae": 0.21435443874561427,
+      "spearman": 0.15856052510042645,
+      "equal_assay_mse": 0.08642087161712166,
+      "equal_assay_spearman": -0.017727952062580904,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.4431644082069397,
+      "prediction_max": 0.8055716753005981,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.04298968544223945,
+        0.09833058899070102
+      ],
+      "mse_difference_vs_reference": 0.01486021993938106,
+      "paired_mse_difference_95": [
+        -0.014080587560415317,
+        0.0354889209056194
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "nongraph",
+      "n": 198,
+      "mse": 0.05630123612531612,
+      "mae": 0.20064787095403833,
+      "spearman": 0.4643186798485287,
+      "equal_assay_mse": 0.06018567087534782,
+      "equal_assay_spearman": 0.3612670322273478,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.1783759494622548,
+      "prediction_max": 0.7399800221125284,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.04782430517698256,
+        0.06369842836377522
+      ],
+      "mse_difference_vs_reference": -6.616862677425589e-05,
+      "paired_mse_difference_95": [
+        -0.006167972043951012,
+        0.0035411525610633677
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_internal",
+      "model": "token_cnn",
+      "n": 198,
+      "mse": 0.05636740475209038,
+      "mae": 0.1970815208187007,
+      "spearman": 0.529408718399201,
+      "equal_assay_mse": 0.06145629971818811,
+      "equal_assay_spearman": 0.3951463036106927,
+      "ranking_pools": 0,
+      "top5_percentile": null,
+      "selected_activity": null,
+      "selection_regret": null,
+      "prediction_min": 0.0595508416493733,
+      "prediction_max": 0.7681365013122557,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.046252530345633355,
+        0.06754035436270071
+      ],
+      "mse_difference_vs_reference": 0.0,
+      "paired_mse_difference_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_sequence_components": 10
+    },
+    {
+      "split": "test_APP",
+      "model": "chemistry_tree",
+      "n": 1839,
+      "mse": 0.16859690755653362,
+      "mae": 0.3329403368308556,
+      "spearman": -0.139070318901669,
+      "equal_assay_mse": 0.1736681364534866,
+      "equal_assay_spearman": -0.0073993563903641665,
+      "ranking_pools": 17,
+      "top5_percentile": 0.5648457598251055,
+      "selected_activity": 0.5784305882352943,
+      "selection_regret": 0.2750435294117647,
+      "prediction_min": 0.4028064749844448,
+      "prediction_max": 0.6261070984421176,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.14107695574413723,
+        0.2085449363405238
+      ],
+      "mse_difference_vs_reference": -0.017688789693292323,
+      "paired_mse_difference_95": [
+        -0.03257319010405456,
+        -0.00028052471638832983
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "gnn",
+      "n": 1839,
+      "mse": 0.17472564435371676,
+      "mae": 0.34282223173707255,
+      "spearman": -0.19805291109392353,
+      "equal_assay_mse": 0.19097596417869922,
+      "equal_assay_spearman": -0.0034479136591528355,
+      "ranking_pools": 17,
+      "top5_percentile": 0.5214424030199807,
+      "selected_activity": 0.5422741176470588,
+      "selection_regret": 0.3112,
+      "prediction_min": 0.2469142079353332,
+      "prediction_max": 0.5612883369127909,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.14813547116737139,
+        0.20896695722963535
+      ],
+      "mse_difference_vs_reference": -0.011560052896109174,
+      "paired_mse_difference_95": [
+        -0.01826150488398269,
+        -0.0026340190664295364
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "gnn_no_chemistry",
+      "n": 1839,
+      "mse": 0.20718936336642155,
+      "mae": 0.34640905105066355,
+      "spearman": 0.11854676087808047,
+      "equal_assay_mse": 0.19114182590507722,
+      "equal_assay_spearman": 0.16820377195984207,
+      "ranking_pools": 17,
+      "top5_percentile": 0.6546557717728405,
+      "selected_activity": 0.6378458823529412,
+      "selection_regret": 0.21562823529411765,
+      "prediction_min": 0.6123061776161193,
+      "prediction_max": 0.7168533404668171,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.17056956887198005,
+        0.25763442627641336
+      ],
+      "mse_difference_vs_reference": 0.02090366611659561,
+      "paired_mse_difference_95": [
+        -0.009457022346183041,
+        0.056653070083911974
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "guide_pairwise_ridge",
+      "n": 1839,
+      "mse": 0.20801937029434975,
+      "mae": 0.34383525668429965,
+      "spearman": 0.1977870010173694,
+      "equal_assay_mse": 0.1930924258735311,
+      "equal_assay_spearman": -0.027035102397917923,
+      "ranking_pools": 17,
+      "top5_percentile": 0.4340371481349671,
+      "selected_activity": 0.4585788235294117,
+      "selection_regret": 0.39489529411764707,
+      "prediction_min": 0.5567803382873535,
+      "prediction_max": 0.8383453488349915,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.1702184893237072,
+        0.260199273005809
+      ],
+      "mse_difference_vs_reference": 0.02173367304452381,
+      "paired_mse_difference_95": [
+        -0.009058477989435171,
+        0.060413449271079
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "guide_ridge",
+      "n": 1839,
+      "mse": 0.30129515600468426,
+      "mae": 0.41496829223106446,
+      "spearman": 0.1390621558491302,
+      "equal_assay_mse": 0.26890903882857187,
+      "equal_assay_spearman": -0.004963844959966327,
+      "ranking_pools": 17,
+      "top5_percentile": 0.5185672992187367,
+      "selected_activity": 0.5481658823529411,
+      "selection_regret": 0.3053082352941177,
+      "prediction_min": 0.3610837459564209,
+      "prediction_max": 1.3105368614196775,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.2511057324446289,
+        0.36370181611183644
+      ],
+      "mse_difference_vs_reference": 0.11500945875485832,
+      "paired_mse_difference_95": [
+        0.06855905472014555,
+        0.1696374380100267
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "nongraph",
+      "n": 1839,
+      "mse": 0.19560870164652022,
+      "mae": 0.3612426551001734,
+      "spearman": -0.16216056778639118,
+      "equal_assay_mse": 0.22419056492283995,
+      "equal_assay_spearman": -0.016633273343388263,
+      "ranking_pools": 17,
+      "top5_percentile": 0.4971162849322962,
+      "selected_activity": 0.5024329411764705,
+      "selection_regret": 0.3510411764705882,
+      "prediction_min": 0.180484930674235,
+      "prediction_max": 0.4416841467221577,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.1655914023864263,
+        0.22943108024358383
+      ],
+      "mse_difference_vs_reference": 0.009323004396694284,
+      "paired_mse_difference_95": [
+        0.005912070953883771,
+        0.012586510868240131
+      ],
+      "bootstrap_sequence_components": 92
+    },
+    {
+      "split": "test_APP",
+      "model": "token_cnn",
+      "n": 1839,
+      "mse": 0.18628569724982594,
+      "mae": 0.354369584816583,
+      "spearman": -0.35900986310890415,
+      "equal_assay_mse": 0.20968339406933176,
+      "equal_assay_spearman": 0.043555364078922375,
+      "ranking_pools": 17,
+      "top5_percentile": 0.4528728265290559,
+      "selected_activity": 0.48289764705882354,
+      "selection_regret": 0.3705764705882353,
+      "prediction_min": 0.2583462695280711,
+      "prediction_max": 0.4358435869216918,
+      "nonfinite_predictions": 0,
+      "mse_sequence_bootstrap_95": [
+        0.15705651041360727,
+        0.21940114395029328
+      ],
+      "mse_difference_vs_reference": 0.0,
+      "paired_mse_difference_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_sequence_components": 92
+    }
+  ],
+  "chemical_effects": [
+    {
+      "model": "chemistry_tree",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.281246330512568,
+      "equal_sequence_component_mse": 0.4346992763015722,
+      "equal_component_mse_95": [
+        0.1822545059345665,
+        0.7769314923420184
+      ],
+      "mae": 0.32230385892281443,
+      "spearman": -0.15057340584464413,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": [
+        -36.31522518185298,
+        -0.1994527860572826
+      ],
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "gnn",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2921068541139842,
+      "equal_sequence_component_mse": 0.44800995558965884,
+      "equal_component_mse_95": [
+        0.19137369148808603,
+        0.7995955185372275
+      ],
+      "mae": 0.3411585004364323,
+      "spearman": 0.21580312931199455,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.13138686131386862,
+      "observed_ties": 19,
+      "predicted_ties": 46,
+      "calibration_slope_intercept": [
+        5.804371896509712,
+        -0.4007757973842267
+      ],
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "gnn_no_chemistry",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2808044722518385,
+      "equal_sequence_component_mse": 0.4341661975603766,
+      "equal_component_mse_95": [
+        0.18194499587136626,
+        0.7761509917108008
+      ],
+      "mae": 0.32186217961453983,
+      "spearman": -0.11719767989722521,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": [
+        -12819169.020032398,
+        -0.22838201283897136
+      ],
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "guide_pairwise_ridge",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2808044721153846,
+      "equal_sequence_component_mse": 0.43416619748148144,
+      "equal_component_mse_95": [
+        0.18194499569386574,
+        0.7761509917239581
+      ],
+      "mae": 0.3218621794871795,
+      "spearman": null,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": null,
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "guide_ridge",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2808044721153846,
+      "equal_sequence_component_mse": 0.43416619748148144,
+      "equal_component_mse_95": [
+        0.18194499569386574,
+        0.7761509917239581
+      ],
+      "mae": 0.3218621794871795,
+      "spearman": null,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": null,
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "nongraph",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2835085293221661,
+      "equal_sequence_component_mse": 0.43853091203843775,
+      "equal_component_mse_95": [
+        0.18406803278186015,
+        0.7828523051755503
+      ],
+      "mae": 0.32491323862534305,
+      "spearman": -0.13840793272863677,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": [
+        -16.419865384604943,
+        -0.15865795520474232
+      ],
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    },
+    {
+      "model": "token_cnn",
+      "pairs": 156,
+      "exact_sequence_backgrounds": 26,
+      "sequence_components": 12,
+      "pair_mse": 0.2841909616841111,
+      "equal_sequence_component_mse": 0.4394148533062437,
+      "equal_component_mse_95": [
+        0.1851628792945707,
+        0.7843805889569921
+      ],
+      "mae": 0.3260032572173665,
+      "spearman": -0.08019390568250186,
+      "observed_non_ties": 137,
+      "sign_accuracy_on_observed_non_ties": 0.0,
+      "observed_ties": 19,
+      "predicted_ties": 156,
+      "calibration_slope_intercept": [
+        -24.786088236800023,
+        -0.05244485236487725
+      ],
+      "measurement_uncertainty": "Reported endpoint SDs preserved; no fabricated SE or shared-control covariance."
+    }
+  ],
+  "chemical_effect_comparisons": [
+    {
+      "model": "chemistry_tree",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": -0.004715577004671688,
+      "paired_95": [
+        -0.008480183126998931,
+        -0.0018573528513972648
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "gnn",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": 0.00859510228341519,
+      "paired_95": [
+        0.0022559273250922357,
+        0.01792961968494565
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "gnn_no_chemistry",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": -0.005248655745867116,
+      "paired_95": [
+        -0.009220711788260198,
+        -0.002304241548546657
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "guide_pairwise_ridge",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": -0.005248655824762329,
+      "paired_95": [
+        -0.009220711870749165,
+        -0.002304241670240858
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "guide_ridge",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": -0.005248655824762329,
+      "paired_95": [
+        -0.009220711870749165,
+        -0.002304241670240858
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "nongraph",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": -0.0008839412678060618,
+      "paired_95": [
+        -0.00352531775667782,
+        0.001448716518638793
+      ],
+      "sequence_components": 12
+    },
+    {
+      "model": "token_cnn",
+      "reference": "token_cnn",
+      "equal_component_mse_difference": 0.0,
+      "paired_95": [
+        0.0,
+        0.0
+      ],
+      "sequence_components": 12
+    }
+  ],
+  "B3": {
+    "eligible_rectangles": 0,
+    "status": "incomplete: no complete two-single-position measured factorial rectangle in admitted matched blocks"
+  },
+  "uncertainty_scope": "2000 paired sequence-component bootstrap draws conditional on these observed source families. APP has one related source-family group; intervals do not estimate new-study or new-laboratory variation. Two internal held-out study components and only three validation sequence components limit external validity. Ranking endpoints have per-pool evidence and descriptive aggregates; no independent-assay confidence interval is asserted.",
+  "ranking_scope": "Primary-table-defined target/cell/dose/time pools, all n>=20. Different doses and related studies are not independent biological cohorts.",
+  "B2_scope": "Retrospective differences of primary-table means for observed matched chemical patterns; no claimed causal mechanism or calibrated population effect.",
+  "wet_lab_validation_performed": false,
+  "nonfinite_or_failed_prediction_rows": 0,
+  "all_negative_results_preserved": true,
+  "strongest_test_baseline_posthoc": "chemistry_tree"
+}

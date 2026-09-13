@@ -1,0 +1,164 @@
+{
+  "tag": "grouped/fold2/development",
+  "kind": "nongraph",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr003_wd01",
+    "lr": 0.003,
+    "weight_decay": 0.01
+  },
+  "seed": 701,
+  "lambda_pair": 0.0,
+  "training_n": 2127,
+  "validation_n": 646,
+  "test_n": 0,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 374,
+  "selected_updates": 119,
+  "selected_epoch": 7,
+  "epochs_executed": 22,
+  "validation_score": 0.06578700244426727,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 17,
+      "training_normalized_loss": 1.654085148933296,
+      "validation_score": 0.09473243355751038
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 34,
+      "training_normalized_loss": 0.7829608988414418,
+      "validation_score": 0.07314738631248474
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 51,
+      "training_normalized_loss": 0.6719031805828473,
+      "validation_score": 0.06690191477537155
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 68,
+      "training_normalized_loss": 0.6043432892125483,
+      "validation_score": 0.0735323429107666
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 85,
+      "training_normalized_loss": 0.5783091285837386,
+      "validation_score": 0.07313862442970276
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 102,
+      "training_normalized_loss": 0.5070379340962508,
+      "validation_score": 0.0667182058095932
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 119,
+      "training_normalized_loss": 0.4477964510057922,
+      "validation_score": 0.06578700244426727
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 136,
+      "training_normalized_loss": 0.4019144924106203,
+      "validation_score": 0.06851767003536224
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 153,
+      "training_normalized_loss": 0.4225540813365115,
+      "validation_score": 0.07725876569747925
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 170,
+      "training_normalized_loss": 0.32406484642161076,
+      "validation_score": 0.06864142417907715
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 187,
+      "training_normalized_loss": 0.3202488366207944,
+      "validation_score": 0.0756927877664566
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 204,
+      "training_normalized_loss": 0.2918010064285576,
+      "validation_score": 0.06947597116231918
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 221,
+      "training_normalized_loss": 0.27127542099764385,
+      "validation_score": 0.06896904110908508
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 238,
+      "training_normalized_loss": 0.22470166671847758,
+      "validation_score": 0.07855205982923508
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 255,
+      "training_normalized_loss": 0.2537490484240361,
+      "validation_score": 0.07823903858661652
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 272,
+      "training_normalized_loss": 0.2180430293923877,
+      "validation_score": 0.07363656908273697
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 289,
+      "training_normalized_loss": 0.20856054336687294,
+      "validation_score": 0.07588686048984528
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 306,
+      "training_normalized_loss": 0.22655804859510206,
+      "validation_score": 0.06933945417404175
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 323,
+      "training_normalized_loss": 0.19142217881238455,
+      "validation_score": 0.071525439620018
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 340,
+      "training_normalized_loss": 0.1895093577228693,
+      "validation_score": 0.07604685425758362
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 357,
+      "training_normalized_loss": 0.16961706785960662,
+      "validation_score": 0.07496243715286255
+    },
+    {
+      "epoch": 22,
+      "optimizer_updates": 374,
+      "training_normalized_loss": 0.17070744642711996,
+      "validation_score": 0.07570447772741318
+    }
+  ],
+  "checkpoint": "fits/grouped/fold2/development/nongraph-lr003_wd01-s701-l0/best.pt",
+  "checkpoint_sha256": "35ce64f274546a4ce4f2cbec11b6053a4367742b77f6a6cba6526c85806ec9de",
+  "wall_s": 3.0494755068793893,
+  "cpu_s": 3.039146286999994,
+  "device": "cuda:0",
+  "max_gradient_sum": 193.4910699725151,
+  "peak_gpu_allocated_bytes": 457591808
+}

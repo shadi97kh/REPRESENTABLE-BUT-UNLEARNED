@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/opt/miniforge3/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--target",
+    "/home/shadi/iclr2027/sirna_gnn_empirical/v1/_deps",
+    "beautifulsoup4==4.14.3",
+    "lxml==6.0.2"
+  ],
+  "scope": "Fresh task-local parser dependencies; no global environment changes."
+}

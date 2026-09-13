@@ -1,0 +1,8 @@
+{
+  "workbook_sha256": "095130ef5faffe1423d2143372d3e599b85f5b8038d9382d8f4ac442a93e5619",
+  "primary_html_sha256": "9d7b025a587eccdcb5ca0404c6e8c1618f51cec1860a7cf36054ad08d88d42c5",
+  "primary_url": "https://academic.oup.com/nar/article/53/12/gkaf479/8171869",
+  "conversion": "Decode literal (m/f/r BASE) annotations in printed order only; T->U only in target matching. No reverse/complement repair of an annotated strand.",
+  "S1": "All 1248 printed guide strings share target-sense 13mers; quarantine retained. No correction validating a conversion was found in checked publisher/PubMed text.",
+  "S7": "Audit each printed duplex against target reverse complement and its printed passenger. Only structurally consistent rows may enter separately qualified endpoint prediction. No prediction-accuracy-based orientation choice."
+}

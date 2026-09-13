@@ -1,0 +1,137 @@
+{
+  "phase": "final",
+  "kind": "gnn",
+  "seed": 3301,
+  "config": {
+    "hidden": 32,
+    "batch_size": 128,
+    "max_epochs": 80,
+    "min_epochs": 10,
+    "patience": 15,
+    "name": "lr003_wd01",
+    "lr": 0.003,
+    "weight_decay": 0.01
+  },
+  "epochs_executed": 17,
+  "optimizer_updates": 357,
+  "selected_epoch": 2,
+  "selected_checkpoint_optimizer_updates": 42,
+  "validation_equal_study_mse": 0.0676710233092308,
+  "train_equal_study_mse": 0.042327266186475754,
+  "parameters": 153345,
+  "message_gradient_max": 5.3593080043792725,
+  "message_parameter_absolute_change_from_initialization": 117.41727066040039,
+  "wall_s": 1.5667629991658032,
+  "cpu_s": 1.5562861040000016,
+  "gpu_active_wall_s": 1.5667629991658032,
+  "device": "cuda:0",
+  "cuda_peak_allocated_bytes": 554049024,
+  "checkpoint": "fits/final/gnn-seed3301-lr003_wd01/best.pt",
+  "last_checkpoint": "fits/final/gnn-seed3301-lr003_wd01/last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 21,
+      "train_weighted_normalized_mse": 1.7555261369615862,
+      "validation_equal_study_mse": 0.07218948006629944
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 42,
+      "train_weighted_normalized_mse": 0.9039084263094853,
+      "validation_equal_study_mse": 0.0676710233092308
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 63,
+      "train_weighted_normalized_mse": 0.8000041210551527,
+      "validation_equal_study_mse": 0.11153926700353622
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 84,
+      "train_weighted_normalized_mse": 0.7265236883878889,
+      "validation_equal_study_mse": 0.07635486871004105
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 105,
+      "train_weighted_normalized_mse": 0.6418584645112234,
+      "validation_equal_study_mse": 0.13916879892349243
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 126,
+      "train_weighted_normalized_mse": 0.5967461458958475,
+      "validation_equal_study_mse": 0.10096471756696701
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 147,
+      "train_weighted_normalized_mse": 0.5676323375171681,
+      "validation_equal_study_mse": 0.11064183712005615
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 168,
+      "train_weighted_normalized_mse": 0.5227921381536006,
+      "validation_equal_study_mse": 0.10999853163957596
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 189,
+      "train_weighted_normalized_mse": 0.5101087394100241,
+      "validation_equal_study_mse": 0.08391866087913513
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 210,
+      "train_weighted_normalized_mse": 0.5170720291110458,
+      "validation_equal_study_mse": 0.10334466397762299
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 231,
+      "train_weighted_normalized_mse": 0.49922353669331443,
+      "validation_equal_study_mse": 0.08424638211727142
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 252,
+      "train_weighted_normalized_mse": 0.46167920168946014,
+      "validation_equal_study_mse": 0.08514105528593063
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 273,
+      "train_weighted_normalized_mse": 0.43581245477564534,
+      "validation_equal_study_mse": 0.07347489148378372
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 294,
+      "train_weighted_normalized_mse": 0.45726641013889213,
+      "validation_equal_study_mse": 0.13932211697101593
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 315,
+      "train_weighted_normalized_mse": 0.49117275146428446,
+      "validation_equal_study_mse": 0.10685426741838455
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 336,
+      "train_weighted_normalized_mse": 0.4654675941837715,
+      "validation_equal_study_mse": 0.07392846047878265
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 357,
+      "train_weighted_normalized_mse": 0.43420403673734176,
+      "validation_equal_study_mse": 0.12024824321269989
+    }
+  ],
+  "checkpoint_sha256": "0a45402ba34bc156d95d2999ac127cedf1d61870576d8429c0c1cf7fa6e53383",
+  "completed_utc": "2026-09-13T19:23:47.426202+00:00"
+}

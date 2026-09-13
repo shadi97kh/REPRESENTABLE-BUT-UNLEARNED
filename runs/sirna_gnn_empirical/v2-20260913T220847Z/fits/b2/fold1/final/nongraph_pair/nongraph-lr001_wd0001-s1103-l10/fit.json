@@ -1,0 +1,158 @@
+{
+  "tag": "b2/fold1/final/nongraph_pair",
+  "kind": "nongraph",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "lr001_wd0001",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "seed": 1103,
+  "lambda_pair": 10.0,
+  "training_n": 144,
+  "validation_n": 72,
+  "test_n": 96,
+  "parameters": 153345,
+  "parameter_unit": "scalars",
+  "optimizer_updates": 21,
+  "selected_updates": 6,
+  "selected_epoch": 6,
+  "epochs_executed": 21,
+  "validation_score": 0.28330233693122864,
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 1,
+      "training_normalized_loss": 12.057795524597168,
+      "validation_score": 0.39666515588760376
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 2,
+      "training_normalized_loss": 11.625250816345215,
+      "validation_score": 0.3593460023403168
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 3,
+      "training_normalized_loss": 10.53979778289795,
+      "validation_score": 0.3288722038269043
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 4,
+      "training_normalized_loss": 11.135358810424805,
+      "validation_score": 0.31276798248291016
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 5,
+      "training_normalized_loss": 9.966475486755371,
+      "validation_score": 0.2935517728328705
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 6,
+      "training_normalized_loss": 9.844085693359375,
+      "validation_score": 0.28330233693122864
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 7,
+      "training_normalized_loss": 9.604330062866211,
+      "validation_score": 0.2849087119102478
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 8,
+      "training_normalized_loss": 9.229386329650879,
+      "validation_score": 0.2956143021583557
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 9,
+      "training_normalized_loss": 9.054410934448242,
+      "validation_score": 0.30084654688835144
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 10,
+      "training_normalized_loss": 9.243871688842773,
+      "validation_score": 0.29484421014785767
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 11,
+      "training_normalized_loss": 9.789237976074219,
+      "validation_score": 0.29261550307273865
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 12,
+      "training_normalized_loss": 9.7950439453125,
+      "validation_score": 0.2905944585800171
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 13,
+      "training_normalized_loss": 8.343659400939941,
+      "validation_score": 0.2995627522468567
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 14,
+      "training_normalized_loss": 8.764599800109863,
+      "validation_score": 0.30704405903816223
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 15,
+      "training_normalized_loss": 8.372708320617676,
+      "validation_score": 0.3063412010669708
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 16,
+      "training_normalized_loss": 8.952399253845215,
+      "validation_score": 0.2984837591648102
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 17,
+      "training_normalized_loss": 8.262709617614746,
+      "validation_score": 0.29180142283439636
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 18,
+      "training_normalized_loss": 7.364795684814453,
+      "validation_score": 0.28583112359046936
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 19,
+      "training_normalized_loss": 7.245233058929443,
+      "validation_score": 0.28784817457199097
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 20,
+      "training_normalized_loss": 6.827880859375,
+      "validation_score": 0.29839393496513367
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 21,
+      "training_normalized_loss": 6.564279079437256,
+      "validation_score": 0.3096972703933716
+    }
+  ],
+  "checkpoint": "fits/b2/fold1/final/nongraph_pair/nongraph-lr001_wd0001-s1103-l10/best.pt",
+  "checkpoint_sha256": "41991fbbfa3dd4152d2e60ed0ebe6a64ba59009430ea081c72003268501bdcf0",
+  "wall_s": 0.3785592361818999,
+  "cpu_s": 0.38697857500000055,
+  "device": "cuda:0",
+  "max_gradient_sum": 75.26839202642441,
+  "peak_gpu_allocated_bytes": 137239552
+}

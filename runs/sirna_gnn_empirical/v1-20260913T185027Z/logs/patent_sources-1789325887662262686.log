@@ -1,0 +1,22 @@
+PATENT WO2022165172A1 BYTES 10963853 TEXT 209
+PATENT WO2020132227A2 BYTES 21075452 TEXT 406
+[
+  {
+    "patent": "WO2020132227A2",
+    "url": "https://patentimages.storage.googleapis.com/9c/f2/ff/b546052fd18691/WO2020132227A2.pdf",
+    "status": "acquired",
+    "pdf": "raw/WO2020132227A2.pdf",
+    "text": "source_inspection/WO2020132227A2_pdf.txt",
+    "sha256": "80ac1b62ed1c68fc26a491f209ea346be0f1bea7db80146655a634d560c0c6e3",
+    "bytes": 21075452
+  },
+  {
+    "patent": "WO2022165172A1",
+    "url": "https://patentimages.storage.googleapis.com/f8/4b/3a/d7d8186d813cc4/WO2022165172A1.pdf",
+    "status": "acquired",
+    "pdf": "raw/WO2022165172A1.pdf",
+    "text": "source_inspection/WO2022165172A1_pdf.txt",
+    "sha256": "98eee380954adf5fec986a54d3611472ef6270241e6983aa97d942793644b17c",
+    "bytes": 10963853
+  }
+]

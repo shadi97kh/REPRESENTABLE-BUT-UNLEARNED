@@ -1,0 +1,30 @@
+{
+  "tag": "deployment",
+  "kind": "chemistry_tree",
+  "R": true,
+  "C": true,
+  "config": {
+    "name": "leaf2",
+    "min_samples_leaf": 2
+  },
+  "seed": 1103,
+  "lambda_pair": 0.0,
+  "training_n": 2927,
+  "validation_n": 0,
+  "test_n": 1839,
+  "parameters": 683574,
+  "parameter_unit": "tree nodes",
+  "optimizer_updates": 0,
+  "selected_updates": 0,
+  "selected_epoch": 0,
+  "epochs_executed": 0,
+  "validation_score": 0.0,
+  "history": [],
+  "checkpoint": "fits/deployment/chemistry_tree-leaf2-s1103-l0/model.pkl",
+  "checkpoint_sha256": "328fb1d6cd0a1a5b5215d19857e8dd91303c12f0517abe65831d4ec4197c4d20",
+  "wall_s": 4.394820323912427,
+  "cpu_s": 8.469336869000017,
+  "device": "cpu",
+  "max_gradient_sum": 0.0,
+  "peak_gpu_allocated_bytes": 68157440
+}

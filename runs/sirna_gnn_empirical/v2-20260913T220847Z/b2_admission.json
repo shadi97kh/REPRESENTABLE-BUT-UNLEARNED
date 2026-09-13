@@ -1,0 +1,12 @@
+{
+  "outside_APP_rows": 2927,
+  "outside_APP_rows_with_complete_comparability": 0,
+  "admitted_independent_training_pairs": 0,
+  "status": "No outside-APP training pair admitted; ENsiRNA assay identity, concentration units, time and delivery unresolved. Published shared-source rows cannot stand in for primary matched evidence.",
+  "pair_count": 156,
+  "endpoint_count": 312,
+  "sequence_components": 12,
+  "backgrounds": 26,
+  "shared_control": "AD1955 is a named assay normalizer; exact shared-well identity/covariance not reported. Fold grouping covers known sequence dependence, not certified independent measurement noise.",
+  "B3_complete_rectangles": 0
+}
