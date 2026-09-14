@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-13T19:31:45.494917+00:00",
+  "ensemble": "Arithmetic mean of the three prespecified initialization predictions for each stochastic method. Deterministic ridge uses its one fitted prediction. No seed chosen by test scores.",
+  "seed_variability": "Sample SD across optimization seeds, not biological uncertainty.",
+  "reference": "token_cnn",
+  "test_target_access": false,
+  "checkpoint_reload_validation_tolerance": 2e-06
+}

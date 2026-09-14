@@ -1,0 +1,350 @@
+{
+  "docs/sirna_gnn_empirical/publication/v1/README.md": {
+    "bytes": 347,
+    "sha256": "f838471aa4fadbe3b440325859b5818c70206ebca54173e79b5a12811dcf8037"
+  },
+  "docs/sirna_gnn_empirical/v1/resource_accounting.json": {
+    "bytes": 717,
+    "sha256": "5656421e0343e9927165d0bb4bb0fe02df7da2c52ce0628a5e80724b67ba8063"
+  },
+  "docs/sirna_gnn_empirical/v2/resource_accounting.json": {
+    "bytes": 723,
+    "sha256": "f75721e0d474c0912edc012f2466e0df4f36c6d3e48a6e177c5602e418ed1d49"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/chemical_effect_metrics.csv": {
+    "bytes": 2149,
+    "sha256": "111727be19cf43151a3e393174e8655229691246c196ea06f796a2396ab7df26"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/chemical_effect_paired_comparisons.json": {
+    "bytes": 1636,
+    "sha256": "8c3333a6e889f52d332562871fb2726f81455d1b9ce4b6840cdc9bdda7200b80"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/environment_packages.json": {
+    "bytes": 5791,
+    "sha256": "a026283e7d009e93a45abac342812937b9b046bb6314fb53ca54092524f82826"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/evaluation_results.json": {
+    "bytes": 20391,
+    "sha256": "16ba6a0b1ed2a415e36ce67c91f83460477d36dab280b934283f1f6289366672"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/frozen_selection.json": {
+    "bytes": 3590,
+    "sha256": "913746ac609d0cd7f59434e7579319cfe459b4df9fb97d1a01c9c815aaaad844"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/model_parameter_dictionaries.json": {
+    "bytes": 2121,
+    "sha256": "9b2ee1c774c62fc225f596483e727e598d6a4a40cd724f7876a865d71462ebda"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/performance.csv": {
+    "bytes": 4619,
+    "sha256": "73e02e1abf56e41750d23f21332813ec8d40cf2225272e189f8d583fd0f55494"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/prediction_protocol.json": {
+    "bytes": 453,
+    "sha256": "2de7a9366ad984e0bc55eb81e2f178edccaa17fd9a9e41d4b3c1ad8c8f1e4cb7"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/profile.json": {
+    "bytes": 1517,
+    "sha256": "7fbe9fbba176bd24ec578df888344f3e9bf3c739387e37ef8cc4b5fd0368d93f"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/resource_plan.json": {
+    "bytes": 1648,
+    "sha256": "4a0fcba47a9c60dcfaa4ff04442fee6ce673279225458e16f1800d8a0d3d6e3b"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/seed_metrics.csv": {
+    "bytes": 2348,
+    "sha256": "eec6299ded1c043042a0afb1c3d1729f5e7786225e3050b85a7010ad2073d3d0"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/test_APP_paired_comparisons.json": {
+    "bytes": 4070,
+    "sha256": "91c01cddfbf0fea7d53991214f39a271fe7b56a8586c5d9a3a512858056facd5"
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/test_internal_paired_comparisons.json": {
+    "bytes": 4096,
+    "sha256": "6a223b1ea888a05533b45d82c1b1768b3f9deed0bb8fd7eb514a914468c9f717"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/B1_comparison.csv": {
+    "bytes": 26181,
+    "sha256": "caac77e12f8b97d250bf1ccdf541e95bed20964ea9a5961bca20fe344204bac9"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/B2_fold_results.csv": {
+    "bytes": 20768,
+    "sha256": "da0152cdf97dcbfc867df5d4b34bbed77c7795ceba5c0e0a5fd07635613ebd3a"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/B2_supervised_comparison.csv": {
+    "bytes": 5448,
+    "sha256": "09203adeb1a9735203a450023f58c77ad682074611460d563c61c9f917075a3f"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/all_fit_summary.csv": {
+    "bytes": 77424,
+    "sha256": "ca2f557a3d9684315d3f0584b7544ecd3360ffa37ea05a1754b410b82c2a9482"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/chemistry_support.csv": {
+    "bytes": 380,
+    "sha256": "cc98dde45c8fe0a51471877cb0d0e56c81e0896c396b771cd0eb01d6e946b648"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/context_support.csv": {
+    "bytes": 2065,
+    "sha256": "0d3bb20019bad35b16f8d657c1295a74522de7c98cb5a636e4ba41eee5b0eef5"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/data_gradients.csv": {
+    "bytes": 10869,
+    "sha256": "3ca0abfe05437312fa6acc18ba494af7449c5c91d4ddaf3228405dbd2f2bac19"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/deployment_selection.json": {
+    "bytes": 1253,
+    "sha256": "d7087160851e0503185537106de34c97146fcac9c54a8581e2064a686a3c149f"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/environment.json": {
+    "bytes": 11439,
+    "sha256": "6d097c2e9f539b1730c9bc30bfd86a123db7de2d1c5692d054bbb1ee94dbf798"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/external_comparison.csv": {
+    "bytes": 1300,
+    "sha256": "2581f68502b4e31a74286be215e5c2605aa0b3680793851fc895d62f0020800e"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/external_paired_intervals.csv": {
+    "bytes": 683,
+    "sha256": "4c4037fe56034e5e95574d0782870d66d914e54944b9068ce2f9a96fe1e1dbef"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/feature_support.csv": {
+    "bytes": 11158,
+    "sha256": "7315a4a037be57c6a341a8a6c1e5ee54951992ca95f0de67baee89a133dd50e5"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/grouped_comparison.csv": {
+    "bytes": 1728,
+    "sha256": "ecf14fe94dd18718a2b370b39ca3f64393bda2e2048ec5c9d87e4f3022ff785e"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/paired_comparisons.csv": {
+    "bytes": 2701,
+    "sha256": "777bcd5b47832cc46deeaa3a897e8f4017f08800465448dec5595b41dcfb56a0"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/profile.json": {
+    "bytes": 650,
+    "sha256": "d6c959669adc657d857b32037899ebda6c1387dd8b7329d98f1539068f13e982"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/protocol.json": {
+    "bytes": 7712,
+    "sha256": "85921035b3b6cbf14b261051c2bd92283d97b71b7da4783d0dc4d15e343396cc"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/relation_support.csv": {
+    "bytes": 1252,
+    "sha256": "0a7b3d045ace12d0a60b6f959ca69bb9b02904766be45273b2cf1b2f98998470"
+  },
+  "runs/sirna_gnn_empirical/v2-20260913T220847Z/support_checks.json": {
+    "bytes": 317,
+    "sha256": "1cfbfdd32474aac89fb4cbc8d068af7a11793c72ca55f99c90e8d1b539a2a559"
+  },
+  "sirna_gnn_empirical/README.md": {
+    "bytes": 3608,
+    "sha256": "7da4d2d5742bd88566a49455952790abfcf9d7b135ebe1aa0f5de90d1db5fb17"
+  },
+  "sirna_gnn_empirical/presentation/README.md": {
+    "bytes": 302,
+    "sha256": "a9dab6d5440b7eb0a21f555e70dccf095f476e274ca506e14d5729936ee5cab0"
+  },
+  "sirna_gnn_empirical/presentation/figures/appendix_context_support.pdf": {
+    "bytes": 13369,
+    "sha256": "713113e7698eb847b3428f8074b0ef038f87f9ad97eae9a8ae24c2db46e4781f"
+  },
+  "sirna_gnn_empirical/presentation/figures/appendix_factorial.pdf": {
+    "bytes": 9312,
+    "sha256": "559ddaea2270c9bb3ff3641f2bde381f7d939255bcb2b9dffd38fe54bfe70a3a"
+  },
+  "sirna_gnn_empirical/presentation/figures/appendix_frozen.pdf": {
+    "bytes": 11250,
+    "sha256": "2a546357fc435c246c899432be1a5b044f9db648c235cb524066de37a3f1127b"
+  },
+  "sirna_gnn_empirical/presentation/figures/appendix_relation_support.pdf": {
+    "bytes": 15653,
+    "sha256": "8ccfe9a2e7d437d25b976e5645c26db3afb3a66d7d17bcdda671bc16d28e7391"
+  },
+  "sirna_gnn_empirical/presentation/figures/appendix_selection.pdf": {
+    "bytes": 12525,
+    "sha256": "7736271b6d42da4c4248f8fdd65259cda5835b1660d2a0bd33cc3bbe37394290"
+  },
+  "sirna_gnn_empirical/presentation/figures/architecture_workflow.png": {
+    "bytes": 748622,
+    "sha256": "f4751cc8729ba3109a9b35d6496c0f4d191dd7c3b8db25f011edae608995535b"
+  },
+  "sirna_gnn_empirical/presentation/figures/main_b1.pdf": {
+    "bytes": 15269,
+    "sha256": "765109a3db2ae2f40ca0994f2d3e122d058ff68a76361b24fb9cd774adf8b462"
+  },
+  "sirna_gnn_empirical/presentation/figures/main_b1.svg": {
+    "bytes": 20396,
+    "sha256": "294214277de1eee193ff95e0a0457bd250e0b5a50d5c54791b13c45f0c279fd6"
+  },
+  "sirna_gnn_empirical/presentation/figures/main_ranking.pdf": {
+    "bytes": 17152,
+    "sha256": "1ff143d6ae447bdd6e79338af50536a4aa70f2fe22c5688e4b68cfe7bb8c92b7"
+  },
+  "sirna_gnn_empirical/presentation/figures/main_ranking.svg": {
+    "bytes": 31280,
+    "sha256": "4f6488eee5d386fd1545a85400e03ed066dd3dff9b4f2bb906605452587b3159"
+  },
+  "sirna_gnn_empirical/v1/README.md": {
+    "bytes": 205,
+    "sha256": "be8126a3839da57d515834eff2ca3a2b2938e84f8f131942dc7f2c366d60e142"
+  },
+  "sirna_gnn_empirical/v1/acquire.py": {
+    "bytes": 3064,
+    "sha256": "fce57a857e0ec670ea3faec7cf5af58da4a337ad91a5b29e8cf33e4aceba09b3"
+  },
+  "sirna_gnn_empirical/v1/active_run.txt": {
+    "bytes": 45,
+    "sha256": "215babf52b1302a4c33e7c237bbeaae144f1b99f2751fa97a9f51a7df1104b5a"
+  },
+  "sirna_gnn_empirical/v1/common.py": {
+    "bytes": 5071,
+    "sha256": "db7b0c9aa06e050b5a607209919d0da1bfd309cb1c9ea30ca721944d0a7a97f2"
+  },
+  "sirna_gnn_empirical/v1/dependencies.py": {
+    "bytes": 633,
+    "sha256": "924c719b7e308f263f639c28c4592fcd228e318024b3132f5c0adef0b1e82e61"
+  },
+  "sirna_gnn_empirical/v1/develop.py": {
+    "bytes": 2766,
+    "sha256": "18c90d659aa88546f30f39cd141a5c4bb2ca13a9feb539e3254e6816b294f725"
+  },
+  "sirna_gnn_empirical/v1/evaluate.py": {
+    "bytes": 10200,
+    "sha256": "451875c8733412ef918e2924e44ddd067f6fc6e6452ce0cae610608a2c0e716a"
+  },
+  "sirna_gnn_empirical/v1/figures.py": {
+    "bytes": 10643,
+    "sha256": "93d870a21e81147866497915ad3984963e2e0c7eee47edf39376dc36b453e013"
+  },
+  "sirna_gnn_empirical/v1/fit_engine.py": {
+    "bytes": 8918,
+    "sha256": "f01091595fad71bbee95c59fa1dfe362437a53c11c045c62857cc70034f7f017"
+  },
+  "sirna_gnn_empirical/v1/freeze.py": {
+    "bytes": 1614,
+    "sha256": "d2104d564a59cdb82c7feb0a299eea30511656727ae3e93660e727f5ca34fd37"
+  },
+  "sirna_gnn_empirical/v1/graphs.py": {
+    "bytes": 5970,
+    "sha256": "88bec4727f495ab55f0995d81a695dc31459a0d8b5d60bbf72b0a704088cdb96"
+  },
+  "sirna_gnn_empirical/v1/inspect_sources.py": {
+    "bytes": 2261,
+    "sha256": "f205bd223fd45707ff9e8798b8d1a37baf279a0d3ee561dc5e3c31c920e4726e"
+  },
+  "sirna_gnn_empirical/v1/models.py": {
+    "bytes": 3109,
+    "sha256": "06ab6b8cb4d288bc8a1500ecbaae2114231360e48c2c1251f0a012bf4cde35b0"
+  },
+  "sirna_gnn_empirical/v1/patent_sources.py": {
+    "bytes": 1686,
+    "sha256": "a3976fa18d635bd2a525035d002c631ced69acc1af38aa884df415c4cb67ea3a"
+  },
+  "sirna_gnn_empirical/v1/predict.py": {
+    "bytes": 4619,
+    "sha256": "f3b540ba855ff9ea54c2bafb16616d606cb4b5fad7f5cf6d581f6768f387eb6d"
+  },
+  "sirna_gnn_empirical/v1/primary_tables.py": {
+    "bytes": 1784,
+    "sha256": "afbb7f5bb487787e92a2c5f12349841126cff2b2c4219cc23dc5cfdfe63f7e32"
+  },
+  "sirna_gnn_empirical/v1/reconcile.py": {
+    "bytes": 6744,
+    "sha256": "71655ef4d836d903b7ced24d7d336e1a3239622a1d4a2b2de7352bbaed5cbade"
+  },
+  "sirna_gnn_empirical/v1/requirements-recorded.txt": {
+    "bytes": 264,
+    "sha256": "6d2b828e0e79228b3ff5d1e0b8fcdb8e479037ab13285e624eb4d7e7b9fe210a"
+  },
+  "sirna_gnn_empirical/v1/run_all.sh": {
+    "bytes": 329,
+    "sha256": "025512306ff59d7b9ea68ba0ec84177b3b0ae59aae68d4b8fa67a9017543403f"
+  },
+  "sirna_gnn_empirical/v1/runner.py": {
+    "bytes": 4764,
+    "sha256": "dc56fe39b4f86f20ce722a41ea7339cd1c72e60fc4724f4201233737a6c4e16b"
+  },
+  "sirna_gnn_empirical/v1/split.py": {
+    "bytes": 6019,
+    "sha256": "f555a08fd99a6fd76b94a7f71b08551e1f5e4d3fa4644c04235f15e7153186b6"
+  },
+  "sirna_gnn_empirical/v1/supplements.py": {
+    "bytes": 1917,
+    "sha256": "70bf9a62aea9b78e5d0e76a2d3bfaa5f3eb9fb4f31a5f90bb3d737e9fb68e413"
+  },
+  "sirna_gnn_empirical/v1/train.py": {
+    "bytes": 1027,
+    "sha256": "6e8d18af724eed3d7278761eb67edcb56d8d6183c25c388765bab49475dff4c8"
+  },
+  "sirna_gnn_empirical/v1/training_profile.py": {
+    "bytes": 2959,
+    "sha256": "176a2bbae5a3901869716b9e04defc123b1b7f6103861798c7c7100dcc5e8bc5"
+  },
+  "sirna_gnn_empirical/v1/verify_assays.py": {
+    "bytes": 7517,
+    "sha256": "92afff1561b31a659ce7c89b7c6751f213ce6592d11ea405b8765e1c5b2ca17d"
+  },
+  "sirna_gnn_empirical/v2/README.md": {
+    "bytes": 205,
+    "sha256": "4daf628f46e57d5c4d942f0837f8df8142fccd42ec4ba200163b25753aa1df1e"
+  },
+  "sirna_gnn_empirical/v2/active_run.txt": {
+    "bytes": 45,
+    "sha256": "1069872b146e409d91eccd11c0f4e4b3708b28015f9feb63dd73174331ea1c5e"
+  },
+  "sirna_gnn_empirical/v2/audit.py": {
+    "bytes": 6291,
+    "sha256": "74d1319f53d10b7c4e0423109f9495b7eb4965cce9159a7367180171b4b8f094"
+  },
+  "sirna_gnn_empirical/v2/b2.py": {
+    "bytes": 4927,
+    "sha256": "2fdbafeb3253e2aefc5e196c0fe5988d50697d26adccfbc75e820e092bb0b3c3"
+  },
+  "sirna_gnn_empirical/v2/core.py": {
+    "bytes": 13278,
+    "sha256": "1171d6c2c737124d8d196f382d5a77c8735dbb0a0987a420bdb411be6d1163df"
+  },
+  "sirna_gnn_empirical/v2/evaluate.py": {
+    "bytes": 9865,
+    "sha256": "4dbd9706c9bd54f1d67f209fb6a60463eceac7bac323d28d88962854daabb339"
+  },
+  "sirna_gnn_empirical/v2/external.py": {
+    "bytes": 7857,
+    "sha256": "aecaca4e75f4c3fe731ad7d8a68a97e9997527c142c6561e94e48190b6b52ffd"
+  },
+  "sirna_gnn_empirical/v2/external_uncertainty.py": {
+    "bytes": 1041,
+    "sha256": "aa925c8e1ce43a6188fc178fa0f1a9cd1bea529007391bab31d14a88fdf84b75"
+  },
+  "sirna_gnn_empirical/v2/factorial.py": {
+    "bytes": 1910,
+    "sha256": "97a9f4a9cd8d67d859d21b7e5ae5a26fd3cdb11aa3ce0ccdf530f8c05cdc2518"
+  },
+  "sirna_gnn_empirical/v2/figures.py": {
+    "bytes": 8216,
+    "sha256": "bf2027cdf470bf4d1ab9964dc24bfd31dab9ab82003aebbf1b9e6b318a63eabb"
+  },
+  "sirna_gnn_empirical/v2/grouped.py": {
+    "bytes": 2500,
+    "sha256": "1aa5c328055236a9f98eebc8a1c271ca689922fc2b0a82409102afd4d0ab6f5e"
+  },
+  "sirna_gnn_empirical/v2/plan.py": {
+    "bytes": 6153,
+    "sha256": "edbf15c5d75816935d6a1dc4b194ac7bb22555c86f9ae3466d545f4026a26b00"
+  },
+  "sirna_gnn_empirical/v2/run_all.sh": {
+    "bytes": 164,
+    "sha256": "f73f028f0ba7328491c946820d39229c3a38b14924371eb69077e7d8919cbbf9"
+  },
+  "sirna_gnn_empirical/v2/runner.py": {
+    "bytes": 2592,
+    "sha256": "a9734c0f480f5853036bb72bb25e47ae66adecee594e391f567291ca61b0b79f"
+  },
+  "sirna_gnn_empirical/v2/source_checks.py": {
+    "bytes": 2059,
+    "sha256": "32b10a498b49bb552d6aaa844a4576e874a7ff592e584cdb06367e6d18c9bf4d"
+  },
+  "sirna_gnn_empirical/verify_published.py": {
+    "bytes": 772,
+    "sha256": "b1f0a5b400a1b42d23e0bbc9769ae4d42530a1df6f9c83d2dbf4eb4dcc65e7ac"
+  }
+}

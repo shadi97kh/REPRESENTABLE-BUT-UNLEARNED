@@ -1,0 +1,10 @@
+{
+  "stage_attempts": 23,
+  "child_cpu_s": 166.52516899999998,
+  "aggregate_stage_wall_s": 152.203244012082,
+  "maximum_child_peak_rss_kib": 1599240,
+  "gpu_fit_region_wall_s": 41.47620535898022,
+  "gpu_profile_region_wall_s": 0.41280873608775437,
+  "maximum_fit_cuda_allocated_bytes": 573873664,
+  "scope": "Waited scientific/administrative pipeline children, including failed stages; overlapping GPU fit-region elapsed times are not added. Direct source inspection, authoring, citation searches, preflight builds, rendering and hashing have additional unmetered nonzero cost. Package round-trip verification wall time is recorded separately. No energy, GPU kernel utilization or total service cost was measured."
+}

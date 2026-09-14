@@ -1,0 +1,1 @@
+Aggregate result graphics only: model-level MSE comparisons, assay-pool ranking summaries, support counts and fitting summaries. Individual-observation and matched-pair scatter plots are excluded. The architecture image is a schematic; its activity-only training strip describes the original campaign.

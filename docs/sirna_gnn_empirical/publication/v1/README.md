@@ -1,0 +1,1 @@
+Publication scope: scientific code, aggregate results/figures, configuration and resource records only. No measured rows, individual predictions, model checkpoint files, raw-data exports, paper TeX/PDFs or combined archives are included. `files.json` hashes the selected contribution; `verify_published.py` checks it without scientific execution.

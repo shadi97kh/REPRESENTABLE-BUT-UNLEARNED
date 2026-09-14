@@ -1,0 +1,97 @@
+{
+  "frozen_utc": "2026-09-13T19:23:15.439853+00:00",
+  "selected_configs": {
+    "chemistry_tree": {
+      "name": "leaf8_features0.3",
+      "n_estimators": 300,
+      "min_samples_leaf": 8,
+      "max_features": 0.3
+    },
+    "gnn": {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    },
+    "gnn_no_chemistry": {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr003_wd01",
+      "lr": 0.003,
+      "weight_decay": 0.01
+    },
+    "guide_pairwise_ridge": {
+      "name": "alpha100.0",
+      "alpha": 100.0
+    },
+    "guide_ridge": {
+      "name": "alpha0.1",
+      "alpha": 0.1
+    },
+    "nongraph": {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "token_cnn": {
+      "hidden": 32,
+      "batch_size": 128,
+      "max_epochs": 80,
+      "min_epochs": 10,
+      "patience": 15,
+      "name": "lr001_wd0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  },
+  "development_scores": {
+    "chemistry_tree": 0.07292106665576659,
+    "gnn": 0.0486157052218914,
+    "gnn_no_chemistry": 0.04726896435022354,
+    "guide_pairwise_ridge": 0.06453566253185272,
+    "guide_ridge": 0.07383176684379578,
+    "nongraph": 0.051705632358789444,
+    "token_cnn": 0.050896916538476944
+  },
+  "development_selected_strongest_baseline": "token_cnn",
+  "final_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "selection_rule": "Minimum equal-study validation MSE; configuration-name lexical tie break. Final stochastic fits use independent seeds and the same fixed stopping protocol.",
+  "test_metrics_opened": false,
+  "sources": {
+    "verify_assays.py": "92afff1561b31a659ce7c89b7c6751f213ce6592d11ea405b8765e1c5b2ca17d",
+    "dependencies.py": "924c719b7e308f263f639c28c4592fcd228e318024b3132f5c0adef0b1e82e61",
+    "train.py": "6e8d18af724eed3d7278761eb67edcb56d8d6183c25c388765bab49475dff4c8",
+    "patent_sources.py": "a3976fa18d635bd2a525035d002c631ced69acc1af38aa884df415c4cb67ea3a",
+    "primary_tables.py": "afbb7f5bb487787e92a2c5f12349841126cff2b2c4219cc23dc5cfdfe63f7e32",
+    "fit_engine.py": "f01091595fad71bbee95c59fa1dfe362437a53c11c045c62857cc70034f7f017",
+    "run_all.sh": "025512306ff59d7b9ea68ba0ec84177b3b0ae59aae68d4b8fa67a9017543403f",
+    "freeze.py": "d2104d564a59cdb82c7feb0a299eea30511656727ae3e93660e727f5ca34fd37",
+    "runner.py": "dc56fe39b4f86f20ce722a41ea7339cd1c72e60fc4724f4201233737a6c4e16b",
+    "acquire.py": "fce57a857e0ec670ea3faec7cf5af58da4a337ad91a5b29e8cf33e4aceba09b3",
+    "graphs.py": "88bec4727f495ab55f0995d81a695dc31459a0d8b5d60bbf72b0a704088cdb96",
+    "develop.py": "18c90d659aa88546f30f39cd141a5c4bb2ca13a9feb539e3254e6816b294f725",
+    "split.py": "f555a08fd99a6fd76b94a7f71b08551e1f5e4d3fa4644c04235f15e7153186b6",
+    "supplements.py": "70bf9a62aea9b78e5d0e76a2d3bfaa5f3eb9fb4f31a5f90bb3d737e9fb68e413",
+    "inspect_sources.py": "f205bd223fd45707ff9e8798b8d1a37baf279a0d3ee561dc5e3c31c920e4726e",
+    "models.py": "06ab6b8cb4d288bc8a1500ecbaae2114231360e48c2c1251f0a012bf4cde35b0",
+    "reconcile.py": "71655ef4d836d903b7ced24d7d336e1a3239622a1d4a2b2de7352bbaed5cbade",
+    "training_profile.py": "176a2bbae5a3901869716b9e04defc123b1b7f6103861798c7c7100dcc5e8bc5",
+    "common.py": "db7b0c9aa06e050b5a607209919d0da1bfd309cb1c9ea30ca721944d0a7a97f2"
+  }
+}

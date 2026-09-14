@@ -1,0 +1,17 @@
+{
+  "engine_fits": 210,
+  "direct_pair_ridge_fits": 4,
+  "checkpoint_recorded_optimizer_updates": 39306,
+  "profile_optimizer_updates": 20,
+  "possible_uncheckpointed_interrupted_updates": [
+    0,
+    21
+  ],
+  "selected_state_updates": 14654,
+  "recorded_child_cpu_s": 672.719825,
+  "recorded_aggregate_stage_wall_s": 617.0796356135979,
+  "maximum_child_rss_mib": 3144.59765625,
+  "administrative_cost": "Additional nonzero unmetered direct inspection, source acquisition, authoring, preflight builds, rendering, hashing and packaging. Runner paper/source-check/integrity costs are included above; direct administrative work is not.",
+  "original_files_verified": 5402,
+  "no_historical_allowance_or_ledger_used": true
+}

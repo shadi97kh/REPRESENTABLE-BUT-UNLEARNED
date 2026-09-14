@@ -1,0 +1,13 @@
+name,split,rows
+2-O-hexadecyl,train,0
+2-O-hexadecyl,validation,0
+2-O-hexadecyl,test_internal,0
+2-O-hexadecyl,test_APP,1839
+Glycol nucleic acid,train,0
+Glycol nucleic acid,validation,0
+Glycol nucleic acid,test_internal,0
+Glycol nucleic acid,test_APP,1106
+5-vinylphosphonate,train,0
+5-vinylphosphonate,validation,0
+5-vinylphosphonate,test_internal,0
+5-vinylphosphonate,test_APP,904

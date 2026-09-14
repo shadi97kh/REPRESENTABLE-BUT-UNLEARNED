@@ -1,0 +1,10 @@
+# Recorded principal package versions, not a complete resolver lock. CUDA wheel availability is environment dependent.
+torch==2.11.0
+numpy==2.4.2
+pandas==3.0.2
+scipy==1.18.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+openpyxl==3.1.5
+beautifulsoup4==4.14.3
+lxml==6.0.2

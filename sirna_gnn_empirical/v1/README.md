@@ -1,0 +1,1 @@
+Scientific implementation preserved from the completed v1 campaign. See [publication scope](../README.md) for available aggregate results, omitted row-level/checkpoint artifacts and execution limitations.
