@@ -1,0 +1,22 @@
+{
+  "python": "3.13.12",
+  "executable": "/opt/miniforge3/bin/python",
+  "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.4.2",
+    "pandas": "3.0.2",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.8.0",
+    "torch": "2.11.0",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2",
+    "requests": "2.32.5",
+    "beautifulsoup4": "distribution metadata unavailable (not a core fitting dependency)",
+    "rdkit": "2026.3.1"
+  },
+  "gpu_query": "NVIDIA TITAN RTX, 580.126.20, 24576 MiB\nNVIDIA TITAN RTX, 580.126.20, 24576 MiB\n",
+  "tectonic": "tectonic 0.15.0Tectonic 0.15.0",
+  "scope": "Core environment unchanged by campaign-local published-method dependencies or document renderer",
+  "administrative_capture_utc": "2026-09-14T02:59:42Z"
+}

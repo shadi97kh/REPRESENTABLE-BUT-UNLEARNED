@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-14T02:23:41.887536+00:00",
+  "supersedes_for_this_new_primary_panel": "b3_protocol_addendum.json restricted to already admitted four endpoints; that attempt remains archived and has zero admitted rectangles.",
+  "reason": "Primary W053/W207 reference and complete measured combinations exist but the unmodified reference is absent from the chemistry-only benchmark release. Requiring that preexisting row is not a biological admission requirement. Admit independently verified primary states rather than fabricate an archived identity.",
+  "source": "Bramsen2009 primary Table1 states and SupplementalTable1 measurements",
+  "source_hash": "9f200f010f2897a69149693e9c42e7698a31579c6719d9022d8c9bff6d9cba63",
+  "state_hash": "1b8ae67359a88a7022fa68cb760b1ab2934c08f32fa8692fc2313991bdca33d2",
+  "selection": "Every parseable AS and SS with exact base sequence/length of W053/W207, no unclear chemical aliases, and all four finite means. No measured effect magnitude or prediction error selects a rectangle.",
+  "label_scale": "1 - primary relative eGFP level; source SD unchanged in fractional units; no clipping",
+  "known_discrepancy": "Primary/released outcome mismatch is reported separately; no existing campaign label is overwritten.",
+  "representation": "Source-established positional names and bases in frozen 93-column vocabulary; annotation-only unresolved backbone, as original ENsiRNA representation, because primary table does not specify bond directions. Unmodified node names explicitly set; original deterministic duplex pairing.",
+  "models": "Only newly frozen outer0 models whose training/validation exclude source19282453 and every primary-panel sequence 13mer; no refit or tuning. Use checkpoint preprocessing unchanged.",
+  "metrics": [
+    "interaction MSE/MAE/correlation/spread/bias",
+    "zero interaction reference",
+    "ten seed risks and ensemble risk",
+    "all endpoint and interaction predictions"
+  ],
+  "uncertainty": "One source and one sequence background with shared controls. No independent-rectangle bootstrap, no per-interaction SE without covariance.",
+  "scope": "Retrospective measured four-condition assay-scale contrasts; not isolated GNA, biological mechanism, private-anchor theorem applicability or new wet-lab validation."
+}

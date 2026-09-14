@@ -1,0 +1,677 @@
+{
+  "status": "Frozen prospective execution plan for retrospective follow-up; APP/S7 previously examined",
+  "seeds": [
+    1103,
+    2207,
+    3301,
+    4409,
+    5519,
+    6637,
+    7753,
+    8867,
+    9973,
+    11027
+  ],
+  "development_seeds": [
+    701,
+    907
+  ],
+  "neural_configurations": [
+    {
+      "name": "lr0.0001_wd1e-06",
+      "lr": 0.0001,
+      "weight_decay": 1e-06
+    },
+    {
+      "name": "lr0.0001_wd0.0001",
+      "lr": 0.0001,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "lr0.0003_wd1e-06",
+      "lr": 0.0003,
+      "weight_decay": 1e-06
+    },
+    {
+      "name": "lr0.0003_wd0.0001",
+      "lr": 0.0003,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "lr0.001_wd1e-06",
+      "lr": 0.001,
+      "weight_decay": 1e-06
+    },
+    {
+      "name": "lr0.001_wd0.0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    }
+  ],
+  "tree_configurations": [
+    {
+      "name": "leaf2",
+      "leaf": 2
+    },
+    {
+      "name": "leaf8",
+      "leaf": 8
+    }
+  ],
+  "ridge_configurations": [
+    {
+      "name": "alpha0.1",
+      "alpha": 0.1
+    },
+    {
+      "name": "alpha1",
+      "alpha": 1.0
+    },
+    {
+      "name": "alpha10",
+      "alpha": 10.0
+    }
+  ],
+  "methods": [
+    "original_gnn",
+    "corrected_gnn",
+    "original_no_message",
+    "corrected_no_message",
+    "token_cnn"
+  ],
+  "activity_populations": [
+    {
+      "name": "outer0",
+      "test_groups": [
+        "59dde2a1f1d4bf70"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "adc78afc5aca4800"
+          ]
+        },
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "adc78afc5aca4800",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "b8da497b24f5cfed",
+            "1a53f4532faaaf36"
+          ]
+        },
+        {
+          "train_groups": [
+            "1a53f4532faaaf36",
+            "adc78afc5aca4800",
+            "b8da497b24f5cfed"
+          ],
+          "validation_groups": [
+            "0120945e84e35bc5",
+            "69a320589986619e",
+            "2ae9f0ba619472e9",
+            "bfae0743b7ffbb7e",
+            "06dd52df7af5dfa8",
+            "51855d52922f7229"
+          ]
+        }
+      ],
+      "final_validation_fold": 1
+    },
+    {
+      "name": "outer1",
+      "test_groups": [
+        "adc78afc5aca4800"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "59dde2a1f1d4bf70"
+          ]
+        },
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "59dde2a1f1d4bf70",
+            "69a320589986619e",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "b8da497b24f5cfed",
+            "1a53f4532faaaf36"
+          ]
+        },
+        {
+          "train_groups": [
+            "1a53f4532faaaf36",
+            "59dde2a1f1d4bf70",
+            "b8da497b24f5cfed"
+          ],
+          "validation_groups": [
+            "0120945e84e35bc5",
+            "69a320589986619e",
+            "2ae9f0ba619472e9",
+            "bfae0743b7ffbb7e",
+            "06dd52df7af5dfa8",
+            "51855d52922f7229"
+          ]
+        }
+      ],
+      "final_validation_fold": 1
+    },
+    {
+      "name": "outer2",
+      "test_groups": [
+        "b8da497b24f5cfed"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "adc78afc5aca4800",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "59dde2a1f1d4bf70"
+          ]
+        },
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "59dde2a1f1d4bf70",
+            "69a320589986619e",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "adc78afc5aca4800"
+          ]
+        },
+        {
+          "train_groups": [
+            "59dde2a1f1d4bf70",
+            "adc78afc5aca4800"
+          ],
+          "validation_groups": [
+            "0120945e84e35bc5",
+            "69a320589986619e",
+            "2ae9f0ba619472e9",
+            "1a53f4532faaaf36",
+            "bfae0743b7ffbb7e",
+            "06dd52df7af5dfa8",
+            "51855d52922f7229"
+          ]
+        }
+      ],
+      "final_validation_fold": 2
+    },
+    {
+      "name": "outer3",
+      "test_groups": [
+        "0120945e84e35bc5",
+        "1a53f4532faaaf36",
+        "06dd52df7af5dfa8"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "adc78afc5aca4800",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "59dde2a1f1d4bf70"
+          ]
+        },
+        {
+          "train_groups": [
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "59dde2a1f1d4bf70",
+            "69a320589986619e",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "adc78afc5aca4800"
+          ]
+        },
+        {
+          "train_groups": [
+            "59dde2a1f1d4bf70",
+            "adc78afc5aca4800"
+          ],
+          "validation_groups": [
+            "b8da497b24f5cfed",
+            "69a320589986619e",
+            "2ae9f0ba619472e9",
+            "bfae0743b7ffbb7e",
+            "51855d52922f7229"
+          ]
+        }
+      ],
+      "final_validation_fold": 2
+    },
+    {
+      "name": "outer4",
+      "test_groups": [
+        "69a320589986619e",
+        "2ae9f0ba619472e9",
+        "bfae0743b7ffbb7e",
+        "51855d52922f7229"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "adc78afc5aca4800",
+            "b8da497b24f5cfed"
+          ],
+          "validation_groups": [
+            "59dde2a1f1d4bf70"
+          ]
+        },
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "59dde2a1f1d4bf70",
+            "b8da497b24f5cfed"
+          ],
+          "validation_groups": [
+            "adc78afc5aca4800"
+          ]
+        },
+        {
+          "train_groups": [
+            "59dde2a1f1d4bf70",
+            "adc78afc5aca4800"
+          ],
+          "validation_groups": [
+            "b8da497b24f5cfed",
+            "0120945e84e35bc5",
+            "1a53f4532faaaf36",
+            "06dd52df7af5dfa8"
+          ]
+        }
+      ],
+      "final_validation_fold": 2
+    },
+    {
+      "name": "deployment",
+      "test_groups": [],
+      "inner": [
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "69a320589986619e",
+            "adc78afc5aca4800",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "59dde2a1f1d4bf70"
+          ]
+        },
+        {
+          "train_groups": [
+            "0120945e84e35bc5",
+            "06dd52df7af5dfa8",
+            "1a53f4532faaaf36",
+            "2ae9f0ba619472e9",
+            "51855d52922f7229",
+            "59dde2a1f1d4bf70",
+            "69a320589986619e",
+            "b8da497b24f5cfed",
+            "bfae0743b7ffbb7e"
+          ],
+          "validation_groups": [
+            "adc78afc5aca4800"
+          ]
+        },
+        {
+          "train_groups": [
+            "59dde2a1f1d4bf70",
+            "adc78afc5aca4800"
+          ],
+          "validation_groups": [
+            "b8da497b24f5cfed",
+            "0120945e84e35bc5",
+            "69a320589986619e",
+            "2ae9f0ba619472e9",
+            "1a53f4532faaaf36",
+            "bfae0743b7ffbb7e",
+            "06dd52df7af5dfa8",
+            "51855d52922f7229"
+          ]
+        }
+      ],
+      "final_validation_fold": 2
+    }
+  ],
+  "pair_populations": [
+    {
+      "name": "b2outer0",
+      "test_groups": [
+        "10c405d304cc4e37",
+        "1c10d86ec1a802f4",
+        "72478f51d38ee208"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "1212da56aac7a198",
+            "17103b04fab21cdc",
+            "2c34ab854a6ad95b",
+            "5848c205ff64ecf8",
+            "8a110cbb1ec4bb37",
+            "9620aee947fd49ea"
+          ],
+          "validation_groups": [
+            "28639edc531a2e1a",
+            "151435cc8a45853a",
+            "9fea29da568e9bc1"
+          ]
+        },
+        {
+          "train_groups": [
+            "1212da56aac7a198",
+            "151435cc8a45853a",
+            "28639edc531a2e1a",
+            "5848c205ff64ecf8",
+            "8a110cbb1ec4bb37",
+            "9620aee947fd49ea",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "2c34ab854a6ad95b",
+            "17103b04fab21cdc"
+          ]
+        },
+        {
+          "train_groups": [
+            "151435cc8a45853a",
+            "17103b04fab21cdc",
+            "28639edc531a2e1a",
+            "2c34ab854a6ad95b",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "5848c205ff64ecf8",
+            "1212da56aac7a198",
+            "8a110cbb1ec4bb37",
+            "9620aee947fd49ea"
+          ]
+        }
+      ],
+      "final_validation_fold": 1
+    },
+    {
+      "name": "b2outer1",
+      "test_groups": [
+        "1212da56aac7a198",
+        "28639edc531a2e1a",
+        "8a110cbb1ec4bb37"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "151435cc8a45853a",
+            "17103b04fab21cdc",
+            "1c10d86ec1a802f4",
+            "5848c205ff64ecf8",
+            "9620aee947fd49ea",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "2c34ab854a6ad95b",
+            "72478f51d38ee208"
+          ]
+        },
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "151435cc8a45853a",
+            "17103b04fab21cdc",
+            "2c34ab854a6ad95b",
+            "72478f51d38ee208",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "5848c205ff64ecf8",
+            "1c10d86ec1a802f4",
+            "9620aee947fd49ea"
+          ]
+        },
+        {
+          "train_groups": [
+            "1c10d86ec1a802f4",
+            "2c34ab854a6ad95b",
+            "5848c205ff64ecf8",
+            "72478f51d38ee208",
+            "9620aee947fd49ea"
+          ],
+          "validation_groups": [
+            "151435cc8a45853a",
+            "17103b04fab21cdc",
+            "10c405d304cc4e37",
+            "9fea29da568e9bc1"
+          ]
+        }
+      ],
+      "final_validation_fold": 0
+    },
+    {
+      "name": "b2outer2",
+      "test_groups": [
+        "151435cc8a45853a",
+        "2c34ab854a6ad95b",
+        "9620aee947fd49ea"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "1212da56aac7a198",
+            "17103b04fab21cdc",
+            "1c10d86ec1a802f4",
+            "5848c205ff64ecf8",
+            "8a110cbb1ec4bb37",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "28639edc531a2e1a",
+            "72478f51d38ee208"
+          ]
+        },
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "1212da56aac7a198",
+            "17103b04fab21cdc",
+            "28639edc531a2e1a",
+            "72478f51d38ee208",
+            "9fea29da568e9bc1"
+          ],
+          "validation_groups": [
+            "5848c205ff64ecf8",
+            "1c10d86ec1a802f4",
+            "8a110cbb1ec4bb37"
+          ]
+        },
+        {
+          "train_groups": [
+            "1c10d86ec1a802f4",
+            "28639edc531a2e1a",
+            "5848c205ff64ecf8",
+            "72478f51d38ee208",
+            "8a110cbb1ec4bb37"
+          ],
+          "validation_groups": [
+            "1212da56aac7a198",
+            "17103b04fab21cdc",
+            "10c405d304cc4e37",
+            "9fea29da568e9bc1"
+          ]
+        }
+      ],
+      "final_validation_fold": 0
+    },
+    {
+      "name": "b2outer3",
+      "test_groups": [
+        "17103b04fab21cdc",
+        "5848c205ff64ecf8",
+        "9fea29da568e9bc1"
+      ],
+      "inner": [
+        {
+          "train_groups": [
+            "1212da56aac7a198",
+            "151435cc8a45853a",
+            "1c10d86ec1a802f4",
+            "2c34ab854a6ad95b",
+            "72478f51d38ee208",
+            "9620aee947fd49ea"
+          ],
+          "validation_groups": [
+            "28639edc531a2e1a",
+            "10c405d304cc4e37",
+            "8a110cbb1ec4bb37"
+          ]
+        },
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "1212da56aac7a198",
+            "151435cc8a45853a",
+            "1c10d86ec1a802f4",
+            "28639edc531a2e1a",
+            "8a110cbb1ec4bb37"
+          ],
+          "validation_groups": [
+            "2c34ab854a6ad95b",
+            "72478f51d38ee208",
+            "9620aee947fd49ea"
+          ]
+        },
+        {
+          "train_groups": [
+            "10c405d304cc4e37",
+            "28639edc531a2e1a",
+            "2c34ab854a6ad95b",
+            "72478f51d38ee208",
+            "8a110cbb1ec4bb37",
+            "9620aee947fd49ea"
+          ],
+          "validation_groups": [
+            "1212da56aac7a198",
+            "151435cc8a45853a",
+            "1c10d86ec1a802f4"
+          ]
+        }
+      ],
+      "final_validation_fold": 2
+    }
+  ],
+  "maximum_epochs": 500,
+  "minimum_epochs": 50,
+  "patience": 50,
+  "improvement_tolerance": 1e-08,
+  "batch_size": 128,
+  "pair_batch": "all training endpoints; one update/epoch",
+  "dropout": 0.1,
+  "gradient_clip": 5.0,
+  "pair_lambdas": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "Minimum mean inner validation equal-protected-component MSE across three folds and two development seeds, lexical config tie break. Final validation fold chosen by smallest validation row count using input group counts, before any fitting; independent final seeds stop on this grouped holdout. Activity-only B2 selects on endpoint activity MSE, pair-trained methods select on pair MSE.",
+  "preprocessing": "All arms use identical training-fitted nonzero node mask and conservative context C1. R0/R1 changes only the relation weight rule. Raw graph directions/degrees and active masks unchanged. Historical public vocabulary remains fixed, with all effective support learned on each training partition.",
+  "correction": "PO/PS forward: shared forward-base W2 plus supported residual W0/W1; reverse: shared W5 plus supported W3/W4; unresolved: base; pairing transformations gated by training occurrence. Base receives gradient from every matching-direction backbone edge.",
+  "final_pool": "Each outer/deployment final fit uses the predeclared inner training groups and disjoint grouped validation groups; no validation refit. ENsiRNA historical internal test is retired into grouped development. APP/S7 never enter any selection. Deployment train and validation jointly cover all ENsiRNA; fit training excludes saved validation groups.",
+  "pair_protocol": "Twelve known sequence components, four outer tests unchanged. Both endpoints and every shared component excluded from train/validation. Activity standardized using weighted training mean/SD (floor .05). Pair loss=lambda times equal-component mean of squared standardized endpoint difference error. No band tuning or label clipping.",
+  "failure_policy": "No poor finite seed removed or restarted. On nonfinite training/validation, retain state and failure, output training-fold mean fallback flagged separately. Missing resource access may block an objective without being called complete.",
+  "analysis": {
+    "seed": 90413,
+    "bootstrap_resamples": 10000,
+    "ranking": "Exact fractional membership at top-five prediction tie; average label ranks; shared sequence/pool overlap descriptive, no independent-pool p value",
+    "interval_scope": "Fixed-ensemble conditional component bootstrap; seed dispersion separately, no claim of new-study generalization"
+  },
+  "resources": {
+    "threads": 2,
+    "gpu": "cuda:0 if available",
+    "memory_fraction": 0.3,
+    "planned_core_fits": 2312,
+    "max_core_fits": 2312,
+    "reserved_published_method_fits": 100,
+    "max_epochs_per_neural_fit": 500,
+    "max_wall_s": 172800,
+    "max_child_cpu_s": 259200,
+    "expected_gpu_hours": [
+      4,
+      18
+    ],
+    "expected_disk_gb": [
+      9,
+      20
+    ],
+    "no_historical_allowance": true
+  },
+  "source_hashes": {
+    "runs/sirna_gnn_empirical/v2-20260913T220847Z/protocol.json": "85921035b3b6cbf14b261051c2bd92283d97b71b7da4783d0dc4d15e343396cc",
+    "runs/sirna_gnn_empirical/v2-20260913T220847Z/grouped_membership.csv": "d0a8da71ac8fcdaa640f2f992254805de0dd1ce8ccffaaaf5f9b6fa6dc0efce9",
+    "runs/sirna_gnn_empirical/v2-20260913T220847Z/b2_membership.csv": "b7aa89adea7611391c21114f92054eb51222bc8d19c892b832507822ea84bf39",
+    "runs/sirna_gnn_empirical/v1-20260913T185027Z/eligible_pairs.jsonl": "ceeb18c4792d3bd49b751b6b726b20cfab2fd2b9caf43062de805ac2d89c7399",
+    "handoffs/codex_revision_v1/Codex_Paper_Revision_and_Experiments.md": "146c75c5441d0404ca07935246d4e18632d7e62491250e0c941d730f01f40d2f"
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "figure": "main_support",
+    "sources": [
+      {
+        "path": "tables/final_relation_counts.csv",
+        "sha256": "9574bdd7ed8a6aee53ae4853d8579afd59662301bbc636345f3e39f339e047f4"
+      },
+      {
+        "path": "tables/relation_gradients_by_fit.csv",
+        "sha256": "b1460505881dd438c7f4aa85fc466bc5257528bff596bc27ebb96aff09b988df"
+      }
+    ],
+    "marks": "figures/main_support_marks.csv",
+    "transformation": "Counts for deployment seed1103, train and combined APP/S7 test. Gradient mean across all ten deployment seeds, by exact layer/relation, activity loss only.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "main_activity",
+    "sources": [
+      {
+        "path": "tables/activity_metrics.csv",
+        "sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff"
+      },
+      {
+        "path": "tables/activity_seed_metrics.csv",
+        "sha256": "86445c468140af1369eba08e4911cdd8ab860ede595bf0e660e99488164e7b6c"
+      },
+      {
+        "path": "evaluated/activity_ensemble_predictions.csv",
+        "sha256": "9b97344fd9b9d0e02a05d27f929c4845d3ceca89bdb1b73b71ad0d5f7024232f"
+      }
+    ],
+    "marks": "figures/main_activity_marks.csv",
+    "transformation": "Row MSE by seed; ensemble MSE black marks; distinct trained/oracle constants; five-quantile partition with duplicate cuts dropped for descriptive calibration, not fitted recalibration.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "main_pair_ranking",
+    "sources": [
+      {
+        "path": "tables/ranking_pools.csv",
+        "sha256": "bc04bb492a120bae89b3f4f1b77468579ec783a287d1822feaf1edfbcb083515"
+      },
+      {
+        "path": "evaluated/pair_ensemble_predictions.csv",
+        "sha256": "b80efdd4b3af2d12cc3f8b8a2ebdd352da16f343a44e000d2687088388184e37"
+      }
+    ],
+    "marks": "figures/main_pair_ranking_marks.csv",
+    "transformation": "Each pool score is exact tie-aware top five; black mark is unweighted pool mean; B2 fixed ensembles and training-fold means on all eligible pairs.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_calibration",
+    "sources": [
+      {
+        "path": "evaluated/activity_ensemble_predictions.csv",
+        "sha256": "9b97344fd9b9d0e02a05d27f929c4845d3ceca89bdb1b73b71ad0d5f7024232f"
+      }
+    ],
+    "marks": "figures/appendix_calibration_marks.csv",
+    "transformation": "Every unaltered observation prediction, no clipping or fitted intercept correction.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_seed_risk",
+    "sources": [
+      {
+        "path": "tables/activity_seed_metrics.csv",
+        "sha256": "86445c468140af1369eba08e4911cdd8ab860ede595bf0e660e99488164e7b6c"
+      },
+      {
+        "path": "tables/activity_metrics.csv",
+        "sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff"
+      }
+    ],
+    "marks": "figures/appendix_seed_risk_marks.csv",
+    "transformation": "All ten stochastic seed MSEs, one deterministic ridge risk, and black ensemble-risk markers.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_learning_curves",
+    "sources": [
+      {
+        "path": "evaluated/all_learning_curves.csv",
+        "sha256": "8e5ae2a3f26a896cab715e84ede86baa2512fa32703a0e23521de0f2b58b0fac"
+      },
+      {
+        "path": "tables/all_fit_summary.csv",
+        "sha256": "1693d7edb9f3abc4c7b2d2c3feaba3962005e1475073915469486b0ea173503b"
+      }
+    ],
+    "marks": "figures/appendix_learning_curves_marks.csv",
+    "transformation": "Every final deployment neural seed trajectory and ten outer0 pair-GNN trajectories; selected checkpoint dots. Tree training has no neural epochs.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_B2_models",
+    "sources": [
+      {
+        "path": "evaluated/pair_ensemble_predictions.csv",
+        "sha256": "b80efdd4b3af2d12cc3f8b8a2ebdd352da16f343a44e000d2687088388184e37"
+      }
+    ],
+    "marks": "figures/appendix_B2_models_marks.csv",
+    "transformation": "Complete out-of-fold B2 predictions including training-fold mean; shared endpoints/assays remain dependent.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_ranking_pools",
+    "sources": [
+      {
+        "path": "tables/ranking_direct_pool_differences.csv",
+        "sha256": "594e8cbd4491f7387bfc96b8b128186de40505c4f48c1c18b691debcc90eb0e3"
+      }
+    ],
+    "marks": "figures/appendix_ranking_pools_marks.csv",
+    "transformation": "Sorted pool table order, all exact tie-aware scores and descriptive differences; no independent-pool test.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_B3_panel",
+    "sources": [
+      {
+        "path": "b3_primary/interaction_predictions.csv",
+        "sha256": "ebebee69d3a9db014c031e0a17b0dc9e75cd4c2157de179b191233146c9a4b55"
+      }
+    ],
+    "marks": "figures/appendix_B3_panel_marks.csv",
+    "transformation": "All 140 measured rectangles and corresponding mean of fixed outer0 seed predictions; common symmetric color range; one background, no independence assumption.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_B3_predictions",
+    "sources": [
+      {
+        "path": "b3_primary/interaction_predictions.csv",
+        "sha256": "ebebee69d3a9db014c031e0a17b0dc9e75cd4c2157de179b191233146c9a4b55"
+      }
+    ],
+    "marks": "figures/appendix_B3_predictions_marks.csv",
+    "transformation": "All source-held-out B3 ensemble predictions, without independent-rectangle confidence intervals.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  },
+  {
+    "figure": "appendix_source_reconciliation",
+    "sources": [
+      {
+        "path": "b3/primary_reconciliation.csv",
+        "sha256": "3e9ef5ca256e23ed2649d7fe99e0e87e290346b1836c1042826394f253623ffe"
+      }
+    ],
+    "marks": "figures/appendix_source_reconciliation_marks.csv",
+    "transformation": "All uniquely matched primary/released pairs, including disagreements; identity mapping does not use model predictions.",
+    "code_sha256": "6da85eca1ca81c5df662a8fbfadb7fc59f4eac86d3df8461a822f082c9a9bf8d"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/tanwenchong/ENsiRNA",
+  "commit": "028824341635903f3c661f5d1cc737de106493d5",
+  "license_statement": "README Apache v2.0",
+  "code_files": {
+    "ENsiRNA-mod/train.py": "3d61f7d9f8c45a9873e77b77db5ca812dbbdfc7c500c2a34de7d46bf6e814422",
+    "ENsiRNA-mod/run.py": "cbe12667c6cc7328dca650b09a5563f319a7859dbffeb73a6e0e8b0abb28767a",
+    "ENsiRNA-mod/easy_run.py": "9968a9c72dbeb04f3532cf02340b74497daa8fe8bcec796d92b774aaec2249e9",
+    "ENsiRNA-mod/test.py": "d52e1ce6b00668770c3c1f7b0f9b4276faf5bd4daabc62845178c4c416f958d1",
+    "ENsiRNA-mod/trainer/RNAmaskModel_trainer.py": "24b988d8a5090209c3d0912ddefd8a0bcf9fbde44092d951eeaca8a83dc63668",
+    "ENsiRNA-mod/trainer/abs_trainer.py": "8aa39b16f541bf15be37f04dfe12970531c5bfb55d3e3ab7be21662f5a7e1687",
+    "ENsiRNA-mod/trainer/__init__.py": "0c4da8c4b74522b27dca9edf1ca6b6875fd1983d29ea320bb9ed7280ac7abe0b",
+    "ENsiRNA-mod/data/get_pdb.py": "e1d0e6d914dee579ec01f3f10ade98d563bb37e9f319fcd1f3197f6de409cbf6",
+    "ENsiRNA-mod/data/mod_utils.py": "5e3e221c93873788800cbc0a355674e2bd3a33f15201ce361921b73e5933b719",
+    "ENsiRNA-mod/data/dataset.py": "86bda148ec5c575d69cec0c564af611c39f6efed4c9c87e70ab5bd1c3657c57d",
+    "ENsiRNA-mod/model/mask_model.py": "7e895d229027fed77637f597e11ffc614a1545e6fd9b310161893671ad4e1c73",
+    "ENsiRNA-mod/model/__init__.py": "c50e42b96d2d9f45ff9c6d8376955180f5423febfd9cb17ab78d875179e59a5a",
+    "ENsiRNA-mod/model/am_egnn3.py": "ccbc1d54effdaf4eefab65d0652d1bff6d492e68b56293cccb219b39788f5973",
+    "ENsiRNA-mod/utils/rna_utils.py": "9dca5da95576c89c579829e8311998fb77f847a8ec74336e20e62aa7711de536",
+    "ENsiRNA-mod/utils/singleton.py": "4ae2536c6d9ac1f7a1225e92d6b0648368b2e293965e0e53396bf51b44376a0e",
+    "ENsiRNA-mod/utils/logger.py": "9da7cdd8383acdb4686afbfb70deb45df8934970b7e5c20b64228d061bfa358b",
+    "ENsiRNA-mod/utils/time_sign.py": "ed03fde099ab9cff2c7610ef6765933af9a81278bfa5c915e07392c837b3de72",
+    "ENsiRNA-mod/utils/try_catch_oom.py": "56611ea067e1bec9a5767b1f245e1b395b6e5f84fb2a5e061cf352f137853fbe",
+    "ENsiRNA-mod/utils/random_seed.py": "e3136b6336331e85f8435548a3c2eaa7b777c86366447aad4a233f31b51566e3",
+    "ENsiRNA-mod/utils/__init__.py": "7d30bfa86a6af9624c6956a1307f9f9e33e71d203ce69a72efabac8a1d8bbc41",
+    "ENsiRNA-mod/utils/nn_utils.py": "a3829d38e906a8cf6162c26f945a12f084a8f4dbdb39f370e579a6aa7f4c5814"
+  }
+}

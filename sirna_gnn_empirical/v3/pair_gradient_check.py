@@ -1,0 +1,15 @@
+"""Read-only measured-pair derivative checks at selected final checkpoints; no updates."""
+from common import *
+from engine import load,transform,setup,network,tp
+import torch
+rows,raw=load();lookup={r['record_id']:i for i,r in enumerate(rows)};pairs=readlines(OLD/'eligible_pairs.jsonl');device=setup();checks=[]
+for f in sorted((RUN/'fits/pair').glob('*/final/*/s1103/fit.json')):
+ r=json.loads(f.read_text())
+ if r.get('lambda_pair',0)<=0 or r['status']!='completed':continue
+ tr=np.array(r['signature']['train']);local={int(v):i for i,v in enumerate(tr)};pp=[p for p in pairs if lookup[p['reference_id']] in local];a=torch.tensor([local[lookup[p['reference_id']]] for p in pp],device=device);b=torch.tensor([local[lookup[p['changed_id']]] for p in pp],device=device);data,sup=transform(raw,rows,tr);st=torch.load(f.parent/'best.pt',map_location=device,weights_only=False);m=network(r['method'],sup).to(device).eval();m.load_state_dict(st['model']);z=m(**tp(data,tr,device));y=torch.tensor([p['observed_difference']/st['target_sd'] for p in pp],dtype=z.dtype,device=device);w=torch.tensor(weights([rows[lookup[p['reference_id']]]['sequence_group'] for p in pp]),dtype=z.dtype,device=device);error=z[b]-z[a]-y;loss=(w*error.square()).mean();g=torch.autograd.grad(loss,z,retain_graph=True)[0];expected=torch.zeros_like(z);expected.index_add_(0,b,2*w*error/len(pp));expected.index_add_(0,a,-2*w*error/len(pp));maxerror=float((g-expected).abs().max().detach());assert torch.allclose(g,expected,atol=2e-6,rtol=2e-5)
+ reverse=(w*(z[a]-z[b]+y).square()).mean();revgrad=torch.autograd.grad(reverse,z,retain_graph=True)[0];assert torch.allclose(g,revgrad,atol=2e-6,rtol=2e-5)
+ # Intercept cancellation: adding one common scalar to both endpoint predictions leaves the pair loss unchanged.
+ common_shift=torch.tensor(.125,device=device,requires_grad=True);shifted=(w*((z[b]+common_shift)-(z[a]+common_shift)-y).square()).mean();shiftgrad=float(torch.autograd.grad(shifted,common_shift,retain_graph=True)[0]);assert abs(shiftgrad)<2e-6
+ pg=torch.autograd.grad(loss,list(m.parameters()),allow_unused=True);norm=float(torch.sqrt(sum((v.detach().square().sum() for v in pg if v is not None))));assert norm>0
+ before=sha(f.parent/'best.pt');assert before==r['hashes']['best.pt'];checks.append(dict(fit=r['name'],training_pairs=len(pp),lambda_pair=r['lambda_pair'],selected_checkpoint_sha256=before,endpoint_gradient_maximum_absolute_error=maxerror,reverse_orientation_gradient_matches=True,common_output_shift_gradient=shiftgrad,pair_only_parameter_gradient_norm=norm,optimizer_updates=0,scope='Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate.'));del m
+write(RUN/'pair_gradient_checks.json',dict(checks=checks,expected_checkpoint_checks=8,actual_checkpoint_checks=len(checks),new_fits=0,optimizer_updates=0));assert len(checks)==8,len(checks);print('Verified measured-pair gradient paths at',len(checks),'selected final checkpoints; zero optimizer updates.')

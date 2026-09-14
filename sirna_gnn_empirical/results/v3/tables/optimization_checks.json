@@ -1,0 +1,22 @@
+{
+  "fits": 2312,
+  "neural_fits": 1932,
+  "neural_fits_without_updates": 0,
+  "selected_le_executed": true,
+  "selected_epoch_le_executed": true,
+  "minimum_executed_epochs": 51,
+  "maximum_executed_epochs": 336,
+  "finite_unfavorable_seeds_discarded": 0,
+  "final_seed_schedule": [
+    1103,
+    2207,
+    3301,
+    4409,
+    5519,
+    6637,
+    7753,
+    8867,
+    9973,
+    11027
+  ]
+}

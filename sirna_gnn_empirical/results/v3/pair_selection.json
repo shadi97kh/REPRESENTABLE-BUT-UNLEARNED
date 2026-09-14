@@ -1,0 +1,334 @@
+[
+  {
+    "population": "b2outer0",
+    "method": "corrected_gnn",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd0.0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.22313334490961467,
+      "lr0.0001_wd0.0001": 0.22313334490961467,
+      "lr0.0003_wd1e-06": 0.21565020521652,
+      "lr0.0003_wd0.0001": 0.21549329649359183,
+      "lr0.001_wd1e-06": 0.21261944799494273,
+      "lr0.001_wd0.0001": 0.21261840383433517
+    }
+  },
+  {
+    "population": "b2outer0",
+    "method": "corrected_gnn",
+    "kind": "pair_lambda",
+    "lambda_pair": 10.0,
+    "scores": {
+      "0.1": 0.24844355575885438,
+      "1.0": 0.2477477999535047,
+      "10.0": 0.24715002510719208
+    }
+  },
+  {
+    "population": "b2outer0",
+    "method": "corrected_no_message",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd0.0001",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.22105491729228852,
+      "lr0.0001_wd0.0001": 0.22105491729228852,
+      "lr0.0003_wd1e-06": 0.214764380147228,
+      "lr0.0003_wd0.0001": 0.21483601660817175,
+      "lr0.001_wd1e-06": 0.20832642187842673,
+      "lr0.001_wd0.0001": 0.20832416153611544
+    }
+  },
+  {
+    "population": "b2outer0",
+    "method": "corrected_no_message",
+    "kind": "pair_lambda",
+    "lambda_pair": 1.0,
+    "scores": {
+      "0.1": 0.24751862565065297,
+      "1.0": 0.24114388371340414,
+      "10.0": 0.24623150438816385
+    }
+  },
+  {
+    "population": "b2outer0",
+    "method": "pair_ridge",
+    "config": {
+      "name": "alpha10",
+      "alpha": 10.0
+    },
+    "scores": {
+      "alpha0.1": 0.3043150419868401,
+      "alpha1": 0.30422130618305043,
+      "alpha10": 0.3033186146433189
+    }
+  },
+  {
+    "population": "b2outer0",
+    "method": "pair_tree",
+    "config": {
+      "name": "leaf8",
+      "leaf": 8
+    },
+    "scores": {
+      "leaf2": 0.32652955774488324,
+      "leaf8": 0.31671461302505044
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "corrected_gnn",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd1e-06",
+      "lr": 0.001,
+      "weight_decay": 1e-06
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.4302356522121135,
+      "lr0.0001_wd0.0001": 0.4302356522121135,
+      "lr0.0003_wd1e-06": 0.41543442177567486,
+      "lr0.0003_wd0.0001": 0.41543446783929244,
+      "lr0.001_wd1e-06": 0.3974238007657092,
+      "lr0.001_wd0.0001": 0.3974238758761577
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "corrected_gnn",
+    "kind": "pair_lambda",
+    "lambda_pair": 0.1,
+    "scores": {
+      "0.1": 0.32974881298745795,
+      "1.0": 0.3342737018935951,
+      "10.0": 0.33659725573586247
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "corrected_no_message",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd1e-06",
+      "lr": 0.001,
+      "weight_decay": 1e-06
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.43487590757584105,
+      "lr0.0001_wd0.0001": 0.43487590757584105,
+      "lr0.0003_wd1e-06": 0.415062682784999,
+      "lr0.0003_wd0.0001": 0.41506270220327196,
+      "lr0.001_wd1e-06": 0.3985618220922968,
+      "lr0.001_wd0.0001": 0.3985878375985347
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "corrected_no_message",
+    "kind": "pair_lambda",
+    "lambda_pair": 0.1,
+    "scores": {
+      "0.1": 0.3320049961438499,
+      "1.0": 0.3353430881444161,
+      "10.0": 0.342572290634162
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "pair_ridge",
+    "config": {
+      "name": "alpha0.1",
+      "alpha": 0.1
+    },
+    "scores": {
+      "alpha0.1": 0.3716683236399332,
+      "alpha1": 0.3716894674136781,
+      "alpha10": 0.37185911907856656
+    }
+  },
+  {
+    "population": "b2outer1",
+    "method": "pair_tree",
+    "config": {
+      "name": "leaf8",
+      "leaf": 8
+    },
+    "scores": {
+      "leaf2": 0.38192485244087243,
+      "leaf8": 0.3728297365828161
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "corrected_gnn",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd1e-06",
+      "lr": 0.001,
+      "weight_decay": 1e-06
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.3862011762477417,
+      "lr0.0001_wd0.0001": 0.3862011762477417,
+      "lr0.0003_wd1e-06": 0.3570774283753277,
+      "lr0.0003_wd0.0001": 0.3570774340025233,
+      "lr0.001_wd1e-06": 0.3556888271446767,
+      "lr0.001_wd0.0001": 0.35568885965977
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "corrected_gnn",
+    "kind": "pair_lambda",
+    "lambda_pair": 1.0,
+    "scores": {
+      "0.1": 0.21820825853259632,
+      "1.0": 0.2154746364807081,
+      "10.0": 0.21730411546048012
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "corrected_no_message",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.001_wd1e-06",
+      "lr": 0.001,
+      "weight_decay": 1e-06
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.38849049583500955,
+      "lr0.0001_wd0.0001": 0.38849049583500955,
+      "lr0.0003_wd1e-06": 0.3553190337357374,
+      "lr0.0003_wd0.0001": 0.3553190584572399,
+      "lr0.001_wd1e-06": 0.3496648516027087,
+      "lr0.001_wd0.0001": 0.3496755051083123
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "corrected_no_message",
+    "kind": "pair_lambda",
+    "lambda_pair": 10.0,
+    "scores": {
+      "0.1": 0.21891865310548722,
+      "1.0": 0.21755573498947875,
+      "10.0": 0.21734018814154799
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "pair_ridge",
+    "config": {
+      "name": "alpha10",
+      "alpha": 10.0
+    },
+    "scores": {
+      "alpha0.1": 0.26097093195456317,
+      "alpha1": 0.26091178060814374,
+      "alpha10": 0.26032215179958423
+    }
+  },
+  {
+    "population": "b2outer2",
+    "method": "pair_tree",
+    "config": {
+      "name": "leaf8",
+      "leaf": 8
+    },
+    "scores": {
+      "leaf2": 0.2520459558400085,
+      "leaf8": 0.2510661142337897
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "corrected_gnn",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.0003_wd1e-06",
+      "lr": 0.0003,
+      "weight_decay": 1e-06
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.35834377050791283,
+      "lr0.0001_wd0.0001": 0.35834377050791283,
+      "lr0.0003_wd1e-06": 0.3542038200651565,
+      "lr0.0003_wd0.0001": 0.35420693912141193,
+      "lr0.001_wd1e-06": 0.3546720302697903,
+      "lr0.001_wd0.0001": 0.35778487248372226
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "corrected_gnn",
+    "kind": "pair_lambda",
+    "lambda_pair": 10.0,
+    "scores": {
+      "0.1": 0.30567834147850415,
+      "1.0": 0.298289291975099,
+      "10.0": 0.289490614065624
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "corrected_no_message",
+    "kind": "activity_config",
+    "config": {
+      "name": "lr0.0003_wd0.0001",
+      "lr": 0.0003,
+      "weight_decay": 0.0001
+    },
+    "scores": {
+      "lr0.0001_wd1e-06": 0.3631645677691999,
+      "lr0.0001_wd0.0001": 0.3631645677691999,
+      "lr0.0003_wd1e-06": 0.35411142654950173,
+      "lr0.0003_wd0.0001": 0.35410351344502505,
+      "lr0.001_wd1e-06": 0.35649960066930064,
+      "lr0.001_wd0.0001": 0.35486348109846344
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "corrected_no_message",
+    "kind": "pair_lambda",
+    "lambda_pair": 10.0,
+    "scores": {
+      "0.1": 0.2991835957402015,
+      "1.0": 0.2942463090784594,
+      "10.0": 0.2874013501102366
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "pair_ridge",
+    "config": {
+      "name": "alpha10",
+      "alpha": 10.0
+    },
+    "scores": {
+      "alpha0.1": 0.28277269601467575,
+      "alpha1": 0.28275527261930306,
+      "alpha10": 0.28263523495832604
+    }
+  },
+  {
+    "population": "b2outer3",
+    "method": "pair_tree",
+    "config": {
+      "name": "leaf2",
+      "leaf": 2
+    },
+    "scores": {
+      "leaf2": 0.28957952738394704,
+      "leaf8": 0.32147646101974103
+    }
+  }
+]

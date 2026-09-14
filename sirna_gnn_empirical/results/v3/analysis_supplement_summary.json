@@ -1,0 +1,9 @@
+{
+  "unique_training_partitions": 26,
+  "fit_partition_links": 2312,
+  "final_relation_rows": 12864,
+  "feature_count_rows": 2418,
+  "per_assay_rows": 209,
+  "per_fold_seed_rows": 455,
+  "all_main_numbers_must_be_generated": true
+}

@@ -1,0 +1,13 @@
+a,b,difference,lower,upper,groups,weighting,bootstrap_resamples,analysis_seed,uncertainty
+pair_gnn,training_mean,-0.04165579020463677,-0.08969598934976239,0.00894862293106073,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,training_mean,-0.012472436559757353,-0.07068518566514367,0.046407515314705654,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,activity_gnn,-0.012973416112864778,-0.046749753479981344,0.004130613900473009,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,activity_gnn,-0.034897182208990886,-0.08135662390872546,-0.0024560529058753676,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_no_message,0.0001018246624493719,-0.0011209739809560544,0.0022858105841892045,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_no_message,0.0015534564871516729,-0.0005175005307494029,0.004031091221684275,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_ridge,0.002817984617249054,-0.02585873563469973,0.05528068818053681,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_ridge,0.03228891025539883,-0.021359607429386928,0.1080812998552397,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_tree,-0.021657047546803667,-0.06418904717766934,0.03504258920336738,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,pair_tree,0.01107395177453552,-0.0436355753656291,0.07571324495338701,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,zero,-0.058689858831601514,-0.1366915323871742,-0.016896669171179747,12,rows,10000,90413,conditional on fitted predictions and observed cohort
+pair_gnn,zero,-0.11304125839402708,-0.21346477677857031,-0.034948817594614316,12,equal_groups,10000,90413,conditional on fitted predictions and observed cohort

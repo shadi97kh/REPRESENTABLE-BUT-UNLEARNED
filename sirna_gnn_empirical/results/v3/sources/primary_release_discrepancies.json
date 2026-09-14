@@ -1,0 +1,8 @@
+{
+  "identity_matched_pairs": 1604,
+  "within_half_tenth_percentage_point": 1209,
+  "within_half_percentage_point": 1258,
+  "greater_than_five_percentage_points": 299,
+  "max_absolute_activity_difference": 1.0852170324990895,
+  "interpretation": "Identity-based primary/released discrepancies, conditional on the documented chemistry mapping. Some small differences can reflect coarser release rounding; large differences require source reconciliation. Frozen benchmark labels are not overwritten. This is not a claim that every mismatch is a biological measurement error."
+}

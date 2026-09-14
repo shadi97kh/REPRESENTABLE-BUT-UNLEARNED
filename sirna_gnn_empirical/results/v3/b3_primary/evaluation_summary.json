@@ -1,0 +1,10 @@
+{
+  "rectangles": 140,
+  "conditions": 165,
+  "source_families": 1,
+  "sequence_backgrounds": 1,
+  "fitted_objects_reused": 62,
+  "new_fits": 0,
+  "new_updates": 0,
+  "uncertainty": "Descriptive only: all rectangles share one background and a common measured reference. Endpoint covariance unresolved."
+}

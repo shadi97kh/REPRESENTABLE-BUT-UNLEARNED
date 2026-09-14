@@ -1,0 +1,13 @@
+task,method,development_fits,final_fits,executed_updates,selected_updates
+activity,chemistry_tree,72,60,0,0
+activity,corrected_gnn,216,60,264102,69302
+activity,corrected_no_message,216,60,257938,63138
+activity,guide_ridge,54,6,0,0
+activity,original_gnn,216,60,264102,69302
+activity,original_no_message,216,60,257938,63138
+activity,pairwise_ridge,54,6,0,0
+activity,token_cnn,216,60,319505,124705
+pair,corrected_gnn,216,80,23170,8370
+pair,corrected_no_message,216,40,21212,8412
+pair,pair_ridge,36,4,0,0
+pair,pair_tree,48,40,0,0

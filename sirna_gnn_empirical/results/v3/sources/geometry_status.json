@@ -1,0 +1,9 @@
+{
+  "official_commit": "028824341635903f3c661f5d1cc737de106493d5",
+  "pdb_file_exists": false,
+  "pdb_bytes": 0,
+  "rosetta_configured_executable_exists": false,
+  "RNA_FM_cached": true,
+  "published_supervised_checkpoint_used": false,
+  "status": "Acquisition/dependency attempt complete; inspect artifact format/coverage before declaring exact reproduction feasible."
+}

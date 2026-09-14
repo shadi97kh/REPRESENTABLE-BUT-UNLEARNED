@@ -1,0 +1,112 @@
+[
+  {
+    "file": "BAN_graph.py",
+    "line": 166,
+    "text": "        self.attn      = nn.MultiheadAttention(embed_dim=combine_1_dim, num_heads=8, batch_first=True, dropout=0.1)"
+  },
+  {
+    "file": "BAN_graph.py",
+    "line": 169,
+    "text": "        self.attention     = nn.MultiheadAttention(embed_dim=1536, num_heads=8, batch_first=True, dropout=0.1)"
+  },
+  {
+    "file": "BAN_graph.py",
+    "line": 252,
+    "text": "            sense_mod_tokens_list.append(s_tokens)"
+  },
+  {
+    "file": "BAN_graph.py",
+    "line": 253,
+    "text": "            anti_mod_tokens_list.append(a_tokens)"
+  },
+  {
+    "file": "BAN_graph.py",
+    "line": 256,
+    "text": "        sense_mod_tokens_batch = torch.zeros(B, max_L_mod_sense, embed_dim, device=self.device)"
+  },
+  {
+    "file": "BAN_graph.py",
+    "line": 257,
+    "text": "        anti_mod_tokens_batch = torch.zeros(B, max_L_mod_anti, embed_dim, device=self.device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 18,
+    "text": "def get_standard_embedding(mod_name, emb_dict, device, embed_dim=1536):"
+  },
+  {
+    "file": "utils.py",
+    "line": 22,
+    "text": "        return torch.zeros(embed_dim, dtype=torch.float, device=device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 23,
+    "text": "def get_sequence_standard_embeddings(sequence, emb_dict, device, embed_dim=1536, max_seq_len=27):"
+  },
+  {
+    "file": "utils.py",
+    "line": 36,
+    "text": "    standard_embeddings = torch.zeros(max_seq_len, embed_dim, dtype=torch.float, device=device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 37,
+    "text": "    standard_sugar_emb = get_standard_embedding(standard_emb_names['sugar'], emb_dict, device, embed_dim)"
+  },
+  {
+    "file": "utils.py",
+    "line": 38,
+    "text": "    standard_phosphate_emb = get_standard_embedding(standard_emb_names['phosphate'], emb_dict, device, embed_dim)"
+  },
+  {
+    "file": "utils.py",
+    "line": 44,
+    "text": "                standard_emb_names['base'][nucleotide.lower()], emb_dict, device, embed_dim)"
+  },
+  {
+    "file": "utils.py",
+    "line": 46,
+    "text": "            standard_base_emb = torch.zeros(embed_dim, dtype=torch.float, device=device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 67,
+    "text": "def get_modification_embedding(mod_name, emb_dict, device, embed_dim=1536):"
+  },
+  {
+    "file": "utils.py",
+    "line": 71,
+    "text": "        return torch.zeros(embed_dim, dtype=torch.float, device=device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 72,
+    "text": "def generate_position_modification_embeddings(sequence, mod_types, mod_positions, emb_dict, device, embed_dim=1536,"
+  },
+  {
+    "file": "utils.py",
+    "line": 75,
+    "text": "    position_mod_embeddings = torch.zeros(max_seq_len, embed_dim, dtype=torch.float, device=device)"
+  },
+  {
+    "file": "utils.py",
+    "line": 80,
+    "text": "        mod_emb = get_modification_embedding(mod_type, emb_dict, device, embed_dim)"
+  },
+  {
+    "file": "utils.py",
+    "line": 86,
+    "text": "def generate_final_modification_embeddings(sequence, mod_types, mod_positions, emb_dict, device, embed_dim=1536,"
+  },
+  {
+    "file": "utils.py",
+    "line": 88,
+    "text": "    standard_embeddings = get_sequence_standard_embeddings(sequence.lower(), emb_dict, device, embed_dim, max_seq_len)"
+  },
+  {
+    "file": "utils.py",
+    "line": 90,
+    "text": "        sequence, mod_types, mod_positions, emb_dict, device, embed_dim, max_seq_len)"
+  }
+]

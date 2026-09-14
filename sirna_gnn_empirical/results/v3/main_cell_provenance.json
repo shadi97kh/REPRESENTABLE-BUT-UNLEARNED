@@ -1,0 +1,5115 @@
+{
+  "cells": [
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 2,
+      "display": "0.0712",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.071175022169981
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 3,
+      "display": "0.011",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0106367818746143
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 4,
+      "display": "0.1625",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1624832277357204
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 5,
+      "display": "-0.001",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0014088316340756
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 6,
+      "display": "0.1102",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1102433769707514
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 7,
+      "display": "-0.225",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "original_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.2253305256123345
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 2,
+      "display": "0.0712",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0711749632367243
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 3,
+      "display": "0.011",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0106376010720625
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 4,
+      "display": "0.1625",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1624753236281071
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 5,
+      "display": "-0.001",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0013601174173509
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 6,
+      "display": "0.1093",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1093027011570436
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 7,
+      "display": "-0.215",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.2148751239282287
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 2,
+      "display": "0.0712",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0712372381243359
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 3,
+      "display": "0.010",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0097719535269357
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 4,
+      "display": "0.1629",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1629140191159014
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 5,
+      "display": "-0.004",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0040638643947907
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 6,
+      "display": "0.1057",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1057064541942345
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 7,
+      "display": "-0.175",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "original_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.1749036417199165
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 2,
+      "display": "0.0712",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0712371672797227
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 3,
+      "display": "0.010",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0097729382973282
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 4,
+      "display": "0.1630",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1630434500382384
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 5,
+      "display": "-0.005",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0048615668439673
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 6,
+      "display": "0.1047",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1047089541249734
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 7,
+      "display": "-0.164",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.1638166511201075
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 2,
+      "display": "0.0656",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0656480266736166
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 3,
+      "display": "0.087",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0874643807166405
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 4,
+      "display": "0.1896",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.189569272857561
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 5,
+      "display": "-0.168",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.1683442450735961
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 6,
+      "display": "0.0919",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0919008789727011
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 7,
+      "display": "-0.021",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0214577549246477
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 2,
+      "display": "0.0717",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0717493819503741
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 3,
+      "display": "0.003",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0026529355284289
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 4,
+      "display": "0.1644",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1643646326877763
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 5,
+      "display": "-0.013",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.013004216346234
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 6,
+      "display": "0.1017",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1016850041653255
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 7,
+      "display": "-0.130",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.1302061223491692
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 2,
+      "display": "0.0938",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0937881851039346
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 3,
+      "display": "-0.304",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.3036958445192257
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 4,
+      "display": "0.2949",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2949365514874323
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 5,
+      "display": "-0.818",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.8177388001646808
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 6,
+      "display": "0.7815",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.7814547695577978
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 7,
+      "display": "-7.686",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "guide_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -7.6856953209857295
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 2,
+      "display": "0.0737",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0736896229433976
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 3,
+      "display": "-0.024",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0243172432544038
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 4,
+      "display": "0.2064",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2064300451838634
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 5,
+      "display": "-0.272",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.2722597479290258
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 6,
+      "display": "0.9698",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.96984024910577
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 7,
+      "display": "-9.780",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "pairwise_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -9.779557873232209
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 2,
+      "display": "0.0724",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0723722323454102
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 3,
+      "display": "-0.006",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0060049510792066
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 4,
+      "display": "0.1760",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1759827544198887
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 5,
+      "display": "-0.085",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0846084666536
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 6,
+      "display": "0.1488",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1488032875671567
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 7,
+      "display": "-0.654",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "training_row_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.6539153242365032
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 2,
+      "display": "0.0769",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0768973990254278
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 3,
+      "display": "-0.069",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0689067013365352
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 4,
+      "display": "0.1768",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1768204065202896
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 5,
+      "display": "-0.090",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.0897710438799865
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 6,
+      "display": "0.1505",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1505240929954339
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 7,
+      "display": "-0.673",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "training_equal_group_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": -0.6730416924397102
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 2,
+      "display": "0.0719",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.0719402347550794
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 3,
+      "display": "0.000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 4,
+      "display": "0.1623",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.1622546382685521
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 5,
+      "display": "0.000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 6,
+      "display": "0.0900",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.089970317939855
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 7,
+      "display": "0.000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "oracle_test_mean_diagnostic",
+        "weighting": "rows"
+      },
+      "fields": {
+        "r_squared": 0.0
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_comparisons",
+      "row": 1,
+      "column": 3,
+      "display": "\\shortstack{-0.0001\\\\{}[-0.0005, 0.0004]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": -6.22040429984168e-05,
+        "lower": -0.0005333544511408,
+        "upper": 0.0004065383344985
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 1,
+      "column": 4,
+      "display": "\\shortstack{-0.0002\\\\(0.0022)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": -0.0002119508666457,
+        "std": 0.0022301607836065
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 2,
+      "column": 3,
+      "display": "\\shortstack{0.0055\\\\{}[-0.0009, 0.0138]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": 0.0055269365631076,
+        "lower": -0.0008708885537812,
+        "upper": 0.0138147142084258
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 2,
+      "column": 4,
+      "display": "\\shortstack{0.0066\\\\(0.0024)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": 0.0065943492790149,
+        "std": 0.002357625281969
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 3,
+      "column": 3,
+      "display": "\\shortstack{-0.0006\\\\{}[-0.0024, 0.0015]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "APP",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": -0.0005681264101312,
+        "lower": -0.0024080614715105,
+        "upper": 0.0015208639784649
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 3,
+      "column": 4,
+      "display": "\\shortstack{-0.0019\\\\(0.0053)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "APP",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": -0.0019407442909722,
+        "std": 0.0053271952057111
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 4,
+      "column": 3,
+      "display": "\\shortstack{-0.0271\\\\{}[-0.0420, -0.0105]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "APP",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": -0.0270939492294538,
+        "lower": -0.0419642449962529,
+        "upper": -0.0104823076672834
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 4,
+      "column": 4,
+      "display": "\\shortstack{-0.0241\\\\(0.0033)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "APP",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": -0.0240512801917667,
+        "std": 0.0032935835855536
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 5,
+      "column": 3,
+      "display": "\\shortstack{0.0046\\\\{}[0.0022, 0.0066]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "Davis_S7",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": 0.0045937470320701,
+        "lower": 0.0021532226710878,
+        "upper": 0.0066310495455692
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 5,
+      "column": 4,
+      "display": "\\shortstack{0.0044\\\\(0.0130)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "Davis_S7",
+        "a": "corrected_gnn",
+        "b": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": 0.0044472307087491,
+        "std": 0.0130240934091289
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 6,
+      "column": 3,
+      "display": "\\shortstack{0.0174\\\\{}[-0.0084, 0.0390]}",
+      "source": "tables/direct_comparisons.csv",
+      "source_sha256": "38a4ef4fbc2598dc9864dc1a7adb8b6658dd88b1d0ec074ece3064f94118a8c4",
+      "selector": {
+        "cohort": "Davis_S7",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "difference": 0.0174018221843424,
+        "lower": -0.0084090089249779,
+        "upper": 0.0389873138841453
+      },
+      "operation": "point estimate and formatted interval on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_comparisons",
+      "row": 6,
+      "column": 4,
+      "display": "\\shortstack{0.0201\\\\(0.0155)}",
+      "source": "tables/seed_comparison_stability.csv",
+      "source_sha256": "25a449e5e71cd82fa953d9c7879cbf6436b1f1dc313eb17476ec9149eb4d8bae",
+      "selector": {
+        "cohort": "Davis_S7",
+        "a": "corrected_gnn",
+        "b": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean": 0.0200845124015381,
+        "std": 0.0155318226578738
+      },
+      "operation": "mean and parenthesized sample SD on two lines",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 2,
+      "display": "0.2351",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "activity_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2350880293966478
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 3,
+      "display": "0.3560",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "activity_gnn",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.3560221212964451
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 4,
+      "display": "0.083",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "activity_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.083054610230522
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 5,
+      "display": "0.036",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "activity_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0360286768401146
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 6,
+      "display": "111/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "activity_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 111,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 2,
+      "display": "0.2221",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.222114613283783
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 3,
+      "display": "0.3211",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_gnn",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.3211249390874544
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 4,
+      "display": "0.248",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.2475219915814328
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 5,
+      "display": "0.038",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0380959058797116
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 6,
+      "display": "111/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 111,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 2,
+      "display": "0.2220",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2220127886213337
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 3,
+      "display": "0.3196",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_no_message",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.3195714826003026
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 4,
+      "display": "0.228",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.227997849499725
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 5,
+      "display": "0.043",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0434620804113391
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 6,
+      "display": "111/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 111,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 2,
+      "display": "0.2438",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2437716608305867
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 3,
+      "display": "0.3101",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_tree",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.3100509873129187
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 4,
+      "display": "0.120",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1198572231434699
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 5,
+      "display": "0.167",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.1673411911493959
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 6,
+      "display": "109/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 109,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 2,
+      "display": "0.2193",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.219296628666534
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 3,
+      "display": "0.2888",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_ridge",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.2888360288320555
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 4,
+      "display": "0.226",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.2256894798129907
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 5,
+      "display": "0.148",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.1475287075356969
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 6,
+      "display": "105/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "pair_ridge",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 105,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 2,
+      "display": "0.2808",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "zero",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2808044721153845
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 3,
+      "display": "0.4342",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "zero",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.4341661974814814
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 4,
+      "display": "--",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "zero",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": null
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 5,
+      "display": "0.000",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "zero",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 6,
+      "display": "0/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "zero",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 0,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 2,
+      "display": "0.2638",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": 0.2637704034884198
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 3,
+      "display": "0.3336",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_mean",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": 0.3335973756472116
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 4,
+      "display": "-0.076",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": -0.0757670937970773
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 5,
+      "display": "0.064",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0637543239851041
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 6,
+      "display": "111/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_mean",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 111,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 2,
+      "display": "--",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_majority",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mse": null
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 3,
+      "display": "--",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_majority",
+        "weighting": "equal_sequence"
+      },
+      "fields": {
+        "mse": null
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 4,
+      "display": "--",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_majority",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": null
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 5,
+      "display": "--",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_majority",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": null
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 6,
+      "display": "111/137",
+      "source": "tables/pair_metrics.csv",
+      "source_sha256": "f6a7a286f06ec45d846ce8bde8c4995847692175cca0c511e35d58e5f88c3235",
+      "selector": {
+        "method": "training_majority",
+        "weighting": "rows"
+      },
+      "fields": {
+        "non_tie_correct": 111,
+        "non_ties": 137
+      },
+      "operation": "formatted correct/non-tie counts",
+      "decimal_places": null
+    },
+    {
+      "table": "main_B3",
+      "row": 1,
+      "column": 2,
+      "display": "0.0683",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_gnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mse": 0.0683350733237667
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_B3",
+      "row": 1,
+      "column": 3,
+      "display": "-0.090",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_gnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "correlation": -0.0902626771462525
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 1,
+      "column": 4,
+      "display": "0.002",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_gnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "prediction_sd": 0.0015892999439138
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 1,
+      "column": 5,
+      "display": "0.137",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_gnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mean_bias": 0.1370701803470052
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 2,
+      "column": 2,
+      "display": "0.0683",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_no_message",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mse": 0.0682810009052869
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_B3",
+      "row": 2,
+      "column": 3,
+      "display": "-0.034",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_no_message",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "correlation": -0.0344292515752611
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 2,
+      "column": 4,
+      "display": "0.002",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_no_message",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "prediction_sd": 0.0016520299076625
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 2,
+      "column": 5,
+      "display": "0.137",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "corrected_no_message",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mean_bias": 0.137012682002652
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 3,
+      "column": 2,
+      "display": "0.0719",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "chemistry_tree",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mse": 0.0719387700569338
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_B3",
+      "row": 3,
+      "column": 3,
+      "display": "-0.177",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "chemistry_tree",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "correlation": -0.1770241160420738
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 3,
+      "column": 4,
+      "display": "0.018",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "chemistry_tree",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "prediction_sd": 0.0177674971935518
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 3,
+      "column": 5,
+      "display": "0.144",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "chemistry_tree",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mean_bias": 0.1440253803573137
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 4,
+      "column": 2,
+      "display": "0.0684",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "token_cnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mse": 0.068408691599252
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_B3",
+      "row": 4,
+      "column": 3,
+      "display": "-0.047",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "token_cnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "correlation": -0.0468471532679402
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 4,
+      "column": 4,
+      "display": "0.003",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "token_cnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "prediction_sd": 0.0028788847014441
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 4,
+      "column": 5,
+      "display": "0.137",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "token_cnn",
+        "seed": "ensemble"
+      },
+      "fields": {
+        "mean_bias": 0.1373313900605664
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 5,
+      "column": 2,
+      "display": "0.0682",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "zero_interaction",
+        "seed": "deterministic"
+      },
+      "fields": {
+        "mse": 0.0682046537450527
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_B3",
+      "row": 5,
+      "column": 3,
+      "display": "--",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "zero_interaction",
+        "seed": "deterministic"
+      },
+      "fields": {
+        "correlation": null
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 5,
+      "column": 4,
+      "display": "0.000",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "zero_interaction",
+        "seed": "deterministic"
+      },
+      "fields": {
+        "prediction_sd": 0.0
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_B3",
+      "row": 5,
+      "column": 5,
+      "display": "0.137",
+      "source": "tables/b3_metrics.csv",
+      "source_sha256": "1e6881618081c0ddf9a0980bfd6a27afc11b8bd0deffc8bc95527d5da79057f7",
+      "selector": {
+        "method": "zero_interaction",
+        "seed": "deterministic"
+      },
+      "fields": {
+        "mean_bias": 0.1368362571289252
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_data",
+      "row": 1,
+      "column": 2,
+      "display": "2927",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "n": 2927
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 1,
+      "column": 3,
+      "display": "150",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "sequence_components": 150
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 1,
+      "column": 4,
+      "display": "10",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "study_linked_groups": 10
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 1,
+      "column": 5,
+      "display": "17",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "source_families": 17
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 2,
+      "column": 2,
+      "display": "1839",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "n": 1839
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 2,
+      "column": 3,
+      "display": "92",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "sequence_components": 92
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 2,
+      "column": 4,
+      "display": "1",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "study_linked_groups": 1
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 2,
+      "column": 5,
+      "display": "1",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "source_families": 1
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 3,
+      "column": 2,
+      "display": "118",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "n": 118
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 3,
+      "column": 3,
+      "display": "76",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "sequence_components": 76
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 3,
+      "column": 4,
+      "display": "1",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "study_linked_groups": 1
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 3,
+      "column": 5,
+      "display": "1",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "source_families": 1
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 4,
+      "column": 2,
+      "display": "165",
+      "source": "b3_primary/evaluation_summary.json",
+      "source_sha256": "04374bc76031a2d5f409808859fce05d06750ccb7cc1b8930d90651275d8d914",
+      "json_field": "conditions",
+      "value": 165,
+      "operation": "single primary background/source; study-link count is one for this entire panel"
+    },
+    {
+      "table": "main_data",
+      "row": 4,
+      "column": 3,
+      "display": "1",
+      "source": "b3_primary/evaluation_summary.json",
+      "source_sha256": "04374bc76031a2d5f409808859fce05d06750ccb7cc1b8930d90651275d8d914",
+      "json_field": "sequence_backgrounds",
+      "value": 1,
+      "operation": "single primary background/source; study-link count is one for this entire panel"
+    },
+    {
+      "table": "main_data",
+      "row": 4,
+      "column": 4,
+      "display": "1",
+      "source": "b3_primary/evaluation_summary.json",
+      "source_sha256": "04374bc76031a2d5f409808859fce05d06750ccb7cc1b8930d90651275d8d914",
+      "json_field": "source_families",
+      "value": 1,
+      "operation": "single primary background/source; study-link count is one for this entire panel"
+    },
+    {
+      "table": "main_data",
+      "row": 4,
+      "column": 5,
+      "display": "1",
+      "source": "b3_primary/evaluation_summary.json",
+      "source_sha256": "04374bc76031a2d5f409808859fce05d06750ccb7cc1b8930d90651275d8d914",
+      "json_field": "source_families",
+      "value": 1,
+      "operation": "single primary background/source; study-link count is one for this entire panel"
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 3,
+      "display": "0.163",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1625032579268921
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 4,
+      "display": "0.0574",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0574370998309117
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 5,
+      "display": "0.2682",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2682167682213016
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 6,
+      "display": "0.0307",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.0307022188996793
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 3,
+      "display": "0.158",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1577501711087947
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 4,
+      "display": "0.0575",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0574926475684969
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 5,
+      "display": "0.2682",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2682167682213016
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 6,
+      "display": "0.0293",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.0292694131054483
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 3,
+      "display": "0.312",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.3115475443133954
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 4,
+      "display": "0.0756",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0755968406483815
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 5,
+      "display": "0.2682",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2682167682213016
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 6,
+      "display": "0.0250",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.0250399211327175
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 3,
+      "display": "0.143",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1434976139037857
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 4,
+      "display": "0.0680",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0679821532911653
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 5,
+      "display": "0.2682",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2682167682213016
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 6,
+      "display": "0.0205",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "ENsiRNA_grouped",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.0205093065245709
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 3,
+      "display": "-0.018",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": -0.0178069411739411
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 4,
+      "display": "0.0072",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.007200744059603
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 5,
+      "display": "0.4028",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.4028084386759445
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 6,
+      "display": "-0.0081",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": -0.0080954215274677
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 3,
+      "display": "0.015",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.0145639272327114
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 4,
+      "display": "0.0085",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0084738056632608
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 5,
+      "display": "0.4028",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.4028084386759445
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 6,
+      "display": "-0.0286",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": -0.0285732232687069
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 3,
+      "display": "-0.021",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": -0.0209661074804858
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 4,
+      "display": "0.0103",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0103423540462262
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 5,
+      "display": "0.4028",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.4028084386759445
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 6,
+      "display": "-0.1644",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": -0.1644170952760713
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 3,
+      "display": "0.080",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.0796902360153073
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 4,
+      "display": "0.0036",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0036306072162609
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 5,
+      "display": "0.4028",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.4028084386759445
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 6,
+      "display": "-0.0483",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "APP",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": -0.0482690103932006
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 3,
+      "display": "0.112",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1118153902218298
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 4,
+      "display": "0.0059",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0058570654215062
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 5,
+      "display": "0.3000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2999505258202677
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 6,
+      "display": "0.1403",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_gnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.1403244783812055
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 3,
+      "display": "0.117",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1174778477119607
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 4,
+      "display": "0.0066",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0065771315632655
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 5,
+      "display": "0.3000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2999505258202677
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 6,
+      "display": "0.1231",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "corrected_no_message",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.1231214905183599
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 3,
+      "display": "0.017",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.0168659610990679
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 4,
+      "display": "0.0089",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0088644284854142
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 5,
+      "display": "0.3000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2999505258202677
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 6,
+      "display": "-0.0441",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "chemistry_tree",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": -0.0440644120645044
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 3,
+      "display": "0.108",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "correlation": 0.1079129462586087
+      },
+      "operation": "identity",
+      "decimal_places": 3
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 4,
+      "display": "0.0034",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "prediction_sd": 0.0033867058898164
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 5,
+      "display": "0.3000",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "label_sd": 0.2999505258202677
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 6,
+      "display": "0.1092",
+      "source": "tables/activity_metrics.csv",
+      "source_sha256": "11e4dd64b57b3727f2d349af2439d58b91d85654ed61337f67372196748d5aff",
+      "selector": {
+        "cohort": "Davis_S7",
+        "method": "token_cnn",
+        "weighting": "rows"
+      },
+      "fields": {
+        "mean_bias": 0.1091900267080129
+      },
+      "operation": "identity",
+      "decimal_places": 4
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 3,
+      "display": "72",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "chemistry_tree"
+      },
+      "fields": {
+        "development_fits": 72
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "chemistry_tree"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 5,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "chemistry_tree"
+      },
+      "fields": {
+        "executed_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 6,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "chemistry_tree"
+      },
+      "fields": {
+        "selected_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 5,
+      "display": "264,102",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "executed_updates": 264102
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 6,
+      "display": "69,302",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "selected_updates": 69302
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 5,
+      "display": "257,938",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "executed_updates": 257938
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 6,
+      "display": "63,138",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "selected_updates": 63138
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 3,
+      "display": "54",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "guide_ridge"
+      },
+      "fields": {
+        "development_fits": 54
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 4,
+      "display": "6",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "guide_ridge"
+      },
+      "fields": {
+        "final_fits": 6
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 5,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "guide_ridge"
+      },
+      "fields": {
+        "executed_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 6,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "guide_ridge"
+      },
+      "fields": {
+        "selected_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_gnn"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_gnn"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 5,
+      "display": "264,102",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_gnn"
+      },
+      "fields": {
+        "executed_updates": 264102
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 6,
+      "display": "69,302",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_gnn"
+      },
+      "fields": {
+        "selected_updates": 69302
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_no_message"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_no_message"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 5,
+      "display": "257,938",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_no_message"
+      },
+      "fields": {
+        "executed_updates": 257938
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 6,
+      "display": "63,138",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "original_no_message"
+      },
+      "fields": {
+        "selected_updates": 63138
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 3,
+      "display": "54",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "pairwise_ridge"
+      },
+      "fields": {
+        "development_fits": 54
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 4,
+      "display": "6",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "pairwise_ridge"
+      },
+      "fields": {
+        "final_fits": 6
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 5,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "pairwise_ridge"
+      },
+      "fields": {
+        "executed_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 6,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "pairwise_ridge"
+      },
+      "fields": {
+        "selected_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "token_cnn"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 4,
+      "display": "60",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "token_cnn"
+      },
+      "fields": {
+        "final_fits": 60
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 5,
+      "display": "319,505",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "token_cnn"
+      },
+      "fields": {
+        "executed_updates": 319505
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 6,
+      "display": "124,705",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "activity",
+        "method": "token_cnn"
+      },
+      "fields": {
+        "selected_updates": 124705
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 4,
+      "display": "80",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "final_fits": 80
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 5,
+      "display": "23,170",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "executed_updates": 23170
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 6,
+      "display": "8,370",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_gnn"
+      },
+      "fields": {
+        "selected_updates": 8370
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 3,
+      "display": "216",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "development_fits": 216
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 4,
+      "display": "40",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "final_fits": 40
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 5,
+      "display": "21,212",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "executed_updates": 21212
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 6,
+      "display": "8,412",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "corrected_no_message"
+      },
+      "fields": {
+        "selected_updates": 8412
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 3,
+      "display": "36",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_ridge"
+      },
+      "fields": {
+        "development_fits": 36
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 4,
+      "display": "4",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_ridge"
+      },
+      "fields": {
+        "final_fits": 4
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 5,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_ridge"
+      },
+      "fields": {
+        "executed_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 6,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_ridge"
+      },
+      "fields": {
+        "selected_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 3,
+      "display": "48",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_tree"
+      },
+      "fields": {
+        "development_fits": 48
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 4,
+      "display": "40",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_tree"
+      },
+      "fields": {
+        "final_fits": 40
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 5,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_tree"
+      },
+      "fields": {
+        "executed_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 6,
+      "display": "0",
+      "source": "tables/optimization_by_task.csv",
+      "source_sha256": "2d9501bf4ece1a75cc49a6654a7db0d64d456dc2810f31bde4284f5ca9cfc238",
+      "selector": {
+        "task": "pair",
+        "method": "pair_tree"
+      },
+      "fields": {
+        "selected_updates": 0
+      },
+      "operation": "identity",
+      "decimal_places": 0
+    },
+    {
+      "table": "main_data",
+      "row": 1,
+      "column": 1,
+      "display": "Grouped ENsiRNA",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_data",
+      "row": 2,
+      "column": 1,
+      "display": "APP follow-up",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_data",
+      "row": 3,
+      "column": 1,
+      "display": "Davis S7 follow-up",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_data",
+      "row": 4,
+      "column": 1,
+      "display": "Primary B3",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 1,
+      "column": 1,
+      "display": "R0 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 2,
+      "column": 1,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 3,
+      "column": 1,
+      "display": "R0 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 4,
+      "column": 1,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 5,
+      "column": 1,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 6,
+      "column": 1,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 7,
+      "column": 1,
+      "display": "Guide ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 8,
+      "column": 1,
+      "display": "Pairwise ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 9,
+      "column": 1,
+      "display": "Training row mean",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 10,
+      "column": 1,
+      "display": "Training group mean",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_activity",
+      "row": 11,
+      "column": 1,
+      "display": "Oracle test mean",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 1,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 1,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 2,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 2,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 3,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 3,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 4,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 4,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 5,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 5,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 6,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_comparisons",
+      "row": 6,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 1,
+      "column": 1,
+      "display": "Activity GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 2,
+      "column": 1,
+      "display": "Pair GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 3,
+      "column": 1,
+      "display": "Pair no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 4,
+      "column": 1,
+      "display": "Pair tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 5,
+      "column": 1,
+      "display": "Pair ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 6,
+      "column": 1,
+      "display": "Zero",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 7,
+      "column": 1,
+      "display": "Training mean",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_pair_ranking",
+      "row": 8,
+      "column": 1,
+      "display": "Majority direction",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_B3",
+      "row": 1,
+      "column": 1,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_B3",
+      "row": 2,
+      "column": 1,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_B3",
+      "row": 3,
+      "column": 1,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_B3",
+      "row": 4,
+      "column": 1,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_B3",
+      "row": 5,
+      "column": 1,
+      "display": "Zero interaction",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 1,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 2,
+      "column": 2,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 3,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 4,
+      "column": 2,
+      "display": "Guide ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 5,
+      "column": 2,
+      "display": "R0 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 6,
+      "column": 2,
+      "display": "R0 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 7,
+      "column": 2,
+      "display": "Pairwise ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 1,
+      "display": "Activity",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 8,
+      "column": 2,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 1,
+      "display": "Pair",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 9,
+      "column": 2,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 1,
+      "display": "Pair",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 10,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 1,
+      "display": "Pair",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 11,
+      "column": 2,
+      "display": "Pair ridge",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 1,
+      "display": "Pair",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_optimization",
+      "row": 12,
+      "column": 2,
+      "display": "Pair tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 1,
+      "column": 2,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 2,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 3,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 1,
+      "display": "Grouped",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 4,
+      "column": 2,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 5,
+      "column": 2,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 6,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 7,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 1,
+      "display": "APP",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 8,
+      "column": 2,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 9,
+      "column": 2,
+      "display": "R1 GNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 10,
+      "column": 2,
+      "display": "R1 no-message",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 11,
+      "column": 2,
+      "display": "Chemistry tree",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 1,
+      "display": "S7",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    },
+    {
+      "table": "main_calibration",
+      "row": 12,
+      "column": 2,
+      "display": "Token CNN",
+      "operation": "literal method/cohort identifier; full identifier dictionaries in paper.py",
+      "generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311"
+    }
+  ],
+  "all_main_data_cells": 338,
+  "table_generator_sha256": "435c406f2e109d2a4d1187c7ce13c64ab377001d19c8254110dc79918e6fe311",
+  "mapping_generator_sha256": "61c8716c9dd9ab045d7a17748fd4768f6b99aeb822cd218bcde98ddc7dcf2a02",
+  "metric_definitions": "metrics.py and manuscript Appendix A5; weighting and selectors explicit per cell",
+  "rounding": "Python fixed decimal formatting in paper.py; full-precision source CSV is authoritative; undefined shown as --"
+}

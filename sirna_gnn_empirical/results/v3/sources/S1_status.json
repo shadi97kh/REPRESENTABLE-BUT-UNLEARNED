@@ -1,0 +1,15 @@
+{
+  "status": "ACQUIRED_BUT_ORIENTATION_UNRESOLVED",
+  "workbook": "runs/sirna_gnn_empirical/v2-20260913T220847Z/source_audit/davis_original_supplement.xlsx",
+  "workbook_sha256": "095130ef5faffe1423d2143372d3e599b85f5b8038d9382d8f4ac442a93e5619",
+  "current_primary_xml_sha256": "d8384ce69d2fbf8907fca1fd3ee25dcc07202922a322c7c051e656c7babb2190",
+  "checks": [
+    "Printed S1 header and first chemical strings inspected",
+    "Full primary XML searched for strand orientation, reverse complement and S1 descriptions",
+    "Primary method reverse-complement statement concerns RNA-seq reads, not conversion of chemical scaffold strings",
+    "Current Crossref metadata has no linked correction resolving S1 orientation",
+    "Retained all 1248 historical row-level orientation checks"
+  ],
+  "conclusion": "No authoritative conversion of the printed target-sense antisense strings was found. No strand/base/chemical-position reversal is guessed. This does not invalidate the biological experiments.",
+  "new_admitted_S1_rows": 0
+}

@@ -1,0 +1,35 @@
+{
+  "ENsiRNA_mod": {
+    "status": "BLOCKED_EXACT_REPRODUCTION",
+    "commit": "028824341635903f3c661f5d1cc737de106493d5",
+    "attempts": [
+      "install_dependencies.record.json",
+      "acquire_official_pdb.record.json",
+      "official_preprocess_help.record.json",
+      "rosetta_probe.record.json"
+    ],
+    "blocker": "Public official PDB download failed; configured Rosetta geometry generator is absent. RNA-FM representation is cached but does not supply missing per-duplex geometry.",
+    "exact_supervised_fits": 0,
+    "supervised_efficacy_checkpoint_used": false
+  },
+  "MEG_mod": {
+    "status": "BLOCKED_EXACT_REPRODUCTION",
+    "commit": "c335a4c69d56ef73754677da8bfe627c8112b350",
+    "attempts": [
+      "megmod_attempt.json",
+      "megmod_training_entrypoint.log",
+      "megmod_unresolved_forward_symbols.json"
+    ],
+    "blocker": "Released BAN_graph.py fails at import with missing torch; the forward pass additionally references undeclared strand token tensors/dimensions without their constructing code. Fixing imports alone does not specify that scientific representation.",
+    "available_assets": [
+      "unimol_1b_emb_dict.pkl",
+      "cofold_results.pkl"
+    ],
+    "RNAErnie_base_asset": "Public listed 1.018GB asset not downloaded because missing forward representation already prevents exact reproduction; not declared inaccessible.",
+    "exact_supervised_fits": 0,
+    "supervised_efficacy_checkpoint_used": false
+  },
+  "reserved_fit_budget": 100,
+  "executed_exact_published_fits": 0,
+  "approximation_substituted": false
+}

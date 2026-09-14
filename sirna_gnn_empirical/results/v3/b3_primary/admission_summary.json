@@ -1,0 +1,11 @@
+{
+  "measured_conditions": 165,
+  "complete_rectangles": 140,
+  "eligible_AS": 15,
+  "eligible_SS": 11,
+  "exact_sequence_backgrounds": 1,
+  "source_families": 1,
+  "protocol_hash": "6c6b71ec753365f070faa3a7cf94f190fe488442715cc8737d90d6e833b42e32",
+  "original_APP_rectangles": 0,
+  "proof_of_measurement": "Every endpoint comes directly from the primary matrix; no model output is used as a label."
+}

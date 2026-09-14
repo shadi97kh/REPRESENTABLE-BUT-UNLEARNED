@@ -1,0 +1,1 @@
+name,method,seed,status,failure,training_n,validation_n,test_n,parameters,selected_epoch,selected_updates,executed_updates,epochs_executed,validation_score,target_mean,target_sd,lambda_pair,selection,wall_s,cpu_s,gpu_region_wall_s,configuration

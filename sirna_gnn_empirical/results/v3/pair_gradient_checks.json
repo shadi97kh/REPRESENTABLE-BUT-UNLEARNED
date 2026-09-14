@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "fit": "pair/b2outer0/final/pair_gnn/s1103",
+      "training_pairs": 90,
+      "lambda_pair": 10.0,
+      "selected_checkpoint_sha256": "7d2b0c3e4a059be077fa10c3b24318bc72fe776f8ff5b4562fea4f91f9bacda6",
+      "endpoint_gradient_maximum_absolute_error": 1.4901161193847656e-08,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 3.5049631595611572,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer0/final/pair_no_message/s1103",
+      "training_pairs": 90,
+      "lambda_pair": 1.0,
+      "selected_checkpoint_sha256": "73c3d8fd9d6c02c9c6a92361d72f8e75e0e269d3e3934380be7306d9dfa5fca9",
+      "endpoint_gradient_maximum_absolute_error": 3.725290298461914e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 3.39082670211792,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer1/final/pair_gnn/s1103",
+      "training_pairs": 72,
+      "lambda_pair": 0.1,
+      "selected_checkpoint_sha256": "08e53b1e5bff443319d8a7723a408e33c628231c5bad5edb4f5c2baf9e7ac0ca",
+      "endpoint_gradient_maximum_absolute_error": 7.450580596923828e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 2.436570882797241,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer1/final/pair_no_message/s1103",
+      "training_pairs": 72,
+      "lambda_pair": 0.1,
+      "selected_checkpoint_sha256": "b1c3b3176b0f04787bba630b13eb0dee5abf2825a8ae745f88dec11088f42fec",
+      "endpoint_gradient_maximum_absolute_error": 1.4901161193847656e-08,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 2.212651491165161,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer2/final/pair_gnn/s1103",
+      "training_pairs": 72,
+      "lambda_pair": 1.0,
+      "selected_checkpoint_sha256": "4ba930badaf7cb94600d0b1b73ca11bc830740ee983c618dc71af667cc4d4e64",
+      "endpoint_gradient_maximum_absolute_error": 7.450580596923828e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 1.2780228853225708,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer2/final/pair_no_message/s1103",
+      "training_pairs": 72,
+      "lambda_pair": 10.0,
+      "selected_checkpoint_sha256": "999ef2fd285e55dcf2d4008898dd6e634de523c6f9276150eeecc73a4b2cbf94",
+      "endpoint_gradient_maximum_absolute_error": 3.725290298461914e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 1.3366109132766724,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer3/final/pair_gnn/s1103",
+      "training_pairs": 84,
+      "lambda_pair": 10.0,
+      "selected_checkpoint_sha256": "1add82295a56d75d0f3fa395405ca541adf918c5fa0e278d03b5e2ef08b716f1",
+      "endpoint_gradient_maximum_absolute_error": 7.450580596923828e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 3.3145058155059814,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    },
+    {
+      "fit": "pair/b2outer3/final/pair_no_message/s1103",
+      "training_pairs": 84,
+      "lambda_pair": 10.0,
+      "selected_checkpoint_sha256": "70958a6c15448c661eb5e3bc3d5021a3e768570e31775f5d8ed51f432d3568f4",
+      "endpoint_gradient_maximum_absolute_error": 3.725290298461914e-09,
+      "reverse_orientation_gradient_matches": true,
+      "common_output_shift_gradient": 0.0,
+      "pair_only_parameter_gradient_norm": 0.3411325216293335,
+      "optimizer_updates": 0,
+      "scope": "Measured training pairs; diagnostic dropout disabled. Verifies signed endpoint gradient accumulation and intercept cancellation, not a new training or held-out performance estimate."
+    }
+  ],
+  "expected_checkpoint_checks": 8,
+  "actual_checkpoint_checks": 8,
+  "new_fits": 0,
+  "optimizer_updates": 0
+}

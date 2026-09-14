@@ -2,7 +2,17 @@
 
 This repository records a research project on recovering selected interaction contrasts from incomplete intervention coverage, alongside earlier work on bounds for neural predictions over constrained graph families. It preserves proofs, implementation checks, frozen comparisons, and negative results. The paper figure collection is indexed in [paper/README.md](paper/README.md); its plots use saved results, with theoretical diagnostics kept separate from fitted and biological evidence.
 
-## Current research result
+## Current empirical siRNA study
+
+**Do Graphs Learn the Chemistry? Controlled Evidence from siRNA Prediction** evaluates a conventional chemistry-aware GNN against published measured outcomes. The latest campaign completed 2,312 fits with ten final seeds for stochastic methods. It does not establish a general GNN advantage over the strongest fitted baseline or sequence-specific measured chemistry prediction; unfavorable results and source limitations remain explicit. APP/S7 evaluation is retrospective, and no new wet-lab validation was performed.
+
+[Current results, code and limitations](sirna_gnn_empirical/README.md) · [Comparison tables](sirna_gnn_empirical/results/v3/tables/) · [Workflow and result figures](sirna_gnn_empirical/presentation/v3/README.md)
+
+![Chemistry-aware siRNA architecture and separate training protocols](sirna_gnn_empirical/presentation/v3/figures/workflow.png)
+
+The supplied workflow is the paper's page-two figure. Its notation, controlled support/no-message variants and pair-loss normalization are documented with the [figure assets](sirna_gnn_empirical/presentation/v3/README.md). The empirical GNN is separate from the theoretical estimator described below.
+
+## Separate theoretical research result
 
 The strongest completed result is a **local asymptotically linear estimator for a two-intervention contrast from five source response laws**, with two unknown analytic profiles and four unknown coefficients. The source actions are the reference and four single interventions; the joint intervention defining the target is unobserved during estimation. The model assumes a known Gaussian latent law, a known nonlinear warp, two calibrated private unit anchors, and explicit profile normalization and smoothness restrictions.
 

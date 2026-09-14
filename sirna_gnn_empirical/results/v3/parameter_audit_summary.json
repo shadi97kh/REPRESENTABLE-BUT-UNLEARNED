@@ -1,0 +1,8 @@
+{
+  "final_neural_checkpoints": 420,
+  "parameter_tensor_rows": 6360,
+  "new_fits": 0,
+  "optimizer_updates": 0,
+  "wall_s": 109.46094351587817,
+  "scope": "Read-only full-training activity and actual combined-objective gradients at all completed final neural checkpoints; dropout disabled. Parameter changes include weight decay. Ever-data-active counts throughout the full trajectory are not inferred."
+}
