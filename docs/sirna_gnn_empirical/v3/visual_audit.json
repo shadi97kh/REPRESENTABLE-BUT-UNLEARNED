@@ -1,0 +1,37 @@
+{
+  "pdf_sha256": "856ddfbe26dad55e4cca009d5d0c1d2975623c3f3602fc87c98d71075ae3f04e",
+  "page_count": 718,
+  "main_pages": [
+    1,
+    9
+  ],
+  "statement_pages": [
+    10,
+    10
+  ],
+  "reference_pages": [
+    11,
+    14
+  ],
+  "appendix_pages": [
+    15,
+    718
+  ],
+  "appendix_page_count": 704,
+  "all_pages_visually_inspected": true,
+  "workflow_page": 2,
+  "main_tables": 7,
+  "main_result_figures": 3,
+  "main_workflow_figures": 1,
+  "appendix_figures": 8,
+  "inspection_method": "Completed: every page inspected at contact-sheet layout scale, all nine main pages individually, every result figure individually, and detailed appendix/changed pages at full-page resolution. Final render hashes link unchanged pages to the inspected version; changed pages 714\u2013718 were reinspected. This is a layout/readability check, supplemented by source/metric audits, not a claim of independent biological validation.",
+  "resolved_findings": [
+    "Overlapping B2 labels/legend",
+    "Appendix heatmap/colorbar collision",
+    "Learning-curve labels and ten-seed legend",
+    "Calibration caption escaped table reference",
+    "Redundant closing paragraph causing near-empty appendix page"
+  ],
+  "remaining_layout_findings": [],
+  "administration": "Inspection, image conversion, authoring and hashing incur nonzero additional administrative cost; interactive work is not fully metered."
+}

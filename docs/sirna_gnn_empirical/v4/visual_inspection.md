@@ -1,0 +1,7 @@
+# Rendered-page inspection
+
+All 53 pages were rendered at 110 dpi and inspected through contact sheets 01–09. Main pages 1–9 remain substantive; page three gained a measured-evidence table after the initial layout inspection. The supplied workflow is on page two, with its separate caption below. Three additional results figures and nine main tables are present. Figure and table captions follow their objects. The appendix contains 39 pages (15–53), including complete retained and new finite-model proofs, equations, compact complete result summaries and an indexed evidence archive.
+
+No cropped scientific plot labels, overlapping tables or missing figure assets were observed. Long tables repeat their headings and place captions after the final rows. Some appendix figures occupy separate float pages; references and required statements retain their normal excluded-page layout. All-page text and page counts agree in the clean independent ZIP build. TeX checks report zero undefined references and zero overfull boxes. Underfull-box warnings are retained in logs; no margin, font or official style modification was used to force nine pages.
+
+The actual page boundaries are main 1–9, statements 10, references 11–14, appendix 15–53. The complete editable source has exactly four top-level entries; build products and official dependencies remain external. Scientific fits were not rerun during typesetting.

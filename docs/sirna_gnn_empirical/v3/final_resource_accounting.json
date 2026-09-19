@@ -1,0 +1,94 @@
+{
+  "scientific_fit_accounting": {
+    "actual_core_fits": 2312,
+    "development_fits": 1776,
+    "final_fits": 536,
+    "neural_fits": 1932,
+    "failed_core_fits": 0,
+    "executed_updates": 1407967,
+    "selected_updates": 406367,
+    "fit_cpu_s": 12523.76894655899,
+    "fit_wall_s": 12360.589618324302,
+    "gpu_region_wall_s": 11689.878587597283,
+    "published_exact_fits": 0,
+    "unused_published_fit_reserve": 100
+  },
+  "all_recorded_stage_attempts": 16,
+  "all_recorded_stage_child_cpu_s": 13578.145013,
+  "all_recorded_stage_aggregate_wall_s": 13399.052905295976,
+  "max_recorded_stage_child_rss_kib": 3306840,
+  "failed_stage_attempts": [
+    {
+      "stage": "checks",
+      "exit_code": 1,
+      "log": "logs/checks-1789350128851738451.log"
+    },
+    {
+      "stage": "deliver",
+      "exit_code": 1,
+      "log": "logs/deliver-1789365791919862422.log"
+    }
+  ],
+  "delivery_attempts": [
+    {
+      "stage": "deliver",
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/deliver.py",
+      "wall_s": 27.07020801003091,
+      "child_cpu_s": 27.554989,
+      "max_child_rss_kib": 2509072,
+      "exit_code": 1,
+      "log": "logs/deliver-1789365791919862422.log",
+      "signature": {
+        "code": {
+          "deliver.py": "2ae86806bfb50e5f77336c14522e84668eda234ba2e37a1c23456378c4a55dbf",
+          "common.py": "ab874296ea22396b6ebd748ae6110f30854320384b676a5636e7500da366ef79"
+        },
+        "dependencies": {
+          "paper": "ea92c828ef67de5bc0e98001983978817440d8607af022d709a22bd74f689923"
+        }
+      }
+    },
+    {
+      "stage": "deliver",
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/deliver.py",
+      "wall_s": 345.85360092506744,
+      "child_cpu_s": 346.155026,
+      "max_child_rss_kib": 2508920,
+      "exit_code": 0,
+      "log": "logs/deliver-1789365910918384268.log",
+      "signature": {
+        "code": {
+          "deliver.py": "ae47654828c4ada2f15f2821b272b73f2e3d8a73f2593a980be43ea4c2b45452",
+          "common.py": "ab874296ea22396b6ebd748ae6110f30854320384b676a5636e7500da366ef79"
+        },
+        "dependencies": {
+          "paper": "ea92c828ef67de5bc0e98001983978817440d8607af022d709a22bd74f689923"
+        }
+      }
+    }
+  ],
+  "postdelivery_hash_verification": {
+    "command": [
+      "bash",
+      "sirna_gnn_empirical/v3/run_all.sh"
+    ],
+    "exit_code": 0,
+    "wall_s": 27.708953242050484,
+    "child_cpu_s": 28.825385,
+    "max_child_rss_kib": 113932,
+    "output": "VERIFIED legacy_analysis\nVERIFIED source_checks\nVERIFIED protocol\nVERIFIED checks\nVERIFIED activity\nVERIFIED pair\nVERIFIED b3_evaluate\nVERIFIED evaluate\nVERIFIED analysis_supplement\nVERIFIED parameter_audit\nVERIFIED figures\nVERIFIED paper\nVERIFIED deliver\n",
+    "scientific_stage_command_record_unchanged": true,
+    "expected_stages": 13
+  },
+  "additional_authoring_snapshot": {
+    "recorded_authoring_attempts": 18,
+    "recorded_authoring_wall_s": 246.16901847557165,
+    "recorded_authoring_child_cpu_s": 247.134205,
+    "failed_authoring_attempts": 4,
+    "authoring_cost_scope": "Separate figure/table/build attempts. Nested build commands overlap these measured outer commands and are not added again. Subsequent delivery/ZIP verification remains separately recorded.",
+    "separately_recorded_source_administration_wall_s": 41.21555581036955,
+    "separately_recorded_source_command_child_cpu_s": 6.848592,
+    "source_helper_recorded_errors": 36
+  },
+  "scope": "Stage totals include successful and failed recorded commands. Fit CPU/wall/GPU-region values overlap stage totals and must not be added. Authoring/source commands are separately scoped; nested administrative builds overlap their parent calls. Final resume verification is administrative only and made no scientific stage execution or update. Original pre-packaging resource snapshots are immutable. Direct interaction, browsing, source inspection, authoring, copying, rendering and hashing have additional nonzero, incompletely metered costs. No historical allowance or ledger was used."
+}

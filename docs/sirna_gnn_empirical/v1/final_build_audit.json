@@ -1,0 +1,302 @@
+{
+  "compiled_utc": "2026-09-13T20:07:33.719724+00:00",
+  "main_pages": [
+    1,
+    9
+  ],
+  "excluded_statements_pages": [
+    10,
+    10
+  ],
+  "reference_pages": [
+    11,
+    14
+  ],
+  "appendix_pages": [
+    15,
+    42
+  ],
+  "appendix_page_count": 28,
+  "total_pages": 42,
+  "bibliography_entries": 44,
+  "research_method_software_papers": 42,
+  "assay_corrections": 2,
+  "main_figure_slots": 4,
+  "main_tables": 4,
+  "appendix_figures": 7,
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "official_style_unchanged": true,
+  "workflow_drawn": false,
+  "main_page_word_counts": [
+    540,
+    526,
+    515,
+    516,
+    396,
+    509,
+    476,
+    632,
+    619
+  ],
+  "all_labels": {
+    "sec:intro": {
+      "number": "1",
+      "page": 1
+    },
+    "sec:data": {
+      "number": "2",
+      "page": 2
+    },
+    "fig:workflow": {
+      "number": "1",
+      "page": 2
+    },
+    "tab:evidence": {
+      "number": "1",
+      "page": 2
+    },
+    "sec:model": {
+      "number": "3",
+      "page": 3
+    },
+    "eq:embed": {
+      "number": "1",
+      "page": 3
+    },
+    "eq:message": {
+      "number": "2",
+      "page": 3
+    },
+    "eq:update": {
+      "number": "3",
+      "page": 3
+    },
+    "sec:protocol": {
+      "number": "4",
+      "page": 4
+    },
+    "tab:split": {
+      "number": "2",
+      "page": 4
+    },
+    "alg:commit": {
+      "number": "4.1",
+      "page": 4
+    },
+    "sec:b1": {
+      "number": "5",
+      "page": 5
+    },
+    "fig:performance": {
+      "number": "2",
+      "page": 5
+    },
+    "tab:performance": {
+      "number": "3",
+      "page": 5
+    },
+    "sec:ranking": {
+      "number": "6",
+      "page": 6
+    },
+    "fig:ranking": {
+      "number": "3",
+      "page": 6
+    },
+    "eq:ranking": {
+      "number": "4",
+      "page": 6
+    },
+    "sec:b2": {
+      "number": "7",
+      "page": 7
+    },
+    "fig:effects": {
+      "number": "4",
+      "page": 7
+    },
+    "tab:effects": {
+      "number": "4",
+      "page": 7
+    },
+    "sec:related": {
+      "number": "8",
+      "page": 8
+    },
+    "sec:limits": {
+      "number": "9",
+      "page": 9
+    },
+    "main:end": {
+      "number": "9",
+      "page": 9
+    },
+    "references:start": {
+      "number": "9",
+      "page": 11
+    },
+    "references:end": {
+      "number": "9",
+      "page": 14
+    },
+    "app:roadmap": {
+      "number": "A",
+      "page": 15
+    },
+    "tab:dependencies": {
+      "number": "5",
+      "page": 15
+    },
+    "app:data": {
+      "number": "B",
+      "page": 15
+    },
+    "tab:source_hashes": {
+      "number": "7",
+      "page": 17
+    },
+    "tab:exclusions": {
+      "number": "8",
+      "page": 18
+    },
+    "app:model": {
+      "number": "C",
+      "page": 20
+    },
+    "tab:vocabulary": {
+      "number": "9",
+      "page": 20
+    },
+    "tab:context": {
+      "number": "10",
+      "page": 22
+    },
+    "prop:gradient": {
+      "number": "C.1",
+      "page": 22
+    },
+    "prop:zero": {
+      "number": "C.2",
+      "page": 23
+    },
+    "app:training": {
+      "number": "D",
+      "page": 24
+    },
+    "eq:weight": {
+      "number": "D.1",
+      "page": 24
+    },
+    "app:evaluation": {
+      "number": "E",
+      "page": 26
+    },
+    "prop:rank": {
+      "number": "E.1",
+      "page": 26
+    },
+    "eq:boot": {
+      "number": "E.1",
+      "page": 26
+    },
+    "app:results": {
+      "number": "F",
+      "page": 28
+    },
+    "tab:sources": {
+      "number": "11",
+      "page": 28
+    },
+    "tab:development": {
+      "number": "12",
+      "page": 28
+    },
+    "tab:final": {
+      "number": "13",
+      "page": 29
+    },
+    "tab:metrics": {
+      "number": "14",
+      "page": 29
+    },
+    "tab:paired": {
+      "number": "15",
+      "page": 29
+    },
+    "tab:seeds": {
+      "number": "16",
+      "page": 30
+    },
+    "tab:studies": {
+      "number": "17",
+      "page": 31
+    },
+    "tab:assay_identity": {
+      "number": "18",
+      "page": 31
+    },
+    "fig:learning": {
+      "number": "5",
+      "page": 32
+    },
+    "fig:scatters": {
+      "number": "6",
+      "page": 32
+    },
+    "fig:seeds": {
+      "number": "7",
+      "page": 32
+    },
+    "tab:assay_metrics": {
+      "number": "19",
+      "page": 33
+    },
+    "tab:backgrounds": {
+      "number": "20",
+      "page": 35
+    },
+    "tab:effects-detail": {
+      "number": "21",
+      "page": 36
+    },
+    "fig:assays": {
+      "number": "8",
+      "page": 37
+    },
+    "fig:all-effects": {
+      "number": "9",
+      "page": 37
+    },
+    "fig:support": {
+      "number": "10",
+      "page": 38
+    },
+    "fig:context": {
+      "number": "11",
+      "page": 38
+    },
+    "app:reproduction": {
+      "number": "G",
+      "page": 39
+    },
+    "tab:software": {
+      "number": "22",
+      "page": 40
+    },
+    "tab:commands": {
+      "number": "23",
+      "page": 40
+    },
+    "app:scope": {
+      "number": "H",
+      "page": 41
+    },
+    "appendix:end": {
+      "number": "H.4",
+      "page": 42
+    }
+  },
+  "build_and_checks_wall_s": 3.8379916481208056,
+  "visual_inspection": "Main pages and appendix renders reviewed separately in visual_inspection.md; no assertion of external expert review."
+}

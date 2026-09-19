@@ -1,0 +1,21 @@
+{
+  "preserved_files_checked": 336,
+  "changed_preserved_files": [],
+  "required_documents": [
+    "exact_problem.md",
+    "target_identity.md",
+    "modulus.md",
+    "estimator.md",
+    "novelty.md",
+    "decision.md",
+    "commands_and_resources.md"
+  ],
+  "completed_task_job_ids": [
+    29,
+    30
+  ],
+  "active_final_check_job_ids": [
+    31
+  ],
+  "note": "Final check reads existing artifacts only. Its own completed cost is in the subsequent ledger end and snapshot."
+}

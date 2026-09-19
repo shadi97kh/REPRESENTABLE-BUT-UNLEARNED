@@ -1,0 +1,2494 @@
+{
+  "evidence": [
+    {
+      "original_path": "Codex_Combined_Review_GNN_siRNA.md",
+      "packet_path": "evidence/Codex_Combined_Review_GNN_siRNA.md",
+      "bytes": 12095,
+      "sha256": "16c2ea1b8d410095c985ef6d7a5a356885f28fcea81ade406e91ba1a7277d759"
+    },
+    {
+      "original_path": "GNN_RNA_Data_Research_Evidence.json",
+      "packet_path": "evidence/GNN_RNA_Data_Research_Evidence.json",
+      "bytes": 2381,
+      "sha256": "f45a92762c8215d00be71df1adf3aacdc1d8248af3cca107894388b1d19ce46b"
+    },
+    {
+      "original_path": "certmp/__init__.py",
+      "packet_path": "evidence/certmp/__init__.py",
+      "bytes": 95,
+      "sha256": "ac84119dbb4bed9290fea343419367ef8f67be1fd1a17e76c733ff29e3623925"
+    },
+    {
+      "original_path": "certmp/aggregators.py",
+      "packet_path": "evidence/certmp/aggregators.py",
+      "bytes": 2356,
+      "sha256": "f09e2c0ee50a9eb2f7be8ba15391be4421bf85c015804fabd8a9b4777df80e29"
+    },
+    {
+      "original_path": "certmp/certify.py",
+      "packet_path": "evidence/certmp/certify.py",
+      "bytes": 2601,
+      "sha256": "76bf4d979a8e7c8e87749bea28b971df737b98c9cb13de8019c1887233681809"
+    },
+    {
+      "original_path": "certmp/data.py",
+      "packet_path": "evidence/certmp/data.py",
+      "bytes": 7077,
+      "sha256": "c818e718b8e97b77ff1292cc87801035124ecc2e7f5ea04646359db5f2ad53e5"
+    },
+    {
+      "original_path": "certmp/ensemble.py",
+      "packet_path": "evidence/certmp/ensemble.py",
+      "bytes": 5488,
+      "sha256": "dd880623df6e94a3c697770bcae569fec94475fcec70ec87e63188bcd4193f0e"
+    },
+    {
+      "original_path": "certmp/kappa.py",
+      "packet_path": "evidence/certmp/kappa.py",
+      "bytes": 4401,
+      "sha256": "658253ebeb076034c652efcaacbef5bda355e9f53d50561c7c21fcb5c690bc56"
+    },
+    {
+      "original_path": "certmp/maximal.py",
+      "packet_path": "evidence/certmp/maximal.py",
+      "bytes": 3856,
+      "sha256": "486029d141b1319b7a71feafec77ea2c4855836b1fd1e2f2f277cbeac9f8587c"
+    },
+    {
+      "original_path": "certmp/models.py",
+      "packet_path": "evidence/certmp/models.py",
+      "bytes": 8916,
+      "sha256": "75e82922ce394908b085bebbc459f06c103a62c1e684a1aba66224f58673d7a8"
+    },
+    {
+      "original_path": "certmp/provenance.py",
+      "packet_path": "evidence/certmp/provenance.py",
+      "bytes": 1152,
+      "sha256": "bf89113cc54d03ed2004ad44428b76c4bfee16ac974abfeb4fd2fa5b922030e7"
+    },
+    {
+      "original_path": "certmp/reach.py",
+      "packet_path": "evidence/certmp/reach.py",
+      "bytes": 3095,
+      "sha256": "0032bc35489fbca551beca9b6fbc5d503d37a0ae61e75abdddd636fce001b226"
+    },
+    {
+      "original_path": "certmp/train.py",
+      "packet_path": "evidence/certmp/train.py",
+      "bytes": 3023,
+      "sha256": "e27789842ca16a16c4be53212f399f0980222be2677656fab8d2548f3e2f1fc2"
+    },
+    {
+      "original_path": "certmp/void.py",
+      "packet_path": "evidence/certmp/void.py",
+      "bytes": 631,
+      "sha256": "7fb34ca0a46f74090fb667b0e54092456ca1506b6a3cba2d45eb25f1dd69d8d6"
+    },
+    {
+      "original_path": "configs/interaction_recoverability_learned_target_v1.json",
+      "packet_path": "evidence/configs/interaction_recoverability_learned_target_v1.json",
+      "bytes": 5863,
+      "sha256": "567e577160f03f38ad7c2b4b8b604cccfa73efcd58b9e103dd47be554b67b1e6"
+    },
+    {
+      "original_path": "configs/interaction_recoverability_pilot.json",
+      "packet_path": "evidence/configs/interaction_recoverability_pilot.json",
+      "bytes": 7498,
+      "sha256": "1531f12364e099bc89be6bc7f06a8d7152e6af0f5a64437933bd89169031c8eb"
+    },
+    {
+      "original_path": "configs/intervention_screen_v2.json",
+      "packet_path": "evidence/configs/intervention_screen_v2.json",
+      "bytes": 13176,
+      "sha256": "12a15809711e65036edd1e52a2be1b121caa29ee674bfa41972c48462a91071a"
+    },
+    {
+      "original_path": "configs/intervention_screen_v2.json.sha256",
+      "packet_path": "evidence/configs/intervention_screen_v2.json.sha256",
+      "bytes": 94,
+      "sha256": "79e2fe69149223e4edca37d938d3ce8e2d9ba8ef2971c5eb366cdc91c96eff16"
+    },
+    {
+      "original_path": "configs/revision_p4_gpu_v1.yaml",
+      "packet_path": "evidence/configs/revision_p4_gpu_v1.yaml",
+      "bytes": 5255,
+      "sha256": "7d78474bee8b97c6e3c2531f4dc9ebc280e15ef5655789226a6fe835a87034e2"
+    },
+    {
+      "original_path": "data/intervention_sources/manifest-v1.json",
+      "packet_path": "evidence/data/intervention_sources/manifest-v1.json",
+      "bytes": 62030,
+      "sha256": "f07a1c545843fa554ddbf9b8549b9776004f67d24d615a7eb710714d9eecc26c"
+    },
+    {
+      "original_path": "data/intervention_sources/supplement/manifest-v1.json",
+      "packet_path": "evidence/data/intervention_sources/supplement/manifest-v1.json",
+      "bytes": 6155,
+      "sha256": "63548f28255e2a513d9a58863f22e2feed3b613e7e6b86d45ebc28a4e3f6ae2d"
+    },
+    {
+      "original_path": "data/intervention_sources/supplement/transma_release_inventory-v1.json",
+      "packet_path": "evidence/data/intervention_sources/supplement/transma_release_inventory-v1.json",
+      "bytes": 812,
+      "sha256": "49a83e97738a383e0f50e6a0d575df396f6de73c7d683ad4ac74d0aeda7ec401"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/construction.md",
+      "packet_path": "evidence/docs/interaction_recoverability/compact_attainment/v1/construction.md",
+      "bytes": 8425,
+      "sha256": "55b7d50cdda5a9c73679a22a7c9afa786272b8644a3f73fc2ffa290a3983642b"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/estimator.py",
+      "packet_path": "evidence/docs/interaction_recoverability/compact_attainment/v1/estimator.py",
+      "bytes": 6458,
+      "sha256": "53a48f0ab8916d45652289764dd5ce07bc0c5bb90caec615343fccb60a7f8d1c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/quadrature_proof.md",
+      "packet_path": "evidence/docs/interaction_recoverability/compact_attainment/v1/quadrature_proof.md",
+      "bytes": 16481,
+      "sha256": "5bffee95e6e8bb387deffa323ad7f9af8af7a501392b832705b4ab01268b1875"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/theorem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/compact_attainment/v1/theorem.md",
+      "bytes": 14157,
+      "sha256": "4e184d871a67b73355246bbb233578713d37c8ddf3bccdbd92d546675fbb00c5"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/bundle_hashes.json",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/bundle_hashes.json",
+      "bytes": 2765,
+      "sha256": "73ca4c332f06426c569fa737875006d07cd251a1427a1917e927cbbad9d22d42"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/checks.json",
+      "bytes": 1675,
+      "sha256": "37685bb4461801b2cee0d987a9cff9e288cce73565809b1b704368f72b9d3481"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/checks.py",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/checks.py",
+      "bytes": 4995,
+      "sha256": "653b41826f94796e3adeca689593bc4a6963444bfb2e839eb7059df9e35364b0"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/commands.sh",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/commands.sh",
+      "bytes": 1264,
+      "sha256": "245af965c05ac8b544904a4381ad6efeff764c405bf1bfe009bdd552b82f4a09"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/commands_and_resources.md",
+      "bytes": 8171,
+      "sha256": "f9998d8ad8b6b56b376a85610e31ace8a4167b1f8fa4f4152283bec7dc55ded1"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/decision.md",
+      "bytes": 4176,
+      "sha256": "78477f553b5797581846bfbf7806f602ffe4879f3f3575491410d8505165eb02"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/discovery_commands.sh",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/discovery_commands.sh",
+      "bytes": 1510,
+      "sha256": "0cbb212a7779b9bbd9616bf9bc4217359f05ef9bf78dab6b70cd8c07bbe0d6e6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/estimator.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/estimator.md",
+      "bytes": 10330,
+      "sha256": "98e87c93c2b753558424ae3596690bf7c9b7c466e053ed10313e44de7fee9feb"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/exact_problem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/exact_problem.md",
+      "bytes": 3962,
+      "sha256": "e239593b78d32b77ac5883bd184174a18f3b06ea3d344ce14d8ac9d1ae16eadf"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/executed_jobs.json",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/executed_jobs.json",
+      "bytes": 2471,
+      "sha256": "616d6deac1c927a2b66123dcbcb7e20c467fb2c4b92a14e9ca7e37cd4cac20a0"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/final_checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/final_checks.json",
+      "bytes": 478,
+      "sha256": "46b27b498cba3d1600a41d9b7a3603e2e39df74d6b2034ab94033dc6fd612654"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/finish_report.py",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/finish_report.py",
+      "bytes": 4276,
+      "sha256": "5711a6b8271dca0ffc49e7bbe9187766fcc238fc353dea6f2e6ed3b7d412ecce"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/modulus.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/modulus.md",
+      "bytes": 9322,
+      "sha256": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/novelty.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/novelty.md",
+      "bytes": 6261,
+      "sha256": "bd1606ce674cfad2c2ff5584cc58f35fb171d5aed494a066779e26743dc83bfd"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/resource_audit_job_31.json",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/resource_audit_job_31.json",
+      "bytes": 608,
+      "sha256": "01ec3740f56a4545a637b8282f86c8a7dce5428b1bc1fa8ed5d469416f1df18a"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/resource_gate.py",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/resource_gate.py",
+      "bytes": 6236,
+      "sha256": "3ae165d3f028cad16faf7046731dc6cf5f81f9e5c0582512c3de4f25e4878466"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/target_identity.md",
+      "packet_path": "evidence/docs/interaction_recoverability/direct_target/v1/target_identity.md",
+      "bytes": 7195,
+      "sha256": "ffa73fda398ab1375991117dba643ceadd867fccc842d8f833597dcf1abbaef7"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/calculate.py",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/calculate.py",
+      "bytes": 11173,
+      "sha256": "1d21feb790e08d360ff057a4f4486a6ffbc9355861cc335b76a644c9d90982e6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/commands_and_resources.md",
+      "bytes": 7682,
+      "sha256": "3207439bfdbdb2c8b470152a7d37af7c99cb00746819e4d0914a2febd2d42800"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/decision.md",
+      "bytes": 4545,
+      "sha256": "d721bf27a88a2911396afae2cadf661329cd8207b9fa5e51dd32235021ee820f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/efficiency_argument.md",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/efficiency_argument.md",
+      "bytes": 20815,
+      "sha256": "c40e062e0d5923afb30ce2722f74c22af553c83f6959e631afbc9887169210d6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/preservation.json",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/preservation.json",
+      "bytes": 154810,
+      "sha256": "ea0518e3c66eff9e94911bfa2ffe1f8b53787237b675860507b0b82e24af87da"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/raw.json",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/raw.json",
+      "bytes": 66926,
+      "sha256": "d8e720637157cfa7335e3ee7820173323d911fb19ebb4a28a8358f6fa8a97100"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/resource_gate.py",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/resource_gate.py",
+      "bytes": 5779,
+      "sha256": "82a9196c57443db9b7c05fb35e2bcb538e4800789978115019663347fd96a955"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/resources.json",
+      "packet_path": "evidence/docs/interaction_recoverability/efficiency_audit/v1/resources.json",
+      "bytes": 2307,
+      "sha256": "4d561b8943962cb79f722aac6c2ab741ffa2d4254536c6068ba9fe4a13af7f6c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/estimator.md",
+      "packet_path": "evidence/docs/interaction_recoverability/estimator.md",
+      "bytes": 6297,
+      "sha256": "9a7a38de07f9e3cbaa6435c0fe42b90d6b895ac4a071f67905a119d51d1ebad4"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/changes.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/changes.md",
+      "bytes": 2324,
+      "sha256": "74d8afc6f86cc9aad5c9f56f9d59321b70ab202d84b2f3f50ce4035ff28fdbd4"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/claim_map.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/claim_map.md",
+      "bytes": 18867,
+      "sha256": "03b750f329a35bd54c9c143e5dbed540fb0fd61c5fb2fa921a5ff21e49478730"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/errata.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/errata.md",
+      "bytes": 3004,
+      "sha256": "119721ff65f7113197fad70e9501f0de5e74e83eba3157df3ecc1f6e33e81b29"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/algorithm.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/algorithm.md",
+      "bytes": 9675,
+      "sha256": "ba19ab65ac5c895e93137f0dbbf6e1fcf578fdbf2555fb807a7fd31c8cd53ef6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/construction.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/construction.md",
+      "bytes": 8425,
+      "sha256": "55b7d50cdda5a9c73679a22a7c9afa786272b8644a3f73fc2ffa290a3983642b"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/estimator.py",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/estimator.py",
+      "bytes": 6458,
+      "sha256": "53a48f0ab8916d45652289764dd5ce07bc0c5bb90caec615343fccb60a7f8d1c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/quadrature_proof.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/quadrature_proof.md",
+      "bytes": 16481,
+      "sha256": "5bffee95e6e8bb387deffa323ad7f9af8af7a501392b832705b4ab01268b1875"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/review_addendum.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/review_addendum.md",
+      "bytes": 1320,
+      "sha256": "67bf200de304e14b02c030c618a5ba5a971d35decafa9398a710177ded158c1d"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/static_review.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/static_review.md",
+      "bytes": 2230,
+      "sha256": "dcdb2f4f7a66e846d6b9306310ec253c8b7bf4f7f506c80711acca017084d6c7"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/theorem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/compact_attainment/v1/theorem.md",
+      "bytes": 14157,
+      "sha256": "4e184d871a67b73355246bbb233578713d37c8ddf3bccdbd92d546675fbb00c5"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/direct_target/v1/modulus.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/direct_target/v1/modulus.md",
+      "bytes": 9322,
+      "sha256": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/direct_target/v1/target_identity.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/direct_target/v1/target_identity.md",
+      "bytes": 7543,
+      "sha256": "48c8ead0127c30ca8e5acadf34945565431b4f7aad19cd8db7b199c5fbe78035"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/efficiency_audit/v1/efficiency_argument.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/efficiency_audit/v1/efficiency_argument.md",
+      "bytes": 21287,
+      "sha256": "2730ea5b0d0227f64252d39b4b3dd84429160e7849ddee32875a9ac9d9250c18"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/adversarial_review_20260912.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/adversarial_review_20260912.md",
+      "bytes": 21607,
+      "sha256": "5e76b7d4abc7e7493b911e2d788f6ff2b6e22aaa2d928d2b0e7a100f633239f3"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/novelty.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/novelty.md",
+      "bytes": 8836,
+      "sha256": "d0502585041ce6aa70486ef2ad571191ade3134306e78719574a1071d8183e1f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/preregistration.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/preregistration.md",
+      "bytes": 4243,
+      "sha256": "fbc4cec55d6a3abd8cc60c0c1a03d9518ee5a0df3fed9b8c2601a1bab32e48ea"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/results.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/learned_target_v1/results.md",
+      "bytes": 8646,
+      "sha256": "d83d898816d3a5445064b22f5bd131172a0abb39aa5f29e1464d6784b7c841c2"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/local_attainment/static_review_v1.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/local_attainment/static_review_v1.md",
+      "bytes": 18537,
+      "sha256": "9c2c70e8fabe55c85842eb43c5c083bc7b83b9a259a82926829f0145fa4afc5c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/estimator.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/estimator.md",
+      "bytes": 12708,
+      "sha256": "2fd64a47cfe9c9b3188a4a4f0d60977bc4583031f04ffb7a0b73597e645b619e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/novelty.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/novelty.md",
+      "bytes": 5811,
+      "sha256": "17348f46abe9e3afe7aab3d1d2557f19abe66c617005b03f5c0b6538d694cb96"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/theorem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/local_attainment/v1/theorem.md",
+      "bytes": 21097,
+      "sha256": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/local_five_law/v1/proof.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/local_five_law/v1/proof.md",
+      "bytes": 23559,
+      "sha256": "a25f18337d2602a93a7d2bf45401f38094b3eb5d76c33a1248a867a0afbc45f8"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/arithmetic_addendum.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/arithmetic_addendum.md",
+      "bytes": 12073,
+      "sha256": "d06c663f4ececf6001942cb280f62f4ab631159142b5e12429e137eaf9c42015"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/feasibility_decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/feasibility_decision.md",
+      "bytes": 6898,
+      "sha256": "251d6bf267facbc3f1d582d2e9a3181a6552a91fa61fa65bb80c2fa1bb952571"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/numerical_stability.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/numerical_stability.md",
+      "bytes": 15631,
+      "sha256": "74a1ed5c9e50b566a799bba8a1f12a1d51d981aa4fc94f0954a12d929b0e7f56"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/variance_analysis.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/practical_feasibility/v1/variance_analysis.md",
+      "bytes": 14078,
+      "sha256": "118802ef2570b714be958b6e7d617cdd6922a6ebeb27f95fec32ae0fe5395eda"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/unknown_profiles/model.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/unknown_profiles/model.md",
+      "bytes": 4963,
+      "sha256": "bb4e9e43e7b357df20546118760ddceb4eed877c8d39d12eac091c53967df36c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/evidence/unknown_profiles/proofs.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/evidence/unknown_profiles/proofs.md",
+      "bytes": 13385,
+      "sha256": "95a5492e681774f81c543917b393f099e5454363d7b8542a5503b5c4ea2cb9e9"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/manifest.json",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/manifest.json",
+      "bytes": 41202,
+      "sha256": "f7fe11055e3ccc135ba26e762f1bcf23fef50a722245676f5ca0cbfa1d0e9707"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/external_review/v2/review_brief.md",
+      "packet_path": "evidence/docs/interaction_recoverability/external_review/v2/review_brief.md",
+      "bytes": 14325,
+      "sha256": "4e2f8916a9c9ffde7b6646d08f2926669a22b7fcac6483f575f3144d957c9d4e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/additional_reductions.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/additional_reductions.md",
+      "bytes": 2822,
+      "sha256": "8444a0d8774cc39137f5d54974ad76b430a7287d6d03933a9b3b00d669ef22c7"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/adversarial_review_20260912.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/adversarial_review_20260912.md",
+      "bytes": 20856,
+      "sha256": "9e3dfa8d7b062283ad7b8a8d0a46675e02f84486524e112e6635b8821bfd4881"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/command_records.json",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/command_records.json",
+      "bytes": 43731,
+      "sha256": "f299ceb1fbc2ef948d950c6b1276ab7cecd04651d8ddec4a56965cee121a2474"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/commands.sh",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/commands.sh",
+      "bytes": 5798,
+      "sha256": "58de540e40550559ceca572fd5dd9f3eb208d9762fe27888f0eaa3258ab0f22e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/decision.md",
+      "bytes": 3191,
+      "sha256": "d72e0b5c601ef3037996421937b275059c2448232a94e97e13d9cd3f43c357a6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/information_flow.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/information_flow.md",
+      "bytes": 3554,
+      "sha256": "f230aa6dd07a82ca175abb47575992af5eb35c281b31cb20d7fb354b1798ea54"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/method.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/method.md",
+      "bytes": 9513,
+      "sha256": "1e9e34bfb7e6ec7fc2ff5ed75f398ea5caa95b4912dc0c5ceac7606df7caf316"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/novelty.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/novelty.md",
+      "bytes": 8836,
+      "sha256": "d0502585041ce6aa70486ef2ad571191ade3134306e78719574a1071d8183e1f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/preregistration.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/preregistration.md",
+      "bytes": 3926,
+      "sha256": "50dd9f3cfed09de1de550dd2b680c649c834e240c752da5ddab0d92cd2dcf52b"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/resources.md",
+      "bytes": 6304,
+      "sha256": "244174433cfe6d559a636f2a24c846f6d62acf781b233b4446b3c91615af44e1"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/results.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/results.md",
+      "bytes": 7895,
+      "sha256": "5cfa5273ddc4a8508f5a586038ccc36acbcdbc82f1087196de4a58304ff3810d"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/review.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/review.md",
+      "bytes": 5438,
+      "sha256": "82fd48aeb4a7faafc017c989a75e6f89ec8da4de8213355b6a2c1ffd6b97f1d2"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/review_command.txt",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/review_command.txt",
+      "bytes": 1415,
+      "sha256": "bd4656a880554817157bbb30e2412a3585e96c25505c766555db27d6360bc5ab"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/sirna_mapping.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/sirna_mapping.md",
+      "bytes": 6217,
+      "sha256": "17e2f0315910ecf0d05a0c04ff8b026df7e1a660957cd304eade5be9033800a8"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/theorem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/theorem.md",
+      "bytes": 12145,
+      "sha256": "d2d36cd66d01c5a9e6220438836e617f3a7e1e2bc4dfc544d893de4c551e0acd"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/validation.md",
+      "packet_path": "evidence/docs/interaction_recoverability/learned_target_v1/validation.md",
+      "bytes": 3960,
+      "sha256": "38690b4ba9ed7b2560d8ddd9929d94e04b56b1318757c9076f060f7563ab5f83"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_attainment/v1/checks.json",
+      "bytes": 2156,
+      "sha256": "8a7bb5d7c093a446c00a955d2f384065fad3a1a341380cf28235074fca7b9b91"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.md",
+      "packet_path": "evidence/docs/interaction_recoverability/local_attainment/v1/estimator.md",
+      "bytes": 12360,
+      "sha256": "fb264d69803c5538824e75693a56a8b0063854ee5b4b50ae83151f46ec7383f0"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.py",
+      "packet_path": "evidence/docs/interaction_recoverability/local_attainment/v1/estimator.py",
+      "bytes": 8604,
+      "sha256": "53553297d783868e2fbf88e01d6286ce1a06fc00250860026fa62e2363ba0f67"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/theorem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/local_attainment/v1/theorem.md",
+      "bytes": 21097,
+      "sha256": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/checks.json",
+      "bytes": 4830,
+      "sha256": "1d2b9eb8ff41ecab80a0f57c9cc6249a784c87a85b8893d7a4da2736378e141b"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/checks.py",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/checks.py",
+      "bytes": 9217,
+      "sha256": "243e799807c77c930298626104e507204dc2c93f9f5f21d1a8c014b104b4ec1f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/checks_attempt_job33.py",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/checks_attempt_job33.py",
+      "bytes": 8882,
+      "sha256": "bf33f26367d2e3bc59d7fe3105405264040abf3e8207138957df91d046c420f4"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/command_records.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/command_records.json",
+      "bytes": 3159,
+      "sha256": "c72b636472a656ea53fd154ac420636d83fe05548e5604a50e8ce69dd37ac4c3"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/commands_and_resources.md",
+      "bytes": 10766,
+      "sha256": "fa549d2ab367f58596206ddc31ff68935c10ca715fba8dc9896428aee4629fab"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/failure_job33.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/failure_job33.json",
+      "bytes": 442,
+      "sha256": "b8be849202d196d247fd30dd33baf2e312b1394d04e460e958dab9bf34c9c6d8"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/final_checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/final_checks.json",
+      "bytes": 2052,
+      "sha256": "33de5da09d65d9d50a2115865d59f0a1654b6a6ef1d67e449a2deeb055d0a559"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/preservation.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/preservation.json",
+      "bytes": 54174,
+      "sha256": "9fc4fa111eb94d1bfdaf81e6fec79f1d162860060df82e71519273614400bdf8"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/proof.md",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/proof.md",
+      "bytes": 23149,
+      "sha256": "d4fc930f092cfb80c3f2ea04a827c9ff0e56d27d42dce9b81c8f06a17055c6f1"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/resource_audit_job_35.json",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/resource_audit_job_35.json",
+      "bytes": 1041,
+      "sha256": "cb5d76bc6f2395fc322c83cb8c625cc96e6a043e2d780860b43fe4090c3b54a2"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/resource_gate.py",
+      "packet_path": "evidence/docs/interaction_recoverability/local_five_law/v1/resource_gate.py",
+      "bytes": 5035,
+      "sha256": "ed6a9a453dfd78548e3dc64bc44bfc037966ffaea97d3e5e274f683ecfef8b07"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/novelty_matrix.md",
+      "packet_path": "evidence/docs/interaction_recoverability/novelty_matrix.md",
+      "bytes": 9451,
+      "sha256": "39d1c1ad408608b44a000de118ccba5bdb27a147fbd950ac11052391465a1718"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/arithmetic_addendum.md",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/arithmetic_addendum.md",
+      "bytes": 12073,
+      "sha256": "d06c663f4ececf6001942cb280f62f4ab631159142b5e12429e137eaf9c42015"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/bundle_hashes.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/bundle_hashes.json",
+      "bytes": 1925,
+      "sha256": "1271b70a039d2552eec2f922f76434dfea28df53d1878343bb303afb2460dccb"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/command_records.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/command_records.json",
+      "bytes": 9334,
+      "sha256": "88885dfa11243e2896c16794ef5e6b00755f32cc8dd9094fcfd856c54246d507"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/commands_and_resources.md",
+      "bytes": 9534,
+      "sha256": "a764878dce51a3de8e5ff01e6ac1c9526edaf075f29b3d9b59d0086682ee3c66"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/diagnostic_summary.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/diagnostic_summary.json",
+      "bytes": 2000,
+      "sha256": "3d2c435785fdfa3b9ddda34e3005bdbc423f031c958839070a4587d327d83ff6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/error_and_precision.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/error_and_precision.json",
+      "bytes": 2239,
+      "sha256": "9f9e4169c78895fb406b7bee7f5b632e10389d3b705b8c3287b3fee5349a919e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/feasibility_decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/feasibility_decision.md",
+      "bytes": 6581,
+      "sha256": "dd9abf242aab08fcd17c3117962e6a4c6b06010b334459371eb5be4c4ccabc0f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/final_checks.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/final_checks.json",
+      "bytes": 549,
+      "sha256": "9a8d29bfcb764156128f491cb1ec5b76a332848e0c1bdeab528c88fa3ad3fbc8"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "bytes": 11332,
+      "sha256": "12ee4b0c30cbae0629b91aac9e433e2f66a413761e3128ce13a8590cb2b44d9e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/numerical_stability.md",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/numerical_stability.md",
+      "bytes": 15631,
+      "sha256": "74a1ed5c9e50b566a799bba8a1f12a1d51d981aa4fc94f0954a12d929b0e7f56"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/resource_audit_job_51.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/resource_audit_job_51.json",
+      "bytes": 1622,
+      "sha256": "48375945f0ff15293aa0a8dd35cd8afd7e1be3a4907f018732a725719d7baac3"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/resource_gate.py",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/resource_gate.py",
+      "bytes": 5146,
+      "sha256": "f1f6e90d5aa083ab2570c7124a7a744f7275dfa26cf0539e513edd25257d26f2"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_accumulator.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_accumulator.json",
+      "bytes": 8409,
+      "sha256": "7eaacf36a548ce9ddefa1920313d03a1a2bd61136ee3adc0756e0362ca98a9c6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_analysis.md",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_analysis.md",
+      "bytes": 13482,
+      "sha256": "191fb45e978da011cf67bf41ab6ae0945f2610f4531cd3ffb1d9a4d0e23dbd81"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_base.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_base.json",
+      "bytes": 8408,
+      "sha256": "16583110494f0881f37a5d705381afb275d8641db2905270663691773d97cb05"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_deep.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_deep.json",
+      "bytes": 8411,
+      "sha256": "f97d20969c90d0633cb8e54d68ecd5ecfe4e8ff916449b2e3320b496a4031cb6"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_depth.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_depth.json",
+      "bytes": 8411,
+      "sha256": "40923e3dee038a21b048a30f21d93bd14926b79be54c61b5404ff282dce45a34"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+      "bytes": 8411,
+      "sha256": "b1d077c1e3f51c3ff939214d918c28be34bfd56d8c358d2de8a8bbef7c55e759"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_integration.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_integration.json",
+      "bytes": 8422,
+      "sha256": "6f5d73a46273bd8710e1cbfd9d7c702d236f7900e84ec267ed3ffe292530e6ef"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_tail.json",
+      "packet_path": "evidence/docs/interaction_recoverability/practical_feasibility/v1/variance_tail.json",
+      "bytes": 8413,
+      "sha256": "3f8bb378563f16709ba9a802f383735ddfa08a78f61d3b74602b13a7ed4ffcd5"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/problem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/problem.md",
+      "bytes": 4832,
+      "sha256": "f628874b347573e2bb5768e02ec3a8c2e300ad03e97f66e2d2b96e821388a88d"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/proofs.md",
+      "packet_path": "evidence/docs/interaction_recoverability/proofs.md",
+      "bytes": 11740,
+      "sha256": "350fb7517f14efe6aab31d724bdf0f8d15b158688dd24d42b2b45d6a6b7afd0f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/sirna_requirements.md",
+      "packet_path": "evidence/docs/interaction_recoverability/sirna_requirements.md",
+      "bytes": 4443,
+      "sha256": "64161fc27b87f1b3243bd2c3e87d2dcb34befd785f2b7e0846e36f8ca5872d40"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/unknown_profiles/model.md",
+      "packet_path": "evidence/docs/interaction_recoverability/unknown_profiles/model.md",
+      "bytes": 4963,
+      "sha256": "bb4e9e43e7b357df20546118760ddceb4eed877c8d39d12eac091c53967df36c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/unknown_profiles/proofs.md",
+      "packet_path": "evidence/docs/interaction_recoverability/unknown_profiles/proofs.md",
+      "bytes": 13385,
+      "sha256": "95a5492e681774f81c543917b393f099e5454363d7b8542a5503b5c4ea2cb9e9"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/unknown_profiles/rate_audit.md",
+      "packet_path": "evidence/docs/interaction_recoverability/unknown_profiles/rate_audit.md",
+      "bytes": 6728,
+      "sha256": "e7437820236bea6892388b10fc76e2932fc1d906559e907049eb383065186050"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/attainment.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/attainment.md",
+      "bytes": 28035,
+      "sha256": "1543810a96093d71d7dc96e6b7edb99dcec19eb01ae1e8bb46afe051af6e4efd"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/commands_and_resources.md",
+      "bytes": 9410,
+      "sha256": "0d0c7ba0de6c5f68d566f587ca626c8f7a2e455802e49c904e3f39607f722867"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/commutator_and_calibration.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/commutator_and_calibration.md",
+      "bytes": 11486,
+      "sha256": "02ab733407bbf5b1ed801defafbdaff478c133034a72f604412038e2ed9927be"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/conditioning.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/conditioning.md",
+      "bytes": 13835,
+      "sha256": "38ea0827c3f13f88bd82ee5443c8e29ed9f678d6b2cf6b50b3ddb7004a0d843f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/decision.md",
+      "bytes": 8465,
+      "sha256": "70546d4af799be980c914cc307bab5d3bff46d66821fda7513d45b8863356c08"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/novelty.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/novelty.md",
+      "bytes": 10959,
+      "sha256": "87a508a897bcf79634f50ba3a5e4ca2fee789c02383d27c470d40fa70888ef30"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family/v1/problem.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family/v1/problem.md",
+      "bytes": 5801,
+      "sha256": "3d0caa334272d2e21aee06dce6469b8ed06995900cfa9a54b55941f13c9841d2"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/admissibility_and_score.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/admissibility_and_score.md",
+      "bytes": 11271,
+      "sha256": "50fa4df8fb2a640589cf4e7783281474623abc3e754efa046c0941099c0cbafd"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/commands_and_resources.md",
+      "bytes": 8480,
+      "sha256": "c5dee891489ba41c682554c5b559db71323ac880a103430b7b5abaa70747318f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/consequences_and_prior_overlap.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/consequences_and_prior_overlap.md",
+      "bytes": 9944,
+      "sha256": "84ae1ab8f17e189a8f9b2ed096603c384e262d477c174461d35a9b1afa15581f"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/construction.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/construction.md",
+      "bytes": 5352,
+      "sha256": "1dc5e6998b3890fd578ac9a456e6390cd95bfc3c3b52f881b905d15fc99f3ff1"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/decision.md",
+      "bytes": 6253,
+      "sha256": "5265946bf572049153cbbd2fec053a6e8c665d999875385a8ed6250cf9708918"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v1/lower_bound.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v1/lower_bound.md",
+      "bytes": 9381,
+      "sha256": "38c575bf05e1a9de563c447e4764687e36c538769500758918b0e89d7dede00a"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/admissibility_and_score.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/admissibility_and_score.md",
+      "bytes": 14933,
+      "sha256": "34cbf6df0c83cfc07bb68637510b11692b9a3f93df7c0cb71d9e2d58c1ef664c"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/commands_and_resources.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/commands_and_resources.md",
+      "bytes": 9445,
+      "sha256": "97370b2e3d6dd48670a9352ad458070a3d963c2aa0d467a9ecbc1bfb917519e7"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/consequences_and_prior_overlap.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/consequences_and_prior_overlap.md",
+      "bytes": 7270,
+      "sha256": "80d38c88e0d4ac5f52456e8d49414135f9dcc4bf7ce388164574c73db0cb2beb"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/construction.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/construction.md",
+      "bytes": 5725,
+      "sha256": "cfffbac5066387a020899abf08e0d97b00f8b14b1564f79455b97e906b8ac3b1"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/decision.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/decision.md",
+      "bytes": 5922,
+      "sha256": "04cd676176cea64c289c7d522667ec55474241d4f651bd2ce436fbbc2b216f1e"
+    },
+    {
+      "original_path": "docs/interaction_recoverability/warp_family_lower_bound/v2/lower_bound.md",
+      "packet_path": "evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/lower_bound.md",
+      "bytes": 12119,
+      "sha256": "8e62801ee54c93afe9cc1c0addfe8ad26b4673aa7374693956b48f0df3d29d3a"
+    },
+    {
+      "original_path": "docs/intervention/README.md",
+      "packet_path": "evidence/docs/intervention/README.md",
+      "bytes": 5102,
+      "sha256": "02364ed2d3a9c235fb01ec9cc6b4c1b41c41bede1c54d2ca10824b0770f675d6"
+    },
+    {
+      "original_path": "docs/intervention/data_audit.md",
+      "packet_path": "evidence/docs/intervention/data_audit.md",
+      "bytes": 10676,
+      "sha256": "21b067fb0feb63b5f67ab2126241878d3c23192f4e2d2d0ca9e4a6281b297e73"
+    },
+    {
+      "original_path": "docs/intervention/method.md",
+      "packet_path": "evidence/docs/intervention/method.md",
+      "bytes": 12064,
+      "sha256": "43636ff4878d31055a3b696f11e963a95ba67765c49ff6995be78a59e62eb6e1"
+    },
+    {
+      "original_path": "docs/intervention/novelty_matrix.json",
+      "packet_path": "evidence/docs/intervention/novelty_matrix.json",
+      "bytes": 20984,
+      "sha256": "6571dc8c2f3b3dca3dca8430eab25a81cf7f5153d49f3f8073cc1e8063a3392d"
+    },
+    {
+      "original_path": "docs/intervention/novelty_matrix.md",
+      "packet_path": "evidence/docs/intervention/novelty_matrix.md",
+      "bytes": 18483,
+      "sha256": "7f7ab678e35ffc83875f030dd70019b8e539771ffda755d748a148847d550adb"
+    },
+    {
+      "original_path": "docs/intervention/resources.md",
+      "packet_path": "evidence/docs/intervention/resources.md",
+      "bytes": 6696,
+      "sha256": "a553502bdd007e59f49ec85b07bbd0458a10ad0ef07d2f0ac1d88acca23e8bf0"
+    },
+    {
+      "original_path": "docs/p3_rna_audit_and_pilot.md",
+      "packet_path": "evidence/docs/p3_rna_audit_and_pilot.md",
+      "bytes": 7151,
+      "sha256": "0dc1e5b4ac4bf541d638d85fe35a4cf5d402f0e3cc46f37b1ecc81906f18134b"
+    },
+    {
+      "original_path": "docs/p4_actual_model_decision-20260911-064446-098490.md",
+      "packet_path": "evidence/docs/p4_actual_model_decision-20260911-064446-098490.md",
+      "bytes": 14016,
+      "sha256": "34477dd9dd25f7aeb36658d1aa86259f2d3ac7c94f9e9a2efd4a841b6656a9e8"
+    },
+    {
+      "original_path": "docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+      "packet_path": "evidence/docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+      "bytes": 11679,
+      "sha256": "5435f3cac517fe634a7f01d2d85376492df95c45b25b0a01c57cf4326959a3b1"
+    },
+    {
+      "original_path": "experiments/f8_baseline.py",
+      "packet_path": "evidence/experiments/f8_baseline.py",
+      "bytes": 5472,
+      "sha256": "d02a079554b327260b19a42086ec7b63ceb7b2ba70cf85db8ea9c247ab467fec"
+    },
+    {
+      "original_path": "interaction_recoverability/direct_target_v1.py",
+      "packet_path": "evidence/interaction_recoverability/direct_target_v1.py",
+      "bytes": 3122,
+      "sha256": "98c14c95414c8d041d785540bfcbe905b053d76fe5e17c9626bf78f76a1dbb32"
+    },
+    {
+      "original_path": "interaction_recoverability/estimator.py",
+      "packet_path": "evidence/interaction_recoverability/estimator.py",
+      "bytes": 2960,
+      "sha256": "c544a644829b0069efb0b1814fb53e4685e1012ae4d051016ecef3bf04455dcb"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/__init__.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/__init__.py",
+      "bytes": 86,
+      "sha256": "843639614e60bbd142d96e40ad433fad95e68a086e88ad12a40e1841811e6fe2"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/__main__.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/__main__.py",
+      "bytes": 8157,
+      "sha256": "0eaf93b6f042c3c46764eddc988439f513eb4e1546e9c20bd9ba1202d5d69cc2"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/baselines.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/baselines.py",
+      "bytes": 2420,
+      "sha256": "a00a30e4c354d90b3a0d20caa816fd5b0529702905c3e5975a10ecdad9b9abdf"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/budget.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/budget.py",
+      "bytes": 6638,
+      "sha256": "060de27e4bd1bd7dc36a072a07509ee87a73a80dcc369f956865ababcb531404"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/correction.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/correction.py",
+      "bytes": 2323,
+      "sha256": "7e5708b365985b72708b3829b0db58e2273405152da5cdbbcf3026f8e24557a1"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/enrichment.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/enrichment.py",
+      "bytes": 2682,
+      "sha256": "bf68b50c5b007912b29e27282e76d6f526f4d28405958c95d0a7a78330b2031d"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/evaluate.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/evaluate.py",
+      "bytes": 11310,
+      "sha256": "673948ad762a6df3793481dddaf460027f637f21ac28dd6aaaedf1a2de4caa2f"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/experiment.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/experiment.py",
+      "bytes": 7410,
+      "sha256": "0c1e67ceb7a702718449698bfe5e6a4d680dde4299ba6436ad83b97aa67bd644"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/geometry.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/geometry.py",
+      "bytes": 3164,
+      "sha256": "08ab33caa431425bf5c75857f0fc750dc26d372c8f2d5854fff176006f7ebe7e"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/nonlinear_bias.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/nonlinear_bias.py",
+      "bytes": 3384,
+      "sha256": "63457983cf1b2ae999b3b77317a81abb949a0ef322fdcdb007b64e3a14949632"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/profiles.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/profiles.py",
+      "bytes": 5922,
+      "sha256": "0d76fa0fa01540aab3fc10f8d11017a2a357883d670038b4f5219be944424cc2"
+    },
+    {
+      "original_path": "interaction_recoverability/learned_target/source_fit.py",
+      "packet_path": "evidence/interaction_recoverability/learned_target/source_fit.py",
+      "bytes": 2388,
+      "sha256": "d25a1085498e11b4a6fd06f0e78363a0fc9866290466bc1caea9fa3a3f4a66da"
+    },
+    {
+      "original_path": "intervention/__init__.py",
+      "packet_path": "evidence/intervention/__init__.py",
+      "bytes": 80,
+      "sha256": "d42451e95158bd9dd8297e2b2c5a7962c25a39d39a90f078dcf53c5d4c6c3e55"
+    },
+    {
+      "original_path": "intervention/accounting.py",
+      "packet_path": "evidence/intervention/accounting.py",
+      "bytes": 1935,
+      "sha256": "138a24ea42aef7530b4c802c9296cd53cfcc1dc1c7c9b0c4d9f1e0521aa8bf0e"
+    },
+    {
+      "original_path": "intervention/acquire.py",
+      "packet_path": "evidence/intervention/acquire.py",
+      "bytes": 3505,
+      "sha256": "3f8a7918474f84d0fc100d81d4b96146f1cd192e1dc40121cee2fc06965a667f"
+    },
+    {
+      "original_path": "intervention/author_code.py",
+      "packet_path": "evidence/intervention/author_code.py",
+      "bytes": 2945,
+      "sha256": "d3e99fd0b2ca3835b379751a2120fb91a68f1093993f7186cee16f4db16dc1d5"
+    },
+    {
+      "original_path": "intervention/baselines.py",
+      "packet_path": "evidence/intervention/baselines.py",
+      "bytes": 3905,
+      "sha256": "a6981a5cc39a4f21f2fefb1d57dbcf45e47a2652ef9fad8ed1824fe5435ff643"
+    },
+    {
+      "original_path": "intervention/data_audit.py",
+      "packet_path": "evidence/intervention/data_audit.py",
+      "bytes": 8079,
+      "sha256": "012ca4ab9116fe3b90d833a6d856f53fbb03fce399dfdbaa0d1639492fe4ab7c"
+    },
+    {
+      "original_path": "intervention/episodes.py",
+      "packet_path": "evidence/intervention/episodes.py",
+      "bytes": 672,
+      "sha256": "f2e6021cfa24ce353925a67913144a865d03cbe6c110d3a8cc386a6c378e0805"
+    },
+    {
+      "original_path": "intervention/finalize.py",
+      "packet_path": "evidence/intervention/finalize.py",
+      "bytes": 13948,
+      "sha256": "0bb4ba84f5992a240f8c259932dd954a6e9a92243db14db67c60c55bea4d33f5"
+    },
+    {
+      "original_path": "intervention/metrics.py",
+      "packet_path": "evidence/intervention/metrics.py",
+      "bytes": 2548,
+      "sha256": "2f50a200773fe6ed9911e9d2ab64856a4c9a4511783d85557aa3f461b2cd528c"
+    },
+    {
+      "original_path": "intervention/novelty.py",
+      "packet_path": "evidence/intervention/novelty.py",
+      "bytes": 20251,
+      "sha256": "54390fed82d620b8f894d81cf066809cf9d7a707893ab6bca662196459e7522d"
+    },
+    {
+      "original_path": "intervention/operator.py",
+      "packet_path": "evidence/intervention/operator.py",
+      "bytes": 4623,
+      "sha256": "3d6e9cc8104d2014fd0186f6688b787bffc571bf0f666b622817b32d263baf2c"
+    },
+    {
+      "original_path": "intervention/predictors.py",
+      "packet_path": "evidence/intervention/predictors.py",
+      "bytes": 2472,
+      "sha256": "e8c6741b43cabf230aacd8d7e52f477f0adbca2bea605be4a2854a856299cdfe"
+    },
+    {
+      "original_path": "intervention/prepare.py",
+      "packet_path": "evidence/intervention/prepare.py",
+      "bytes": 5676,
+      "sha256": "8e6b82882beeb7e95508cf271627c2135d3453b3ef65814f89de7d7ae0ec0c21"
+    },
+    {
+      "original_path": "intervention/protocol.py",
+      "packet_path": "evidence/intervention/protocol.py",
+      "bytes": 13367,
+      "sha256": "f30aef11ace0cffc97522f8b5a0980e96b8d808368b8d329644e40da9a6000df"
+    },
+    {
+      "original_path": "intervention/reconcile_data.py",
+      "packet_path": "evidence/intervention/reconcile_data.py",
+      "bytes": 6971,
+      "sha256": "f9823f8e0f1b6d0238838e377b215961871925c72f86b7b3664bd024b8beb9c9"
+    },
+    {
+      "original_path": "intervention/research_sources.py",
+      "packet_path": "evidence/intervention/research_sources.py",
+      "bytes": 3356,
+      "sha256": "5d923950575e2d1dbaeb22decea1a3f095d067750dca1812b4a4983684d07ea6"
+    },
+    {
+      "original_path": "intervention/tasks.py",
+      "packet_path": "evidence/intervention/tasks.py",
+      "bytes": 2143,
+      "sha256": "57fd53a1ca0435c39fdad50a408158a7f6f39961024027f87edc8decbe742281"
+    },
+    {
+      "original_path": "intervention/transforms.py",
+      "packet_path": "evidence/intervention/transforms.py",
+      "bytes": 9852,
+      "sha256": "bcd1e1bebd49e2d292ff9de241e2453c6a7d77027cb563074e494830cfc4be83"
+    },
+    {
+      "original_path": "runs/20260904-015628/f8_baseline.json",
+      "packet_path": "evidence/runs/20260904-015628/f8_baseline.json",
+      "bytes": 6522,
+      "sha256": "ae809271a375409ae0706dc4cda9f8d6a269637b6effbae06afa1c7dfc7527bf"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/artifact_hashes.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/artifact_hashes.json",
+      "bytes": 4942,
+      "sha256": "5fc4e8e7b5ffa3ff37e1e8e4e9f3e702e7d4f8e2be71c758b03628ab6414c09d"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+      "bytes": 3434,
+      "sha256": "4a87fd5b3fb33491f9160512e6440f0995772697f5e32534c0922584bc961df9"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+      "bytes": 293823,
+      "sha256": "fd95ef78213211d36a866582cc5485a455c6376a1c06af9f24e87800fe4972ab"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+      "bytes": 188595,
+      "sha256": "a804323dd2201bccbe648cbebad7c54017b5c41f36ccf11264d44fea61ce602b"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+      "bytes": 80982,
+      "sha256": "35b3db9f6a8851931a50db48e9f28bbcca85348b05991c2fb21c002b7d08f587"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+      "bytes": 69246,
+      "sha256": "bc217e7b8cc2f3ef14c7fdfa84c616ca93a586fbd1fabfdb83fbf275d9694827"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+      "bytes": 127545,
+      "sha256": "40f364e845a816bc0ea1b23408838dd2ac3396252fa3bfcc83a80e418f9e5bf1"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+      "bytes": 141890,
+      "sha256": "86001939c198d4819bf169d79fbd63b8da6a7d488ec67854d0ac75bc7038470d"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+      "bytes": 34969,
+      "sha256": "9c17157777ef391b255cc670d27b93bf31aff448b2cefe29dcdcaf3925316bf6"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/prediction_hashes.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/prediction_hashes.json",
+      "bytes": 1874,
+      "sha256": "6d7b0027299170b7b3a5791caf13a9f0574fb2415e424d7a382981f487e5579b"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+      "bytes": 33144,
+      "sha256": "1bb7b933b5157d66ba36480fe99f2d471edfe218308452a06bd103125c0d8d77"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+      "bytes": 15542,
+      "sha256": "1fa10b44b55fd5920767efc8af432856f259b0b8e74ab0b31b43e33450079693"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/final_checks.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/final_checks.json",
+      "bytes": 977,
+      "sha256": "d37e65ac069d3ad2084708b8b6598a8ee55ef413eafd36c10a7ef0cbf063a049"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/frozen_config.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/frozen_config.json",
+      "bytes": 5863,
+      "sha256": "567e577160f03f38ad7c2b4b8b604cccfa73efcd58b9e103dd47be554b67b1e6"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/ledger.jsonl",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/ledger.jsonl",
+      "bytes": 58216,
+      "sha256": "d1b365a6f7a3e33ad511b1ce2712367c6e9f6602a34bd742cb75f20009ff8cc1"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-0.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-0.json",
+      "bytes": 45305,
+      "sha256": "e3134a201737d28868c0cbe6cb2a08899e86a3c280e0d81bf288290e77cfcb90"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-1.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-1.json",
+      "bytes": 44974,
+      "sha256": "c20fc50e8086e29d263ce0bfde5d587eacdf3b8f1eef9c5a1580f34e66d7f780"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-2.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/fold-2.json",
+      "bytes": 45085,
+      "sha256": "5e2ae3e4ab33652b4afc4de9d0c291d94d45508cf6d827ab6780f9078a48345f"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/folds.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/folds.json",
+      "bytes": 13752,
+      "sha256": "623e3b499a27260e08452faaa2c0e60c30273be758cd5fa8a19556686155d0e0"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/predictions.json",
+      "bytes": 12978,
+      "sha256": "818cb2a8981ffbee198acf9de2e509bcecc5a2814d33a908d208098b461e14b3"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d001/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d001/predictions.json",
+      "bytes": 13024,
+      "sha256": "9fe584bec00f46f473dc0ed07a678ecddcf741017e8a6badd58cbf3e3b58fb13"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d002/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d002/predictions.json",
+      "bytes": 12628,
+      "sha256": "2d7300dcc86ce4a78a5b032331bff6bf4ea571cac031af32b8cee112176c82f5"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d003/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d003/predictions.json",
+      "bytes": 12910,
+      "sha256": "f68f43fbd53291976ffd719e9a253f5c3e79843d2211b735152db01417f205ae"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d004/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d004/predictions.json",
+      "bytes": 12679,
+      "sha256": "e3d6baf6baa9ffa0c1d02ec30832d10a0c29c52f259d2fd5543e17620fee25db"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d005/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d005/predictions.json",
+      "bytes": 12970,
+      "sha256": "fa0e0e4eaba6bfe22cd7e2cc0519928d676b805429ebffc76d4c829e06d5580d"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d006/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d006/predictions.json",
+      "bytes": 12841,
+      "sha256": "29442ebb45bcaaaa53596edc76cf380fe8e5c2f5d096d3c071c4459c6d971082"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d007/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d007/predictions.json",
+      "bytes": 12989,
+      "sha256": "61a6c970c10e1634fd3da1099b764cc3f2beaed222285265ace727edd3da8c1a"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d008/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d008/predictions.json",
+      "bytes": 12992,
+      "sha256": "5ab19e5e67f4388c8257aef6a592c8b0df1374c24c0f47dc017e4e556439bf20"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d009/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d009/predictions.json",
+      "bytes": 12886,
+      "sha256": "60cac7b8dc665c7e947956eed4643b225e8a5577c52f5aaa87608f5ea41b35a2"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d010/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d010/predictions.json",
+      "bytes": 12780,
+      "sha256": "766b02f3b2afc9c1f447e30677a8aa9b54aca2065909411ec0e96c49c49a368e"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d011/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d011/predictions.json",
+      "bytes": 12708,
+      "sha256": "65cc9fb103f6c8370d5f1e18bcc1a09c7bafee9680641cfc15095d0c79b90cd3"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d012/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d012/predictions.json",
+      "bytes": 13039,
+      "sha256": "ae316b812b2488b090be157e575a0badbf8d704c97c2dc99f3136ace81c357c3"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d013/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d013/predictions.json",
+      "bytes": 12933,
+      "sha256": "cc6bd26427cf7f7751494c0b307965ace0616af0b550bbd1b29049d2f052f4ee"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d014/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d014/predictions.json",
+      "bytes": 12929,
+      "sha256": "4b2984c37deab9df1abbf5799234395f31b5a60d959fd1934589a96437f3677a"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d015/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d015/predictions.json",
+      "bytes": 12824,
+      "sha256": "e95f9ff5fe47a9dd273e0f6c5943eea9b5ed6b9e92066d0cffb4c22a420b83c1"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d016/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d016/predictions.json",
+      "bytes": 12981,
+      "sha256": "8d077a8b24ae479934a065fe70be66bc26604ccc44681e4e884f15bb65b9fea7"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d017/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d017/predictions.json",
+      "bytes": 12762,
+      "sha256": "73a130404835b0e4517c2f13483ec7f78fb62b3ddf2adfeb83f2c2d9795f3bcd"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d018/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d018/predictions.json",
+      "bytes": 12753,
+      "sha256": "f699dd1b45801295b920a15547122ae805fb5350c028d18968c928860e8516fe"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d019/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d019/predictions.json",
+      "bytes": 12632,
+      "sha256": "c45198e53f28379f3644ae80134a24bd7a16c517a41f39902b03041255fbbeab"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d020/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d020/predictions.json",
+      "bytes": 12858,
+      "sha256": "594d733b9da8f3e70d067ea045858f2a5fa2426c7615a84c701085577abcd5be"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d021/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d021/predictions.json",
+      "bytes": 12648,
+      "sha256": "2424ee1289f17e5373a15a07936ffc8f8ff29a8e0d3f631e8f30c71a6f55acd4"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d022/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d022/predictions.json",
+      "bytes": 12738,
+      "sha256": "c93bab2321d29ddf84813a05924d21fddebb394de723dbd80f69ada74ee24cad"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d023/predictions.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d023/predictions.json",
+      "bytes": 12824,
+      "sha256": "4063af8c8549e357bec0a4eca55bb0ec16cd42e48545eed3784afea94eb21ece"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-28.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-28.json",
+      "bytes": 434,
+      "sha256": "09682ddff062b7dc7efe41c16f760e45722fc21867827b00046915842f3789f9"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-31.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-31.json",
+      "bytes": 435,
+      "sha256": "9e0c384478bd4a81c9beaeac3948274e5e0f853933199adb6ad334f2bfb6ec71"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-35.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-35.json",
+      "bytes": 437,
+      "sha256": "7a54c0d05f2fd942253e75b75c2b3bb8c2e3dcf173605e1227a988f059354984"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-52.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-52.json",
+      "bytes": 435,
+      "sha256": "0528028421a4e1baca86a7a574b7632dc450bce712a1afc150d17a3c58f36f2e"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/validation.json",
+      "packet_path": "evidence/runs/interaction_recoverability/learned-target-v1-20260912-164000/validation.json",
+      "bytes": 961,
+      "sha256": "a9ce987c60f9f8449fa5ef479e2f908823fb3d8c347c9c5050015ef1e022326a"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/prep-20260912-082154/numerics-v2/diagnostics.json",
+      "packet_path": "evidence/runs/interaction_recoverability/prep-20260912-082154/numerics-v2/diagnostics.json",
+      "bytes": 6767,
+      "sha256": "66fad44098742c1571469a93c25b43492c71b49056001039d109b8f11494342f"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/prep-20260912-082154/sources/manifest.json",
+      "packet_path": "evidence/runs/interaction_recoverability/prep-20260912-082154/sources/manifest.json",
+      "bytes": 2604,
+      "sha256": "1a9e8a74347c38fa8790f0f8c4adc649bb6ae6b6d579e07565ae7520e7451391"
+    },
+    {
+      "original_path": "runs/intervention/alternative_data_audit-v1.json",
+      "packet_path": "evidence/runs/intervention/alternative_data_audit-v1.json",
+      "bytes": 1563,
+      "sha256": "f929806a8a7b3e0462a4bfddb659798848c5675bbb7a716ff71fa47514cc1f9e"
+    },
+    {
+      "original_path": "runs/intervention/audit-v1/audit.json",
+      "packet_path": "evidence/runs/intervention/audit-v1/audit.json",
+      "bytes": 213762,
+      "sha256": "44b3441ada4d56cf90f1669f98463301c5dbfe28b02e6b04237a481e7ca6a298"
+    },
+    {
+      "original_path": "runs/intervention/audit-v2/reconciliation.json",
+      "packet_path": "evidence/runs/intervention/audit-v2/reconciliation.json",
+      "bytes": 27748,
+      "sha256": "6f029d710be373d24b716f2a80e29e37302bded1af211330069a6ed0f6d321e7"
+    },
+    {
+      "original_path": "runs/intervention/audit-v2/rows.jsonl",
+      "packet_path": "evidence/runs/intervention/audit-v2/rows.jsonl",
+      "bytes": 11120518,
+      "sha256": "7f0724b8f3e299e0078a3a277fa90f29059b334a5b4b86c1d913381a1ef67ac5"
+    },
+    {
+      "original_path": "runs/intervention/bundle-v1.json",
+      "packet_path": "evidence/runs/intervention/bundle-v1.json",
+      "bytes": 62024,
+      "sha256": "12336b29d4d6453fa0c59e206a935ba718e4a790368d00a16f663fde34f6b797"
+    },
+    {
+      "original_path": "runs/intervention/checkpoint_split_audit-v1.json",
+      "packet_path": "evidence/runs/intervention/checkpoint_split_audit-v1.json",
+      "bytes": 57167,
+      "sha256": "1547b4a5d51faa75057b3eb97e672137c9ecf873912f3b862f5b9945f3b28387"
+    },
+    {
+      "original_path": "runs/intervention/integrity-v1.json",
+      "packet_path": "evidence/runs/intervention/integrity-v1.json",
+      "bytes": 4531,
+      "sha256": "9be90f899050229231587abf21aa0f906681b74e2a564769645cd16aac51e252"
+    },
+    {
+      "original_path": "runs/intervention/online_cost_diagnostic-v1.json",
+      "packet_path": "evidence/runs/intervention/online_cost_diagnostic-v1.json",
+      "bytes": 9247,
+      "sha256": "f3b421295fc8b94fafe010780b287fc66b05b6417762bcee164074ae1831307e"
+    },
+    {
+      "original_path": "runs/intervention/preparation-v2/profile.json",
+      "packet_path": "evidence/runs/intervention/preparation-v2/profile.json",
+      "bytes": 6313,
+      "sha256": "5b6570bfdd62d611d3394e83ed2192457634b37fd0433982db200e241bd82348"
+    },
+    {
+      "original_path": "runs/intervention/preparation-v2/responses.csv",
+      "packet_path": "evidence/runs/intervention/preparation-v2/responses.csv",
+      "bytes": 27356,
+      "sha256": "215df93a94a3039ee6858662297d150349f188e6d2b0f233ac46b9423d7f7336"
+    },
+    {
+      "original_path": "runs/intervention/resource_summary-v1.json",
+      "packet_path": "evidence/runs/intervention/resource_summary-v1.json",
+      "bytes": 12232,
+      "sha256": "8c40fe1c783341bfb15122a92f2ad0d20be5c70edbc47b6159fc7d17a2902647"
+    },
+    {
+      "original_path": "runs/intervention/tests-v4.json",
+      "packet_path": "evidence/runs/intervention/tests-v4.json",
+      "bytes": 647,
+      "sha256": "718c417f5a79ad81efb17f196806ec501ca400c69cbf00eac69ba81b2da546be"
+    },
+    {
+      "original_path": "runs/revision/p4_audit-20260911-062649-090495.json",
+      "packet_path": "evidence/runs/revision/p4_audit-20260911-062649-090495.json",
+      "bytes": 234441,
+      "sha256": "f0dd69debc44d9d6b86f22cebd9ddcc243c56994d8a51ea2d6817fbc65b6a2d9"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-capability.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-capability.json",
+      "bytes": 23735,
+      "sha256": "783e6eec4f9292c6fa9a6735fb22ace647e5aa795220dcf50f1deda55ba445ae"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-cycle.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-cycle.json",
+      "bytes": 4217,
+      "sha256": "0d1bac3bac0177b0183622a98852c209748e28696e4bbf908ccc95fb9639fe11"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-figure1_prediction_ranking.csv",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-figure1_prediction_ranking.csv",
+      "bytes": 1592,
+      "sha256": "5fa57ae159870b9bc71dd156b4cdaa61ea8d4922711f04ba016fd3449e22222a"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv",
+      "bytes": 11581,
+      "sha256": "52f43c3cd6f9ea5d9098e4ed4cceab86489f145695dbde7ceb2c5635fcb8ab71"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-figure3_target_candidates.csv",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-figure3_target_candidates.csv",
+      "bytes": 95613,
+      "sha256": "4670fe00707ddf927769868b74180bebdac4850d3efe1dd6593d0c9029bc7e33"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-final.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-final.json",
+      "bytes": 1314,
+      "sha256": "554114f99ef55f474c7c9e2fd2a29e7043ac830252cd661fb7e1336421cc3640"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-postcheck.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-postcheck.json",
+      "bytes": 2731,
+      "sha256": "9076db912ff5eddcf6810ede6e704734698af6eb423089dc43098b22fd82818a"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-prerun.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-prerun.json",
+      "bytes": 10005,
+      "sha256": "84f4d519f37ce6bbe52dafe93b12c4ef7dd8b7e7d9e73bd25ac32ce2531b2401"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-report.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-report.json",
+      "bytes": 1693,
+      "sha256": "b88332b9e9d0f7cc205298573c6a4f72b9146eb96e9464d4ca9f9e3afdcd8abb"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna.json",
+      "bytes": 818203,
+      "sha256": "21808ae53f02bbd74b83d0731074475e08f80fc6cd7457695d473657cd87b0ba"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_inputs.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna_inputs.json",
+      "bytes": 460027,
+      "sha256": "5a92eca156bd335cc0ed586fe34060ad2240fc7bbdb105f23146c0e88620012a"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_predictions.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna_predictions.json",
+      "bytes": 195206,
+      "sha256": "0cd9b81d89ce1059e1a62b08cab43ca6e1dedff8fe739e7738283f85af725fdd"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_ridges.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna_ridges.json",
+      "bytes": 265181,
+      "sha256": "f7ee347ceda418f17743a80ef5a800ec88a1dc7052fb6e55520d40075a901b77"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_A.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna_training_A.json",
+      "bytes": 2111,
+      "sha256": "51a677f0672baff9c642c9f0638cd2f74d0d9608be60bec4ec36f2657e8cbdd4"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_B.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-rna_training_B.json",
+      "bytes": 4113,
+      "sha256": "e671ceb08e1c18f092bee990ef365dce5d12ce5102d81dc4cb84edc3c14a9a9f"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-target_summary.csv",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-target_summary.csv",
+      "bytes": 2622,
+      "sha256": "b6b65e3b665ea33b3c2e462cc3ccd8602c0cb08b7b2f03f9db6ccf9efd23141a"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-validation.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-validation.json",
+      "bytes": 336,
+      "sha256": "1e4e0b2edf262e77565157da84b738efefc376d5dd626c8b05243e33061ebef9"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-verifier.json",
+      "packet_path": "evidence/runs/revision/p4_gpu-20260911-171200-784773-verifier.json",
+      "bytes": 633339,
+      "sha256": "6b620351d88a7fd503ffebfb297b9e753eb143fecc2329e20ddbb5fe29bb38c3"
+    },
+    {
+      "original_path": "runs/revision/p4_tests-20260911-171750-499726.json",
+      "packet_path": "evidence/runs/revision/p4_tests-20260911-171750-499726.json",
+      "bytes": 2349,
+      "sha256": "0bee49a056957cec44f7332d5c3f5f5c81c1cd8ff55991a42efbe747bd000b8c"
+    },
+    {
+      "original_path": "runs/revision/rna_audit-20260906-003113.json",
+      "packet_path": "evidence/runs/revision/rna_audit-20260906-003113.json",
+      "bytes": 12823,
+      "sha256": "6a903656a0fb5e56a9b4d431c18c06e58e3317dc8deb1524c16c49ba2dd2565a"
+    },
+    {
+      "original_path": "scmp/__init__.py",
+      "packet_path": "evidence/scmp/__init__.py",
+      "bytes": 67,
+      "sha256": "f624cfbc9be8cc81bd99b15cb96a00df9bcf3f7fe6ec8db8bae937adc990ce66"
+    },
+    {
+      "original_path": "scmp/audit_bounds.py",
+      "packet_path": "evidence/scmp/audit_bounds.py",
+      "bytes": 11105,
+      "sha256": "58058e2ba5421920f26a0032f0ee35c3e879b55189da8b8ea66985fde693c4e1"
+    },
+    {
+      "original_path": "scmp/audit_conditional.py",
+      "packet_path": "evidence/scmp/audit_conditional.py",
+      "bytes": 7765,
+      "sha256": "d634ae85bd224b3deab703682dcb1d80ce317ed12fcc6bd2e49a134ce729c186"
+    },
+    {
+      "original_path": "scmp/audit_oracles.py",
+      "packet_path": "evidence/scmp/audit_oracles.py",
+      "bytes": 10620,
+      "sha256": "184b5d6462fb96a7913d49385de9372fcbaefd000c0d57930484c8da86b09565"
+    },
+    {
+      "original_path": "scmp/bounds.py",
+      "packet_path": "evidence/scmp/bounds.py",
+      "bytes": 16974,
+      "sha256": "27ccee2c4984c8f9629b35113a64a44b00eb7d97a950baabb060914f7cb81335"
+    },
+    {
+      "original_path": "scmp/check_certificates.py",
+      "packet_path": "evidence/scmp/check_certificates.py",
+      "bytes": 11207,
+      "sha256": "c01987b04e01d579650238e573cd1659116267d2755acd2860f91c70ff35fa77"
+    },
+    {
+      "original_path": "scmp/conditional.py",
+      "packet_path": "evidence/scmp/conditional.py",
+      "bytes": 20101,
+      "sha256": "4a72dd2593e8cdbd56bd1c45b5213a946a3e7c636043c2e69e446d6e1a306eae"
+    },
+    {
+      "original_path": "scmp/evaluate_explanations.py",
+      "packet_path": "evidence/scmp/evaluate_explanations.py",
+      "bytes": 10992,
+      "sha256": "280fd9c9853cdcc5862c0bd48d31764b1861e6903c68d1d35a7ea2853693ccfc"
+    },
+    {
+      "original_path": "scmp/evaluate_gates.py",
+      "packet_path": "evidence/scmp/evaluate_gates.py",
+      "bytes": 11700,
+      "sha256": "90244de232bf5bb72fdf6dc5018fd065a449e4f69c3f6c9cf8631e804b9b6e89"
+    },
+    {
+      "original_path": "scmp/export_results.py",
+      "packet_path": "evidence/scmp/export_results.py",
+      "bytes": 13762,
+      "sha256": "10cd66f2da0e2800f6abd45645ab33a297cd7abe9b918aafb2fbcb26cc8fa74a"
+    },
+    {
+      "original_path": "scmp/gpu.py",
+      "packet_path": "evidence/scmp/gpu.py",
+      "bytes": 2478,
+      "sha256": "14ed21eb6b10d91187a8d2ef001a04de31837428bd4dffb24ac78a054ea1e63b"
+    },
+    {
+      "original_path": "scmp/model.py",
+      "packet_path": "evidence/scmp/model.py",
+      "bytes": 9348,
+      "sha256": "2cf67618bf9e511662341cf4a9941da2843fc46f1ea8472035c38d0e81ab9f5d"
+    },
+    {
+      "original_path": "scmp/numerics.py",
+      "packet_path": "evidence/scmp/numerics.py",
+      "bytes": 5529,
+      "sha256": "6190032ff077758a0bb03e0526fb5f691f2566f633bf23ce24e5b1de39e5bcc3"
+    },
+    {
+      "original_path": "scmp/oracles/__init__.py",
+      "packet_path": "evidence/scmp/oracles/__init__.py",
+      "bytes": 895,
+      "sha256": "7b4d30fa310b116d01abc8de36385f8cbee7fae0991bcea258d4cd17d615c028"
+    },
+    {
+      "original_path": "scmp/oracles/adapters.py",
+      "packet_path": "evidence/scmp/oracles/adapters.py",
+      "bytes": 3161,
+      "sha256": "957eb31b8a72434a45f5867f56a2d6051c4005dd12f7edaff04624a2dec4de00"
+    },
+    {
+      "original_path": "scmp/oracles/base.py",
+      "packet_path": "evidence/scmp/oracles/base.py",
+      "bytes": 9857,
+      "sha256": "421ba44b645e8996dc359615072c70e2774436d00d01c8aab81edcb6353601e4"
+    },
+    {
+      "original_path": "scmp/oracles/bruteforce.py",
+      "packet_path": "evidence/scmp/oracles/bruteforce.py",
+      "bytes": 5903,
+      "sha256": "42db00e6ea99759b50c66c80e6c10d3502924e36dc2228264f597406aae88a6a"
+    },
+    {
+      "original_path": "scmp/oracles/layered_dag.py",
+      "packet_path": "evidence/scmp/oracles/layered_dag.py",
+      "bytes": 8906,
+      "sha256": "bf285a8310dc4598fa21a6f124fad266febcc50d39ac9ddcb7f284aae5d7b476"
+    },
+    {
+      "original_path": "scmp/oracles/path_matching.py",
+      "packet_path": "evidence/scmp/oracles/path_matching.py",
+      "bytes": 7412,
+      "sha256": "04c68ba4e20c1bc35803b2f2bd50306995f99aec3c6e7a2d77ccdf5273b990ef"
+    },
+    {
+      "original_path": "scmp/oracles/rna_noncrossing.py",
+      "packet_path": "evidence/scmp/oracles/rna_noncrossing.py",
+      "bytes": 12557,
+      "sha256": "3ceb3d700237159eb44f20f1a61ace5ce4b14ecfdeba81cbf693314e47d8cf0b"
+    },
+    {
+      "original_path": "scmp/policy.py",
+      "packet_path": "evidence/scmp/policy.py",
+      "bytes": 4720,
+      "sha256": "c9de530c027b8aa9b59d7229a46cfbec3e148ec29281dd50109d5fa62b7c4000"
+    },
+    {
+      "original_path": "scmp/refine.py",
+      "packet_path": "evidence/scmp/refine.py",
+      "bytes": 10526,
+      "sha256": "2627822ac370719c23b0f8d7db84bc515f9b61d4aecc843acade4aea20c85799"
+    },
+    {
+      "original_path": "scmp/reproduce.py",
+      "packet_path": "evidence/scmp/reproduce.py",
+      "bytes": 7724,
+      "sha256": "9a53497b5ba88c279d8e269343c1ba28f9c0e2713acdb0291c7bedb74ebe7577"
+    },
+    {
+      "original_path": "scmp/revision/__init__.py",
+      "packet_path": "evidence/scmp/revision/__init__.py",
+      "bytes": 1647,
+      "sha256": "2e7183b9f73980030d8bc6ee39095abe8146c79b86ca924a1694e8df0ec24752"
+    },
+    {
+      "original_path": "scmp/revision/audit_math.py",
+      "packet_path": "evidence/scmp/revision/audit_math.py",
+      "bytes": 21517,
+      "sha256": "78fe98cc1c109bfb36730e691ae5b654c1ee7951eebdaff227c00ab17c118309"
+    },
+    {
+      "original_path": "scmp/revision/audit_report.py",
+      "packet_path": "evidence/scmp/revision/audit_report.py",
+      "bytes": 37965,
+      "sha256": "ee27e2e6e19c17cf79a0fd678eb5dbd282fa7ed3c52f442bc9b76b0dae55f069"
+    },
+    {
+      "original_path": "scmp/revision/instrument.py",
+      "packet_path": "evidence/scmp/revision/instrument.py",
+      "bytes": 6083,
+      "sha256": "68db735658856cd10f780aa0c8193682084efb50aaacdf7446d6dd2f608d8c70"
+    },
+    {
+      "original_path": "scmp/revision/ladder.py",
+      "packet_path": "evidence/scmp/revision/ladder.py",
+      "bytes": 6069,
+      "sha256": "e6540f420c60e7a444f6fd032d9e4f81c7cb78fa917929f2245a04289a38eaa9"
+    },
+    {
+      "original_path": "scmp/revision/ledger.py",
+      "packet_path": "evidence/scmp/revision/ledger.py",
+      "bytes": 27601,
+      "sha256": "72179e3e34af19fb0b1e1b4c2999e1a3f6ddba37b29928e90ed5c53731b293f7"
+    },
+    {
+      "original_path": "scmp/revision/p4_capability.py",
+      "packet_path": "evidence/scmp/revision/p4_capability.py",
+      "bytes": 10947,
+      "sha256": "5d5ed683969864ca4d18d34fbdda3e5ae11868be40f0d716b1a8c4f1ce9d41b1"
+    },
+    {
+      "original_path": "scmp/revision/p4_checks.py",
+      "packet_path": "evidence/scmp/revision/p4_checks.py",
+      "bytes": 1293,
+      "sha256": "03fcb9e271e833f5f09b7346a4c90bb174881388893576653c8ef893189ad1cb"
+    },
+    {
+      "original_path": "scmp/revision/p4_data.py",
+      "packet_path": "evidence/scmp/revision/p4_data.py",
+      "bytes": 18077,
+      "sha256": "82affdeec65acf8fea4bfa2aa0e21d98c04514668ed4f3cee54102d7d5464884"
+    },
+    {
+      "original_path": "scmp/revision/p4_decision.py",
+      "packet_path": "evidence/scmp/revision/p4_decision.py",
+      "bytes": 6829,
+      "sha256": "345184fdd352663fc361dc4e62f5cfcacb3bd5470fa4e1dcd2736bf940586d8d"
+    },
+    {
+      "original_path": "scmp/revision/p4_exploratory_run.py",
+      "packet_path": "evidence/scmp/revision/p4_exploratory_run.py",
+      "bytes": 11715,
+      "sha256": "a6d5af0614c266e76f10c8057ec2686dadde3004b21ab1a608deef5904b6145c"
+    },
+    {
+      "original_path": "scmp/revision/p4_export.py",
+      "packet_path": "evidence/scmp/revision/p4_export.py",
+      "bytes": 20021,
+      "sha256": "b38ef7f72bd92d958d91d5e7cddae95a1ca07b813d9fe00ef9f5de86718352ab"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_control.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_control.py",
+      "bytes": 3480,
+      "sha256": "8c76c43ad922e0c4d09b5a8dfd8a73bb5bfc4cb4f507208d0d43c3abde6b7618"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_finalize.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_finalize.py",
+      "bytes": 8725,
+      "sha256": "366583dcc92d78e5a0c66b8ca48be517940cfd8c5531b335b05454fb16fa5712"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_math.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_math.py",
+      "bytes": 7676,
+      "sha256": "c51034ad6096f45a005e2007d27393b37f411aa63a9b7c368b0c12ed9d16b0aa"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_postcheck.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_postcheck.py",
+      "bytes": 6157,
+      "sha256": "98f92bd15524a9504880aa9825edfce12c400a022157e7b7c6818760066dcab6"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_report.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_report.py",
+      "bytes": 17416,
+      "sha256": "da5ac0d1e5af18181841f5948056675a990082ffe69eae066c2b32c8059f7974"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_rna.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_rna.py",
+      "bytes": 11442,
+      "sha256": "44aa0ea47f0886d3fa7ff491c1bdf53b81c2cdbd7bad6dffdbfd0d7fae28460d"
+    },
+    {
+      "original_path": "scmp/revision/p4_gpu_run.py",
+      "packet_path": "evidence/scmp/revision/p4_gpu_run.py",
+      "bytes": 7620,
+      "sha256": "12c1f1f3eaa1e64b312682d372516055a3ae9ad11d582db81e356332bfceff0b"
+    },
+    {
+      "original_path": "scmp/revision/p4_metrics.py",
+      "packet_path": "evidence/scmp/revision/p4_metrics.py",
+      "bytes": 3377,
+      "sha256": "d243bd4a1adf6d131faa2b14613009c2f899799c7a49887a7c39305f97994bb3"
+    },
+    {
+      "original_path": "scmp/revision/p4_resources.py",
+      "packet_path": "evidence/scmp/revision/p4_resources.py",
+      "bytes": 8907,
+      "sha256": "7757608816e8c663f6b0009245c7862c3080ba676acbe2e6c6f4b0ed8462c619"
+    },
+    {
+      "original_path": "scmp/revision/p4_rna.py",
+      "packet_path": "evidence/scmp/revision/p4_rna.py",
+      "bytes": 9956,
+      "sha256": "53428d00732a87a01ebd7997677ff9f88e15c261e25dd79d075438347f602488"
+    },
+    {
+      "original_path": "scmp/revision/p4_verifier.py",
+      "packet_path": "evidence/scmp/revision/p4_verifier.py",
+      "bytes": 12444,
+      "sha256": "d82ac55479ee748dc78e2600c186de1fd689a297d9cec1cb0e1372a0e39af435"
+    },
+    {
+      "original_path": "scmp/revision/predictor_pilot.py",
+      "packet_path": "evidence/scmp/revision/predictor_pilot.py",
+      "bytes": 46888,
+      "sha256": "e3010713a66b322c35b0a79b350f5ba5e54e5dad4e3e40d4fa95c5fe630aaf03"
+    },
+    {
+      "original_path": "scmp/revision/profile_verifier.py",
+      "packet_path": "evidence/scmp/revision/profile_verifier.py",
+      "bytes": 9185,
+      "sha256": "6ae30717cfa0dfb57295ce3a97aa20489eb9f6695c77f5b243cb5a66e9168fd3"
+    },
+    {
+      "original_path": "scmp/revision/provenance.py",
+      "packet_path": "evidence/scmp/revision/provenance.py",
+      "bytes": 7353,
+      "sha256": "ab038b7e551d7ee7358bcf792b7f0a0268ea226af149e92a84675dd1a96c933e"
+    },
+    {
+      "original_path": "scmp/revision/rerun_unrecorded.py",
+      "packet_path": "evidence/scmp/revision/rerun_unrecorded.py",
+      "bytes": 8060,
+      "sha256": "205aa36c5d9dab7bc8fa15aa57e5d274ef0578d14213a091397c335142bf8b8a"
+    },
+    {
+      "original_path": "scmp/revision/rna_audit.py",
+      "packet_path": "evidence/scmp/revision/rna_audit.py",
+      "bytes": 18798,
+      "sha256": "b6928297881669de2ac4ee1469153be535c7a79e601fa76f1834e90fdd4b7dcb"
+    },
+    {
+      "original_path": "scmp/revision/rna_pilot.py",
+      "packet_path": "evidence/scmp/revision/rna_pilot.py",
+      "bytes": 18945,
+      "sha256": "ad43ad14dae01bac89190efc5a44f41305c1da6a872cb373f0267ba993a91eea"
+    },
+    {
+      "original_path": "scmp/revision/verifier_pilot.py",
+      "packet_path": "evidence/scmp/revision/verifier_pilot.py",
+      "bytes": 24073,
+      "sha256": "b383e45732aeb4d958f49caf5167bfbdb92854cae946db3d1be8b173ac44484c"
+    },
+    {
+      "original_path": "scmp/rna/__init__.py",
+      "packet_path": "evidence/scmp/rna/__init__.py",
+      "bytes": 283,
+      "sha256": "dce0c55c4ee7cef0fc916a6732081f8e739a723d60039967402f7f80b0c46df9"
+    },
+    {
+      "original_path": "scmp/rna/audit_data.py",
+      "packet_path": "evidence/scmp/rna/audit_data.py",
+      "bytes": 16137,
+      "sha256": "e61e0cdeac3cc9b1723f246c8d2912acf7c87c234797e01aa838048b7e056873"
+    },
+    {
+      "original_path": "scmp/rna/audit_ensemble.py",
+      "packet_path": "evidence/scmp/rna/audit_ensemble.py",
+      "bytes": 9669,
+      "sha256": "f314cf2e0a66c6bb4500ee2b99202582318682fee9a18c390d59d79a8c4f1465"
+    },
+    {
+      "original_path": "scmp/rna/audit_splits.py",
+      "packet_path": "evidence/scmp/rna/audit_splits.py",
+      "bytes": 9782,
+      "sha256": "6bf816d893e378e62887d7db695904604d340497e466a89f4f4f806d6abdc498"
+    },
+    {
+      "original_path": "scmp/rna/ensemble.py",
+      "packet_path": "evidence/scmp/rna/ensemble.py",
+      "bytes": 11589,
+      "sha256": "9a6c356ae0ade20a4797374e040e01f8d49326813e1d736249085d1bb24cfb54"
+    },
+    {
+      "original_path": "scmp/rna/evaluate.py",
+      "packet_path": "evidence/scmp/rna/evaluate.py",
+      "bytes": 15487,
+      "sha256": "4dd9e0ff33452c72d4bd6370ea75e3f7e13c9b3b222f4871619be50fa4c44fba"
+    },
+    {
+      "original_path": "scmp/rna/export_paper.py",
+      "packet_path": "evidence/scmp/rna/export_paper.py",
+      "bytes": 8252,
+      "sha256": "ad77f313f3ee5daf29181bd80f57c8955100bdcb1145d0df2be2de5f39b0bd45"
+    },
+    {
+      "original_path": "scmp/rna/features.py",
+      "packet_path": "evidence/scmp/rna/features.py",
+      "bytes": 6791,
+      "sha256": "e1e926f39f5ef62e8fe623b48028fceaee87e1e77c923571c3d12f9a9b9a76b1"
+    },
+    {
+      "original_path": "scmp/rna/train.py",
+      "packet_path": "evidence/scmp/rna/train.py",
+      "bytes": 5023,
+      "sha256": "520597be4d6f82413b4a717a592b380261bc9f68cc38598e565e09a696fe2997"
+    },
+    {
+      "original_path": "scmp/run_pilot.py",
+      "packet_path": "evidence/scmp/run_pilot.py",
+      "bytes": 15254,
+      "sha256": "5a4fc588d4a4f5957542604f663b260674bde84b6b3659f6dad2d129f9abe04e"
+    },
+    {
+      "original_path": "scmp/toys.py",
+      "packet_path": "evidence/scmp/toys.py",
+      "bytes": 4249,
+      "sha256": "44129e32e77b3dd05e17f1b7bec9ad62512393d79479ca383183f28968697488"
+    },
+    {
+      "original_path": "scmp/train_policy.py",
+      "packet_path": "evidence/scmp/train_policy.py",
+      "bytes": 10533,
+      "sha256": "ad3d9b0a5643dda74a718f93a3e84163842785fd4a81068e7aa42cbb2b496086"
+    },
+    {
+      "original_path": "scmp/validate_protocol.py",
+      "packet_path": "evidence/scmp/validate_protocol.py",
+      "bytes": 11472,
+      "sha256": "a1c77ea5eddd637703d38b4e91041d90374261b6bd7188487c75f88676b528aa"
+    },
+    {
+      "original_path": "scmp/verify.py",
+      "packet_path": "evidence/scmp/verify.py",
+      "bytes": 3132,
+      "sha256": "29b1291f3eceb064f3c5cc076553929ed34d2cd5e7d2ae0d862d15ad12cf591d"
+    }
+  ],
+  "missing_active_evidence_links": [],
+  "omitted": [
+    {
+      "original_path": "siRNA_Design_Codex_Research_Brief.md",
+      "status": "not found in inspected evidence",
+      "reason": "biological evidence gap; no substitute fabricated"
+    },
+    {
+      "original_path": "siRNA_Transfer_Source_Evidence.json",
+      "status": "not found in inspected evidence",
+      "reason": "biological evidence gap; no substitute fabricated"
+    },
+    {
+      "original_path": "data/davis2025/gkaf479_supplemental_files.zip",
+      "status": "not found in inspected evidence",
+      "reason": "biological evidence gap; no substitute fabricated"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-capability.pt",
+      "status": "exists; omitted from static packet",
+      "reason": "checkpoint inference not required or authorized",
+      "bytes": 10739,
+      "sha256": "9ec6f2ae2b3e8e9f471d9ee6c313d55e32fec8970e9160040a0c1272bd1e179d"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A.pt",
+      "status": "exists; omitted from static packet",
+      "reason": "checkpoint inference not required or authorized",
+      "bytes": 46323,
+      "sha256": "d0362bf02eeaa9de35e771f231bd8f9e91ff11b205b625c5d84b51400d05c543"
+    },
+    {
+      "original_path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A_plus_B.pt",
+      "status": "exists; omitted from static packet",
+      "reason": "checkpoint inference not required or authorized",
+      "bytes": 46323,
+      "sha256": "bf263ad9e44ddba364bbf6a36d731064bf19c918825af84e0f3cf42cb61e636a"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-v1/trabs_v2.txt",
+      "status": "primary text inspected; not redistributed",
+      "reason": "versioned primary links in review",
+      "bytes": 140969,
+      "sha256": "422570341b872436d8c38dfdd631ccfbffaaeecc5d8f8cdaffd13e5365e29219"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/prep-20260912-082154/sources/dextri_v1.txt",
+      "status": "primary text inspected; not redistributed",
+      "reason": "versioned primary links in review",
+      "bytes": 200218,
+      "sha256": "7fcc5faaf4105f53bfbdfb99d5be73b79f49c88dd87aa69b95e8f0b90ecd8c55"
+    },
+    {
+      "original_path": "runs/interaction_recoverability/prep-20260912-082154/sources/strong_functionals.txt",
+      "status": "primary text inspected; not redistributed",
+      "reason": "versioned primary links in review",
+      "bytes": 305382,
+      "sha256": "78f9c2314098cbe275fc6791e858a0a84a09e54f13d50adc03d50bcbc0b75b6b"
+    }
+  ],
+  "historical_commitments": [
+    {
+      "path": "interaction_recoverability/learned_target/enrichment.py",
+      "expected": "bf68b50c5b007912b29e27282e76d6f526f4d28405958c95d0a7a78330b2031d",
+      "actual": "bf68b50c5b007912b29e27282e76d6f526f4d28405958c95d0a7a78330b2031d",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/correction.py",
+      "expected": "7e5708b365985b72708b3829b0db58e2273405152da5cdbbcf3026f8e24557a1",
+      "actual": "7e5708b365985b72708b3829b0db58e2273405152da5cdbbcf3026f8e24557a1",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/nonlinear_bias.py",
+      "expected": "63457983cf1b2ae999b3b77317a81abb949a0ef322fdcdb007b64e3a14949632",
+      "actual": "63457983cf1b2ae999b3b77317a81abb949a0ef322fdcdb007b64e3a14949632",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/profiles.py",
+      "expected": "0d76fa0fa01540aab3fc10f8d11017a2a357883d670038b4f5219be944424cc2",
+      "actual": "0d76fa0fa01540aab3fc10f8d11017a2a357883d670038b4f5219be944424cc2",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/geometry.py",
+      "expected": "08ab33caa431425bf5c75857f0fc750dc26d372c8f2d5854fff176006f7ebe7e",
+      "actual": "08ab33caa431425bf5c75857f0fc750dc26d372c8f2d5854fff176006f7ebe7e",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/source_fit.py",
+      "expected": "d25a1085498e11b4a6fd06f0e78363a0fc9866290466bc1caea9fa3a3f4a66da",
+      "actual": "d25a1085498e11b4a6fd06f0e78363a0fc9866290466bc1caea9fa3a3f4a66da",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/__init__.py",
+      "expected": "843639614e60bbd142d96e40ad433fad95e68a086e88ad12a40e1841811e6fe2",
+      "actual": "843639614e60bbd142d96e40ad433fad95e68a086e88ad12a40e1841811e6fe2",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/baselines.py",
+      "expected": "a00a30e4c354d90b3a0d20caa816fd5b0529702905c3e5975a10ecdad9b9abdf",
+      "actual": "a00a30e4c354d90b3a0d20caa816fd5b0529702905c3e5975a10ecdad9b9abdf",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/evaluate.py",
+      "expected": "673948ad762a6df3793481dddaf460027f637f21ac28dd6aaaedf1a2de4caa2f",
+      "actual": "673948ad762a6df3793481dddaf460027f637f21ac28dd6aaaedf1a2de4caa2f",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/__main__.py",
+      "expected": "0eaf93b6f042c3c46764eddc988439f513eb4e1546e9c20bd9ba1202d5d69cc2",
+      "actual": "0eaf93b6f042c3c46764eddc988439f513eb4e1546e9c20bd9ba1202d5d69cc2",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/experiment.py",
+      "expected": "0c1e67ceb7a702718449698bfe5e6a4d680dde4299ba6436ad83b97aa67bd644",
+      "actual": "0c1e67ceb7a702718449698bfe5e6a4d680dde4299ba6436ad83b97aa67bd644",
+      "match": true
+    },
+    {
+      "path": "interaction_recoverability/learned_target/budget.py",
+      "expected": "060de27e4bd1bd7dc36a072a07509ee87a73a80dcc369f956865ababcb531404",
+      "actual": "060de27e4bd1bd7dc36a072a07509ee87a73a80dcc369f956865ababcb531404",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d000/predictions.json",
+      "expected": "818cb2a8981ffbee198acf9de2e509bcecc5a2814d33a908d208098b461e14b3",
+      "actual": "818cb2a8981ffbee198acf9de2e509bcecc5a2814d33a908d208098b461e14b3",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d001/predictions.json",
+      "expected": "9fe584bec00f46f473dc0ed07a678ecddcf741017e8a6badd58cbf3e3b58fb13",
+      "actual": "9fe584bec00f46f473dc0ed07a678ecddcf741017e8a6badd58cbf3e3b58fb13",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d002/predictions.json",
+      "expected": "2d7300dcc86ce4a78a5b032331bff6bf4ea571cac031af32b8cee112176c82f5",
+      "actual": "2d7300dcc86ce4a78a5b032331bff6bf4ea571cac031af32b8cee112176c82f5",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d003/predictions.json",
+      "expected": "f68f43fbd53291976ffd719e9a253f5c3e79843d2211b735152db01417f205ae",
+      "actual": "f68f43fbd53291976ffd719e9a253f5c3e79843d2211b735152db01417f205ae",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d004/predictions.json",
+      "expected": "e3d6baf6baa9ffa0c1d02ec30832d10a0c29c52f259d2fd5543e17620fee25db",
+      "actual": "e3d6baf6baa9ffa0c1d02ec30832d10a0c29c52f259d2fd5543e17620fee25db",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d005/predictions.json",
+      "expected": "fa0e0e4eaba6bfe22cd7e2cc0519928d676b805429ebffc76d4c829e06d5580d",
+      "actual": "fa0e0e4eaba6bfe22cd7e2cc0519928d676b805429ebffc76d4c829e06d5580d",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d006/predictions.json",
+      "expected": "29442ebb45bcaaaa53596edc76cf380fe8e5c2f5d096d3c071c4459c6d971082",
+      "actual": "29442ebb45bcaaaa53596edc76cf380fe8e5c2f5d096d3c071c4459c6d971082",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d007/predictions.json",
+      "expected": "61a6c970c10e1634fd3da1099b764cc3f2beaed222285265ace727edd3da8c1a",
+      "actual": "61a6c970c10e1634fd3da1099b764cc3f2beaed222285265ace727edd3da8c1a",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d008/predictions.json",
+      "expected": "5ab19e5e67f4388c8257aef6a592c8b0df1374c24c0f47dc017e4e556439bf20",
+      "actual": "5ab19e5e67f4388c8257aef6a592c8b0df1374c24c0f47dc017e4e556439bf20",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d009/predictions.json",
+      "expected": "60cac7b8dc665c7e947956eed4643b225e8a5577c52f5aaa87608f5ea41b35a2",
+      "actual": "60cac7b8dc665c7e947956eed4643b225e8a5577c52f5aaa87608f5ea41b35a2",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d010/predictions.json",
+      "expected": "766b02f3b2afc9c1f447e30677a8aa9b54aca2065909411ec0e96c49c49a368e",
+      "actual": "766b02f3b2afc9c1f447e30677a8aa9b54aca2065909411ec0e96c49c49a368e",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d011/predictions.json",
+      "expected": "65cc9fb103f6c8370d5f1e18bcc1a09c7bafee9680641cfc15095d0c79b90cd3",
+      "actual": "65cc9fb103f6c8370d5f1e18bcc1a09c7bafee9680641cfc15095d0c79b90cd3",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d012/predictions.json",
+      "expected": "ae316b812b2488b090be157e575a0badbf8d704c97c2dc99f3136ace81c357c3",
+      "actual": "ae316b812b2488b090be157e575a0badbf8d704c97c2dc99f3136ace81c357c3",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d013/predictions.json",
+      "expected": "cc6bd26427cf7f7751494c0b307965ace0616af0b550bbd1b29049d2f052f4ee",
+      "actual": "cc6bd26427cf7f7751494c0b307965ace0616af0b550bbd1b29049d2f052f4ee",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d014/predictions.json",
+      "expected": "4b2984c37deab9df1abbf5799234395f31b5a60d959fd1934589a96437f3677a",
+      "actual": "4b2984c37deab9df1abbf5799234395f31b5a60d959fd1934589a96437f3677a",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d015/predictions.json",
+      "expected": "e95f9ff5fe47a9dd273e0f6c5943eea9b5ed6b9e92066d0cffb4c22a420b83c1",
+      "actual": "e95f9ff5fe47a9dd273e0f6c5943eea9b5ed6b9e92066d0cffb4c22a420b83c1",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d016/predictions.json",
+      "expected": "8d077a8b24ae479934a065fe70be66bc26604ccc44681e4e884f15bb65b9fea7",
+      "actual": "8d077a8b24ae479934a065fe70be66bc26604ccc44681e4e884f15bb65b9fea7",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d017/predictions.json",
+      "expected": "73a130404835b0e4517c2f13483ec7f78fb62b3ddf2adfeb83f2c2d9795f3bcd",
+      "actual": "73a130404835b0e4517c2f13483ec7f78fb62b3ddf2adfeb83f2c2d9795f3bcd",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d018/predictions.json",
+      "expected": "f699dd1b45801295b920a15547122ae805fb5350c028d18968c928860e8516fe",
+      "actual": "f699dd1b45801295b920a15547122ae805fb5350c028d18968c928860e8516fe",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d019/predictions.json",
+      "expected": "c45198e53f28379f3644ae80134a24bd7a16c517a41f39902b03041255fbbeab",
+      "actual": "c45198e53f28379f3644ae80134a24bd7a16c517a41f39902b03041255fbbeab",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d020/predictions.json",
+      "expected": "594d733b9da8f3e70d067ea045858f2a5fa2426c7615a84c701085577abcd5be",
+      "actual": "594d733b9da8f3e70d067ea045858f2a5fa2426c7615a84c701085577abcd5be",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d021/predictions.json",
+      "expected": "2424ee1289f17e5373a15a07936ffc8f8ff29a8e0d3f631e8f30c71a6f55acd4",
+      "actual": "2424ee1289f17e5373a15a07936ffc8f8ff29a8e0d3f631e8f30c71a6f55acd4",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d022/predictions.json",
+      "expected": "c93bab2321d29ddf84813a05924d21fddebb394de723dbd80f69ada74ee24cad",
+      "actual": "c93bab2321d29ddf84813a05924d21fddebb394de723dbd80f69ada74ee24cad",
+      "match": true
+    },
+    {
+      "path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/predictions/d023/predictions.json",
+      "expected": "4063af8c8549e357bec0a4eca55bb0ec16cd42e48545eed3784afea94eb21ece",
+      "actual": "4063af8c8549e357bec0a4eca55bb0ec16cd42e48545eed3784afea94eb21ece",
+      "match": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.json",
+      "expected": "783e6eec4f9292c6fa9a6735fb22ace647e5aa795220dcf50f1deda55ba445ae",
+      "actual": "783e6eec4f9292c6fa9a6735fb22ace647e5aa795220dcf50f1deda55ba445ae",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.pt",
+      "expected": "9ec6f2ae2b3e8e9f471d9ee6c313d55e32fec8970e9160040a0c1272bd1e179d",
+      "actual": "9ec6f2ae2b3e8e9f471d9ee6c313d55e32fec8970e9160040a0c1272bd1e179d",
+      "match": true,
+      "checkpoint_not_deserialized": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-prerun.json",
+      "expected": "84f4d519f37ce6bbe52dafe93b12c4ef7dd8b7e7d9e73bd25ac32ce2531b2401",
+      "actual": "84f4d519f37ce6bbe52dafe93b12c4ef7dd8b7e7d9e73bd25ac32ce2531b2401",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna.json",
+      "expected": "21808ae53f02bbd74b83d0731074475e08f80fc6cd7457695d473657cd87b0ba",
+      "actual": "21808ae53f02bbd74b83d0731074475e08f80fc6cd7457695d473657cd87b0ba",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A.pt",
+      "expected": "d0362bf02eeaa9de35e771f231bd8f9e91ff11b205b625c5d84b51400d05c543",
+      "actual": "d0362bf02eeaa9de35e771f231bd8f9e91ff11b205b625c5d84b51400d05c543",
+      "match": true,
+      "checkpoint_not_deserialized": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A_plus_B.pt",
+      "expected": "bf263ad9e44ddba364bbf6a36d731064bf19c918825af84e0f3cf42cb61e636a",
+      "actual": "bf263ad9e44ddba364bbf6a36d731064bf19c918825af84e0f3cf42cb61e636a",
+      "match": true,
+      "checkpoint_not_deserialized": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_inputs.json",
+      "expected": "5a92eca156bd335cc0ed586fe34060ad2240fc7bbdb105f23146c0e88620012a",
+      "actual": "5a92eca156bd335cc0ed586fe34060ad2240fc7bbdb105f23146c0e88620012a",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_predictions.json",
+      "expected": "0cd9b81d89ce1059e1a62b08cab43ca6e1dedff8fe739e7738283f85af725fdd",
+      "actual": "0cd9b81d89ce1059e1a62b08cab43ca6e1dedff8fe739e7738283f85af725fdd",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_ridges.json",
+      "expected": "f7ee347ceda418f17743a80ef5a800ec88a1dc7052fb6e55520d40075a901b77",
+      "actual": "f7ee347ceda418f17743a80ef5a800ec88a1dc7052fb6e55520d40075a901b77",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_A.json",
+      "expected": "51a677f0672baff9c642c9f0638cd2f74d0d9608be60bec4ec36f2657e8cbdd4",
+      "actual": "51a677f0672baff9c642c9f0638cd2f74d0d9608be60bec4ec36f2657e8cbdd4",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_B.json",
+      "expected": "e671ceb08e1c18f092bee990ef365dce5d12ce5102d81dc4cb84edc3c14a9a9f",
+      "actual": "e671ceb08e1c18f092bee990ef365dce5d12ce5102d81dc4cb84edc3c14a9a9f",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-validation.json",
+      "expected": "1e4e0b2edf262e77565157da84b738efefc376d5dd626c8b05243e33061ebef9",
+      "actual": "1e4e0b2edf262e77565157da84b738efefc376d5dd626c8b05243e33061ebef9",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-verifier.json",
+      "expected": "6b620351d88a7fd503ffebfb297b9e753eb143fecc2329e20ddbb5fe29bb38c3",
+      "actual": "6b620351d88a7fd503ffebfb297b9e753eb143fecc2329e20ddbb5fe29bb38c3",
+      "match": true,
+      "checkpoint_not_deserialized": false
+    },
+    {
+      "path": "configs/revision_p4_gpu_v1.yaml",
+      "expected": "7d78474bee8b97c6e3c2531f4dc9ebc280e15ef5655789226a6fe835a87034e2",
+      "actual": "7d78474bee8b97c6e3c2531f4dc9ebc280e15ef5655789226a6fe835a87034e2",
+      "match": true
+    }
+  ],
+  "cost_scope": "this helper: traversal, copying, hashing and JSON parsing; excludes prior inspection and authoring",
+  "process_cpu_seconds_before_report_write": 0.177881329,
+  "wall_seconds_before_report_write": 0.19112862390466034
+}

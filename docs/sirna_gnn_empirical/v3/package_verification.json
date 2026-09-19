@@ -1,0 +1,60 @@
+{
+  "archive": "runs/sirna_gnn_empirical/v3-20260914T013314Z/paper_artifacts/code_results.zip",
+  "sha256": "eeb7db330d1930e8787fd17384f513a1be06abbde472807a364c4cb2c9f0b6b7",
+  "bytes": 6079619157,
+  "included_files": 13667,
+  "uncompressed_bytes": 10589416501,
+  "every_included_file_stream_hash_verified": true,
+  "all_current_fit_artifacts_included": true,
+  "omitted_administrative_files": 90,
+  "source_zip_separately_verified": true,
+  "preservation": {
+    "inventoried_files": 7444,
+    "checked_files": 7444,
+    "bytes_hashed": 3715693221,
+    "changed": [],
+    "missing": [],
+    "all_preserved": true,
+    "method": "SHA256 content comparison against inventory captured before current campaign; existing untracked user files included."
+  },
+  "operations": [
+    {
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/main_cell_provenance.py",
+      "exit_code": 0,
+      "wall_s": 0.8753321329131722,
+      "child_cpu_s": 0.9495269999999999,
+      "log": "delivery_attempts/1789365911138876025/main_cell_provenance.log"
+    },
+    {
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/pair_gradient_check.py",
+      "exit_code": 0,
+      "wall_s": 6.554138842970133,
+      "child_cpu_s": 6.779806000000001,
+      "log": "delivery_attempts/1789365911138876025/pair_gradient_check.log"
+    },
+    {
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/audit_results.py",
+      "exit_code": 0,
+      "wall_s": 19.87018317100592,
+      "child_cpu_s": 20.015669000000003,
+      "log": "delivery_attempts/1789365911138876025/audit_results.log"
+    },
+    {
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/package_manuscript.py",
+      "exit_code": 0,
+      "wall_s": 24.232226786902174,
+      "child_cpu_s": 24.461107000000002,
+      "log": "delivery_attempts/1789365911138876025/package_manuscript.log"
+    },
+    {
+      "command": "/opt/miniforge3/bin/python /home/shadi/iclr2027/sirna_gnn_empirical/v3/write_delivery_docs.py",
+      "exit_code": 0,
+      "wall_s": 0.3030724171549082,
+      "child_cpu_s": 0.3773069999999974,
+      "log": "delivery_attempts/1789365911138876025/write_delivery_docs.log"
+    }
+  ],
+  "administrative_process_cpu_s": 283.070414374,
+  "administrative_wall_s": 335.4325457480736,
+  "qualification": "Packaging costs are administrative and overlap runner deliver-stage time. Interactive inspection/authoring/browsing and prior parent hashing retain additional unmetered nonzero costs. ZIP snapshot predates its own completion record to avoid recursive self-hashes."
+}

@@ -1,0 +1,328 @@
+{
+  "date": "2026-09-12",
+  "scope": "New intervention preparation only; measured regions, not a complete session ledger",
+  "measured_regions": [
+    {
+      "path": "data/intervention_sources/author_code/extra-v1.json",
+      "wall_s": 1.3136781719513237,
+      "process_cpu_s": 0.07326999999999999,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 2.0352777777777775e-05,
+      "gpu_hours": 0,
+      "peak_rss_kib": 36388,
+      "thread_limits": {
+        "OMP_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "data/intervention_sources/author_code/manifest-v1.json",
+      "wall_s": 3.8968533978331834,
+      "process_cpu_s": 0.43445100000000003,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.00012068083333333335,
+      "gpu_hours": 0,
+      "peak_rss_kib": 106748,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "data/intervention_sources/manifest-v1.json",
+      "wall_s": 27.643582553835586,
+      "process_cpu_s": 1.277851,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.00035495861111111115,
+      "gpu_hours": 0,
+      "peak_rss_kib": 107556,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "data/intervention_sources/papers/manifest-v1.json",
+      "wall_s": 36.8049170661252,
+      "process_cpu_s": 1.268784,
+      "waited_child_cpu_s": 5.572268,
+      "cpu_core_hours": 0.0019002922222222222,
+      "gpu_hours": 0,
+      "peak_rss_kib": 172372,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "data/intervention_sources/supplement/manifest-v1.json",
+      "wall_s": 69.81380449887365,
+      "process_cpu_s": 1.74242,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.0004840055555555556,
+      "gpu_hours": 0,
+      "peak_rss_kib": 114208,
+      "thread_limits": {
+        "OMP_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "MKL_NUM_THREADS": null
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/alternative_data_audit-v1.json",
+      "wall_s": 0.4528381391428411,
+      "process_cpu_s": 0.452761,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.00012576694444444445,
+      "gpu_hours": 0,
+      "peak_rss_kib": 57780,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/audit-v1/audit.json",
+      "wall_s": 1.5904619949869812,
+      "process_cpu_s": 1.413637,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.0003926769444444445,
+      "gpu_hours": 0,
+      "peak_rss_kib": 103912,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/audit-v2/reconciliation.json",
+      "wall_s": 4.901376738213003,
+      "process_cpu_s": 4.900712,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.001361308888888889,
+      "gpu_hours": 0,
+      "peak_rss_kib": 210952,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/checkpoint_split_audit-v1.json",
+      "wall_s": 1.4972089410293847,
+      "process_cpu_s": 1.493542,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.0004148727777777778,
+      "gpu_hours": 0,
+      "peak_rss_kib": 558048,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/online_cost_diagnostic-v1.json",
+      "wall_s": 0.9224289339035749,
+      "process_cpu_s": 0.920907,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.0002558075,
+      "gpu_hours": 0,
+      "peak_rss_kib": 507864,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/preparation-v1/profile.json",
+      "wall_s": 2.379380773054436,
+      "process_cpu_s": 1.298607,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.00036072416666666667,
+      "gpu_hours": 0,
+      "peak_rss_kib": 543964,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/preparation-v2/profile.json",
+      "wall_s": 1.1764245508238673,
+      "process_cpu_s": 1.1749260000000001,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 0.0003263683333333334,
+      "gpu_hours": 0,
+      "peak_rss_kib": 553420,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/tests-v1.json",
+      "wall_s": 2.197410842869431,
+      "process_cpu_s": 0.0007200000000000019,
+      "waited_child_cpu_s": 2.075735,
+      "cpu_core_hours": 0.0005767930555555555,
+      "gpu_hours": 0,
+      "peak_rss_kib": 16620,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/tests-v2.json",
+      "wall_s": 2.0507573201321065,
+      "process_cpu_s": 0.0007080000000000003,
+      "waited_child_cpu_s": 2.045284,
+      "cpu_core_hours": 0.0005683311111111111,
+      "gpu_hours": 0,
+      "peak_rss_kib": 16512,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/tests-v3.json",
+      "wall_s": 2.054147606017068,
+      "process_cpu_s": 0.0006969999999999997,
+      "waited_child_cpu_s": 2.0499709999999998,
+      "cpu_core_hours": 0.00056963,
+      "gpu_hours": 0,
+      "peak_rss_kib": 16544,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    {
+      "path": "runs/intervention/tests-v4.json",
+      "wall_s": 3.773668322013691,
+      "process_cpu_s": 0.0006589999999999999,
+      "waited_child_cpu_s": 3.214242,
+      "cpu_core_hours": 0.0008930280555555556,
+      "gpu_hours": 0,
+      "peak_rss_kib": 17796,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    }
+  ],
+  "measured_cpu_core_hours": 0.008725597777777778,
+  "measured_process_cpu_s": 16.454652,
+  "measured_waited_child_cpu_s": 14.9575,
+  "sum_instrumented_region_wall_s": 162.46893985080533,
+  "wall_sum_limit": "This sum is not end-to-end elapsed time; orchestration gaps and uninstrumented requests/editing are excluded.",
+  "maximum_reported_parent_peak_rss_kib": 558048,
+  "memory_limit": "Parent process high-water marks, not a simultaneous process-tree maximum; child RSS not included.",
+  "gpu_hours": 0,
+  "optimizer_steps": 0,
+  "predictor_training_steps": 0,
+  "explainer_training_steps": 0,
+  "held_out_experiments": 0,
+  "historical_remaining_allowance": null,
+  "prospective_profile": {
+    "source_predictor_training_cpu_core_hours": 0,
+    "source_predictor_training_gpu_hours": 0,
+    "source_generation": "analytic coefficients only in prospective CPU screening",
+    "cold_start_cpu_s": 0.141262,
+    "cold_start_charged_once_per_run": true,
+    "forward_backward_episode_count": 108000,
+    "core_hours_from_measured_median": 0.25714500000000196,
+    "wall_hours_from_measured_median": 0.25719730532728136,
+    "planning_core_hour_range": [
+      0.25547999999999904,
+      0.7896600000000054
+    ],
+    "query_cache_cpu_hours_linear": 0.004172746666666672,
+    "gpu_hours": 0,
+    "cpu_threads": 1,
+    "workers": 0,
+    "unknowns": [
+      "Adam update time and optimizer state peak memory not measured",
+      "auxiliary loss and eight-episode execution overhead only allowed for by 3x upper planning factor",
+      "SPEX external adapter runtime and development baseline selection not measured",
+      "published delivery-predictor inference, full descriptors, 3D construction and fitting not measured",
+      "end-to-end training convergence, runtime variance and generalization unknown"
+    ],
+    "no_training_authorization": true
+  },
+  "online_cpu_medians_s": {
+    "direct_uncached_eight_states": 0.0018899999999999473,
+    "direct_warm_cache": 0.0015060000000000073,
+    "untrained_operator_inference": 0.002367000000000008
+  },
+  "observed_online_break_even": null,
+  "break_even_limit": "Fixed analytic correctness fixture and untrained forward pass only; proposed online CPU exceeds exact evaluation even before transcript queries/training.",
+  "unmeasured": [
+    "tool/editor and other shell CPU outside recorded regions",
+    "unwrapped source retrieval, parsing and orchestration gaps",
+    "source coefficient materialization separately from fixture graph/query timing",
+    "Adam steps and optimizer memory; actual batching and auxiliary-loss costs",
+    "main teacher cache serialization/I/O; baseline selection and tree/SPEX fitting",
+    "published delivery inference and all model-specific descriptors/3D construction",
+    "predictor fitting, training convergence and any GPU variant"
+  ],
+  "versions": {
+    "numpy": "2.4.2",
+    "torch": "2.11.0",
+    "scipy": "1.18.0",
+    "pandas": "3.0.2",
+    "rdkit": "2026.3.1",
+    "scikit-learn": "1.8.0",
+    "pytest": "8.2.2"
+  },
+  "python": "3.13.12",
+  "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39"
+}

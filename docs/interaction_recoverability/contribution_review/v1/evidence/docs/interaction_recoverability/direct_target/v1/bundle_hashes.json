@@ -1,0 +1,22 @@
+{
+  "docs/interaction_recoverability/direct_target/v1/preservation.json": "32d078d3e89b26e33c789059a02bdee76b923f83fcf46a66fe543601ccbc4c4d",
+  "docs/interaction_recoverability/direct_target/v1/executed_jobs.json": "616d6deac1c927a2b66123dcbcb7e20c467fb2c4b92a14e9ca7e37cd4cac20a0",
+  "docs/interaction_recoverability/direct_target/v1/exact_problem.md": "e239593b78d32b77ac5883bd184174a18f3b06ea3d344ce14d8ac9d1ae16eadf",
+  "docs/interaction_recoverability/direct_target/v1/static_precision_command.sh": "c113076f77b1548ef82c44927a0259bf8d4ff7601d4b7a316ff8ac742859ab37",
+  "docs/interaction_recoverability/direct_target/v1/final_checks.json": "46b27b498cba3d1600a41d9b7a3603e2e39df74d6b2034ab94033dc6fd612654",
+  "docs/interaction_recoverability/direct_target/v1/checks.json": "37685bb4461801b2cee0d987a9cff9e288cce73565809b1b704368f72b9d3481",
+  "docs/interaction_recoverability/direct_target/v1/commands_and_resources.md": "f9998d8ad8b6b56b376a85610e31ace8a4167b1f8fa4f4152283bec7dc55ded1",
+  "docs/interaction_recoverability/direct_target/v1/checks.py": "653b41826f94796e3adeca689593bc4a6963444bfb2e839eb7059df9e35364b0",
+  "docs/interaction_recoverability/direct_target/v1/estimator.md": "98e87c93c2b753558424ae3596690bf7c9b7c466e053ed10313e44de7fee9feb",
+  "docs/interaction_recoverability/direct_target/v1/target_identity.md": "ffa73fda398ab1375991117dba643ceadd867fccc842d8f833597dcf1abbaef7",
+  "docs/interaction_recoverability/direct_target/v1/finish_report.py": "5711a6b8271dca0ffc49e7bbe9187766fcc238fc353dea6f2e6ed3b7d412ecce",
+  "docs/interaction_recoverability/direct_target/v1/commands.sh": "245af965c05ac8b544904a4381ad6efeff764c405bf1bfe009bdd552b82f4a09",
+  "docs/interaction_recoverability/direct_target/v1/resource_audit_job_31.json": "01ec3740f56a4545a637b8282f86c8a7dce5428b1bc1fa8ed5d469416f1df18a",
+  "docs/interaction_recoverability/direct_target/v1/resource_gate.py": "3ae165d3f028cad16faf7046731dc6cf5f81f9e5c0582512c3de4f25e4878466",
+  "docs/interaction_recoverability/direct_target/v1/modulus.md": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab",
+  "docs/interaction_recoverability/direct_target/v1/final_checks.py": "79db486220465128ba889d701d52aab35aa3a345e8866d3bcc20a5b355349799",
+  "docs/interaction_recoverability/direct_target/v1/novelty.md": "bd1606ce674cfad2c2ff5584cc58f35fb171d5aed494a066779e26743dc83bfd",
+  "docs/interaction_recoverability/direct_target/v1/decision.md": "78477f553b5797581846bfbf7806f602ffe4879f3f3575491410d8505165eb02",
+  "docs/interaction_recoverability/direct_target/v1/discovery_commands.sh": "0cbb212a7779b9bbd9616bf9bc4217359f05ef9bf78dab6b70cd8c07bbe0d6e6",
+  "interaction_recoverability/direct_target_v1.py": "98c14c95414c8d041d785540bfcbe905b053d76fe5e17c9626bf78f76a1dbb32"
+}

@@ -1,0 +1,45 @@
+{
+  "task": "local-five-law-v1",
+  "through_job": 35,
+  "task_cpu_s": 9.287816,
+  "task_wall_s": 9.431076551089063,
+  "task_charge_s": 159.8464952119416,
+  "task_cap_s": 600.0,
+  "task_remaining_s": 440.1535047880584,
+  "global_charge_s": 1287.9558255792535,
+  "global_remaining_s": 5912.0441744207465,
+  "reporting_reserve_s": 600.0,
+  "reserve_preserved": true,
+  "gpu_s": 0,
+  "workers": 1,
+  "threads": 1,
+  "ledger_sha256": "7f30adc8bec106fda1801663a57a31c3578578a2d0259a073a27639f65925225",
+  "preserved_file_count": 360,
+  "changed_preserved_files": [],
+  "job_statuses": [
+    {
+      "job_id": 32,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 33,
+      "returncode": 1,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 34,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 35,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    }
+  ]
+}

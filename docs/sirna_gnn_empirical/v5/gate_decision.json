@@ -1,0 +1,38 @@
+{
+  "candidate": "Frozen graph representation equivalence checks plus compatible finite-response contrast range",
+  "gates": {
+    "G1": {
+      "status": "FAIL",
+      "reason": "The concrete candidate reduces to finite-dimensional optimal recovery / linear programming plus encoding equivalence. No new algorithmic step under comparable assumptions has been identified.",
+      "evidence": [
+        "novelty_matrix.md",
+        "contribution_statement.md",
+        "method_and_proof.md"
+      ],
+      "limitations": "Bounded comparison, not a proof that the broader research direction is exhausted.",
+      "changes": "Exact LP reduction documented and primary implementation comparison completed; FAIL retained."
+    },
+    "G2": {
+      "status": "UNRESOLVED",
+      "reason": "A conditional finite-state exact-inference result can be proved, but true-response membership, learned-representation adaptation and a novel end-to-end result for the GNN are not established.",
+      "evidence": [
+        "method_and_proof.md",
+        "theorem_to_code.md",
+        "v5/correctness/results.json"
+      ],
+      "limitations": "19 exact-reference, counterexample and actual-forward/gradient checks passed. These establish no novel adaptive-learning theorem or biological coverage.",
+      "changes": "Correctness computations completed; conditional finite-state proof written. Desired learner guarantee remains unresolved."
+    },
+    "G3": {
+      "status": "UNRESOLVED",
+      "reason": "Performance pilot blocked by G1 and G2. No test outcomes or positive benefit exist for a new method.",
+      "evidence": [
+        "pilot_protocol.json"
+      ],
+      "limitations": "Not an observed negative pilot; not executed.",
+      "changes": "Initial decision."
+    }
+  },
+  "promotion": false,
+  "new_training_authorized_by_gates": false
+}

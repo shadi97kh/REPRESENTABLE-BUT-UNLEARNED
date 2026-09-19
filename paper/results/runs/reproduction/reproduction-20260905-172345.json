@@ -1,0 +1,327 @@
+{
+  "config": "configs/reproduction.yaml",
+  "name": "winning_dev_config",
+  "environment": [
+    {
+      "item": "python",
+      "want": "3.13",
+      "got": "3.13",
+      "ok": true
+    },
+    {
+      "item": "numpy",
+      "want": "2.4.2",
+      "got": "2.4.2",
+      "ok": true
+    },
+    {
+      "item": "torch",
+      "want": "2.11.0",
+      "got": "2.11.0",
+      "ok": true
+    },
+    {
+      "item": "ViennaRNA",
+      "want": "2.7.2",
+      "got": "2.7.2",
+      "ok": true
+    },
+    {
+      "item": "RNA.__version__",
+      "want": "2.6.4",
+      "got": "2.6.4",
+      "ok": true,
+      "note": "module attribute differs from the distribution version by design"
+    },
+    {
+      "item": "lockfile",
+      "want": "present",
+      "got": "docs/requirements-lock.txt",
+      "ok": true
+    }
+  ],
+  "source": [
+    {
+      "path": "Makefile",
+      "want": "2cf3c0c07def",
+      "got": "2cf3c0c07def",
+      "ok": true
+    },
+    {
+      "path": "requirements.txt",
+      "want": "2ce2b4adaa0b",
+      "got": "2ce2b4adaa0b",
+      "ok": true
+    },
+    {
+      "path": "certmp/__init__.py",
+      "want": "ac84119dbb4b",
+      "got": "ac84119dbb4b",
+      "ok": true
+    },
+    {
+      "path": "certmp/aggregators.py",
+      "want": "f09e2c0ee50a",
+      "got": "f09e2c0ee50a",
+      "ok": true
+    },
+    {
+      "path": "certmp/certify.py",
+      "want": "76bf4d979a8e",
+      "got": "76bf4d979a8e",
+      "ok": true
+    },
+    {
+      "path": "certmp/data.py",
+      "want": "c818e718b8e9",
+      "got": "c818e718b8e9",
+      "ok": true
+    },
+    {
+      "path": "certmp/ensemble.py",
+      "want": "dd880623df6e",
+      "got": "dd880623df6e",
+      "ok": true
+    },
+    {
+      "path": "certmp/kappa.py",
+      "want": "658253ebeb07",
+      "got": "658253ebeb07",
+      "ok": true
+    },
+    {
+      "path": "certmp/maximal.py",
+      "want": "486029d141b1",
+      "got": "486029d141b1",
+      "ok": true
+    },
+    {
+      "path": "certmp/models.py",
+      "want": "75e82922ce39",
+      "got": "75e82922ce39",
+      "ok": true
+    },
+    {
+      "path": "certmp/provenance.py",
+      "want": "bf89113cc54d",
+      "got": "bf89113cc54d",
+      "ok": true
+    },
+    {
+      "path": "certmp/reach.py",
+      "want": "0032bc35489f",
+      "got": "0032bc35489f",
+      "ok": true
+    },
+    {
+      "path": "certmp/train.py",
+      "want": "e27789842ca1",
+      "got": "e27789842ca1",
+      "ok": true
+    },
+    {
+      "path": "certmp/void.py",
+      "want": "7fb34ca0a46f",
+      "got": "7fb34ca0a46f",
+      "ok": true
+    },
+    {
+      "path": "experiments/_huesken.py",
+      "want": "b6ab3819335d",
+      "got": "b6ab3819335d",
+      "ok": true
+    },
+    {
+      "path": "experiments/c3_aggregator_characterization.py",
+      "want": "2aa715d00f50",
+      "got": "2aa715d00f50",
+      "ok": true
+    },
+    {
+      "path": "experiments/c4_affinity.py",
+      "want": "7b6999671d15",
+      "got": "7b6999671d15",
+      "ok": true
+    },
+    {
+      "path": "experiments/c5_slack_scaling.py",
+      "want": "1aec2004268d",
+      "got": "1aec2004268d",
+      "ok": true
+    },
+    {
+      "path": "experiments/c6_closure.py",
+      "want": "921285fb46c8",
+      "got": "921285fb46c8",
+      "ok": true
+    },
+    {
+      "path": "experiments/c7_kappa_characterization.py",
+      "want": "51bcb8243169",
+      "got": "51bcb8243169",
+      "ok": true
+    },
+    {
+      "path": "experiments/c8_kappa_gencode.py",
+      "want": "a536563167f0",
+      "got": "a536563167f0",
+      "ok": true
+    },
+    {
+      "path": "experiments/c9_kappa_boundary.py",
+      "want": "0fe78ef7d1aa",
+      "got": "0fe78ef7d1aa",
+      "ok": true
+    },
+    {
+      "path": "experiments/f1_extremality.py",
+      "want": "9d882b3d3af9",
+      "got": "9d882b3d3af9",
+      "ok": true
+    },
+    {
+      "path": "experiments/f2_lattice_size.py",
+      "want": "23783c200732",
+      "got": "23783c200732",
+      "ok": true
+    },
+    {
+      "path": "experiments/f3_certificate.py",
+      "want": "bcd12a5351ec",
+      "got": "bcd12a5351ec",
+      "ok": true
+    },
+    {
+      "path": "experiments/f3b_relaxation_slack.py",
+      "want": "ddd10574cbb9",
+      "got": "ddd10574cbb9",
+      "ok": true
+    },
+    {
+      "path": "experiments/f4_topk_stability.py",
+      "want": "e47c69714253",
+      "got": "e47c69714253",
+      "ok": true
+    },
+    {
+      "path": "experiments/f5_stress_extremality.py",
+      "want": "0355457cf9ac",
+      "got": "0355457cf9ac",
+      "ok": true
+    },
+    {
+      "path": "experiments/f6_trained.py",
+      "want": "5dc075bfe27c",
+      "got": "5dc075bfe27c",
+      "ok": true
+    },
+    {
+      "path": "experiments/f7_soundness.py",
+      "want": "1d88d0bcc076",
+      "got": "1d88d0bcc076",
+      "ok": true
+    },
+    {
+      "path": "experiments/f8_baseline.py",
+      "want": "d02a079554b3",
+      "got": "d02a079554b3",
+      "ok": true
+    },
+    {
+      "path": "experiments/f9_target_context.py",
+      "want": "36bec1c79ced",
+      "got": "36bec1c79ced",
+      "ok": true
+    },
+    {
+      "path": "experiments/f10_maximal.py",
+      "want": "233c2ccda3f6",
+      "got": "233c2ccda3f6",
+      "ok": true
+    },
+    {
+      "path": "experiments/f10b_convergence.py",
+      "want": "81278860f50e",
+      "got": "81278860f50e",
+      "ok": true
+    },
+    {
+      "path": "tests/test_sanity.py",
+      "want": "b8fa993c7804",
+      "got": "b8fa993c7804",
+      "ok": true
+    }
+  ],
+  "data": [
+    {
+      "path": "data/TrainAll2182.txt",
+      "want": "4919d99a6d5bffe2",
+      "got": "4919d99a6d5bffe2",
+      "ok": true
+    },
+    {
+      "path": "data/TestAll249.txt",
+      "want": "7ebfc59a0d0c2116",
+      "got": "7ebfc59a0d0c2116",
+      "ok": true
+    },
+    {
+      "path": "data/Huesken_2431_annotated.tsv",
+      "want": "9e9be35db9c6a092",
+      "got": "9e9be35db9c6a092",
+      "ok": true
+    },
+    {
+      "path": "data/gencode_windows.txt",
+      "want": "5a9cb5414c9e514d",
+      "got": "5a9cb5414c9e514d",
+      "ok": true
+    },
+    {
+      "path": "data/models/monotone_generic.json",
+      "want": "a696d123f396631e",
+      "got": "a696d123f396631e",
+      "ok": true
+    }
+  ],
+  "reproduction": [
+    {
+      "metric": "cases",
+      "recorded": 500,
+      "got": 500,
+      "ok": true
+    },
+    {
+      "metric": "baseline_median_gap",
+      "recorded": 0.5348,
+      "got": 0.5348,
+      "ok": true
+    },
+    {
+      "metric": "conditional_median_gap",
+      "recorded": 0.083,
+      "got": 0.083,
+      "ok": true
+    },
+    {
+      "metric": "tighter_than_baseline",
+      "recorded": 324,
+      "got": 324,
+      "ok": true
+    },
+    {
+      "metric": "proved_impossible",
+      "recorded": 1684,
+      "got": 1684,
+      "ok": true
+    }
+  ],
+  "rerun": {
+    "returncode": 0,
+    "seconds": 112.0905933380127,
+    "stdout_tail": "conditional-support audit  cases=500 seed=7027 budget=5\n\ncases audited            : 500 (12173 feasible structures)\nskipped (infeasible mask): 0\nconditional passes       : 1547 (budget 5/case)\noracle calls             : 378347\nedges proved impossible  : 1684\nq from conditional       : 7677\nq from fallback          : 6165\ntighter than baseline    : 324/500\nfallback won at top level: 15\n\n        choice  median gap   mean gap  teacher passes\n      baseline      0.5348    14.9905               0\n        random      0.0830     8.0912               0\n   largest_gap      0.0830     8.0483               0\n measured_gain      0.0806     8.1484            2867\n\nnumerical status         : float_unverified -- DIAGNOSTIC, not a proof\nruntime                  : 110.88s\n\nno soundness violation found\n"
+  },
+  "limitation": "verifies the current interpreter against pins; does not provision a fresh virtualenv or container",
+  "started": "2026-09-05 17:21:52",
+  "status": "reproduced"
+}

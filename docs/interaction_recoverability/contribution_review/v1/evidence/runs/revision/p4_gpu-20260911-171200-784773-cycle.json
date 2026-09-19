@@ -1,0 +1,98 @@
+{
+  "artifacts": {
+    "capability": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.json",
+      "sha256": "783e6eec4f9292c6fa9a6735fb22ace647e5aa795220dcf50f1deda55ba445ae"
+    },
+    "capability_checkpoint": {
+      "model_sha256": "d05a3ef3f165dca8a4ff613770b7a012f1db06dbd104f809894479cf250cdbcb",
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.pt",
+      "sha256": "9ec6f2ae2b3e8e9f471d9ee6c313d55e32fec8970e9160040a0c1272bd1e179d"
+    },
+    "prerun": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-prerun.json",
+      "sha256": "84f4d519f37ce6bbe52dafe93b12c4ef7dd8b7e7d9e73bd25ac32ce2531b2401"
+    },
+    "rna": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna.json",
+      "sha256": "21808ae53f02bbd74b83d0731074475e08f80fc6cd7457695d473657cd87b0ba"
+    },
+    "rna_A_checkpoint": {
+      "model_sha256": "3112d9eaa56c7669e366f11be63e4afe8e54364022ad285137ebd9c3ca60c047",
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A.pt",
+      "sha256": "d0362bf02eeaa9de35e771f231bd8f9e91ff11b205b625c5d84b51400d05c543"
+    },
+    "rna_A_plus_B_checkpoint": {
+      "model_sha256": "69802d4e8a217dbd247048ebb37d8afaf7c2d8c708488f373a6824c48acc2a4c",
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A_plus_B.pt",
+      "sha256": "bf263ad9e44ddba364bbf6a36d731064bf19c918825af84e0f3cf42cb61e636a"
+    },
+    "rna_inputs": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_inputs.json",
+      "sha256": "5a92eca156bd335cc0ed586fe34060ad2240fc7bbdb105f23146c0e88620012a"
+    },
+    "rna_predictions": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_predictions.json",
+      "sha256": "0cd9b81d89ce1059e1a62b08cab43ca6e1dedff8fe739e7738283f85af725fdd"
+    },
+    "rna_ridges": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_ridges.json",
+      "sha256": "f7ee347ceda418f17743a80ef5a800ec88a1dc7052fb6e55520d40075a901b77"
+    },
+    "rna_training_A": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_A.json",
+      "sha256": "51a677f0672baff9c642c9f0638cd2f74d0d9608be60bec4ec36f2657e8cbdd4"
+    },
+    "rna_training_B": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_B.json",
+      "sha256": "e671ceb08e1c18f092bee990ef365dce5d12ce5102d81dc4cb84edc3c14a9a9f"
+    },
+    "validation": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-validation.json",
+      "sha256": "1e4e0b2edf262e77565157da84b738efefc376d5dd626c8b05243e33061ebef9"
+    },
+    "verifier": {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-verifier.json",
+      "sha256": "6b620351d88a7fd503ffebfb297b9e753eb143fecc2329e20ddbb5fe29bb38c3"
+    }
+  },
+  "capability_passed": false,
+  "config_path": "configs/revision_p4_gpu_v1.yaml",
+  "config_sha256": "7d78474bee8b97c6e3c2531f4dc9ebc280e15ef5655789226a6fe835a87034e2",
+  "optimizer_steps": 2400,
+  "physical_gpu_uuid": "GPU-1e502523-2587-176b-91ef-86cb0ea01a82",
+  "resources": {
+    "blas_threads": 1,
+    "child_cpu_s": 0.019441,
+    "child_process_description": "read-only nvidia-smi preflight; waited and included in child_cpu_s",
+    "child_processes_spawned": 1,
+    "cpu_affinity": [
+      0
+    ],
+    "cpu_core_hours": 0.07477946916666665,
+    "cuda_memory_fraction_cap": 0.15,
+    "cuda_peak_allocated_bytes": 132957696,
+    "cuda_peak_reserved_bytes": 157286400,
+    "gpu_charge_basis": "conservative entire execution wall time on exactly one visible GPU",
+    "gpu_devices": 1,
+    "gpu_hours": 0.07479993117138899,
+    "historical_resource_balance": "unreconciled; no claimed balance",
+    "max_rss_kib": 3219288,
+    "openmp_threads": 1,
+    "physical_gpu_uuid": "GPU-1e502523-2587-176b-91ef-86cb0ea01a82",
+    "process_cpu_s": 269.186648,
+    "torch_threads": 1,
+    "wall_s": 269.27975221700035
+  },
+  "source_hashes_unchanged": true,
+  "stage_wall_s": {
+    "capability": 1.7249224551487714,
+    "rna": 258.4497061728034,
+    "validation": 0.313267920864746,
+    "verifier": 7.889432896859944
+  },
+  "started_utc": "20260911-171200-784773",
+  "status": "COMPLETE_ALL_REQUESTED_COMPARISONS",
+  "useful_verification_gain": false,
+  "visible_gpu_count": 1
+}

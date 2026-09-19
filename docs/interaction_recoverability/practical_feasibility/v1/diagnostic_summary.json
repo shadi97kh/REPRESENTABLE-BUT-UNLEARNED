@@ -1,0 +1,63 @@
+{
+  "scope": "Differences of saved diagnostic outputs, not error certificates.",
+  "integration_sd_difference": 0.007220268766104709,
+  "accumulator_variance_difference": 6.854534149169922e-07,
+  "cases": [
+    {
+      "case": "variance_base",
+      "complete_variance": 79390041.52398762,
+      "asymptotic_sd_constant": 8910.108951297263,
+      "child_cpu_s": 1.5000238639999999,
+      "child_wall_s": 1.6788818680215627,
+      "child_peak_rss_kib": 195132
+    },
+    {
+      "case": "variance_depth",
+      "complete_variance": 79390041.5186771,
+      "asymptotic_sd_constant": 8910.108950999258,
+      "child_cpu_s": 2.833796985,
+      "child_wall_s": 3.1364008949603885,
+      "child_peak_rss_kib": 281976
+    },
+    {
+      "case": "variance_integration",
+      "complete_variance": 79390219.4333934,
+      "asymptotic_sd_constant": 8910.118934862396,
+      "child_cpu_s": 3.509799226,
+      "child_wall_s": 3.881278074113652,
+      "child_peak_rss_kib": 445368
+    },
+    {
+      "case": "variance_tail",
+      "complete_variance": 79390251.45994788,
+      "asymptotic_sd_constant": 8910.120732063506,
+      "child_cpu_s": 3.521065804,
+      "child_wall_s": 3.8911694639828056,
+      "child_peak_rss_kib": 452332
+    },
+    {
+      "case": "variance_deep",
+      "complete_variance": 79390251.45994833,
+      "asymptotic_sd_constant": 8910.12073206353,
+      "child_cpu_s": 6.707459678999999,
+      "child_wall_s": 7.412553532980382,
+      "child_peak_rss_kib": 717048
+    },
+    {
+      "case": "variance_final",
+      "complete_variance": 79390122.7930676,
+      "asymptotic_sd_constant": 8910.113511794763,
+      "child_cpu_s": 9.154052913,
+      "child_wall_s": 10.097478180890903,
+      "child_peak_rss_kib": 1291104
+    },
+    {
+      "case": "variance_accumulator",
+      "complete_variance": 79390122.79306829,
+      "asymptotic_sd_constant": 8910.113511794802,
+      "child_cpu_s": 8.788283613,
+      "child_wall_s": 9.726774375885725,
+      "child_peak_rss_kib": 1291168
+    }
+  ]
+}

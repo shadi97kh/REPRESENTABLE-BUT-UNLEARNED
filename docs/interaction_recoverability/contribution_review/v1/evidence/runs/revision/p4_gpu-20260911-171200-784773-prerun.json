@@ -1,0 +1,236 @@
+{
+  "audited_rows_sha256": "2b6db077ca6b8241d74f1da4eb1f30443bee5c834d566a6474d54e0c3fae00db",
+  "config": {
+    "capability": {
+      "anchor_epochs": 200,
+      "dev_fraction": 0.2,
+      "distribution_seed": 411,
+      "distributions": "label-independent Dirichlet draws; paired equal-marginal nullspace perturbations; fixed X with position identity, full distribution visible through graph samples",
+      "expectation": "exhaustive_valid_family",
+      "family": "GCGCAAAAGCGC",
+      "fit_gate_train_r2": 0.95,
+      "gamma_grid": [
+        0.0,
+        0.125,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "heldout_noninferiority_mse": 0.01,
+      "hidden": 12,
+      "lr_anchor": 0.01,
+      "lr_residual": 0.005,
+      "model": "scmp.model.CertifiedModel",
+      "motif": "h(S)=0.2*|S|/max_size + 0.8*I(at least two of the three lexicographically first co-occurring edges are present)",
+      "n_instances": 96,
+      "noise_sd": 0.0,
+      "nonadditivity_tolerance": 1e-08,
+      "residual_epochs": 400,
+      "seed": 20260911,
+      "train_fraction": 0.6
+    },
+    "evaluation_status": "exploratory_previously_inspected_huesken",
+    "execution": {
+      "authorization_date": "2026-09-11",
+      "authorization_user_request": "fully run the experiments check the gpus and run it on only one of it",
+      "continuation_rule": "execute all requested comparisons; failed capability gates prohibit a useful-verification claim, without selecting another task or hyperparameters",
+      "cpu_threads": 1,
+      "device_math": "float64; same CertifiedModel modules and ensemble loss; no normalization or readout scale change",
+      "gpu_charge": "conservative full execution wall time on one visible GPU",
+      "gpu_uuid": "GPU-1e502523-2587-176b-91ef-86cb0ea01a82",
+      "historical_ledger_status": "unreconciled; this is a separately authorized execution, not a claimed remaining balance",
+      "max_cpu_seconds": 900,
+      "max_gpu_memory_fraction": 0.15,
+      "max_wall_seconds": 900,
+      "physical_gpu_index_at_preflight": 1,
+      "row_record": "runs/revision/p4_audit-20260911-062649-090495-rows.json",
+      "sampler": "validated cached inside/outside marginals and identical seeded stochastic backtraces",
+      "training_rng": "same stream consumed in A and B, including graph draws when gamma=0",
+      "workers": 0
+    },
+    "historical_records": {
+      "p1": "runs/revision/predictor_pilot-20260905-223008.json",
+      "p1_diagnostics": "runs/revision/predictor_pilot-20260905-222454.json",
+      "p2": "runs/revision/verifier_pilot-20260905-233716.json",
+      "p3_audit": "runs/revision/rna_audit-20260906-003113.json",
+      "p3_pilot": "runs/revision/rna_pilot-20260906-011411.json"
+    },
+    "metrics": {
+      "activity_threshold": 0.7,
+      "bootstrap_groups": 1000,
+      "bootstrap_seed": 199,
+      "k": 5,
+      "k_reason": "shortlists fit small per-target heldout pools; n<5 is reported unavailable",
+      "margin_reason": "at most two rank-correlation points sacrificed for a material verification benefit; prospective utility tolerance, not a significance cutoff",
+      "ndcg_gain": "2**unclipped_activity - 1",
+      "noninferiority_margin_spearman": 0.02,
+      "primary_predictive": "paired_spearman_difference",
+      "ranking_utility": "mean selected activity loss <=0.02 and macro NDCG@5 loss <=0.02 against strongest dev-selected sequence baseline",
+      "targets": "descriptive_only"
+    },
+    "name": "revision_p4_actual_model_single_gpu_v1",
+    "resource": {
+      "audit_wall_seconds": 120,
+      "authorization": "configs/pilot.yaml",
+      "execution_override": "execution block: latest explicit user authorization; original resource section retained only as provenance",
+      "fraction_of_verified_remaining": 0.5,
+      "gpu_hours": 0,
+      "max_cycle_cpu_seconds": 900,
+      "max_cycle_wall_seconds": 900,
+      "reconciliation": null,
+      "required_accounting": [
+        "process_cpu",
+        "child_cpu",
+        "blas_threads",
+        "openmp_threads",
+        "gpu",
+        "wall",
+        "instances"
+      ],
+      "threads": 1,
+      "workers": 0
+    },
+    "rna": {
+      "ambiguity_sensitivity": [
+        "all_local_windows_identical",
+        "alternative_sequence_choice"
+      ],
+      "anchor_epochs": 20,
+      "arms": [
+        "guide_ridge",
+        "guide_pairwise_ridge",
+        "guide_window_ridge",
+        "summary_ridge",
+        "actual_A",
+        "actual_A_plus_B"
+      ],
+      "batch_size": 16,
+      "construct_assumption": "one shared contiguous native insert per annotation accession; unverified",
+      "context_status": "inferred_contiguous_native_insert",
+      "coordinate_rule": "separate_transcript_and_accession_no_gene_hull",
+      "dev_fraction": 0.15,
+      "eval_graph_samples": [
+        16,
+        64
+      ],
+      "hidden": 12,
+      "isoform_rule": "most distinct mapped guides, then transcript ID; never labels",
+      "learning_rate": 0.001,
+      "prior": "declared Gibbs theta_e=0.5/T (not a physical expression or chemistry model)",
+      "prior_temperatures": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "residual_epochs": 20,
+      "ridge_grid": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "seed": 411,
+      "source_rows": "historical_p3_1153",
+      "split": "global_shared_13mer_connected_components",
+      "train_fraction": 0.6,
+      "train_graph_samples": 8,
+      "window_nt": 50
+    },
+    "verifier": {
+      "arms": [
+        "combined",
+        "fixed_conditional",
+        "deterministic_selective",
+        "learned_selective",
+        "exhaustive"
+      ],
+      "budgets_s": [
+        0.01,
+        0.05,
+        0.2
+      ],
+      "condition_budget": 4,
+      "development_instances": 12,
+      "input_seeds": [
+        711,
+        811
+      ],
+      "learned_policy": "ridge_downstream_decision_gain_per_wall_second",
+      "min_coverage_gain": 0.1,
+      "min_gap_reduction_fraction": 0.2,
+      "numerical_status": "float_unverified",
+      "offline_amortization_instances": [
+        1,
+        100,
+        1000
+      ],
+      "predictor": "frozen_capability_A_plus_B",
+      "require_predictive_utility": true,
+      "skip_stable_fraction": 0.95,
+      "strata": [
+        "original_family",
+        "wider_family"
+      ],
+      "test_instances": 12,
+      "thresholds": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "uncertainty": "same frozen predictor within an instance; conservative independent families for unrelated RNA windows; no biological-order certificate",
+      "wider_family": "GGGGAAAACCCC"
+    }
+  },
+  "cpu_affinity": [
+    0
+  ],
+  "created_utc": "20260911-171200-784773",
+  "gpu_preflight": "0, GPU-0fa4a324-788a-4932-bfd0-13c3e82029b0, NVIDIA TITAN RTX, 24576 MiB, 58 MiB, 0 %\n1, GPU-1e502523-2587-176b-91ef-86cb0ea01a82, NVIDIA TITAN RTX, 24576 MiB, 173 MiB, 1 %\n",
+  "historical_p3_previously_inspected": true,
+  "historical_records": {
+    "p1": {
+      "path": "runs/revision/predictor_pilot-20260905-223008.json",
+      "sha256": "f347b7a8fe7b6c0f8f59fe4cfb02a33fe5af78b1500fa8e92657dd97753bce78"
+    },
+    "p1_diagnostics": {
+      "path": "runs/revision/predictor_pilot-20260905-222454.json",
+      "sha256": "4c84227cdc086be3b0770fcb5102f6dde11b9c4c43ada3e175eaa5d3d630bcb6"
+    },
+    "p2": {
+      "path": "runs/revision/verifier_pilot-20260905-233716.json",
+      "sha256": "e34f012f6f6f35a6f8be732952df8cf117ed55401a4188412e89389be05d4178"
+    },
+    "p3_audit": {
+      "path": "runs/revision/rna_audit-20260906-003113.json",
+      "sha256": "6a903656a0fb5e56a9b4d431c18c06e58e3317dc8deb1524c16c49ba2dd2565a"
+    },
+    "p3_pilot": {
+      "path": "runs/revision/rna_pilot-20260906-011411.json",
+      "sha256": "04d85d9228792841f7af1ace9870ffed9ba4681ca4b10a0b175236bbbb731971"
+    }
+  },
+  "note": "All requested comparisons execute. Capability and utility gates remain necessary for a positive verification claim.",
+  "outcomes_seen_before_execution": false,
+  "physical_gpu_uuid": "GPU-1e502523-2587-176b-91ef-86cb0ea01a82",
+  "source_hashes": {
+    "configs/revision_p4_gpu_v1.yaml": "7d78474bee8b97c6e3c2531f4dc9ebc280e15ef5655789226a6fe835a87034e2",
+    "scmp/model.py": "2cf67618bf9e511662341cf4a9941da2843fc46f1ea8472035c38d0e81ab9f5d",
+    "scmp/oracles/rna_noncrossing.py": "3ceb3d700237159eb44f20f1a61ace5ce4b14ecfdeba81cbf693314e47d8cf0b",
+    "scmp/revision/p4_capability.py": "5d5ed683969864ca4d18d34fbdda3e5ae11868be40f0d716b1a8c4f1ce9d41b1",
+    "scmp/revision/p4_checks.py": "03fcb9e271e833f5f09b7346a4c90bb174881388893576653c8ef893189ad1cb",
+    "scmp/revision/p4_data.py": "82affdeec65acf8fea4bfa2aa0e21d98c04514668ed4f3cee54102d7d5464884",
+    "scmp/revision/p4_decision.py": "345184fdd352663fc361dc4e62f5cfcacb3bd5470fa4e1dcd2736bf940586d8d",
+    "scmp/revision/p4_exploratory_run.py": "a6d5af0614c266e76f10c8057ec2686dadde3004b21ab1a608deef5904b6145c",
+    "scmp/revision/p4_export.py": "b38ef7f72bd92d958d91d5e7cddae95a1ca07b813d9fe00ef9f5de86718352ab",
+    "scmp/revision/p4_gpu_control.py": "8c76c43ad922e0c4d09b5a8dfd8a73bb5bfc4cb4f507208d0d43c3abde6b7618",
+    "scmp/revision/p4_gpu_math.py": "c51034ad6096f45a005e2007d27393b37f411aa63a9b7c368b0c12ed9d16b0aa",
+    "scmp/revision/p4_gpu_rna.py": "44aa0ea47f0886d3fa7ff491c1bdf53b81c2cdbd7bad6dffdbfd0d7fae28460d",
+    "scmp/revision/p4_gpu_run.py": "12c1f1f3eaa1e64b312682d372516055a3ae9ad11d582db81e356332bfceff0b",
+    "scmp/revision/p4_metrics.py": "d243bd4a1adf6d131faa2b14613009c2f899799c7a49887a7c39305f97994bb3",
+    "scmp/revision/p4_resources.py": "7757608816e8c663f6b0009245c7862c3080ba676acbe2e6c6f4b0ed8462c619",
+    "scmp/revision/p4_rna.py": "53428d00732a87a01ebd7997677ff9f88e15c261e25dd79d075438347f602488",
+    "scmp/revision/p4_verifier.py": "d82ac55479ee748dc78e2600c186de1fd689a297d9cec1cb0e1372a0e39af435",
+    "scmp/rna/ensemble.py": "9a6c356ae0ade20a4797374e040e01f8d49326813e1d736249085d1bb24cfb54"
+  },
+  "torch_version": "2.11.0+cu130",
+  "visible_gpu_count": 1
+}

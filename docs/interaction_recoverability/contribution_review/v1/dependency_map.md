@@ -1,0 +1,45 @@
+# Dependency map and evidence provenance
+
+The packet contains unchanged source evidence under `evidence/`, preserving repository-relative paths from `/home/shadi/iclr2027`. For example, the original `docs/interaction_recoverability/warp_family/v1/attainment.md` is copied as `evidence/docs/interaction_recoverability/warp_family/v1/attainment.md`. No proof, code, run record, configuration or old packet was edited to repair its links. The copied Markdown dependency closure includes linked local files, so the original relative navigation works inside the packet.
+
+The complete original-path → packet-path → size/SHA-256 mapping is in [administrative/evidence_inventory.json](administrative/evidence_inventory.json). The [manifest](manifest.json) also hashes review commentary and administrative evidence. [Integrity checks](integrity_checks.json) verify copies and paths. The evidence selection is for static assessment, not a runnable scientific environment.
+
+## Necessary mathematical chain
+
+| New review claim | Authoritative original path, copied below | Dependency role |
+|---|---|---|
+| Experiment, full profile envelope and admissible paths | [warp_family/v1/problem.md](evidence/docs/interaction_recoverability/warp_family/v1/problem.md) | Fixes the five sources, known warp, unknown coefficients, target and normalization. |
+| Compact inversion, coefficient separation and fixed charts | [commutator_and_calibration.md](evidence/docs/interaction_recoverability/warp_family/v1/commutator_and_calibration.md) | Direct algebra and analytic contraction/calibration estimates; used by attainment and conditioning. |
+| Pointwise regular statistic and certified arithmetic | [attainment.md](evidence/docs/interaction_recoverability/warp_family/v1/attainment.md) | Supplies public schedules and full empirical-process remainder proof; depends on the preceding geometry. |
+| Constructed-influence upper bound | [conditioning.md](evidence/docs/interaction_recoverability/warp_family/v1/conditioning.md) | Bounds complete five-source influence, including coefficient estimation, uniformly over truths. Needed for the upper half of worst-case efficient-variance order, not the finite lower bound. |
+| Hard profiles and exact fixed-profile path | [warp_family_lower_bound/v2/construction.md](evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/construction.md) | Defines admissible candidate and coefficient subexperiment. |
+| Global admissibility, actual score, DQM and target margin | [admissibility_and_score.md](evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/admissibility_and_score.md) | Establishes the analytic hypotheses for information and finite testing. Includes the v2 common-coordinate likelihood justification. |
+| Information and finite-risk inequalities | [lower_bound.md](evidence/docs/interaction_recoverability/warp_family_lower_bound/v2/lower_bound.md) | Applies standard information/testing machinery with allocation \(N=5n\); lower argument stands independently of constructive upper. |
+| Historical exponential-profile rate | [original problem](evidence/docs/interaction_recoverability/problem.md), [original proofs](evidence/docs/interaction_recoverability/proofs.md), [original estimator specification](evidence/docs/interaction_recoverability/estimator.md) | Known exponential subclass, \(\theta=1\), integrated MSE argument. Provides the historical comparison only. |
+| \(N_\delta\) corollary | [New mathematical review, §4](mathematical_review.md) | Analytic ceiling bounds plus the retained finite inequality; no computation, new experiment or uniform-CLT assumption. |
+
+All Markdown files in the family v1 and lower-bound v2 directories are included, including their original decisions, novelty/prior comparisons and command/resource qualifications. Inherited “PROVED HERE” labels are statements of those authors' claims; the new assessment independently checks the dependencies described in its mathematical table. No lower-bound v1 file was replaced. The v2 proof already provides the complete lower chain, so v1 is historical rather than a missing lemma.
+
+## Historical context, implementation and biological evidence
+
+| Evidence group | Included material and interpretation |
+|---|---|
+| Earlier external review | Top-level Markdown and recursively linked files from [external_review/v2](evidence/docs/interaction_recoverability/external_review/v2/review_brief.md), including the retained old archive if linked. That historical packet's own prior path adaptations remain part of its original bytes. It is not external validation of the new paired theorem. |
+| Reference efficiency/backend | [Efficiency argument](evidence/docs/interaction_recoverability/efficiency_audit/v1/efficiency_argument.md), [feasibility decision](evidence/docs/interaction_recoverability/practical_feasibility/v1/feasibility_decision.md), companion Markdown and linked numerical records. Numerical values are inherited evidence, not recalculated or error-certified by this review. |
+| Old target implementations | Linked direct/local/compact proof and estimator files, including disabled sampled-data entry points. Their inclusion documents scope and backend status. |
+| Neural pilot | All `interaction_recoverability/learned_target/*.py`, all learned-target review Markdown, frozen configuration, saved aggregate results, all 24 committed prediction files, their hash list, and all d000 fold records. These establish actual code, selection flow and execution, without rerunning it. |
+| Existing RNA GNN | `scmp` and `certmp` Python definitions; relevant legacy experiment files; P3/P4 audits, configuration and final report; all JSON records with prefix `runs/revision/p4_gpu-20260911-171200-784773-`. Includes training histories, input/prediction records and final negative results. |
+| Adjacent graph CNP | `intervention` Python definitions, preparation/resource reports, data audit and linked records. Old correctness-fixture execution does not establish training or biological evidence. |
+| siRNA requirements/provenance | [Requirements](evidence/docs/interaction_recoverability/sirna_requirements.md), P3/P4 source audits, reporter/construct coverage, [delivery-source evidence](evidence/GNN_RNA_Data_Research_Evidence.json) and [reconciliation](evidence/runs/intervention/audit-v2/reconciliation.json). The copied 3,500-row provenance file is included because it is an active dependency of the audit; it is not a new biological panel. |
+
+## Explicit omissions and unavailable evidence
+
+No necessary mathematical lemma or active local evidence link is intentionally omitted. The [inventory](administrative/evidence_inventory.json) records sizes/hashes for specifically omitted files where available.
+
+- The exact named files `siRNA_Design_Codex_Research_Brief.md` and `siRNA_Transfer_Source_Evidence.json` were not found in the repository or the accessible `/home/shadi` exact-name search. `data/davis2025/gkaf479_supplemental_files.zip` is absent. These are biological evidence gaps, not substitute facts or blockers to the theorem review.
+- P4 binary checkpoints exist and their byte hashes were checked against the retained cycle commitments, but they are omitted. No checkpoint was deserialized or evaluated. Original path, size and SHA-256 are listed. The stored `model_sha256` values concern model-state conventions and were not independently recomputed.
+- The full frozen pilot directory was covered by the preservation snapshot, but raw `.npz` source draws, private truth files and the other 23 datasets' per-fold logs are not all included. Aggregate results, each committed prediction file and a full example's training records support the static execution audit. No recomputation or scientific reproducibility claim is made.
+- Project imports, external libraries, all upstream training datasets and runtime environments are not supplied as a complete executable closure. Copied source code is evidence. The helper scripts in `administrative/` import only the Python standard library and perform packaging/integrity operations.
+- The inspected Trabs v2, DExtrI v1 and Bennett v3 text caches are identified by path and hash but not redistributed. Kaji v1, Heinrich–Kahn v1 and Yao–de la Llave v1 were read through primary HTML pages. The [mathematical comparison](mathematical_review.md) names exact versions, theorem/section references and primary links. No required primary full text was unavailable. Remote links were retrieved for reading where stated; no exhaustive external-link uptime check is claimed.
+
+The packet manifest excludes itself and final packaging reports to avoid cyclic hash dependencies. A second archive check covers every entry. The ZIP and its SHA-256 sidecar reside outside the archive, and the sidecar is not self-included. The final archive verification report is also outside the archive because it hashes the completed ZIP. The inside integrity report covers the payload and link plan; the outside report confirms those same bytes in the completed archive.

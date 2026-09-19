@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "zip_file": "review_packet.zip",
+  "zip_sha256": "7370607ceb7af703c71c1634851c95a5c4a0b233886fdf3bcecd51eb5c48f5f4",
+  "zip_bytes": 2711419,
+  "archive_entries": 374,
+  "every_entry_matches_local_bytes": true,
+  "all_manifest_hashes_match": true,
+  "unique_relative_paths_no_traversal": true,
+  "zip_crc_pass": true,
+  "archive_local_links_resolve": true,
+  "active_local_destinations_checked": 499,
+  "historical_files_rechecked_after_packaging": 988,
+  "historical_changes": [],
+  "administrative_only": true,
+  "helper_invocation": "finalize_packet.py",
+  "cost_scope": "This helper process and waited Git children only; excludes prior review, authoring, retrieval and prepare_packet.py.",
+  "process_cpu_seconds_before_report_write": 0.845029564,
+  "waited_child_cpu_seconds": 0.030864999999999997,
+  "wall_seconds_before_report_write": 0.8536174208857119,
+  "parent_max_rss_kib": 133916
+}

@@ -1,0 +1,802 @@
+{
+  "package": "interaction_recoverability_external_review_v1",
+  "created_utc": "2026-09-13T01:07:54.265931+00:00",
+  "purpose": "Static external mathematical review preparation; no external contact/publication.",
+  "decisions": [
+    "Retained local regularity and pointwise attainment in the calibrated five-law model, with exact theorem/arithmetic qualifications.",
+    "Unfavorable constructed reference variance; median correction approximately 0.081285%.",
+    "Efficient variance unresolved; approximately 38776-fold ratio uses uncertified numerical approximations.",
+    "Backend no-go retained.",
+    "Publication novelty, substantive ML advantage, practical finite-sample performance and biological validity unestablished."
+  ],
+  "new_documents": [
+    {
+      "path": "review_brief.md",
+      "sha256": "4e2f8916a9c9ffde7b6646d08f2926669a22b7fcac6483f575f3144d957c9d4e",
+      "bytes": 14325
+    },
+    {
+      "path": "claim_map.md",
+      "sha256": "5b7a808f53eb6907140cc6bd32558ba8c4bf459454d552f550bede0622f279f9",
+      "bytes": 18863
+    },
+    {
+      "path": "errata.md",
+      "sha256": "119721ff65f7113197fad70e9501f0de5e74e83eba3157df3ecc1f6e33e81b29",
+      "bytes": 3004
+    }
+  ],
+  "evidence": [
+    {
+      "original_path": "docs/interaction_recoverability/unknown_profiles/model.md",
+      "original_sha256": "bb4e9e43e7b357df20546118760ddceb4eed877c8d39d12eac091c53967df36c",
+      "package_path": "evidence/unknown_profiles/model.md",
+      "package_sha256": "bb4e9e43e7b357df20546118760ddceb4eed877c8d39d12eac091c53967df36c",
+      "bytes": 4963,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/unknown_profiles/proofs.md",
+      "original_sha256": "95a5492e681774f81c543917b393f099e5454363d7b8542a5503b5c4ea2cb9e9",
+      "package_path": "evidence/unknown_profiles/proofs.md",
+      "package_sha256": "95a5492e681774f81c543917b393f099e5454363d7b8542a5503b5c4ea2cb9e9",
+      "bytes": 13385,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/target_identity.md",
+      "original_sha256": "ffa73fda398ab1375991117dba643ceadd867fccc842d8f833597dcf1abbaef7",
+      "package_path": "evidence/direct_target/v1/target_identity.md",
+      "package_sha256": "48c8ead0127c30ca8e5acadf34945565431b4f7aad19cd8db7b199c5fbe78035",
+      "bytes": 7543,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "exact_problem.md",
+          "original_path": "docs/interaction_recoverability/direct_target/v1/exact_problem.md",
+          "label": "the original model"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "checks.json",
+          "original_path": "docs/interaction_recoverability/direct_target/v1/checks.json",
+          "label": "checks.json"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/direct_target/v1/modulus.md",
+      "original_sha256": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab",
+      "package_path": "evidence/direct_target/v1/modulus.md",
+      "package_sha256": "f34599a10d830c8a9709f9c8cd02d2a9dd25ddde43981be7c94b05bafabc7dab",
+      "bytes": 9322,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_five_law/v1/proof.md",
+      "original_sha256": "d4fc930f092cfb80c3f2ea04a827c9ff0e56d27d42dce9b81c8f06a17055c6f1",
+      "package_path": "evidence/local_five_law/v1/proof.md",
+      "package_sha256": "a25f18337d2602a93a7d2bf45401f38094b3eb5d76c33a1248a867a0afbc45f8",
+      "bytes": 23559,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../direct_target/v1/decision.md",
+          "original_path": "docs/interaction_recoverability/direct_target/v1/decision.md",
+          "label": "global unresolved decision"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "checks.py",
+          "original_path": "docs/interaction_recoverability/local_five_law/v1/checks.py",
+          "label": "checks.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "checks.json",
+          "original_path": "docs/interaction_recoverability/local_five_law/v1/checks.json",
+          "label": "checks.json"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "commands_and_resources.md",
+          "original_path": "docs/interaction_recoverability/local_five_law/v1/commands_and_resources.md",
+          "label": "commands and resources"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/theorem.md",
+      "original_sha256": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0",
+      "package_path": "evidence/local_attainment/v1/theorem.md",
+      "package_sha256": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0",
+      "bytes": 21097,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.md",
+      "original_sha256": "fb264d69803c5538824e75693a56a8b0063854ee5b4b50ae83151f46ec7383f0",
+      "package_path": "evidence/local_attainment/v1/estimator.md",
+      "package_sha256": "2fd64a47cfe9c9b3188a4a4f0d60977bc4583031f04ffb7a0b73597e645b619e",
+      "bytes": 12708,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "estimator.py",
+          "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.py",
+          "label": "estimator.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "checks.json",
+          "original_path": "docs/interaction_recoverability/local_attainment/v1/checks.json",
+          "label": "Actual records"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/static_review_v1.md",
+      "original_sha256": "85ef25eb35e177e7e335b8d202857fde1ecba7fcecfa396bd5e06e2031a6ecd1",
+      "package_path": "evidence/local_attainment/static_review_v1.md",
+      "package_sha256": "9c2c70e8fabe55c85842eb43c5c083bc7b83b9a259a82926829f0145fa4afc5c",
+      "bytes": 18537,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "v1/estimator.py",
+          "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.py",
+          "label": "estimator.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "v1/estimator.py",
+          "original_path": "docs/interaction_recoverability/local_attainment/v1/estimator.py",
+          "label": "estimator.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "v1/checks.json",
+          "original_path": "docs/interaction_recoverability/local_attainment/v1/checks.json",
+          "label": "checks.json"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/construction.md",
+      "original_sha256": "55b7d50cdda5a9c73679a22a7c9afa786272b8644a3f73fc2ffa290a3983642b",
+      "package_path": "evidence/compact_attainment/v1/construction.md",
+      "package_sha256": "55b7d50cdda5a9c73679a22a7c9afa786272b8644a3f73fc2ffa290a3983642b",
+      "bytes": 8425,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/theorem.md",
+      "original_sha256": "4e184d871a67b73355246bbb233578713d37c8ddf3bccdbd92d546675fbb00c5",
+      "package_path": "evidence/compact_attainment/v1/theorem.md",
+      "package_sha256": "4e184d871a67b73355246bbb233578713d37c8ddf3bccdbd92d546675fbb00c5",
+      "bytes": 14157,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/quadrature_proof.md",
+      "original_sha256": "5bffee95e6e8bb387deffa323ad7f9af8af7a501392b832705b4ab01268b1875",
+      "package_path": "evidence/compact_attainment/v1/quadrature_proof.md",
+      "package_sha256": "5bffee95e6e8bb387deffa323ad7f9af8af7a501392b832705b4ab01268b1875",
+      "bytes": 16481,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/algorithm.md",
+      "original_sha256": "b9056275a065a047e4877ca40e1b0363f0a3fb9a641681b14cf99c3378914206",
+      "package_path": "evidence/compact_attainment/v1/algorithm.md",
+      "package_sha256": "ba19ab65ac5c895e93137f0dbbf6e1fcf578fdbf2555fb807a7fd31c8cd53ef6",
+      "bytes": 9675,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "checks.json",
+          "original_path": "docs/interaction_recoverability/compact_attainment/v1/checks.json",
+          "label": "checks.json"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "practical_counts.json",
+          "original_path": "docs/interaction_recoverability/compact_attainment/v1/practical_counts.json",
+          "label": "practical_counts.json"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/static_review.md",
+      "original_sha256": "dcdb2f4f7a66e846d6b9306310ec253c8b7bf4f7f506c80711acca017084d6c7",
+      "package_path": "evidence/compact_attainment/v1/static_review.md",
+      "package_sha256": "dcdb2f4f7a66e846d6b9306310ec253c8b7bf4f7f506c80711acca017084d6c7",
+      "bytes": 2230,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/review_addendum.md",
+      "original_sha256": "67bf200de304e14b02c030c618a5ba5a971d35decafa9398a710177ded158c1d",
+      "package_path": "evidence/compact_attainment/v1/review_addendum.md",
+      "package_sha256": "67bf200de304e14b02c030c618a5ba5a971d35decafa9398a710177ded158c1d",
+      "bytes": 1320,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/compact_attainment/v1/estimator.py",
+      "original_sha256": "53a48f0ab8916d45652289764dd5ce07bc0c5bb90caec615343fccb60a7f8d1c",
+      "package_path": "evidence/compact_attainment/v1/estimator.py",
+      "package_sha256": "53a48f0ab8916d45652289764dd5ce07bc0c5bb90caec615343fccb60a7f8d1c",
+      "bytes": 6458,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/numerical_stability.md",
+      "original_sha256": "74a1ed5c9e50b566a799bba8a1f12a1d51d981aa4fc94f0954a12d929b0e7f56",
+      "package_path": "evidence/practical_feasibility/v1/numerical_stability.md",
+      "package_sha256": "74a1ed5c9e50b566a799bba8a1f12a1d51d981aa4fc94f0954a12d929b0e7f56",
+      "bytes": 15631,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/arithmetic_addendum.md",
+      "original_sha256": "d06c663f4ececf6001942cb280f62f4ab631159142b5e12429e137eaf9c42015",
+      "package_path": "evidence/practical_feasibility/v1/arithmetic_addendum.md",
+      "package_sha256": "d06c663f4ececf6001942cb280f62f4ab631159142b5e12429e137eaf9c42015",
+      "bytes": 12073,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_analysis.md",
+      "original_sha256": "191fb45e978da011cf67bf41ab6ae0945f2610f4531cd3ffb1d9a4d0e23dbd81",
+      "package_path": "evidence/practical_feasibility/v1/variance_analysis.md",
+      "package_sha256": "118802ef2570b714be958b6e7d617cdd6922a6ebeb27f95fec32ae0fe5395eda",
+      "bytes": 14078,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_final.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+          "label": "final record"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "influence_variance.py",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+          "label": "implementation"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_base.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_base.json",
+          "label": "base"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_depth.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_depth.json",
+          "label": "depth"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_integration.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_integration.json",
+          "label": "integration"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_tail.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_tail.json",
+          "label": "tail"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_deep.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_deep.json",
+          "label": "deep"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_final.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+          "label": "final integration"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "variance_accumulator.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_accumulator.json",
+          "label": "float64 accumulation"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "error_and_precision.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/error_and_precision.json",
+          "label": "error_and_precision.json"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/feasibility_decision.md",
+      "original_sha256": "dd9abf242aab08fcd17c3117962e6a4c6b06010b334459371eb5be4c4ccabc0f",
+      "package_path": "evidence/practical_feasibility/v1/feasibility_decision.md",
+      "package_sha256": "251d6bf267facbc3f1d582d2e9a3181a6552a91fa61fa65bb80c2fa1bb952571",
+      "bytes": 6898,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "commands_and_resources.md",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/commands_and_resources.md",
+          "label": "executed work and resource accounting"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/efficiency_argument.md",
+      "original_sha256": "c40e062e0d5923afb30ce2722f74c22af553c83f6959e631afbc9887169210d6",
+      "package_path": "evidence/efficiency_audit/v1/efficiency_argument.md",
+      "package_sha256": "2730ea5b0d0227f64252d39b4b3dd84429160e7849ddee32875a9ac9d9250c18",
+      "bytes": 21287,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../practical_feasibility/v1/influence_variance.py",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+          "label": "covariance code"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "calculate.py",
+          "original_path": "docs/interaction_recoverability/efficiency_audit/v1/calculate.py",
+          "label": "calculate.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "raw.json",
+          "original_path": "docs/interaction_recoverability/efficiency_audit/v1/raw.json",
+          "label": "raw.json"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../practical_feasibility/v1/variance_final.json",
+          "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+          "label": "final variance record"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../learned_target_v1/decision.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/decision.md",
+          "label": "negative decision"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "commands_and_resources.md",
+          "original_path": "docs/interaction_recoverability/efficiency_audit/v1/commands_and_resources.md",
+          "label": "commands and resources"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/local_attainment/v1/novelty.md",
+      "original_sha256": "b2c205ae4c17f11ebe93d6d2af6deee0ee38d1afec5a329a59b8b2dfefb88805",
+      "package_path": "evidence/local_attainment/v1/novelty.md",
+      "package_sha256": "17348f46abe9e3afe7aab3d1d2557f19abe66c617005b03f5c0b6538d694cb96",
+      "bytes": 5811,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../direct_target/v1/estimator.md",
+          "original_path": "docs/interaction_recoverability/direct_target/v1/estimator.md",
+          "label": "direct-target sufficient global consistency result"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../direct_target/v1/decision.md",
+          "original_path": "docs/interaction_recoverability/direct_target/v1/decision.md",
+          "label": "global modulus decision"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/novelty.md",
+      "original_sha256": "d0502585041ce6aa70486ef2ad571191ade3134306e78719574a1071d8183e1f",
+      "package_path": "evidence/learned_target_v1/novelty.md",
+      "package_sha256": "d0502585041ce6aa70486ef2ad571191ade3134306e78719574a1071d8183e1f",
+      "bytes": 8836,
+      "copy_mode": "verbatim",
+      "link_transformations": []
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/preregistration.md",
+      "original_sha256": "50dd9f3cfed09de1de550dd2b680c649c834e240c752da5ddab0d92cd2dcf52b",
+      "package_path": "evidence/learned_target_v1/preregistration.md",
+      "package_sha256": "fbc4cec55d6a3abd8cc60c0c1a03d9518ee5a0df3fed9b8c2601a1bab32e48ea",
+      "bytes": 4243,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../configs/interaction_recoverability_learned_target_v1.json",
+          "original_path": "configs/interaction_recoverability_learned_target_v1.json",
+          "label": "the frozen config"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/results.md",
+      "original_sha256": "5cfa5273ddc4a8508f5a586038ccc36acbcdbc82f1087196de4a58304ff3810d",
+      "package_path": "evidence/learned_target_v1/results.md",
+      "package_sha256": "d83d898816d3a5445064b22f5bd131172a0abb39aa5f29e1464d6784b7c841c2",
+      "bytes": 8646,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.png",
+          "label": "Interaction error by family, separation and sample size"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure1_interaction_error.svg",
+          "label": "SVG"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.png",
+          "label": "Same-fit ablations and CPU costs"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure2_ablation_cost.svg",
+          "label": "SVG"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.png",
+          "label": "Residual witnesses and finite-path nonlinearity"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure3_witness_nonlinearity.svg",
+          "label": "SVG"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "label": "All 240 raw paired rows"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/summary.json",
+          "label": "machine-readable summary"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+          "label": "diagnostics"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/figure_data.json",
+          "label": "plotted numerical data"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/prediction_hashes.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/prediction_hashes.json",
+          "label": "prediction hashes"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "theorem.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/theorem.md",
+          "label": "the proof gaps"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "review.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/review.md",
+          "label": "static review"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "resources.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/resources.md",
+          "label": "resource accounting"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "commands.sh",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/commands.sh",
+          "label": "actual commands"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/interaction_recoverability/learned_target_v1/adversarial_review_20260912.md",
+      "original_sha256": "9e3dfa8d7b062283ad7b8a8d0a46675e02f84486524e112e6635b8821bfd4881",
+      "package_path": "evidence/learned_target_v1/adversarial_review_20260912.md",
+      "package_sha256": "5e76b7d4abc7e7493b911e2d788f6ff2b6e22aaa2d928d2b0e7a100f633239f3",
+      "bytes": 21607,
+      "copy_mode": "historical_content_with_disclosed_link_normalization",
+      "link_transformations": [
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/profiles.py#L111",
+          "original_path": "interaction_recoverability/learned_target/profiles.py",
+          "label": "profiles.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/correction.py#L23",
+          "original_path": "interaction_recoverability/learned_target/correction.py",
+          "label": "correction.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "theorem.md#L53",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/theorem.md",
+          "label": "theorem.md"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/evaluate.py#L17",
+          "original_path": "interaction_recoverability/learned_target/evaluate.py",
+          "label": "evaluate.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/geometry.py",
+          "original_path": "interaction_recoverability/learned_target/geometry.py",
+          "label": "geometry.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/enrichment.py#L13",
+          "original_path": "interaction_recoverability/learned_target/enrichment.py",
+          "label": "enrichment.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/correction.py#L37",
+          "original_path": "interaction_recoverability/learned_target/correction.py",
+          "label": "selection_score"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../interaction_recoverability/learned_target/experiment.py#L77",
+          "original_path": "interaction_recoverability/learned_target/experiment.py",
+          "label": "experiment.py"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "sirna_mapping.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/sirna_mapping.md",
+          "label": "siRNA mapping"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/frozen_config.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/frozen_config.json",
+          "label": "frozen configuration"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/raw_results.csv",
+          "label": "raw results"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/evaluation/diagnostics.json",
+          "label": "diagnostics"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "validation.md",
+          "original_path": "docs/interaction_recoverability/learned_target_v1/validation.md",
+          "label": "saved correctness report"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-28.json",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-28.json",
+          "label": "final resource snapshot"
+        },
+        {
+          "kind": "omitted_repository_reference",
+          "original_link": "../../../runs/interaction_recoverability/learned-target-v1-20260912-164000/ledger.jsonl",
+          "original_path": "runs/interaction_recoverability/learned-target-v1-20260912-164000/ledger.jsonl",
+          "label": "unchanged ledger"
+        }
+      ]
+    }
+  ],
+  "inspected_not_packaged": [
+    {
+      "original_path": "docs/interaction_recoverability/efficiency_audit/v1/raw.json",
+      "sha256": "d8e720637157cfa7335e3ee7820173323d911fb19ebb4a28a8358f6fa8a97100",
+      "reason_not_packaged": "Numerical arrays unnecessary for the mathematical reading packet; existing summaries and source locators are included."
+    },
+    {
+      "original_path": "docs/interaction_recoverability/practical_feasibility/v1/variance_final.json",
+      "sha256": "b1d077c1e3f51c3ff939214d918c28be34bfd56d8c358d2de8a8bbef7c55e759",
+      "reason_not_packaged": "Numerical arrays unnecessary for the mathematical reading packet; existing summaries and source locators are included."
+    }
+  ],
+  "raw_reporting_extracts": [
+    {
+      "configuration": "coarse",
+      "directions": 4,
+      "json_pointer": "/results/0/score_geometry/lower_bounds/0/solve_residual",
+      "value": 2.220446049250313e-15
+    },
+    {
+      "configuration": "coarse",
+      "directions": 8,
+      "json_pointer": "/results/0/score_geometry/lower_bounds/1/solve_residual",
+      "value": 5.5502823933978995e-15
+    },
+    {
+      "configuration": "coarse",
+      "directions": 12,
+      "json_pointer": "/results/0/score_geometry/lower_bounds/2/solve_residual",
+      "value": 9.540492121253299e-15
+    },
+    {
+      "configuration": "fine",
+      "directions": 4,
+      "json_pointer": "/results/1/score_geometry/lower_bounds/0/solve_residual",
+      "value": 2.220446049250313e-15
+    },
+    {
+      "configuration": "fine",
+      "directions": 8,
+      "json_pointer": "/results/1/score_geometry/lower_bounds/1/solve_residual",
+      "value": 7.23776861244768e-15
+    },
+    {
+      "configuration": "fine",
+      "directions": 12,
+      "json_pointer": "/results/1/score_geometry/lower_bounds/2/solve_residual",
+      "value": 6.202610464077155e-15
+    }
+  ],
+  "external_primary_links": [
+    "https://arxiv.org/abs/1305.3528v2",
+    "https://arxiv.org/abs/1307.6610v2",
+    "https://arxiv.org/html/1307.6610v2",
+    "https://arxiv.org/html/1910.07572v1",
+    "https://arxiv.org/html/2110.03031",
+    "https://arxiv.org/html/2110.03031v3",
+    "https://arxiv.org/html/2208.08291v3",
+    "https://arxiv.org/html/2512.00919v1",
+    "https://arxiv.org/html/2607.03351v1",
+    "https://arxiv.org/html/2608.19849v1",
+    "https://arxiv.org/pdf/1910.07572",
+    "https://proceedings.mlr.press/v195/simchowitz23a.html"
+  ],
+  "review_scope": {
+    "internal_static_cross_checks": 3,
+    "external_independent_review": false,
+    "inherited_theorems_independently_reproved": false,
+    "new_numerical_jobs": 0,
+    "tests_rerun": 0,
+    "samples_fits_training_simulations_bootstrap_tuning_integration_benchmarks": 0,
+    "backend_development": false,
+    "reviewer_contact": false,
+    "publication": false
+  },
+  "preservation": {
+    "protected_file_count": 1185,
+    "changed_protected_files": [],
+    "scope": "Existing top-level files and docs/paper/source/experiments/configs/tests/runs; includes every ledger and preservation manifest.",
+    "baseline_hash_map_sha256": "3a2f9109ed6cb53a51f322dd8a82a7c2bbe7af1170878e0827ad7806d3f79aee",
+    "compute_ledgers_unchanged": {
+      "runs/interaction_recoverability/prep-20260912-082154/ledger.jsonl": "4a902b8d810782c341430808b03b0f058459a32864b9d6724b401a05d4a31d5f",
+      "runs/interaction_recoverability/learned-target-v1-20260912-164000/ledger.jsonl": "d1b365a6f7a3e33ad511b1ce2712367c6e9f6602a34bd742cb75f20009ff8cc1"
+    },
+    "tracked_diff_empty": true,
+    "existing_files_overwritten": false
+  },
+  "validation": {
+    "brief_body_words": 1626,
+    "word_count_method": "Whitespace-delimited tokens, References section excluded; no supporting appendix included in count.",
+    "evidence_source_hashes_checked": true,
+    "verbatim_or_declared_link_transformations_verified": true,
+    "active_local_links_resolved": 73,
+    "external_links_primary_only": true,
+    "omitted_reference_count": 63,
+    "no_large_numerical_arrays": true,
+    "claims_checked_by_static_source_comparison": true,
+    "reporting_erratum_verified_from_saved_fields": true
+  },
+  "documentation_operations": {
+    "operations": [
+      "Read instructions/git state and proof dependencies",
+      "Hash pre-existing files",
+      "Prepare three new Markdown documents",
+      "Copy selected historical evidence with disclosed link normalization",
+      "Extract six saved residual fields without re-solving",
+      "Create compressed reading archive",
+      "Verify archive payload hashes/local links/source preservation"
+    ],
+    "executed_packaging_command": "python -B /tmp/build_interaction_external_review_packet.py",
+    "measured_baseline_hash_cpu_s": 0.17325386599999998,
+    "measured_pre_archive_preparation_cpu_s": 0.186717743,
+    "measured_pre_archive_preparation_wall_s": 0.1884092390537262,
+    "measurement_scope": "Partial process timing only. Final compression/integrity work is reported by the completing command. Static authoring, preceding reads and tool/agent overhead are not fully metered; these operations have nonzero CPU cost.",
+    "numerical_allowance_created": false,
+    "compute_ledger_appends": 0,
+    "protected_reserve_consumed": false,
+    "external_retrieval": "Only already-cited Kaji v1 primary page retrieved to resolve a concrete fixed-bound/version question; no broad search.",
+    "failures": "No numerical execution occurred. Preliminary link inspection also scanned Python array syntax and produced false link matches; final link validation is correctly restricted to Markdown."
+  },
+  "archive": {
+    "filename": "review_packet.zip",
+    "root_directory": "interaction_recoverability_external_review_v1",
+    "hash_policy": "Manifest lists all payload hashes except itself. Neither manifest nor containing archive is self-hashed; ZIP CRC plus listed payload SHA256s are checked.",
+    "entries": [
+      "claim_map.md",
+      "errata.md",
+      "evidence/compact_attainment/v1/algorithm.md",
+      "evidence/compact_attainment/v1/construction.md",
+      "evidence/compact_attainment/v1/estimator.py",
+      "evidence/compact_attainment/v1/quadrature_proof.md",
+      "evidence/compact_attainment/v1/review_addendum.md",
+      "evidence/compact_attainment/v1/static_review.md",
+      "evidence/compact_attainment/v1/theorem.md",
+      "evidence/direct_target/v1/modulus.md",
+      "evidence/direct_target/v1/target_identity.md",
+      "evidence/efficiency_audit/v1/efficiency_argument.md",
+      "evidence/learned_target_v1/adversarial_review_20260912.md",
+      "evidence/learned_target_v1/novelty.md",
+      "evidence/learned_target_v1/preregistration.md",
+      "evidence/learned_target_v1/results.md",
+      "evidence/local_attainment/static_review_v1.md",
+      "evidence/local_attainment/v1/estimator.md",
+      "evidence/local_attainment/v1/novelty.md",
+      "evidence/local_attainment/v1/theorem.md",
+      "evidence/local_five_law/v1/proof.md",
+      "evidence/practical_feasibility/v1/arithmetic_addendum.md",
+      "evidence/practical_feasibility/v1/feasibility_decision.md",
+      "evidence/practical_feasibility/v1/numerical_stability.md",
+      "evidence/practical_feasibility/v1/variance_analysis.md",
+      "evidence/unknown_profiles/model.md",
+      "evidence/unknown_profiles/proofs.md",
+      "manifest.json",
+      "review_brief.md"
+    ]
+  }
+}

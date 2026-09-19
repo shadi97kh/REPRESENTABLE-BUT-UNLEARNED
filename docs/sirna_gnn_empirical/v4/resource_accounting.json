@@ -1,0 +1,10 @@
+{
+  "recorded_stage_and_diagnostic_wall_s": 4448.6016697650775,
+  "recorded_stage_and_diagnostic_child_cpu_s": 4661.3767800000005,
+  "maximum_reported_child_rss_kib": 3305612,
+  "fit_cpu_s": 4108.926506083995,
+  "fit_wall_s": 3895.038458307041,
+  "gpu_fitting_region_wall_s": 3501.493465324864,
+  "costs_overlap": true,
+  "administrative_cost": "Additional nonzero direct inspection, authoring, failed preparation attempts, browsing, hashing and preflight compilation; not all interactive calls were metered. validation_commands.json records external builds separately. Package costs are in delivery/package_verification.json. No historical allowance/ledger used."
+}

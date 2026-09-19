@@ -1,0 +1,22 @@
+{
+  "scope": "Completed mathematical/code/check bundle before final accounting note.",
+  "sha256": {
+    "preservation.json": "080c4fdd883f967a4e60e96f5e65a2e46eded1b614f6024876c2e3cff172973f",
+    "algorithm.md": "b9056275a065a047e4877ca40e1b0363f0a3fb9a641681b14cf99c3378914206",
+    "final_checks.json": "b6e528328892b50bfae7e30b24573e979a9d46ca07b5e748bfdaab7203e9a87a",
+    "checks.json": "6fff7a0702bce951a13d0708342e3de063aac6359dc5b730da1e0f005f2e35b5",
+    "quadrature_proof.md": "5bffee95e6e8bb387deffa323ad7f9af8af7a501392b832705b4ab01268b1875",
+    "checks.py": "4a6bbfc121c7060a146df05866ac526818b5ab1ba3b8477d17b27aec74ad554e",
+    "static_review.md": "dcdb2f4f7a66e846d6b9306310ec253c8b7bf4f7f506c80711acca017084d6c7",
+    "estimator.py": "53a48f0ab8916d45652289764dd5ce07bc0c5bb90caec615343fccb60a7f8d1c",
+    "finalize.py": "5e56ff79e87db57f0c7d49de7110b603d22e6bd4875977cafea80bf01572e150",
+    "resource_gate.py": "3b08d0798be4698dbc21c334ab4312b9514026b4aee12a0f7708f12b28748cc9",
+    "novelty.md": "87865a764fe10f058d4b64e7f64d96a10c724d11d09426804b43f46d89161544",
+    "decision.md": "366ce2059b9fd82c4e0ecbe8e2ff2618a45e44b44f7edc89ad415e115c10690b",
+    "theorem.md": "4e184d871a67b73355246bbb233578713d37c8ddf3bccdbd92d546675fbb00c5",
+    "review_addendum.md": "67bf200de304e14b02c030c618a5ba5a971d35decafa9398a710177ded158c1d",
+    "construction.md": "55b7d50cdda5a9c73679a22a7c9afa786272b8644a3f73fc2ffa290a3983642b",
+    "practical_counts.py": "9a2ee654ccee38cb780b879b0d544db49c171df5270c2e5039728a1d7187cfe5",
+    "practical_counts.json": "59c036a9d74b3a3aa4243e3bd3b1ab5b674dc332d930db21c7bcb46d0bfd2471"
+  }
+}

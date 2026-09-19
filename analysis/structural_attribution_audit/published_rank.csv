@@ -1,0 +1,4 @@
+pipeline,states,classes,rank,null_dim,q,floor,status
+ENsiRNA_mod,165,165,140,0,140,0,"complete, partial chemistry branch; all 140 rectangles encodable"
+MEG_mod,140,140,117,0,117,0,"complete, partial chemistry branch; q restricted to the 117 rectangles whose four corners are all encodable"
+our_pipeline,165,90,72,68,140,0.00997951595221,"complete, full audited pipeline including its training-only node-support mask"

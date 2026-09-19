@@ -1,0 +1,96 @@
+{
+  "rows": 240,
+  "datasets": 24,
+  "rotation_models": 144,
+  "selected_corrections": 360,
+  "mean_method_cpu_s_fully_charged": {
+    "basis_direct_set_midpoint": 13.543022460041668,
+    "basis_pooled_plugin": 1.6762097458750003,
+    "basis_rich": 5.6902183055833255,
+    "basis_shared_plugin": 4.749360023499999,
+    "neural_adaptive": 5.28847797100001,
+    "neural_fixed": 5.273924350500013,
+    "neural_pooled_plugin": 1.5652699877916696,
+    "neural_random": 5.288649948208345,
+    "neural_rich": 5.275768791291676,
+    "neural_shared_plugin": 4.463972558250001
+  },
+  "paired_comparisons": {
+    "basis_direct_set_midpoint": {
+      "adaptive_lower_error_datasets": 18,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.464104257717622
+    },
+    "basis_pooled_plugin": {
+      "adaptive_lower_error_datasets": 19,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.4632625287475832
+    },
+    "basis_rich": {
+      "adaptive_lower_error_datasets": 16,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.15312385723375666
+    },
+    "basis_shared_plugin": {
+      "adaptive_lower_error_datasets": 14,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.1625837780026098
+    },
+    "neural_fixed": {
+      "adaptive_lower_error_datasets": 9,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.039184625985549726
+    },
+    "neural_pooled_plugin": {
+      "adaptive_lower_error_datasets": 19,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.5995925357775336
+    },
+    "neural_random": {
+      "adaptive_lower_error_datasets": 10,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.03976073629841459
+    },
+    "neural_rich": {
+      "adaptive_lower_error_datasets": 13,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.035568531806059234
+    },
+    "neural_shared_plugin": {
+      "adaptive_lower_error_datasets": 10,
+      "comparison_datasets": 24,
+      "relative_mse_reduction": 0.09987893277387716
+    }
+  },
+  "fitter_total_cpu_s": 680.456327926,
+  "fitter_total_wall_s": 753.0992256023455,
+  "max_score_gram_refinement_difference": 0.0010506066309624639,
+  "max_target_gradient_refinement_difference": 1.1456106064767517e-08,
+  "max_fitted_score_center_abs": 1.5847774228128836e-05,
+  "max_source_crps_refinement_difference": 0.013071797965200638,
+  "max_selected_solver_relative_residual": 1.2345301667400524e-15,
+  "max_selected_regularized_condition": 101.09694066775846,
+  "adaptive_lambda_counts": {
+    "0.1": 68,
+    "0.001": 4
+  },
+  "adaptive_dimension_counts": {
+    "12": 37,
+    "11": 32,
+    "10": 3
+  },
+  "finite_paths": 144,
+  "source_compatible_finite_paths": 124,
+  "max_abs_finite_path_B": 0.10207009503408186,
+  "max_abs_nonlinear_remainder": 0.0012669990194164732,
+  "accepted_enrichment_directions": 288,
+  "witness_after_to_before_median": 0.9985769848973449,
+  "max_truth_target_refinement_difference": 2.4513724383723456e-13,
+  "numerical_status": "Refinement differences and finite witnesses, not rigorous enclosures or whole-class upper certificates",
+  "figures_visually_inspected": [
+    "figure1_interaction_error.png",
+    "figure2_ablation_cost.png",
+    "figure3_witness_nonlinearity.png"
+  ],
+  "image_viewing_note": "Default view_image hit filesystem sandbox launcher failure; original PNGs were read via budgeted base64 and displayed without editing."
+}

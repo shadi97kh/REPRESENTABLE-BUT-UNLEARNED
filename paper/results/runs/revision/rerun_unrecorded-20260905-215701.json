@@ -1,0 +1,86 @@
+{
+  "kind": "revision_rerun_unrecorded",
+  "created": "2026-09-05 21:57:01",
+  "reparsed_from": "runs/revision/rerun_unrecorded-20260905-215601.json",
+  "gpu_used": false,
+  "cpu_seconds_total": 0.0,
+  "results": [
+    {
+      "job": "audit_bounds",
+      "returncode": 0,
+      "seconds": 12.94,
+      "config": "configs/exhaustive.yaml",
+      "source_hashes": {
+        "scmp/audit_bounds.py": "58058e2ba5421920f26a0032f0ee35c3e879b55189da8b8ea66985fde693c4e1",
+        "scmp/bounds.py": "27ccee2c4984c8f9629b35113a64a44b00eb7d97a950baabb060914f7cb81335",
+        "scmp/model.py": "2cf67618bf9e511662341cf4a9941da2843fc46f1ea8472035c38d0e81ab9f5d"
+      },
+      "parsed_from_stdout": {
+        "cases": 192,
+        "feasible_structures": 5856,
+        "intermediate_bracket_checks": 1262952,
+        "reference_forward_checks": 4392,
+        "masked_bound_checks": 1152,
+        "gamma0_exact": 48
+      },
+      "stdout": "bound audit: exhaustive_bounds  config=configs/exhaustive.yaml\nslack=1e-09  stop_on_violation=True\n\n  GGAAACC        |E|=  4 |F|=    6 models=48\n  GGGAAAUCC      |E|=  9 |F|=   20 models=48\n  GCGCAAAAGCGC   |E|=  8 |F|=   26 models=48\n  GGGGAAAACCCC   |E|= 16 |F|=   70 models=48\n\ncases                     : 192 (5856 feasible structures visited)\nintermediate bracket checks: 1262952\nreference-forward checks   : 4392\nfinal bounds               : 384\nmasked-bound checks        : 1152\nenvelope inequalities      : 53280 (4 per product term)\nrelu units                 : {'stable_pos': 5634, 'stable_neg': 7158, 'unstable': 1608}\ngamma=0 cases exact        : 48\ncombined strictly tighter  : 92/192\ngap to true max, combined  : median 0.4040  max 294.8434\ngap to true max, terminal  : median 1.0609  max 1376.0360\n\nnumerical status           : float_unverified -- DIAGNOSTIC, not a proof\n                             see docs/bounds_proof.md\nruntime                    : 11.83s\n\nno soundness violation found\n",
+      "stderr_tail": "",
+      "note": "the audit was run UNCHANGED; this record is added alongside it. Parsed values are scraped from stdout and are weaker evidence than a structured result would be.",
+      "flags": {
+        "no_violation": true
+      },
+      "unparsed_keys": [],
+      "reparsed_from": "runs/revision/rerun_unrecorded-20260905-215601.json"
+    },
+    {
+      "job": "audit_conditional",
+      "returncode": 0,
+      "seconds": 108.02,
+      "config": "configs/exhaustive.yaml",
+      "source_hashes": {
+        "scmp/audit_conditional.py": "d634ae85bd224b3deab703682dcb1d80ce317ed12fcc6bd2e49a134ce729c186",
+        "scmp/conditional.py": "4a72dd2593e8cdbd56bd1c45b5213a946a3e7c636043c2e69e446d6e1a306eae"
+      },
+      "parsed_from_stdout": {
+        "cases": 500,
+        "feasible_structures": 12173,
+        "oracle_calls": 378347,
+        "tighter": 324,
+        "proved_impossible": 1684,
+        "fallback_wins": 15
+      },
+      "stdout": "conditional-support audit  cases=500 seed=7027 budget=5\n\ncases audited            : 500 (12173 feasible structures)\nskipped (infeasible mask): 0\nconditional passes       : 1547 (budget 5/case)\noracle calls             : 378347\nedges proved impossible  : 1684\nq from conditional       : 7677\nq from fallback          : 6165\ntighter than baseline    : 324/500\nfallback won at top level: 15\n\n        choice  median gap   mean gap  teacher passes\n      baseline      0.5348    14.9905               0\n        random      0.0830     8.0912               0\n   largest_gap      0.0830     8.0483               0\n measured_gain      0.0806     8.1484            2867\n\nnumerical status         : float_unverified -- DIAGNOSTIC, not a proof\nruntime                  : 106.91s\n\nno soundness violation found\n",
+      "stderr_tail": "",
+      "note": "the audit was run UNCHANGED; this record is added alongside it. Parsed values are scraped from stdout and are weaker evidence than a structured result would be.",
+      "flags": {
+        "no_violation": true
+      },
+      "unparsed_keys": [],
+      "reparsed_from": "runs/revision/rerun_unrecorded-20260905-215601.json"
+    },
+    {
+      "job": "check_certificates",
+      "returncode": 0,
+      "seconds": 1.52,
+      "config": "runs/tiny_complete",
+      "source_hashes": {
+        "scmp/check_certificates.py": "c01987b04e01d579650238e573cd1659116267d2755acd2860f91c70ff35fa77",
+        "scmp/refine.py": "2627822ac370719c23b0f8d7db84bc515f9b61d4aecc843acade4aea20c85799"
+      },
+      "parsed_from_stdout": {
+        "certificates_checked": 72,
+        "obligations_discharged": 2222,
+        "accepted": 72,
+        "accepted_of": 72
+      },
+      "stdout": "independent certificate check: 72 file(s) under runs/tiny_complete\n(this module never imports scmp.refine)\n\n  accept  GCGCAAAAGCGC_h4_g-1.0_s0_p0.0_full.json     45 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s0_p0.0_tight.json    18 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s0_p1.0_full.json     11 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s0_p1.0_tight.json    11 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s1_p0.0_full.json     45 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s1_p0.0_tight.json    18 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s1_p1.0_full.json     51 obligations\n  accept  GCGCAAAAGCGC_h4_g-1.0_s1_p1.0_tight.json    18 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s0_p0.0_full.json      11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s0_p0.0_tight.json     11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s0_p1.0_full.json      11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s0_p1.0_tight.json     11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s1_p0.0_full.json      11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s1_p0.0_tight.json     11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s1_p1.0_full.json      11 obligations\n  accept  GCGCAAAAGCGC_h4_g0.0_s1_p1.0_tight.json     11 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s0_p0.0_full.json      51 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s0_p0.0_tight.json     18 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s0_p1.0_full.json      95 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s0_p1.0_tight.json     17 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s1_p0.0_full.json      45 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s1_p0.0_tight.json     18 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s1_p1.0_full.json     198 obligations\n  accept  GCGCAAAAGCGC_h4_g1.0_s1_p1.0_tight.json     16 obligations\n  accept  GGAAACC_h4_g-1.0_s0_p0.0_full.json          26 obligations\n  accept  GGAAACC_h4_g-1.0_s0_p0.0_tight.json         18 obligations\n  accept  GGAAACC_h4_g-1.0_s0_p1.0_full.json          31 obligations\n  accept  GGAAACC_h4_g-1.0_s0_p1.0_tight.json         18 obligations\n  accept  GGAAACC_h4_g-1.0_s1_p0.0_full.json          26 obligations\n  accept  GGAAACC_h4_g-1.0_s1_p0.0_tight.json         18 obligations\n  accept  GGAAACC_h4_g-1.0_s1_p1.0_full.json          31 obligations\n  accept  GGAAACC_h4_g-1.0_s1_p1.0_tight.json         18 obligations\n  accept  GGAAACC_h4_g0.0_s0_p0.0_full.json           11 obligations\n  accept  GGAAACC_h4_g0.0_s0_p0.0_tight.json          11 obligations\n  accept  GGAAACC_h4_g0.0_s0_p1.0_full.json           11 obligations\n  accept  GGAAACC_h4_g0.0_s0_p1.0_tight.json          11 obligations\n  accept  GGAAACC_h4_g0.0_s1_p0.0_full.json           11 obligations\n  accept  GGAAACC_h4_g0.0_s1_p0.0_tight.json          11 obligations\n  accept  GGAAACC_h4_g0.0_s1_p1.0_full.json           11 obligations\n  accept  GGAAACC_h4_g0.0_s1_p1.0_tight.json          11 obligations\n  accept  GGAAACC_h4_g1.0_s0_p0.0_full.json           31 obligations\n  accept  GGAAACC_h4_g1.0_s0_p0.0_tight.json          18 obligations\n  accept  GGAAACC_h4_g1.0_s0_p1.0_full.json           32 obligations\n  accept  GGAAACC_h4_g1.0_s0_p1.0_tight.json          17 obligations\n  accept  GGAAACC_h4_g1.0_s1_p0.0_full.json           26 obligations\n  accept  GGAAACC_h4_g1.0_s1_p0.0_tight.json          18 obligations\n  accept  GGAAACC_h4_g1.0_s1_p1.0_full.json           40 obligations\n  accept  GGAAACC_h4_g1.0_s1_p1.0_tight.json          16 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s0_p0.0_full.json        45 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s0_p0.0_tight.json       18 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s0_p1.0_full.json        56 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s0_p1.0_tight.json       18 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s1_p0.0_full.json       130 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s1_p0.0_tight.json       17 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s1_p1.0_full.json        56 obligations\n  accept  GGGAAAUCC_h4_g-1.0_s1_p1.0_tight.json       18 obligations\n  accept  GGGAAAUCC_h4_g0.0_s0_p0.0_full.json         11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s0_p0.0_tight.json        11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s0_p1.0_full.json         11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s0_p1.0_tight.json        11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s1_p0.0_full.json         11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s1_p0.0_tight.json        11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s1_p1.0_full.json         11 obligations\n  accept  GGGAAAUCC_h4_g0.0_s1_p1.0_tight.json        11 obligations\n  accept  GGGAAAUCC_h4_g1.0_s0_p0.0_full.json         56 obligations\n  accept  GGGAAAUCC_h4_g1.0_s0_p0.0_tight.json        18 obligations\n  accept  GGGAAAUCC_h4_g1.0_s0_p1.0_full.json        143 obligations\n  accept  GGGAAAUCC_h4_g1.0_s0_p1.0_tight.json        17 obligations\n  accept  GGGAAAUCC_h4_g1.0_s1_p0.0_full.json        125 obligations\n  accept  GGGAAAUCC_h4_g1.0_s1_p0.0_tight.json        17 obligations\n  accept  GGGAAAUCC_h4_g1.0_s1_p1.0_full.json        149 obligations\n  accept  GGGAAAUCC_h4_g1.0_s1_p1.0_tight.json        16 obligations\n\nobligations discharged : 2222\ncertificates accepted  : 72/72\nall certificates accepted\n",
+      "stderr_tail": "",
+      "note": "the audit was run UNCHANGED; this record is added alongside it. Parsed values are scraped from stdout and are weaker evidence than a structured result would be.",
+      "flags": {
+        "all_accepted": true
+      },
+      "unparsed_keys": [],
+      "reparsed_from": "runs/revision/rerun_unrecorded-20260905-215601.json"
+    }
+  ]
+}

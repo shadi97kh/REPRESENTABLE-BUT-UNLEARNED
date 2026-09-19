@@ -1,0 +1,24 @@
+{
+  "included_tex_files": 81,
+  "caption_counts": {
+    "table": 18,
+    "figure": 34,
+    "longtable": 50
+  },
+  "all_captions_below": true,
+  "independent_source_zip_compile_passed": true,
+  "independent_reference_labels_identical": true,
+  "independent_bibliography_identical": true,
+  "all_full_pages_rendered": true,
+  "all_contact_sheets_inspected": true,
+  "final_nine_main_pages_inspected": true,
+  "changed_caption_and_interval_pages_inspected": true,
+  "log_qualification": "Underfull box warnings and conservative Tectonic rerun notice remain; zero undefined references/citations or overfull boxes. Independent build labels and bibliography agree.",
+  "final_rendered_pages": 183,
+  "final_rendered_jpegs_integrity_verified": true,
+  "final_detailed_pages_inspected": [
+    23,
+    129,
+    137
+  ]
+}

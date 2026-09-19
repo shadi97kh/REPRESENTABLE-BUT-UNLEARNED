@@ -1,0 +1,99 @@
+{
+  "status": "completed available instruction; named handoff ZIP/review files unavailable",
+  "manuscript": "v9",
+  "empirical_campaign": "v4",
+  "page_boundaries": {
+    "main_start": 1,
+    "main_end": 9,
+    "statements_start": 10,
+    "references_start": 11,
+    "references_end": 14,
+    "appendix_start": 15,
+    "appendix_end": 53,
+    "appendix_pages": 39,
+    "total_pages": 53,
+    "workflow_page": 2
+  },
+  "fit_completion": {
+    "actual_fits": 792,
+    "failed_fits": 0,
+    "executed_updates": 476867,
+    "selected_updates": 166067,
+    "fit_cpu_s": 4108.926506083995,
+    "fit_wall_s": 3895.038458307041,
+    "gpu_region_wall_s": 3501.493465324864,
+    "fitting_scope": "432 development and 360 final fits; four methods and ten final seeds; no B2 refits, no B3 label training"
+  },
+  "source_entries": [
+    "appendix.tex",
+    "figures",
+    "main.tex",
+    "references.bib"
+  ],
+  "archive_verified": {
+    "passed": true,
+    "archive": "runs/sirna_gnn_empirical/v4-20260914T071926Z/delivery/robustness_code_results.zip",
+    "sha256": "bec0c6e4282cc6e7d3b7967fc4f7b27a8695263d006df2eec679732c4f9a5ead",
+    "archive_bytes": 2944732663,
+    "manifest_members": 16930,
+    "uncompressed_bytes": 6532153156,
+    "all_member_hashes_verified": true,
+    "wall_s": 128.85422738292255,
+    "scope": "Complete focused experiment dependencies and original prediction/fit-record evidence; unrelated old checkpoint binaries remain in the preserved full parent archive."
+  },
+  "artifacts": [
+    {
+      "path": "papers/interaction_recoverability_iclr2027/v9/artifacts/main.pdf",
+      "bytes": 1337157,
+      "sha256": "63a18061036019acaa75d431e079bee8356619afd1ae250d5b855a438a74b4fb"
+    },
+    {
+      "path": "papers/interaction_recoverability_iclr2027/v9/artifacts/manuscript_source.zip",
+      "bytes": 1085600,
+      "sha256": "d6e676b84da14624fcd90709a5d494470fa923a036d9cab2b9bfd99186ce7d30"
+    },
+    {
+      "path": "papers/interaction_recoverability_iclr2027/v9/artifacts/typesetting_dependencies.zip",
+      "bytes": 10433,
+      "sha256": "956c9dbda540ed2c2eb2ce9b77b7af0c159fd1d636baae08208b82d259270099"
+    },
+    {
+      "path": "papers/interaction_recoverability_iclr2027/v9/source/figures/workflow.pdf",
+      "bytes": 643572,
+      "sha256": "dc50b1bcbb654865d38b0a109eab9235c1a00659c2aee9758b89adc42618e4df"
+    },
+    {
+      "path": "papers/interaction_recoverability_iclr2027/v9/artifacts/workflow.png",
+      "bytes": 849518,
+      "sha256": "7d6b57c5559a4bdba4223a23a29493d631d56616053d9a5dc96dde500e2ce4e1"
+    },
+    {
+      "path": "runs/sirna_gnn_empirical/v4-20260914T071926Z/adjudication/row_reconciliation.csv",
+      "bytes": 3473131,
+      "sha256": "1b53a4eb2a170b6952b6c91e1002f9766c4879bb841ec74c91cdd9c09bb148b9"
+    },
+    {
+      "path": "runs/sirna_gnn_empirical/v4-20260914T071926Z/evaluation/activity_metrics.csv",
+      "bytes": 22350,
+      "sha256": "c9a315e53a9ed329591ed983939202fcc7d6be7f75fc13775aa24e52fd91df03"
+    },
+    {
+      "path": "runs/sirna_gnn_empirical/v4-20260914T071926Z/evaluation/direct_comparisons.csv",
+      "bytes": 9844,
+      "sha256": "8fe22c54964b42a8c9d642317e6437987db73675bd2e438bd12511cdf1a0ca2c"
+    },
+    {
+      "path": "runs/sirna_gnn_empirical/v4-20260914T071926Z/evaluation/ensemble_predictions.csv",
+      "bytes": 7511720,
+      "sha256": "badd8775821d6399164f735655e60f3c6bf636cb497602fed54fee1a3c77f105"
+    },
+    {
+      "path": "runs/sirna_gnn_empirical/v4-20260914T071926Z/delivery/robustness_code_results.zip",
+      "bytes": 2944732663,
+      "sha256": "bec0c6e4282cc6e7d3b7967fc4f7b27a8695263d006df2eec679732c4f9a5ead"
+    }
+  ],
+  "no_repository_push": true,
+  "no_new_wet_lab_validation": true,
+  "archive_accounting_cutoff": "Archive reports were captured before packaging; final package receipt and delivery verification are supplied alongside the archive."
+}

@@ -1,0 +1,26 @@
+{
+  "administrative_attempts": [
+    {
+      "helper": "prepare_packet.py",
+      "status": "PASS",
+      "evidence_files": 350,
+      "purpose": "initial copying and commitment checks",
+      "cost_record": "administrative/evidence_inventory_initial.json"
+    },
+    {
+      "helper": "finalize_packet.py",
+      "status": "FAILED before ZIP creation",
+      "reason": "new dependency_map.md linked historical estimator.md not yet copied; explicit administrative check caught missing inclusion",
+      "historical_changes": false,
+      "cost": "not fully metered; nonzero cost; shell tool reported about 0.185 s wall"
+    },
+    {
+      "helper": "finalize_packet.py",
+      "status": "FAILED before ZIP creation",
+      "reason": "checker intentionally rejected seven inherited GitHub-style #L source-line fragments; file destinations resolved; checker extended to validate each source line number without changing evidence",
+      "historical_changes": false,
+      "cost": "not fully metered; nonzero cost; shell tool reported about 0.186 s wall"
+    }
+  ],
+  "resolution": "Include the missing original through dependency closure, then rerun administrative preparation and finalization. No scientific code execution."
+}

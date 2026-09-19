@@ -1,0 +1,48 @@
+{
+  "deleted_files": 3210,
+  "deleted_bytes": 787782779,
+  "deleted_MiB": 751.2882032394409,
+  "categories": {
+    "temporary page extract/render; full manuscript PDF retained": {
+      "files": 1935,
+      "bytes": 717105857
+    },
+    "temporary page/contact-sheet preview": {
+      "files": 489,
+      "bytes": 36288583
+    },
+    "temporary contact-sheet preview": {
+      "files": 72,
+      "bytes": 1685352
+    },
+    "generated artifact from completed independent source build; final PDF and audit retained": {
+      "files": 15,
+      "bytes": 3157296
+    },
+    "byte-identical source already retained in manuscript_source.zip": {
+      "files": 464,
+      "bytes": 23818716
+    },
+    "temporary page-layout inspection image": {
+      "files": 9,
+      "bytes": 1459955
+    },
+    "regenerable Python bytecode cache": {
+      "files": 184,
+      "bytes": 2977628
+    },
+    "pytest cache": {
+      "files": 6,
+      "bytes": 83390
+    },
+    "regenerable TeX build intermediate": {
+      "files": 36,
+      "bytes": 1206002
+    }
+  },
+  "tracked_files_unchanged": 1750,
+  "protected_sources_and_deliverables_verified": 634,
+  "new_scientific_jobs": 0,
+  "historical_ledgers_changed": false,
+  "wall_seconds": 6.527435969095677
+}

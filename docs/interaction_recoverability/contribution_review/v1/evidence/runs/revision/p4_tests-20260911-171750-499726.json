@@ -1,0 +1,43 @@
+{
+  "exit_code": 0,
+  "kind": "p4_tests",
+  "optimizer_steps": 0,
+  "resources": {
+    "blas_threads": 1,
+    "child_cpu_s": 0.0,
+    "child_processes_spawned": 0,
+    "cpu_core_hours": 0.0007128447222222222,
+    "gpu_hours": 0,
+    "max_rss_kib": 603528,
+    "openmp_threads": 1,
+    "process_cpu_s": 2.5662409999999998,
+    "torch_threads": 1,
+    "wall_s": 2.588017059955746
+  },
+  "source_hashes": {
+    "scmp/revision/p4_capability.py": "5d5ed683969864ca4d18d34fbdda3e5ae11868be40f0d716b1a8c4f1ce9d41b1",
+    "scmp/revision/p4_checks.py": "03fcb9e271e833f5f09b7346a4c90bb174881388893576653c8ef893189ad1cb",
+    "scmp/revision/p4_data.py": "82affdeec65acf8fea4bfa2aa0e21d98c04514668ed4f3cee54102d7d5464884",
+    "scmp/revision/p4_decision.py": "345184fdd352663fc361dc4e62f5cfcacb3bd5470fa4e1dcd2736bf940586d8d",
+    "scmp/revision/p4_exploratory_run.py": "a6d5af0614c266e76f10c8057ec2686dadde3004b21ab1a608deef5904b6145c",
+    "scmp/revision/p4_export.py": "b38ef7f72bd92d958d91d5e7cddae95a1ca07b813d9fe00ef9f5de86718352ab",
+    "scmp/revision/p4_gpu_control.py": "8c76c43ad922e0c4d09b5a8dfd8a73bb5bfc4cb4f507208d0d43c3abde6b7618",
+    "scmp/revision/p4_gpu_math.py": "c51034ad6096f45a005e2007d27393b37f411aa63a9b7c368b0c12ed9d16b0aa",
+    "scmp/revision/p4_gpu_report.py": "da5ac0d1e5af18181841f5948056675a990082ffe69eae066c2b32c8059f7974",
+    "scmp/revision/p4_gpu_rna.py": "44aa0ea47f0886d3fa7ff491c1bdf53b81c2cdbd7bad6dffdbfd0d7fae28460d",
+    "scmp/revision/p4_gpu_run.py": "12c1f1f3eaa1e64b312682d372516055a3ae9ad11d582db81e356332bfceff0b",
+    "scmp/revision/p4_metrics.py": "d243bd4a1adf6d131faa2b14613009c2f899799c7a49887a7c39305f97994bb3",
+    "scmp/revision/p4_resources.py": "7757608816e8c663f6b0009245c7862c3080ba676acbe2e6c6f4b0ed8462c619",
+    "scmp/revision/p4_rna.py": "53428d00732a87a01ebd7997677ff9f88e15c261e25dd79d075438347f602488",
+    "scmp/revision/p4_verifier.py": "d82ac55479ee748dc78e2600c186de1fd689a297d9cec1cb0e1372a0e39af435"
+  },
+  "test_files": [
+    "tests/revision/test_p4_decision.py",
+    "tests/model/test_certified_model.py"
+  ],
+  "test_hashes": {
+    "tests/model/test_certified_model.py": "281e33193dfc803f0868203ac2d71c88f263a8a0d8b06c55dd6742c8963991c6",
+    "tests/revision/test_p4_decision.py": "cb3492160a587c77fdf30ef289c41d4dcb99e6e49e01bc27ce725744c0ccffe0"
+  },
+  "training_executed": false
+}

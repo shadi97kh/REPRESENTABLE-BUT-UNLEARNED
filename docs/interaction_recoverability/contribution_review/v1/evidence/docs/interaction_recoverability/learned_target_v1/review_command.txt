@@ -1,0 +1,21 @@
+Adversarially review the completed learned-target work using existing artifacts.
+Run no additional fits or numerical experiments and start no replacement project.
+
+Read the actual implementation, theorem, predictions, baselines, figures,
+source comparisons, frozen configuration, and ledger. Check:
+- whether learned profiles satisfy the class actually used by the theorem;
+- whether the target correction reduces exactly to an existing estimator;
+- whether enrichment searches beyond the fitted network's own tangent space;
+- whether a maximization witness was misrepresented as an upper certificate;
+- whether the risk bound assumes an oracle radius, operator, or target labels;
+- whether nonlinear and omitted-direction errors are bounded rather than named;
+- whether correction weights, centering, cross-fitting, and source-only tuning
+  match the implementation and fixed-allocation experiment;
+- whether strong controls receive the same information and comparable resources;
+- whether all failed runs and raw paired outcomes are reported;
+- whether the proposed siRNA anchors have actual experimental support.
+
+Return the strongest defensible ML/statistical contribution, exact closest
+equivalence, most consequential unresolved objection, and whether a larger
+experiment is scientifically justified. Do not call a pilot win a new theorem.
+Do not ask for training funds merely because some allowance remains.

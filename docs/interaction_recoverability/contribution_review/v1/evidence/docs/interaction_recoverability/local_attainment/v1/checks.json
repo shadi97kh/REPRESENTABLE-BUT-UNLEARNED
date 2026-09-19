@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "backend": "mpmath, 70 decimal digits; diagnostic, not certified interval arithmetic",
+  "previous_checks": "read existing passed record only; not rerun",
+  "interpolation": {
+    "probabilities": [
+      "0",
+      ".125",
+      ".25",
+      ".375",
+      ".5",
+      ".875",
+      "1"
+    ],
+    "values": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "2.5",
+      "4.0",
+      "12.5",
+      "16.0"
+    ]
+  },
+  "sample_entry": "blocked before reading source input",
+  "population_normalization": {
+    "g1_zero": "1.0",
+    "g2_zero": "1.0"
+  },
+  "finite_population_remainder_error": "1.5244246148248607861e-36",
+  "domain_checks": [
+    {
+      "n": "1000000000000",
+      "N": "5000000000000",
+      "depth": 916,
+      "lattice": 59,
+      "radius": "6.622740259329515",
+      "lower_effective_rank": "0.0124106372527769",
+      "required_rank": "54720.2844281187",
+      "domain_condition": false,
+      "precision_bits": 18438,
+      "quadrature_mesh": "6.4e-77"
+    },
+    {
+      "n": "100000000000000000000000000000000",
+      "N": "500000000000000000000000000000000",
+      "depth": 2356,
+      "lattice": 75,
+      "radius": "10.6272405323473",
+      "lower_effective_rank": "14.97980486840525",
+      "required_rank": "362810.2074381538",
+      "domain_condition": false,
+      "precision_bits": 31725,
+      "quadrature_mesh": "6.4e-197"
+    },
+    {
+      "n": "10000000000000000000000000000000000000000000000000000000000000000",
+      "N": "50000000000000000000000000000000000000000000000000000000000000000",
+      "depth": 4658,
+      "lattice": 92,
+      "radius": "14.94865632075604",
+      "lower_effective_rank": "14554195.83748383",
+      "required_rank": "1420385.025427718",
+      "domain_condition": true,
+      "precision_bits": 52986,
+      "quadrature_mesh": "6.4e-389"
+    }
+  ],
+  "scope": "Only deterministic interpolation, normalization, finite-population identity and public-count feasibility checks. No sample estimator, data generation, variance or performance experiment.",
+  "cpu_s": 0.276846172,
+  "numerical_workers": 1,
+  "numerical_threads": 1,
+  "affinity": [
+    0
+  ],
+  "gpu_s": 0
+}

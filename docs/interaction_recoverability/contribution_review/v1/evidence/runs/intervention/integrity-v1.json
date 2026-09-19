@@ -1,0 +1,173 @@
+{
+  "new_sidecars": [
+    {
+      "path": "data/intervention_sources/author_code/extra-v1.json",
+      "matches": true
+    },
+    {
+      "path": "data/intervention_sources/author_code/manifest-v1.json",
+      "matches": true
+    },
+    {
+      "path": "data/intervention_sources/manifest-v1.json",
+      "matches": true
+    },
+    {
+      "path": "data/intervention_sources/papers/manifest-v1.json",
+      "matches": true
+    },
+    {
+      "path": "data/intervention_sources/supplement/manifest-v1.json",
+      "matches": true
+    },
+    {
+      "path": "data/intervention_sources/supplement/transma_release_inventory-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/alternative_data_audit-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/audit-v1/audit.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/audit-v1/rows.jsonl",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/audit-v2/reconciliation.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/audit-v2/rows.jsonl",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/checkpoint_split_audit-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/online_cost_diagnostic-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/preparation-v1/profile.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/preparation-v1/responses.csv",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/preparation-v2/profile.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/preparation-v2/responses.csv",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/resource_summary-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/tests-v1.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/tests-v2.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/tests-v3.json",
+      "matches": true
+    },
+    {
+      "path": "runs/intervention/tests-v4.json",
+      "matches": true
+    },
+    {
+      "path": "docs/intervention/novelty_matrix.json",
+      "matches": true
+    },
+    {
+      "path": "configs/intervention_screen_v1.json",
+      "matches": true
+    },
+    {
+      "path": "configs/intervention_screen_v2.json",
+      "matches": true
+    }
+  ],
+  "legacy_p4_artifacts": [
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-capability.pt",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-prerun.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A.pt",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_A_plus_B.pt",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_inputs.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_predictions.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_ridges.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_A.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-rna_training_B.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-validation.json",
+      "matches": true
+    },
+    {
+      "path": "runs/revision/p4_gpu-20260911-171200-784773-verifier.json",
+      "matches": true
+    },
+    {
+      "path": "docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+      "matches": true
+    },
+    {
+      "path": "docs/p4_actual_model_executed-20260911-171200-784773.md",
+      "matches": true
+    }
+  ],
+  "all_new_sidecars_match": true,
+  "all_legacy_p4_hashes_match": true,
+  "tracked_diff_paths": [],
+  "evidence_file_sha256": "f45a92762c8215d00be71df1adf3aacdc1d8248af3cca107894388b1d19ce46b",
+  "tests": "runs/intervention/tests-v4.json",
+  "final_configuration": "configs/intervention_screen_v2.json",
+  "final_configuration_sha256": "12a15809711e65036edd1e52a2be1b121caa29ee674bfa41972c48462a91071a"
+}

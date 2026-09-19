@@ -1,0 +1,12 @@
+{
+  "scope": "git tracked and nonignored untracked files, full frozen learned-target run, runs/revision, and ledger-name matches",
+  "baseline_files_checked": 988,
+  "changed": [],
+  "missing": [],
+  "new_git_visible_files_outside_review": [],
+  "git_status_outside_review_equal": true,
+  "tracked_diff_equal": true,
+  "cached_diff_equal": true,
+  "process_cpu_seconds_through_preservation_check": 0.102583748,
+  "wall_seconds_through_preservation_check": 0.11108496901579201
+}

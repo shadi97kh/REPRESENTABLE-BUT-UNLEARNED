@@ -1,0 +1,24 @@
+{
+  "scope": "Completed analysis/code/raw bundle before final accounting files.",
+  "sha256": {
+    "variance_deep.json": "f97d20969c90d0633cb8e54d68ecd5ecfe4e8ff916449b2e3320b496a4031cb6",
+    "preservation.json": "02ddaa0816522d7fcf983ddbb6c23cff05f574580d9301fe7294ca21a6d474a8",
+    "variance_base.json": "16583110494f0881f37a5d705381afb275d8641db2905270663691773d97cb05",
+    "variance_final.json": "b1d077c1e3f51c3ff939214d918c28be34bfd56d8c358d2de8a8bbef7c55e759",
+    "arithmetic_addendum.md": "d06c663f4ececf6001942cb280f62f4ab631159142b5e12429e137eaf9c42015",
+    "variance_tail.json": "3f8bb378563f16709ba9a802f383735ddfa08a78f61d3b74602b13a7ed4ffcd5",
+    "final_checks.json": "9a8d29bfcb764156128f491cb1ec5b76a332848e0c1bdeab528c88fa3ad3fbc8",
+    "numerical_stability.md": "74a1ed5c9e50b566a799bba8a1f12a1d51d981aa4fc94f0954a12d929b0e7f56",
+    "variance_analysis.md": "191fb45e978da011cf67bf41ab6ae0945f2610f4531cd3ffb1d9a4d0e23dbd81",
+    "diagnostic_summary.json": "3d2c435785fdfa3b9ddda34e3005bdbc423f031c958839070a4587d327d83ff6",
+    "finalize.py": "57eadda7d62263a704242051a0593b7f434d77e13538cd9dbbbeeddef15df705",
+    "error_and_precision.json": "9f9e4169c78895fb406b7bee7f5b632e10389d3b705b8c3287b3fee5349a919e",
+    "variance_integration.json": "6f5d73a46273bd8710e1cbfd9d7c702d236f7900e84ec267ed3ffe292530e6ef",
+    "influence_variance.py": "12ee4b0c30cbae0629b91aac9e433e2f66a413761e3128ce13a8590cb2b44d9e",
+    "resource_gate.py": "f1f6e90d5aa083ab2570c7124a7a744f7275dfa26cf0539e513edd25257d26f2",
+    "error_and_precision.py": "3522cc435c4af477258f44ad0a0d73ef9ea3075dad267cdd00ae3fef7d4c150f",
+    "variance_accumulator.json": "7eaacf36a548ce9ddefa1920313d03a1a2bd61136ee3adc0756e0362ca98a9c6",
+    "feasibility_decision.md": "dd9abf242aab08fcd17c3117962e6a4c6b06010b334459371eb5be4c4ccabc0f",
+    "variance_depth.json": "40923e3dee038a21b048a30f21d93bd14926b79be54c61b5404ff282dce45a34"
+  }
+}

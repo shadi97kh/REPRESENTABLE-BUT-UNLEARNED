@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "preserved_file_count": 1135,
+  "changed_preserved_files": [],
+  "parsed_python": [
+    "error_and_precision.py",
+    "finalize.py",
+    "influence_variance.py",
+    "resource_gate.py"
+  ],
+  "missing_links": [],
+  "raw_result_code_hashes_match": true,
+  "numerical_cases_retained": [
+    "variance_base",
+    "variance_depth",
+    "variance_integration",
+    "variance_tail",
+    "variance_deep",
+    "variance_final",
+    "variance_accumulator"
+  ],
+  "scope": "Static validation only. No influence computation rerun."
+}

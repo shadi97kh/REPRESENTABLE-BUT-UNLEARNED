@@ -1,0 +1,75 @@
+{
+  "task": "practical-feasibility-v1",
+  "through_job": 51,
+  "task_cpu_s": 43.551225,
+  "task_wall_s": 43.79272424685769,
+  "task_charge_s": 134.71076600579204,
+  "task_cap_s": 300.0,
+  "task_remaining_s": 165.28923399420796,
+  "global_charge_s": 1854.3017271521683,
+  "global_remaining_s": 5345.6982728478315,
+  "reporting_reserve_s": 600.0,
+  "reserve_preserved": true,
+  "gpu_s": 0,
+  "workers": 1,
+  "threads": 1,
+  "ledger_sha256": "f446782bef0bf20ac16c99bf801c2f1a5e0d569959cb01c54e63982a1ceb6a96",
+  "preserved_file_count": 1135,
+  "changed_preserved_files": [],
+  "job_statuses": [
+    {
+      "job_id": 43,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 44,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 45,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 46,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 47,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 48,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 49,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 50,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 51,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    }
+  ]
+}

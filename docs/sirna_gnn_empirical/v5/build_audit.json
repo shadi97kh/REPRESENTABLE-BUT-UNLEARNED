@@ -1,0 +1,26 @@
+{
+  "boundaries": {
+    "main_start": 1,
+    "main_end": 9,
+    "statements_start": 10,
+    "references_start": 11,
+    "references_end": 14,
+    "appendix_start": 15,
+    "appendix_end": 53,
+    "appendix_pages": 39,
+    "total_pages": 53,
+    "workflow_page": 2
+  },
+  "zero_undefined_references": true,
+  "zero_overfull_boxes": true,
+  "independent_zip_build": true,
+  "all_pages_rendered": true,
+  "visual_inspection": "Rendered contact sheets and full main pages require human-facing agent inspection; recorded separately after inspection.",
+  "source_entries": [
+    "appendix.tex",
+    "figures",
+    "main.tex",
+    "references.bib"
+  ],
+  "official_style_sha256": "797deef41724e93761426ac0cbcca46279a91cc650dd1f0ce76a4f08d2098ea6"
+}

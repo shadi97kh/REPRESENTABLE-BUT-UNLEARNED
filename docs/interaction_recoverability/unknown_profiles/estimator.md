@@ -1,0 +1,38 @@
+# Feasible reconstruction baseline and its limits
+
+**PROVED HERE — specification.** The implementation follows P1, P2 and P7 in [proofs.md](proofs.md): empirical inverse-CDF quantiles from all five source groups; K-term private-anchor differences to estimate each unknown profile; minimum distance over a fixed coefficient grid using two separated latent quantiles; Gaussian midpoint integration of the estimated interaction; clipping to the known target envelope. It is an ordinary regularized inverse-problem plug-in estimator. The class is infinite-dimensional; the finite grid discretizes only the four original coefficient parameters.
+
+| Quantity | Learner access |
+|---|---|
+| Five action labels, outcomes, fixed counts | Observed source data, identical for every applicable control |
+| Gaussian latent law, h and delta, profile derivative envelopes and normalizations, private anchor loadings | Known assumptions, identical for every applicable control |
+| Profiles, four coefficients, observed quantile curves | Unknown and estimated; none are supplied at truth |
+| Individual Z values, joint-action outcomes, true contrast | Unobserved to learners; evaluation-only information if a future synthetic experiment is authorized |
+| K, B, grid resolution, integration resolution, confidence level | Explicit inputs to be frozen before any future fit |
+| Exact sinusoidal functions used in correctness tests | Diagnostic fixtures only; they are not inputs to the sample estimator |
+
+**PROVED HERE — error accounting.** P7 separately bounds stochastic profile error, profile truncation bias, coefficient/grid error, integration error and latent-tail error. The coefficient step uses a derived global inequality; the target step uses a derivative bound valid between any two coefficients in the box, so an unbounded nonlinear Taylor remainder is not silently discarded. The full argument uses DKW events for all data at once; no unnecessary independence between reused nuisance estimates is assumed. An influence-function estimator would require an additional nuisance/remainder analysis that is currently open.
+
+The method returns a full-range fallback if the sufficient empirical-quantile domain condition fails. The prototype also raises an explicit arithmetic error if required probabilities cannot be represented. The mathematical theorem uses exact arithmetic. Ordinary floating-point operations, root tolerances and quadrature estimates do not certify a numerical coverage guarantee.
+
+**NUMERICALLY CHECKED — implemented interfaces.** [core.py](../../../interaction_recoverability/unknown_profiles/core.py) implements known-warp inversion, arbitrary-curve profile reconstruction, coefficient separation constants, the explicit bound, tail envelopes, score evaluation and the complete gated sample-estimation recipe. `estimate_from_samples` rejects access before touching its input unless `fitting_authorized=True`. It has never been called with that flag enabled. No fitted execution, grid fit, optimizer benchmark or sample generation occurred. The sample algorithm's statistical bound is a mathematical result; end-to-end sampled-data behavior is untested. The tested CLI exposes only `diagnose`, with no fitting command.
+
+The [new diagnostic output](../../../runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-v1/diagnostics/diagnostics.json) reports telescoping residual 3.2863e-14 and fixed-outcome score finite-difference error 1.2625e-10. Seven correctness tests passed. These checks validate specific algebra and refusal behavior, not performance of a trained learner.
+
+For K=2, B=2 and 95% simultaneous confidence, the sufficient per-stratum sample-count thresholds from this particular proof have log10 values 38.5545 at delta=.1 and 178.3293 at delta=.01. With 1,000 outcomes per stratum both bounds are uninformative. These are **sufficient conditions of an extremely conservative estimator**, not necessary sample complexities or evidence that the statistical problem itself needs those sample counts.
+
+**PROVED HERE — implementability versus practicality.** With m grid intervals per coefficient, L integration bins and fixed K, a direct implementation costs O(N log N) for sorting plus O(K m squared + K L) empirical-quantile/known-inverse evaluations, treating each scalar inverse at fixed numerical tolerance as a primitive. Its iteration cost must be included in any actual resource estimate. The consistency schedule m of order n* is computationally expensive and requires extreme-quantile precision. No useful-runtime claim follows from finite implementability.
+
+**STANDARD RESULT APPLIED — equally informed controls.** The proposed reconstruction is itself the mandatory empirical-quantile/minimum-distance control. A generic regularized nonlinear inverse estimator can use the same anchor equations. Likelihood or energy-score procedures may learn both profiles within the same structural class, and may target the contrast directly rather than reconstruct irrelevant components. They must receive the same known warp, separation, envelopes and anchor information. A profile-likelihood or confidence-set target procedure cannot be handicapped by requiring unnecessary full-profile accuracy. Basis/network approximations incur their own approximation and constraint errors; true profiles are not a valid baseline input. Native DExtrI learning is a relevant future comparator after its information and constraint interface is reconciled, not an implemented comparison in this task. Mean-only rank-two completion or an additive regression receives less distributional structure and cannot establish superiority over these strong controls.
+
+**OPEN — constructive distinction.** There is no demonstrated advantage over this control, no solution of the I12 adjoint equation, no optimal slower-rate lower bound for the unknown-profile class, and no uniform delta-sensitive extension of the old rate. The old known-profile lower bound remains a valid subclass lower bound. A tighter direct-target procedure would need to improve on equally informed direct-target controls and include feasible profile estimation error.
+
+No new fitted pilot or training request is justified. The existing known-profile pilot remains unchanged and unexecuted. These implemented commands reproduce preparation work under the SAME ledger; the output destination must be unused:
+
+```bash
+python -m interaction_recoverability.budget --run-root runs/interaction_recoverability/prep-20260912-082154 -- python -m interaction_recoverability.unknown_profiles --help
+python -m interaction_recoverability.budget --run-root runs/interaction_recoverability/prep-20260912-082154 -- python -m pytest -q tests/interaction_recoverability_unknown_profiles
+python -m interaction_recoverability.budget --run-root runs/interaction_recoverability/prep-20260912-082154 -- python -m interaction_recoverability.unknown_profiles diagnose --out runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-reproduction
+```
+
+The reproduction directory above has not been created or run. Actual argv, output and exit statuses are in [checks-v1.json](../../../runs/interaction_recoverability/prep-20260912-082154/unknown-profiles-v1/checks-v1.json) and the append-only ledger. Reproduction consumes remaining allowance; these are not training commands.

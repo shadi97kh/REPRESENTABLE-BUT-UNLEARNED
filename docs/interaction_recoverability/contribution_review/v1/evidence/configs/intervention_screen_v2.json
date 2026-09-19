@@ -1,0 +1,390 @@
+{
+  "schema_version": 2,
+  "project": "query_conditioned_graph_interventions",
+  "frozen_date": "2026-09-12",
+  "status": "PREPARATION_ONLY; NOVELTY_NOT_ESTABLISHED",
+  "authorization": {
+    "training": false,
+    "model_zoo": false,
+    "teacher_cache_generation": false,
+    "old_remaining_cpu_core_hours": null,
+    "old_remaining_gpu_hours": null,
+    "requires_separate_prospective_authorization": true
+  },
+  "decision": "incremental_known_method",
+  "operator": {
+    "class_name": "intervention.operator.GraphConditionalProcess",
+    "node_dim": 8,
+    "hidden": 32,
+    "layers": 2,
+    "descriptor_dim": 4,
+    "context_dim": 1,
+    "dtype": "float64",
+    "device": "cpu",
+    "model_id_embeddings": false,
+    "assay_labels_in_transcript": false,
+    "pair_loss_weight": 0.25,
+    "contrast_loss_weight": 0.25,
+    "matched_output_tolerance": 0.01,
+    "edge_stereo_channels": 2,
+    "parameters": 17409
+  },
+  "tasks": [
+    "edge_switch",
+    "node_state"
+  ],
+  "tasks_scope": "two distinct tiny graph intervention tasks; controlled references, not therapeutic or architecture generalization",
+  "function_splits": {
+    "train": {
+      "seed_start": 1000,
+      "count_per_task": 64
+    },
+    "development": {
+      "seed_start": 2000,
+      "count_per_task": 16
+    },
+    "test": {
+      "seed_start": 3000,
+      "count_per_task": 32
+    },
+    "sampling": "independent coefficients for seven monomials, standard normal; intercept zero; each independent seed defines two predictor variants sharing first-order coefficients, with independent higher-order coefficients",
+    "independent_unit": "base coefficient draw; matched variants form one cluster",
+    "prohibited": "test model identity, labels, weights or test errors in explainer inputs or selection",
+    "exact_rng": "numpy.default_rng(numpy.random.SeedSequence([split seed_start, index, task_index])); task_index edge_switch=0,node_state=1; first normal(3), then normal((2,4))[variant]",
+    "training_function_family_limit": "Independent Gaussian monomial prior has a known Bayes conditional mean. A learned model has no expected squared-error advantage over that mean at identical observations under the declared generator; these are correctness controls."
+  },
+  "graph_splits": {
+    "train_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "development_seeds": [
+      30,
+      31
+    ],
+    "test_seeds": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "primary": "held-out predictor functions on fixed task templates",
+    "secondary": "held-out graph-feature seeds; topology and architecture extrapolation not established"
+  },
+  "source_generation": {
+    "analytic_functions": true,
+    "variants_per_independent_function_seed": 2,
+    "predictor_optimizer_steps": 0,
+    "train_function_graph_episodes": 2048,
+    "train_cache_evaluations": 16384,
+    "development_cache_evaluations": 1024,
+    "test_cache_evaluations": 4096,
+    "includes_identity": true,
+    "main_teacher_cache_materialized": false
+  },
+  "fixed_queries": {
+    "order": [
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "random_control": "Identity first, then seed-91226 permutation of seven nonidentity actions; same actions across every compared method.",
+    "identity_output_charged": true,
+    "query_counts": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "all_valid_actions": 8,
+    "target_actions": "all seven nonidentity states, with queried/unqueried strata additionally reported"
+  },
+  "future_training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "steps": 1500,
+    "episodes_per_step": 8,
+    "initialization_seeds": [
+      91226,
+      91227,
+      91228
+    ],
+    "variants": [
+      "response",
+      "response_pair",
+      "response_pair_contrast"
+    ],
+    "total_optimizer_steps": 13500,
+    "selection": "fixed schedule; no test-driven reruns; no model zoo"
+  },
+  "baselines": [
+    {
+      "name": "zero_effect",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "sparse_additive_ridge",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "sparse_pairwise_ridge",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "sparse_pairwise_lasso",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "kernel_gp_mean",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "direct_cached_all_states",
+      "status": "implemented",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "generic_graph_cnp_response",
+      "status": "implemented; same architecture as proposed response-only operator",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "graph_cnp_response_pair",
+      "status": "loss implemented; untrained",
+      "estimand": "signed action effect; interaction secondary"
+    },
+    {
+      "name": "graph_cnp_response_pair_contrast",
+      "status": "loss implemented; untrained",
+      "estimand": "signed action effect; interaction secondary"
+    },
+    {
+      "name": "responses_removed",
+      "status": "interface: zero query responses",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "responses_shuffled",
+      "status": "interface: within-transcript permutation",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "PGExplainer",
+      "status": "author code audited; native subgraph comparator only",
+      "estimand": "edge mask fidelity; not comparable signed chemical edits"
+    },
+    {
+      "name": "FastSHAP",
+      "status": "author code audited; native attribution track only",
+      "estimand": "Shapley values, not reference finite differences"
+    },
+    {
+      "name": "Selective_Explanations",
+      "status": "paper audited; author repository README-only, code unavailable",
+      "estimand": "error to target attribution"
+    },
+    {
+      "name": "GraphSHAP_IQ",
+      "status": "author code audited; architecture-qualified node game only",
+      "estimand": "node-game Shapley interactions"
+    },
+    {
+      "name": "SPEX_ProxySPEX",
+      "status": "author code audited; binary product game adapter specified, not executed",
+      "estimand": "reconstruct full value game; finite differences derived from reconstructed values"
+    },
+    {
+      "name": "learned_query_policy",
+      "status": "excluded from v1; no policy implementation or optimization",
+      "estimand": null
+    },
+    {
+      "name": "known_prior_polynomial_gp",
+      "status": "implemented; privileged analytic-family oracle prior; always report",
+      "estimand": "signed action effect"
+    },
+    {
+      "name": "direct_boosted_response_surrogate",
+      "status": "implemented unfitted interface; not ProxySPEX reproduction",
+      "estimand": "signed action effect"
+    }
+  ],
+  "baseline_selection": {
+    "rule": "lowest development primary AUC among applicable baselines, frozen before test",
+    "ridge_penalties": [
+      0.0,
+      0.0001,
+      0.01,
+      1.0
+    ],
+    "lasso_penalties": [
+      0.0001,
+      0.01,
+      0.1
+    ],
+    "kernel_lengthscales": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "kernel_noise": 1e-06,
+    "feature_scaling": "fit on source training states only, frozen; do not load unverified published scaler",
+    "tree_grid": {
+      "estimators": [
+        50
+      ],
+      "depth": [
+        1,
+        2,
+        3
+      ],
+      "learning_rate": [
+        0.05
+      ],
+      "seed": [
+        91226
+      ]
+    },
+    "known_prior_gp": "no development tuning; full order-three monomial features, iid unit coefficient prior, noiseless pseudoinverse"
+  },
+  "primary": {
+    "name": "normalized_response_MSE_area_under_total_runtime_curve",
+    "normalization": "per-task sqrt(mean(v**2)) over all seven nonidentity actions, 64 training function clusters, both variants and eight training graph seeds; floor 1e-6",
+    "integration": "piecewise constant error integrated exactly over log seconds, divided by log(upper/lower)",
+    "seconds_interval": [
+      0.001,
+      1.0
+    ],
+    "amortization_deployments": 1000,
+    "deployment_sensitivity": [
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ],
+    "cold_cache": "charged on first computation; warm reuse reported separately",
+    "included_costs": [
+      "source-model generation",
+      "teacher queries",
+      "feature construction",
+      "train-only preprocessing",
+      "explainer training",
+      "baseline fitting",
+      "cache construction and I/O",
+      "oracle calls",
+      "inference",
+      "setup"
+    ],
+    "default_before_first_output": "zero effect for every action; timeouts retain last output",
+    "continuation_target": "at least 10% relative improvement in EACH task vs development-selected strongest applicable baseline and paired 95% CI for improvement lower bound >0",
+    "uncertainty": "10000 paired cluster bootstrap replicates over 32 independent function seeds per task; matched model variants grouped; seed 91226; graph seed set fixed",
+    "aggregate": "equal weight across task means; individual task gates remain mandatory",
+    "initialization_aggregation": "Mean the three separately run initialization AUCs within function/variant/graph; no ensemble inference or best-seed selection. All nine training runs charged to upfront project cost and allocated per method using its own three runs.",
+    "independent_unit_reduction": "Average within each function cluster across two matched variants, four held-out graph-feature seeds, and initialization runs; bootstrap the resulting 32 paired units per task."
+  },
+  "secondary": [
+    "compatible finite-difference interaction MSE",
+    "unqueried-only response error",
+    "zero/shuffled-response deterioration",
+    "per-function tail error",
+    "online runtime",
+    "cold/warm exact cache timing",
+    "amortization break-even"
+  ],
+  "lipid_application": {
+    "status": "not eligible for predictor/explainer training in this preparation",
+    "graph": "ionizable delivery lipid",
+    "required_predictors": [
+      "fingerprint_descriptor_MLP",
+      "ridge",
+      "boosted_trees",
+      "applicable published AGILE or TransMA"
+    ],
+    "normalization": "train-only",
+    "model_selection": "development prediction metrics only",
+    "positive_utility_requires": "separate predictive noninferiority and comparable-assay measured edit effects",
+    "exclusions": [
+      "unresolved conflicting labels",
+      "unknown checkpoint training membership",
+      "unmapped fragment correspondence for atom claims",
+      "stale descriptors",
+      "unresolved assay pairing",
+      "invalid or missing four-corner states"
+    ],
+    "biological_metrics": [
+      "signed measured edit-effect agreement",
+      "edit ranking",
+      "selected measured activity"
+    ],
+    "pair_independence": "shared molecules and controls grouped before pair construction; never independent pairs",
+    "checkpoint_download_or_training": false,
+    "checkpoint_scope": "Two small checkpoints downloaded for weights-only metadata audit; this flag disables any future checkpoint acquisition/fitting/inference under the screening configuration.",
+    "implemented_control_interfaces": [
+      "fingerprint_descriptor_features",
+      "FingerprintDescriptorMLP",
+      "tabular_predictor_control(ridge)",
+      "tabular_predictor_control(boosted_trees)",
+      "GraphDescriptorRegressor"
+    ]
+  },
+  "stop_rules": [
+    "same operator as generic CNP: no new-architecture claim",
+    "exact evaluation wins: stop efficiency claim in that regime",
+    "query removal/shuffling does not hurt: investigate information leakage before any conclusion",
+    "generic capacity-matched CNP matches: novelty unproven",
+    "one task fails: no aggregate-only continuation",
+    "weak GNN: no therapeutic utility claim from fidelity",
+    "no verified allowance: no training",
+    "no endpoint/split/threshold change after held-out outcomes",
+    "Known-prior posterior and exhaustive evaluation are mandatory reference controls; no positive claim based on excluding them."
+  ],
+  "accounting": {
+    "blas_threads": 1,
+    "torch_threads": 1,
+    "workers": 0,
+    "device": "cpu",
+    "gpu_hours": 0,
+    "child_cpu": "RUSAGE_CHILDREN after wait; require process-tree monitoring for any future persistent workers",
+    "gpu_future": "not used in CPU pilot; any GPU variant needs fresh device profile and authorization",
+    "cap": "prospective authorized cap enforced externally and by per-stage monotonic/cpu timers; no cap exists yet"
+  },
+  "supersedes": "configs/intervention_screen_v1.json; preserved unchanged",
+  "pre_outcome_revision_reason": "Final preparation audit added zero-query coverage, known-prior GP and direct tree controls; no held-out outcomes or training were viewed."
+}

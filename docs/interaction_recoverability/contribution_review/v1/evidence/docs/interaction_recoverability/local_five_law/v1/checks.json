@@ -1,0 +1,225 @@
+{
+  "status": "passed",
+  "reference": {
+    "delta": 0.1,
+    "alpha": [
+      0.6666666666666666,
+      0.75
+    ],
+    "beta": [
+      0.6,
+      0.8
+    ],
+    "pi": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  "contraction": {
+    "sampled_min_C": 3.1648152654368165,
+    "sampled_max_C": 5.874308094350061,
+    "sampled_max_derivative": 0.9263877845835709,
+    "proved_upper_derivative": 0.9380097879282219
+  },
+  "derivative_checks": [
+    {
+      "kind": "trig",
+      "commutator_error": 9.14610609470401e-10,
+      "neumann_max_errors": {
+        "32": 5.863508055882278,
+        "128": 0.000393255332028275,
+        "512": 2.8809097329940414e-09
+      }
+    },
+    {
+      "kind": "gaussian_holdout",
+      "commutator_error": 2.3663915271754377e-10,
+      "neumann_max_errors": {
+        "32": 4.413269163244081,
+        "128": 0.0002818240192823396,
+        "512": 8.801066542218905e-10
+      }
+    }
+  ],
+  "coefficient_checks": [
+    {
+      "direction": "trig_profile",
+      "expected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recovered": [
+        -1.4043568503701624e-09,
+        -3.9150203804065804e-10,
+        1.7531572575278994e-09,
+        3.565884589831978e-10
+      ],
+      "max_error": 1.7531572575278994e-09,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "gaussian_holdout",
+      "expected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recovered": [
+        1.0800704758489013e-09,
+        6.22522276977292e-11,
+        -1.6481529948394293e-09,
+        -8.460651624186421e-11
+      ],
+      "max_error": 1.6481529948394293e-09,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "coefficient_0",
+      "expected": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recovered": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "max_error": 0.0,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "coefficient_1",
+      "expected": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "recovered": [
+        0.0,
+        1.0000000000000007,
+        -0.0,
+        -4.778344398942533e-16
+      ],
+      "max_error": 6.661338147750939e-16,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "coefficient_2",
+      "expected": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "recovered": [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "max_error": 0.0,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "coefficient_3",
+      "expected": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "recovered": [
+        0.0,
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "max_error": 0.0,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    },
+    {
+      "direction": "mixed",
+      "expected": [
+        0.2,
+        -0.1,
+        0.15,
+        -0.05
+      ],
+      "recovered": [
+        0.20000000108007057,
+        -0.09999999993774822,
+        0.14999999835184696,
+        -0.05000000008460603
+      ],
+      "max_error": 1.6481530307199677e-09,
+      "determinants": [
+        1.0071589621631392,
+        1.3370514670070641
+      ]
+    }
+  ],
+  "profile_functional_checks": [
+    {
+      "order": 64,
+      "source_functional": -2.8286119378496086,
+      "target_derivative": -2.8286120004842763,
+      "absolute_error": 6.263466767464365e-08
+    },
+    {
+      "order": 128,
+      "source_functional": -2.8286120000441137,
+      "target_derivative": -2.8286120000441786,
+      "absolute_error": 6.483702463810914e-14
+    },
+    {
+      "order": 64,
+      "source_functional": -3.4956027829985183,
+      "target_derivative": -3.4956027753220766,
+      "absolute_error": 7.676441704518311e-09
+    },
+    {
+      "order": 128,
+      "source_functional": -3.495602775330531,
+      "target_derivative": -3.4956027753304832,
+      "absolute_error": 4.796163466380676e-14
+    }
+  ],
+  "max_quadrature_refinement_difference": 6.219450510158708e-08,
+  "child_cpu_s": 7.655958625,
+  "numerical_workers": 1,
+  "numerical_threads": 1,
+  "affinity": [
+    0
+  ],
+  "gpu_s": 0,
+  "scope": "Analytic construction checks only. No finite score projection, no empirical samples, no learned model, no efficient variance estimate.",
+  "errors": "Neumann tail controlled analytically in proof; lattice/response tail bounds separate there. 64/128 quadrature and float64 inverse roundoff are diagnostics, not certified integration enclosures."
+}

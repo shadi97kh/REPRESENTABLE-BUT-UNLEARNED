@@ -1,0 +1,256 @@
+{
+  "scope": "fixed correctness fixture; no accuracy comparison or held-out experiment; graph construction shared and excluded from all three timings",
+  "measurements": [
+    {
+      "direct_uncached_eight_states": {
+        "wall_s": 0.002038261154666543,
+        "process_cpu_s": 0.002039000000000013,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 5.663888888888925e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 506056,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "direct_warm_cache": {
+        "wall_s": 0.0015091791283339262,
+        "process_cpu_s": 0.0015089999999999826,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 4.191666666666618e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 506056,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "untrained_operator_inference": {
+        "wall_s": 0.002681720070540905,
+        "process_cpu_s": 0.0026800000000000157,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 7.444444444444488e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    },
+    {
+      "direct_uncached_eight_states": {
+        "wall_s": 0.0019047600217163563,
+        "process_cpu_s": 0.0019040000000001278,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 5.288888888889244e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "direct_warm_cache": {
+        "wall_s": 0.0015450390055775642,
+        "process_cpu_s": 0.0015439999999999898,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 4.288888888888861e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "untrained_operator_inference": {
+        "wall_s": 0.002368638990446925,
+        "process_cpu_s": 0.002367000000000008,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 6.575000000000022e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    },
+    {
+      "direct_uncached_eight_states": {
+        "wall_s": 0.0018915659748017788,
+        "process_cpu_s": 0.0018899999999999473,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 5.249999999999853e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "direct_warm_cache": {
+        "wall_s": 0.0015064810868352652,
+        "process_cpu_s": 0.0015060000000000073,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 4.1833333333333535e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "untrained_operator_inference": {
+        "wall_s": 0.0023773270659148693,
+        "process_cpu_s": 0.0023759999999999337,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 6.599999999999816e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    },
+    {
+      "direct_uncached_eight_states": {
+        "wall_s": 0.0018731600139290094,
+        "process_cpu_s": 0.0018719999999998738,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 5.19999999999965e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "direct_warm_cache": {
+        "wall_s": 0.0014770419802516699,
+        "process_cpu_s": 0.0014760000000000328,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 4.100000000000091e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "untrained_operator_inference": {
+        "wall_s": 0.0023546768352389336,
+        "process_cpu_s": 0.0023539999999999672,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 6.538888888888798e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    },
+    {
+      "direct_uncached_eight_states": {
+        "wall_s": 0.0018594169523566961,
+        "process_cpu_s": 0.0018579999999999153,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 5.161111111110876e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "direct_warm_cache": {
+        "wall_s": 0.001476156059652567,
+        "process_cpu_s": 0.001474999999999893,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 4.097222222221925e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      "untrained_operator_inference": {
+        "wall_s": 0.0023441570810973644,
+        "process_cpu_s": 0.0023440000000001238,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 6.511111111111455e-07,
+        "gpu_hours": 0,
+        "peak_rss_kib": 507864,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    }
+  ],
+  "optimizer_steps": 0,
+  "resources": {
+    "wall_s": 0.9224289339035749,
+    "process_cpu_s": 0.920907,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.0002558075,
+    "gpu_hours": 0,
+    "peak_rss_kib": 507864,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

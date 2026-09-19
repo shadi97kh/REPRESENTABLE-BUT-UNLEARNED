@@ -1,0 +1,63 @@
+{
+  "task": "efficiency-audit-v1",
+  "through_job": 52,
+  "measured_cpu_s": 14.817733,
+  "aggregate_job_wall_s": 14.885079485131428,
+  "overhead_debit_s": 60.0,
+  "conservative_charge_s": 74.98507948513134,
+  "task_cap_s": 120.0,
+  "task_remaining_s": 45.01492051486866,
+  "parent_charge_s": 209.69584549092338,
+  "parent_cap_s": 300.0,
+  "parent_remaining_s": 90.30415450907662,
+  "global_charge_s": 1929.2868066372996,
+  "global_remaining_s": 5270.713193362701,
+  "reporting_reserve_s": 600.0,
+  "reserve_preserved": true,
+  "gpu_s": 0,
+  "workers": 1,
+  "threads": 1,
+  "ledger_sha256": "d1b365a6f7a3e33ad511b1ce2712367c6e9f6602a34bd742cb75f20009ff8cc1",
+  "preserved_file_count": 1167,
+  "changed_preserved_files": [],
+  "job_records": [
+    {
+      "utc": "2026-09-12T23:43:10.882569+00:00",
+      "event": "start",
+      "job_id": 52,
+      "phase": "compute",
+      "command": [
+        "python",
+        "-B",
+        "docs/interaction_recoverability/efficiency_audit/v1/calculate.py"
+      ],
+      "timeout_s": 30.0,
+      "affinity": [
+        0
+      ]
+    },
+    {
+      "utc": "2026-09-12T23:43:25.760336+00:00",
+      "event": "end",
+      "job_id": 52,
+      "returncode": 0,
+      "timed_out": false,
+      "measured_cpu_s": 14.817733,
+      "wall_s": 14.885079485131428,
+      "conservative_charge_s": 14.985079485131427,
+      "observed_process_count": 1,
+      "affinity_violations": [],
+      "parent_peak_rss_kib": 687488,
+      "waited_child_peak_rss_kib": 83392,
+      "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+    }
+  ],
+  "artifact_hashes": {
+    "efficiency_argument.md": "c40e062e0d5923afb30ce2722f74c22af553c83f6959e631afbc9887169210d6",
+    "calculate.py": "1d21feb790e08d360ff057a4f4486a6ffbc9355861cc335b76a644c9d90982e6",
+    "raw.json": "d8e720637157cfa7335e3ee7820173323d911fb19ebb4a28a8358f6fa8a97100",
+    "preservation.json": "ea0518e3c66eff9e94911bfa2ffe1f8b53787237b675860507b0b82e24af87da",
+    "resource_gate.py": "82a9196c57443db9b7c05fb35e2bcb538e4800789978115019663347fd96a955",
+    "decision.md": "d721bf27a88a2911396afae2cadf661329cd8207b9fa5e51dd32235021ee820f"
+  }
+}

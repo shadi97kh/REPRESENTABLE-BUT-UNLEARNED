@@ -1,0 +1,17 @@
+{
+  "stage": "pilot",
+  "status": "blocked; not executed",
+  "maximum_fits": 0,
+  "reason": "G1 FAIL and G2 UNRESOLVED; do not promote or scale a standard reference as a new method",
+  "primary_benefit": null,
+  "practical_threshold": null,
+  "coverage_tolerance": null,
+  "independent_test_problems": 0,
+  "prespecified_performance_protocol": false,
+  "development_seeds_if_future_protocol_approved": [
+    1103,
+    2207,
+    3301
+  ],
+  "prohibition": "No post hoc metrics, favorable seed selection, or synthetic biological labels; no experiment may run from this blocked record"
+}

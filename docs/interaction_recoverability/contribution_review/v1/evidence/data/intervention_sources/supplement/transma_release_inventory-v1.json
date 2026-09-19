@@ -1,0 +1,30 @@
+{
+  "status_code": 200,
+  "releases": [
+    {
+      "tag": "V1.0",
+      "assets": [
+        {
+          "name": "Hela_cliff.7z",
+          "bytes": 954922908,
+          "url": "https://github.com/wklix/TransMA/releases/download/V1.0/Hela_cliff.7z"
+        },
+        {
+          "name": "Hela_scaffold.7z",
+          "bytes": 954973048,
+          "url": "https://github.com/wklix/TransMA/releases/download/V1.0/Hela_scaffold.7z"
+        },
+        {
+          "name": "raw_cliff.7z",
+          "bytes": 954944966,
+          "url": "https://github.com/wklix/TransMA/releases/download/V1.0/raw_cliff.7z"
+        },
+        {
+          "name": "raw_scaffold.7z",
+          "bytes": 954885949,
+          "url": "https://github.com/wklix/TransMA/releases/download/V1.0/raw_scaffold.7z"
+        }
+      ]
+    }
+  ]
+}

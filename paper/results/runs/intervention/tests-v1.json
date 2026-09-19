@@ -1,0 +1,20 @@
+{
+  "exit_code": 0,
+  "stdout": "..............                                                           [100%]\n14 passed in 1.28s\n",
+  "stderr": "",
+  "resources": {
+    "wall_s": 2.197410842869431,
+    "process_cpu_s": 0.0007200000000000019,
+    "waited_child_cpu_s": 2.075735,
+    "cpu_core_hours": 0.0005767930555555555,
+    "gpu_hours": 0,
+    "peak_rss_kib": 16620,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

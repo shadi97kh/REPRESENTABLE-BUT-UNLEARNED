@@ -1,0 +1,39 @@
+{
+  "task": "compact-attainment-v1",
+  "through_job": 42,
+  "task_cpu_s": 1.2904449999999998,
+  "task_wall_s": 1.347178952069953,
+  "task_charge_s": 151.6471789520699,
+  "task_cap_s": 600.0,
+  "task_remaining_s": 448.3528210479301,
+  "global_charge_s": 1719.5909611463762,
+  "global_remaining_s": 5480.409038853624,
+  "reporting_reserve_s": 600.0,
+  "reserve_preserved": true,
+  "gpu_s": 0,
+  "workers": 1,
+  "threads": 1,
+  "ledger_sha256": "265b269b4f32cd5fdd713223679da1a249b0dfa748e552a10171a00839b533da",
+  "preserved_file_count": 1111,
+  "changed_preserved_files": [],
+  "job_statuses": [
+    {
+      "job_id": 40,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 41,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    },
+    {
+      "job_id": 42,
+      "returncode": 0,
+      "timed_out": false,
+      "affinity_violations": []
+    }
+  ]
+}

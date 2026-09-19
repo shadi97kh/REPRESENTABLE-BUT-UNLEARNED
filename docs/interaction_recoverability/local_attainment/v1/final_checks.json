@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "preserved_file_count": 393,
+  "changed_preserved_files": [],
+  "tracked_diff_stat": "",
+  "sampled_execution_enabled": false,
+  "numerical_checks_rerun": false,
+  "journal_completed_jobs": [
+    36
+  ],
+  "artifact_sha256": {
+    "theorem.md": "2bc6f1e8bfa280146e3dee43d7084a8ed90ccbc90dfcb47ebf5e636d945ee0d0",
+    "estimator.md": "fb264d69803c5538824e75693a56a8b0063854ee5b4b50ae83151f46ec7383f0",
+    "novelty.md": "b2c205ae4c17f11ebe93d6d2af6deee0ee38d1afec5a329a59b8b2dfefb88805",
+    "decision.md": "820421f16687df71781e96c5e88795e2d95145176e7ca357f48fab6bfd339888",
+    "estimator.py": "53553297d783868e2fbf88e01d6286ce1a06fc00250860026fa62e2363ba0f67",
+    "checks.py": "903766f9ab90544f67c25e04224288e5106c15ab08da50c02183da32b9854433",
+    "checks.json": "8a7bb5d7c093a446c00a955d2f384065fad3a1a341380cf28235074fca7b9b91",
+    "resource_gate.py": "73572357fa9a7db384efdb2362dc9a98606346d0862da1449a112b3dd318ff87",
+    "finalize.py": "d071f451d4276b8192fef66851df7d790e43496c207c3cfa06684cfb17c4586d",
+    "command_records.json": "8a60bf436d5f6401c58343610b61e58e29f29a8fcd25bc27968e60368719432a"
+  },
+  "note": "The completed status of this static job is in the live ledger. The final resource audit/note are authored afterward under the existing overhead debit."
+}

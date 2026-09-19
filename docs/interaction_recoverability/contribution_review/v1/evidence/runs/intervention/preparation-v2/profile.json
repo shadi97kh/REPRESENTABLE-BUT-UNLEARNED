@@ -1,0 +1,173 @@
+{
+  "training_steps": 0,
+  "predictor_training_steps": 0,
+  "main_teacher_cache_generated": false,
+  "correctness_fixture_query_count": 80,
+  "profiles": {
+    "80_exact_analytic_queries_plus_graph_construction": {
+      "wall_s": 0.05588442482985556,
+      "process_cpu_s": 0.055885000000000074,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 1.552361111111113e-05,
+      "gpu_hours": 0,
+      "peak_rss_kib": 499076,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    "untrained_operator_forward_backward_per_episode": [
+      {
+        "wall_s": 0.14151474693790078,
+        "process_cpu_s": 0.141262,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 3.9239444444444445e-05,
+        "gpu_hours": 0,
+        "peak_rss_kib": 508240,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      {
+        "wall_s": 0.008774420013651252,
+        "process_cpu_s": 0.00877400000000006,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 2.4372222222222387e-06,
+        "gpu_hours": 0,
+        "peak_rss_kib": 508240,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      {
+        "wall_s": 0.008572482969611883,
+        "process_cpu_s": 0.008571000000000106,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 2.3808333333333628e-06,
+        "gpu_hours": 0,
+        "peak_rss_kib": 508240,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      {
+        "wall_s": 0.008517174050211906,
+        "process_cpu_s": 0.008515999999999968,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 2.3655555555555466e-06,
+        "gpu_hours": 0,
+        "peak_rss_kib": 508240,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      },
+      {
+        "wall_s": 0.008574004052206874,
+        "process_cpu_s": 0.008572000000000024,
+        "waited_child_cpu_s": 0.0,
+        "cpu_core_hours": 2.3811111111111177e-06,
+        "gpu_hours": 0,
+        "peak_rss_kib": 508240,
+        "thread_limits": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        },
+        "historical_remaining_allowance": null,
+        "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+      }
+    ],
+    "five_small_molecule_feature_rebuilds": {
+      "wall_s": 0.08116464503109455,
+      "process_cpu_s": 0.08111600000000019,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 2.2532222222222273e-05,
+      "gpu_hours": 0,
+      "peak_rss_kib": 550632,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    },
+    "five_actual_lipid_feature_rebuilds": {
+      "wall_s": 0.006024775095283985,
+      "process_cpu_s": 0.006024000000000029,
+      "waited_child_cpu_s": 0.0,
+      "cpu_core_hours": 1.6733333333333414e-06,
+      "gpu_hours": 0,
+      "peak_rss_kib": 551784,
+      "thread_limits": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "historical_remaining_allowance": null,
+      "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+    }
+  },
+  "parameters": 17409,
+  "architecture_equivalence": "generic_graph_CNP is same class",
+  "estimates": {
+    "source_predictor_training_cpu_core_hours": 0,
+    "source_predictor_training_gpu_hours": 0,
+    "source_generation": "analytic coefficients only in prospective CPU screening",
+    "cold_start_cpu_s": 0.141262,
+    "cold_start_charged_once_per_run": true,
+    "forward_backward_episode_count": 108000,
+    "core_hours_from_measured_median": 0.25714500000000196,
+    "wall_hours_from_measured_median": 0.25719730532728136,
+    "planning_core_hour_range": [
+      0.25547999999999904,
+      0.7896600000000054
+    ],
+    "query_cache_cpu_hours_linear": 0.004172746666666672,
+    "gpu_hours": 0,
+    "cpu_threads": 1,
+    "workers": 0,
+    "unknowns": [
+      "Adam update time and optimizer state peak memory not measured",
+      "auxiliary loss and eight-episode execution overhead only allowed for by 3x upper planning factor",
+      "SPEX external adapter runtime and development baseline selection not measured",
+      "published delivery-predictor inference, full descriptors, 3D construction and fitting not measured",
+      "end-to-end training convergence, runtime variance and generalization unknown"
+    ],
+    "no_training_authorization": true
+  },
+  "resources": {
+    "wall_s": 1.1764245508238673,
+    "process_cpu_s": 1.1749260000000001,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.0003263683333333334,
+    "gpu_hours": 0,
+    "peak_rss_kib": 553420,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

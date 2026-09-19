@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "preserved_file_count": 360,
+  "changed_preserved_files": [],
+  "tracked_diff_stat": "",
+  "git_status_short": "?? Codex_Direct_Target_Theorem_Command.md\n?? Codex_Five_Law_Regularity_Decision.md\n?? Codex_Interaction_Recoverability_Execution_Prompt.md\n?? Codex_Learned_Interaction_Contribution_Execution.md\n?? Codex_Unknown_Profile_Extension_Prompt.md\n?? GNN_RNA_Data_Research_Evidence.json\n?? ICLR_2027_Post_Run_Action_Plan.md\n?? Mathematical_ML_Novelty_and_Open_Problems.docx\n?? configs/\n?? docs/\n?? interaction_recoverability/\n?? intervention/\n?? preregistration.md\n?? pytest.ini\n?? scmp/\n?? tests/bounds/\n?? tests/conditional_support/\n?? tests/interaction_recoverability/\n?? tests/interaction_recoverability_learned_target/\n?? tests/interaction_recoverability_unknown_profiles/\n?? tests/intervention/\n?? tests/model/\n?? tests/numerics/\n?? tests/oracles/\n?? tests/refinement/\n?? tests/revision/\n?? tests/rna/\n",
+  "checks_reexecuted": false,
+  "journal_completed_jobs": [
+    32,
+    33,
+    34
+  ],
+  "note": "Finalization's own completed status is in the current ledger and subsequent resource audit. The final resource note is authored after that audit.",
+  "artifact_sha256": {
+    "proof.md": "d4fc930f092cfb80c3f2ea04a827c9ff0e56d27d42dce9b81c8f06a17055c6f1",
+    "decision.md": "b61d5304708db0c414e1a26555685ba345559e18d2f761b7e07a96d8b6fbba66",
+    "checks.py": "243e799807c77c930298626104e507204dc2c93f9f5f21d1a8c014b104b4ec1f",
+    "checks.json": "1d2b9eb8ff41ecab80a0f57c9cc6249a784c87a85b8893d7a4da2736378e141b",
+    "checks_attempt_job33.py": "bf33f26367d2e3bc59d7fe3105405264040abf3e8207138957df91d046c420f4",
+    "failure_job33.json": "b8be849202d196d247fd30dd33baf2e312b1394d04e460e958dab9bf34c9c6d8",
+    "resource_gate.py": "ed6a9a453dfd78548e3dc64bc44bfc037966ffaea97d3e5e274f683ecfef8b07",
+    "finalize.py": "04ecf8900abee7caad5edeb05145bc0a37ae03c59ff023b55869dc3edc889fb8",
+    "command_records.json": "c72b636472a656ea53fd154ac420636d83fe05548e5604a50e8ce69dd37ac4c3"
+  }
+}

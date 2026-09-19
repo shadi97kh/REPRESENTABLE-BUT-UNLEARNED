@@ -1,0 +1,13 @@
+{
+  "command": [
+    "bash",
+    "sirna_gnn_empirical/v3/run_all.sh"
+  ],
+  "exit_code": 0,
+  "wall_s": 27.708953242050484,
+  "child_cpu_s": 28.825385,
+  "max_child_rss_kib": 113932,
+  "output": "VERIFIED legacy_analysis\nVERIFIED source_checks\nVERIFIED protocol\nVERIFIED checks\nVERIFIED activity\nVERIFIED pair\nVERIFIED b3_evaluate\nVERIFIED evaluate\nVERIFIED analysis_supplement\nVERIFIED parameter_audit\nVERIFIED figures\nVERIFIED paper\nVERIFIED deliver\n",
+  "scientific_stage_command_record_unchanged": true,
+  "expected_stages": 13
+}

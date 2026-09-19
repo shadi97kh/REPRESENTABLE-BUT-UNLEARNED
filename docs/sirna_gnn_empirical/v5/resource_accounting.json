@@ -1,0 +1,10 @@
+{
+  "recorded_stage_wall_s": 154.14632467599586,
+  "recorded_stage_child_cpu_s": 154.501038,
+  "max_stage_rss_kib": 630640,
+  "new_fits": 0,
+  "new_training_optimizer_updates": 0,
+  "GPU_work": false,
+  "administrative_cost": "Additional nonzero unmetered browsing, direct acquisition, authoring, inspection and hashing; nested build commands overlap stage totals; final reports/package receipts supplied alongside archive",
+  "failed_fits": 0
+}

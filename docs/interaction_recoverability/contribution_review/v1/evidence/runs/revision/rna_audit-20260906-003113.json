@@ -1,0 +1,451 @@
+{
+ "kind": "revision_rna_audit",
+ "config": "configs/revision_rna_data.yaml",
+ "config_sha256": "259114674817bb5e551fa49f77f30c163a671a7899cf4a2b5c7e473134c3881c",
+ "huesken": {
+  "status": "PRESENT",
+  "files": {
+   "annotated": {
+    "path": "data/Huesken_2431_annotated.tsv",
+    "exists": true,
+    "sha256": "9e9be35db9c6a092d7d4ec8090243b23234176e36d2ef2642175c6c39b109925",
+    "bytes": 266770
+   },
+   "split_train": {
+    "path": "data/TrainAll2182.txt",
+    "exists": true,
+    "sha256": "4919d99a6d5bffe269a4aabe8104d150bb21c127aa0d9f6950201f8eff2f5bef",
+    "bytes": 61096
+   },
+   "split_test": {
+    "path": "data/TestAll249.txt",
+    "exists": true,
+    "sha256": "7ebfc59a0d0c2116e631b200b3a5ac00b7f83fe869ac3221a9acd3e84ae8578c",
+    "bytes": 6972
+   }
+  },
+  "n_annotated_rows": 2431,
+  "n_split_records": 2431,
+  "published_split": {
+   "n_train": 2182,
+   "n_test": 249,
+   "train_test_overlap": 0,
+   "split": "published (DSIR redistribution of Huesken et al. 2005)"
+  },
+  "verification": {
+   "verified": true,
+   "problems": []
+  },
+  "label": {
+   "field": "%Inhibition",
+   "scale": "percent; efficacy = %Inhibition / 100",
+   "min": 0.0,
+   "max": 1.341,
+   "mean": 0.6926869600987248,
+   "n_above_1": 134,
+   "frac_above_1": 0.055121349238996295,
+   "clipped": false,
+   "split_records_match_annotated_range": true,
+   "note": "values above 1.0 are legitimate under the primary normalisation and are preserved unclipped"
+  },
+  "assay_identity": {
+   "primary_source": {
+    "construct": "YFP reporter plasmid; target sites in the reporter 3' UTR",
+    "n_constructs": 34,
+    "cell_line": "H1299",
+    "timepoint_h": 48,
+    "readout": "residual YFP fluorescence"
+   },
+   "redistributed_annotation": {
+    "cell_line": [
+     "HeLa"
+    ],
+    "technology": [
+     "Luciferase reporter assay"
+    ]
+   },
+   "agrees_on_cell_line": false,
+   "agrees_on_readout": false,
+   "resolution": "the primary source governs; the annotation columns are recorded and contradicted, never used as identity"
+  },
+  "chemistry": {
+   "variants_present": 1,
+   "description": "unmodified siRNA duplexes throughout; no chemical variants exist in this dataset, so chemical-transfer evaluation is INFEASIBLE here",
+   "chemical_transfer_feasible": false
+  },
+  "genes": {
+   "n_distinct": 30,
+   "unmapped_rows": 0
+  },
+  "evidence_kind": "real_arithmetic_proof"
+ },
+ "davis": {
+  "doi": "10.1093/nar/gkaf479",
+  "licence": "CC-BY-4.0",
+  "required_file": "gkaf479_supplemental_files.zip",
+  "expected_path": "data/davis2025/gkaf479_supplemental_files.zip",
+  "present": false,
+  "do_not_substitute": [
+   {
+    "accession": "GSE231101",
+    "what": "3P-seq polyadenylation mapping",
+    "why": "NOT knockdown labels; must never stand in for S1"
+   }
+  ],
+  "status": "MISSING",
+  "what_is_needed": {
+   "file": "gkaf479_supplemental_files.zip",
+   "contains": "Supplementary Table S1",
+   "route": "Oxford Academic (Nucleic Acids Research) article page -> Supplementary data. PMC mirror exists but serves a reCAPTCHA challenge; it is NOT to be bypassed.",
+   "place_at": "data/davis2025/gkaf479_supplemental_files.zip",
+   "why_not_automated": "the PMC mirror serves a reCAPTCHA challenge. It was not bypassed and no challenge HTML was parsed. A human download is required.",
+   "licence_permits_redistribution": true
+  },
+  "blocked_capabilities": [
+   "chemical scaffold covariates",
+   "chemical-transfer evaluation",
+   "native vs reporter assay separation",
+   "dose/time covariates",
+   "replicate structure",
+   "cross-dataset de-duplication"
+  ]
+ },
+ "insert_recovery": {
+  "status": "INVESTIGATED",
+  "method": "map each guide's reverse complement into GENCODE isoforms; per gene, the convex hull of tiled site positions is a LOWER BOUND on the inserted fragment. A window is 'interior' if it lies wholly inside that hull.",
+  "assumption": "the insert is a contiguous native fragment. Supported by the observed dense contiguous tiling, NOT by a construct record.",
+  "genes_with_transcripts": 24,
+  "genes_with_sites": 18,
+  "sites_located": 1290,
+  "sites_total": 2431,
+  "located_fraction": 0.5306458247634718,
+  "isoform_ambiguous_sites": 1011,
+  "per_gene": {
+   "CDC34": {
+    "n_sites": 55,
+    "transcript_len": 1418,
+    "hull_start": 223,
+    "hull_end": 802,
+    "hull_nt": 579,
+    "transcript_fraction": 0.4083215796897038,
+    "n_isoforms": 4
+   },
+   "UBE2D3": {
+    "n_sites": 78,
+    "transcript_len": 3729,
+    "hull_start": 303,
+    "hull_end": 643,
+    "hull_nt": 340,
+    "transcript_fraction": 0.09117725931885223,
+    "n_isoforms": 26
+   },
+   "UBE2B": {
+    "n_sites": 79,
+    "transcript_len": 1064,
+    "hull_start": 249,
+    "hull_end": 828,
+    "hull_nt": 579,
+    "transcript_fraction": 0.5441729323308271,
+    "n_isoforms": 4
+   },
+   "UBE2M": {
+    "n_sites": 76,
+    "transcript_len": 1159,
+    "hull_start": 256,
+    "hull_end": 755,
+    "hull_nt": 499,
+    "transcript_fraction": 0.43054357204486626,
+    "n_isoforms": 3
+   },
+   "UBE2L3": {
+    "n_sites": 53,
+    "transcript_len": 3007,
+    "hull_start": 240,
+    "hull_end": 567,
+    "hull_nt": 327,
+    "transcript_fraction": 0.10874625872963087,
+    "n_isoforms": 4
+   },
+   "UBE2H": {
+    "n_sites": 70,
+    "transcript_len": 5162,
+    "hull_start": 455,
+    "hull_end": 900,
+    "hull_nt": 445,
+    "transcript_fraction": 0.08620689655172414,
+    "n_isoforms": 7
+   },
+   "UBE2I": {
+    "n_sites": 64,
+    "transcript_len": 1529,
+    "hull_start": 546,
+    "hull_end": 913,
+    "hull_nt": 367,
+    "transcript_fraction": 0.24002616088947024,
+    "n_isoforms": 63
+   },
+   "UBE2S": {
+    "n_sites": 74,
+    "transcript_len": 2559,
+    "hull_start": 253,
+    "hull_end": 816,
+    "hull_nt": 563,
+    "transcript_fraction": 0.22000781555295038,
+    "n_isoforms": 3
+   },
+   "UBE2L6": {
+    "n_sites": 72,
+    "transcript_len": 1573,
+    "hull_start": 464,
+    "hull_end": 853,
+    "hull_nt": 389,
+    "transcript_fraction": 0.2472981563890655,
+    "n_isoforms": 4
+   },
+   "UBE2J1": {
+    "n_sites": 49,
+    "transcript_len": 4164,
+    "hull_start": 230,
+    "hull_end": 1094,
+    "hull_nt": 864,
+    "transcript_fraction": 0.207492795389049,
+    "n_isoforms": 1
+   },
+   "UBE2N": {
+    "n_sites": 76,
+    "transcript_len": 4877,
+    "hull_start": 111,
+    "hull_end": 501,
+    "hull_nt": 390,
+    "transcript_fraction": 0.0799671929464835,
+    "n_isoforms": 5
+   },
+   "UBE2G1": {
+    "n_sites": 79,
+    "transcript_len": 4167,
+    "hull_start": 415,
+    "hull_end": 848,
+    "hull_nt": 433,
+    "transcript_fraction": 0.1039116870650348,
+    "n_isoforms": 6
+   },
+   "UBE2E3": {
+    "n_sites": 79,
+    "transcript_len": 909,
+    "hull_start": 173,
+    "hull_end": 746,
+    "hull_nt": 573,
+    "transcript_fraction": 0.6303630363036303,
+    "n_isoforms": 10
+   },
+   "UBE2V1": {
+    "n_sites": 74,
+    "transcript_len": 1973,
+    "hull_start": 32,
+    "hull_end": 477,
+    "hull_nt": 445,
+    "transcript_fraction": 0.22554485554992398,
+    "n_isoforms": 9
+   },
+   "SOST": {
+    "n_sites": 75,
+    "transcript_len": 2296,
+    "hull_start": 101,
+    "hull_end": 616,
+    "hull_nt": 515,
+    "transcript_fraction": 0.22430313588850173,
+    "n_isoforms": 1
+   },
+   "NOG": {
+    "n_sites": 71,
+    "transcript_len": 1913,
+    "hull_start": 595,
+    "hull_end": 1149,
+    "hull_nt": 554,
+    "transcript_fraction": 0.2895974908520648,
+    "n_isoforms": 1
+   },
+   "UBE2C": {
+    "n_sites": 76,
+    "transcript_len": 641,
+    "hull_start": 249,
+    "hull_end": 489,
+    "hull_nt": 240,
+    "transcript_fraction": 0.374414976599064,
+    "n_isoforms": 7
+   },
+   "P2RX3": {
+    "n_sites": 90,
+    "transcript_len": 3792,
+    "hull_start": 237,
+    "hull_end": 1364,
+    "hull_nt": 1127,
+    "transcript_fraction": 0.29720464135021096,
+    "n_isoforms": 2
+   }
+  },
+  "by_window": {
+   "50": {
+    "interior": 1156,
+    "edge": 134,
+    "interior_fraction": 0.896124031007752,
+    "interior_status": "inferred_insert_interior",
+    "edge_status": "unresolved_context"
+   },
+   "100": {
+    "interior": 1001,
+    "edge": 289,
+    "interior_fraction": 0.775968992248062,
+    "interior_status": "inferred_insert_interior",
+    "edge_status": "unresolved_context"
+   },
+   "150": {
+    "interior": 844,
+    "edge": 446,
+    "interior_fraction": 0.6542635658914728,
+    "interior_status": "inferred_insert_interior",
+    "edge_status": "unresolved_context"
+   }
+  },
+  "verdict": "reporter context is PARTIALLY recoverable: interior windows lie inside a lower bound on the insert",
+  "caveats": [
+   "the hull is a LOWER bound on the insert; the true insert may extend further, so edge windows are unresolved rather than proven to be vector sequence",
+   "contiguity of the insert is inferred from dense tiling, not read from a construct record",
+   "vector backbone sequence is not recovered at all",
+   "only 1290/2431 sites are locatable in GENCODE",
+   "isoform-ambiguous sites are counted and never folded into a union"
+  ],
+  "evidence_kind": "float_diagnostic"
+ },
+ "splits": {
+  "novel_sequence": {
+   "group_by": [
+    "target_site",
+    "sequence_cluster"
+   ],
+   "n_groups": 1634,
+   "n_rows": 2431,
+   "median_group_size": 1.0,
+   "max_group_size": 6,
+   "singleton_groups": 1079,
+   "feasible": true,
+   "note": "all chemical variants of a site must share a fold. Huesken has none, so the grouping is trivially satisfied here and must be re-checked when Davis rows arrive."
+  },
+  "chemical_transfer": {
+   "status": "infeasible_without_davis",
+   "reason": "Huesken contains a single chemistry (unmodified). A transfer evaluation needs at least two scaffolds on the same site, which only Davis S1 can supply.",
+   "feasible": false
+  },
+  "target_wise": {
+   "n_target_genes": 30,
+   "rows_per_gene": {
+    "Mmp7": 150,
+    "C6orf110": 145,
+    "TCAP": 144,
+    "RAB6IP1": 126,
+    "P2RX3": 90,
+    "UBE2B": 79,
+    "UBE2S": 79,
+    "HIP2": 79,
+    "UBE2N": 79,
+    "UBE2G1": 79
+   },
+   "min_rows_per_gene": 46,
+   "note": "results must be shown per target gene; a row-wise bootstrap over this few genes does not license a population claim"
+  },
+  "forbidden": [
+   "broad unseen-gene conclusions from one held-out gene",
+   "row-wise bootstrap over a small number of target genes"
+  ],
+  "evidence_kind": "real_arithmetic_proof"
+ },
+ "arm_admissibility": [
+  {
+   "arm": "matched_sequence_chemistry",
+   "requires": [
+    "guide sequence"
+   ],
+   "admissible": true,
+   "note": "guide sequence is fully resolved; chemistry is constant here"
+  },
+  {
+   "arm": "target_sequence",
+   "requires": [
+    "target site sequence"
+   ],
+   "admissible": true,
+   "note": "the site is the reverse complement of the guide, so it carries the same information; a null result against sequence-only is expected by construction and is not evidence about target context"
+  },
+  {
+   "arm": "mfe_gnn",
+   "requires": [
+    "target window",
+    "folding"
+   ],
+   "admissible": true,
+   "note": "admissible ONLY on interior windows under the stated insert assumption; results must be labelled inferred_insert_interior"
+  },
+  {
+   "arm": "sampled_ensemble_gnn",
+   "requires": [
+    "target window",
+    "prior",
+    "sampler"
+   ],
+   "admissible": true,
+   "note": "same restriction; prior sensitivity and sampling error must be reported alongside"
+  },
+  {
+   "arm": "anchor_A",
+   "requires": [
+    "target window"
+   ],
+   "admissible": true,
+   "note": "same restriction"
+  },
+  {
+   "arm": "repaired_A_plus_B",
+   "requires": [
+    "target window",
+    "A-initialised residual"
+   ],
+   "admissible": true,
+   "note": "same restriction; P1 showed the residual is not predictively useful against explicit-basis regression"
+  },
+  {
+   "arm": "chemical_transfer",
+   "requires": [
+    ">=2 chemical scaffolds on one site"
+   ],
+   "admissible": false,
+   "note": "blocked: Huesken has a single chemistry"
+  },
+  {
+   "arm": "native_vs_reporter",
+   "requires": [
+    "assay-typed rows"
+   ],
+   "admissible": false,
+   "note": "blocked: needs Davis S1 assay-type column"
+  }
+ ],
+ "metrics_predeclared": {
+  "predeclared": true,
+  "within_assay_predictive": "spearman",
+  "candidate_selection": "top-k enrichment within target, k=20",
+  "activity_threshold": 0.7,
+  "threshold_rationale": "fixed before any arm is run; corresponds to 70% inhibition on the primary source's normalisation",
+  "report_prevalence": true,
+  "separate": [
+   "model-ranking validity (certificate correctness)",
+   "agreement with held-out measurement (empirical)"
+  ],
+  "scope": "on-target efficacy only; NOT off-target safety, NOT causal structure"
+ },
+ "f9_quarantine": {
+  "file": "data/gencode_windows.txt",
+  "status": "quarantined",
+  "why": "native GENCODE transcript context substituted for a reporter construct. Retained as labelled structural examples only; may not support any measured reporter conclusion."
+ },
+ "runtime_s": 1.32
+}

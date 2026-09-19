@@ -1,0 +1,36 @@
+{
+  "preexisting_files_verified": 5402,
+  "changed": [],
+  "engine_fits": 210,
+  "additional_direct_pair_ridge_fits": 4,
+  "checkpoint_hashes_verified": 210,
+  "recorded_optimizer_updates": 39306,
+  "profile_updates": 20,
+  "possible_uncheckpointed_interrupted_updates": [
+    0,
+    21
+  ],
+  "selected_state_updates": 14654,
+  "group_role_checks_pass": true,
+  "duplicate_outer_prediction_check_pass": true,
+  "scientific_code": {
+    "figures.py": "bf2027cdf470bf4d1ab9964dc24bfd31dab9ab82003aebbf1b9e6b318a63eabb",
+    "core.py": "1171d6c2c737124d8d196f382d5a77c8735dbb0a0987a420bdb411be6d1163df",
+    "external_uncertainty.py": "aa925c8e1ce43a6188fc178fa0f1a9cd1bea529007391bab31d14a88fdf84b75",
+    "b2.py": "2fdbafeb3253e2aefc5e196c0fe5988d50697d26adccfbc75e820e092bb0b3c3",
+    "runner.py": "a9734c0f480f5853036bb72bb25e47ae66adecee594e391f567291ca61b0b79f",
+    "factorial.py": "97a9f4a9cd8d67d859d21b7e5ae5a26fd3cdb11aa3ce0ccdf530f8c05cdc2518",
+    "prepare_paper.py": "be3f41816528ed51b4d40369cfe270e02d666715cd64c680e605bc0bf1d49542",
+    "plan.py": "edbf15c5d75816935d6a1dc4b194ac7bb22555c86f9ae3466d545f4026a26b00",
+    "external.py": "aecaca4e75f4c3fe731ad7d8a68a97e9997527c142c6561e94e48190b6b52ffd",
+    "paper_tables.py": "1c1ac22c0b34a3c6929aec78ab3531a215ce01f204d72d9b135393bce0535cef",
+    "evaluate.py": "4dbd9706c9bd54f1d67f209fb6a60463eceac7bac323d28d88962854daabb339",
+    "audit.py": "74d1319f53d10b7c4e0423109f9495b7eb4965cce9159a7367180171b4b8f094",
+    "source_checks.py": "32b10a498b49bb552d6aaa844a4576e874a7ff592e584cdb06367e6d18c9bf4d",
+    "deliver.py": "09aea813a80f695a63c76e551a05ec0e681d6075aaa84993e69fa26e975d7804",
+    "paper.py": "0a2db769f719e596eaf4ad8eee67fc0fe106f2efc739091ab4ddc5f441700e8b",
+    "integrity.py": "b83698d0b04acab93a329be0ae86f3debe015287e3057f5ccea4d34525ee1db3",
+    "grouped.py": "1aa5c328055236a9f98eebc8a1c271ca689922fc2b0a82409102afd4d0ab6f5e",
+    "package_science.py": "78214fc2d8b7e4e290508f6f5634e8fb77734b8fb0107c5d44c6c63c8b4b05d5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "through_job": 52,
+  "measured_cpu_s": 899.753629,
+  "aggregate_job_wall_s": 904.0011088624597,
+  "conservative_charge_s": 1929.2868066372996,
+  "cpu_s_cap": 7200.0,
+  "aggregate_job_wall_s_cap": 7200.0,
+  "reserve_s": 600.0,
+  "gpu_s": 0,
+  "workers": 1,
+  "numerical_threads": 1,
+  "recorded_utc": "2026-09-12T23:43:25.779228+00:00",
+  "remaining_s": 5270.713193362701,
+  "compute_remaining_before_reserve_s": 4670.713193362701
+}

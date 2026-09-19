@@ -1,0 +1,17 @@
+{
+  "audit_date": "2026-09-12",
+  "scope": "Bounded comparison of requested primary sources; no universal novelty clearance",
+  "historical_manifest": "runs/interaction_recoverability/prep-20260912-082154/sources/manifest.json",
+  "sources": [
+    {"id":"dextri","version":"2608.19849v1","url":"https://arxiv.org/html/2608.19849v1","read":"main identification statements, A1-A7, Appendix D rigidity and alternative regimes","local":"runs/interaction_recoverability/prep-20260912-082154/sources/dextri_v1.pdf"},
+    {"id":"trabs","version":"1307.6610v2","url":"https://arxiv.org/abs/1307.6610v2","read":"generalized score/adjoint and Theorem 2.7; existing unknown-profile source audit"},
+    {"id":"riesznet","version":"2110.03031v3","url":"https://arxiv.org/html/2110.03031v3","read":"equations 2-5, mixed-bias identity, Theorem 2.1, shared representation construction"},
+    {"id":"strong_functionals","version":"2208.08291v3","url":"https://arxiv.org/html/2208.08291v3","read":"Theorem 2 and operator-range comparisons, inference assumptions","local":"runs/interaction_recoverability/prep-20260912-082154/sources/strong_functionals.pdf"},
+    {"id":"outcome_spectral","version":"2512.00919v1","url":"https://arxiv.org/html/2512.00919v1","read":"augmented operator, Proposition 1, assumptions 2-4, Theorem 1, architecture-dependent optimality gap"},
+    {"id":"outcome_autodml","version":"2607.03351v1","url":"https://arxiv.org/html/2607.03351v1","read":"representation preservation, Theorems 10/12/13, Proposition 15, Algorithm 1 and conditional nuisance assumptions"},
+    {"id":"bilinear","version":"COLT 2023 PMLR195","url":"https://proceedings.mlr.press/v195/simchowitz23a.html","read":"Assumptions 2.1-2.4 and Theorem 2 in existing downloaded primary PDF","local":"runs/interaction_recoverability/prep-20260912-082154/sources/bilinear_colt2023.pdf"},
+    {"id":"goal_reduced_basis","version":"1305.3528v2","url":"https://arxiv.org/pdf/1305.3528v2","read":"primary full-text retrieval succeeded after browser errors; introduction, output-oriented algorithm/error discussion","local":"runs/interaction_recoverability/learned-target-v1-20260912-164000/sources/goal_reduced_basis_v2.pdf","sha256":"e87c2002bbc6babce8ee78db690118c29741412c0fa498b2dc732bb46eda1a0b"},
+    {"id":"optimal_recovery","version":"Annals of Statistics 22(1),1994,238-270","url":"https://web.stanford.edu/dept/statistics/cgi-bin/donoho/wp-content/uploads/2018/08/SEOR.pdf","read":"primary search extract of model and abstract; full browser fetch timed out; no new exact theorem equivalence asserted"},
+    {"id":"profile_likelihood","version":"JASA95(450),2000,449-465","url":"https://doi.org/10.1080/01621459.2000.10474219","read":"publisher abstract; full-text access unavailable; no transfer of asymptotic expansion assumed"}
+  ]
+}

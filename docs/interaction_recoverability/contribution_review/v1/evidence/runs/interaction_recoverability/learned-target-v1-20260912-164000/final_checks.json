@@ -1,0 +1,25 @@
+{
+  "allowance_start_utc": "2026-09-12T16:40:49.964458+00:00",
+  "status": "all existing-artifact checks passed",
+  "protected_files": 55,
+  "changed_protected_files": [],
+  "frozen_code_unchanged": true,
+  "private_spec_commitment_matches": true,
+  "prediction_and_source_hashes_match": true,
+  "datasets": 24,
+  "png_figures": 3,
+  "svg_figures": 3,
+  "watchdog": {
+    "child_pid": 875264,
+    "child_state": "absent",
+    "terminated": true,
+    "expected_wrapper_exit": 124,
+    "timeout_job": 10
+  },
+  "historical_ledger_exception": "Discovery job27, disclosed and preserved; no subsequent historical edits",
+  "last_running_job": 28,
+  "final_snapshot": "runs/interaction_recoverability/learned-target-v1-20260912-164000/resource_snapshot-28.json",
+  "command_journal_cutoff_job": 27,
+  "extra_unmetered_overhead_debit_s": 120.0,
+  "static_review": "docs/interaction_recoverability/learned_target_v1/review.md; executing-agent self-review, no independent-agent claim"
+}

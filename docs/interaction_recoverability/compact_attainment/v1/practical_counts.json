@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Fixed formula evaluation, not certified interval rounding of constants.",
+  "counts": [
+    {
+      "N": 1000,
+      "C4_bound_diagnostic": "25114856144420.95163890854941614790347091",
+      "gauss_mesh": "0.000001303926796662284470072402560371712729174",
+      "public_panel_overcount": 5821947,
+      "log2_iteration_amplification": "2466.817802443885576164550501510255628277",
+      "sufficient_input_fraction_bits_for_allocated_tau": 2550,
+      "interpretation": "Formula counts only, no panels, samples or complete estimator evaluated."
+    },
+    {
+      "N": 1000000,
+      "C4_bound_diagnostic": "100722940798985.3421486172701912929083426",
+      "gauss_mesh": "0.0000000008534674433530465943949584238855288815086",
+      "public_panel_overcount": 11949733321,
+      "log2_iteration_amplification": "7879.317851006088594115155685081869228293",
+      "sufficient_input_fraction_bits_for_allocated_tau": 7994,
+      "interpretation": "Formula counts only, no panels, samples or complete estimator evaluated."
+    }
+  ]
+}

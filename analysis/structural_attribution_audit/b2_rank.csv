@@ -1,0 +1,2 @@
+design,q,pair_endpoint_record_ids,raw_states,classes,rank_C_over_record_ids,rank_C,rank_CH,null_dim,floor,floor_before_mask,zero_control,floor_share_of_recorded_energy,full_rank_under_mask,mask_contributes_rank_loss,pair_gnn_mse,pair_ridge_mse,training_mean_mse,zero_mse,status
+B2_matched_pairs,156,312,156,156,156,78,78,78,0.0851262124038,0.0851262124038,0.280804472115,0.303151198991,False,False,0.222114613284,0.219296628667,0.263770403488,0.280804472115,complete; 4 outer folds partition all 156 pairs with no pair split across folds

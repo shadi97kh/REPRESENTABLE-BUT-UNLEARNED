@@ -1,0 +1,665 @@
+{
+  "original_audit": "runs/intervention/audit-v1/audit.json",
+  "row_count": 3500,
+  "source_workbook_rows_checked": 1200,
+  "source_workbook_disagreements": [],
+  "source_workbook_mapping_limit": "B-fast/C-slow row ordering is declared and cross-checked; row headings do not explicitly encode B and C",
+  "lantern_same_component_code_rows": 1100,
+  "lantern_same_component_code_label_disagreements": [],
+  "same_component_code_representation_disagreements": [
+    {
+      "component_code": "A17B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)CCCN)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)CCCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A17B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)CCCN)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)CCCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A17B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)CCCN)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)CCCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A17B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)CCCN)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)CCCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A17B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)CCCN)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)CCCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A18B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCC1CCCN1CC)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCC1CCCN1CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A18B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCC1CCCN1CC)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCC1CCCN1CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A18B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCC1CCCN1CC)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCC1CCCN1CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A18B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCC1CCCN1CC)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCC1CCCN1CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A18B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCC1CCCN1CC)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCC1CCCN1CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A19B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCNCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A19B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCNCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A19B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCNCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A19B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCNCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A19B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCNCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A20B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCNCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A20B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCNCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A20B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCNCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A20B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCNCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A20B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCNCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCNCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A1B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C)C)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A1B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C)C)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A1B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C)C)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A1B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C)C)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A1B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C)C)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A6B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)C)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A6B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)C)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A6B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)C)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A6B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)C)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A6B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(C)C)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A3B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CC)CC)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A3B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CC)CC)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A3B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CC)CC)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A3B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CC)CC)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A3B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CC)CC)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A8B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CCCC)CCCC)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CCCC)CCCC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A8B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CCCC)CCCC)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CCCC)CCCC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A8B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CCCC)CCCC)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CCCC)CCCC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A8B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CCCC)CCCC)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CCCC)CCCC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A8B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN(CCCC)CCCC)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN(CCCC)CCCC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A2B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A2B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A2B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A2B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A2B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A7B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCOCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A7B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCOCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A7B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCOCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A7B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCOCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A7B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCCN1CCOCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCCN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A4B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CC)CC)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A4B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CC)CC)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A4B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CC)CC)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A4B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CC)CC)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A4B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CC)CC)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CC)CC",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A11B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCOCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A11B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCOCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A11B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCOCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A11B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCOCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A11B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCOCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCOCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A12B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCN(C)CC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCN(C)CC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A12B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCN(C)CC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCN(C)CC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A12B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCN(C)CC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCN(C)CC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A12B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCN(C)CC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCN(C)CC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A12B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NC1CCN(C)CC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1CCN(C)CC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A14B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cn[nH]c1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CNN=C1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A14B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cn[nH]c1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CNN=C1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A14B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cn[nH]c1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CNN=C1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A14B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cn[nH]c1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CNN=C1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A14B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cn[nH]c1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CNN=C1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A9B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cc(C)nn1C)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CC(C)=NN1C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A9B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cc(C)nn1C)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CC(C)=NN1C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A9B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cc(C)nn1C)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CC(C)=NN1C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A9B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cc(C)nn1C)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CC(C)=NN1C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A9B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(Nc1cc(C)nn1C)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NC1=CC(C)=NN1C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A13B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCCCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A13B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCCCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A13B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCCCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A13B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCCCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A13B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NN1CCCCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A5B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CCN)CCN)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CCN)CCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A5B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CCN)CCN)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CCN)CCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A5B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CCN)CCN)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CCN)CCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A5B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CCN)CCN)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CCN)CCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A5B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(CCN)CCN)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(CCN)CCN",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A10B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A10B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A10B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A10B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A10B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A15B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCCC1)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A15B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCCC1)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A15B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCCC1)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A15B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCCC1)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A15B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN1CCCCC1)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN1CCCCC1",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A16B5C5",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C(C)C)C(C)C)C(=O)NCCCCCCCC/C=C\\CCCCCCCC",
+      "lantern_smiles": "CCCCCCCC\\C=C/CCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C(C)C)C(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A16B5C4",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C(C)C)C(C)C)C(=O)NCCCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C(C)C)C(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A16B5C1",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C(C)C)C(C)C)C(=O)NCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C(C)C)C(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A16B5C2",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C(C)C)C(C)C)C(=O)NCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C(C)C)C(C)C",
+      "label_agrees": true
+    },
+    {
+      "component_code": "A16B5C3",
+      "agile_smiles": "CCCCCCC/C=C\\C(=O)OCCCCCC(NCCN(C(C)C)C(C)C)C(=O)NCCCCCCCCCCCCCCCC",
+      "lantern_smiles": "CCCCCCCCCCCCCCCCNC(=O)C(CCCCCOC(=O)\\C=C\\CCCCCCC)NCCN(C(C)C)C(C)C",
+      "label_agrees": true
+    }
+  ],
+  "cis_trans_annotation_rows": 200,
+  "cis_trans_annotation_counts": {
+    "C+T": 100,
+    "": 100
+  },
+  "current_zenodo_agile_rows": 1200,
+  "current_zenodo_canonical_unique": 1200,
+  "current_zenodo_vs_grouped_chemical_label_disagreements": [],
+  "study_assay_provenance": {
+    "formulation": {
+      "ionizable_lipid": 35,
+      "DOPE": 16,
+      "cholesterol": 46.5,
+      "C14_PEG2000": 2.5,
+      "unit": "molar parts"
+    },
+    "cargo": "firefly luciferase mRNA (mFluc)",
+    "dose": {
+      "value": 0.1,
+      "unit": "microgram mRNA per well"
+    },
+    "timing": {
+      "value": 24,
+      "unit": "hours post-treatment"
+    },
+    "endpoint_scale": "log2(mean transfected-cell luminescence / mean untreated-cell luminescence)",
+    "source": "https://www.nature.com/articles/s41467-024-50619-z",
+    "source_sections": [
+      "LNPs formulation and characterization",
+      "Luciferase transfection assay"
+    ],
+    "applicability": "study-level HTS settings; individual well deviations, reagent lots and doses not independently recorded here",
+    "assay_material": "crude, unpurified reaction products in initial HTS; a pure product graph is an approximation",
+    "replicate_availability": "per-well biological/technical repeats unavailable for the 1200-row endpoint grid",
+    "aggregation": "ratio of means specified; individual means, repeated controls and per-row variances absent"
+  },
+  "interpretation": "The 100 AGILE-LANTERN canonical-match label disagreements in v1 reflect product/isomer representation alignment, not 100 current same-code measurement disagreements. Do not merge cis-trans mixtures with pure trans products, or call all conflicts biological replicate noise.",
+  "pairs_constructed": 0,
+  "training_steps": 0,
+  "resources": {
+    "wall_s": 4.901376738213003,
+    "process_cpu_s": 4.900712,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.001361308888888889,
+    "gpu_hours": 0,
+    "peak_rss_kib": 210952,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

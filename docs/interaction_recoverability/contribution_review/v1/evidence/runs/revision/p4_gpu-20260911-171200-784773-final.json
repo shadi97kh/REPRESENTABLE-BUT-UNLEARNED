@@ -1,0 +1,39 @@
+{
+  "cycle": "runs/revision/p4_gpu-20260911-171200-784773-cycle.json",
+  "eligible_target_pools": 16,
+  "expanded_figure2": {
+    "path": "runs/revision/p4_gpu-20260911-171200-784773-figure2_coverage_total_compute_v2.csv",
+    "sha256": "52f43c3cd6f9ea5d9098e4ed4cceab86489f145695dbde7ceb2c5635fcb8ab71"
+  },
+  "instrumented_execution_and_checks_totals": {
+    "child_cpu_s": 0.019441,
+    "cpu_core_hours": 0.07672531861111109,
+    "gpu_hours": 0.07604306939969926,
+    "process_cpu_s": 276.191706,
+    "wall_s": 276.372669106815
+  },
+  "optimizer_steps": 0,
+  "report": "docs/p4_actual_model_executed-20260911-171200-784773-final.md",
+  "report_sha256": "5435f3cac517fe634a7f01d2d85376492df95c45b25b0a01c57cf4326959a3b1",
+  "resources": {
+    "blas_threads": 1,
+    "child_cpu_s": 0.0,
+    "child_processes_spawned": 0,
+    "cpu_core_hours": 6.127500000000014e-06,
+    "gpu_hours": 0,
+    "max_rss_kib": 492432,
+    "openmp_threads": 1,
+    "process_cpu_s": 0.02205900000000005,
+    "torch_threads": 1,
+    "wall_s": 0.022059358889237046
+  },
+  "shortlist_changes": {
+    "alternative_isoform": 0,
+    "draw_16": 0,
+    "independent_64_draw": 0,
+    "prior_T_0.5": 9,
+    "prior_T_2.0": 8
+  },
+  "source_sha256": "366583dcc92d78e5a0c66b8ca48be517940cfd8c5531b335b05454fb16fa5712",
+  "training_executed": false
+}

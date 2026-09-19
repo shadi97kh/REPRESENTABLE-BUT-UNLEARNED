@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "preserved_file_count": 1111,
+  "changed_preserved_files": [],
+  "parsed_python_files": [
+    "checks.py",
+    "estimator.py",
+    "finalize.py",
+    "practical_counts.py",
+    "resource_gate.py"
+  ],
+  "unconditional_sample_entry_refusal": true,
+  "missing_document_links": [],
+  "scope": "Static verification only; no mathematical experiment rerun."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "rational_certificates": {
+    "sqrt829_upper": true,
+    "sqrt269_upper": true,
+    "lower_root_gap_below_five": true,
+    "sqrt884_lower": true,
+    "sqrt244_lower": true,
+    "upper_root_gap_above_five": true,
+    "entry_to_local_interval_after_32": true,
+    "hp14_below_129": true,
+    "hp26_above_152": true,
+    "local_denominator_above_007": true,
+    "sqrt12_above_346": true,
+    "positive_warp_shift_below_051": true,
+    "exp_4_upper": true,
+    "exp_5_upper": true,
+    "exp_1/10_upper": true,
+    "exp_841/200_upper": true
+  },
+  "central_complete_influence_L2_remainder_K512_upper": 3.9631395904922615e-05,
+  "central_four_coefficient_vector_L2_remainder_upper": 1.5852558361969046e-06,
+  "response_tail_L2_remainder_R12_upper": 5.904186464344394,
+  "lattice_L2_remainder_M24_R12_upper": 1e-45,
+  "scope": "Analytic bounds for exact truncated influence, not a certificate of the floating-point quadrature.",
+  "precision_allocations": [
+    {
+      "N": 1000,
+      "K": 206,
+      "J_Y": 33890124.19423938,
+      "C_data": 2142450,
+      "tau_input": 1.7345415825286903e-12,
+      "sufficient_fraction_bits": 40,
+      "cap_integer_magnitude_bits": 20,
+      "scope": "Public sufficient input allocation, not a full working-bit certificate."
+    },
+    {
+      "N": 10000,
+      "K": 274,
+      "J_Y": 48927291.46577998,
+      "C_data": 2846250,
+      "tau_input": 1.2071802898422438e-13,
+      "sufficient_fraction_bits": 43,
+      "cap_integer_magnitude_bits": 27,
+      "scope": "Public sufficient input allocation, not a full working-bit certificate."
+    },
+    {
+      "N": 100000,
+      "K": 342,
+      "J_Y": 66015872.36069906,
+      "C_data": 3550050,
+      "tau_input": 8.984283824702179e-15,
+      "sufficient_fraction_bits": 47,
+      "cap_integer_magnitude_bits": 34,
+      "scope": "Public sufficient input allocation, not a full working-bit certificate."
+    },
+    {
+      "N": 1000000,
+      "K": 410,
+      "J_Y": 85251383.20044093,
+      "C_data": 4253850,
+      "tau_input": 6.982831848697862e-16,
+      "sufficient_fraction_bits": 51,
+      "cap_integer_magnitude_bits": 40,
+      "scope": "Public sufficient input allocation, not a full working-bit certificate."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "Push blocked by automatic approval review; no upload performed",
+  "destination_repository": "https://github.com/shadi97kh/iclr2027",
+  "prepared_reduced_branch": "publication/sirna-code-results-v1",
+  "prepared_reduced_commit": "05e600976eecff800960d8d603799d9d8eb89b6c",
+  "reduced_files": 88,
+  "reduced_uncompressed_mib": 1.25,
+  "reduced_scope": "Scientific code, aggregate results/figures, configuration and resource accounting. No measured rows, individual predictions, raw inputs, checkpoint binaries or manuscript files.",
+  "prepared_full_local_commit": "3a2c5ce559cba3b2380546166abfb556a23bed3d",
+  "full_files": 1197,
+  "full_selected_checkpoints": 154,
+  "approval_review_reason": "Exact destination and payload require explicit user authorization; both full and reduced push attempts were rejected. No alternate transport or indirect upload attempted after either rejection.",
+  "preservation": "Original scientific runs, manuscripts and prior work remain local and unchanged. The full selected material was committed locally; the reduced contribution is in a separate worktree."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "Published and remote main independently verified by fetch",
+  "recorded_utc": "2026-09-14T00:26:21.851375+00:00",
+  "repository": "https://github.com/shadi97kh/iclr2027",
+  "branch": "main",
+  "previous_remote_commit": "efa772a3c0abf72e1d32ca71c819f2351e8f8366",
+  "published_commit": "05e600976eecff800960d8d603799d9d8eb89b6c",
+  "commit_url": "https://github.com/shadi97kh/iclr2027/commit/05e600976eecff800960d8d603799d9d8eb89b6c",
+  "published_files": 88,
+  "hashed_artifacts": 87,
+  "scope": "Scientific scripts, configurations, aggregate comparison results and figures, and resource accounting",
+  "excluded": [
+    "paper TeX",
+    "manuscript PDFs",
+    "review ZIP",
+    "measured observation rows",
+    "individual prediction files",
+    "raw data",
+    "checkpoint binaries"
+  ],
+  "history": "Normal fast-forward push; no forced update",
+  "preservation": "Local main remains 3a2c5ce559cba3b2380546166abfb556a23bed3d. Existing manuscript, scientific run and review files preserved. Prior pending-approval records retained as history.",
+  "verification": "87 artifact hashes passed; remote-tracking origin/main fetched as the exact published commit; no tracked working-tree or index changes",
+  "scientific_jobs_executed": 0,
+  "cost": "Git inspection, hashing, network publication, and receipt authoring incurred nonzero administrative cost; not separately metered. No historical resource ledger was changed."
+}

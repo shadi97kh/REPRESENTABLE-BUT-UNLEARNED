@@ -1,0 +1,18 @@
+{
+  "status": "Published; remote main independently fetched and verified",
+  "repository": "https://github.com/shadi97kh/iclr2027",
+  "branch": "main",
+  "commit": "99fdc2cbd7fb5c0d260ba07c579e158f207cd360",
+  "commit_url": "https://github.com/shadi97kh/iclr2027/commit/99fdc2cbd7fb5c0d260ba07c579e158f207cd360",
+  "changed_files": 138,
+  "previous_remote_commit": "05e600976eecff800960d8d603799d9d8eb89b6c",
+  "local_main_preserved": "3a2c5ce559cba3b2380546166abfb556a23bed3d",
+  "publication_checkout": "/tmp/iclr2027-sirna-v3-publication",
+  "force_push": false,
+  "scientific_fits": 0,
+  "optimizer_updates": 0,
+  "published_scope": "Scientific code, configuration, aggregate results and support records, supplied workflow PNG/PDF, eleven result figures with PDF/PNG/SVG exports, READMEs and integrity manifest",
+  "excluded": "Manuscript TeX/PDF, raw inputs, per-observation prediction files, checkpoint binaries, review archives, caches and authoring instructions",
+  "administrative_cost": "Nonzero inspection, copying, hashing, compilation and network cost; not separately metered. No historical ledger changed.",
+  "recorded_utc": "2026-09-14T07:11:47.447113+00:00"
+}

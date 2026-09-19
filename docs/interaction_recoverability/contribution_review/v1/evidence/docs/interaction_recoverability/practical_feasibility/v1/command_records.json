@@ -1,0 +1,321 @@
+[
+  {
+    "utc": "2026-09-12T22:57:41.605306+00:00",
+    "event": "start",
+    "job_id": 43,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_base"
+    ],
+    "timeout_s": 45.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T22:57:43.724850+00:00",
+    "event": "end",
+    "job_id": 43,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 2.0975059999999996,
+    "wall_s": 2.126689489930868,
+    "conservative_charge_s": 2.2266894899308682,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 638680,
+    "waited_child_peak_rss_kib": 195132,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T22:58:17.653145+00:00",
+    "event": "start",
+    "job_id": 44,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_depth",
+      "--depth",
+      "256"
+    ],
+    "timeout_s": 45.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T22:58:21.221419+00:00",
+    "event": "end",
+    "job_id": 44,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 3.57991,
+    "wall_s": 3.5755099640227854,
+    "conservative_charge_s": 3.67991,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 654632,
+    "waited_child_peak_rss_kib": 281976,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T22:58:42.115779+00:00",
+    "event": "start",
+    "job_id": 45,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_integration",
+      "--depth",
+      "256",
+      "--order",
+      "128",
+      "--step",
+      "0.125"
+    ],
+    "timeout_s": 45.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T22:58:46.422408+00:00",
+    "event": "end",
+    "job_id": 45,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 4.325673999999999,
+    "wall_s": 4.313844294985756,
+    "conservative_charge_s": 4.425673999999999,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 629812,
+    "waited_child_peak_rss_kib": 445368,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:01:58.660455+00:00",
+    "event": "start",
+    "job_id": 46,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_tail",
+      "--depth",
+      "256",
+      "--order",
+      "128",
+      "--step",
+      "0.125",
+      "--radius",
+      "12"
+    ],
+    "timeout_s": 45.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:02:03.112243+00:00",
+    "event": "end",
+    "job_id": 46,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 4.3857159999999995,
+    "wall_s": 4.458982351003215,
+    "conservative_charge_s": 4.558982351003214,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 626092,
+    "waited_child_peak_rss_kib": 452332,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:03:27.182981+00:00",
+    "event": "start",
+    "job_id": 47,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_deep",
+      "--depth",
+      "512",
+      "--order",
+      "128",
+      "--step",
+      "0.125",
+      "--radius",
+      "12"
+    ],
+    "timeout_s": 45.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:03:35.123196+00:00",
+    "event": "end",
+    "job_id": 47,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 7.906075,
+    "wall_s": 7.947259847074747,
+    "conservative_charge_s": 8.047259847074747,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 639276,
+    "waited_child_peak_rss_kib": 717048,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:05:51.608236+00:00",
+    "event": "start",
+    "job_id": 48,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_final",
+      "--depth",
+      "512",
+      "--order",
+      "256",
+      "--step",
+      "0.0625",
+      "--radius",
+      "12"
+    ],
+    "timeout_s": 30.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:06:02.190758+00:00",
+    "event": "end",
+    "job_id": 48,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 10.591585,
+    "wall_s": 10.589772982057184,
+    "conservative_charge_s": 10.691585,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 645332,
+    "waited_child_peak_rss_kib": 1291104,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:08:23.945558+00:00",
+    "event": "start",
+    "job_id": 49,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/error_and_precision.py"
+    ],
+    "timeout_s": 10.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:08:24.119130+00:00",
+    "event": "end",
+    "job_id": 49,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 0.132407,
+    "wall_s": 0.18085299292579293,
+    "conservative_charge_s": 0.2808529929257929,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 638868,
+    "waited_child_peak_rss_kib": 18960,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:08:36.685476+00:00",
+    "event": "start",
+    "job_id": 50,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/influence_variance.py",
+      "variance_accumulator",
+      "--depth",
+      "512",
+      "--order",
+      "256",
+      "--step",
+      "0.0625",
+      "--radius",
+      "12",
+      "--precision",
+      "float64"
+    ],
+    "timeout_s": 25.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:08:46.999239+00:00",
+    "event": "end",
+    "job_id": 50,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 10.25381,
+    "wall_s": 10.320878301979974,
+    "conservative_charge_s": 10.420878301979974,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 659904,
+    "waited_child_peak_rss_kib": 1291168,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  },
+  {
+    "utc": "2026-09-12T23:14:25.544777+00:00",
+    "event": "start",
+    "job_id": 51,
+    "phase": "compute",
+    "command": [
+      "python",
+      "-B",
+      "docs/interaction_recoverability/practical_feasibility/v1/finalize.py"
+    ],
+    "timeout_s": 10.0,
+    "affinity": [
+      0
+    ]
+  },
+  {
+    "utc": "2026-09-12T23:14:25.816367+00:00",
+    "event": "end",
+    "job_id": 51,
+    "returncode": 0,
+    "timed_out": false,
+    "measured_cpu_s": 0.278542,
+    "wall_s": 0.27893402287736535,
+    "conservative_charge_s": 0.37893402287736533,
+    "observed_process_count": 1,
+    "affinity_violations": [],
+    "parent_peak_rss_kib": 679192,
+    "waited_child_peak_rss_kib": 33520,
+    "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+  }
+]

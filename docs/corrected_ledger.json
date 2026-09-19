@@ -1,0 +1,515 @@
+{
+ "kind": "corrected_claim_ledger",
+ "created": "2026-09-06 01:16:30",
+ "status_counts": {
+  "established": 12,
+  "corrected": 8,
+  "open": 9,
+  "scoped": 3,
+  "refuted": 14,
+  "historical": 4
+ },
+ "n_entries": 50,
+ "entries": [
+  {
+   "id": "report.traceability_pages_6_10",
+   "claim": "every number on report pages 6-10 traces to an immutable record",
+   "status": "established",
+   "evidence_kind": "exact_integer",
+   "reported": "not assessed",
+   "corrected": "33 rows: 27 traced, 4 mismatch, 0 unrecorded",
+   "source_record": "docs/run_report.pdf",
+   "note": "the report supplies the claim list; every value is recomputed from records. Report sha256 recorded in the audit artefact."
+  },
+  {
+   "id": "audits.persist_only_on_failure",
+   "claim": "clean audit runs leave an immutable record",
+   "status": "corrected",
+   "evidence_kind": "exact_integer",
+   "reported": "implied by the report citing 1,262,952 checks and 72/72",
+   "corrected": "audit_bounds, audit_conditional and check_certificates persisted nothing on success; records created by rerun_unrecorded, all three reproduce exactly (122 s CPU, no GPU)",
+   "source_record": "runs/revision/rerun_unrecorded-*.json",
+   "note": "protocol v2 must persist a structured record on success as well as on failure; scraping stdout is a rescue, not an arrangement"
+  },
+  {
+   "id": "verifier.fixed_conditional.resolution_rate",
+   "claim": "fixed_conditional resolves this fraction of pilot instances",
+   "status": "corrected",
+   "evidence_kind": "exact_integer",
+   "reported": "83.6% closed",
+   "corrected": "77.9% proved",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "19 instances carried both gap_rel==0 and timeout; the reported figure counted them as closed. Corrected value is lower."
+  },
+  {
+   "id": "verifier.learned_conditional.resolution_rate",
+   "claim": "learned_conditional resolves this fraction of pilot instances",
+   "status": "corrected",
+   "evidence_kind": "exact_integer",
+   "reported": "74.8% closed",
+   "corrected": "66.1% proved",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "29 instances carried both gap_rel==0 and timeout; the reported figure counted them as closed. Corrected value is lower."
+  },
+  {
+   "id": "verifier.outcome_vocabulary",
+   "claim": "termination outcomes are mutually exclusive",
+   "status": "established",
+   "evidence_kind": "exact_integer",
+   "reported": "closed / timeout (overlapping flags)",
+   "corrected": "proved / unresolved (exclusive, sums to 100%)",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "the record's own `status` field is already exclusive and timeout holds if and only if status == unresolved"
+  },
+  {
+   "id": "verifier.first_attainment_time",
+   "claim": "time at which each arm first met the requested tolerance",
+   "status": "open",
+   "evidence_kind": "float_diagnostic",
+   "reported": "reported as median wall_s",
+   "corrected": "NOT INSTRUMENTED in protocol v1; wall_s is a stopping time and for a timed-out record equals the budget",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "log (t, L, U, status) at every bound update; derive first-attainment and anytime AUC from that stream."
+  },
+  {
+   "id": "verifier.negative_gap_defect",
+   "claim": "no bound inversion occurs",
+   "status": "corrected",
+   "evidence_kind": "float_diagnostic",
+   "reported": "not reported",
+   "corrected": "12 negative gaps in policy_pilot, min -1.137e-13, not clipped",
+   "source_record": "runs/policy_pilot/*.json",
+   "note": "roundoff-scale bound inversion (order 1e-13) in every policy-pilot arm including the unconditional baseline, so it is a property of the shared float bound evaluation, not of conditioning. Consistent with float_unverified status; it is recorded rather than clipped, and an enclosed implementation (P4) must make it impossible."
+  },
+  {
+   "id": "verifier.denominators",
+   "claim": "n = 330 per arm",
+   "status": "established",
+   "evidence_kind": "exact_integer",
+   "reported": "330 per arm, 291 timeouts, 30 voids",
+   "corrected": "360 cells - 30 void = 330 x 5 arms = 1650 records",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "291 timeouts are (cell, arm) records out of 1650, not 291 of the 330 cells"
+  },
+  {
+   "id": "effects.population_accounting",
+   "claim": "model-effect intervals validated and classified",
+   "status": "corrected",
+   "evidence_kind": "exact_integer",
+   "reported": "75 intervals validated, verdicts 31/2/7 (implied subset)",
+   "corrected": "75 validated by enumeration (0 failures) AND 40 classified on pilot instances -- disjoint populations",
+   "source_record": "runs/explanations/effects-20260905-161546.json",
+   "note": "no interval is unaccounted for; the two totals answer different questions and must not appear in one row"
+  },
+  {
+   "id": "ranking.coverage",
+   "claim": "fraction of candidate comparisons the certificate resolves",
+   "status": "corrected",
+   "evidence_kind": "real_arithmetic_proof",
+   "reported": "60/132 = 45.5% (ordered denominator)",
+   "corrected": "60/66 = 90.9% (unordered, matched)",
+   "source_record": "runs/rna_eval/eval-20260905-175958.json",
+   "note": "l_i <= u_i for every candidate, so u_i < l_j and u_j < l_i cannot both hold. Each resolved inequality therefore identifies a distinct unordered pair, and the matched denominator is k(k-1)/2."
+  },
+  {
+   "id": "gate.G3.interpretation",
+   "claim": "certifiability is cheap because G3 passed",
+   "status": "scoped",
+   "evidence_kind": "float_diagnostic",
+   "reported": "PASS, point -0.3361, CI [-0.48575238868881393, -0.18691974646426446]",
+   "corrected": "PASS is arithmetically correct but uninformative",
+   "source_record": "runs/gates/gates-20260905-163244.json",
+   "note": "the constrained arm is A+B (mean 0.4573), not the best available certifiable model A (mean 0.7253). The gate never compared the free model against the strongest constrained one, and it passes because the free arm scored 0.1212."
+  },
+  {
+   "id": "predictor.graph_inputs",
+   "claim": "what the trained predictor arms consumed as graph input",
+   "status": "established",
+   "evidence_kind": "real_arithmetic_proof",
+   "reported": "unstated in the report",
+   "corrected": "the guide's own 21-mer MFE structure; no target window",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "these arms fold the assayed guide's OWN sequence, so no native transcript was substituted for a reporter construct (unlike F9). They are a valid optimisation diagnostic and cannot support any target-structure claim."
+  },
+  {
+   "id": "predictor.split_strength",
+   "claim": "the predictor split supports a generalisation claim",
+   "status": "scoped",
+   "evidence_kind": "float_diagnostic",
+   "reported": "gene-disjoint, n=400",
+   "corrected": "one held-out gene (['UBE2D3']), test n=69",
+   "source_record": "runs/pilot/pilot-20260905-163226.json",
+   "note": "one held-out gene; not a population claim"
+  },
+  {
+   "id": "model.anchor_sign",
+   "claim": "the additive anchor is non-negative",
+   "status": "refuted",
+   "evidence_kind": "real_arithmetic_proof",
+   "reported": "non-negative additive anchor",
+   "corrected": "signed: nn.Linear with unconstrained weight and bias",
+   "source_record": "scmp/model.py:AnchorEncoder",
+   "note": "the non-negativity constraint belongs to certmp's monotone MPNN (phase one), not to scmp's anchor. The report's limits table carried the phase-one restriction across to phase two. This matters: a signed anchor is strictly more expressive and does not obstruct the support oracle, which optimises a linear objective over the family regardless of coefficient sign."
+  },
+  {
+   "id": "theory.additivity_in_z",
+   "claim": "sum+ReLU with non-negative parameters is additive in the graph z",
+   "status": "refuted",
+   "evidence_kind": "exact_rational",
+   "reported": "exactly affine (C4, violation 2.157e-16)",
+   "corrected": "f(z) = 2z1 + 2z2 + 2z1z2 on the three-node path; mixed difference 2 with every ReLU stable",
+   "source_record": "scmp/revision/audit_math.py:check_three_node_path",
+   "note": "C4 varied X with the adjacency fixed, establishing affinity in X only. Additivity in z is a different statement and is false."
+  },
+  {
+   "id": "model.residual_carries_structure",
+   "claim": "the residual g is non-additive in z on a real feasible family",
+   "status": "established",
+   "evidence_kind": "float_diagnostic",
+   "reported": "not measured",
+   "corrected": "relative residual 2.365e-02 after projecting 20 enumerated members onto [1, z]",
+   "source_record": "scmp/revision/audit_math.py:check_design_matrix_residual",
+   "note": "capacity for non-additive structure is present. This is NOT evidence that it generalises: G4 measured generalisation and failed."
+  },
+  {
+   "id": "bounds.layer1_relaxation",
+   "claim": "layer 1 needs no relaxation at all",
+   "status": "corrected",
+   "evidence_kind": "float_diagnostic",
+   "reported": "no relaxation needed at layer 1",
+   "corrected": "message M1 exactly affine; its ReLU relaxed, 2 unstable units observed",
+   "source_record": "scmp/bounds.py:ResidualBounder.propagate",
+   "note": "the implementation was already correct; the report's sentence generalised a true statement about the message to the whole layer"
+  },
+  {
+   "id": "theory.kappa_feature_independence",
+   "claim": "kappa_L bounds the relaxation ratio for arbitrary positive features",
+   "status": "refuted",
+   "evidence_kind": "exact_rational",
+   "reported": "implied by the report's framing",
+   "corrected": "kappa_2 = 2 but features (1,1,1,1/10,1/10) give 31/11 (2.8182)",
+   "source_record": "scmp/revision/audit_math.py:check_kappa_counterexample",
+   "note": "the uniform-feature identity is untouched; only its feature-independent extension is refuted"
+  },
+  {
+   "id": "theory.kappa_exponent",
+   "claim": "the relaxation-gap exponent 0.912 per layer is architectural",
+   "status": "scoped",
+   "evidence_kind": "exact_rational",
+   "reported": "0.912 per layer, R^2 0.9996, depths 1-4",
+   "corrected": "kappa_L = (2m-1)^L without self-loops, m^L with them: the exponent depends on the family and the self-loop convention",
+   "source_record": "scmp/revision/audit_math.py:check_matching_kappa_formula",
+   "note": "C5's measurement stands on the family C5 used; the universal reading does not"
+  },
+  {
+   "id": "theory.kappa_under_actual_convention",
+   "claim": "the closed-form kappa applies to the implemented model",
+   "status": "refuted",
+   "evidence_kind": "exact_rational",
+   "reported": "kappa_L presented without stating the fixed part B",
+   "corrected": "B = I + chain at every call site; kappa is no clean power (m=3,L=2 gives 177/41 vs 9 for self-loops only)",
+   "source_record": "scmp/revision/audit_math.py:check_actual_convention_kappa",
+   "note": "B = I + chain is present in every member, so the union and the maximum share a fixed core and the ratio is compressed toward 1 relative to the candidate-only formulas. Any kappa quoted for this model must be derived under B, not borrowed from the matching closed form."
+  },
+  {
+   "id": "historical.G1",
+   "claim": "G1 conditional vs unconditional",
+   "status": "historical",
+   "evidence_kind": "learned_synthetic",
+   "reported": "UNDETERMINED point=None ci=None",
+   "corrected": "retained unchanged",
+   "source_record": "runs/gates/gates-20260905-163244.json",
+   "note": "protocol v1 result; retained for the record and never re-scored"
+  },
+  {
+   "id": "historical.G2",
+   "claim": "G2 learned vs deterministic allocation",
+   "status": "historical",
+   "evidence_kind": "learned_synthetic",
+   "reported": "UNDETERMINED point=None ci=None",
+   "corrected": "retained unchanged",
+   "source_record": "runs/gates/gates-20260905-163244.json",
+   "note": "protocol v1 result; retained for the record and never re-scored"
+  },
+  {
+   "id": "historical.G3",
+   "claim": "G3 predictor noninferiority",
+   "status": "historical",
+   "evidence_kind": "measured_rna",
+   "reported": "PASS point=-0.33605290566268275 ci=[-0.48575238868881393, -0.18691974646426446]",
+   "corrected": "retained unchanged",
+   "source_record": "runs/gates/gates-20260905-163244.json",
+   "note": "protocol v1 result; retained for the record and never re-scored"
+  },
+  {
+   "id": "historical.G4",
+   "claim": "G4 residual predictive value",
+   "status": "historical",
+   "evidence_kind": "learned_synthetic",
+   "reported": "FAIL point=-0.2680063574863998 ci=[-0.40758143195387114, -0.12843128301892848]",
+   "corrected": "retained unchanged",
+   "source_record": "runs/gates/gates-20260905-163244.json",
+   "note": "protocol v1 result; retained for the record and never re-scored"
+  },
+  {
+   "id": "predictor.reproduction",
+   "claim": "the predictive pilot reproduces",
+   "status": "established",
+   "evidence_kind": "float_diagnostic",
+   "reported": "0.7253 / 0.4573 / 0.1212",
+   "corrected": "reproduced exactly from actual source and data",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "technical training diagnostic; supports no RNA claim"
+  },
+  {
+   "id": "predictor.input_parity",
+   "claim": "the unconstrained baseline is a fair comparator",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "0.1212, read as the cost of no constraint",
+   "corrected": "adding only a node-wise skip path gives 0.3390",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "the baseline had no route from X to the output bypassing the adjacency; the gate compared architecture families"
+  },
+  {
+   "id": "predictor.gamma0_graph_blind",
+   "claim": "certifiable_gamma0 is a graph model",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "0.7253 presented as a certifiable-model result",
+   "corrected": "f(A=I) == f(A=ones) exactly; it is b(X) alone",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "its score contains no graph information"
+  },
+  {
+   "id": "predictor.decomposition_unexercised",
+   "claim": "G4 tested the anchor+residual decomposition",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "G4 = residual predictive value",
+   "corrected": "candidates=(), so a^T z == 0 and P z == 0 in every predictor arm",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "run_pilot builds CertifiedModel(d_in, tuple(), ...) with an EMPTY candidate set and passes an empty z, so a^T z is identically zero and P z is zero. G4 did not test the anchor+residual decomposition over any family."
+  },
+  {
+   "id": "predictor.optimisation_adequate",
+   "claim": "the weak arm underfits or is buggy",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "0.1212 read as a weak/underfit model",
+   "corrected": "all three arms interpolate 24 rows at train R2 = 1.000",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "a generalisation failure, not an optimisation failure; the diagnosis comes from the training curve, not the test score"
+  },
+  {
+   "id": "predictor.a_initialisation_repairs_residual",
+   "claim": "A-initialised residual training beats the old setup",
+   "status": "established",
+   "evidence_kind": "learned_synthetic",
+   "reported": "old setup: residual on gamma=1 from scratch",
+   "corrected": "A_init_finetune delta -0.7329 vs A_only on 5/5 seeds; old setup +0.3714 on 0/5",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "synthetic, one family, size holdout; a mechanism result, not a predictive one"
+  },
+  {
+   "id": "predictor.useful_nonlinear_value",
+   "claim": "the residual carries useful nonlinear predictive value",
+   "status": "refuted",
+   "evidence_kind": "learned_synthetic",
+   "reported": "the intended P1 outcome",
+   "corrected": "a pairwise ridge is EXACT (MSE 0.0000) on path_matching|interacting where A_init_residual is 10.3087; no benefit at all on layered_dag",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "the residual learns ~8% of the target projection residual and ~13% of its mixed-difference magnitude: real but far short. NOTE the targets are exactly linear in an explicit basis, which favours ridge by construction; a fair retest needs non-basis-representable targets"
+  },
+  {
+   "id": "predictor.additive_negative_control",
+   "claim": "the residual avoids harm on deliberately additive targets",
+   "status": "established",
+   "evidence_kind": "learned_synthetic",
+   "reported": "not previously tested",
+   "corrected": "no significant harm on either additive control",
+   "source_record": "runs/revision/predictor_pilot-20260905-223008.json",
+   "note": "required by the plan as a negative control"
+  },
+  {
+   "id": "verifier.conditioning_pays_on_harder_instances",
+   "claim": "conditional message support improves verification",
+   "status": "established",
+   "evidence_kind": "float_diagnostic",
+   "reported": "v1: UNDETERMINED (metric 0/0; baseline closed 99.1%)",
+   "corrected": "decision coverage 42.6% -> 50.0% overall; gain grows with difficulty: +0.0% at rung 0 to +14.8% at rung 3",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "rung 0 IS the v1 distribution and shows zero gain, which explains the v1 UNDETERMINED result as an instance-distribution defect"
+  },
+  {
+   "id": "verifier.selective_conditioning_efficiency",
+   "claim": "conditioning must be applied to every instance",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "v1 arms always conditioned",
+   "corrected": "deterministic selective reaches 49.1% coverage at 0.328s and a median of 1 oracle call(s) vs 3760",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "skipping ~53% of instances costs 0.9pp of coverage"
+  },
+  {
+   "id": "verifier.soundness_vs_exact_optimum",
+   "claim": "every arm's bound is sound against ground truth",
+   "status": "established",
+   "evidence_kind": "float_diagnostic",
+   "reported": "not previously checkable",
+   "corrected": "0 violations across 108 cases x 7 arms, against the exact optimum by enumeration",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "an earlier run showed 66 violations; the cause was the ground-truth enumerator accepting extendable prefixes as members on non-downward-closed families, not the bounds"
+  },
+  {
+   "id": "verifier.negative_gap_roundoff",
+   "claim": "no bound inversion occurs",
+   "status": "corrected",
+   "evidence_kind": "float_diagnostic",
+   "reported": "not reported in v1",
+   "corrected": "42 negative gaps at -8.5e-14, identical across all 7 arms on tight cases; recorded, never clipped",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "shared float evaluation, not arm logic; P4 enclosure must make it impossible rather than small"
+  },
+  {
+   "id": "verifier.external_solver_gap",
+   "claim": "an external topology-aware solver was compared",
+   "status": "open",
+   "evidence_kind": "float_diagnostic",
+   "reported": "requested by the plan",
+   "corrected": "auto_LiRPA, gurobipy and cvxpy are not installed; exhaustive enumeration and an LP outer relaxation used instead",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "recorded as a gap; no internal baseline relabelled external"
+  },
+  {
+   "id": "verifier.policy_gate",
+   "claim": "a learned allocation policy is justified",
+   "status": "open",
+   "evidence_kind": "float_diagnostic",
+   "reported": "gated by the plan",
+   "corrected": "gate OPEN (useful_region=True); policy NOT yet trained",
+   "source_record": "runs/revision/verifier_pilot-20260905-233716.json",
+   "note": "random scoring already matches deterministic scoring on coverage, so a policy must earn its keep on WHEN to query, not WHICH edge"
+  },
+  {
+   "id": "rna.reporter_context_partially_recoverable",
+   "claim": "the reporter construct context is unrecoverable, blocking 6 of 8 arms",
+   "status": "refuted",
+   "evidence_kind": "float_diagnostic",
+   "reported": "6 of 8 arms blocked",
+   "corrected": "6 of 8 arms admissible; 0.0% of located 50-nt windows lie inside a lower bound on the insert",
+   "source_record": "runs/revision/rna_audit-20260906-003113.json",
+   "note": "the hull of densely tiled sites bounds the inserted fragment. Rests on an assumption of insert contiguity inferred from tiling, NOT a construct record; edge windows stay unresolved_context"
+  },
+  {
+   "id": "rna.labels_unclipped",
+   "claim": "efficacy labels are preserved unclipped",
+   "status": "established",
+   "evidence_kind": "real_arithmetic_proof",
+   "reported": "134 rows exceed 1.0",
+   "corrected": "preserved; max 1.341; clipping would corrupt the primary normalisation",
+   "source_record": "runs/revision/rna_audit-20260906-003113.json",
+   "note": "positive control = 90.0% inhibition"
+  },
+  {
+   "id": "rna.assay_identity",
+   "claim": "the redistributed annotation states the assay",
+   "status": "refuted",
+   "evidence_kind": "real_arithmetic_proof",
+   "reported": "HeLa / luciferase reporter assay",
+   "corrected": "primary source: YFP reporter plasmid, H1299, 48 h; annotation recorded and contradicted",
+   "source_record": "runs/revision/rna_audit-20260906-003113.json",
+   "note": "annotation columns are never used as assay identity"
+  },
+  {
+   "id": "rna.davis_s1_blocked",
+   "claim": "Davis S1 is available for the chemical-transfer study",
+   "status": "open",
+   "evidence_kind": "measured_rna",
+   "reported": "required by the plan",
+   "corrected": "gkaf479_supplemental_files.zip absent; publisher route recorded; CAPTCHA not bypassed",
+   "source_record": "runs/revision/rna_audit-20260906-003113.json",
+   "note": "blocks chemical transfer, native-vs-reporter, dose/time, replicates"
+  },
+  {
+   "id": "rna.structure_adds_predictive_value",
+   "claim": "target-window structure improves on-target efficacy prediction",
+   "status": "refuted",
+   "evidence_kind": "measured_rna",
+   "reported": "the intended RNA claim",
+   "corrected": "best structural arm 0.6609 vs sequence-only 0.6595 (delta +0.0015), 5% of the seed sd 0.028",
+   "source_record": "runs/revision/rna_pilot-20260906-011411.json",
+   "note": "1153 admissible interior windows, novel-sequence split, group leak 0. Arms are ridge on window SUMMARY features, not the full graph model -- a disclosed limitation"
+  },
+  {
+   "id": "rna.sequence_only_benchmark",
+   "claim": "guide sequence predicts on-target efficacy",
+   "status": "established",
+   "evidence_kind": "measured_rna",
+   "reported": "0.6464 on the earlier split",
+   "corrected": "0.6595 Spearman, P@20 0.950, enrichment 2.02 at prevalence 0.472",
+   "source_record": "runs/revision/rna_pilot-20260906-011411.json",
+   "note": "novel-sequence split by gene x 13-mer cluster, zero leak"
+  },
+  {
+   "id": "rna.prior_uncertainty_dominates",
+   "claim": "numerical sampling error bounds the ensemble uncertainty",
+   "status": "refuted",
+   "evidence_kind": "measured_rna",
+   "reported": "implied by reporting sampling error alone",
+   "corrected": "prior temperature moves mean pair density by 0.0273, larger in relative terms than any arm difference",
+   "source_record": "runs/revision/rna_pilot-20260906-011411.json",
+   "note": "prior choice is a modelling uncertainty and is NOT covered by a Monte Carlo interval"
+  },
+  {
+   "id": "open.residual_beats_explicit_basis",
+   "claim": "a nonlinear residual beats explicit-basis regression on a task whose interaction is NOT exactly representable in a small basis",
+   "status": "open",
+   "evidence_kind": "undetermined",
+   "reported": "not established",
+   "corrected": "not established",
+   "source_record": "docs/theorem_scope_v2.md",
+   "note": "decided by the revision cycle, not here"
+  },
+  {
+   "id": "open.learned_allocation",
+   "claim": "learned allocation beats a strong deterministic selective rule at equal total wall time",
+   "status": "open",
+   "evidence_kind": "undetermined",
+   "reported": "not established",
+   "corrected": "not established",
+   "source_record": "docs/theorem_scope_v2.md",
+   "note": "decided by the revision cycle, not here"
+  },
+  {
+   "id": "open.numerical_enclosure",
+   "claim": "the certifying operator set is enclosed end to end",
+   "status": "open",
+   "evidence_kind": "undetermined",
+   "reported": "not established",
+   "corrected": "not established",
+   "source_record": "docs/theorem_scope_v2.md",
+   "note": "decided by the revision cycle, not here"
+  },
+  {
+   "id": "open.rna_structural",
+   "claim": "a measured RNA comparison with correct assay context supports the structural model",
+   "status": "open",
+   "evidence_kind": "undetermined",
+   "reported": "not established",
+   "corrected": "not established",
+   "source_record": "docs/theorem_scope_v2.md",
+   "note": "decided by the revision cycle, not here"
+  },
+  {
+   "id": "open.ml_novelty",
+   "claim": "a distinct ML contribution survives equation-level comparison to prior work",
+   "status": "open",
+   "evidence_kind": "undetermined",
+   "reported": "not established",
+   "corrected": "not established",
+   "source_record": "docs/theorem_scope_v2.md",
+   "note": "decided by the revision cycle, not here"
+  }
+ ]
+}

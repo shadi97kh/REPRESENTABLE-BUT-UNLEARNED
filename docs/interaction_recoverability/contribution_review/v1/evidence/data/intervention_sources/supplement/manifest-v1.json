@@ -1,0 +1,199 @@
+{
+  "files": [
+    {
+      "name": "agile_source.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-50619-z/MediaObjects/41467_2024_50619_MOESM4_ESM.xlsx",
+      "path": "data/intervention_sources/supplement/agile_source.xlsx",
+      "sha256": "e795d4e7ef1ec5c82b0358c626ab1eae059b76485a3ebdb7cbe5565aa6aac723",
+      "bytes": 137546,
+      "sheets": {
+        "Figure 2": [
+          63,
+          21
+        ],
+        "Figure 3": [
+          19,
+          19
+        ],
+        "Figure 4": [
+          11,
+          19
+        ],
+        "Figure 5": [
+          77,
+          37
+        ],
+        "Supplementary Figure 3": [
+          6,
+          25
+        ],
+        "Supplementary Figure 4": [
+          49,
+          4
+        ],
+        "Supplementary Figure 5": [
+          1200,
+          2
+        ],
+        "Supplementary Figure 8": [
+          7,
+          13
+        ],
+        "Supplementary Figure 9": [
+          14,
+          6
+        ],
+        "Supplementary Figure 10": [
+          4,
+          16
+        ],
+        "Supplementary Figure 11": [
+          4,
+          16
+        ],
+        "Supplementary Figure 13": [
+          6,
+          10
+        ],
+        "Supplementary Figure 14": [
+          71,
+          6
+        ],
+        "Supplementary Figure 15": [
+          29,
+          14
+        ],
+        "Supplementary Figure 16": [
+          5,
+          9
+        ],
+        "Supplementary Figure 17": [
+          21,
+          20
+        ],
+        "Supplementary Figure 19": [
+          10,
+          19
+        ],
+        "Supplementary Figure 20": [
+          3,
+          7
+        ],
+        "Supplementary Figure 21": [
+          63,
+          22
+        ],
+        "Supplementary Figure 22": [
+          1200,
+          2
+        ],
+        "Supplementary Figure 26": [
+          23,
+          6
+        ],
+        "Supplementary Figure 27": [
+          23,
+          14
+        ],
+        "Supplementary Figure 28": [
+          22,
+          17
+        ]
+      },
+      "status": "retrieved"
+    },
+    {
+      "name": "lantern_supplement.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44488-026-00007-x/MediaObjects/44488_2026_7_MOESM1_ESM.pdf",
+      "path": "data/intervention_sources/supplement/lantern_supplement.pdf",
+      "sha256": "88a6dd18e4fed46094c4674a0a8aea6ea2f7742fb1a8635b31b864c3b692ce7b",
+      "bytes": 22753256,
+      "status": "retrieved"
+    },
+    {
+      "name": "agile_finetuning_zenodo_21422889.csv",
+      "url": "https://zenodo.org/api/records/21422889/files/finetuning_set_smiles_plus_features.csv/content",
+      "path": "data/intervention_sources/supplement/agile_finetuning_zenodo_21422889.csv",
+      "sha256": "cd6f0c31872c0d0fbdb0bdb8855e577d7cf2d2f99a7be96b2cad2e0f772a0630",
+      "bytes": 16361671,
+      "status": "retrieved"
+    },
+    {
+      "name": "lantern_model.pth",
+      "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/checkpoints/circular-expert-model-MLP.pth",
+      "path": "data/intervention_sources/supplement/lantern_model.pth",
+      "sha256": "f419bfce435f1a08750b5d06902de9941b23343aa90d55aaefd6b3b2fa703382",
+      "bytes": 4500961,
+      "checkpoint_container_members": [
+        "circular-expert-model-MLP/data.pkl",
+        "circular-expert-model-MLP/.format_version",
+        "circular-expert-model-MLP/.storage_alignment",
+        "circular-expert-model-MLP/byteorder",
+        "circular-expert-model-MLP/data/0",
+        "circular-expert-model-MLP/data/1",
+        "circular-expert-model-MLP/data/2",
+        "circular-expert-model-MLP/data/3",
+        "circular-expert-model-MLP/data/4",
+        "circular-expert-model-MLP/data/5",
+        "circular-expert-model-MLP/data/6",
+        "circular-expert-model-MLP/data/7"
+      ],
+      "loaded_or_executed": false,
+      "status": "retrieved"
+    },
+    {
+      "name": "agile_pretrained_model.pth",
+      "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/ckpt/pretrained_agile_60k/checkpoints/model.pth",
+      "path": "data/intervention_sources/supplement/agile_pretrained_model.pth",
+      "sha256": "e3f8a27620dac9d39020a8bc53df643e4991de9dc8eca99961bd02ceb8fe641c",
+      "bytes": 9649187,
+      "checkpoint_container_members": [
+        "archive/data.pkl",
+        "archive/data/114045136",
+        "archive/data/115447936",
+        "archive/data/115453456",
+        "archive/data/115453808",
+        "archive/data/115453936",
+        "archive/data/2328540736",
+        "archive/data/2329702560",
+        "archive/data/2337826064",
+        "archive/data/2341287024",
+        "archive/data/2355937680",
+        "archive/data/2355937776"
+      ],
+      "loaded_or_executed": false,
+      "status": "retrieved"
+    },
+    {
+      "name": "lantern_CisTrans.csv",
+      "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/data/CisTrans.csv",
+      "path": "data/intervention_sources/supplement/lantern_CisTrans.csv",
+      "sha256": "eceea1dcfc86063d0129d2b25918a17f5a0493bd3601641719f8d6ee29dff44c",
+      "bytes": 22696,
+      "status": "retrieved"
+    },
+    {
+      "name": "lantern_AGILE.csv",
+      "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/data/AGILE.csv",
+      "path": "data/intervention_sources/supplement/lantern_AGILE.csv",
+      "sha256": "d0ecfd94ec40a7f013af546113520175e70f78045af1798673c2680fe6f23c54",
+      "bytes": 80719,
+      "status": "retrieved"
+    }
+  ],
+  "resources": {
+    "wall_s": 69.81380449887365,
+    "process_cpu_s": 1.74242,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.0004840055555555556,
+    "gpu_hours": 0,
+    "peak_rss_kib": 114208,
+    "thread_limits": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

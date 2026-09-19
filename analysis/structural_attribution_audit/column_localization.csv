@@ -1,0 +1,45 @@
+column_index,column_name,classes,rank,null_dim,floor,marginal_gain,in_minimal_set
+39,"modification=2,4-Carbocyclic-Ethylene-bridged nucleic acid-Locked nucleic acid",120,99,41,0.00691578768832,27,True
+40,"modification=2,4-Carbocyclic-Locked nucleic acid-Locked nucleic acid",120,99,41,0.00604528225738,27,True
+48,"modification=2-Deoxy-2-N,4-C-Ethylene-Locked nucleic acid",120,99,41,0.00233437819753,27,False
+42,modification=2-Aminoethyl,99,80,60,0.00987519425176,8,True
+50,modification=2-Guanidinoethyl,99,80,60,0.00987519425176,8,False
+31,position_index=24,90,72,68,0.00997951595221,0,False
+32,position_index=25,90,72,68,0.00997951595221,0,False
+33,position_index=26,90,72,68,0.00997951595221,0,False
+34,position_index=27,90,72,68,0.00997951595221,0,False
+35,position_index=28,90,72,68,0.00997951595221,0,False
+36,position_index=29,90,72,68,0.00997951595221,0,False
+37,position_index=30,90,72,68,0.00997951595221,0,False
+38,position_index=31,90,72,68,0.00997951595221,0,False
+41,modification=2-Aminoethoxymethyl,90,72,68,0.00997951595221,0,False
+43,modification=2-Aminopropoxymethyl,90,72,68,0.00997951595221,0,False
+44,modification=2-Aminopropyl_base,90,72,68,0.00997951595221,0,False
+45,modification=2-Aminopropyl_sugar,90,72,68,0.00997951595221,0,False
+46,modification=2-Cyanoethyl,90,72,68,0.00997951595221,0,False
+51,modification=2-N-Adamant-1-yl-Methylcarbonyl-2-Amino-Locked nucleic acid,90,72,68,0.00997951595221,0,False
+52,modification=2-N-Pyren-1-yl Methyl-2-Amino-Locked nucleic acid,90,72,68,0.00997951595221,0,False
+56,modification=2-O-hexadecyl,90,72,68,0.00997951595221,0,False
+57,modification=4-C-Hydroxymethyl Deoxyribonucleic acid,90,72,68,0.00997951595221,0,False
+58,modification=4-Thioribose,90,72,68,0.00997951595221,0,False
+59,modification=5-Amino,90,72,68,0.00997951595221,0,False
+60,modification=5-Bromo-Uridine,90,72,68,0.00997951595221,0,False
+61,modification=5-Iodo-Uridine,90,72,68,0.00997951595221,0,False
+62,modification=5-vinylphosphonate,90,72,68,0.00997951595221,0,False
+63,modification=Alfa-L-Locked nucleic acid,90,72,68,0.00997951595221,0,False
+65,modification=Anthracene,90,72,68,0.00997951595221,0,False
+68,modification=Diaminopurine,90,72,68,0.00997951595221,0,False
+69,modification=Glycol nucleic acid,90,72,68,0.00997951595221,0,False
+70,modification=Hexitol nucleic acid,90,72,68,0.00997951595221,0,False
+72,modification=Locked nucleic acid,90,72,68,0.00997951595221,0,False
+73,modification=Methyl,90,72,68,0.00997951595221,0,False
+74,modification=Methylcytosine,90,72,68,0.00997951595221,0,False
+75,modification=Naphthalene modification,90,72,68,0.00997951595221,0,False
+76,modification=Oxetane-Locked nucleic acid,90,72,68,0.00997951595221,0,False
+81,modification=Tricyclodeoxyribonucleic acid,90,72,68,0.00997951595221,0,False
+82,modification=Unlocked nucleic acid,90,72,68,0.00997951595221,0,False
+85,stereo_S_GNA,90,72,68,0.00997951595221,0,False
+89,terminal_L96,90,72,68,0.00997951595221,0,False
+90,terminal_vinylphosphonate,90,72,68,0.00997951595221,0,False
+91,terminal_5_Phosphate,90,72,68,0.00997951595221,0,False
+92,terminal_other,90,72,68,0.00997951595221,0,False

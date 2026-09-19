@@ -1,0 +1,89 @@
+{
+  "batched_50nt_output_max_error": 8.881784197001252e-16,
+  "checkpoint_checks": {
+    "capability_checkpoint": {
+      "parameters_finite": true,
+      "sha256": "9ec6f2ae2b3e8e9f471d9ee6c313d55e32fec8970e9160040a0c1272bd1e179d",
+      "state_hash_matches": true
+    },
+    "rna_A_checkpoint": {
+      "parameters_finite": true,
+      "sha256": "d0362bf02eeaa9de35e771f231bd8f9e91ff11b205b625c5d84b51400d05c543",
+      "state_hash_matches": true
+    },
+    "rna_A_plus_B_checkpoint": {
+      "parameters_finite": true,
+      "sha256": "bf263ad9e44ddba364bbf6a36d731064bf19c918825af84e0f3cf42cb61e636a",
+      "state_hash_matches": true
+    }
+  },
+  "cycle": "runs/revision/p4_gpu-20260911-171200-784773-cycle.json",
+  "diagnostic_status": "post-run sampling diagnostic only; no model/seed/hyperparameter selection",
+  "exact_50nt_marginal_max_error": 1.0269562977782698e-15,
+  "frozen_checkpoint_unchanged": true,
+  "gradient_sampling": {
+    "32": {
+      "draw_replicates": 4,
+      "gradient_rms_standard_deviation": 0.03334311310319339,
+      "losses": [
+        0.023474520291124124,
+        0.023600680862975874,
+        0.023399691490955714,
+        0.0235088186033596
+      ],
+      "mean_gradient_l2": 2.272576932218771,
+      "relative_rms_sd": 0.014671940311670644
+    },
+    "8": {
+      "draw_replicates": 4,
+      "gradient_rms_standard_deviation": 0.07471702052606416,
+      "losses": [
+        0.023273625283298006,
+        0.02325688945542029,
+        0.023415082536447404,
+        0.023265513915829577
+      ],
+      "mean_gradient_l2": 2.2620237889955295,
+      "relative_rms_sd": 0.033031049845520355
+    }
+  },
+  "gradient_sampling_gamma": 1.0,
+  "gradient_sampling_rows": [
+    0,
+    1,
+    2,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15,
+    16,
+    27,
+    28,
+    30,
+    31,
+    38,
+    39
+  ],
+  "gradient_sampling_scope": "first 16 training rows, frozen final checkpoint, four independent draws per count; conditional sampling variability, not optimization or biological variance",
+  "optimizer_steps": 0,
+  "resources": {
+    "blas_threads": 1,
+    "child_cpu_s": 0.0,
+    "child_processes_spawned": 0,
+    "cpu_core_hours": 0.001072232777777778,
+    "cuda_peak_allocated_bytes": 187067904,
+    "gpu_charge_basis": "conservative whole postcheck wall time",
+    "gpu_devices": 1,
+    "gpu_hours": 0.0010801935741781362,
+    "max_rss_kib": 1123024,
+    "openmp_threads": 1,
+    "physical_gpu_uuid": "GPU-1e502523-2587-176b-91ef-86cb0ea01a82",
+    "process_cpu_s": 3.8600380000000007,
+    "torch_threads": 1,
+    "wall_s": 3.88869686704129
+  },
+  "saved_prediction_reproduction_max_error": 8.881784197001252e-16,
+  "source_sha256": "98f92bd15524a9504880aa9825edfce12c400a022157e7b7c6818760066dcab6"
+}

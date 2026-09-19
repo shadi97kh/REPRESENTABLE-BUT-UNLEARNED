@@ -1,0 +1,34 @@
+[
+  {
+    "start": {
+      "utc": "2026-09-12T20:43:36.143783+00:00",
+      "event": "start",
+      "job_id": 36,
+      "phase": "compute",
+      "command": [
+        "python",
+        "-B",
+        "docs/interaction_recoverability/local_attainment/v1/checks.py"
+      ],
+      "timeout_s": 90.0,
+      "affinity": [
+        0
+      ]
+    },
+    "end": {
+      "utc": "2026-09-12T20:43:36.527806+00:00",
+      "event": "end",
+      "job_id": 36,
+      "returncode": 0,
+      "timed_out": false,
+      "measured_cpu_s": 0.41777400000000003,
+      "wall_s": 0.39093142794445157,
+      "conservative_charge_s": 0.5177740000000001,
+      "observed_process_count": 1,
+      "affinity_violations": [],
+      "parent_peak_rss_kib": 427392,
+      "waited_child_peak_rss_kib": 18972,
+      "tree_bound": "Inherited single-core affinity makes aggregate wall a conservative entire-tree CPU bound. Waited CPU can omit unreaped grandchildren. Affinity escape is prohibited and checked; all observed descendants killed on exit."
+    }
+  }
+]

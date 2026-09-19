@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "scope": "Fixed analytic functions and hand-written polygon; no observations or sampling.",
+  "backend": "mpmath diagnostics, not certified interval arithmetic",
+  "rational_certificates": {
+    "endpoint_lower_upper_bound_below_5": true,
+    "endpoint_upper_lower_bound_above_5": true,
+    "hp_upper_squared": true,
+    "hp_lower_squared": true,
+    "condition_factor_below_69": true,
+    "projected_contraction_below_3_4": true
+  },
+  "identity": {
+    "population_error": "1.69528453592763604949418585377435293114428783848e-42",
+    "tangent_error": "2.65172913306090097221315708434558913310702543793e-45",
+    "finite_depth": 24,
+    "finite_remainder_identity_error": "1.67303902971706798218109749226108419861948883276e-41",
+    "normalization_error": "8.55284707229502606764971669488474201220863001634e-50"
+  },
+  "population_iteration": [
+    {
+      "pair": 1,
+      "iterations": 80,
+      "q_bound": "0.642515079960324351387989817048761672335649949331",
+      "error": "3.42113882891801042705988667795389680488345200653e-49"
+    },
+    {
+      "pair": 2,
+      "iterations": 80,
+      "q_bound": "0.651902392417395903982968242090826149912270006759",
+      "error": "8.55284707229502606764971669488474201220863001634e-50"
+    }
+  ],
+  "piecewise_quadrature": {
+    "absolute_error": "0.0000000418150316257537943482385104314914020977346496571",
+    "proved_truncation_bound": "0.0000000940838211579460372835366484708556547199030560307",
+    "panels": 27,
+    "knot_bracket_width": "7.88860905221011805411728565282786229673206435109e-31"
+  },
+  "central_norm_envelopes": {
+    "old_bound": "731523160010237303646.679236990360947493036506201",
+    "compact_bound": "1792149267.41040558108568614040207025144191462867",
+    "ratio_of_bounds": "0.00000000000244988725631779770491836643883717104254817464504",
+    "interpretation": "Comparable conservative bounds, not variances or lower bounds."
+  },
+  "schedule_counts_only": [
+    {
+      "N": 1000,
+      "depth": 206,
+      "iterations": 50,
+      "lattice": 45,
+      "radius": "3.21894903943402085945427535543507110070493893963",
+      "central_minimum_probability": "0.00057702504239076704291691931425088922116020562847",
+      "tail_guard_probability": "0.0000122721868482535824728507651565515550717987890957",
+      "central_reference_evaluation_bound": 7416,
+      "central_knot_upper_bound": 117715
+    },
+    {
+      "N": 1000000,
+      "depth": 410,
+      "iterations": 98,
+      "lattice": 51,
+      "radius": "4.55228138815543905258891718064963537218074378613",
+      "central_minimum_probability": "0.00057702504239076704291691931425088922116020562847",
+      "tail_guard_probability": "0.0000000140982613651378190167751901252769492190316521857",
+      "central_reference_evaluation_bound": 14760,
+      "central_knot_upper_bound": 110309501
+    }
+  ],
+  "sample_entry_refused": true
+}

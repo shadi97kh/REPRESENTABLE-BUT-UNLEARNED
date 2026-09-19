@@ -1,0 +1,7 @@
+The compiled bibliography contains 68 entries, including the preserved corrections and theoretical references. Exact inherited primary-source checks are copied alongside this audit. This follow-up did not repeat full-text verification of every historical paper; it retains their checked scope and does not import new GNN guarantees.
+
+Davis 2025: publisher full article and the original supplemental workbook were inspected again. S1, S6 and S7 were checked separately, preserving literal strands and all source rows. S1 remains quarantined; all 118 S7 rows pass the specified source-derived duplex checks. Dose/time are not invented for S7. Primary source: https://academic.oup.com/nar/article/53/12/gkaf479/8171869 .
+
+Shmushkovich 2018: publisher HTML, Europe PMC primary XML and publisher supplementary PDF were acquired and hashed. They identify a separate 356-compound/17-gene study with a compatible endpoint design; missing per-compound tabular/modification details prevent admission. Primary source: https://academic.oup.com/nar/article/46/20/10905/5085976 . This supplementary source is linked in text; it is not a fitted benchmark.
+
+ENsiRNA and MEG-mod remain prior chemistry-aware graph precedents. The historical MEG-mod access is abstract-level; no precise layer, loss or numerical-performance comparison is newly asserted. No uncertain pretrained checkpoint is scored as a clean matched baseline. All 68 compiled citation keys resolve; the official bibliography style and conference style are preserved.

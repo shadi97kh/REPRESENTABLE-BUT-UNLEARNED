@@ -1,0 +1,26 @@
+{
+  "main_pages": [
+    1,
+    9
+  ],
+  "statements": [
+    10,
+    10
+  ],
+  "references": [
+    11,
+    15
+  ],
+  "appendix": [
+    16,
+    183
+  ],
+  "appendix_pages": 168,
+  "total_pages": 183,
+  "citations": 68,
+  "official_style_sha256": "797deef41724e93761426ac0cbcca46279a91cc650dd1f0ce76a4f08d2098ea6",
+  "preserved_style_sha256": "797deef41724e93761426ac0cbcca46279a91cc650dd1f0ce76a4f08d2098ea6",
+  "undefined_references": false,
+  "overflow": false,
+  "pdf_sha256": "1a201c5e817ac95c6c8d52b9771b5511c216fee128d5541c6c08e2fcdae9e558"
+}

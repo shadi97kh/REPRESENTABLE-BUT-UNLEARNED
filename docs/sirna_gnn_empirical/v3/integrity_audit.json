@@ -1,0 +1,9 @@
+{
+  "inventoried_files": 7444,
+  "checked_files": 7444,
+  "bytes_hashed": 3715693221,
+  "changed": [],
+  "missing": [],
+  "all_preserved": true,
+  "method": "SHA256 content comparison against inventory captured before current campaign; existing untracked user files included."
+}

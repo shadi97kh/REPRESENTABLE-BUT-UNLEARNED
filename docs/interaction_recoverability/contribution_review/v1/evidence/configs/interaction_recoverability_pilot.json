@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "status": "FROZEN_UNEXECUTED_CONTROL_PILOT; incremental-known; no training request",
+  "authorization": {
+    "fitting": false,
+    "neural_training": false,
+    "bootstrap_execution": false,
+    "gpu": false,
+    "historical_budget_used": false
+  },
+  "class": {
+    "name": "normalized_known_warp_two_exponential",
+    "action_domain": "[0,1]^4",
+    "observed_actions": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "noise": "independent standard normal per observation; latent not observed",
+    "coefficients": "four independent Uniform(sqrt(e),e) amplitudes",
+    "known_to_all": [
+      "delta",
+      "profiles exp",
+      "Gaussian latent law",
+      "private-anchor coefficients",
+      "parameter box",
+      "action identity",
+      "endpoint scale"
+    ]
+  },
+  "design": {
+    "deltas": [
+      0.01,
+      0.1
+    ],
+    "n_per_observed_action": 128,
+    "development_seeds": [
+      12001,
+      12002
+    ],
+    "test_seeds": [
+      13001,
+      13002,
+      13003,
+      13004,
+      13005,
+      13006,
+      13007,
+      13008
+    ],
+    "rng": "numpy SeedSequence([seed,round(10000*delta)]); first coefficients, then observations in action order",
+    "independent_unit": "complete independently generated coefficient-and-outcome experiment",
+    "total_experiments": 20,
+    "total_observed_responses": 12800,
+    "hidden_joint_responses_to_learners": 0,
+    "same_data_for_all_methods": true,
+    "no_tuning_grid": true
+  },
+  "primary": {
+    "target": "I12=mu(e1+e2)-mu(e1)-mu(e2)+mu(0)",
+    "metric": "mean squared error on original synthetic response scale",
+    "normalization": "none",
+    "baseline": "lowest development contrast MSE among feasible controls; selection frozen before test",
+    "required_improvement": "at least 10% relative MSE improvement separately at both deltas; no pooled-only success",
+    "paired_uncertainty": "future paired Student-t 95% interval for mean loss difference over eight independent test experiments per delta; descriptive approximate interval, not finite-sample certified coverage",
+    "practical_limit": "This is a small falsification pilot, not a powered confirmation; no post-outcome seed extension. Identical minimum-distance control defeats novelty regardless of nominal interval."
+  },
+  "secondary": [
+    "protected contrast J MSE",
+    "source distribution loss",
+    "normalized coefficient error",
+    "total CPU and wall time",
+    "coverage/width only if a separately specified interval is evaluated"
+  ],
+  "methods": [
+    {
+      "name": "two_quantile_inverse",
+      "interface": "interaction_recoverability.estimator.estimate_from_samples",
+      "status": "implemented; never called on samples",
+      "hyperparameters": {
+        "probabilities": [
+          0.25,
+          0.75
+        ],
+        "coefficient_clipping": [
+          1.6487212707001282,
+          2.718281828459045
+        ]
+      }
+    },
+    {
+      "name": "bilinear_quantile_completion",
+      "interface": "same known design matrix and inversion",
+      "status": "mathematically identical mandatory control; no separate algorithmic advantage possible"
+    },
+    {
+      "name": "additive_ridge",
+      "status": "future fit only",
+      "penalty": 1.0,
+      "inputs": "all observed action-response rows",
+      "target": "finite difference of fitted conditional means"
+    },
+    {
+      "name": "pairwise_ridge",
+      "status": "future fit only",
+      "penalty": 1.0,
+      "limit": "interaction columns all zero on observed axes; minimum-norm interaction estimate is zero"
+    },
+    {
+      "name": "ordinary_normalized_MLE",
+      "status": "density/inverse formula specified; optimizer not run or integrated",
+      "parameterization": "four amplitudes in common box",
+      "initialization": "box midpoint only",
+      "optimizer": "L-BFGS-B, maxfun=200, maxiter=100, no retries",
+      "information": "all outcomes; constant likelihood terms may be omitted identically for every parameter"
+    },
+    {
+      "name": "normalized_energy_score",
+      "status": "specified unimplemented fitted baseline; not claimed as original DExtrI neural reproduction",
+      "parameterization": "same normalized known-warp class",
+      "integration": "64 fixed Gauss-Hermite nodes; approximation sensitivity unresolved before any claimed positive result",
+      "optimizer": "same single-start limits as MLE"
+    },
+    {
+      "name": "original_DExtrI_network",
+      "status": "native method requires broader architecture/training integration; not authorized or included in this smallest known-profile control run",
+      "applicability": "mandatory additional comparator if a future claim concerns learning unknown profiles; cannot claim superiority without it"
+    },
+    {
+      "name": "mean_only_low_rank_completion",
+      "status": "set-valued/nonidentified with thin-cross rank-two means unless additional assumptions supplied",
+      "rule": "report full feasible target range; do not give hidden factors or special favorable completion"
+    },
+    {
+      "name": "extrapolation_derivative_bounds",
+      "status": "not applicable without verified derivative envelope and derivative-information access; unknown joint derivatives not supplied"
+    },
+    {
+      "name": "exact_parameter_oracle",
+      "status": "evaluation-only",
+      "information": "true coefficients and exact moments; never ranked as feasible learner"
+    }
+  ],
+  "intervals": {
+    "claimed_new_interval": false,
+    "available_control": "conservative DKW-plus-known-inverse bound; full parameter-range bound when central quantile condition fails",
+    "no_coverage_claim_from_narrow_width": true
+  },
+  "stops": [
+    "current exact equivalence to bilinear/minimum-distance control: no novelty or pilot request",
+    "any missing fitting authorization: do not execute",
+    "do not change target, sample count, delta regimes, seeds or controls after outcomes",
+    "nonfinite objectives or cap hit: retain failure and stop, no tuned rerun",
+    "failed known-information or hidden-label check: invalidate comparison",
+    "unknown-profile claim without source learner and nuisance-error theorem: stop"
+  ],
+  "prospective_cost": {
+    "workers": 1,
+    "numerical_threads": 1,
+    "gpu_hours": 0,
+    "quantile_algorithm": "O(n log n) per action; constant-size solves; no iterative training",
+    "fit_calls_if_all_fitted_controls_completed": 100,
+    "MLE_inverse_solve_upper_count": 1024000,
+    "derivation": "20 experiments * 200 objective calls * 2 parameter-dependent actions * 128 observations; gradient/line-search counts must be included within maxfun; limit semantics need validation",
+    "CPU_seconds_expression": "1,024,000 * measured_seconds_per_inverse + optimizer/energy/linear-fit/data-generation overhead",
+    "CPU_core_hours": null,
+    "wall_hours": null,
+    "reason_no_numeric_total": "No fitted run or benchmark authorized. Current complete four-delta diagnostic is not a valid estimate for convergence, line-search or network runtime; inverse-call timing and all optimizer overhead remain unmeasured. No complete pilot cap requested."
+  },
+  "data": "synthetic only; no siRNA efficacy or GNN validation"
+}

@@ -1,0 +1,19 @@
+{
+  "task": "direct-target-v1",
+  "through_job": 31,
+  "task_measured_cpu_s": 7.365251,
+  "task_job_wall_s": 7.3913380349986255,
+  "task_conservative_charge_s": 157.71673281799633,
+  "task_cap_s": 600.0,
+  "task_remaining_s": 442.28326718200367,
+  "global_charge_s": 1128.109330367312,
+  "global_remaining_s": 6071.8906696326885,
+  "reporting_reserve_s": 600.0,
+  "reserve_preserved": true,
+  "numerical_workers": 1,
+  "numerical_threads": 1,
+  "gpu_s": 0,
+  "ledger_sha256": "7fdd296abb73fa66456019c43685def0a02cac09966394f7c10356dadba908b7",
+  "changed_preserved_files": [],
+  "preserved_file_count": 336
+}

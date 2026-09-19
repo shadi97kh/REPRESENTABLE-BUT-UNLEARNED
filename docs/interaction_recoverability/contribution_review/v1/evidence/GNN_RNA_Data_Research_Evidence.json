@@ -1,0 +1,71 @@
+{
+  "scope": "Descriptive public-file inspection, not model training or complete chemical/assay reconciliation",
+  "date": "2026-09-12",
+  "retrievals": [
+    {
+      "name": "agile",
+      "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/AGILE_smiles_with_value_group.csv",
+      "sha256": "1b3dd460125ba7d70d8cce266bd5febaabe09eeddc6a4622405c2706420b9686",
+      "n": 1200,
+      "columns": [
+        "id",
+        "label",
+        "combined_mol_SMILES",
+        "A_smiles",
+        "B_smiles",
+        "C_smiles",
+        "expt_Hela",
+        "expt_Raw"
+      ]
+    },
+    {
+      "name": "lantern",
+      "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/data/AGILE_with_codes.csv",
+      "sha256": "5db98d48f635f939196c9125b5ee15f217920b75cef2f8ccbe15e1c1dbb13d45",
+      "n": 1100,
+      "columns": [
+        "Lipid",
+        "SMILES",
+        "Target"
+      ]
+    },
+    {
+      "name": "transma_test",
+      "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/dataset/Hela/scaffold/test.csv",
+      "sha256": "3e8e32697307976b008f2d8fe654b1466a6645ad7e9dc3f84cf5a1b0a1e65109",
+      "n": 120,
+      "columns": [
+        "SMILES",
+        "TARGET"
+      ]
+    },
+    {
+      "name": "transma_train",
+      "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/dataset/Hela/scaffold/train.csv",
+      "sha256": "6b6dec35113420e2c593c99f12fecee54d67a9158f94966909c242c0971e84ef",
+      "n": 1080,
+      "columns": [
+        "SMILES",
+        "TARGET"
+      ]
+    }
+  ],
+  "checks": {
+    "agile_exact_string_unique_counts": {
+      "label": 1200,
+      "combined_mol_SMILES": 1200,
+      "A_smiles": 20,
+      "B_smiles": 12,
+      "C_smiles": 5
+    },
+    "agile_duplicate_smiles_groups": 0,
+    "agile_duplicate_groups_different_Hela": 0,
+    "transma_scaffold_train_test_exact_string_overlap": 0,
+    "transma_train_unique": 990,
+    "transma_test_unique": 110,
+    "lantern_unique_smiles": 1100,
+    "raw_agile_rows_exact_smiles_matched_to_lantern": 432,
+    "Hela_label_disagreements_at_tolerance_1e_6": 0,
+    "limitations": "Exact string comparisons only, no chemical canonicalization or source-data reconciliation. Row comparisons may include raw duplicate molecules."
+  }
+}

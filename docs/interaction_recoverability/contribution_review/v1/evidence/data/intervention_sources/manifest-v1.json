@@ -1,0 +1,1123 @@
+{
+  "retrieved_utc": "2026-09-12T05:26:58.097400+00:00",
+  "source_evidence": "GNN_RNA_Data_Research_Evidence.json",
+  "files": [
+    {
+      "name": "agile",
+      "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/AGILE_smiles_with_value_group.csv",
+      "sha256": "1b3dd460125ba7d70d8cce266bd5febaabe09eeddc6a4622405c2706420b9686",
+      "n": 1200,
+      "columns": [
+        "id",
+        "label",
+        "combined_mol_SMILES",
+        "A_smiles",
+        "B_smiles",
+        "C_smiles",
+        "expt_Hela",
+        "expt_Raw"
+      ],
+      "path": "data/intervention_sources/agile.csv",
+      "bytes": 196871,
+      "hash_matches_prior_inspection": true
+    },
+    {
+      "name": "lantern",
+      "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/data/AGILE_with_codes.csv",
+      "sha256": "5db98d48f635f939196c9125b5ee15f217920b75cef2f8ccbe15e1c1dbb13d45",
+      "n": 1100,
+      "columns": [
+        "Lipid",
+        "SMILES",
+        "Target"
+      ],
+      "path": "data/intervention_sources/lantern.csv",
+      "bytes": 89330,
+      "hash_matches_prior_inspection": true
+    },
+    {
+      "name": "transma_test",
+      "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/dataset/Hela/scaffold/test.csv",
+      "sha256": "3e8e32697307976b008f2d8fe654b1466a6645ad7e9dc3f84cf5a1b0a1e65109",
+      "n": 120,
+      "columns": [
+        "SMILES",
+        "TARGET"
+      ],
+      "path": "data/intervention_sources/transma_test.csv",
+      "bytes": 8756,
+      "hash_matches_prior_inspection": true
+    },
+    {
+      "name": "transma_train",
+      "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/dataset/Hela/scaffold/train.csv",
+      "sha256": "6b6dec35113420e2c593c99f12fecee54d67a9158f94966909c242c0971e84ef",
+      "n": 1080,
+      "columns": [
+        "SMILES",
+        "TARGET"
+      ],
+      "path": "data/intervention_sources/transma_train.csv",
+      "bytes": 79430,
+      "hash_matches_prior_inspection": true
+    }
+  ],
+  "repositories": {
+    "agile": {
+      "repo": "bowang-lab/AGILE",
+      "commit": "aee76246c90634500fd73579ac7ab2f94f91cc04",
+      "tree": {
+        "path": "data/intervention_sources/agile/tree.json",
+        "sha256": "db194392e1cfbe06a0b79e993060c19b7c3ce8a0e0b62dc576ffc3df6ad680a8",
+        "bytes": 8916
+      },
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/LICENSE",
+          "path": "data/intervention_sources/agile/LICENSE",
+          "sha256": "f34b89ecea476cc6d396d0fd191761311f589304d68a59ffb6571d67aefb6ccd",
+          "bytes": 1097
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/README.md",
+          "path": "data/intervention_sources/agile/README.md",
+          "sha256": "77d33efab300c1017c220a43b43001222a56e5af4044c6681b7d10c86dfb2a58",
+          "bytes": 6229
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/ckpt/pretrained_agile_60k/checkpoints/config.yaml",
+          "path": "data/intervention_sources/agile/ckpt/pretrained_agile_60k/checkpoints/config.yaml",
+          "sha256": "40392212f8d1701271af97d72d68d89f5b6dae9f940be8799baa1e489ae07e1b",
+          "bytes": 1163
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/config_finetune.yaml",
+          "path": "data/intervention_sources/agile/config_finetune.yaml",
+          "sha256": "d53499be12751ae9eef980fc805d26b5e1da3758ec9d33b86cf65d2bb3bfa379",
+          "bytes": 1029
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/config_pretrain.yaml",
+          "error": "502 Server Error: Bad Gateway for url: https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/config_pretrain.yaml"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/dataset/dataset.py",
+          "path": "data/intervention_sources/agile/dataset/dataset.py",
+          "sha256": "429ffb290d07bf4faf95ac9f7a9e263fd770d49d3838fcedce39e708d06790d8",
+          "bytes": 9230
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/dataset/dataset_mix.py",
+          "path": "data/intervention_sources/agile/dataset/dataset_mix.py",
+          "sha256": "43956a5507f05a72ae80a8a33a1841e35d0927a6df106d6a085bb941246588a1",
+          "bytes": 11184
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/dataset/dataset_subgraph.py",
+          "path": "data/intervention_sources/agile/dataset/dataset_subgraph.py",
+          "sha256": "77f87fe094f550ff6102c485487f23a5fea4fe3cea03854d26a69cfd2382be88",
+          "bytes": 9212
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/dataset/dataset_test.py",
+          "path": "data/intervention_sources/agile/dataset/dataset_test.py",
+          "sha256": "5da2504b9a1ab1273b8da6571ee5f2d9af80ecb5f12da73584212b21a4d4dad9",
+          "bytes": 12350
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/finetune.py",
+          "path": "data/intervention_sources/agile/finetune.py",
+          "sha256": "058d277e02887f192957349a8594fcfaf7c1204f8cd5de17fa17be40cef0c86a",
+          "bytes": 14259
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/infer_vis.py",
+          "path": "data/intervention_sources/agile/infer_vis.py",
+          "sha256": "378c1f7e045975f567c494fc7160c3c1abdc42856e7d277a79e5bf5a012f53c2",
+          "bytes": 40967
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/models/agile_finetune.py",
+          "path": "data/intervention_sources/agile/models/agile_finetune.py",
+          "sha256": "924c26fc4c67751c06068378f96854749f0f64607240e28a1e53be286d47002c",
+          "bytes": 8788
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/models/agile_pretrain.py",
+          "path": "data/intervention_sources/agile/models/agile_pretrain.py",
+          "sha256": "1d20f4aabd3167037dba2d8794fca81c15b9581d68ea11c6ff63e94de2a64376",
+          "bytes": 5466
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/pretrain.py",
+          "path": "data/intervention_sources/agile/pretrain.py",
+          "sha256": "2208b754c470211eafaeca04a81dede1fab74ffc06d0172d711d0b3411a39430",
+          "bytes": 8730
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/utils/constants.py",
+          "path": "data/intervention_sources/agile/utils/constants.py",
+          "sha256": "3ddd05a83dbe3d4ce77d675e52d34cb0ef2ee4401afe357464b65ad72da8aa78",
+          "bytes": 3866
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/utils/nt_xent.py",
+          "path": "data/intervention_sources/agile/utils/nt_xent.py",
+          "sha256": "cd98446b9ee165c9a5fa6f8fe7d7aa883bdad734542bdb00a20cfeb7a2cce536",
+          "bytes": 3600
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bowang-lab/AGILE/aee76246c90634500fd73579ac7ab2f94f91cc04/utils/plot.py",
+          "path": "data/intervention_sources/agile/utils/plot.py",
+          "sha256": "467748b09bf0e416c30d8791f6d75347a9a9173fdf807c7c5329d49c1c907d06",
+          "bytes": 1935
+        }
+      ],
+      "checkpoint_loaded": false
+    },
+    "lantern": {
+      "repo": "AsalMehradfar/LANTERN",
+      "commit": "11240f29ef92323649ae60d177b21df77e2d428b",
+      "tree": {
+        "path": "data/intervention_sources/lantern/tree.json",
+        "sha256": "11213f03a460b15c9ea094490f060642ce2e1843a6d7440e5ddc93f787389cac",
+        "bytes": 14889
+      },
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/LICENSE",
+          "path": "data/intervention_sources/lantern/LICENSE",
+          "sha256": "e8cbb81a2c91a5cc193c65c916111ef56926fcc438998afa446d9754f45f891e",
+          "bytes": 1115
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/README.md",
+          "path": "data/intervention_sources/lantern/README.md",
+          "sha256": "7ee6e4958b92ee32ddc5a5663e2ad46c69c4a3d94a8cc6465d57ff3636df4171",
+          "bytes": 4548
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/config/eval_config.yaml",
+          "path": "data/intervention_sources/lantern/config/eval_config.yaml",
+          "sha256": "34a66a9f27ad78ff12e6dc580edfe8d8b32361cbf62219d924b663321434316f",
+          "bytes": 11
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/config/train_config.yaml",
+          "path": "data/intervention_sources/lantern/config/train_config.yaml",
+          "sha256": "ff8bbe6d46c6b439c74914816dff7b1b2ea46e61c8b998ed40f3b66c7530ccbd",
+          "bytes": 141
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/config/visual_config.yaml",
+          "path": "data/intervention_sources/lantern/config/visual_config.yaml",
+          "sha256": "5acffe2f95157ef1c8b5c302c0bca5b804ea8e643eb08b875e179b777e1fc821",
+          "bytes": 79
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/lantern.yml",
+          "path": "data/intervention_sources/lantern/lantern.yml",
+          "sha256": "6ad306905d0ad2342c9819775e67303bf6c403b9b39f4bc022e4c0c0c8e9bbad",
+          "bytes": 4263
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/models/neural_models.py",
+          "path": "data/intervention_sources/lantern/models/neural_models.py",
+          "sha256": "bb7f44d798abab29949468b932b8c1424043e7df94e03d4337bddfb37ad25ac6",
+          "bytes": 1489
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/models/sklearn_models.py",
+          "path": "data/intervention_sources/lantern/models/sklearn_models.py",
+          "sha256": "3e31532c58c18e2ee2bc77a2dfa77cf353ef078e7ef3e5c869a2790bbc759228",
+          "bytes": 989
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/models/wrappers.py",
+          "path": "data/intervention_sources/lantern/models/wrappers.py",
+          "sha256": "77e3e7c867432ffbdaa9e444fd2f0b58ffd9730b24ec030d628edbee6901c361",
+          "bytes": 4634
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/pipeline/preprocess.py",
+          "path": "data/intervention_sources/lantern/pipeline/preprocess.py",
+          "sha256": "8c45a97eb6839593ff30e5f75fa18de8ba52b6e19f1e4e232222a98013d57ad4",
+          "bytes": 1673
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/pipeline/result_saver.py",
+          "path": "data/intervention_sources/lantern/pipeline/result_saver.py",
+          "sha256": "1d09e971888c92dc3c4db52fab371e705e86a97a622556208e38d4adfc1e934d",
+          "bytes": 3510
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/pipeline/run_pipeline_from_config.py",
+          "path": "data/intervention_sources/lantern/pipeline/run_pipeline_from_config.py",
+          "sha256": "01358b45a0de916fa3f3665073cc08fca77b5163201210e7f9064c119cdbef0c",
+          "bytes": 2491
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/pipeline/trainer.py",
+          "path": "data/intervention_sources/lantern/pipeline/trainer.py",
+          "sha256": "7b15d634938de0236ff7b11116108c42d56b6e70ca8be43f13130bcaae4709c7",
+          "bytes": 1708
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/scripts/extract_fingerprint.py",
+          "path": "data/intervention_sources/lantern/scripts/extract_fingerprint.py",
+          "sha256": "2bc97248904c840fb1b2fd96bcc5c86848dc7e3651c2c2cd84aed6e96a10e2e4",
+          "bytes": 1708
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/scripts/plot_tsne.py",
+          "path": "data/intervention_sources/lantern/scripts/plot_tsne.py",
+          "sha256": "beecf706ac5b05b70ee7c44cada089ecf5f561df8f9aaa1796e621c1521b2111",
+          "bytes": 1324
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/scripts/run_inference.py",
+          "path": "data/intervention_sources/lantern/scripts/run_inference.py",
+          "sha256": "7a97411c6bb0fbfb456a9974f9f2a7e70c4b4c86700f35117c2f3a6fa7e9a368",
+          "bytes": 2372
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/scripts/run_pipeline.py",
+          "path": "data/intervention_sources/lantern/scripts/run_pipeline.py",
+          "sha256": "4385e7030a1e6c7c684e19879c3b7e44fc3e73b33fecbdd31c5ebb9af673d659",
+          "bytes": 794
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/scripts/split_dataset.py",
+          "path": "data/intervention_sources/lantern/scripts/split_dataset.py",
+          "sha256": "33d7021b0939cd17a8b10648916754d062bfe2494b3dc437e61b2a4f0ed4b8be",
+          "bytes": 1018
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/config.py",
+          "path": "data/intervention_sources/lantern/utils/config.py",
+          "sha256": "2eefeb319966e375a29e5195341b4605bcc05916b3ab26d75a9734262706597e",
+          "bytes": 1558
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/confusion_matrix_utils.py",
+          "path": "data/intervention_sources/lantern/utils/confusion_matrix_utils.py",
+          "sha256": "15a077076381ed898d878b67236dd35e15bdbffd03e7a39a65db3b880400c78d",
+          "bytes": 2981
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/data_utils.py",
+          "path": "data/intervention_sources/lantern/utils/data_utils.py",
+          "sha256": "801774f7ada802888df43160cb5c51a7668e9af860efc01c02172e787f1a588c",
+          "bytes": 6378
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/inference_utils.py",
+          "path": "data/intervention_sources/lantern/utils/inference_utils.py",
+          "sha256": "7e27b6e0367d5e39f7f27abb285f78c6fcacd78371f2126d43cb9b3383301575",
+          "bytes": 2944
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/io_tools.py",
+          "path": "data/intervention_sources/lantern/utils/io_tools.py",
+          "sha256": "f5d7bdd1f10da1e07e7d79ed541f9bafae050e3608b714c0fe785d974b21d7dd",
+          "bytes": 371
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/model_utils.py",
+          "path": "data/intervention_sources/lantern/utils/model_utils.py",
+          "sha256": "a27a9f00ba7c6b78a2f6c7ea128f6305f962a03360dd394ba40b4145a6c101b3",
+          "bytes": 1612
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/scaffold.py",
+          "path": "data/intervention_sources/lantern/utils/scaffold.py",
+          "sha256": "cde621e3136554904833e885e9857afdfe3978bcffc0637b4b14d7c45a05e928",
+          "bytes": 5338
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/utils.py",
+          "path": "data/intervention_sources/lantern/utils/utils.py",
+          "sha256": "a0eefaa3a587e4f084c08445c3737bd306b39c0691e2b5c8505ff9fa76666be1",
+          "bytes": 115
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AsalMehradfar/LANTERN/11240f29ef92323649ae60d177b21df77e2d428b/utils/visual_utils.py",
+          "path": "data/intervention_sources/lantern/utils/visual_utils.py",
+          "sha256": "7e6525583fff57fef60e556fa38b24f4d3b225e9b53ea0c0a0820237657cc5ac",
+          "bytes": 7368
+        }
+      ],
+      "checkpoint_loaded": false
+    },
+    "transma": {
+      "repo": "wklix/TransMA",
+      "commit": "11de7ec979fa90df91f1efd4334358288fcce00c",
+      "tree": {
+        "path": "data/intervention_sources/transma/tree.json",
+        "sha256": "648bc304d57144903186efdcbc757186ae48d87e7700d3e1523b47be64ba48cb",
+        "bytes": 31229
+      },
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/README.md",
+          "path": "data/intervention_sources/transma/README.md",
+          "sha256": "6d7be0e41bccd3ec13f99d328eabb04fb8dd14fbf8f6d3d41f42f7b95730c2e8",
+          "bytes": 2419
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/__init__.py",
+          "path": "data/intervention_sources/transma/__init__.py",
+          "sha256": "7b3210682db417e6f9f91f4028eaa91937ddfe04c11d47de4c4aed93fd2cf98d",
+          "bytes": 107
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/config/__init__.py",
+          "path": "data/intervention_sources/transma/config/__init__.py",
+          "sha256": "f1d602e2c3451e5d6bdc95c48db8ddd8de3c8edbfeeebc372253592a99724a60",
+          "bytes": 38
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/config/default.yaml",
+          "path": "data/intervention_sources/transma/config/default.yaml",
+          "sha256": "0952759b177174f72f7a30da806d3b98ae4f1930d9a87b9b1a78f2769c44dde4",
+          "bytes": 354
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/config/model_config.py",
+          "path": "data/intervention_sources/transma/config/model_config.py",
+          "sha256": "636fdeabe66eca2fd3c26c83eb6294bff6d4d692a78ba8b7fbaa317112aa0038",
+          "bytes": 483
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/data/__init__.py",
+          "path": "data/intervention_sources/transma/data/__init__.py",
+          "sha256": "ffb12384135bf2efc3cf56b8b365eb722360e7081d48e86e0e0cf28f8cf1c59b",
+          "bytes": 62
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/data/conformer.py",
+          "path": "data/intervention_sources/transma/data/conformer.py",
+          "sha256": "4e27d0ffe329d259cd0d70f185b15242496b78118b4059694de355a5a1d7d286",
+          "bytes": 8363
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/data/datahub.py",
+          "path": "data/intervention_sources/transma/data/datahub.py",
+          "sha256": "7daea98eb6fad9eca2891af2eac30865d9b45c8d93bb4a87d4373b38b987d290",
+          "bytes": 3078
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/data/datareader.py",
+          "path": "data/intervention_sources/transma/data/datareader.py",
+          "sha256": "cde39d0572219cfabdc09ce32f5e977f14ad73c9fb25faa6ac50fcb8a57b8aa1",
+          "bytes": 8672
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/data/datascaler.py",
+          "path": "data/intervention_sources/transma/data/datascaler.py",
+          "sha256": "ee47b466d82d81fdd53dc61ce08937e16c1d1839ea0310443dd05597ca1e5dc6",
+          "bytes": 4911
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/__init__.py",
+          "path": "data/intervention_sources/transma/models/__init__.py",
+          "sha256": "bd61569e4986342ee9762d3d2721e853e3811e12249956fa29740dcf2756af6f",
+          "bytes": 41
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/fds.py",
+          "path": "data/intervention_sources/transma/models/fds.py",
+          "sha256": "ce5af42658c1b9909a2dcf8036664b85ec8f80792e502335f5a2309a8465293e",
+          "bytes": 8159
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/loss.py",
+          "path": "data/intervention_sources/transma/models/loss.py",
+          "sha256": "80820a7200cbabef958daa972e01bbb43ba172cf263496fb5697ce2b266838b3",
+          "bytes": 3341
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/nnmodel.py",
+          "path": "data/intervention_sources/transma/models/nnmodel.py",
+          "sha256": "225f541021b359e9eaa270523002323e91f3168ec5a49247883509fc48d62993",
+          "bytes": 11947
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/transformers11.py",
+          "path": "data/intervention_sources/transma/models/transformers11.py",
+          "sha256": "999a7f7560f45a55983495cb3e0959c9d195b879ebc8c5ce7e1fe5e14056a0a6",
+          "bytes": 5127
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/unimol.py",
+          "path": "data/intervention_sources/transma/models/unimol.py",
+          "sha256": "18c6fee81b3e3d4089d19bdc8b093faab55b6ababd7f59d97f34721c00614497",
+          "bytes": 33980
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/util.py",
+          "path": "data/intervention_sources/transma/models/util.py",
+          "sha256": "f7b808753c72e26d88bc1c80065503dd8a51c9df4f655dab2ad630e3bffed8a2",
+          "bytes": 7944
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/models/weight.py",
+          "path": "data/intervention_sources/transma/models/weight.py",
+          "sha256": "7c9f69e83155b70c68d8232a14ae4bf06610004a7b2a2dc5af9269c8b1c91bc1",
+          "bytes": 2856
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/predict.py",
+          "path": "data/intervention_sources/transma/predict.py",
+          "sha256": "207474a61f95d67628e6ec1333658d21902b9b46f63325cb4b19017943fe7cdb",
+          "bytes": 4163
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/predictor.py",
+          "path": "data/intervention_sources/transma/predictor.py",
+          "sha256": "d8065b44fd056adf38442f43889ab0110694192f0d927f49aa654f526feb1554",
+          "bytes": 4537
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/__init__.py",
+          "path": "data/intervention_sources/transma/tasks/__init__.py",
+          "sha256": "0978a672fc7d203431768c249a210cf877d6183d8a6f04cecbbe2914ba2086e0",
+          "bytes": 28
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/feiling.py",
+          "path": "data/intervention_sources/transma/tasks/feiling.py",
+          "sha256": "9232620cf5ae4353de6cc003e2a5c6f6e3ca53c58569102932dc478da91002ce",
+          "bytes": 2345
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/fusion.py",
+          "path": "data/intervention_sources/transma/tasks/fusion.py",
+          "sha256": "3e2ab7ca7dc1ad111b374d9df96c73a7508abbd714eab94ed4806551434ce81a",
+          "bytes": 1249
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/split.py",
+          "path": "data/intervention_sources/transma/tasks/split.py",
+          "sha256": "3ab6e9d9410d583f988f98c4bf70e21ad015d164264b0678a34e153d4e62508a",
+          "bytes": 1609
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/trainer.py",
+          "path": "data/intervention_sources/transma/tasks/trainer.py",
+          "sha256": "a49c3889f9380498e8a50603421e42d568bd11546c30e31821abc445f2963f0d",
+          "bytes": 22349
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/tasks/triple_loss.py",
+          "path": "data/intervention_sources/transma/tasks/triple_loss.py",
+          "sha256": "36508f4944be9be570ed125ea2250be942f2ff8cc2a54528ea2a28a0e72f1d91",
+          "bytes": 8271
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/test.py",
+          "path": "data/intervention_sources/transma/test.py",
+          "sha256": "18f5adc209919984896ecd4b810bc1ecfa3254178dc279804ef17f77ff24d28f",
+          "bytes": 675
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/train.py",
+          "path": "data/intervention_sources/transma/train.py",
+          "sha256": "a67a69e3afbfe919bb92f5c49d9d59ae8068708d8811fedd98c2d17938b0e391",
+          "bytes": 3471
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/train_model.py",
+          "path": "data/intervention_sources/transma/train_model.py",
+          "sha256": "9b956ba22d2e4ee4493948feafcb4eca39960e737527f99df4929f71a6bc4cf8",
+          "bytes": 359
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/utils/__init__.py",
+          "path": "data/intervention_sources/transma/utils/__init__.py",
+          "sha256": "d864a9bdbfbd19d64900719e30e68d2f8d22f3cc84cc0decac5ea6a9c41de19f",
+          "bytes": 169
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/utils/base_logger.py",
+          "path": "data/intervention_sources/transma/utils/base_logger.py",
+          "sha256": "5c7618bc2becf9c65de6c08d71e1fb6b1674e58bca685311c8c9326fb7dbbdb9",
+          "bytes": 2552
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/utils/config_handler.py",
+          "path": "data/intervention_sources/transma/utils/config_handler.py",
+          "sha256": "c1e820b282e4a9d0746ac1c46697be71dd1aa9c8695573e5ce1fbbb60a68384e",
+          "bytes": 2246
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/utils/metrics.py",
+          "path": "data/intervention_sources/transma/utils/metrics.py",
+          "sha256": "132c53130383c822069ffe54eeb83391b0ec425cd93ff147554779e5b6ddfad3",
+          "bytes": 11572
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/utils/util.py",
+          "path": "data/intervention_sources/transma/utils/util.py",
+          "sha256": "29c4d5a126471ed9889cbe097b97d9ad24a0d7c5542ce6b3002a90165bf48f8c",
+          "bytes": 2373
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wklix/TransMA/11de7ec979fa90df91f1efd4334358288fcce00c/weights/__init__.py",
+          "path": "data/intervention_sources/transma/weights/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ],
+      "checkpoint_loaded": false
+    },
+    "lipobart": {
+      "repo": "Sanofi-Public/LipoBART",
+      "commit": "1d792752944c87e2380e7a25af15f68d792bb3b6",
+      "tree": {
+        "path": "data/intervention_sources/lipobart/tree.json",
+        "sha256": "055084157ca051ed2ded5f85223e37c7aa7f52037945ed0daea9f447d4b8d5c2",
+        "bytes": 12030
+      },
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/LICENSE.md",
+          "path": "data/intervention_sources/lipobart/LICENSE.md",
+          "sha256": "09e3705a714ecfd4696cf52a66e77e3d21a8f0bae2bc3766c46c732d62bb7ffb",
+          "bytes": 942
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/README.md",
+          "path": "data/intervention_sources/lipobart/README.md",
+          "sha256": "4743bbcc8ab656bdd95592ef26a9b9cf47b098407f113edebcdee5ecdcd76bcd",
+          "bytes": 3185
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/config.yaml",
+          "path": "data/intervention_sources/lipobart/config.yaml",
+          "sha256": "2e19267e54f7751f7276603059e14dda5c0de028085cb1602752c2377b678651",
+          "bytes": 1099
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/data/full_iPhos_lipids.csv",
+          "path": "data/intervention_sources/lipobart/data/full_iPhos_lipids.csv",
+          "sha256": "fc45a14db7703c8b347df1edfb70d8abca812c6a268b34a1088ad080d7a7963e",
+          "bytes": 73739
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/data/iphos_multiclass.csv",
+          "path": "data/intervention_sources/lipobart/data/iphos_multiclass.csv",
+          "sha256": "0b9972f03242794caf5c37317bc9ba4d821d69f9c68383c0c95c84874af536a1",
+          "bytes": 244256
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/data/iphos_targets.csv",
+          "path": "data/intervention_sources/lipobart/data/iphos_targets.csv",
+          "sha256": "bd7b1935ed085db466927c820fe5ac61cfd7f2f98251a52efb69d79135f5d247",
+          "bytes": 1405
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/create_multiclassification.py",
+          "path": "data/intervention_sources/lipobart/src/create_multiclassification.py",
+          "sha256": "1dc8a54a5605204d37293897c4bd7ba8ca50e65d959b130c3ad74ce242d50c23",
+          "bytes": 5149
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/download_data.py",
+          "path": "data/intervention_sources/lipobart/src/download_data.py",
+          "sha256": "b2e486b0a68befd96fd7948dd67cf5143b0555c7127836474572a0ccffbdd1ad",
+          "bytes": 1543
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/generate_embeddings.py",
+          "path": "data/intervention_sources/lipobart/src/generate_embeddings.py",
+          "sha256": "b8d6cbcee5ac324d90eafb5561a8bd57fd26387165b32c842311c1d9c546e776",
+          "bytes": 1760
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/generate_mol2fp.py",
+          "path": "data/intervention_sources/lipobart/src/generate_mol2fp.py",
+          "sha256": "1a0476ef3c3be3b07f8eda620a0210d67051d1260988b68f109eb6fa0c8fc3bd",
+          "bytes": 2523
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/plotting.py",
+          "path": "data/intervention_sources/lipobart/src/plotting.py",
+          "sha256": "cf00b2b169c089beaa1b27ab8d8100d19cc2726a351b77f96a83fa1ee5a380a6",
+          "bytes": 14221
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/LipoBART/1d792752944c87e2380e7a25af15f68d792bb3b6/src/tournament.py",
+          "path": "data/intervention_sources/lipobart/src/tournament.py",
+          "sha256": "310f1d38fd2147df6564c4007e5f579a8254492ebecb3bc3157dbdc9b29ea53d",
+          "bytes": 10099
+        }
+      ],
+      "checkpoint_loaded": false
+    },
+    "rnagym": {
+      "repo": "MarksLab-DasLab/RNAGym",
+      "commit": "2828cf99316d75daaa8d832a2573cbb25bbd35fe",
+      "tree": {
+        "path": "data/intervention_sources/rnagym/tree.json",
+        "sha256": "5ad8fc467273d5c06a700a74d874dec87a6c721bb816d27fd030f3115710e64b",
+        "bytes": 733070
+      },
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/__init__.py",
+          "path": "data/intervention_sources/rnagym/2d/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/pseudoknot_analysis/README.md",
+          "path": "data/intervention_sources/rnagym/2d/pseudoknot_analysis/README.md",
+          "sha256": "875e6ceff0addbb015d9887a124852f9f4996895bccbe597cb739a1da2e9ffc5",
+          "bytes": 522
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/pseudoknot_analysis/pseudobase_data.csv",
+          "path": "data/intervention_sources/rnagym/2d/pseudoknot_analysis/pseudobase_data.csv",
+          "sha256": "01cdcdcb1842161617f1c99646ff5925ff40f44fb299eaecff50908de298335d",
+          "bytes": 44591
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/pseudoknot_analysis/pseudobase_prediction.csv",
+          "path": "data/intervention_sources/rnagym/2d/pseudoknot_analysis/pseudobase_prediction.csv",
+          "sha256": "829acb24324e5f77038f46bd18b8833e6919ce2f6186304576f30d8d738e43f4",
+          "bytes": 225533
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/pseudoknot_analysis/psuedoknot_analysis_1.py",
+          "path": "data/intervention_sources/rnagym/2d/pseudoknot_analysis/psuedoknot_analysis_1.py",
+          "sha256": "086f84ed24a3cde1d39ee6e12f01946305e253f5dbc11815470461413dc5805f",
+          "bytes": 3022
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/pseudoknot_analysis/psuedoknot_analysis_2.py",
+          "path": "data/intervention_sources/rnagym/2d/pseudoknot_analysis/psuedoknot_analysis_2.py",
+          "sha256": "9c44816a29aff1731aac300bbfbae395894e3f73c30971658358c8221bbf2f5e",
+          "bytes": 4520
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/score_MXFOLD2.py",
+          "path": "data/intervention_sources/rnagym/2d/score_MXFOLD2.py",
+          "sha256": "1e383767d21137cbc67629c278f35650db92c0fd8d6921e494a45cdf0445b7a6",
+          "bytes": 12432
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/score_RNA_FM.py",
+          "path": "data/intervention_sources/rnagym/2d/score_RNA_FM.py",
+          "sha256": "a7412b1cb6d8541b4d0969f7154653c597a0bdcd075aed9fe1d00e6e6b14d671",
+          "bytes": 4773
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/score_UFOLD.py",
+          "path": "data/intervention_sources/rnagym/2d/score_UFOLD.py",
+          "sha256": "c95218524197103a647ba9db1dbbd0adddfba42769ce2ac53dae8b4d6c70cc47",
+          "bytes": 8469
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/score_arnie.py",
+          "path": "data/intervention_sources/rnagym/2d/score_arnie.py",
+          "sha256": "1532194f255e954ec65810e249e2f49f34d8e004e69c6df752ab1dd9fede30cd",
+          "bytes": 3236
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/utils.py",
+          "error": "502 Server Error: Bad Gateway for url: https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/2d/utils.py"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/README.md",
+          "path": "data/intervention_sources/rnagym/3d/README.md",
+          "sha256": "318caaa113635e8e24e4d5df2a8bfaebd00f94217127d89bc343bb1af2887939",
+          "bytes": 6394
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/__init__.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/__init__.py",
+          "sha256": "3aed65eb50f5dd8cf2f3d4ad2b6fd52b96bc3efc5d46296db5c41ee18bb8d6a7",
+          "bytes": 285
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/analyze.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/analyze.py",
+          "sha256": "2cbf242291cd00b47f29b0746ae41242a99b1c1bd1b5fcdb0344bd976fdcce6c",
+          "bytes": 421
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/annotate.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/annotate.py",
+          "sha256": "920e3a82ebe0ca1cbbfb9bf1700a6df0fc9d73361e9abc646b707cbd50d8e9f9",
+          "bytes": 3234
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/evcouplings.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/evcouplings.py",
+          "sha256": "1a74c88800fc02397587467151dfd26c8c3497206190b8d0eb4859f9b2b7950b",
+          "bytes": 1782
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/export.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/export.py",
+          "sha256": "132b2d79b845df7dc0085cb6feba39e2c7ff9c363712de846e011b4e6a85d48e",
+          "bytes": 4971
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/merge.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/merge.py",
+          "sha256": "8d0276ad1ff6c6153d00b67f5a764e5ba5afcfdd88478fd268794cb81af40306",
+          "bytes": 3415
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/cmd/split.py",
+          "path": "data/intervention_sources/rnagym/3d/cmd/split.py",
+          "sha256": "5c5530516b43c044e896c28c9bf6b37016b12ab8307e063a0d62dfc631753e24",
+          "bytes": 9507
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/complex.csv",
+          "path": "data/intervention_sources/rnagym/3d/complex.csv",
+          "sha256": "7d5ff8ace708f545a30beae1da4af78418bb40270e2fdf556c9cdc05b6a50fe9",
+          "bytes": 144425
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2020_rna/PDB/pdb_ids.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2020_rna/PDB/pdb_ids.csv",
+          "sha256": "34137836404b1ad44822847ffda923c2a2bccb901b4e61606e919afc88aaff19",
+          "bytes": 352
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2020_rna/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2020_rna/README.md",
+          "sha256": "0c8bcdd1e0d3e454897a1f669553007ff07b93c1b79beff3bc28cf9b4accb037",
+          "bytes": 464
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2024_3d_bench/Dataset3/Dataset3.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2024_3d_bench/Dataset3/Dataset3.csv",
+          "sha256": "85bee0701a7eeaf04889ec68618b42793aa2589e74b5a7a492bc4807180617a4",
+          "bytes": 1394
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2024_3d_bench/Dataset3/Dataset3_new.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2024_3d_bench/Dataset3/Dataset3_new.csv",
+          "sha256": "8391d07fc126c46f65413fb7f07bbd400a067fa0d8b58d709c26ed28cc4d2b69",
+          "bytes": 624
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2024_3d_bench/Dataset4/Dataset4.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2024_3d_bench/Dataset4/Dataset4.csv",
+          "sha256": "4d3b4ea24ce5133b58f9f7a05122018ff465b1194a5ef727137ef13759fbbb46",
+          "bytes": 1027
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/2024_3d_bench/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/2024_3d_bench/README.md",
+          "sha256": "f5ae24f37e20592450c1294cbc9684c01e950b12ce4b4e49981d6c3ccd98ecb6",
+          "bytes": 655
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/casp15/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/casp15/README.md",
+          "sha256": "7f0d8b5eb6884ec2e7bf603aa2731ee2eee921759dd931d4894815a235215486",
+          "bytes": 300
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/casp15/rna_targetlist.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/casp15/rna_targetlist.csv",
+          "sha256": "19dfa80eb4d1860343c2c5279b240a7fd77baf4904236d6afe9d11351a64c907",
+          "bytes": 770
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/casp15/targetlist.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/casp15/targetlist.csv",
+          "sha256": "9e4cf6e53550b96ad8c455762f49648fc20f7dc473b4fa96808f744369b4af83",
+          "bytes": 12530
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna3db/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna3db/README.md",
+          "sha256": "c1c897c549f23720420da4afb7ad3715d3d8848a977b3ec9c52e3303a6041a28",
+          "bytes": 1836
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna3dhub/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna3dhub/README.md",
+          "sha256": "0ee836a22affddcb75ec217e54d1b558fc2c06ab535558cba5bc4002698df1b1",
+          "bytes": 806
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna3dhub/nrlist_3.365_4.0A.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna3dhub/nrlist_3.365_4.0A.csv",
+          "sha256": "107f5cf254671ae73881ceb0536630d9aebec82ca471667f74592dc7234eec83",
+          "bytes": 281338
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna3dhub/nrlist_3.365_all.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna3dhub/nrlist_3.365_all.csv",
+          "sha256": "104984f0cc96c2f5dadc3dc45f5fcc3e6b237cf36906fce43fc91fceaf09ff77",
+          "bytes": 348496
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna_puzzles/README.md",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna_puzzles/README.md",
+          "sha256": "44fb3ef1748f4092b62e2d047cbce9ec974a01274ad36c17a0df098432fbd5fc",
+          "bytes": 642
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/datasets/rna_puzzles/rna_puzzles.csv",
+          "path": "data/intervention_sources/rnagym/3d/datasets/rna_puzzles/rna_puzzles.csv",
+          "sha256": "b101556da3c17e97dfc01465c0f2639d91821d2f0209c7adc9a51f306e540035",
+          "bytes": 399
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/gym.py",
+          "path": "data/intervention_sources/rnagym/3d/gym.py",
+          "sha256": "f73aca728a91d8517c765a5731517be4874ab1a12833c05bfbcb9ec6e62eaf57",
+          "bytes": 1999
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/jobs/predict.py",
+          "path": "data/intervention_sources/rnagym/3d/jobs/predict.py",
+          "sha256": "29bd0ee5feb31111ab9e5912dc5455c9c535e4443e7fd50d35fd949308582913",
+          "bytes": 4121
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/jobs/rmsa.py",
+          "path": "data/intervention_sources/rnagym/3d/jobs/rmsa.py",
+          "sha256": "b7ae9efd46d2158b9a69a6255932aa31bc24f61490ce3b14a432650912bbb95c",
+          "bytes": 1675
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/jobs/tm_train.py",
+          "path": "data/intervention_sources/rnagym/3d/jobs/tm_train.py",
+          "sha256": "05a03817749ade3587c6a447c7b8bebb9da4c1803b04cdc37018ae02cb96df0d",
+          "bytes": 2157
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/monomer.csv",
+          "path": "data/intervention_sources/rnagym/3d/monomer.csv",
+          "sha256": "8392bfcc7d85a49cd5b53dea9cd2d768b8a083be341ee997cf8b6bc9910c69d9",
+          "bytes": 86302
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/scripts/dataset_stats.py",
+          "path": "data/intervention_sources/rnagym/3d/scripts/dataset_stats.py",
+          "sha256": "7c3fce34b905d9c569995a756bb1cc42c9831c366ecab85d655aa06cffab08eb",
+          "bytes": 1396
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/__init__.py",
+          "path": "data/intervention_sources/rnagym/3d/util/__init__.py",
+          "sha256": "737b795ab98645b271fe1e4aa8e70281e3df06bf0a88aced819b3285b8348dcc",
+          "bytes": 1217
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/analysis.py",
+          "path": "data/intervention_sources/rnagym/3d/util/analysis.py",
+          "sha256": "0e863e68e1324ea78bf190a761feb686ee005aef78f8b5abe5ddcb179e909da9",
+          "bytes": 67186
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/ba_conv.py",
+          "path": "data/intervention_sources/rnagym/3d/util/ba_conv.py",
+          "sha256": "6574208531d44dc7f78a69a1472ca65c72aa49f3cb6f364d05d1fe78b2835f2a",
+          "bytes": 587
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/config.py",
+          "path": "data/intervention_sources/rnagym/3d/util/config.py",
+          "sha256": "090cf3413ab64685b64b830b0cf26fbaf7da42185da30ecf37a0ce6235127ede",
+          "bytes": 10692
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/fr3d.py",
+          "path": "data/intervention_sources/rnagym/3d/util/fr3d.py",
+          "sha256": "969df4eb7dd4f213290cb4ee79ee82f22001359fc177925990d76834446cb107",
+          "bytes": 3616
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/residues.py",
+          "path": "data/intervention_sources/rnagym/3d/util/residues.py",
+          "sha256": "8b7aa672272dc6cdb5655aa3d467eb64e7f9305d6c80700c0ab363e72f8a77db",
+          "bytes": 50050
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/sequence.py",
+          "path": "data/intervention_sources/rnagym/3d/util/sequence.py",
+          "sha256": "933fbf4d37b6837afb8abbe6933343e9ddfc24dfb3279b5d1656dc9475ec65a7",
+          "bytes": 8225
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/structure.py",
+          "path": "data/intervention_sources/rnagym/3d/util/structure.py",
+          "sha256": "c12f27f2557e5a6b1b3477799cec6d483e0fd5ca2b27852f4993a2c8e689914c",
+          "bytes": 43240
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/3d/util/types.py",
+          "path": "data/intervention_sources/rnagym/3d/util/types.py",
+          "sha256": "dd3e8e04f1bb65097f3575562667cd31b13babb559b7b7e17da0415d65be256e",
+          "bytes": 789
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/LICENSE",
+          "path": "data/intervention_sources/rnagym/LICENSE",
+          "sha256": "343d286cf6e50f4737a328eb17093142bed1c09050ea55c4f189ac90f011fb77",
+          "bytes": 1068
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/README.md",
+          "path": "data/intervention_sources/rnagym/README.md",
+          "sha256": "2fb1e46b3144e0647ca599a9051f1763a2db69a8179421afda4a0b695e74405b",
+          "bytes": 10306
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/__init__.py",
+          "path": "data/intervention_sources/rnagym/fitness/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/Evo/score_evo_single_dms.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/Evo/score_evo_single_dms.py",
+          "sha256": "546ffb73029d0df0d9e296c322e1a0a9cbee8dee1df85e2d1a291cc150b0014b",
+          "bytes": 8025
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/GenSLM/compute_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/GenSLM/compute_fitness.py",
+          "sha256": "63d81ae7025a4c78d1efa966171c723816283dbddb344fe89df7b9008505dd36",
+          "bytes": 5485
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/Nucleotide_Transformer/compute_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/Nucleotide_Transformer/compute_fitness.py",
+          "sha256": "8e5d530a91fff911fd6a20a19aedc5decaca627c5b42e970e492b2f4a779e81b",
+          "bytes": 6308
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/compute_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/compute_fitness.py",
+          "sha256": "3b9c82055b9f2e2e24b9f013072797f91640cb456ec9efb28a77f99c14b53b0f",
+          "bytes": 4051
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/src/arg_utils.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/src/arg_utils.py",
+          "sha256": "50535e5de6858cf7c6499e8ce6fce650df940afc95ada3e12e8cf120b2a74b2a",
+          "bytes": 2641
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/src/base_classes.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/src/base_classes.py",
+          "sha256": "604a97be46ba216a2e6b4cce471f3ec9745370ddf985803e8789cfed10696f91",
+          "bytes": 17632
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/src/dataset_utils.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/src/dataset_utils.py",
+          "sha256": "1b0264b0d9c992045be7449d4e7da6eb92ec5bed5741b2962d400a2d0cac2e83",
+          "bytes": 684
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/src/rna_ernie.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/src/rna_ernie.py",
+          "sha256": "ece707e0581b364db2a896bd85ef24ceb4ad73f8264cc6ead2f5c7c2c9d26998",
+          "bytes": 3822
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNAERNIE/src/tokenizer_nuc.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNAERNIE/src/tokenizer_nuc.py",
+          "sha256": "e95d30e31faad1517b9cf575e548da71cca8151abce58a04bc984aedfcf058c0",
+          "bytes": 13852
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RNA_FM/compute_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RNA_FM/compute_fitness.py",
+          "sha256": "6da6471a50da52a68e2090d822e3332938de7ffdf28dd06261d2f7636f751349",
+          "bytes": 14858
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/baselines/RiNALMo/compute_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/baselines/RiNALMo/compute_fitness.py",
+          "sha256": "2a07380ef8520a4e16ea5e91d1a0e87d804c618734d2d80f0a235c88d918cf89",
+          "bytes": 5256
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/merge_scoring_files.py",
+          "path": "data/intervention_sources/rnagym/fitness/merge_scoring_files.py",
+          "sha256": "089ce9159c37df515a6d70a401ca7d9911bf6503676cfb0d3525077c837075a2",
+          "bytes": 5137
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/performance_fitness.py",
+          "path": "data/intervention_sources/rnagym/fitness/performance_fitness.py",
+          "sha256": "073c876a977d2be942d8955f4748af2006a024262cde58e7ec4d4f260ad46aaf",
+          "bytes": 23846
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/reference_sheet_final.csv",
+          "path": "data/intervention_sources/rnagym/fitness/reference_sheet_final.csv",
+          "sha256": "87584bb37fd104273c070af112b2e36dcdeddafc3c1abeced20c224094c5ad68",
+          "bytes": 60608
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/utils/convert_table.py",
+          "path": "data/intervention_sources/rnagym/fitness/utils/convert_table.py",
+          "sha256": "7924df6132cfd59610d3176e131a1685f4f91e4056876002854ed5a90fe60780",
+          "bytes": 12386
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/fitness/utils/cv_split.py",
+          "path": "data/intervention_sources/rnagym/fitness/utils/cv_split.py",
+          "sha256": "af65ebfad2a18c81dedd43af9e6c29aea582775c97233ea9d55e2d47f46b2419",
+          "bytes": 4118
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/leaderboard/fitness/README.md",
+          "path": "data/intervention_sources/rnagym/leaderboard/fitness/README.md",
+          "sha256": "c947a7a45a53cc4106323a3bcae1bb3fa84276bc07df89493cb501735711b891",
+          "bytes": 5408
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/leaderboard/fitness/aido_rna_scaling.csv",
+          "path": "data/intervention_sources/rnagym/leaderboard/fitness/aido_rna_scaling.csv",
+          "sha256": "c5b2e3f573a10036c2fb35118be363e5433af0150d00e8447ef534b2d36a7949",
+          "bytes": 532
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/leaderboard/fitness/leaderboard_signed_3ncRNA.csv",
+          "path": "data/intervention_sources/rnagym/leaderboard/fitness/leaderboard_signed_3ncRNA.csv",
+          "sha256": "b72459e550a4daac53459b002b7f38246185dc50647656c104a56a98882f3a99",
+          "bytes": 1085
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MarksLab-DasLab/RNAGym/2828cf99316d75daaa8d832a2573cbb25bbd35fe/rnagym_env.yml",
+          "path": "data/intervention_sources/rnagym/rnagym_env.yml",
+          "sha256": "0c16e6501dfa1b535aae100af684cedd3a0189055689200edd2c65a6523ce05f",
+          "bytes": 449
+        }
+      ],
+      "checkpoint_loaded": false
+    }
+  },
+  "training_steps": 0,
+  "resources": {
+    "wall_s": 27.643582553835586,
+    "process_cpu_s": 1.277851,
+    "waited_child_cpu_s": 0.0,
+    "cpu_core_hours": 0.00035495861111111115,
+    "gpu_hours": 0,
+    "peak_rss_kib": 107556,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "historical_remaining_allowance": null,
+    "scope": "instrumented region; excludes earlier tool/editor work and imports before snapshot"
+  }
+}

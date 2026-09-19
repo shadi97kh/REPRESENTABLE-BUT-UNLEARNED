@@ -1,0 +1,21 @@
+{
+  "code_results.zip": {
+    "members": 401,
+    "bad_crc_member": null
+  },
+  "manuscript_source.zip": {
+    "members": 53,
+    "bad_crc_member": null
+  },
+  "workflow_handoff.zip": {
+    "members": 4,
+    "bad_crc_member": null
+  },
+  "source_zip_build": {
+    "exit_code": 0,
+    "main_text_end_page": 9,
+    "build_directory": "/tmp/sirna_source_build_uugotlen/manuscript",
+    "wall_scope_note": "Includes ZIP CRC verification, extraction and independent source compilation."
+  },
+  "verification_wall_s": 4.445215518120676
+}

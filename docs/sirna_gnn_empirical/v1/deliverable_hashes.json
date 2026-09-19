@@ -1,0 +1,22 @@
+{
+  "papers/interaction_recoverability_iclr2027/v2/main.pdf": {
+    "sha256": "4ea2100c58d2d27447d40462bcb26c13661ac5735cad4593b43d411069f8894f",
+    "bytes": 524342
+  },
+  "papers/interaction_recoverability_iclr2027/v2/manuscript_source.zip": {
+    "sha256": "30d91673e94fa48687688f43bcab474f605af767b47324c0c7b6709f317340bd",
+    "bytes": 413899
+  },
+  "papers/interaction_recoverability_iclr2027/v2/workflow_handoff.zip": {
+    "sha256": "eb5b322c21fb4fce714746989819fc61f069c635cc3aa2b100aaa2f35752fc9b",
+    "bytes": 14557
+  },
+  "papers/interaction_recoverability_iclr2027/v2/completed_audits.zip": {
+    "sha256": "39ffd871e48ac2adf15a26fc5ebc653c3c2745a9eff9cd681564d68abc6e12cc",
+    "bytes": 40053
+  },
+  "runs/sirna_gnn_empirical/v1-20260913T185027Z/paper_artifacts/code_results.zip": {
+    "sha256": "7425bcfc83fc7aaebd307bcad7e055c3526f926e4897a92bac9040284c8c0f11",
+    "bytes": 151228903
+  }
+}
