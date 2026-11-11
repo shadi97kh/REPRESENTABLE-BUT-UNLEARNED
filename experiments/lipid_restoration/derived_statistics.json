@@ -1,0 +1,64 @@
+{
+ "seeds20": {
+  "seeds": 20,
+  "capped_fits": 0,
+  "max_iter": 3000,
+  "folds": 5,
+  "q": 800,
+  "mean_heldout_contrast_mse_radius2": 12.304492894122442,
+  "mean_heldout_contrast_mse_radius8": 11.768034447122893,
+  "paired_mean_radius2_minus_radius8": 0.5364584469995495,
+  "bootstrap_ci_95": [
+   0.050278642503288944,
+   1.0593402431113497
+  ],
+  "seeds_favouring_radius8": 13,
+  "sign_test_two_sided_p": 0.26317596435546875,
+  "trimmed_mean_drop_two_largest_abs": 0.4708454373193382,
+  "zero_interaction_baseline": 12.42532432505925,
+  "share_of_energy_recovered_radius2": 0.009724609819086764,
+  "share_of_energy_recovered_radius8": 0.05289921298961527,
+  "seeds_worse_than_predicting_zero_radius2": 9,
+  "seeds_worse_than_predicting_zero_radius8": 6,
+  "gap_over_radius2_floor": 1.7030247675095491,
+  "floor_radius2": 0.3150033148279163,
+  "floor_radius8": 1.123085042901505e-29,
+  "rank_CH_radius2": 740,
+  "classes_radius2": 920
+ },
+ "seeds40": {
+  "seeds": 40,
+  "capped_fits": 0,
+  "max_iter": 3000,
+  "folds": 5,
+  "q": 800,
+  "mean_heldout_contrast_mse_radius2": 12.207817781382138,
+  "mean_heldout_contrast_mse_radius8": 11.54947621471938,
+  "paired_mean_radius2_minus_radius8": 0.6583415666627592,
+  "bootstrap_ci_95": [
+   0.32673549151651426,
+   0.9971144512274831
+  ],
+  "seeds_favouring_radius8": 28,
+  "sign_test_two_sided_p": 0.01658900337497471,
+  "trimmed_mean_drop_two_largest_abs": 0.6336766210070386,
+  "zero_interaction_baseline": 12.42532432505925,
+  "share_of_energy_recovered_radius2": 0.01750509990620106,
+  "share_of_energy_recovered_radius8": 0.07048895364231819,
+  "seeds_worse_than_predicting_zero_radius2": 16,
+  "seeds_worse_than_predicting_zero_radius8": 11,
+  "gap_over_radius2_floor": 2.089951234393853,
+  "floor_radius2": 0.3150033148279163,
+  "floor_radius8": 1.123085042901505e-29,
+  "rank_CH_radius2": 740,
+  "classes_radius2": 920
+ },
+ "definitions": {
+  "contrast_mse": "q^-1 ||I - C p||^2 over the q=800 anchored tail-by-tail rectangles, p the held-out prediction vector",
+  "paired_difference": "radius-2 contrast MSE minus radius-8 contrast MSE, per seed; positive means the lossless encoder had the lower error",
+  "zero_interaction_baseline": "q^-1 ||I||^2, the contrast MSE of predicting no interaction",
+  "bootstrap_ci_95": "as written by lipid_restoration.py: 20,000 resamples of the per-seed differences at its own fixed seed, a percentile interval on the mean",
+  "sign_test": "exact two-sided binomial test on the per-seed sign, not a test on the mean",
+  "derived_from": "the per-seed arrays in the two results files in this directory"
+ }
+}

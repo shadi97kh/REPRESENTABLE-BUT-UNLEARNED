@@ -1,0 +1,59 @@
+panel lantern_from_package.csv : states=1100  A=20 C=5 B=11  q=800
+radius 2 : classes=920  rank(CH)=740  floor=0.3150033148  (2.5352% of energy)
+radius 8 : classes=1100  rank(CH)=800  floor=0.0000000000
+recorded contrast energy = 12.425324
+self-check OK: reproduces the published diagnostic exactly
+
+=== ridge reference (checks whether the fitted contrast vector is ~0) ===
+  radius 2 in-sample contrast MSE 12.425324   (= energy 12.425324 means zero fitted contrasts)
+  radius 8 in-sample contrast MSE 12.425324   (= energy 12.425324 means zero fitted contrasts)
+
+=== held-out MLP, 5-fold grouped by head group, 40 paired seeds ===
+  seed   0 : radius2 14.183454   radius8 12.211745   diff +1.971710
+  seed   1 : radius2 11.394145   radius8 11.321438   diff +0.072708
+  seed   2 : radius2 11.966653   radius8 11.427720   diff +0.538934
+  seed   3 : radius2 12.629877   radius8 13.979173   diff -1.349295
+  seed   4 : radius2 12.858626   radius8 11.884464   diff +0.974162
+  seed   5 : radius2 11.873718   radius8 12.331411   diff -0.457693
+  seed   6 : radius2 10.525449   radius8 9.736922   diff +0.788526
+  seed   7 : radius2 11.387555   radius8 11.610132   diff -0.222577
+  seed   8 : radius2 11.483749   radius8 11.548574   diff -0.064825
+  seed   9 : radius2 12.165794   radius8 10.822938   diff +1.342857
+  seed  10 : radius2 13.390557   radius8 11.450935   diff +1.939622
+  seed  11 : radius2 11.395571   radius8 10.441354   diff +0.954217
+  seed  12 : radius2 13.747654   radius8 13.080427   diff +0.667227
+  seed  13 : radius2 11.615415   radius8 10.263344   diff +1.352071
+  seed  14 : radius2 13.185819   radius8 12.617439   diff +0.568380
+  seed  15 : radius2 13.565613   radius8 9.962367   diff +3.603246
+  seed  16 : radius2 12.601808   radius8 13.646787   diff -1.044980
+  seed  17 : radius2 12.917350   radius8 13.552743   diff -0.635393
+  seed  18 : radius2 11.683539   radius8 12.525238   diff -0.841699
+  seed  19 : radius2 11.517511   radius8 10.945540   diff +0.571971
+  seed  20 : radius2 12.701988   radius8 10.889596   diff +1.812391
+  seed  21 : radius2 11.410380   radius8 9.798548   diff +1.611832
+  seed  22 : radius2 11.452888   radius8 11.617859   diff -0.164970
+  seed  23 : radius2 11.321860   radius8 9.548060   diff +1.773800
+  seed  24 : radius2 11.061615   radius8 9.676621   diff +1.384994
+  seed  25 : radius2 12.923169   radius8 12.494052   diff +0.429117
+  seed  26 : radius2 11.466536   radius8 10.678266   diff +0.788270
+  seed  27 : radius2 10.737832   radius8 11.035989   diff -0.298156
+  seed  28 : radius2 11.720084   radius8 10.341919   diff +1.378164
+  seed  29 : radius2 13.112117   radius8 11.324415   diff +1.787702
+  seed  30 : radius2 11.544654   radius8 11.950642   diff -0.405988
+  seed  31 : radius2 12.663775   radius8 11.880995   diff +0.782780
+  seed  32 : radius2 13.424541   radius8 13.215378   diff +0.209163
+  seed  33 : radius2 11.701345   radius8 12.928488   diff -1.227143
+  seed  34 : radius2 12.450859   radius8 10.507526   diff +1.943333
+  seed  35 : radius2 12.194645   radius8 13.479201   diff -1.284556
+  seed  36 : radius2 14.435188   radius8 12.963118   diff +1.472069
+  seed  37 : radius2 12.220619   radius8 11.763374   diff +0.457245
+  seed  38 : radius2 11.675485   radius8 10.089127   diff +1.586359
+  seed  39 : radius2 12.003272   radius8 10.435185   diff +1.568087
+
+  radius2 mean 12.207818   radius8 mean 11.549476
+  paired diff (radius2 - radius8): mean +0.658342  min -1.349295  max +3.603246
+  radius8 better in 28 of 40 seeds
+  bootstrap 95% CI on mean diff: [+0.326735, +0.997114]  excludes zero
+  fits that hit the iteration cap: 0 of 400  (all converged)
+
+wrote lipid_restoration_results_40.json
